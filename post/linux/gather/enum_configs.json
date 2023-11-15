@@ -1,0 +1,19 @@
+{
+  "name": "Linux Gather Configurations",
+  "fullname": "post/linux/gather/enum_configs",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "ohdae <bindshell@live.com>"
+  ],
+  "description": "This module collects configuration files found on commonly installed\n          applications and services, such as Apache, MySQL, Samba, Sendmail, etc.\n          If a config file is found in its default path, the module will assume\n          that is the file we want.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/enum_configs.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/enum_configs",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

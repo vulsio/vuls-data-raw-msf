@@ -1,0 +1,24 @@
+{
+  "name": "Amazon Web Services EC2 instance enumeration",
+  "fullname": "auxiliary/cloud/aws/enum_ec2",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Aaron Soto <aaron.soto@rapid7.com>",
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Provided AWS credentials, this module will call the authenticated\n          API of Amazon Web Services to list all EC2 instances associated\n          with the account",
+  "mod_time": "2023-06-26 16:57:08 +0000",
+  "path": "/modules/auxiliary/cloud/aws/enum_ec2.rb",
+  "is_install_path": true,
+  "ref_name": "cloud/aws/enum_ec2",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

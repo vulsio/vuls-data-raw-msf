@@ -1,0 +1,25 @@
+{
+  "name": "Windows Gather Enumerate Domain",
+  "fullname": "post/windows/gather/enum_domain",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Joshua Abraham <jabra@rapid7.com>"
+  ],
+  "description": "This module identifies the primary Active Directory domain name\n          and domain controller.",
+  "platform": "Windows",
+  "mod_time": "2022-09-08 13:35:22 +0000",
+  "path": "/modules/post/windows/gather/enum_domain.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_domain",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell",
+    "powershell"
+  ]
+}

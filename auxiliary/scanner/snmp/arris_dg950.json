@@ -1,0 +1,20 @@
+{
+  "name": "Arris DG950A Cable Modem Wifi Enumeration",
+  "fullname": "auxiliary/scanner/snmp/arris_dg950",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Deral \"Percent_X\" Heiland"
+  ],
+  "description": "This module will extract WEP keys and WPA preshared keys from\n        Arris DG950A cable modems.",
+  "references": [
+    "CVE-2014-4863",
+    "URL-https://www.rapid7.com/blog/post/2014/08/21/more-snmp-information-leaks-cve-2014-4862-and-cve-2014-4863/"
+  ],
+  "rport": 161,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/arris_dg950.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/arris_dg950",
+  "needs_cleanup": false
+}

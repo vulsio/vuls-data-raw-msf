@@ -1,0 +1,38 @@
+{
+  "name": "HP Intelligent Management SOM FileDownloadServlet Arbitrary Download",
+  "fullname": "auxiliary/scanner/http/hp_imc_som_file_download",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "rgod <rgod@autistici.org>",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits a lack of authentication and access control in HP Intelligent\n        Management, specifically in the FileDownloadServlet from the SOM component, in order to\n        retrieve arbitrary files with SYSTEM privileges. This module has been tested successfully\n        on HP Intelligent Management Center 5.2_E0401 with SOM 5.2 E0401 over Windows 2003 SP2.",
+  "references": [
+    "CVE-2013-4826",
+    "OSVDB-98251",
+    "BID-62898",
+    "ZDI-13-242"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/http/hp_imc_som_file_download.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/hp_imc_som_file_download",
+  "needs_cleanup": false
+}

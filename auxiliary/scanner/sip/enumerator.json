@@ -1,0 +1,16 @@
+{
+  "name": "SIP Username Enumerator (UDP)",
+  "fullname": "auxiliary/scanner/sip/enumerator",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "Scan for numeric username/extensions using OPTIONS/REGISTER requests",
+  "rport": 5060,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/sip/enumerator.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sip/enumerator",
+  "needs_cleanup": false
+}

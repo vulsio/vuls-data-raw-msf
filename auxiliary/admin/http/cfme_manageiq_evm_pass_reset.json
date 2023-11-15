@@ -1,0 +1,38 @@
+{
+  "name": "Red Hat CloudForms Management Engine 5.1 miq_policy/explorer SQL Injection",
+  "fullname": "auxiliary/admin/http/cfme_manageiq_evm_pass_reset",
+  "rank": 300,
+  "disclosure_date": "2013-11-12",
+  "type": "auxiliary",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>"
+  ],
+  "description": "This module exploits a SQL injection vulnerability in the \"explorer\"\n        action of \"miq_policy\" controller of the Red Hat CloudForms Management\n        Engine 5.1 (ManageIQ Enterprise Virtualization Manager 5.0 and earlier) by\n        changing the password of the target account to the specified password.",
+  "references": [
+    "CVE-2013-2050",
+    "CWE-89",
+    "URL-https://bugzilla.redhat.com/show_bug.cgi?id=959062"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/cfme_manageiq_evm_pass_reset.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/cfme_manageiq_evm_pass_reset",
+  "post_auth": true,
+  "needs_cleanup": false
+}

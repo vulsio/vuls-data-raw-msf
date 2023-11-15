@@ -1,0 +1,34 @@
+{
+  "name": "Chromecast YouTube Remote Control",
+  "fullname": "auxiliary/admin/chromecast/chromecast_youtube",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module acts as a simple remote control for Chromecast YouTube.\n\n        Only the deprecated DIAL protocol is supported by this module.\n        Casting via the newer CASTV2 protocol is unsupported at this time.",
+  "references": [
+    "URL-http://www.google.com/intl/en/chrome/devices/chromecast/index.html"
+  ],
+  "rport": 8008,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-05-29 12:19:52 +0000",
+  "path": "/modules/auxiliary/admin/chromecast/chromecast_youtube.rb",
+  "is_install_path": true,
+  "ref_name": "admin/chromecast/chromecast_youtube",
+  "needs_cleanup": false
+}

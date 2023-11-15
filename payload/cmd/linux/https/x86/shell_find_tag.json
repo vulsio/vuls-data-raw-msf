@@ -1,0 +1,19 @@
+{
+  "name": "HTTPS Fetch, Linux Command Shell, Find Tag Inline",
+  "fullname": "payload/cmd/linux/https/x86/shell_find_tag",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Fetch and execute an x86 payload from an HTTPS server.\nSpawn a shell on an established connection (proxy/nat safe)",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/https/x86/shell_find_tag",
+  "needs_cleanup": false
+}

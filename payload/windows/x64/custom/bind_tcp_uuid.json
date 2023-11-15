@@ -1,0 +1,19 @@
+{
+  "name": "Windows shellcode stage, Bind TCP Stager with UUID Support (Windows x64)",
+  "fullname": "payload/windows/x64/custom/bind_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "bwatters-r7",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "OJ Reeves"
+  ],
+  "description": "Custom shellcode stage.\n\nListen for a connection with UUID Support (Windows x64)",
+  "platform": "Windows",
+  "arch": "x64",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/x64/bind_tcp_uuid.rb",
+  "is_install_path": true,
+  "ref_name": "windows/x64/custom/bind_tcp_uuid",
+  "needs_cleanup": false
+}

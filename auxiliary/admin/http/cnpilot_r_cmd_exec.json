@@ -1,0 +1,36 @@
+{
+  "name": "Cambium cnPilot r200/r201 Command Execution as 'root'",
+  "fullname": "auxiliary/admin/http/cnpilot_r_cmd_exec",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Karn Ganeshen <KarnGaneshen@gmail.com>"
+  ],
+  "description": "Cambium cnPilot r200/r201 device software versions 4.2.3-R4 to\n          4.3.3-R4, contain an undocumented, backdoor 'root' shell. This shell is\n          accessible via a specific url, to any authenticated user. The module uses this\n          shell to execute arbitrary system commands as 'root'.",
+  "references": [
+    "CVE-2017-5259",
+    "URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/cnpilot_r_cmd_exec.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/cnpilot_r_cmd_exec",
+  "post_auth": true,
+  "needs_cleanup": false
+}

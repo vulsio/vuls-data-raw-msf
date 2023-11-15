@@ -1,0 +1,20 @@
+{
+  "name": "HTTP Fetch, Reverse TCP Stager",
+  "fullname": "payload/cmd/linux/http/x86/meterpreter/reverse_nonx_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "William Webb <william_webb@rapid7.com>",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Fetch and execute a x86 payload from an HTTP server.\nConnect back to the attacker",
+  "platform": "Linux,Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/http/x86/meterpreter/reverse_nonx_tcp",
+  "needs_cleanup": false
+}

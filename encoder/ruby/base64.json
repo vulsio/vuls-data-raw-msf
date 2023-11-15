@@ -1,0 +1,17 @@
+{
+  "name": "Ruby Base64 Encoder",
+  "fullname": "encoder/ruby/base64",
+  "rank": 500,
+  "type": "encoder",
+  "author": [
+    "Robin Stenvi <robin.stenvi@gmail.com>"
+  ],
+  "description": "This encoder returns a base64 string encapsulated in\n        eval(%(base64 encoded string).unpack(%(m0)).first).",
+  "platform": "All",
+  "arch": "ruby",
+  "mod_time": "2018-04-24 18:33:27 +0000",
+  "path": "/modules/encoders/ruby/base64.rb",
+  "is_install_path": true,
+  "ref_name": "ruby/base64",
+  "needs_cleanup": false
+}

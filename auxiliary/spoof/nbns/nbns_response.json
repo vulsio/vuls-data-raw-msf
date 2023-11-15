@@ -1,0 +1,18 @@
+{
+  "name": "NetBIOS Name Service Spoofer",
+  "fullname": "auxiliary/spoof/nbns/nbns_response",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Tim Medin <tim@securitywhole.com>"
+  ],
+  "description": "This module forges NetBIOS Name Service (NBNS) responses. It will listen for NBNS requests\n          sent to the local subnet's broadcast address and spoof a response, redirecting the querying\n          machine to an IP of the attacker's choosing. Combined with auxiliary/server/capture/smb or\n          auxiliary/server/capture/http_ntlm it is a highly effective means of collecting crackable hashes on\n          common networks.\n\n          This module must be run as root and will bind to udp/137 on all interfaces.",
+  "references": [
+    "URL-http://www.packetstan.com/2011/03/nbns-spoofing-on-your-way-to-world.html"
+  ],
+  "mod_time": "2022-03-09 13:47:14 +0000",
+  "path": "/modules/auxiliary/spoof/nbns/nbns_response.rb",
+  "is_install_path": true,
+  "ref_name": "spoof/nbns/nbns_response",
+  "needs_cleanup": false
+}

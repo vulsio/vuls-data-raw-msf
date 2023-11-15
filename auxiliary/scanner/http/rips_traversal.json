@@ -1,0 +1,36 @@
+{
+  "name": "RIPS Scanner Directory Traversal",
+  "fullname": "auxiliary/scanner/http/rips_traversal",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "localh0t",
+    "Roberto Soares Espreto <robertoespreto@gmail.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability in the RIPS Scanner v0.54,\n        allowing to read arbitrary files with the web server privileges.",
+  "references": [
+    "EDB-18660",
+    "URL-http://codesec.blogspot.com/2015/03/rips-scanner-v-054-local-file-include.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/rips_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/rips_traversal",
+  "needs_cleanup": false
+}

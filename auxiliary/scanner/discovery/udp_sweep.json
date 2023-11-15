@@ -1,0 +1,15 @@
+{
+  "name": "UDP Service Sweeper",
+  "fullname": "auxiliary/scanner/discovery/udp_sweep",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Detect interesting UDP services",
+  "mod_time": "2019-10-03 12:38:36 +0000",
+  "path": "/modules/auxiliary/scanner/discovery/udp_sweep.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/discovery/udp_sweep",
+  "needs_cleanup": false
+}

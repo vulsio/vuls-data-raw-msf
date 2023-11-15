@@ -1,0 +1,24 @@
+{
+  "name": "Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference",
+  "fullname": "auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Laurent Gaffie <laurent.gaffie@gmail.com>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module exploits an out of bounds function table dereference in the SMB\n      request validation code of the SRV2.SYS driver included with Windows Vista, Windows 7\n      release candidates (not RTM), and Windows 2008 Server prior to R2.  Windows\tVista\n      without SP1 does not seem affected by this flaw.",
+  "references": [
+    "CVE-2009-3103",
+    "BID-36299",
+    "OSVDB-57799",
+    "MSB-MS09-050",
+    "URL-https://seclists.org/fulldisclosure/2009/Sep/39"
+  ],
+  "rport": 445,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/smb/ms09_050_smb2_negotiate_pidhigh",
+  "needs_cleanup": false
+}

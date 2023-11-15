@@ -1,0 +1,36 @@
+{
+  "name": "Multiple DVR Manufacturers Configuration Disclosure",
+  "fullname": "auxiliary/scanner/misc/dvr_config_disclosure",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Alejandro Ramos",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module takes advantage of an authentication bypass vulnerability at the\n        web interface of multiple manufacturers DVR systems, which allows to retrieve the\n        device configuration.",
+  "references": [
+    "CVE-2013-1391",
+    "URL-http://www.securitybydefault.com/2013/01/12000-grabadores-de-video-expuestos-en.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/misc/dvr_config_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/misc/dvr_config_disclosure",
+  "needs_cleanup": false
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Easy File Sharing FTP Server 3.6 Directory Traversal",
+  "fullname": "auxiliary/scanner/ftp/easy_file_sharing_ftp",
+  "rank": 300,
+  "disclosure_date": "2017-03-07",
+  "type": "auxiliary",
+  "author": [
+    "Ahmed Elhady Mohamed"
+  ],
+  "description": "This module exploits a directory traversal vulnerability found in Easy File Sharing FTP Server Version 3.6 and Earlier.\n        This vulnerability allows an attacker to download arbitrary files from the server by crafting\n        a RETR command that includes file system traversal strings such as '../'",
+  "references": [
+    "CVE-2017-6510"
+  ],
+  "platform": "Windows",
+  "rport": 21,
+  "autofilter_ports": [
+    21,
+    2121
+  ],
+  "autofilter_services": [
+    "ftp"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/ftp/easy_file_sharing_ftp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ftp/easy_file_sharing_ftp",
+  "check": true,
+  "needs_cleanup": false
+}

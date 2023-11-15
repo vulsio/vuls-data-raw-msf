@@ -1,0 +1,19 @@
+{
+  "name": "OSX Meterpreter, Reverse HTTP Inline",
+  "fullname": "payload/osx/x64/meterpreter_reverse_http",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Adam Cammack <adam_cammack@rapid7.com>",
+    "Brent Cook <brent_cook@rapid7.com>",
+    "timwr"
+  ],
+  "description": "Run the Meterpreter / Mettle server payload (stageless)",
+  "platform": "OSX",
+  "arch": "x64",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/osx/x64/meterpreter_reverse_http.rb",
+  "is_install_path": true,
+  "ref_name": "osx/x64/meterpreter_reverse_http",
+  "needs_cleanup": false
+}

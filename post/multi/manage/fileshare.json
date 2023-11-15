@@ -1,0 +1,25 @@
+{
+  "name": "Browse the session filesystem in a Web Browser",
+  "fullname": "post/multi/manage/fileshare",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "timwr"
+  ],
+  "description": "This module allows you to browse the session filesystem via a local\n          browser window.",
+  "platform": "Linux,OSX,Windows",
+  "mod_time": "2021-10-25 17:19:45 +0000",
+  "path": "/modules/post/multi/manage/fileshare.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/fileshare",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell",
+    "powershell"
+  ]
+}

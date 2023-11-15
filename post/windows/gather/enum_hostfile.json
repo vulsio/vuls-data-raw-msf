@@ -1,0 +1,19 @@
+{
+  "name": "Windows Gather Windows Host File Enumeration",
+  "fullname": "post/windows/gather/enum_hostfile",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "vt <nick.freeman@security-assessment.com>"
+  ],
+  "description": "This module returns a list of entries in the target system's hosts file.",
+  "platform": "Windows",
+  "mod_time": "2020-10-11 17:44:21 +0000",
+  "path": "/modules/post/windows/gather/enum_hostfile.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_hostfile",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

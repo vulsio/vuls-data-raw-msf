@@ -1,0 +1,14 @@
+{
+  "name": "Android Meterpreter Shell, Reverse TCP Inline",
+  "fullname": "payload/android/meterpreter_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "description": "Connect back to the attacker and spawn a Meterpreter shell",
+  "platform": "Android",
+  "arch": "dalvik",
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/payloads/singles/android/meterpreter_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "android/meterpreter_reverse_tcp",
+  "needs_cleanup": false
+}

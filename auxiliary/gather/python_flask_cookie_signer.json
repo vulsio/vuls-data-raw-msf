@@ -1,0 +1,42 @@
+{
+  "name": "Python Flask Cookie Signer",
+  "fullname": "auxiliary/gather/python_flask_cookie_signer",
+  "rank": 300,
+  "disclosure_date": "2019-01-26",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "paradoxis",
+    "Spencer McIntyre"
+  ],
+  "description": "This is a generic module which can manipulate Python Flask-based application cookies.\n          The Retrieve action will connect to a web server, grab the cookie, and decode it.\n          The Resign action will do the same as above, but after decoding it, it will replace\n          the contents with that in NEWCOOKIECONTENT, then sign the cookie with SECRET. This\n          cookie can then be used in a browser. This is a Ruby based implementation of some\n          of the features in the Python project Flask-Unsign.",
+  "references": [
+    "URL-https://github.com/Paradoxis/Flask-Unsign"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-09-12 15:52:58 +0000",
+  "path": "/modules/auxiliary/gather/python_flask_cookie_signer.rb",
+  "is_install_path": true,
+  "ref_name": "gather/python_flask_cookie_signer",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

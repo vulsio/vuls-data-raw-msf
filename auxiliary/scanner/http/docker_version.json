@@ -1,0 +1,31 @@
+{
+  "name": "Docker Server Version Scanner",
+  "fullname": "auxiliary/scanner/http/docker_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Agora-Security"
+  ],
+  "description": "This module attempts to identify the version of a Docker Server running on a\n        host. If you wish to see all the information available, set VERBOSE to true.",
+  "rport": 2375,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2018-07-12 02:56:47 +0000",
+  "path": "/modules/auxiliary/scanner/http/docker_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/docker_version",
+  "needs_cleanup": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "MySQL SQL Generic Query",
+  "fullname": "auxiliary/admin/mysql/mysql_sql",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Bernardo Damele A. G. <bernardo.damele@gmail.com>"
+  ],
+  "description": "This module allows for simple SQL statements to be executed\n          against a MySQL instance given the appropriate credentials.",
+  "rport": 3306,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/admin/mysql/mysql_sql.rb",
+  "is_install_path": true,
+  "ref_name": "admin/mysql/mysql_sql",
+  "needs_cleanup": false
+}

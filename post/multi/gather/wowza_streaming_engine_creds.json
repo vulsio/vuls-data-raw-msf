@@ -1,0 +1,24 @@
+{
+  "name": "Gather Wowza Streaming Engine Credentials",
+  "fullname": "post/multi/gather/wowza_streaming_engine_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "This module collects Wowza Streaming Engine user credentials.",
+  "references": [
+    "URL-https://www.wowza.com/docs/use-http-providers-with-the-wowza-streaming-engine-java-api",
+    "URL-https://www.wowza.com/resources/WowzaStreamingEngine_UsersGuide-4.0.5.pdf"
+  ],
+  "platform": "Linux,OSX,Unix,Windows",
+  "mod_time": "2023-03-09 01:31:23 +0000",
+  "path": "/modules/post/multi/gather/wowza_streaming_engine_creds.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/wowza_streaming_engine_creds",
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

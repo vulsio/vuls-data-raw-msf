@@ -1,0 +1,17 @@
+{
+  "name": "AIX SNMP Scanner Auxiliary Module",
+  "fullname": "auxiliary/scanner/snmp/aix_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>",
+    "Adriano Lima <adriano@risesecurity.org>"
+  ],
+  "description": "AIX SNMP Scanner Auxiliary Module",
+  "rport": 161,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/aix_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/aix_version",
+  "needs_cleanup": false
+}

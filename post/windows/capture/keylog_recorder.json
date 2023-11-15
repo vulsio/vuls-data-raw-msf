@@ -1,0 +1,19 @@
+{
+  "name": "Windows Capture Keystroke Recorder",
+  "fullname": "post/windows/capture/keylog_recorder",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>",
+    "Josh Hale <jhale85446@gmail.com>"
+  ],
+  "description": "This module can be used to capture keystrokes. To capture keystrokes when the session is running\n          as SYSTEM, the MIGRATE option must be enabled and the CAPTURE_TYPE option should be set to one of\n          Explorer, Winlogon, or a specific PID. To capture the keystrokes of the interactive user, the\n          Explorer option should be used with MIGRATE enabled. Keep in mind that this will demote this session\n          to the user's privileges, so it makes sense to create a separate session for this task. The Winlogon\n          option will capture the username and password entered into the logon and unlock dialog. The LOCKSCREEN\n          option can be combined with the Winlogon CAPTURE_TYPE to for the user to enter their clear-text\n          password. It is recommended to run this module as a job, otherwise it will tie up your framework user interface.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 14:12:25 +0000",
+  "path": "/modules/post/windows/capture/keylog_recorder.rb",
+  "is_install_path": true,
+  "ref_name": "windows/capture/keylog_recorder",
+  "session_types": [
+    "meterpreter"
+  ]
+}

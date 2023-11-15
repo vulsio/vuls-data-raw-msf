@@ -1,0 +1,16 @@
+{
+  "name": "IEC104 Client Utility",
+  "fullname": "auxiliary/client/iec104/iec104",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Michael John <mjohn.info@gmail.com>"
+  ],
+  "description": "This module allows sending 104 commands.",
+  "rport": 2404,
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/client/iec104/iec104.rb",
+  "is_install_path": true,
+  "ref_name": "client/iec104/iec104",
+  "needs_cleanup": false
+}

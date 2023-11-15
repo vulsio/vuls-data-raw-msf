@@ -1,0 +1,23 @@
+{
+  "name": "Asterisk Gather Credentials",
+  "fullname": "auxiliary/gather/asterisk_creds",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "This module retrieves SIP and IAX2 user extensions and credentials from\n        Asterisk Call Manager service. Valid manager credentials are required.",
+  "references": [
+    "URL-http://www.asterisk.name/sip1.html",
+    "URL-http://www.asterisk.name/iax2.html",
+    "URL-https://www.voip-info.org/wiki/view/Asterisk+manager+API",
+    "URL-https://www.voip-info.org/wiki-Asterisk+CLI"
+  ],
+  "rport": 5038,
+  "mod_time": "2019-08-15 18:10:44 +0000",
+  "path": "/modules/auxiliary/gather/asterisk_creds.rb",
+  "is_install_path": true,
+  "ref_name": "gather/asterisk_creds",
+  "post_auth": true,
+  "needs_cleanup": false
+}

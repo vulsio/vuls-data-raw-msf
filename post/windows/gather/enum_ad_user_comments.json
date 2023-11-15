@@ -1,0 +1,21 @@
+{
+  "name": "Windows Gather Active Directory User Comments",
+  "fullname": "post/windows/gather/enum_ad_user_comments",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "This module will enumerate user accounts in the default Active Domain (AD) directory which\n          contain 'pass' in their description or comment (case-insensitive) by default. In some cases,\n          such users have their passwords specified in these fields.",
+  "references": [
+    "URL-http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/enum_ad_user_comments.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_ad_user_comments",
+  "session_types": [
+    "meterpreter"
+  ]
+}

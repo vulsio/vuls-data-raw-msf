@@ -1,0 +1,38 @@
+{
+  "name": "Path Traversal in Oracle GlassFish Server Open Source Edition",
+  "fullname": "auxiliary/scanner/http/glassfish_traversal",
+  "rank": 300,
+  "disclosure_date": "2015-08-08",
+  "type": "auxiliary",
+  "author": [
+    "Trustwave SpiderLabs",
+    "Dhiraj Mishra"
+  ],
+  "description": "This module exploits an unauthenticated directory traversal vulnerability\n        which exists in administration console of Oracle GlassFish Server 4.1, which is\n        listening by default on port 4848/TCP.",
+  "references": [
+    "CVE-2017-1000028",
+    "URL-https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=18822",
+    "EDB-39441"
+  ],
+  "rport": 4848,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/glassfish_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/glassfish_traversal",
+  "needs_cleanup": false
+}

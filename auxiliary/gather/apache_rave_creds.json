@@ -1,0 +1,39 @@
+{
+  "name": "Apache Rave User Information Disclosure",
+  "fullname": "auxiliary/gather/apache_rave_creds",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Andreas Guth",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits an information disclosure in Apache Rave 0.20 and prior. The\n        vulnerability exists in the RPC API, which allows any authenticated user to\n        disclose information about all the users, including their password hashes. In order\n        to authenticate, the user can provide his own credentials. Also the default users\n        installed with Apache Rave 0.20 will be tried automatically. This module has been\n        successfully tested on Apache Rave 0.20.",
+  "references": [
+    "CVE-2013-1814",
+    "OSVDB-91235",
+    "BID-58455",
+    "EDB-24744"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-04-07 06:12:25 +0000",
+  "path": "/modules/auxiliary/gather/apache_rave_creds.rb",
+  "is_install_path": true,
+  "ref_name": "gather/apache_rave_creds",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Oracle TNS Listener SID Bruteforce",
+  "fullname": "auxiliary/scanner/oracle/sid_brute",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module queries the TNS listener for a valid Oracle database\n        instance name (also known as a SID).\n        Any response other than a \"reject\" will be considered a success.\n        If a specific SID is provided, that SID will be attempted. Otherwise,\n        SIDs read from the named file will be attempted in sequence instead.",
+  "rport": 1521,
+  "mod_time": "2019-04-26 08:36:32 +0000",
+  "path": "/modules/auxiliary/scanner/oracle/sid_brute.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/oracle/sid_brute",
+  "post_auth": true,
+  "needs_cleanup": false
+}

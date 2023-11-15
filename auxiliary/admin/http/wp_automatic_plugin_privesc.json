@@ -1,0 +1,52 @@
+{
+  "name": "WordPress Plugin Automatic Config Change to RCE",
+  "fullname": "auxiliary/admin/http/wp_automatic_plugin_privesc",
+  "rank": 300,
+  "disclosure_date": "2021-09-06",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "Jerome Bruandet"
+  ],
+  "description": "This module exploits an unauthenticated arbitrary wordpress options change vulnerability\n          in the Automatic (wp-automatic) plugin <= 3.53.2. If WPEMAIL is provided, the administrator's email\n          address will be changed. User registration is\n          enabled, and default user role is set to administrator. A user is then created with\n          the USER name set. A valid EMAIL is required to get the registration email (not handled in MSF).",
+  "references": [
+    "URL-https://blog.nintechnet.com/critical-vulnerability-fixed-in-wordpress-automatic-plugin/"
+  ],
+  "platform": "PHP",
+  "arch": "php",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-10-03 19:50:04 +0000",
+  "path": "/modules/auxiliary/admin/http/wp_automatic_plugin_privesc.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/wp_automatic_plugin_privesc",
+  "check": true,
+  "post_auth": true,
+  "notes": {
+    "NOCVE": [
+      "Patched in 3.53.3 without vendor disclosure"
+    ],
+    "SideEffects": [
+      "config-changes",
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

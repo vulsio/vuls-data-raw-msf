@@ -1,0 +1,37 @@
+{
+  "name": "DoliWamp 'jqueryFileTree.php' Traversal Gather Credentials",
+  "fullname": "auxiliary/gather/doliwamp_traversal_creds",
+  "rank": 300,
+  "disclosure_date": "2014-01-12",
+  "type": "auxiliary",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "This module will extract user credentials from DoliWamp - a WAMP\n        packaged installer distribution for Dolibarr ERP on Windows - versions\n        3.3.0 to 3.4.2 by hijacking a user's session. DoliWamp stores session\n        tokens in filenames in the 'tmp' directory. A directory traversal\n        vulnerability in 'jqueryFileTree.php' allows unauthenticated users\n        to retrieve session tokens by listing the contents of this directory.\n        Note: All tokens expire after 30 minutes of inactivity by default.",
+  "references": [
+    "URL-https://doliforge.org/tracker/?func=detail&aid=1212&group_id=144",
+    "URL-https://github.com/Dolibarr/dolibarr/commit/8642e2027c840752c4357c4676af32fe342dc0cb"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/doliwamp_traversal_creds.rb",
+  "is_install_path": true,
+  "ref_name": "gather/doliwamp_traversal_creds",
+  "check": true,
+  "needs_cleanup": false
+}

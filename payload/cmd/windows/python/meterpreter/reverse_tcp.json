@@ -1,0 +1,17 @@
+{
+  "name": "Python Exec, Python Meterpreter, Python Reverse TCP Stager",
+  "fullname": "payload/cmd/windows/python/meterpreter/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "Execute a Python payload from a command.\n\nRun a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nConnect back to the attacker",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-01-20 14:53:59 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/python.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/python/meterpreter/reverse_tcp",
+  "needs_cleanup": false
+}

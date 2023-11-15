@@ -1,0 +1,20 @@
+{
+  "name": "DNS Amplification Scanner",
+  "fullname": "auxiliary/scanner/dns/dns_amp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "xistence <xistence@0x90.nl>"
+  ],
+  "description": "This module can be used to discover DNS servers which expose recursive\n          name lookups which can be used in an amplification attack against a\n          third party.",
+  "references": [
+    "CVE-2006-0987",
+    "CVE-2006-0988"
+  ],
+  "rport": 53,
+  "mod_time": "2017-08-26 21:01:10 +0000",
+  "path": "/modules/auxiliary/scanner/dns/dns_amp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/dns/dns_amp",
+  "needs_cleanup": false
+}

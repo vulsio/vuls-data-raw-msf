@@ -1,0 +1,17 @@
+{
+  "name": "SSL Labs API Client",
+  "fullname": "auxiliary/gather/ssllabs_scan",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Denis Kolegov <dnkolegov@gmail.com>",
+    "Francois Chagnon"
+  ],
+  "description": "This module is a simple client for the SSL Labs APIs, designed for\n          SSL/TLS assessment during a penetration test.",
+  "rport": 443,
+  "mod_time": "2018-01-22 16:32:16 +0000",
+  "path": "/modules/auxiliary/gather/ssllabs_scan.rb",
+  "is_install_path": true,
+  "ref_name": "gather/ssllabs_scan",
+  "needs_cleanup": false
+}

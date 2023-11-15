@@ -1,0 +1,23 @@
+{
+  "name": "Powershell Exec, Windows Command Shell, Hidden Bind TCP Inline",
+  "fullname": "payload/cmd/windows/powershell/shell_hidden_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "vlad902 <vlad902@gmail.com>",
+    "sd",
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "Execute an x86 payload from a command via PowerShell.\n\nListen for a connection from certain IP and spawn a command shell.\nThe shellcode will reply with a RST packet if the connections is not\ncoming from the IP defined in AHOST. This way the port will appear\nas \"closed\" helping us to hide the shellcode.",
+  "references": [
+    "URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-05-27 16:41:25 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell/shell_hidden_bind_tcp",
+  "needs_cleanup": false
+}

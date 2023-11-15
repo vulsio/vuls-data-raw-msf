@@ -1,0 +1,21 @@
+{
+  "name": "Windows Manage VMDK Mount Drive",
+  "fullname": "post/windows/manage/vmdk_mount",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "This module mounts a vmdk file (Virtual Machine Disk) on a drive provided by the user by taking advantage\n          of the vstor2 device driver (VMware). First, it executes the binary vixDiskMountServer.exe to access the\n          device and then it sends certain control code via DeviceIoControl to mount it. Use the write mode with\n          extreme care. You should only open a disk file in writable mode if you know for sure that no snapshots\n          or clones are linked from the file.",
+  "references": [
+    "URL-http://www.shelliscoming.com/2017/05/post-exploitation-mounting-vmdk-files.html"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/vmdk_mount.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/vmdk_mount",
+  "session_types": [
+    "meterpreter"
+  ]
+}

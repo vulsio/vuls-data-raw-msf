@@ -1,0 +1,28 @@
+{
+  "name": "Add a new user to the system",
+  "fullname": "post/linux/manage/adduser",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Nick Cottrell <ncottrellweb@gmail.com>"
+  ],
+  "description": "This command adds a new user to the system",
+  "platform": "AIX,BSD,Linux,Solaris,Unix",
+  "mod_time": "2023-10-25 19:28:23 +0000",
+  "path": "/modules/post/linux/manage/adduser.rb",
+  "is_install_path": true,
+  "ref_name": "linux/manage/adduser",
+  "post_auth": true,
+  "notes": {
+    "SideEffects": [
+      "config-changes"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sudo Commands",
+  "fullname": "post/multi/recon/sudo_commands",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "This module examines the sudoers configuration for the session user\n          and lists the commands executable via sudo.\n\n          This module also inspects each command and reports potential avenues\n          for privileged code execution due to poor file system permissions or\n          permitting execution of executables known to be useful for privesc,\n          such as utilities designed for file read/write, user modification,\n          or execution of arbitrary operating system commands.\n\n          Note, you may need to provide the password for the session user.",
+  "platform": "BSD,Linux,OSX,Solaris,Unix",
+  "mod_time": "2022-10-08 09:50:25 +0000",
+  "path": "/modules/post/multi/recon/sudo_commands.rb",
+  "is_install_path": true,
+  "ref_name": "multi/recon/sudo_commands",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

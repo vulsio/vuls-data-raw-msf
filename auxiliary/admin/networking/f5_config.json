@@ -1,0 +1,16 @@
+{
+  "name": "F5 Configuration Importer",
+  "fullname": "auxiliary/admin/networking/f5_config",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "h00die"
+  ],
+  "description": "This module imports an F5 device configuration.",
+  "rport": 22,
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/admin/networking/f5_config.rb",
+  "is_install_path": true,
+  "ref_name": "admin/networking/f5_config",
+  "needs_cleanup": false
+}

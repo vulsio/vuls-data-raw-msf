@@ -1,0 +1,20 @@
+{
+  "name": "IPMI Information Discovery",
+  "fullname": "auxiliary/scanner/ipmi/ipmi_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Dan Farmer <zen@fish2.com>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Discover host information through IPMI Channel Auth probes",
+  "references": [
+    "URL-http://fish2.com/ipmi/"
+  ],
+  "rport": 623,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/ipmi/ipmi_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ipmi/ipmi_version",
+  "needs_cleanup": false
+}

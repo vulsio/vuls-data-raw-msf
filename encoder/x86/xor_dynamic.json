@@ -1,0 +1,18 @@
+{
+  "name": "Dynamic key XOR Encoder",
+  "fullname": "encoder/x86/xor_dynamic",
+  "rank": 300,
+  "type": "encoder",
+  "author": [
+    "lupman",
+    "phra"
+  ],
+  "description": "An x86 XOR encoder with dynamic key size",
+  "platform": "All",
+  "arch": "x86",
+  "mod_time": "2018-12-10 22:45:45 +0000",
+  "path": "/modules/encoders/x86/xor_dynamic.rb",
+  "is_install_path": true,
+  "ref_name": "x86/xor_dynamic",
+  "needs_cleanup": false
+}

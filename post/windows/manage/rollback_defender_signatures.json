@@ -1,0 +1,24 @@
+{
+  "name": "Disable Windows Defender Signatures",
+  "fullname": "post/windows/manage/rollback_defender_signatures",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "metasploit <metasploit@@csiete.org>",
+    "luisco100 <luisco100@gmail.com>"
+  ],
+  "description": "This module with appropriate rights let to use the Windows Defender command-line utility a run and automation\n          tool (mpcmdrun.exe) in order to disable all the signatures available installed for the compromised machine.\n          The tool is prominently used for scheduling scans and updating the signature or definition files,\n          but there is a switch created to restore the installed signature definitions to a previous backup copy or\n          to the original default set of signatures which is none, disabling all the signatures and allowing malware\n          to execute even with the Windows Defender solution enabled.",
+  "platform": "Windows",
+  "mod_time": "2022-09-19 17:31:51 +0000",
+  "path": "/modules/post/windows/manage/rollback_defender_signatures.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/rollback_defender_signatures",
+  "notes": {
+    "Stability": [
+      "service-resource-loss"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

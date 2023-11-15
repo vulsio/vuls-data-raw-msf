@@ -1,0 +1,21 @@
+{
+  "name": "Windows Inject PE Files, Find Tag Ordinal Stager",
+  "fullname": "payload/windows/peinject/find_tag",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "ege <egebalci@pm.me>",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Inject a custom native PE file into the exploited process using a reflective PE loader. The reflective PE\nloader will execute the pre-mapped PE image starting from the address of entry after performing image base\nrelocation and API address resolution. This module requires a PE file that contains relocation data and a\nvalid (uncorrupted) import table. PE files with CLR(C#/.NET executables), bounded imports, and TLS callbacks\nare not currently supported. Also PE files which use resource loading might crash.\nUse an established connection",
+  "references": [
+    "URL-https://github.com/EgeBalci/Amber"
+  ],
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/findtag_ord.rb",
+  "is_install_path": true,
+  "ref_name": "windows/peinject/find_tag",
+  "needs_cleanup": false
+}

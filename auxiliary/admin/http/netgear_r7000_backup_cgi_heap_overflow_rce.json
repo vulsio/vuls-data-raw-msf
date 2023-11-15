@@ -1,0 +1,52 @@
+{
+  "name": "Netgear R7000 backup.cgi Heap Overflow RCE",
+  "fullname": "auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce",
+  "rank": 300,
+  "disclosure_date": "2021-04-21",
+  "type": "auxiliary",
+  "author": [
+    "colorlight2019",
+    "SSD Disclosure",
+    "Grant Willcox (tekwizz123)"
+  ],
+  "description": "This module exploits a heap buffer overflow in the genie.cgi?backup.cgi\n          page of Netgear R7000 routers running firmware version 1.0.11.116.\n          Successful exploitation results in unauthenticated attackers gaining\n          code execution as the root user.\n\n          The exploit utilizes these privileges to enable the telnet server\n          which allows attackers to connect to the target and execute commands\n          as the admin user from within a BusyBox shell. Users can connect to\n          this telnet server by running the command \"telnet *target IP*\".",
+  "references": [
+    "URL-https://ssd-disclosure.com/ssd-advisory-netgear-nighthawk-r7000-httpd-preauth-rce/",
+    "CVE-2021-31802"
+  ],
+  "platform": "Linux",
+  "arch": "armle",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-08-27 17:15:33 +0000",
+  "path": "/modules/auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/netgear_r7000_backup_cgi_heap_overflow_rce",
+  "check": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "config-changes"
+    ],
+    "Stability": [
+      "crash-service-down"
+    ]
+  },
+  "needs_cleanup": false
+}

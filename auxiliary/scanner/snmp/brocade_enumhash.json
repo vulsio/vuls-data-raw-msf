@@ -1,0 +1,19 @@
+{
+  "name": "Brocade Password Hash Enumeration",
+  "fullname": "auxiliary/scanner/snmp/brocade_enumhash",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Deral \"PercentX\" Heiland"
+  ],
+  "description": "This module extracts password hashes from certain Brocade load\n        balancer devices.",
+  "references": [
+    "URL-https://www.rapid7.com/blog/post/2014/05/15/r7-2014-01-r7-2014-02-r7-2014-03-disclosures-exposure-of-critical-information-via-snmp-public-community-string/"
+  ],
+  "rport": 161,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/brocade_enumhash.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/brocade_enumhash",
+  "needs_cleanup": false
+}

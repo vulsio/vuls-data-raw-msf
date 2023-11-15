@@ -1,0 +1,34 @@
+{
+  "name": "Windows NetLM Downgrade Attack",
+  "fullname": "post/windows/gather/netlm_downgrade",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Brandon McCann \"zeknox\" <bmccann@accuvant.com>",
+    "Thomas McCarthy \"smilingraccoon\" <smilingraccoon@gmail.com>"
+  ],
+  "description": "This module changes the system LmCompatibilityLevel registry value\n          to enable sending LM challenge hashes and initiates a SMB connection\n          to the host specified in the SMBHOST module option. If an SMB server\n          is listening, it will receive the NetLM hashes for the session user.",
+  "references": [
+    "URL-https://web.archive.org/web/20210311141729/https://www.optiv.com/explore-optiv-insights/blog/post-exploitation-using-netntlm-downgrade-attacks",
+    "URL-https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level",
+    "URL-https://support.microsoft.com/en-us/topic/security-guidance-for-ntlmv1-and-lm-network-authentication-da2168b6-4a31-0088-fb03-f081acde6e73"
+  ],
+  "platform": "Windows",
+  "mod_time": "2022-10-01 22:35:11 +0000",
+  "path": "/modules/post/windows/gather/netlm_downgrade.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/netlm_downgrade",
+  "notes": {
+    "SideEffects": [
+      "config-changes"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell",
+    "powershell"
+  ]
+}

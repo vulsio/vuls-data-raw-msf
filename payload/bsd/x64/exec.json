@@ -1,0 +1,17 @@
+{
+  "name": "BSD x64 Execute Command",
+  "fullname": "payload/bsd/x64/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "Execute an arbitrary command",
+  "platform": "BSD",
+  "arch": "x64",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/bsd/x64/exec.rb",
+  "is_install_path": true,
+  "ref_name": "bsd/x64/exec",
+  "needs_cleanup": false
+}

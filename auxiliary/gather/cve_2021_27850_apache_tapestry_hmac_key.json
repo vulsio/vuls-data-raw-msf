@@ -1,0 +1,48 @@
+{
+  "name": "Apache Tapestry HMAC secret key leak",
+  "fullname": "auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key",
+  "rank": 300,
+  "disclosure_date": "2021-04-15",
+  "type": "auxiliary",
+  "author": [
+    "Johannes Moritz",
+    "Yann Castel (yann.castel <Yann Castel (yann.castel@orange.com)>"
+  ],
+  "description": "This exploit finds the HMAC secret key used in Java serialization by Apache Tapestry. This key\n          is located in the file AppModule.class by default and looks like the standard representation of UUID in hex digits (hd) :\n          6hd-4hd-4hd-4hd-12hd\n          If the HMAC key has been changed to look differently, this module won't find the key because it tries to download the file\n          and then uses a specific regex to find the key.",
+  "references": [
+    "CVE-2021-27850"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-08-27 17:15:33 +0000",
+  "path": "/modules/auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key.rb",
+  "is_install_path": true,
+  "ref_name": "gather/cve_2021_27850_apache_tapestry_hmac_key",
+  "check": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Open WAN-to-LAN proxy on AT&T routers",
+  "fullname": "auxiliary/scanner/wproxy/att_open_proxy",
+  "rank": 300,
+  "disclosure_date": "2017-08-31",
+  "type": "auxiliary",
+  "author": [
+    "Joseph HutchinsJon Hart <jon_hart[AT]rapid7.com>",
+    "Adam Cammack <adam_cammack[AT]rapid7.com>"
+  ],
+  "description": "The Arris NVG589 and NVG599 routers configured with AT&T U-verse\n        firmware 9.2.2h0d83 expose an un-authenticated proxy that allows\n        connecting from WAN to LAN by MAC address.",
+  "references": [
+    "CVE-2017-14117",
+    "URL-https://www.nomotion.net/blog/sharknatto/",
+    "URL-https://www.rapid7.com/blog/post/2017/09/07/measuring-sharknat-to-exposures/#vulnerability5port49152tcpexposure"
+  ],
+  "rport": 49152,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/wproxy/att_open_proxy.py",
+  "is_install_path": true,
+  "ref_name": "scanner/wproxy/att_open_proxy",
+  "notes": {
+    "AKA": [
+      "SharknAT&To",
+      "sharknatto"
+    ]
+  },
+  "needs_cleanup": false
+}

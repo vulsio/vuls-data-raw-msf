@@ -1,0 +1,19 @@
+{
+  "name": "OS X Gather Airport Wireless Preferences",
+  "fullname": "post/osx/gather/enum_airport",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will download OS X Airport Wireless preferences from the victim\n          machine.  The preferences file (which is a plist) contains information such as:\n          SSID, Channels, Security Type, Password ID, etc.",
+  "platform": "OSX",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/osx/gather/enum_airport.rb",
+  "is_install_path": true,
+  "ref_name": "osx/gather/enum_airport",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Multi Gather Resolve Hosts",
+  "fullname": "post/multi/gather/resolve_hosts",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "Resolves hostnames to either IPv4 or IPv6 addresses from the perspective of the remote host.",
+  "platform": "Python,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/resolve_hosts.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/resolve_hosts",
+  "session_types": [
+    "meterpreter"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Cisco 7937G Denial-of-Service Attack",
+  "fullname": "auxiliary/dos/cisco/cisco_7937g_dos",
+  "rank": 300,
+  "disclosure_date": "2020-06-02",
+  "type": "auxiliary",
+  "author": [
+    "Cody Martin"
+  ],
+  "description": "This module exploits a bug in how the conference station \n\thandles incoming SSH connections that provide an incompatible \n\tkey exchange. By connecting with an incompatible key exchange, \n\tthe device becomes nonresponsive until it is manually power\n\tcycled.",
+  "references": [
+    "URL-https://blacklanternsecurity.com/2020-08-07-Cisco-Unified-IP-Conference-Station-7937G/",
+    "CVE-2020-16138"
+  ],
+  "mod_time": "2020-08-21 13:13:33 +0000",
+  "path": "/modules/auxiliary/dos/cisco/cisco_7937g_dos.py",
+  "is_install_path": true,
+  "ref_name": "dos/cisco/cisco_7937g_dos",
+  "needs_cleanup": false
+}

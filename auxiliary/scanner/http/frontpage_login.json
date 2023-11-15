@@ -1,0 +1,34 @@
+{
+  "name": "FrontPage Server Extensions Anonymous Login Scanner",
+  "fullname": "auxiliary/scanner/http/frontpage_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Matteo Cantoni <goony@nothink.org>"
+  ],
+  "description": "This module queries the FrontPage Server Extensions and determines whether anonymous access is allowed.",
+  "references": [
+    "URL-https://en.wikipedia.org/wiki/Microsoft_FrontPage",
+    "URL-https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ms454298(v=office.14)"
+  ],
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/frontpage_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/frontpage_login",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "IPTABLES rules removal",
+  "fullname": "post/linux/manage/iptables_removal",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
+  ],
+  "description": "This module will be applied on a session connected to a shell. It will remove all IPTABLES rules.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/manage/iptables_removal.rb",
+  "is_install_path": true,
+  "ref_name": "linux/manage/iptables_removal",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

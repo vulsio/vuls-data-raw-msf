@@ -1,0 +1,22 @@
+{
+  "name": "Oracle DB Privilege Escalation via Function-Based Index",
+  "fullname": "auxiliary/admin/oracle/oracle_index_privesc",
+  "rank": 300,
+  "disclosure_date": "2015-01-21",
+  "type": "auxiliary",
+  "author": [
+    "David Litchfield",
+    "Moshe Kaplan"
+  ],
+  "description": "This module will escalate an Oracle DB user to DBA by creating a\n        function-based index on a table owned by a more-privileged user.\n        Credits to David Litchfield for publishing the technique.",
+  "references": [
+    "URL-http://www.davidlitchfield.com/Privilege_Escalation_via_Oracle_Indexes.pdf"
+  ],
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/oracle/oracle_index_privesc.rb",
+  "is_install_path": true,
+  "ref_name": "admin/oracle/oracle_index_privesc",
+  "post_auth": true,
+  "needs_cleanup": false
+}

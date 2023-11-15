@@ -1,0 +1,17 @@
+{
+  "name": "Fake DNS Service",
+  "fullname": "auxiliary/server/fakedns",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "ddz <ddz@theta44.org>",
+    "hdm <x@hdm.io>",
+    "fozavci"
+  ],
+  "description": "This module provides a DNS service that redirects\n      all queries to a particular address.",
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/server/fakedns.rb",
+  "is_install_path": true,
+  "ref_name": "server/fakedns",
+  "needs_cleanup": false
+}

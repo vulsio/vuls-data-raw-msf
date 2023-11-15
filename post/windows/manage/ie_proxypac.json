@@ -1,0 +1,22 @@
+{
+  "name": "Windows Manage Proxy PAC File",
+  "fullname": "post/windows/manage/ie_proxypac",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "This module configures Internet Explorer to use a PAC proxy file. By using the LOCAL_PAC\n          option, a PAC file will be created on the victim host. It's also possible to provide a\n          remote PAC file (REMOTE_PAC option) by providing the full URL.",
+  "references": [
+    "URL-https://www.youtube.com/watch?v=YGjIlbBVDqE&hd=1",
+    "URL-http://blog.scriptmonkey.eu/bypassing-group-policy-using-the-windows-registry"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/ie_proxypac.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/ie_proxypac",
+  "session_types": [
+    "meterpreter"
+  ]
+}

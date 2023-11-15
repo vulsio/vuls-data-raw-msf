@@ -1,0 +1,19 @@
+{
+  "name": "OSX Screen Capture",
+  "fullname": "post/osx/capture/screen",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Peter Toth <globetother@gmail.com>"
+  ],
+  "description": "This module takes screenshots of target desktop and automatically downloads them.",
+  "platform": "OSX",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/osx/capture/screen.rb",
+  "is_install_path": true,
+  "ref_name": "osx/capture/screen",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

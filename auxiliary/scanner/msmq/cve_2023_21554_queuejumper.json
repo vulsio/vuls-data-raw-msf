@@ -1,0 +1,38 @@
+{
+  "name": "CVE-2023-21554 - QueueJumper - MSMQ RCE Check",
+  "fullname": "auxiliary/scanner/msmq/cve_2023_21554_queuejumper",
+  "rank": 300,
+  "disclosure_date": "2023-04-11",
+  "type": "auxiliary",
+  "author": [
+    "Wayne Low",
+    "Haifei Li",
+    "Bastian Kanbach <bastian.kanbach@securesystems.de>"
+  ],
+  "description": "This module checks the provided hosts for the CVE-2023-21554 vulnerability by sending\n          a MSMQ message with an altered DataLength field within the SRMPEnvelopeHeader that\n          overflows the given buffer. On patched systems, the error is caught and no response\n          is sent back. On vulnerable systems, the integer wraps around and depending on the length\n          could cause an out-of-bounds write. In the context of this module a response is sent back,\n          which indicates that the system is vulnerable.",
+  "references": [
+    "CVE-2023-21554",
+    "URL-https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21554",
+    "URL-https://securityintelligence.com/posts/msmq-queuejumper-rce-vulnerability-technical-analysis/"
+  ],
+  "rport": 1801,
+  "mod_time": "2023-09-05 13:15:36 +0000",
+  "path": "/modules/auxiliary/scanner/msmq/cve_2023_21554_queuejumper.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/msmq/cve_2023_21554_queuejumper",
+  "notes": {
+    "AKA": [
+      "QueueJumper"
+    ],
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

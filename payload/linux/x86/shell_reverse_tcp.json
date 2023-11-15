@@ -1,0 +1,18 @@
+{
+  "name": "Linux Command Shell, Reverse TCP Inline",
+  "fullname": "payload/linux/x86/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>",
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "Connect back to attacker and spawn a command shell",
+  "platform": "Linux",
+  "arch": "x86",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/linux/x86/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x86/shell_reverse_tcp",
+  "needs_cleanup": false
+}

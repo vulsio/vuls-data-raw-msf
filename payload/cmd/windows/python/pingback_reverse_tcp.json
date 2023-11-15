@@ -1,0 +1,18 @@
+{
+  "name": "Python Exec, Python Pingback, Reverse TCP (via python)",
+  "fullname": "payload/cmd/windows/python/pingback_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "asoto-r7"
+  ],
+  "description": "Execute a Python payload from a command.\n\nConnects back to the attacker, sends a UUID, then terminates",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-01-20 14:53:59 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/python.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/python/pingback_reverse_tcp",
+  "needs_cleanup": false
+}

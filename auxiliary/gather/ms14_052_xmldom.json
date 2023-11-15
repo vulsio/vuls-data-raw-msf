@@ -1,0 +1,24 @@
+{
+  "name": "MS14-052 Microsoft Internet Explorer XMLDOM Filename Disclosure",
+  "fullname": "auxiliary/gather/ms14_052_xmldom",
+  "rank": 300,
+  "disclosure_date": "2014-09-09",
+  "type": "auxiliary",
+  "author": [
+    "Soroush Dalili",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will use the Microsoft XMLDOM object to enumerate a remote machine's filenames.\n        It will try to do so against Internet Explorer 8 and Internet Explorer 9. To use it, you\n        must supply your own list of file paths. Each file path should look like this:\n        c:\\\\windows\\\\system32\\\\calc.exe",
+  "references": [
+    "CVE-2013-7331",
+    "MSB-MS14-052",
+    "URL-https://soroush.secproject.com/blog/2013/04/microsoft-xmldom-in-ie-can-divulge-information-of-local-drivenetwork-in-error-messages/",
+    "URL-https://cybersecurity.att.com/blogs/labs-research/attackers-abusing-internet-explorer-to-enumerate-software-and-detect-securi"
+  ],
+  "platform": "Windows",
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/ms14_052_xmldom.rb",
+  "is_install_path": true,
+  "ref_name": "gather/ms14_052_xmldom",
+  "needs_cleanup": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Teradata ODBC Login Scanner Module",
+  "fullname": "auxiliary/scanner/teradata/teradata_odbc_login",
+  "rank": 300,
+  "disclosure_date": "2018-03-30",
+  "type": "auxiliary",
+  "author": [
+    "Ted Raffle (actuated)"
+  ],
+  "description": "Login scanner module for ODBC connections to Teradata databases.\n\n        Port specification (TCP 1025 by default) is not necessary for ODBC connections.\n\n        Blank passwords are not supported by ODBC connections.\n\n        Requires ODBC driver and Python Teradata module.",
+  "references": [
+    "URL-https://developer.teradata.com/tools/reference/teradata-python-module",
+    "URL-https://downloads.teradata.com/download/connectivity/odbc-driver/linux"
+  ],
+  "rport": 1025,
+  "mod_time": "2021-05-17 17:04:49 +0000",
+  "path": "/modules/auxiliary/scanner/teradata/teradata_odbc_login.py",
+  "is_install_path": true,
+  "ref_name": "scanner/teradata/teradata_odbc_login",
+  "post_auth": true,
+  "notes": {
+    "AKA": [
+      "Teradata ODBC Login Scanner"
+    ]
+  },
+  "needs_cleanup": false
+}

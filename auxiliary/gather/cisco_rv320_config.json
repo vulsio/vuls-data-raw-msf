@@ -1,0 +1,41 @@
+{
+  "name": "Cisco RV320/RV326 Configuration Disclosure",
+  "fullname": "auxiliary/gather/cisco_rv320_config",
+  "rank": 300,
+  "disclosure_date": "2019-01-24",
+  "type": "auxiliary",
+  "author": [
+    "RedTeam Pentesting GmbH <release@redteam-pentesting.de>",
+    "Aaron Soto <asoto@rapid7.com>"
+  ],
+  "description": "A vulnerability in the web-based management interface of Cisco Small Business\n          RV320 and RV325 Dual Gigabit WAN VPN routers could allow an unauthenticated,\n          remote attacker to retrieve sensitive information. The vulnerability is due\n          to improper access controls for URLs. An attacker could exploit this\n          vulnerability by connecting to an affected device via HTTP or HTTPS and\n          requesting specific URLs. A successful exploit could allow the attacker to\n          download the router configuration or detailed diagnostic information. Cisco\n          has released firmware updates that address this vulnerability.",
+  "references": [
+    "EDB-46262",
+    "BID-106732",
+    "CVE-2019-1653",
+    "URL-https://seclists.org/fulldisclosure/2019/Jan/52",
+    "URL-https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg42801",
+    "URL-https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20110330-acs.html"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/cisco_rv320_config.rb",
+  "is_install_path": true,
+  "ref_name": "gather/cisco_rv320_config",
+  "needs_cleanup": false
+}

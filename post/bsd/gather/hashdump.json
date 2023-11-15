@@ -1,0 +1,19 @@
+{
+  "name": "BSD Dump Password Hashes",
+  "fullname": "post/bsd/gather/hashdump",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "Post module to dump the password hashes for all users on a BSD system.",
+  "platform": "BSD",
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/post/bsd/gather/hashdump.rb",
+  "is_install_path": true,
+  "ref_name": "bsd/gather/hashdump",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

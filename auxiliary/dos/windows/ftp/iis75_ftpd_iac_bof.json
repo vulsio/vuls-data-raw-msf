@@ -1,0 +1,26 @@
+{
+  "name": "Microsoft IIS FTP Server Encoded Response Overflow Trigger",
+  "fullname": "auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof",
+  "rank": 300,
+  "disclosure_date": "2010-12-21",
+  "type": "auxiliary",
+  "author": [
+    "Matthew Bergin",
+    "jduck <jduck@metasploit.com>"
+  ],
+  "description": "This module triggers a heap overflow when processing a specially crafted\n        FTP request containing Telnet IAC (0xff) bytes. When constructing the response,\n        the Microsoft IIS FTP Service overflows the heap buffer with 0xff bytes.\n\n        This issue can be triggered pre-auth and may in fact be exploitable for\n        remote code execution.",
+  "references": [
+    "CVE-2010-3972",
+    "OSVDB-70167",
+    "BID-45542",
+    "MSB-MS11-004",
+    "EDB-15803",
+    "URL-https://msrc-blog.microsoft.com/2010/12/22/assessing-an-iis-ftp-7-5-unauthenticated-denial-of-service-vulnerability/"
+  ],
+  "rport": 21,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/ftp/iis75_ftpd_iac_bof",
+  "needs_cleanup": false
+}

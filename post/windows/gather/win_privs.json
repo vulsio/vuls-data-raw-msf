@@ -1,0 +1,18 @@
+{
+  "name": "Windows Gather Privileges Enumeration",
+  "fullname": "post/windows/gather/win_privs",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Merlyn Cousins <drforbin6@gmail.com>"
+  ],
+  "description": "This module will print if UAC is enabled, and if the current account is\n          ADMIN enabled. It will also print UID, foreground SESSION ID, is SYSTEM status\n          and current process PRIVILEGES.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/win_privs.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/win_privs",
+  "session_types": [
+    "meterpreter"
+  ]
+}

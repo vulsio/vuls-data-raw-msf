@@ -1,0 +1,17 @@
+{
+  "name": "Command Shell, Bind TCP (via python)",
+  "fullname": "payload/python/shell_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "mumbai"
+  ],
+  "description": "Creates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.4-2.7 and 3.4+.",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2023-06-08 06:44:37 +0000",
+  "path": "/modules/payloads/singles/python/shell_bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "python/shell_bind_tcp",
+  "needs_cleanup": false
+}

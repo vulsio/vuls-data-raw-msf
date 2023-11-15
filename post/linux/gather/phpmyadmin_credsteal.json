@@ -1,0 +1,19 @@
+{
+  "name": "Phpmyadmin credentials stealer",
+  "fullname": "post/linux/gather/phpmyadmin_credsteal",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Chaitanya Haritash [bofheaded]",
+    "Dhiraj Mishra <dhiraj@notsosecure.com>"
+  ],
+  "description": "This module gathers Phpmyadmin creds from target linux machine.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/phpmyadmin_credsteal.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/phpmyadmin_credsteal",
+  "session_types": [
+    "meterpreter"
+  ]
+}

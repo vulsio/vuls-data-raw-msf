@@ -1,0 +1,21 @@
+{
+  "name": "Powershell Exec, Windows Command Shell, Bind TCP Stager (Windows x86)",
+  "fullname": "payload/cmd/windows/powershell/shell/bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "spoonm <spoonm@no$email.com>",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "hdm <x@hdm.io>",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Execute an x86 payload from a command via PowerShell.\n\nSpawn a piped command shell (staged).\n\nListen for a connection (Windows x86)",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-05-27 16:41:25 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell/shell/bind_tcp",
+  "needs_cleanup": false
+}

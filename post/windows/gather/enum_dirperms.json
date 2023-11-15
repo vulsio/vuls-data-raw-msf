@@ -1,0 +1,20 @@
+{
+  "name": "Windows Gather Directory Permissions Enumeration",
+  "fullname": "post/windows/gather/enum_dirperms",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Kx499",
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module enumerates directories and lists the permissions set\n          on found directories. Please note: if the PATH option isn't specified,\n          then the module will start enumerate whatever is in the target machine's\n          %PATH% variable.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/enum_dirperms.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_dirperms",
+  "session_types": [
+    "meterpreter"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "OpenSSL Server-Side ChangeCipherSpec Injection Scanner",
+  "fullname": "auxiliary/scanner/ssl/openssl_ccs",
+  "rank": 300,
+  "disclosure_date": "2014-06-05",
+  "type": "auxiliary",
+  "author": [
+    "Masashi Kikuchi",
+    "Craig Young <CYoung@tripwire.com>",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module checks for the OpenSSL ChangeCipherSpec (CCS)\n        Injection vulnerability. The problem exists in the handling of early\n        CCS messages during session negotiation. Vulnerable installations of OpenSSL accepts\n        them, while later implementations do not. If successful, an attacker can leverage this\n        vulnerability to perform a man-in-the-middle (MITM) attack by downgrading the cipher spec\n        between a client and server. This issue was first reported in early June, 2014.",
+  "references": [
+    "CVE-2014-0224",
+    "URL-http://ccsinjection.lepidum.co.jp/",
+    "URL-http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html",
+    "URL-http://www.tripwire.com/state-of-security/incident-detection/detection-script-for-cve-2014-0224-openssl-cipher-change-spec-injection/",
+    "URL-https://www.imperialviolet.org/2014/06/05/earlyccs.html"
+  ],
+  "rport": 443,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/ssl/openssl_ccs.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ssl/openssl_ccs",
+  "needs_cleanup": false
+}

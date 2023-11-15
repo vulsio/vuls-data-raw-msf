@@ -1,0 +1,51 @@
+{
+  "name": "\"Cablehaunt\" Cable Modem WebSocket DoS",
+  "fullname": "auxiliary/dos/http/cable_haunt_websocket_dos",
+  "rank": 300,
+  "disclosure_date": "2020-01-07",
+  "type": "auxiliary",
+  "author": [
+    "Alexander Dalsgaard Krog (Lyrebirds)",
+    "Jens Hegner Stærmose (Lyrebirds)",
+    "Kasper Kohsel Terndrup (Lyrebirds)",
+    "Simon Vandel Sillesen (Independent)",
+    "Nicholas Starke"
+  ],
+  "description": "There exists a buffer overflow vulnerability in certain\n          Cable Modem Spectrum Analyzer interfaces.  This overflow\n          is exploitable, but since an exploit would differ between\n          every make, model, and firmware version (which also\n          differs from ISP to ISP), this module simply causes a\n          Denial of Service to test if the vulnerability is present.",
+  "references": [
+    "CVE-2019-19494",
+    "EDB-47936",
+    "URL-https://cablehaunt.com/",
+    "URL-https://github.com/Lyrebirds/sagemcom-fast-3890-exploit"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/dos/http/cable_haunt_websocket_dos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/cable_haunt_websocket_dos",
+  "post_auth": true,
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-service-down"
+    ]
+  },
+  "needs_cleanup": false
+}

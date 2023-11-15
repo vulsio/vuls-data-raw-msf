@@ -1,0 +1,39 @@
+{
+  "name": "QNAP NAS/NVR Administrator Hash Disclosure",
+  "fullname": "auxiliary/gather/qnap_backtrace_admin_hash",
+  "rank": 300,
+  "disclosure_date": "2017-01-31",
+  "type": "auxiliary",
+  "author": [
+    "bashis",
+    "wvu <wvu@metasploit.com>",
+    "Donald Knuth"
+  ],
+  "description": "This module exploits combined heap and stack buffer overflows for QNAP\n        NAS and NVR devices to dump the admin (root) shadow hash from memory via\n        an overwrite of __libc_argv[0] in the HTTP-header-bound glibc backtrace.\n\n        A binary search is performed to find the correct offset for the BOFs.\n        Since the server forks, blind remote exploitation is possible, provided\n        the heap does not have ASLR.",
+  "references": [
+    "URL-https://seclists.org/fulldisclosure/2017/Feb/2",
+    "URL-https://en.wikipedia.org/wiki/Binary_search_algorithm"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-02-17 12:33:59 +0000",
+  "path": "/modules/auxiliary/gather/qnap_backtrace_admin_hash.rb",
+  "is_install_path": true,
+  "ref_name": "gather/qnap_backtrace_admin_hash",
+  "check": true,
+  "needs_cleanup": false
+}

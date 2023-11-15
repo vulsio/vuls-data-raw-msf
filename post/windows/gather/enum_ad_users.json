@@ -1,0 +1,20 @@
+{
+  "name": "Windows Gather Active Directory Users",
+  "fullname": "post/windows/gather/enum_ad_users",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
+    "Carlos Perez <carlos_perez@darkoperator.com>",
+    "Stuart Morgan <stuart.morgan@mwrinfosecurity.com>"
+  ],
+  "description": "This module will enumerate user accounts in the default Active Domain (AD) directory and stores\n          them in the database. If GROUP_MEMBER is set to the DN of a group, this will list the members of\n          that group by performing a recursive/nested search (i.e. it will list users who are members of\n          groups that are members of groups that are members of groups (etc) which eventually include the\n          target group DN.",
+  "platform": "Windows",
+  "mod_time": "2023-03-05 20:15:14 +0000",
+  "path": "/modules/post/windows/gather/enum_ad_users.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_ad_users",
+  "session_types": [
+    "meterpreter"
+  ]
+}

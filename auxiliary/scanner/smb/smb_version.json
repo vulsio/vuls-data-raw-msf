@@ -1,0 +1,25 @@
+{
+  "name": "SMB Version Detection",
+  "fullname": "auxiliary/scanner/smb/smb_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "Spencer McIntyre",
+    "Christophe De La Fuente"
+  ],
+  "description": "Fingerprint and display version information about SMB servers. Protocol\n        information and host operating system (if available) will be reported.\n        Host operating system detection requires the remote server to support\n        version 1 of the SMB protocol. Compression and encryption capability\n        negotiation is only present in version 3.1.1.",
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2023-01-25 13:58:29 +0000",
+  "path": "/modules/auxiliary/scanner/smb/smb_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smb/smb_version",
+  "needs_cleanup": false
+}

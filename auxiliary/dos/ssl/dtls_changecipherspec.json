@@ -1,0 +1,22 @@
+{
+  "name": "OpenSSL DTLS ChangeCipherSpec Remote DoS",
+  "fullname": "auxiliary/dos/ssl/dtls_changecipherspec",
+  "rank": 300,
+  "disclosure_date": "2000-04-26",
+  "type": "auxiliary",
+  "author": [
+    "Jon Oberheide <jon@oberheide.org>",
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module performs a Denial of Service Attack against Datagram TLS in OpenSSL\n        version 0.9.8i and earlier. OpenSSL crashes under these versions when it receives a\n        ChangeCipherspec Datagram before a ClientHello.",
+  "references": [
+    "CVE-2009-1386",
+    "OSVDB-55073"
+  ],
+  "rport": 80,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/ssl/dtls_changecipherspec.rb",
+  "is_install_path": true,
+  "ref_name": "dos/ssl/dtls_changecipherspec",
+  "needs_cleanup": false
+}

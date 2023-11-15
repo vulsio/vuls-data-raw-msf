@@ -1,0 +1,37 @@
+{
+  "name": "HP SiteScope SOAP Call getSiteScopeConfiguration Configuration Access",
+  "fullname": "auxiliary/scanner/http/hp_sitescope_getsitescopeconfiguration",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "rgod <rgod@autistici.org>",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits an authentication bypass vulnerability in HP SiteScope\n        which allows to retrieve the HP SiteScope configuration, including administrative\n        credentials. It is accomplished by calling the getSiteScopeConfiguration operation\n        available through the APISiteScopeImpl AXIS service. The HP SiteScope Configuration\n        is retrieved as file containing Java serialization data. This module has been\n        tested successfully on HP SiteScope 11.20 over Windows 2003 SP2 and Linux Centos\n        6.3.",
+  "references": [
+    "OSVDB-85120",
+    "BID-55269",
+    "ZDI-12-173"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/http/hp_sitescope_getsitescopeconfiguration.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/hp_sitescope_getsitescopeconfiguration",
+  "needs_cleanup": false
+}

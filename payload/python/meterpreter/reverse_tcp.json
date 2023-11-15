@@ -1,0 +1,17 @@
+{
+  "name": "Python Meterpreter, Python Reverse TCP Stager",
+  "fullname": "payload/python/meterpreter/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "Run a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nConnect back to the attacker",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2022-11-05 15:58:10 +0000",
+  "path": "/modules/payloads/stagers/python/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "python/meterpreter/reverse_tcp",
+  "needs_cleanup": false
+}

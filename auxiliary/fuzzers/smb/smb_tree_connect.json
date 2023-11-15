@@ -1,0 +1,24 @@
+{
+  "name": "SMB Tree Connect Request Fuzzer",
+  "fullname": "auxiliary/fuzzers/smb/smb_tree_connect",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module sends a series of SMB tree connect\n      requests using malicious strings.",
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/fuzzers/smb/smb_tree_connect.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/smb/smb_tree_connect",
+  "needs_cleanup": false
+}

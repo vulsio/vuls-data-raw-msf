@@ -1,0 +1,19 @@
+{
+  "name": "Unix Command Shell, Reverse TCP (via AWK)",
+  "fullname": "payload/cmd/unix/reverse_awk",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "espreto <robertoespreto@gmail.com>",
+    "Ulisses Castro <uss.thebug@gmail.com>",
+    "Gabriel Quadros <gquadrossilva@gmail.com>"
+  ],
+  "description": "Creates an interactive shell via GNU AWK",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_awk.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_awk",
+  "needs_cleanup": false
+}

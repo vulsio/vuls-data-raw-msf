@@ -1,0 +1,26 @@
+{
+  "name": "Diagnostic State",
+  "fullname": "post/hardware/automotive/diagnostic_state",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Jay Turla"
+  ],
+  "description": "This module will keep the vehicle in a diagnostic state on rounds by sending tester present packet",
+  "platform": "Hardware",
+  "mod_time": "2021-10-04 07:31:06 +0000",
+  "path": "/modules/post/hardware/automotive/diagnostic_state.rb",
+  "is_install_path": true,
+  "ref_name": "hardware/automotive/diagnostic_state",
+  "notes": {
+    "SideEffects": [
+      "physical-effects"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "hwbridge"
+  ]
+}

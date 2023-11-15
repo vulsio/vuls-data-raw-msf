@@ -1,0 +1,19 @@
+{
+  "name": "Memcached Extractor",
+  "fullname": "auxiliary/gather/memcached_extractor",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Paul Deardorff <paul_deardorff@rapid7.com>"
+  ],
+  "description": "This module extracts the slabs from a memcached instance.  It then\n        finds the keys and values stored in those slabs.",
+  "references": [
+    "URL-https://github.com/memcached/memcached/blob/master/doc/protocol.txt"
+  ],
+  "rport": 11211,
+  "mod_time": "2022-06-22 19:44:53 +0000",
+  "path": "/modules/auxiliary/gather/memcached_extractor.rb",
+  "is_install_path": true,
+  "ref_name": "gather/memcached_extractor",
+  "needs_cleanup": false
+}

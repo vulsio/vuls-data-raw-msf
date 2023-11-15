@@ -1,0 +1,20 @@
+{
+  "name": "TFTP Fetch",
+  "fullname": "payload/cmd/linux/tftp/x64/meterpreter_reverse_https",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Adam Cammack <adam_cammack@rapid7.com>",
+    "Brent Cook <brent_cook@rapid7.com>",
+    "timwr"
+  ],
+  "description": "Fetch and execute an x64 payload from a TFTP server.",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-05-25 11:49:38 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x64/meterpreter_reverse_https",
+  "needs_cleanup": false
+}

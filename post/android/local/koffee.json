@@ -1,0 +1,34 @@
+{
+  "name": "KOFFEE - Kia OFFensivE Exploit",
+  "fullname": "post/android/local/koffee",
+  "rank": 300,
+  "disclosure_date": "2020-12-02",
+  "type": "post",
+  "author": [
+    "Gianpiero Costantino",
+    "Ilaria Matteucci"
+  ],
+  "description": "This module exploits CVE-2020-8539, which is an arbitrary code execution vulnerability that allows an to\n          attacker execute the micomd binary file on the head unit of Kia Motors. This module has been tested on\n          SOP.003.30.18.0703, SOP.005.7.181019 and SOP.007.1.191209 head unit software versions. This module, run on an\n          active session, allows an attacker to send crafted micomd commands that allow the attacker to control the head\n          unit and send CAN bus frames into the Multimedia CAN (M-Can) of the vehicle.",
+  "references": [
+    "CVE-2020-8539",
+    "URL-https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf"
+  ],
+  "platform": "Android",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/android/local/koffee.rb",
+  "is_install_path": true,
+  "ref_name": "android/local/koffee",
+  "notes": {
+    "SideEffects": [
+      "screen-effects",
+      "config-changes",
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

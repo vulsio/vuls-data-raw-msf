@@ -1,0 +1,20 @@
+{
+  "name": "Password Cracker: Windows",
+  "fullname": "auxiliary/analyze/crack_windows",
+  "aliases": [
+    "auxiliary/analyze/jtr_windows_fast"
+  ],
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>",
+    "hdm <x@hdm.io>",
+    "h00die"
+  ],
+  "description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from Windows systems. The module will only crack LANMAN/NTLM hashes.\n        LANMAN is format 3000 in hashcat.\n        NTLM is format 1000 in hashcat.\n        MSCASH is format 1100 in hashcat.\n        MSCASH2 is format 2100 in hashcat.\n        NetNTLM is format 5500 in hashcat.\n        NetNTLMv2 is format 5600 in hashcat.",
+  "mod_time": "2023-01-08 16:54:36 +0000",
+  "path": "/modules/auxiliary/analyze/crack_windows.rb",
+  "is_install_path": true,
+  "ref_name": "analyze/crack_windows",
+  "needs_cleanup": false
+}

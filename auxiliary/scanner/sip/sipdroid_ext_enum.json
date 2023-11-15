@@ -1,0 +1,19 @@
+{
+  "name": "SIPDroid Extension Grabber",
+  "fullname": "auxiliary/scanner/sip/sipdroid_ext_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Anibal Aguiar <anibal.aguiar@gmail.com>"
+  ],
+  "description": "This module exploits a leak of extension/SIP Gateway\n      on SIPDroid 1.6.1 beta, 2.0.1 beta, 2.2 beta (tested in Android 2.1 and 2.2 - official Motorola release)\n      (other versions may be affected).",
+  "references": [
+    "BID-47710",
+    "URL-https://seclists.org/fulldisclosure/2011/May/83"
+  ],
+  "mod_time": "2018-09-15 18:54:45 +0000",
+  "path": "/modules/auxiliary/scanner/sip/sipdroid_ext_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sip/sipdroid_ext_enum",
+  "needs_cleanup": false
+}

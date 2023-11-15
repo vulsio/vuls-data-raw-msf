@@ -1,0 +1,18 @@
+{
+  "name": "Unix Command Shell, Double Reverse TCP SSL (telnet)",
+  "fullname": "payload/cmd/unix/reverse_ssl_double_telnet",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>",
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Creates an interactive shell through two inbound connections, encrypts using SSL via \"-z\" option",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_ssl_double_telnet.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_ssl_double_telnet",
+  "needs_cleanup": false
+}

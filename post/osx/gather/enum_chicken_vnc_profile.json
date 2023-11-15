@@ -1,0 +1,19 @@
+{
+  "name": "OS X Gather Chicken of the VNC Profile",
+  "fullname": "post/osx/gather/enum_chicken_vnc_profile",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will download the \"Chicken of the VNC\" client application's\n          profile file,\twhich is used to store other VNC servers' information such\n          as the IP and password.",
+  "platform": "OSX",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/osx/gather/enum_chicken_vnc_profile.rb",
+  "is_install_path": true,
+  "ref_name": "osx/gather/enum_chicken_vnc_profile",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

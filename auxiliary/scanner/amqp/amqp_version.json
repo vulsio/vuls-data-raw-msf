@@ -1,0 +1,19 @@
+{
+  "name": "AMQP 0-9-1 Version Scanner",
+  "fullname": "auxiliary/scanner/amqp/amqp_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "Detect AMQP version information.",
+  "references": [
+    "URL-https://www.rabbitmq.com/amqp-0-9-1-reference.html"
+  ],
+  "rport": 5671,
+  "mod_time": "2023-03-20 12:23:16 +0000",
+  "path": "/modules/auxiliary/scanner/amqp/amqp_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/amqp/amqp_version",
+  "needs_cleanup": false
+}

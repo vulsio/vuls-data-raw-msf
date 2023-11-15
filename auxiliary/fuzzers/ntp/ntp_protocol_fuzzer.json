@@ -1,0 +1,16 @@
+{
+  "name": "NTP Protocol Fuzzer",
+  "fullname": "auxiliary/fuzzers/ntp/ntp_protocol_fuzzer",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "A simplistic fuzzer for the Network Time Protocol that sends the\n        following probes to understand NTP and look for anomalous NTP behavior:\n\n        * All possible combinations of NTP versions and modes, even if not\n          allowed or specified in the RFCs\n        * Short versions of the above\n        * Short, invalid datagrams\n        * Full-size, random datagrams\n        * All possible NTP control messages\n        * All possible NTP private messages\n\n        This findings of this fuzzer are not necessarily indicative of bugs,\n        let alone vulnerabilities, rather they point out interesting things\n        that might deserve more attention.  Furthermore, this module is not\n        particularly intelligent and there are many more areas of NTP that\n        could be explored, including:\n\n        * Warn if the response is 100% identical to the request\n        * Warn if the \"mode\" (if applicable) doesn't align with what we expect,\n        * Filter out the 12-byte mode 6 unsupported opcode errors.\n        * Fuzz the control message payload offset/size/etc.  There be bugs",
+  "rport": 123,
+  "mod_time": "2021-04-06 14:45:11 +0000",
+  "path": "/modules/auxiliary/fuzzers/ntp/ntp_protocol_fuzzer.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/ntp/ntp_protocol_fuzzer",
+  "needs_cleanup": false
+}

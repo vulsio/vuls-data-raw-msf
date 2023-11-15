@@ -1,0 +1,19 @@
+{
+  "name": "Multi Gather Mozilla Thunderbird Signon Credential Collection",
+  "fullname": "post/multi/gather/thunderbird_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will collect credentials from Mozilla Thunderbird by downloading\n          the necessary files such as 'signons.sqlite', 'key3.db', and 'cert8.db' for\n          offline decryption with third party tools.\n\n          If necessary, you may also set the PARSE option to true to parse the sqlite\n          file, which contains sensitive information such as the encrypted username/password.\n          However, this feature is not enabled by default, because it requires SQLITE3 gem\n          to be installed on your machine.",
+  "platform": "Linux,OSX,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/thunderbird_creds.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/thunderbird_creds",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

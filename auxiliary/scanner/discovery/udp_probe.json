@@ -1,0 +1,15 @@
+{
+  "name": "UDP Service Prober",
+  "fullname": "auxiliary/scanner/discovery/udp_probe",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Detect common UDP services using sequential probes",
+  "mod_time": "2019-10-04 21:56:52 +0000",
+  "path": "/modules/auxiliary/scanner/discovery/udp_probe.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/discovery/udp_probe",
+  "needs_cleanup": false
+}

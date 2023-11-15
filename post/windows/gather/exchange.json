@@ -1,0 +1,31 @@
+{
+  "name": "Windows Gather Exchange Server Mailboxes",
+  "fullname": "post/windows/gather/exchange",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "SophosLabs Offensive Security team"
+  ],
+  "description": "This module will gather information from an on-premise Exchange Server running on the target machine.\n\n          Two actions are supported:\n          LIST (default action): List basic information about all Exchange servers and mailboxes hosted on the target.\n          EXPORT: Export and download a chosen mailbox in the form of a .PST file, with support for an optional filter keyword.\n\n          For a list of valid filters, see https://docs.microsoft.com/en-us/exchange/filterable-properties-for-the-contentfilter-parameter\n\n          The executing user has to be assigned to the \"Organization Management\" role group for the module to successfully run.\n\n          Tested on Exchange Server 2010 on Windows Server 2012 R2 and Exchange Server 2016 on Windows Server 2016.",
+  "references": [
+    "URL-https://github.com/sophoslabs/metasploit_gather_exchange",
+    "URL-https://news.sophos.com/en-us/2021/03/09/sophoslabs-offensive-security-releases-post-exploitation-tool-for-exchange/"
+  ],
+  "platform": "Windows",
+  "arch": "x86, x64",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/windows/gather/exchange.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/exchange",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

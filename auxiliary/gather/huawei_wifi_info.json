@@ -1,0 +1,38 @@
+{
+  "name": "Huawei Datacard Information Disclosure Vulnerability",
+  "fullname": "auxiliary/gather/huawei_wifi_info",
+  "rank": 300,
+  "disclosure_date": "2013-11-11",
+  "type": "auxiliary",
+  "author": [
+    "Jimson K James",
+    "Tom James <tomsmaily@aczire.com>"
+  ],
+  "description": "This module exploits an unauthenticated information disclosure vulnerability in Huawei\n        SOHO routers. The module will gather information by accessing the /api pages where\n        authentication is not required, allowing configuration changes as well as information\n        disclosure, including any stored SMS.",
+  "references": [
+    "CWE-425",
+    "CVE-2013-6031",
+    "US-CERT-VU-341526"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/huawei_wifi_info.rb",
+  "is_install_path": true,
+  "ref_name": "gather/huawei_wifi_info",
+  "needs_cleanup": false
+}

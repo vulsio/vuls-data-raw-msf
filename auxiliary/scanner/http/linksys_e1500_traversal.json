@@ -1,0 +1,39 @@
+{
+  "name": "Linksys E1500 Directory Traversal Vulnerability",
+  "fullname": "auxiliary/scanner/http/linksys_e1500_traversal",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Michael Messner <devnull@s3cur1ty.de>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability which is present in\n        different Linksys home routers, like the E1500.",
+  "references": [
+    "URL-http://www.s3cur1ty.de/m1adv2013-004",
+    "URL-http://homekb.cisco.com/Cisco2/ukp.aspx?pid=80&app=vw&vw=1&login=1&json=1&docid=d7d0a87be9864e20bc347a73f194411f_KB_EN_v1.xml",
+    "BID-57760",
+    "OSVDB-89911",
+    "EDB-24475"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-03-10 18:03:35 +0000",
+  "path": "/modules/auxiliary/scanner/http/linksys_e1500_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/linksys_e1500_traversal",
+  "post_auth": true,
+  "needs_cleanup": false
+}

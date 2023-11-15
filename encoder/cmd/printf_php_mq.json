@@ -1,0 +1,16 @@
+{
+  "name": "printf(1) via PHP magic_quotes Utility Command Encoder",
+  "fullname": "encoder/cmd/printf_php_mq",
+  "type": "encoder",
+  "author": [
+    "jduck <jduck@metasploit.com>"
+  ],
+  "description": "This encoder uses the printf(1) utility to avoid restricted\n        characters. Some shell variable substitution may also be used\n        if needed symbols are blacklisted. Some characters are intentionally\n        left unescaped since it is assumed that PHP with magic_quotes_gpc\n        enabled will escape them during request handling.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2017-08-28 20:17:58 +0000",
+  "path": "/modules/encoders/cmd/printf_php_mq.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/printf_php_mq",
+  "needs_cleanup": false
+}

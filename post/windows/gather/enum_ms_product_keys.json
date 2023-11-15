@@ -1,0 +1,25 @@
+{
+  "name": "Windows Gather Product Key",
+  "fullname": "post/windows/gather/enum_ms_product_keys",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Brandon Perry <bperry.volatile@gmail.com>"
+  ],
+  "description": "This module will enumerate Microsoft product license keys.",
+  "platform": "Windows",
+  "mod_time": "2022-08-21 16:00:27 +0000",
+  "path": "/modules/post/windows/gather/enum_ms_product_keys.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_ms_product_keys",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

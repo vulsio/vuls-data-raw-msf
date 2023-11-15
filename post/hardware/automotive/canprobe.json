@@ -1,0 +1,18 @@
+{
+  "name": "Module to Probe Different Data Points in a CAN Packet",
+  "fullname": "post/hardware/automotive/canprobe",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Craig Smith"
+  ],
+  "description": "Scans between two CAN IDs and writes data at each byte position. It will\n          either write a set byte value (Default 0xFF) or iterate through all possible values\n          of that byte position (takes much longer). Does not check for responses and is\n          basically a simple blind fuzzer.",
+  "platform": "Hardware",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/hardware/automotive/canprobe.rb",
+  "is_install_path": true,
+  "ref_name": "hardware/automotive/canprobe",
+  "session_types": [
+    "hwbridge"
+  ]
+}

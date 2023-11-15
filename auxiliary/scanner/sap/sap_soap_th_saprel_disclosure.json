@@ -1,0 +1,36 @@
+{
+  "name": "SAP /sap/bc/soap/rfc SOAP Service TH_SAPREL Function Information Disclosure",
+  "fullname": "auxiliary/scanner/sap/sap_soap_th_saprel_disclosure",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Agnivesh Sathasivam",
+    "nmonkee"
+  ],
+  "description": "This module attempts to identify software, OS and DB versions through the SAP\n        function TH_SAPREL using the /sap/bc/soap/rfc SOAP service.",
+  "references": [
+    "URL-https://labs.f-secure.com/tools/sap-metasploit-modules/"
+  ],
+  "rport": 8000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_soap_th_saprel_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_soap_th_saprel_disclosure",
+  "post_auth": true,
+  "needs_cleanup": false
+}

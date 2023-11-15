@@ -1,0 +1,29 @@
+{
+  "name": "MSSQL Ping Utility",
+  "fullname": "auxiliary/scanner/mssql/mssql_ping",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "This module simply queries the MSSQL instance for information.",
+  "autofilter_ports": [
+    1433,
+    1434,
+    1435,
+    14330,
+    2533,
+    9152,
+    2638
+  ],
+  "autofilter_services": [
+    "ms-sql-s",
+    "ms-sql2000",
+    "sybase"
+  ],
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/mssql/mssql_ping.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/mssql/mssql_ping",
+  "needs_cleanup": false
+}

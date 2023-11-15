@@ -1,0 +1,30 @@
+{
+  "name": "XM Easy Personal FTP Server 5.7.0 NLST DoS",
+  "fullname": "auxiliary/dos/windows/ftp/xmeasy570_nlst",
+  "rank": 300,
+  "disclosure_date": "2009-03-27",
+  "type": "auxiliary",
+  "author": [
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "You need a valid login to DoS this FTP server, but\n        even anonymous can do it as long as it has permission\n        to call NLST.",
+  "references": [
+    "CVE-2008-5626",
+    "OSVDB-50837",
+    "EDB-8294"
+  ],
+  "rport": 21,
+  "autofilter_ports": [
+    21,
+    2121
+  ],
+  "autofilter_services": [
+    "ftp"
+  ],
+  "mod_time": "2022-08-08 01:40:15 +0000",
+  "path": "/modules/auxiliary/dos/windows/ftp/xmeasy570_nlst.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/ftp/xmeasy570_nlst",
+  "post_auth": true,
+  "needs_cleanup": false
+}

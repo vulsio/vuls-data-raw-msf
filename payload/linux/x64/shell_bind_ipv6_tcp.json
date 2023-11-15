@@ -1,0 +1,17 @@
+{
+  "name": "Linux x64 Command Shell, Bind TCP Inline (IPv6)",
+  "fullname": "payload/linux/x64/shell_bind_ipv6_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "epi <epibar052@gmail.com>"
+  ],
+  "description": "Listen for an IPv6 connection and spawn a command shell",
+  "platform": "Linux",
+  "arch": "x64",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/linux/x64/shell_bind_ipv6_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x64/shell_bind_ipv6_tcp",
+  "needs_cleanup": false
+}

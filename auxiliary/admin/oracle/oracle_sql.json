@@ -1,0 +1,21 @@
+{
+  "name": "Oracle SQL Generic Query",
+  "fullname": "auxiliary/admin/oracle/oracle_sql",
+  "rank": 300,
+  "disclosure_date": "2007-12-07",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "This module allows for simple SQL statements to be executed\n          against an Oracle instance given the appropriate credentials\n          and sid.",
+  "references": [
+    "URL-https://www.metasploit.com/users/mc"
+  ],
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/oracle/oracle_sql.rb",
+  "is_install_path": true,
+  "ref_name": "admin/oracle/oracle_sql",
+  "post_auth": true,
+  "needs_cleanup": false
+}

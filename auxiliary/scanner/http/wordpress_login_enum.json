@@ -1,0 +1,39 @@
+{
+  "name": "WordPress Brute Force and User Enumeration Utility",
+  "fullname": "auxiliary/scanner/http/wordpress_login_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Tiago Ferreira <tiago.ccna@gmail.com>",
+    "Zach Grace <zgrace@404labs.com>",
+    "Christian Mehlmauer <FireFart@gmail.com>"
+  ],
+  "description": "WordPress Authentication Brute Force and User Enumeration Utility",
+  "references": [
+    "BID-35581",
+    "CVE-2009-2335",
+    "OSVDB-55713"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2018-06-14 13:28:03 +0000",
+  "path": "/modules/auxiliary/scanner/http/wordpress_login_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wordpress_login_enum",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Gather Kademlia Server Information",
+  "fullname": "auxiliary/scanner/kademlia/server_info",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module uses the Kademlia BOOTSTRAP and PING messages to identify\n          and extract information from Kademlia speaking UDP endpoints,\n          typically belonging to eMule/eDonkey/BitTorrent servers or other P2P\n          applications.",
+  "references": [
+    "URL-https://gbmaster.wordpress.com/2013/06/16/botnets-surrounding-us-sending-kademlia2_bootstrap_req-kademlia2_hello_req-and-their-strict-cousins/#more-125"
+  ],
+  "rport": 4672,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/kademlia/server_info.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/kademlia/server_info",
+  "needs_cleanup": false
+}

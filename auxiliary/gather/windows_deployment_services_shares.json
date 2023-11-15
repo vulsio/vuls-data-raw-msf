@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft Windows Deployment Services Unattend Gatherer",
+  "fullname": "auxiliary/gather/windows_deployment_services_shares",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "This module will search remote file shares for unattended installation files that may contain\n          domain credentials. This is often used after discovering domain credentials with the\n          auxiliary/scanner/dcerpc/windows_deployment_services module or in cases where you already\n          have domain credentials. This module will connect to the RemInst share and any Microsoft\n          Deployment Toolkit shares indicated by the share name comments.",
+  "references": [
+    "URL-http://technet.microsoft.com/en-us/library/cc749415(v=ws.10).aspx",
+    "URL-http://rewtdance.blogspot.com/2012/11/windows-deployment-services-clear-text.html"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2023-03-22 12:52:15 +0000",
+  "path": "/modules/auxiliary/gather/windows_deployment_services_shares.rb",
+  "is_install_path": true,
+  "ref_name": "gather/windows_deployment_services_shares",
+  "needs_cleanup": false
+}

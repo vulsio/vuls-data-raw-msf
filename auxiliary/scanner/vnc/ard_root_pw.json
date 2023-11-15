@@ -1,0 +1,20 @@
+{
+  "name": "Apple Remote Desktop Root Vulnerability",
+  "fullname": "auxiliary/scanner/vnc/ard_root_pw",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "jgor"
+  ],
+  "description": "Enable and set root account to a chosen password on unpatched macOS High Sierra hosts with either Screen Sharing or Remote Management enabled.",
+  "references": [
+    "CVE-2017-13872",
+    "URL-https://support.apple.com/en-us/HT208315"
+  ],
+  "rport": 5900,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/vnc/ard_root_pw.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/vnc/ard_root_pw",
+  "needs_cleanup": false
+}

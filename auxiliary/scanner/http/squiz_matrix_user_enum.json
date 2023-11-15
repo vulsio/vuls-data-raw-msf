@@ -1,0 +1,36 @@
+{
+  "name": "Squiz Matrix User Enumeration Scanner",
+  "fullname": "auxiliary/scanner/http/squiz_matrix_user_enum",
+  "rank": 300,
+  "disclosure_date": "2011-11-08",
+  "type": "auxiliary",
+  "author": [
+    "Troy Rose <troy@osisecurity.com.au>",
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "This module attempts to enumerate remote users that exist within\n        the Squiz Matrix and MySource Matrix CMS by sending GET requests for asset IDs\n        e.g. ?a=14 and searching for a valid username eg \"~root\" or \"~test\" which\n        is prefixed by a \"~\" in the response. It will also try to GET the users\n        full name or description, or other information. You may wish to modify\n        ASSETBEGIN and ASSETEND values for greater results, or set VERBOSE.\n        Information gathered may be used for later bruteforce attacks.",
+  "references": [
+    "URL-https://www.osi.security/advisories.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/squiz_matrix_user_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/squiz_matrix_user_enum",
+  "needs_cleanup": false
+}

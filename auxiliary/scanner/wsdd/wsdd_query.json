@@ -1,0 +1,23 @@
+{
+  "name": "WS-Discovery Information Discovery",
+  "fullname": "auxiliary/scanner/wsdd/wsdd_query",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "Discover information from Web Services Dynamic Discovery (WS-Discovery)\n        enabled systems.",
+  "references": [
+    "URL-https://msdn.microsoft.com/en-us/library/windows/desktop/bb513684(v=vs.85).aspx",
+    "URL-http://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pd",
+    "URL-https://en.wikipedia.org/wiki/Web_Services_for_Devices",
+    "URL-https://en.wikipedia.org/wiki/WS-Discovery",
+    "URL-https://en.wikipedia.org/wiki/Zero-configuration_networking#WS-Discovery"
+  ],
+  "rport": 3702,
+  "mod_time": "2019-01-10 19:19:14 +0000",
+  "path": "/modules/auxiliary/scanner/wsdd/wsdd_query.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/wsdd/wsdd_query",
+  "needs_cleanup": false
+}

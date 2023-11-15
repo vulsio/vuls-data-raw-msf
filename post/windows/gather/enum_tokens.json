@@ -1,0 +1,23 @@
+{
+  "name": "Windows Gather Enumerate Domain Admin Tokens (Token Hunter)",
+  "fullname": "post/windows/gather/enum_tokens",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Joshua Abraham <jabra@rapid7.com>"
+  ],
+  "description": "This module enumerates Domain Admin account processes and delegation tokens.\n\n          This module will first check if the session has sufficient privileges\n          to replace process level tokens and adjust process quotas.\n\n          The SeAssignPrimaryTokenPrivilege privilege will not be assigned if\n          the session has been elevated to SYSTEM. In that case try first\n          migrating to another process that is running as SYSTEM.",
+  "platform": "Windows",
+  "mod_time": "2022-09-22 12:04:24 +0000",
+  "path": "/modules/post/windows/gather/enum_tokens.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_tokens",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

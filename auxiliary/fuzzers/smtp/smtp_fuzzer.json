@@ -1,0 +1,31 @@
+{
+  "name": "SMTP Simple Fuzzer",
+  "fullname": "auxiliary/fuzzers/smtp/smtp_fuzzer",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "justme"
+  ],
+  "description": "SMTP Simple Fuzzer",
+  "references": [
+    "URL-http://www.ietf.org/rfc/rfc2821.txt"
+  ],
+  "rport": 25,
+  "autofilter_ports": [
+    25,
+    465,
+    587,
+    2525,
+    25025,
+    25000
+  ],
+  "autofilter_services": [
+    "smtp",
+    "smtps"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/fuzzers/smtp/smtp_fuzzer.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/smtp/smtp_fuzzer",
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Command Shell, Reverse SCTP (via python)",
+  "fullname": "payload/python/shell_reverse_sctp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Creates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.6-2.7 and 3.4+.",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2023-06-08 06:44:37 +0000",
+  "path": "/modules/payloads/singles/python/shell_reverse_sctp.rb",
+  "is_install_path": true,
+  "ref_name": "python/shell_reverse_sctp",
+  "needs_cleanup": false
+}

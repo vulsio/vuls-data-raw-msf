@@ -1,0 +1,19 @@
+{
+  "name": "Linux Gather Dump Password Hashes for Linux Systems",
+  "fullname": "post/linux/gather/hashdump",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "Post Module to dump the password hashes for all users on a Linux System",
+  "platform": "Linux",
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/post/linux/gather/hashdump.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/hashdump",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "DoS Exploitation of Allen-Bradley's Legacy Protocol (PCCC)",
+  "fullname": "auxiliary/dos/scada/allen_bradley_pccc",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "José Diogo Monteiro <jdlopes@student.dei.uc.pt>",
+    "Luis Rosa <lmrosa@dei.uc.pt>",
+    "Miguel Borges de Freitas <miguelbf@dei.uc.pt>"
+  ],
+  "description": "A remote, unauthenticated attacker could send a single, specially crafted\n        Programmable Controller Communication Commands (PCCC) packet to the controller\n        that could potentially cause the controller to enter a DoS condition.\n        MicroLogix 1100 controllers are affected: 1763-L16BWA, 1763-L16AWA, 1763-L16BBB, and\n        1763-L16DWD.\n        CVE-2017-7924 has been assigned to this vulnerability.\n        A CVSS v3 base score of 7.5 has been assigned.",
+  "references": [
+    "CVE-2017-7924",
+    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-17-138-03",
+    "URL-https://dl.acm.org/doi/10.1145/3174776.3174780"
+  ],
+  "rport": 44818,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/scada/allen_bradley_pccc.rb",
+  "is_install_path": true,
+  "ref_name": "dos/scada/allen_bradley_pccc",
+  "check": true,
+  "needs_cleanup": false
+}

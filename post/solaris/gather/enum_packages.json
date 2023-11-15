@@ -1,0 +1,18 @@
+{
+  "name": "Solaris Gather Installed Packages",
+  "fullname": "post/solaris/gather/enum_packages",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "Post module to enumerate installed packages on a Solaris System",
+  "platform": "Solaris",
+  "mod_time": "2023-02-08 14:12:25 +0000",
+  "path": "/modules/post/solaris/gather/enum_packages.rb",
+  "is_install_path": true,
+  "ref_name": "solaris/gather/enum_packages",
+  "session_types": [
+    "shell"
+  ]
+}

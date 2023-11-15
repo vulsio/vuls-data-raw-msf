@@ -1,0 +1,20 @@
+{
+  "name": "AMQP 0-9-1 Login Check Scanner",
+  "fullname": "auxiliary/scanner/amqp/amqp_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "This module will test AMQP logins on a range of machines and\n          report successful logins.  If you have loaded a database plugin\n          and connected to a database this module will record successful\n          logins and hosts so you can track your access.",
+  "references": [
+    "URL-https://www.rabbitmq.com/amqp-0-9-1-reference.html"
+  ],
+  "rport": 5671,
+  "mod_time": "2023-03-20 16:27:11 +0000",
+  "path": "/modules/auxiliary/scanner/amqp/amqp_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/amqp/amqp_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

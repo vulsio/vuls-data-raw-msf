@@ -1,0 +1,25 @@
+{
+  "name": "IPMI 2.0 Cipher Zero Authentication Bypass Scanner",
+  "fullname": "auxiliary/scanner/ipmi/ipmi_cipher_zero",
+  "rank": 300,
+  "disclosure_date": "2013-06-20",
+  "type": "auxiliary",
+  "author": [
+    "Dan Farmer <zen@fish2.com>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module identifies IPMI 2.0-compatible systems that are vulnerable\n        to an authentication bypass vulnerability through the use of cipher\n        zero.",
+  "references": [
+    "CVE-2013-4782",
+    "URL-http://fish2.com/ipmi/cipherzero.html",
+    "OSVDB-93038",
+    "OSVDB-93039",
+    "OSVDB-93040"
+  ],
+  "rport": 623,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/ipmi/ipmi_cipher_zero.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ipmi/ipmi_cipher_zero",
+  "needs_cleanup": false
+}

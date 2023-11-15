@@ -1,0 +1,15 @@
+{
+  "name": "Authentication Capture: MSSQL",
+  "fullname": "auxiliary/server/capture/mssql",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Patrik Karlsson <patrik@cqure.net>"
+  ],
+  "description": "This module provides a fake MSSQL service that\n      is designed to capture authentication credentials. The modules\n      supports both the weak encoded database logins as well as Windows\n      logins (NTLM).",
+  "mod_time": "2022-10-13 10:13:27 +0000",
+  "path": "/modules/auxiliary/server/capture/mssql.rb",
+  "is_install_path": true,
+  "ref_name": "server/capture/mssql",
+  "needs_cleanup": false
+}

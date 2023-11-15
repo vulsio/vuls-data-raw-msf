@@ -1,0 +1,22 @@
+{
+  "name": "Samsung Internet Browser SOP Bypass",
+  "fullname": "auxiliary/gather/samsung_browser_sop_bypass",
+  "rank": 300,
+  "disclosure_date": "2017-11-08",
+  "type": "auxiliary",
+  "author": [
+    "Dhiraj Mishra",
+    "Tod Beardsley",
+    "Jeffrey Martin"
+  ],
+  "description": "This module takes advantage of a Same-Origin Policy (SOP) bypass vulnerability in the\n          Samsung Internet Browser, a popular mobile browser shipping with Samsung Android devices.\n          By default, it initiates a redirect to a child tab, and rewrites the innerHTML to gather\n          credentials via a fake pop-up.",
+  "references": [
+    "CVE-2017-17692",
+    "URL-http://fr.0day.today/exploit/description/28434"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/samsung_browser_sop_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "gather/samsung_browser_sop_bypass",
+  "needs_cleanup": false
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SonicWALL SSL-VPN Format String Vulnerability",
+  "fullname": "auxiliary/dos/http/sonicwall_ssl_format",
+  "rank": 300,
+  "disclosure_date": "2009-05-29",
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "There is a format string vulnerability within the SonicWALL\n        SSL-VPN Appliance - 200, 2000 and 4000 series. Arbitrary memory\n        can be read or written to, depending on the format string used.\n        There appears to be a length limit of 127 characters of format\n        string data. With physical access to the device and debugging,\n        this module may be able to be used to execute arbitrary code remotely.",
+  "references": [
+    "BID-35145",
+    "OSVDB-54881",
+    "URL-http://www.aushack.com/200905-sonicwall.txt"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/http/sonicwall_ssl_format.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/sonicwall_ssl_format",
+  "needs_cleanup": false
+}

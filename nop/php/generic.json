@@ -1,0 +1,17 @@
+{
+  "name": "PHP Nop Generator",
+  "fullname": "nop/php/generic",
+  "rank": 300,
+  "type": "nop",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Generates harmless padding for PHP scripts",
+  "platform": "All",
+  "arch": "php",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/nops/php/generic.rb",
+  "is_install_path": true,
+  "ref_name": "php/generic",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "MySQL Enumeration Module",
+  "fullname": "auxiliary/admin/mysql/mysql_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module allows for simple enumeration of MySQL Database Server\n          provided proper credentials to connect remotely.",
+  "references": [
+    "URL-https://cisecurity.org/benchmarks.html"
+  ],
+  "rport": 3306,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/admin/mysql/mysql_enum.rb",
+  "is_install_path": true,
+  "ref_name": "admin/mysql/mysql_enum",
+  "needs_cleanup": false
+}

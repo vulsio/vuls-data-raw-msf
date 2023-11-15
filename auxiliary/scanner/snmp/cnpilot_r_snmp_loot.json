@@ -1,0 +1,20 @@
+{
+  "name": "Cambium cnPilot r200/r201 SNMP Enumeration",
+  "fullname": "auxiliary/scanner/snmp/cnpilot_r_snmp_loot",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Karn Ganeshen"
+  ],
+  "description": "Cambium cnPilot r200/r201 devices can be administered using SNMP. The\n        device configuration contains IP addresses, keys, passwords, & lots of juicy\n        information. This module exploits an access control flaw, which allows remotely\n        extracting sensitive information such as account passwords, WiFI PSK, & SIP\n        credentials via SNMP Read-Only (RO) community string.",
+  "references": [
+    "CVE-2017-5262",
+    "URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
+  ],
+  "rport": 161,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/cnpilot_r_snmp_loot.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/cnpilot_r_snmp_loot",
+  "needs_cleanup": false
+}

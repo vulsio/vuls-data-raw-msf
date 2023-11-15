@@ -1,0 +1,17 @@
+{
+  "name": "Python Meterpreter, Python Bind TCP Stager",
+  "fullname": "payload/python/meterpreter/bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "Run a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nListen for a connection",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2022-11-05 15:58:10 +0000",
+  "path": "/modules/payloads/stagers/python/bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "python/meterpreter/bind_tcp",
+  "needs_cleanup": false
+}

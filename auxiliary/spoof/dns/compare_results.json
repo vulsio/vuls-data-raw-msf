@@ -1,0 +1,16 @@
+{
+  "name": "DNS Lookup Result Comparison",
+  "fullname": "auxiliary/spoof/dns/compare_results",
+  "rank": 300,
+  "disclosure_date": "2008-07-21",
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module can be used to determine differences\n      in the cache entries between two DNS servers. This is\n      primarily useful for detecting cache poisoning attacks,\n      but can also be used to detect geo-location load balancing.",
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/spoof/dns/compare_results.rb",
+  "is_install_path": true,
+  "ref_name": "spoof/dns/compare_results",
+  "needs_cleanup": false
+}

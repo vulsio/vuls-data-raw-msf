@@ -1,0 +1,23 @@
+{
+  "name": "Windows x64 Command Shell, Reverse TCP Stager (RC4 Stage Encryption, Metasm)",
+  "fullname": "payload/windows/x64/shell/reverse_tcp_rc4",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "hdm <x@hdm.io>",
+    "skape <mmiller@hick.org>",
+    "mihi",
+    "max3raza",
+    "RageLtMan"
+  ],
+  "description": "Spawn a piped command shell (Windows x64) (staged).\n\nConnect back to the attacker",
+  "platform": "Windows",
+  "arch": "x64",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/x64/reverse_tcp_rc4.rb",
+  "is_install_path": true,
+  "ref_name": "windows/x64/shell/reverse_tcp_rc4",
+  "post_auth": true,
+  "needs_cleanup": false
+}

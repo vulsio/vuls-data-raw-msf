@@ -1,0 +1,18 @@
+{
+  "name": "PHP Command Shell, Bind TCP (via php) IPv6",
+  "fullname": "payload/php/bind_php_ipv6",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "egypt <egypt@metasploit.com>",
+    "diaul <diaul@devilopers.org>"
+  ],
+  "description": "Listen for a connection and spawn a command shell via php (IPv6)",
+  "platform": "PHP",
+  "arch": "php",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/php/bind_php_ipv6.rb",
+  "is_install_path": true,
+  "ref_name": "php/bind_php_ipv6",
+  "needs_cleanup": false
+}

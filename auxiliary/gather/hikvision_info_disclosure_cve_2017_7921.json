@@ -1,0 +1,52 @@
+{
+  "name": "Unauthenticated information disclosure such as configuration, credentials and camera snapshots of a vulnerable Hikvision IP Camera",
+  "fullname": "auxiliary/gather/hikvision_info_disclosure_cve_2017_7921",
+  "rank": 300,
+  "disclosure_date": "2017-09-23",
+  "type": "auxiliary",
+  "author": [
+    "Monte Crypto",
+    "h00die-gr3y <h00die.gr3y@gmail.com>"
+  ],
+  "description": "Many Hikvision IP cameras have improper authorization logic that allows unauthenticated information disclosure of camera information,\n          such as detailed hardware and software configuration, user credentials, and camera snapshots.\n          The vulnerability has been present in Hikvision products since 2014.\n          In addition to Hikvision-branded devices, it affects many white-labeled camera products sold under a variety of brand names.\n          Hundreds of thousands of vulnerable devices are still exposed to the Internet at the time of publishing (shodan search: \"App-webs\" \"200 OK\").\n          This module allows the attacker to retrieve this information without any authentication. The information is stored in loot for future use.",
+  "references": [
+    "CVE-2017-7921",
+    "PACKETSTORM-144097",
+    "URL-https://ipvm.com/reports/hik-exploit",
+    "URL-https://attackerkb.com/topics/PlLehGSmxT/cve-2017-7921",
+    "URL-http://seclists.org/fulldisclosure/2017/Sep/23"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-10-17 19:54:26 +0000",
+  "path": "/modules/auxiliary/gather/hikvision_info_disclosure_cve_2017_7921.rb",
+  "is_install_path": true,
+  "ref_name": "gather/hikvision_info_disclosure_cve_2017_7921",
+  "check": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

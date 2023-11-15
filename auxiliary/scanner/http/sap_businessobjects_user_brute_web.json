@@ -1,0 +1,36 @@
+{
+  "name": "SAP BusinessObjects Web User Bruteforcer",
+  "fullname": "auxiliary/scanner/http/sap_businessobjects_user_brute_web",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Joshua Abraham <jabra@rapid7.com>"
+  ],
+  "description": "This module simply attempts to bruteforce SAP BusinessObjects users by using CmcApp.",
+  "references": [
+    "URL-http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "rport": 6405,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    6405
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/http/sap_businessobjects_user_brute_web.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/sap_businessobjects_user_brute_web",
+  "post_auth": true,
+  "needs_cleanup": false
+}

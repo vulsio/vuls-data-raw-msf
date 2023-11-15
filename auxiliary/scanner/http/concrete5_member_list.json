@@ -1,0 +1,36 @@
+{
+  "name": "Concrete5 Member List Enumeration",
+  "fullname": "auxiliary/scanner/http/concrete5_member_list",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley"
+  ],
+  "description": "This module extracts username information from the Concrete5 member page",
+  "references": [
+    "URL-https://blog.c22.cc/",
+    "URL-https://www.concretecms.com/",
+    "URL-https://web.archive.org/web/20120704205851/http://www.concrete5.org/documentation/using-concrete5/dashboard/users-and-groups/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/concrete5_member_list.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/concrete5_member_list",
+  "needs_cleanup": false
+}

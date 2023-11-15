@@ -1,0 +1,36 @@
+{
+  "name": "Snare Lite for Windows Registry Access",
+  "fullname": "auxiliary/gather/snare_registry",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "This module uses the Registry Dump feature of the Snare Lite\n        for Windows service on 6161/TCP to retrieve the Windows registry.\n        The Dump Registry functionality is unavailable in Snare Enterprise.\n\n        Note: The Dump Registry functionality accepts only one connected\n        client at a time. Requesting a large key/hive will cause the service\n        to become unresponsive until the server completes the request.",
+  "references": [
+    "URL-https://www.intersectalliance.com/wp-content/uploads/user_guides/Guide_to_Snare_for_Windows-4.2.pdf"
+  ],
+  "platform": "Windows",
+  "rport": 6161,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-01-10 19:19:14 +0000",
+  "path": "/modules/auxiliary/gather/snare_registry.rb",
+  "is_install_path": true,
+  "ref_name": "gather/snare_registry",
+  "post_auth": true,
+  "needs_cleanup": false
+}

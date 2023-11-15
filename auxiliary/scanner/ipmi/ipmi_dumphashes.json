@@ -1,0 +1,26 @@
+{
+  "name": "IPMI 2.0 RAKP Remote SHA1 Password Hash Retrieval",
+  "fullname": "auxiliary/scanner/ipmi/ipmi_dumphashes",
+  "rank": 300,
+  "disclosure_date": "2013-06-20",
+  "type": "auxiliary",
+  "author": [
+    "Dan Farmer <zen@fish2.com>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module identifies IPMI 2.0-compatible systems and attempts to retrieve the\n        HMAC-SHA1 password hashes of default usernames. The hashes can be stored in a\n        file using the OUTPUT_FILE option and then cracked using hmac_sha1_crack.rb\n        in the tools subdirectory as well hashcat (cpu) 0.46 or newer using type 7300.",
+  "references": [
+    "URL-http://fish2.com/ipmi/remote-pw-cracking.html",
+    "URL-https://seclists.org/bugtraq/2014/Apr/16",
+    "CVE-2013-4786",
+    "OSVDB-95057",
+    "BID-61076"
+  ],
+  "rport": 623,
+  "mod_time": "2021-06-23 00:48:36 +0000",
+  "path": "/modules/auxiliary/scanner/ipmi/ipmi_dumphashes.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ipmi/ipmi_dumphashes",
+  "post_auth": true,
+  "needs_cleanup": false
+}

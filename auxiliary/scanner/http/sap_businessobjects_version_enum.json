@@ -1,0 +1,34 @@
+{
+  "name": "SAP BusinessObjects Version Detection",
+  "fullname": "auxiliary/scanner/http/sap_businessobjects_version_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Joshua Abraham <jabra@rapid7.com>"
+  ],
+  "description": "This module simply attempts to identify the version of SAP BusinessObjects.",
+  "references": [
+    "URL-http://spl0it.org/files/talks/source_barcelona10/Hacking%20SAP%20BusinessObjects.pdf"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/http/sap_businessobjects_version_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/sap_businessobjects_version_enum",
+  "needs_cleanup": false
+}

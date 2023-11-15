@@ -1,0 +1,16 @@
+{
+  "name": "mDNS Query",
+  "fullname": "auxiliary/scanner/mdns/query",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module sends mDNS queries, which are really just normal UDP DNS\n          queries done (usually) over multicast on a different port, 5353.",
+  "rport": 5353,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/mdns/query.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/mdns/query",
+  "needs_cleanup": false
+}

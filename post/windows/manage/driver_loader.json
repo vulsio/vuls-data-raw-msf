@@ -1,0 +1,18 @@
+{
+  "name": "Windows Manage Driver Loader",
+  "fullname": "post/windows/manage/driver_loader",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "This module loads a KMD (Kernel Mode Driver) using the Windows Service API.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/driver_loader.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/driver_loader",
+  "session_types": [
+    "meterpreter"
+  ]
+}

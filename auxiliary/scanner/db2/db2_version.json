@@ -1,0 +1,16 @@
+{
+  "name": "DB2 Probe Utility",
+  "fullname": "auxiliary/scanner/db2/db2_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module queries a DB2 instance information.",
+  "rport": 50000,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/db2/db2_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/db2/db2_version",
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "NetWare Command Shell, Reverse TCP Stager",
+  "fullname": "payload/netware/shell/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "toto"
+  ],
+  "description": "Connect to the NetWare console (staged).\n\nConnect back to the attacker",
+  "platform": "Netware",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/netware/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "netware/shell/reverse_tcp",
+  "needs_cleanup": false
+}

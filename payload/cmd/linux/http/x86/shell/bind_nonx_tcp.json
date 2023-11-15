@@ -1,0 +1,19 @@
+{
+  "name": "HTTP Fetch, Linux Command Shell, Bind TCP Stager",
+  "fullname": "payload/cmd/linux/http/x86/shell/bind_nonx_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Fetch and execute a x86 payload from an HTTP server.\nSpawn a command shell (staged).\n\nListen for a connection",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/http/x86/shell/bind_nonx_tcp",
+  "needs_cleanup": false
+}

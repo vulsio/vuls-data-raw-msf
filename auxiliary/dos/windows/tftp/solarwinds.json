@@ -1,0 +1,22 @@
+{
+  "name": "SolarWinds TFTP Server 10.4.0.10 Denial of Service",
+  "fullname": "auxiliary/dos/windows/tftp/solarwinds",
+  "rank": 300,
+  "disclosure_date": "2010-05-21",
+  "type": "auxiliary",
+  "author": [
+    "Nullthreat"
+  ],
+  "description": "The SolarWinds TFTP server can be shut down by sending a 'netascii' read\n        request with a specially crafted file name.",
+  "references": [
+    "CVE-2010-2115",
+    "OSVDB-64845",
+    "EDB-12683"
+  ],
+  "rport": 69,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/windows/tftp/solarwinds.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/tftp/solarwinds",
+  "needs_cleanup": false
+}

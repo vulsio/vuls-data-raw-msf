@@ -1,0 +1,20 @@
+{
+  "name": "IBM Notes Denial Of Service",
+  "fullname": "auxiliary/dos/http/ibm_lotus_notes2",
+  "rank": 300,
+  "disclosure_date": "2017-08-31",
+  "type": "auxiliary",
+  "author": [
+    "Dhiraj Mishra"
+  ],
+  "description": "This module exploits a vulnerability in the native browser that comes with IBM Lotus Notes.\n          If successful, the browser will crash after viewing the webpage.",
+  "references": [
+    "EDB-42604",
+    "CVE-2017-1130"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/http/ibm_lotus_notes2.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/ibm_lotus_notes2",
+  "needs_cleanup": false
+}

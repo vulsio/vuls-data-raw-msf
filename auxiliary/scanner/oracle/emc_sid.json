@@ -1,0 +1,34 @@
+{
+  "name": "Oracle Enterprise Manager Control SID Discovery",
+  "fullname": "auxiliary/scanner/oracle/emc_sid",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "This module makes a request to the Oracle Enterprise Manager Control Console\n        in an attempt to discover the SID.",
+  "references": [
+    "URL-http://dsecrg.com/files/pub/pdf/Different_ways_to_guess_Oracle_database_SID_(eng).pdf"
+  ],
+  "rport": 1158,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-08-26 21:01:10 +0000",
+  "path": "/modules/auxiliary/scanner/oracle/emc_sid.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/oracle/emc_sid",
+  "needs_cleanup": false
+}

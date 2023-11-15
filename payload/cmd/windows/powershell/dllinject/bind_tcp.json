@@ -1,0 +1,24 @@
+{
+  "name": "Powershell Exec, Bind TCP Stager (Windows x86)",
+  "fullname": "payload/cmd/windows/powershell/dllinject/bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "hdm <x@hdm.io>",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Execute an x86 payload from a command via PowerShell.\n\nListen for a connection (Windows x86)",
+  "references": [
+    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-05-27 16:41:25 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell/dllinject/bind_tcp",
+  "needs_cleanup": false
+}

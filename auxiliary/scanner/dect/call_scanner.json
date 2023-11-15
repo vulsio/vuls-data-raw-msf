@@ -1,0 +1,15 @@
+{
+  "name": "DECT Call Scanner",
+  "fullname": "auxiliary/scanner/dect/call_scanner",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "DK <privilegedmode@gmail.com>"
+  ],
+  "description": "This module scans for active DECT calls",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/dect/call_scanner.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/dect/call_scanner",
+  "needs_cleanup": false
+}

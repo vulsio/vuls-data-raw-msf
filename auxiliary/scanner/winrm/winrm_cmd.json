@@ -1,0 +1,35 @@
+{
+  "name": "WinRM Command Runner",
+  "fullname": "auxiliary/scanner/winrm/winrm_cmd",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "thelightcosine"
+  ],
+  "description": "This module runs arbitrary Windows commands using the WinRM Service",
+  "rport": 5985,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    5985,
+    5986
+  ],
+  "autofilter_services": [
+    "http",
+    "https",
+    "winrm"
+  ],
+  "mod_time": "2023-06-14 00:40:33 +0000",
+  "path": "/modules/auxiliary/scanner/winrm/winrm_cmd.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/winrm/winrm_cmd",
+  "post_auth": true,
+  "needs_cleanup": false
+}

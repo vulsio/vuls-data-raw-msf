@@ -1,0 +1,17 @@
+{
+  "name": "Simple",
+  "fullname": "nop/x64/simple",
+  "rank": 300,
+  "type": "nop",
+  "author": [
+    "sf <stephen_fewer@harmonysecurity.com>"
+  ],
+  "description": "An x64 single/multi byte NOP instruction generator.",
+  "platform": "All",
+  "arch": "x64",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/nops/x64/simple.rb",
+  "is_install_path": true,
+  "ref_name": "x64/simple",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Python Meterpreter, Python Reverse TCP SSL Stager",
+  "fullname": "payload/python/meterpreter/reverse_tcp_ssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
+    "RageLtMan"
+  ],
+  "description": "Run a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nReverse Python connect back stager using SSL",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2022-11-05 15:58:10 +0000",
+  "path": "/modules/payloads/stagers/python/reverse_tcp_ssl.rb",
+  "is_install_path": true,
+  "ref_name": "python/meterpreter/reverse_tcp_ssl",
+  "needs_cleanup": false
+}

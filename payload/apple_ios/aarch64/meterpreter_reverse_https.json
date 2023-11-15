@@ -1,0 +1,19 @@
+{
+  "name": "Apple_iOS Meterpreter, Reverse HTTPS Inline",
+  "fullname": "payload/apple_ios/aarch64/meterpreter_reverse_https",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Adam Cammack <adam_cammack@rapid7.com>",
+    "Brent Cook <brent_cook@rapid7.com>",
+    "timwr"
+  ],
+  "description": "Run the Meterpreter / Mettle server payload (stageless)",
+  "platform": "Apple_iOS",
+  "arch": "aarch64",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/apple_ios/aarch64/meterpreter_reverse_https.rb",
+  "is_install_path": true,
+  "ref_name": "apple_ios/aarch64/meterpreter_reverse_https",
+  "needs_cleanup": false
+}

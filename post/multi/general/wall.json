@@ -1,0 +1,19 @@
+{
+  "name": "Write Messages to Users",
+  "fullname": "post/multi/general/wall",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module utilizes the wall(1) or write(1) utilities, as appropriate,\n          to send messages to users on the target system.",
+  "platform": "Linux,OSX,Unix",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/general/wall.rb",
+  "is_install_path": true,
+  "ref_name": "multi/general/wall",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

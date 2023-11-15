@@ -1,0 +1,15 @@
+{
+  "name": "Hardware Bridge Server",
+  "fullname": "auxiliary/server/local_hwbridge",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Craig Smith"
+  ],
+  "description": "This module sets up a web server to bridge communications between\n        Metasploit and physically attached hardware.\n        Currently this module supports: automotive",
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/server/local_hwbridge.rb",
+  "is_install_path": true,
+  "ref_name": "server/local_hwbridge",
+  "needs_cleanup": false
+}

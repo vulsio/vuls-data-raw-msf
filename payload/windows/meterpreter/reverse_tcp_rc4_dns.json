@@ -1,0 +1,27 @@
+{
+  "name": "Windows Meterpreter (Reflective Injection), Reverse TCP Stager (RC4 Stage Encryption DNS, Metasm)",
+  "fullname": "payload/windows/meterpreter/reverse_tcp_rc4_dns",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "skape <mmiller@hick.org>",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "OJ Reeves",
+    "hdm <x@hdm.io>",
+    "mihi",
+    "RageLtMan"
+  ],
+  "description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nConnect back to the attacker",
+  "references": [
+    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
+  ],
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/reverse_tcp_rc4_dns.rb",
+  "is_install_path": true,
+  "ref_name": "windows/meterpreter/reverse_tcp_rc4_dns",
+  "post_auth": true,
+  "needs_cleanup": false
+}

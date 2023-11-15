@@ -1,0 +1,18 @@
+{
+  "name": "Unix Command Shell, Bind TCP (via Zsh)",
+  "fullname": "payload/cmd/unix/bind_zsh",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Doug Prostko <dougtko@gmail.com>",
+    "Wang Yihang <wangyihanger@gmail.com>"
+  ],
+  "description": "Listen for a connection and spawn a command shell via Zsh. Note: Although Zsh is\n        often available, please be aware it isn't usually installed by default.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/bind_zsh.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/bind_zsh",
+  "needs_cleanup": false
+}

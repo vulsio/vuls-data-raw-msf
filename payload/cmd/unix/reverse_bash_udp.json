@@ -1,0 +1,18 @@
+{
+  "name": "Unix Command Shell, Reverse UDP (/dev/udp)",
+  "fullname": "payload/cmd/unix/reverse_bash_udp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>",
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "Creates an interactive shell via bash's builtin /dev/udp.\n\n          This will not work on circa 2009 and older Debian-based Linux\n          distributions (including Ubuntu) because they compile bash\n          without the /dev/udp feature.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_bash_udp.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_bash_udp",
+  "needs_cleanup": false
+}

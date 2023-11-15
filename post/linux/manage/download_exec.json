@@ -1,0 +1,19 @@
+{
+  "name": "Linux Manage Download and Execute",
+  "fullname": "post/linux/manage/download_exec",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Joshua D. Abraham <jabra@praetorian.com>"
+  ],
+  "description": "This module downloads and runs a file with bash. It first tries to uses curl as\n          its HTTP client and then wget if it's not found. Bash found in the PATH is used\n          to execute the file.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/manage/download_exec.rb",
+  "is_install_path": true,
+  "ref_name": "linux/manage/download_exec",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

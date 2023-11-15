@@ -1,0 +1,27 @@
+{
+  "name": "UNIX Gather Cached AD Hashes",
+  "fullname": "post/multi/gather/unix_cached_ad_hashes",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Tim Brown <timb@nth-dimension.org.uk>"
+  ],
+  "description": "Post Module to obtain all cached AD hashes on the targeted UNIX machine. These can be cracked with John the Ripper (JtR).",
+  "platform": "AIX,Linux,OSX,Solaris,Unix",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/multi/gather/unix_cached_ad_hashes.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/unix_cached_ad_hashes",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

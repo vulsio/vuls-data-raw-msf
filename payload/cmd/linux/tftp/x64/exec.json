@@ -1,0 +1,19 @@
+{
+  "name": "TFTP Fetch, Linux Execute Command",
+  "fullname": "payload/cmd/linux/tftp/x64/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "ricky",
+    "Geyslan G. Bem <geyslan@gmail.com>"
+  ],
+  "description": "Fetch and execute an x64 payload from a TFTP server.\nExecute an arbitrary command or just a /bin/sh shell",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-05-25 11:49:38 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x64/exec",
+  "needs_cleanup": false
+}

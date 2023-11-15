@@ -1,0 +1,16 @@
+{
+  "name": "POP3 Banner Grabber",
+  "fullname": "auxiliary/scanner/pop3/pop3_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "POP3 Banner Grabber",
+  "rport": 110,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/pop3/pop3_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/pop3/pop3_version",
+  "needs_cleanup": false
+}

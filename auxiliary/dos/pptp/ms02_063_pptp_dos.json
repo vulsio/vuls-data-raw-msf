@@ -1,0 +1,23 @@
+{
+  "name": "MS02-063 PPTP Malformed Control Data Kernel Denial of Service",
+  "fullname": "auxiliary/dos/pptp/ms02_063_pptp_dos",
+  "rank": 300,
+  "disclosure_date": "2002-09-26",
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "This module exploits a kernel based overflow when sending abnormal PPTP Control Data\n      packets\tto Microsoft Windows 2000 SP0-3 and XP SP0-1 based PPTP RAS servers\n      (Remote Access Services). Kernel memory is overwritten resulting in a BSOD.\n      Code execution may be possible however this module is only a DoS.",
+  "references": [
+    "BID-5807",
+    "CVE-2002-1214",
+    "OSVDB-13422",
+    "MSB-MS02-063"
+  ],
+  "rport": 1723,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/pptp/ms02_063_pptp_dos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/pptp/ms02_063_pptp_dos",
+  "needs_cleanup": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Windows Gather Enumerate Domain Tokens",
+  "fullname": "post/windows/gather/enum_domain_tokens",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module enumerates domain account tokens, processes running under\n          domain accounts, and domain users in the local Administrators, Users\n          and Backup Operator groups.",
+  "platform": "Windows",
+  "mod_time": "2022-09-10 13:54:39 +0000",
+  "path": "/modules/post/windows/gather/enum_domain_tokens.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_domain_tokens",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

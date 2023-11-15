@@ -1,0 +1,22 @@
+{
+  "name": "NTP Monitor List Scanner",
+  "fullname": "auxiliary/scanner/ntp/ntp_monlist",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module identifies NTP servers which permit \"monlist\" queries and\n        obtains the recent clients list. The monlist feature allows remote\n        attackers to cause a denial of service (traffic amplification)\n        via spoofed requests. The more clients there are in the list, the\n        greater the amplification.",
+  "references": [
+    "CVE-2013-5211",
+    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-013A",
+    "URL-https://support.ntp.org/bin/view/Main/SecurityNotice",
+    "URL-https://nmap.org/nsedoc/scripts/ntp-monlist.html"
+  ],
+  "rport": 123,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/ntp/ntp_monlist.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ntp/ntp_monlist",
+  "needs_cleanup": false
+}

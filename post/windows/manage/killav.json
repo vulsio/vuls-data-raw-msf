@@ -1,0 +1,28 @@
+{
+  "name": "Windows Post Kill Antivirus and Hips",
+  "fullname": "post/windows/manage/killav",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Marc-Andre Meloche (MadmanTM)",
+    "Nikhil Mittal (Samratashok)",
+    "Jerome Athias",
+    "OJ Reeves"
+  ],
+  "description": "This module attempts to locate and terminate any processes that are identified\n          as being Antivirus or Host-based IPS related.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/killav.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/killav",
+  "notes": {
+    "Stability": [
+      "os-resource-loss"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

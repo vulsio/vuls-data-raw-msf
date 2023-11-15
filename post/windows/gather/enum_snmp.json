@@ -1,0 +1,30 @@
+{
+  "name": "Windows Gather SNMP Settings",
+  "fullname": "post/windows/gather/enum_snmp",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>",
+    "Tebo <tebo@attackresearch.com>"
+  ],
+  "description": "This module will enumerate the SNMP service configuration.",
+  "references": [
+    "MSB-MS00-096",
+    "URL-https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-096"
+  ],
+  "platform": "Windows",
+  "mod_time": "2022-09-13 17:45:10 +0000",
+  "path": "/modules/post/windows/gather/enum_snmp.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_snmp",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "shell",
+    "powershell",
+    "meterpreter"
+  ]
+}

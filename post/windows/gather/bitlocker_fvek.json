@@ -1,0 +1,22 @@
+{
+  "name": "Bitlocker Master Key (FVEK) Extraction",
+  "fullname": "post/windows/gather/bitlocker_fvek",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Danil Bazin <danil.bazin@hsc.fr>"
+  ],
+  "description": "This module enumerates ways to decrypt Bitlocker volume and if a recovery key is stored locally\n          or can be generated, dump the Bitlocker master key (FVEK)",
+  "references": [
+    "URL-https://github.com/libyal/libbde/blob/master/documentation/BitLocker Drive Encryption (BDE) format.asciidoc",
+    "URL-http://www.hsc.fr/ressources/outils/dislocker/"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/bitlocker_fvek.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/bitlocker_fvek",
+  "session_types": [
+    "meterpreter"
+  ]
+}

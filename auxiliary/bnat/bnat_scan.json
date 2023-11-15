@@ -1,0 +1,20 @@
+{
+  "name": "BNAT Scanner",
+  "fullname": "auxiliary/bnat/bnat_scan",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "bannedit <bannedit@metasploit.com>",
+    "Jonathan Claudius <jclaudius@trustwave.com>"
+  ],
+  "description": "This module is a scanner which can detect Broken NAT (network address translation)\n        implementations, which could result in an inability to reach ports on remote\n        machines. Typically, these ports will appear in nmap scans as 'filtered'/'closed'.",
+  "references": [
+    "URL-https://github.com/claudijd/bnat",
+    "URL-http://www.slideshare.net/claudijd/dc-skytalk-bnat-hijacking-repairing-broken-communication-channels"
+  ],
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/bnat/bnat_scan.rb",
+  "is_install_path": true,
+  "ref_name": "bnat/bnat_scan",
+  "needs_cleanup": false
+}

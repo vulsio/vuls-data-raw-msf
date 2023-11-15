@@ -1,0 +1,22 @@
+{
+  "name": "Oracle DB SQL Injection via SYS.DBMS_CDC_IPUBLISH.ALTER_HOTLOG_INTERNAL_CSOURCE",
+  "fullname": "auxiliary/sqli/oracle/dbms_cdc_ipublish",
+  "rank": 300,
+  "disclosure_date": "2008-10-22",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "The module exploits an sql injection flaw in the ALTER_HOTLOG_INTERNAL_CSOURCE\n          procedure of the PL/SQL package DBMS_CDC_IPUBLISH. Any user with execute privilege\n          on the vulnerable package can exploit this vulnerability. By default, users granted\n          EXECUTE_CATALOG_ROLE have the required privilege.  Affected versions: Oracle Database\n          Server versions 10gR1, 10gR2 and 11gR1. Fixed with October 2008 CPU.",
+  "references": [
+    "CVE-2008-3996",
+    "OSVDB-49321"
+  ],
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/sqli/oracle/dbms_cdc_ipublish.rb",
+  "is_install_path": true,
+  "ref_name": "sqli/oracle/dbms_cdc_ipublish",
+  "post_auth": true,
+  "needs_cleanup": false
+}

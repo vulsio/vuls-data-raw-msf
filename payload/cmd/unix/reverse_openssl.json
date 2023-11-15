@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Double Reverse TCP SSL (openssl)",
+  "fullname": "payload/cmd/unix/reverse_openssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Creates an interactive shell through two inbound connections",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_openssl.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_openssl",
+  "needs_cleanup": false
+}

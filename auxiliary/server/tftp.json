@@ -1,0 +1,16 @@
+{
+  "name": "TFTP File Server",
+  "fullname": "auxiliary/server/tftp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "jduck <jduck@metasploit.com>",
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module provides a TFTP service",
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/server/tftp.rb",
+  "is_install_path": true,
+  "ref_name": "server/tftp",
+  "needs_cleanup": false
+}

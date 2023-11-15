@@ -1,0 +1,38 @@
+{
+  "name": "Katello (Red Hat Satellite) users/update_roles Missing Authorization",
+  "fullname": "auxiliary/admin/http/katello_satellite_priv_esc",
+  "rank": 300,
+  "disclosure_date": "2014-03-24",
+  "type": "auxiliary",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>"
+  ],
+  "description": "This module exploits a missing authorization vulnerability in the\n        \"update_roles\" action of \"users\" controller of Katello and Red Hat Satellite\n        (Katello 1.5.0-14 and earlier) by changing the specified account to an\n        administrator account.",
+  "references": [
+    "CVE-2013-2143",
+    "CWE-862",
+    "URL-https://bugzilla.redhat.com/show_bug.cgi?id=970849"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/katello_satellite_priv_esc.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/katello_satellite_priv_esc",
+  "post_auth": true,
+  "needs_cleanup": false
+}

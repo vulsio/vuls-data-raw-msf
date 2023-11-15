@@ -1,0 +1,16 @@
+{
+  "name": "time(2)-based Context Keyed Payload Encoder",
+  "fullname": "encoder/x86/context_time",
+  "type": "encoder",
+  "author": [
+    "Dimitris Glynos"
+  ],
+  "description": "This is a Context-Keyed Payload Encoder based on time(2)\n        and Shikata Ga Nai.",
+  "platform": "All",
+  "arch": "x86",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/encoders/x86/context_time.rb",
+  "is_install_path": true,
+  "ref_name": "x86/context_time",
+  "needs_cleanup": false
+}

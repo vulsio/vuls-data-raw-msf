@@ -1,0 +1,33 @@
+{
+  "name": "CorpWatch Company Name Information Search",
+  "fullname": "auxiliary/gather/corpwatch_lookup_name",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Brandon Perry <bperry.volatile@gmail.com>"
+  ],
+  "description": "This module interfaces with the CorpWatch API to get publicly available\n        info for a given company name.  Please note that by using CorpWatch API, you\n        acknowledge the limitations of the data CorpWatch provides, and should always\n        verify the information with the official SEC filings before taking any action.",
+  "references": [
+    "URL-http://api.corpwatch.org/"
+  ],
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-03-05 04:43:03 +0000",
+  "path": "/modules/auxiliary/gather/corpwatch_lookup_name.rb",
+  "is_install_path": true,
+  "ref_name": "gather/corpwatch_lookup_name",
+  "needs_cleanup": false
+}

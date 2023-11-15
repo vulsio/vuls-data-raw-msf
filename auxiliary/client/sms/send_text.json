@@ -1,0 +1,16 @@
+{
+  "name": "SMS Client",
+  "fullname": "auxiliary/client/sms/send_text",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module sends a text message to multiple phones of the same carrier.\n        You can use it to send a malicious link to phones.\n\n        Please note that you do not use this module to send a media file (attachment).\n        In order to send a media file, please use auxiliary/client/mms/send_mms instead.",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/client/sms/send_text.rb",
+  "is_install_path": true,
+  "ref_name": "client/sms/send_text",
+  "post_auth": true,
+  "needs_cleanup": false
+}

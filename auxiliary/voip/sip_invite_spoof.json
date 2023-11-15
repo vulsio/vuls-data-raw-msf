@@ -1,0 +1,17 @@
+{
+  "name": "SIP Invite Spoof",
+  "fullname": "auxiliary/voip/sip_invite_spoof",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "David Maynor <dave@erratasec.com>",
+    "ChrisJohnRiley"
+  ],
+  "description": "This module will create a fake SIP invite request making the targeted device ring\n        and display fake caller id information.",
+  "rport": 5060,
+  "mod_time": "2019-03-05 04:43:37 +0000",
+  "path": "/modules/auxiliary/voip/sip_invite_spoof.rb",
+  "is_install_path": true,
+  "ref_name": "voip/sip_invite_spoof",
+  "needs_cleanup": false
+}

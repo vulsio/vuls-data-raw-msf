@@ -1,0 +1,47 @@
+{
+  "name": "WordPress ChopSlider3 id SQLi Scanner",
+  "fullname": "auxiliary/scanner/http/wp_chopslider_id_sqli",
+  "rank": 300,
+  "disclosure_date": "2020-05-12",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "SunCSR",
+    "Callum Murphy <callum.a.murphy.77@gmail.com>"
+  ],
+  "description": "The iDangero.us Chop Slider 3 WordPress plugin version 3.4 and prior\n          contains a blind SQL injection in the id parameter of the\n          get_script/index.php page.  The injection is passed through GET\n          parameters, and thus must be encoded,\n          and magic_quotes is applied at the server.",
+  "references": [
+    "EDB-48457",
+    "CVE-2020-11530",
+    "URL-https://seclists.org/fulldisclosure/2020/May/26"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_chopslider_id_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_chopslider_id_sqli",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

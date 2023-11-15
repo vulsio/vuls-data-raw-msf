@@ -1,0 +1,32 @@
+{
+  "name": "VMWare Screenshot Stealer",
+  "fullname": "auxiliary/scanner/vmware/vmware_screenshot_stealer",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module uses supplied login credentials to connect to VMWare via\n        the web interface. It then searches through the datastores looking for screenshots.\n        It will download any screenshots it finds and save them as loot.",
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-08-26 21:01:10 +0000",
+  "path": "/modules/auxiliary/scanner/vmware/vmware_screenshot_stealer.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/vmware/vmware_screenshot_stealer",
+  "post_auth": true,
+  "needs_cleanup": false
+}

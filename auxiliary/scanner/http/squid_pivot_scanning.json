@@ -1,0 +1,32 @@
+{
+  "name": "Squid Proxy Port Scanner",
+  "fullname": "auxiliary/scanner/http/squid_pivot_scanning",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "willis",
+    "0x44434241"
+  ],
+  "description": "A exposed Squid proxy will usually allow an attacker to make requests on\n        their behalf. If misconfigured, this may give the attacker information\n        about devices that they cannot normally reach. For example, an attacker\n        may be able to make requests for internal IP addresses against an open\n        Squid proxy exposed to the Internet, therefore performing a port scan\n        against the internal network.\n\n        The `auxiliary/scanner/http/open_proxy` module can be used to test for\n        open proxies, though a Squid proxy does not have to be on the open\n        Internet in order to allow for pivoting (e.g. an Intranet Squid proxy\n        which allows the attack to pivot to another part of the internal\n        network).\n\n        This module will not be able to scan network ranges or ports denied by\n        Squid ACLs. Fortunately it is possible to detect whether a host was up\n        and the port was closed, or if the request was blocked by an ACL, based\n        on the response Squid gives. This feedback is provided to the user in\n        meterpreter `VERBOSE` output, otherwise only open and permitted ports\n        are printed.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-08-21 08:47:05 +0000",
+  "path": "/modules/auxiliary/scanner/http/squid_pivot_scanning.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/squid_pivot_scanning",
+  "needs_cleanup": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Android Open Source Platform (AOSP) Browser UXSS",
+  "fullname": "auxiliary/gather/android_object_tag_webview_uxss",
+  "rank": 300,
+  "disclosure_date": "2014-10-04",
+  "type": "auxiliary",
+  "author": [
+    "Rafay Baloch",
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "This module exploits a Universal Cross-Site Scripting (UXSS) vulnerability present in\n        all versions of Android's open source stock browser before 4.4, and Android apps running\n        on < 4.4 that embed the WebView component. If successful, an attacker can leverage this bug\n        to scrape both cookie data and page contents from a vulnerable browser window.\n\n        Target URLs that use X-Frame-Options can not be exploited with this vulnerability.\n\n        Some sample UXSS scripts are provided in data/exploits/uxss.",
+  "references": [
+    "URL-http://www.rafayhackingarticles.net/2014/10/a-tale-of-another-sop-bypass-in-android.html",
+    "URL-https://android.googlesource.com/platform/external/webkit/+/109d59bf6fe4abfd001fc60ddd403f1046b117ef",
+    "URL-http://trac.webkit.org/changeset/96826/webkit"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/android_object_tag_webview_uxss.rb",
+  "is_install_path": true,
+  "ref_name": "gather/android_object_tag_webview_uxss",
+  "needs_cleanup": false
+}

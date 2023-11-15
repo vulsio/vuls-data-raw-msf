@@ -1,0 +1,21 @@
+{
+  "name": "Chargen Probe Utility",
+  "fullname": "auxiliary/scanner/chargen/chargen_probe",
+  "rank": 300,
+  "disclosure_date": "1996-02-08",
+  "type": "auxiliary",
+  "author": [
+    "Matteo Cantoni <goony@nothink.org>"
+  ],
+  "description": "Chargen is a debugging and measurement tool and a character\n        generator service. A character generator service simply sends\n        data without regard to the input.\n        Chargen is susceptible to spoofing the source of transmissions\n        as well as use in a reflection attack vector. The misuse of the\n        testing features of the Chargen service may allow attackers to\n        craft malicious network payloads and reflect them by spoofing\n        the transmission source to effectively direct it to a target.\n        This can result in traffic loops and service degradation with\n        large amounts of network traffic.",
+  "references": [
+    "CVE-1999-0103",
+    "URL-http://tools.ietf.org/html/rfc864"
+  ],
+  "rport": 19,
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/chargen/chargen_probe.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/chargen/chargen_probe",
+  "needs_cleanup": false
+}

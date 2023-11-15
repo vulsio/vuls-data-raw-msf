@@ -1,0 +1,17 @@
+{
+  "name": "Extract zip from Modbus communication",
+  "fullname": "auxiliary/analyze/modbus_zip",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "José Diogo Monteiro <jdlopes@student.dei.uc.pt>",
+    "Luis Rosa <lmrosa@dei.uc.pt)>"
+  ],
+  "description": "This module is able to extract a zip file sent through Modbus from a pcap.\n        Tested with Schneider TM221CE16R",
+  "rport": 502,
+  "mod_time": "2019-06-18 14:08:47 +0000",
+  "path": "/modules/auxiliary/analyze/modbus_zip.rb",
+  "is_install_path": true,
+  "ref_name": "analyze/modbus_zip",
+  "needs_cleanup": false
+}

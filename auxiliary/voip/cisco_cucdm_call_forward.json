@@ -1,0 +1,35 @@
+{
+  "name": "Viproy CUCDM IP Phone XML Services - Call Forwarding Tool",
+  "fullname": "auxiliary/voip/cisco_cucdm_call_forward",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "fozavci"
+  ],
+  "description": "The BVSMWeb portal in the web framework in Cisco Unified Communications Domain Manager\n        (CDM) 10 does not properly implement access control, which allows remote attackers to\n        modify user information. This module exploits the vulnerability to configure unauthorized\n        call forwarding.",
+  "references": [
+    "CVE-2014-3300",
+    "BID-68331"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/voip/cisco_cucdm_call_forward.rb",
+  "is_install_path": true,
+  "ref_name": "voip/cisco_cucdm_call_forward",
+  "needs_cleanup": false
+}

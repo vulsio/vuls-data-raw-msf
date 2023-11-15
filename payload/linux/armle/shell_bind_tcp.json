@@ -1,0 +1,18 @@
+{
+  "name": "Linux Command Shell, Reverse TCP Inline",
+  "fullname": "payload/linux/armle/shell_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "civ",
+    "hal"
+  ],
+  "description": "Connect to target and spawn a command shell",
+  "platform": "Linux",
+  "arch": "armle",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/linux/armle/shell_bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/armle/shell_bind_tcp",
+  "needs_cleanup": false
+}

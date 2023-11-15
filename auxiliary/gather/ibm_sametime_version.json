@@ -1,0 +1,36 @@
+{
+  "name": "IBM Lotus Sametime Version Enumeration",
+  "fullname": "auxiliary/gather/ibm_sametime_version",
+  "rank": 300,
+  "disclosure_date": "2013-12-27",
+  "type": "auxiliary",
+  "author": [
+    "kicks4kittens"
+  ],
+  "description": "This module scans an IBM Lotus Sametime web interface to enumerate\n        the application's version and configuration information.",
+  "references": [
+    "CVE-2013-3982",
+    "URL-http://www-01.ibm.com/support/docview.wss?uid=swg21671201"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/ibm_sametime_version.rb",
+  "is_install_path": true,
+  "ref_name": "gather/ibm_sametime_version",
+  "needs_cleanup": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "WPAD.dat File Server",
+  "fullname": "auxiliary/server/wpad",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "This module generates a valid wpad.dat file for WPAD mitm\n        attacks. Usually this module is used in combination with DNS attacks\n        or the 'NetBIOS Name Service Spoofer' module. Please remember as the\n        server will be running by default on TCP port 80 you will need the\n        required privileges to open that port.",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/server/wpad.rb",
+  "is_install_path": true,
+  "ref_name": "server/wpad",
+  "needs_cleanup": false
+}

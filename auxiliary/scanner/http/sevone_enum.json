@@ -1,0 +1,33 @@
+{
+  "name": "SevOne Network Performance Management Application Brute Force Login Utility",
+  "fullname": "auxiliary/scanner/http/sevone_enum",
+  "rank": 300,
+  "disclosure_date": "2013-06-07",
+  "type": "auxiliary",
+  "author": [
+    "Karn Ganeshen <KarnGaneshen@gmail.com>"
+  ],
+  "description": "This module scans for SevOne Network Performance Management System Application,\n        finds its version, and performs login brute force to identify valid credentials.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/http/sevone_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/sevone_enum",
+  "post_auth": true,
+  "needs_cleanup": false
+}

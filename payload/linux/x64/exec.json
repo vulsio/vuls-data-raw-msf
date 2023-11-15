@@ -1,0 +1,18 @@
+{
+  "name": "Linux Execute Command",
+  "fullname": "payload/linux/x64/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "ricky",
+    "Geyslan G. Bem <geyslan@gmail.com>"
+  ],
+  "description": "Execute an arbitrary command or just a /bin/sh shell",
+  "platform": "Linux",
+  "arch": "x64",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/linux/x64/exec.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x64/exec",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "TFTP Fetch, Windows Encrypted Reverse Shell",
+  "fullname": "payload/cmd/windows/tftp/x64/encrypted_shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Matt Graeber",
+    "Shelby Pace"
+  ],
+  "description": "Fetch and Execute an x64 payload from a tftp server.\n\nConnect back to attacker and spawn an encrypted command shell",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-03-15 19:19:19 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/tftp/x64/encrypted_shell_reverse_tcp",
+  "needs_cleanup": false
+}

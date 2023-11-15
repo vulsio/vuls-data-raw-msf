@@ -1,0 +1,15 @@
+{
+  "name": "TCP SYN Port Scanner",
+  "fullname": "auxiliary/scanner/portscan/syn",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "Enumerate open TCP services using a raw SYN scan.",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/portscan/syn.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/portscan/syn",
+  "needs_cleanup": false
+}

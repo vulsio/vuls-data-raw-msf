@@ -1,0 +1,17 @@
+{
+  "name": "Oracle TNS Listener Command Issuer",
+  "fullname": "auxiliary/admin/oracle/tnscmd",
+  "rank": 300,
+  "disclosure_date": "2009-02-01",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "This module allows for the sending of arbitrary TNS commands in order\n        to gather information.\n        Inspired from tnscmd.pl from www.jammed.com/~jwa/hacks/security/tnscmd/tnscmd",
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/oracle/tnscmd.rb",
+  "is_install_path": true,
+  "ref_name": "admin/oracle/tnscmd",
+  "needs_cleanup": false
+}

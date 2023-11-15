@@ -1,0 +1,38 @@
+{
+  "name": "SysAid Help Desk Database Credentials Disclosure",
+  "fullname": "auxiliary/admin/http/sysaid_sql_creds",
+  "rank": 300,
+  "disclosure_date": "2015-06-03",
+  "type": "auxiliary",
+  "author": [
+    "Pedro Ribeiro <pedrib@gmail.com>"
+  ],
+  "description": "This module exploits a vulnerability in SysAid Help Desk that allows an unauthenticated\n          user to download arbitrary files from the system. This is used to download the server\n          configuration file that contains the database username and password, which is encrypted\n          with a fixed, known key. This module has been tested with SysAid 14.4 on Windows and Linux.",
+  "references": [
+    "CVE-2015-2996",
+    "CVE-2015-2998",
+    "URL-https://seclists.org/fulldisclosure/2015/Jun/8",
+    "URL-https://github.com/pedrib/PoC/blob/master/advisories/sysaid-14.4-multiple-vulns.txt"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/sysaid_sql_creds.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/sysaid_sql_creds",
+  "needs_cleanup": false
+}

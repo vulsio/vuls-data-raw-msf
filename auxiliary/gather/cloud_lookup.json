@@ -1,0 +1,31 @@
+{
+  "name": "Cloud Lookup (and Bypass)",
+  "fullname": "auxiliary/gather/cloud_lookup",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "mekhalleh (RAMELLA Sébastien)",
+    "Yvain"
+  ],
+  "description": "This module can be useful if you need to test the security of your server and your\n          website behind a solution Cloud based. By discovering the origin IP address of the\n          targeted host.\n\n          More precisely, this module uses multiple data sources (in order ViewDNS.info, DNS enumeration\n          and Censys) to collect assigned (or have been assigned) IP addresses from the targeted site or domain\n          that uses the following:\n          * Cloudflare, Amazon CloudFront, ArvanCloud, Envoy Proxy, Fastly, Stackpath Fireblade,\n          Stackpath MaxCDN, Imperva Incapsula, InGen Security (BinarySec EasyWAF), KeyCDN, Microsoft AzureCDN,\n          Netlify and Sucuri.",
+  "references": [
+    "URL-https://citadelo.com/en/blog/cloudflare-how-to-do-it-right-and-do-not-reveal-your-real-ip/"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    53
+  ],
+  "autofilter_services": [
+    "dns"
+  ],
+  "mod_time": "2022-06-23 17:27:47 +0000",
+  "path": "/modules/auxiliary/gather/cloud_lookup.rb",
+  "is_install_path": true,
+  "ref_name": "gather/cloud_lookup",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ]
+  },
+  "needs_cleanup": false
+}

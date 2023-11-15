@@ -1,0 +1,37 @@
+{
+  "name": "Yaws Web Server Directory Traversal",
+  "fullname": "auxiliary/scanner/http/yaws_traversal",
+  "rank": 300,
+  "disclosure_date": "2011-11-25",
+  "type": "auxiliary",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module exploits a directory traversal bug in Yaws v1.9.1 or less.\n        The module can only be used to retrieve files. However, code execution might\n        be possible. Because when the malicious user sends a PUT request, a file is\n        actually created, except no content is written.",
+  "references": [
+    "CVE-2011-4350",
+    "OSVDB-77581",
+    "URL-https://bugzilla.redhat.com/show_bug.cgi?id=757181"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/yaws_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/yaws_traversal",
+  "needs_cleanup": false
+}

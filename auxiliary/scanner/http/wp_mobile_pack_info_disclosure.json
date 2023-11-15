@@ -1,0 +1,37 @@
+{
+  "name": "WordPress Mobile Pack Information Disclosure Vulnerability",
+  "fullname": "auxiliary/scanner/http/wp_mobile_pack_info_disclosure",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Nitin Venkatesh",
+    "Roberto Soares Espreto <robertoespreto@gmail.com>"
+  ],
+  "description": "This module exploits an information disclosure vulnerability in WordPress Plugin\n        \"WP Mobile Pack\" version 2.1.2, allowing to read files with privileges\n        information.",
+  "references": [
+    "CVE-2014-5337",
+    "WPVDB-8107",
+    "PACKETSTORM-132750"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2018-07-12 17:34:52 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_mobile_pack_info_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_mobile_pack_info_disclosure",
+  "needs_cleanup": false
+}

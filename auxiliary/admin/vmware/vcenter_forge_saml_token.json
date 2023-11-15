@@ -1,0 +1,48 @@
+{
+  "name": "VMware vCenter Forge SAML Authentication Credentials",
+  "fullname": "auxiliary/admin/vmware/vcenter_forge_saml_token",
+  "rank": 300,
+  "disclosure_date": "2022-04-20",
+  "type": "auxiliary",
+  "author": [
+    "npm <npm@cesium137.io>"
+  ],
+  "description": "This module forges valid SAML credentials for vCenter server\n          using the vCenter SSO IdP certificate, IdP private key, and\n          VMCA certificates as input objects; you must also  provide\n          the vCenter SSO domain name and vCenter FQDN. The module will\n          return a session cookie for the /ui path that grants access to\n          the SSO domain as a vSphere administrator. The IdP trusted\n          certificate chain can be retrieved using Metasploit post\n          exploitation modules or extracted manually from\n          /storage/db/vmware-vmdir/data.mdb using binwalk.",
+  "references": [
+    "URL-https://www.horizon3.ai/compromising-vcenter-via-saml-certificates/"
+  ],
+  "platform": "Linux",
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-10-03 19:50:04 +0000",
+  "path": "/modules/auxiliary/admin/vmware/vcenter_forge_saml_token.rb",
+  "is_install_path": true,
+  "ref_name": "admin/vmware/vcenter_forge_saml_token",
+  "post_auth": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

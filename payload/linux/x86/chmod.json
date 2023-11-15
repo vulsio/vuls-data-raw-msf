@@ -1,0 +1,17 @@
+{
+  "name": "Linux Chmod",
+  "fullname": "payload/linux/x86/chmod",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "Runs chmod on specified file with specified mode",
+  "platform": "Linux",
+  "arch": "x86",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/linux/x86/chmod.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x86/chmod",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Open a file or URL on the target computer",
+  "fullname": "post/multi/manage/open",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Eliott Teissonniere"
+  ],
+  "description": "This module will open any file or URL specified with the URI format on the\n          target computer via the embedded commands such as 'open' or 'xdg-open'.",
+  "platform": "Linux,OSX,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/manage/open.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/open",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

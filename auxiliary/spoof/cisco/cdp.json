@@ -1,0 +1,18 @@
+{
+  "name": "Send Cisco Discovery Protocol (CDP) Packets",
+  "fullname": "auxiliary/spoof/cisco/cdp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Fatih Ozavci"
+  ],
+  "description": "This module sends Cisco Discovery Protocol (CDP) packets. Note that any responses\n        to the CDP packets broadcast from this module will need to be analyzed with an\n        external packet analysis tool, such as tcpdump or Wireshark in order to learn more\n        about the Cisco switch and router environment.",
+  "references": [
+    "URL-https://en.wikipedia.org/wiki/CDP_Spoofing"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/spoof/cisco/cdp.rb",
+  "is_install_path": true,
+  "ref_name": "spoof/cisco/cdp",
+  "needs_cleanup": false
+}

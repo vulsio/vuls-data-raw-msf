@@ -1,0 +1,15 @@
+{
+  "name": "Password Cracker: OSX",
+  "fullname": "auxiliary/analyze/crack_osx",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "h00die"
+  ],
+  "description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from OSX systems. The module will only crack xsha from OSX 10.4-10.6, xsha512\n        from 10.7,  and PBKDF2 from OSX 10.8+.",
+  "mod_time": "2021-01-27 13:50:39 +0000",
+  "path": "/modules/auxiliary/analyze/crack_osx.rb",
+  "is_install_path": true,
+  "ref_name": "analyze/crack_osx",
+  "needs_cleanup": false
+}

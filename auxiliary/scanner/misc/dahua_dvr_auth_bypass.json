@@ -1,0 +1,23 @@
+{
+  "name": "Dahua DVR Auth Bypass Scanner",
+  "fullname": "auxiliary/scanner/misc/dahua_dvr_auth_bypass",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Tyler Bennett - Talos Consulting",
+    "Jake Reynolds - Depth Security",
+    "Jon Hart <jon_hart@rapid7.com>",
+    "Nathan McBride"
+  ],
+  "description": "Scans for Dahua-based DVRs and then grabs settings. Optionally resets a user's password and clears the device logs",
+  "references": [
+    "CVE-2013-6117",
+    "URL-https://depthsecurity.com/blog/dahua-dvr-authentication-bypass-cve-2013-6117"
+  ],
+  "rport": 37777,
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/misc/dahua_dvr_auth_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/misc/dahua_dvr_auth_bypass",
+  "needs_cleanup": false
+}

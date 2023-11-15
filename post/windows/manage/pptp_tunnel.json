@@ -1,0 +1,22 @@
+{
+  "name": "Windows Manage Remote Point-to-Point Tunneling Protocol",
+  "fullname": "post/windows/manage/pptp_tunnel",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "This module initiates a PPTP connection to a remote machine (VPN server). Once\n          the tunnel is created we can use it to force the victim traffic to go through the\n          server getting a man in the middle attack. Be sure to allow forwarding and\n          masquerading on the VPN server (mitm).",
+  "references": [
+    "URL-https://www.youtube.com/watch?v=vdppEZjMPCM&hd=1"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-05-25 12:45:30 +0000",
+  "path": "/modules/post/windows/manage/pptp_tunnel.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/pptp_tunnel",
+  "post_auth": true,
+  "session_types": [
+    "meterpreter"
+  ]
+}

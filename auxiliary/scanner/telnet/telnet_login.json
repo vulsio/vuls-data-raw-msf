@@ -1,0 +1,26 @@
+{
+  "name": "Telnet Login Check Scanner",
+  "fullname": "auxiliary/scanner/telnet/telnet_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "egypt <egypt@metasploit.com>"
+  ],
+  "description": "This module will test a telnet login on a range of machines and\n        report successful logins.  If you have loaded a database plugin\n        and connected to a database this module will record successful\n        logins and hosts so you can track your access.",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 23,
+  "autofilter_ports": [
+    23
+  ],
+  "autofilter_services": [
+    "telnet"
+  ],
+  "mod_time": "2021-08-31 17:10:07 +0000",
+  "path": "/modules/auxiliary/scanner/telnet/telnet_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/telnet/telnet_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

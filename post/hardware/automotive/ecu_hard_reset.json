@@ -1,0 +1,26 @@
+{
+  "name": "ECU Hard Reset",
+  "fullname": "post/hardware/automotive/ecu_hard_reset",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Jay Turla"
+  ],
+  "description": "This module performs hard reset in the ECU Reset Service Identifier (0x11)",
+  "platform": "Hardware",
+  "mod_time": "2021-09-28 18:51:51 +0000",
+  "path": "/modules/post/hardware/automotive/ecu_hard_reset.rb",
+  "is_install_path": true,
+  "ref_name": "hardware/automotive/ecu_hard_reset",
+  "notes": {
+    "SideEffects": [
+      "physical-effects"
+    ],
+    "Stability": [
+      "crash-service-restarts"
+    ]
+  },
+  "session_types": [
+    "hwbridge"
+  ]
+}

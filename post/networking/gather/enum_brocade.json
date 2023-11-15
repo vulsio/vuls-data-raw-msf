@@ -1,0 +1,21 @@
+{
+  "name": "Brocade Gather Device General Information",
+  "fullname": "post/networking/gather/enum_brocade",
+  "aliases": [
+    "post/brocade/gather/enum_brocade"
+  ],
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "h00die"
+  ],
+  "description": "This module collects Brocade device information and configuration.\n          This module has been tested against an icx6430 running 08.0.20T311.",
+  "platform": "Brocade",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/networking/gather/enum_brocade.rb",
+  "is_install_path": true,
+  "ref_name": "networking/gather/enum_brocade",
+  "session_types": [
+    "shell"
+  ]
+}

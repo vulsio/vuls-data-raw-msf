@@ -1,0 +1,21 @@
+{
+  "name": "General Electric D20ME TFTP Server Buffer Overflow DoS",
+  "fullname": "auxiliary/dos/scada/d20_tftp_overflow",
+  "rank": 300,
+  "disclosure_date": "2012-01-19",
+  "type": "auxiliary",
+  "author": [
+    "K. Reid Wightman <wightman@digitalbond.com>",
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "By sending a malformed TFTP request to the GE D20ME, it is possible to crash the\n        device.\n\n        This module is based on the original 'd20ftpbo.rb' Basecamp module from\n        DigitalBond.",
+  "references": [
+    "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
+  ],
+  "rport": 69,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/dos/scada/d20_tftp_overflow.rb",
+  "is_install_path": true,
+  "ref_name": "dos/scada/d20_tftp_overflow",
+  "needs_cleanup": false
+}

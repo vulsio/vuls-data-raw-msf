@@ -1,0 +1,25 @@
+{
+  "name": "DNS BailiWicked Domain Attack",
+  "fullname": "auxiliary/spoof/dns/bailiwicked_domain",
+  "rank": 300,
+  "disclosure_date": "2008-07-21",
+  "type": "auxiliary",
+  "author": [
+    "I)ruid <druid@caughq.org>",
+    "hdm <x@hdm.io>",
+    "Cedric Blancher <sid@rstack.org>"
+  ],
+  "description": "This exploit attacks a fairly ubiquitous flaw in DNS implementations which\n        Dan Kaminsky found and disclosed ~Jul 2008.  This exploit replaces the target\n        domains nameserver entries in a vulnerable DNS cache server. This attack works\n        by sending random hostname queries to the target DNS server coupled with spoofed\n        replies to those queries from the authoritative nameservers for that domain.\n        Eventually, a guessed ID will match, the spoofed packet will get accepted, and\n        the nameserver entries for the target domain will be replaced by the server\n        specified in the NEWDNS option of this exploit.",
+  "references": [
+    "CVE-2008-1447",
+    "OSVDB-46776",
+    "US-CERT-VU-800113",
+    "URL-http://www.caughq.org/exploits/CAU-EX-2008-0003.txt"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/spoof/dns/bailiwicked_domain.rb",
+  "is_install_path": true,
+  "ref_name": "spoof/dns/bailiwicked_domain",
+  "check": true,
+  "needs_cleanup": false
+}

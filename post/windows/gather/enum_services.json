@@ -1,0 +1,26 @@
+{
+  "name": "Windows Gather Service Info Enumeration",
+  "fullname": "post/windows/gather/enum_services",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Keith Faber",
+    "Kx499"
+  ],
+  "description": "This module will query the system for services and display name and\n          configuration info for each returned service. It allows you to\n          optionally search the credentials, path, or start type for a string\n          and only return the results that match. These query operations are\n          cumulative and if no query strings are specified, it just returns all\n          services.  NOTE: If the script hangs, windows firewall is most likely\n          on and you did not migrate to a safe process (explorer.exe for\n          example).",
+  "platform": "Windows",
+  "mod_time": "2022-09-09 17:27:19 +0000",
+  "path": "/modules/post/windows/gather/enum_services.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_services",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

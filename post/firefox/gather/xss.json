@@ -1,0 +1,15 @@
+{
+  "name": "Firefox XSS",
+  "fullname": "post/firefox/gather/xss",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "This module runs the provided SCRIPT as javascript in the\n          origin of the provided URL. It works by navigating to a hidden\n          ChromeWindow to the URL, then injecting the SCRIPT with Function().\n          The callback \"send(result)\" is used to send data back to the listener.",
+  "platform": "Firefox",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/firefox/gather/xss.rb",
+  "is_install_path": true,
+  "ref_name": "firefox/gather/xss"
+}

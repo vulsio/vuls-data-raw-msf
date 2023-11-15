@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Reverse TCP SSL (telnet)",
+  "fullname": "payload/cmd/unix/reverse_bash_telnet_ssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Creates an interactive shell via mkfifo and telnet.\n        This method works on Debian and other systems compiled\n        without /dev/tcp support. This module uses the '-z'\n        option included on some systems to encrypt using SSL.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_bash_telnet_ssl.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_bash_telnet_ssl",
+  "needs_cleanup": false
+}

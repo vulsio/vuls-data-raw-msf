@@ -1,0 +1,21 @@
+{
+  "name": "HTTP Fetch, Linux Command Shell, Bind TCP Random Port Inline",
+  "fullname": "payload/cmd/linux/http/x64/shell_bind_tcp_random_port",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Geyslan G. Bem <geyslan@gmail.com>"
+  ],
+  "description": "Fetch and execute an x64 payload from an HTTP server.\n\n        Listen for a connection in a random port and spawn a command shell.\n        Use nmap to discover the open port: 'nmap -sS target -p-'.",
+  "references": [
+    "URL-https://github.com/geyslan/SLAE/blob/master/improvements/tiny_shell_bind_tcp_random_port_x86_64.asm"
+  ],
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-05-25 11:49:38 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/http/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/http/x64/shell_bind_tcp_random_port",
+  "needs_cleanup": false
+}

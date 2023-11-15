@@ -1,0 +1,21 @@
+{
+  "name": "rexec Authentication Scanner",
+  "fullname": "auxiliary/scanner/rservices/rexec_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "jduck <jduck@metasploit.com>"
+  ],
+  "description": "This module will test an rexec service on a range of machines and\n        report successful logins.\n\n        NOTE: This module requires access to bind to privileged ports (below 1024).",
+  "references": [
+    "CVE-1999-0651",
+    "CVE-1999-0502"
+  ],
+  "rport": 512,
+  "mod_time": "2022-09-27 10:23:18 +0000",
+  "path": "/modules/auxiliary/scanner/rservices/rexec_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/rservices/rexec_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

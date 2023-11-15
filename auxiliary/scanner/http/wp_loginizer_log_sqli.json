@@ -1,0 +1,48 @@
+{
+  "name": "WordPress Loginizer log SQLi Scanner",
+  "fullname": "auxiliary/scanner/http/wp_loginizer_log_sqli",
+  "rank": 300,
+  "disclosure_date": "2020-10-21",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "red0xff",
+    "mslavco"
+  ],
+  "description": "Loginizer wordpress plugin contains an unauthenticated timebased SQL injection in\n          versions before 1.6.4.  The vulnerable parameter is in the log parameter.\n          Wordpress has forced updates of the plugin to all servers",
+  "references": [
+    "URL-https://wpdeeply.com/loginizer-before-1-6-4-sqli-injection/",
+    "CVE-2020-27615",
+    "URL-https://loginizer.com/blog/loginizer-1-6-4-security-fix/",
+    "URL-https://twitter.com/mslavco/status/1318877097184604161"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_loginizer_log_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_loginizer_log_sqli",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

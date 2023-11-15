@@ -1,0 +1,52 @@
+{
+  "name": "Windows IIS HTTP Protocol Stack DOS",
+  "fullname": "auxiliary/dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166",
+  "rank": 300,
+  "disclosure_date": "2021-05-11",
+  "type": "auxiliary",
+  "author": [
+    "Max",
+    "Stefan Blair",
+    "Axel Souchet",
+    "Maurice LAMBERT <mauricelambert434@gmail.com>"
+  ],
+  "description": "This module exploits CVE-2021-31166, a UAF bug in http.sys\n          when parsing specially crafted Accept-Encoding headers\n          that was patched by Microsoft in May 2021, on vulnerable\n          IIS servers. Successful exploitation will result in\n          the target computer BSOD'ing before subsequently rebooting.\n          Note that the target IIS server may or may not come back up,\n          this depends on the target's settings as to whether IIS\n          is configured to start on reboot.",
+  "references": [
+    "CVE-2021-31166",
+    "URL-https://nvd.nist.gov/vuln/detail/CVE-2021-31166",
+    "URL-https://github.com/mauricelambert/CVE-2021-31166",
+    "URL-https://twitter.com/metr0/status/1392631376592076805",
+    "URL-https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-31166"
+  ],
+  "platform": "Windows",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-10-01 17:54:59 +0000",
+  "path": "/modules/auxiliary/dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs",
+      "screen-effects"
+    ],
+    "Stability": [
+      "crash-os-restarts"
+    ]
+  },
+  "needs_cleanup": false
+}

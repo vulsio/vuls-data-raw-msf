@@ -1,0 +1,18 @@
+{
+  "name": "Multi Manage Record Microphone",
+  "fullname": "post/multi/manage/record_mic",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will enable and record your target's microphone.\n          For non-Windows targets, please use Java meterpreter to be\n          able to use this feature.",
+  "platform": "Linux,OSX,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/manage/record_mic.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/record_mic",
+  "session_types": [
+    "meterpreter"
+  ]
+}

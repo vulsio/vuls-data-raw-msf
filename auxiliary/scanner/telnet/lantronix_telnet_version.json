@@ -1,0 +1,23 @@
+{
+  "name": "Lantronix Telnet Service Banner Detection",
+  "fullname": "auxiliary/scanner/telnet/lantronix_telnet_version",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Detect Lantronix telnet services",
+  "rport": 9999,
+  "autofilter_ports": [
+    23
+  ],
+  "autofilter_services": [
+    "telnet"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/telnet/lantronix_telnet_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/telnet/lantronix_telnet_version",
+  "needs_cleanup": false
+}

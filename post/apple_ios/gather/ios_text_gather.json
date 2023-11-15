@@ -1,0 +1,18 @@
+{
+  "name": "iOS Text Gatherer",
+  "fullname": "post/apple_ios/gather/ios_text_gather",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Shelby Pace"
+  ],
+  "description": "This module collects text messages from iPhones.\n          Tested on iOS 10.3.3 on an iPhone 5.",
+  "platform": "Apple_iOS",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/apple_ios/gather/ios_text_gather.rb",
+  "is_install_path": true,
+  "ref_name": "apple_ios/gather/ios_text_gather",
+  "session_types": [
+    "meterpreter"
+  ]
+}

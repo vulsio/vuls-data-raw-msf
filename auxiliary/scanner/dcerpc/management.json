@@ -1,0 +1,16 @@
+{
+  "name": "Remote Management Interface Discovery",
+  "fullname": "auxiliary/scanner/dcerpc/management",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module can be used to obtain information from the Remote\n        Management Interface DCERPC service.",
+  "rport": 135,
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/dcerpc/management.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/dcerpc/management",
+  "needs_cleanup": false
+}

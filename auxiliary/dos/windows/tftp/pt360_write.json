@@ -1,0 +1,22 @@
+{
+  "name": "PacketTrap TFTP Server 2.2.5459.0 DoS",
+  "fullname": "auxiliary/dos/windows/tftp/pt360_write",
+  "rank": 300,
+  "disclosure_date": "2008-10-29",
+  "type": "auxiliary",
+  "author": [
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "The PacketTrap TFTP server version 2.2.5459.0 can be\n        brought down by sending a special write request.",
+  "references": [
+    "CVE-2008-1311",
+    "OSVDB-42932",
+    "EDB-6863"
+  ],
+  "rport": 69,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/windows/tftp/pt360_write.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/tftp/pt360_write",
+  "needs_cleanup": false
+}

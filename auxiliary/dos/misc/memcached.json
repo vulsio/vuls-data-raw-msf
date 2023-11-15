@@ -1,0 +1,21 @@
+{
+  "name": "Memcached Remote Denial of Service",
+  "fullname": "auxiliary/dos/misc/memcached",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Gregory Man <man.gregory@gmail.com>"
+  ],
+  "description": "This module sends a specially-crafted packet to cause a\n        segmentation fault in memcached v1.4.15 or earlier versions.",
+  "references": [
+    "URL-https://code.google.com/archive/p/memcached/issues/192",
+    "CVE-2011-4971",
+    "OSVDB-92867"
+  ],
+  "rport": 11211,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/misc/memcached.rb",
+  "is_install_path": true,
+  "ref_name": "dos/misc/memcached",
+  "needs_cleanup": false
+}

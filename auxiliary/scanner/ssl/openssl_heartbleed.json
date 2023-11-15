@@ -1,0 +1,45 @@
+{
+  "name": "OpenSSL Heartbeat (Heartbleed) Information Leak",
+  "fullname": "auxiliary/scanner/ssl/openssl_heartbleed",
+  "rank": 300,
+  "disclosure_date": "2014-04-07",
+  "type": "auxiliary",
+  "author": [
+    "Neel Mehta",
+    "Riku",
+    "Antti",
+    "Matti",
+    "Jared Stafford <jspenguin@jspenguin.org>",
+    "FiloSottile",
+    "Christian Mehlmauer <FireFart@gmail.com>",
+    "wvu <wvu@metasploit.com>",
+    "juan vazquez <juan.vazquez@metasploit.com>",
+    "Sebastiano Di Paola",
+    "Tom Sellers",
+    "jjarmoc",
+    "Ben Buchanan",
+    "herself"
+  ],
+  "description": "This module implements the OpenSSL Heartbleed attack. The problem\n        exists in the handling of heartbeat requests, where a fake length can\n        be used to leak memory data in the response. Services that support\n        STARTTLS may also be vulnerable.\n\n        The module supports several actions, allowing for scanning, dumping of\n        memory contents to loot, and private key recovery.\n\n        The LEAK_COUNT option can be used to specify leaks per SCAN or DUMP.\n\n        The repeat command can be used to make running the SCAN or DUMP many\n        times more powerful. As in:\n            repeat -t 60 run; sleep 2\n        To run every two seconds for one minute.",
+  "references": [
+    "CVE-2014-0160",
+    "US-CERT-VU-720951",
+    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-098A",
+    "URL-https://heartbleed.com/",
+    "URL-https://github.com/FiloSottile/Heartbleed",
+    "URL-https://gist.github.com/takeshixx/10107280",
+    "URL-https://filippo.io/Heartbleed/"
+  ],
+  "rport": 443,
+  "mod_time": "2022-07-19 16:04:41 +0000",
+  "path": "/modules/auxiliary/scanner/ssl/openssl_heartbleed.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ssl/openssl_heartbleed",
+  "check": true,
+  "notes": {
+    "AKA": [
+      "Heartbleed"
+    ]
+  },
+  "needs_cleanup": false
+}

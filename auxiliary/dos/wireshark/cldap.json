@@ -1,0 +1,23 @@
+{
+  "name": "Wireshark CLDAP Dissector DOS",
+  "fullname": "auxiliary/dos/wireshark/cldap",
+  "rank": 300,
+  "disclosure_date": "2011-03-01",
+  "type": "auxiliary",
+  "author": [
+    "joernchen <joernchen <joernchen <joernchen@phenoelit.de> (Phenoelit)>"
+  ],
+  "description": "This module causes infinite recursion to occur within the\n        CLDAP dissector by sending a specially crafted UDP packet.",
+  "references": [
+    "CVE-2011-1140",
+    "OSVDB-71552",
+    "URL-https://www.wireshark.org/security/wnpa-sec-2011-04.html",
+    "URL-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=5717"
+  ],
+  "rport": 389,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/wireshark/cldap.rb",
+  "is_install_path": true,
+  "ref_name": "dos/wireshark/cldap",
+  "needs_cleanup": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Make Token Command",
+  "fullname": "post/windows/manage/make_token",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Daniel López Jiménez (attl4s)",
+    "Simone Salucci (saim1z)"
+  ],
+  "description": "In its default configuration, this module creates a new network security context with the specified\n          logon data (username, domain and password). Under the hood, Meterpreter's access token is cloned, and\n          a new logon session is created and linked to that token. The token is then impersonated to acquire\n          the new network security context. This module has no effect on local actions - only on remote ones\n          (where the specified credential material will be used). This module does not validate the credentials\n          specified.",
+  "platform": "Windows",
+  "mod_time": "2023-06-06 09:07:57 +0000",
+  "path": "/modules/post/windows/manage/make_token.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/make_token",
+  "post_auth": true,
+  "notes": {
+    "AKA": [
+      "make_token",
+      "maketoken"
+    ],
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

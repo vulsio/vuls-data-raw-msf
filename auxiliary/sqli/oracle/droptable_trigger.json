@@ -1,0 +1,22 @@
+{
+  "name": "Oracle DB SQL Injection in MDSYS.SDO_TOPO_DROP_FTBL Trigger",
+  "fullname": "auxiliary/sqli/oracle/droptable_trigger",
+  "rank": 300,
+  "disclosure_date": "2009-01-13",
+  "type": "auxiliary",
+  "author": [
+    "Sh2kerr <research[ad]dsec.ru>"
+  ],
+  "description": "This module will escalate an Oracle DB user to MDSYS by exploiting a sql injection bug in\n          the MDSYS.SDO_TOPO_DROP_FTBL trigger. After that exploit escalate user to DBA using \"CREATE ANY TRIGGER\" privilege\n          given to MDSYS user by creating evil trigger in system scheme (2-stage attack).",
+  "references": [
+    "CVE-2008-3979",
+    "OSVDB-51354",
+    "URL-http://www.securityfocus.com/archive/1/500061",
+    "URL-http://www.ngssoftware.com/"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/sqli/oracle/droptable_trigger.rb",
+  "is_install_path": true,
+  "ref_name": "sqli/oracle/droptable_trigger",
+  "needs_cleanup": false
+}

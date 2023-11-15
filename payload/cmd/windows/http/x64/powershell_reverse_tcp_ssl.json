@@ -1,0 +1,23 @@
+{
+  "name": "HTTP Fetch",
+  "fullname": "payload/cmd/windows/http/x64/powershell_reverse_tcp_ssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Ben Turner",
+    "Dave Hardy",
+    "sf <stephen_fewer@harmonysecurity.com>"
+  ],
+  "description": "Fetch and Execute an x64 payload from an http server",
+  "references": [
+    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-07-31 16:38:09 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/http/x64/powershell_reverse_tcp_ssl",
+  "needs_cleanup": false
+}

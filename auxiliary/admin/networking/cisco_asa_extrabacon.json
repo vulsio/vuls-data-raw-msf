@@ -1,0 +1,37 @@
+{
+  "name": "Cisco ASA Authentication Bypass (EXTRABACON)",
+  "fullname": "auxiliary/admin/networking/cisco_asa_extrabacon",
+  "aliases": [
+    "auxiliary/admin/cisco/cisco_asa_extrabacon"
+  ],
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Sean Dillon <sean.dillon@risksense.com>",
+    "Zachary Harding <zachary.harding@risksense.com>",
+    "Nate Caroe <nate.caroe@risksense.com>",
+    "Dylan Davis <dylan.davis@risksense.com>",
+    "William Webb <william_webb@rapid7.com>",
+    "Jeff Jarmoc <jjarmoc>",
+    "Equation Group",
+    "Shadow Brokers"
+  ],
+  "description": "This module patches the authentication functions of a Cisco ASA\n          to allow uncredentialed logins. Uses improved shellcode for payload.",
+  "references": [
+    "CVE-2016-6366",
+    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160817-asa-snmp",
+    "URL-https://github.com/RiskSense-Ops/CVE-2016-6366"
+  ],
+  "rport": 161,
+  "mod_time": "2021-08-27 17:15:33 +0000",
+  "path": "/modules/auxiliary/admin/networking/cisco_asa_extrabacon.rb",
+  "is_install_path": true,
+  "ref_name": "admin/networking/cisco_asa_extrabacon",
+  "check": true,
+  "notes": {
+    "AKA": [
+      "EXTRABACON"
+    ]
+  },
+  "needs_cleanup": false
+}

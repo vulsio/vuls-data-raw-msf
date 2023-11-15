@@ -1,0 +1,21 @@
+{
+  "name": "Juniper Gather Device General Information",
+  "fullname": "post/networking/gather/enum_juniper",
+  "aliases": [
+    "post/juniper/gather/enum_juniper"
+  ],
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "h00die"
+  ],
+  "description": "This module collects a Juniper ScreenOS and JunOS device information and configuration.",
+  "platform": "Juniper",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/networking/gather/enum_juniper.rb",
+  "is_install_path": true,
+  "ref_name": "networking/gather/enum_juniper",
+  "session_types": [
+    "shell"
+  ]
+}

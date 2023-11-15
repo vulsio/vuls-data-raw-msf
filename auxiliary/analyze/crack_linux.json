@@ -1,0 +1,20 @@
+{
+  "name": "Password Cracker: Linux",
+  "fullname": "auxiliary/analyze/crack_linux",
+  "aliases": [
+    "auxiliary/analyze/jtr_linux"
+  ],
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>",
+    "hdm <x@hdm.io>",
+    "h00die"
+  ],
+  "description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from unshadowed passwd files from Unix/Linux systems. The module will only crack\n        MD5, BSDi and DES implementations by default. However, it can also crack\n        Blowfish and SHA(256/512), but it is much slower.",
+  "mod_time": "2021-01-27 13:50:39 +0000",
+  "path": "/modules/auxiliary/analyze/crack_linux.rb",
+  "is_install_path": true,
+  "ref_name": "analyze/crack_linux",
+  "needs_cleanup": false
+}

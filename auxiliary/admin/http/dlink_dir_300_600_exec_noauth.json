@@ -1,0 +1,39 @@
+{
+  "name": "D-Link DIR-600 / DIR-300 Unauthenticated Remote Command Execution",
+  "fullname": "auxiliary/admin/http/dlink_dir_300_600_exec_noauth",
+  "rank": 300,
+  "disclosure_date": "2013-02-04",
+  "type": "auxiliary",
+  "author": [
+    "Michael Messner <devnull@s3cur1ty.de>"
+  ],
+  "description": "This module exploits an OS Command Injection vulnerability in some D-Link\n          Routers like the DIR-600 rev B and the DIR-300 rev B. The vulnerability exists in\n          command.php, which is accessible without authentication. This module has been\n          tested with the versions DIR-600 2.14b01 and below, DIR-300 rev B 2.13 and below.\n          In order to get a remote shell the telnetd could be started without any\n          authentication.",
+  "references": [
+    "OSVDB-89861",
+    "EDB-24453",
+    "URL-https://eu.dlink.com/uk/en/products/dir-600-wireless-n-150-home-router",
+    "URL-http://www.s3cur1ty.de/home-network-horror-days",
+    "URL-http://www.s3cur1ty.de/m1adv2013-003"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/dlink_dir_300_600_exec_noauth.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/dlink_dir_300_600_exec_noauth",
+  "needs_cleanup": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Memcached UDP Version Scanner",
+  "fullname": "auxiliary/scanner/memcached/memcached_udp_version",
+  "rank": 300,
+  "disclosure_date": "2003-07-23",
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module can be used to discover Memcached servers which expose the\n          unrestricted UDP port 11211. A basic \"version\" request is executed to obtain\n          the version of memcached.",
+  "references": [
+    "URL-https://github.com/memcached/memcached/blob/master/doc/protocol.txt"
+  ],
+  "rport": 11211,
+  "mod_time": "2020-10-02 12:20:05 +0000",
+  "path": "/modules/auxiliary/scanner/memcached/memcached_udp_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/memcached/memcached_udp_version",
+  "needs_cleanup": false
+}

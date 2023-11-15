@@ -1,0 +1,21 @@
+{
+  "name": "List Rsync Modules",
+  "fullname": "auxiliary/scanner/rsync/modules_list",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "ikkini",
+    "Jon Hart <jon_hart@rapid7.com>",
+    "Nixawk"
+  ],
+  "description": "An rsync module is essentially a directory share.  These modules can\n        optionally be protected by a password.  This module connects to and\n        negotiates with an rsync server, lists the available modules and,\n        optionally, determines if the module requires a password to access.",
+  "references": [
+    "URL-http://rsync.samba.org/ftp/rsync/rsync.html"
+  ],
+  "rport": 873,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/rsync/modules_list.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/rsync/modules_list",
+  "needs_cleanup": false
+}

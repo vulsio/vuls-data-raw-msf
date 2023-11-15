@@ -1,0 +1,20 @@
+{
+  "name": "DB2 Authentication Brute Force Utility",
+  "fullname": "auxiliary/scanner/db2/db2_auth",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module attempts to authenticate against a DB2\n        instance using username and password combinations indicated by the\n        USER_FILE, PASS_FILE, and USERPASS_FILE options.",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 50000,
+  "mod_time": "2021-08-31 17:10:07 +0000",
+  "path": "/modules/auxiliary/scanner/db2/db2_auth.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/db2/db2_auth",
+  "post_auth": true,
+  "needs_cleanup": false
+}

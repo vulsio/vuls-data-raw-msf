@@ -1,0 +1,26 @@
+{
+  "name": "Windows Gather Unattended Answer File Enumeration",
+  "fullname": "post/windows/gather/enum_unattend",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Sean Verity <veritysr1980@gmail.com>",
+    "sinn3r <sinn3r@metasploit.com>",
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "This module will check the file system for a copy of unattend.xml and/or\n          autounattend.xml found in Windows Vista, or newer Windows systems.  And then\n          extract sensitive information such as usernames and decoded passwords.",
+  "references": [
+    "URL-http://technet.microsoft.com/en-us/library/ff715801",
+    "URL-http://technet.microsoft.com/en-us/library/cc749415(v=ws.10).aspx",
+    "URL-http://technet.microsoft.com/en-us/library/c026170e-40ef-4191-98dd-0b9835bfa580"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/enum_unattend.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_unattend",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

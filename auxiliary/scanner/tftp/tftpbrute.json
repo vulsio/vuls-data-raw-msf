@@ -1,0 +1,16 @@
+{
+  "name": "TFTP Brute Forcer",
+  "fullname": "auxiliary/scanner/tftp/tftpbrute",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "antoine"
+  ],
+  "description": "This module uses a dictionary to brute force valid TFTP image names from a TFTP server.",
+  "rport": 69,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/tftp/tftpbrute.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/tftp/tftpbrute",
+  "needs_cleanup": false
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Canon Printer Wireless Configuration Disclosure",
+  "fullname": "auxiliary/scanner/http/canon_wireless",
+  "rank": 300,
+  "disclosure_date": "2013-06-18",
+  "type": "auxiliary",
+  "author": [
+    "Matt \"hostess\" Andreko <mandreko@accuvant.com>"
+  ],
+  "description": "This module enumerates wireless credentials from Canon printers with a web interface.\n          It has been tested on Canon models: MG3100, MG5300, MG6100, MP495, MX340, MX870,\n          MX890, MX920.",
+  "references": [
+    "CVE-2013-4614",
+    "OSVDB-94417",
+    "URL-https://www.mattandreko.com/2013/06/canon-y-u-no-security.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/canon_wireless.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/canon_wireless",
+  "needs_cleanup": false
+}

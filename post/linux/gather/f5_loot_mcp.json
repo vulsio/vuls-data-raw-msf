@@ -1,0 +1,25 @@
+{
+  "name": "F5 Big-IP Gather Information from MCP Datastore",
+  "fullname": "post/linux/gather/f5_loot_mcp",
+  "rank": 300,
+  "disclosure_date": "2022-11-16",
+  "type": "post",
+  "author": [
+    "Ron Bowes"
+  ],
+  "description": "This module gathers various interesting pieces of data from F5's\n          \"mcp\" datastore, which is accessed via /var/run/mcp using a\n          proprietary protocol.\n\n          Adapted from:  https://github.com/rbowes-r7/refreshing-mcp-tool/blob/main/mcp-getloot.rb",
+  "references": [
+    "URL-https://github.com/rbowes-r7/refreshing-mcp-tool",
+    "URL-https://www.rapid7.com/blog/post/2022/11/16/cve-2022-41622-and-cve-2022-41800-fixed-f5-big-ip-and-icontrol-rest-vulnerabilities-and-exposures/",
+    "URL-https://support.f5.com/csp/article/K97843387"
+  ],
+  "platform": "Linux,Unix",
+  "mod_time": "2022-11-29 17:52:23 +0000",
+  "path": "/modules/post/linux/gather/f5_loot_mcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/f5_loot_mcp",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

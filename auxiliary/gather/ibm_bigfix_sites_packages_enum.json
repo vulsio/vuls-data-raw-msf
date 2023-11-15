@@ -1,0 +1,39 @@
+{
+  "name": "IBM BigFix Relay Server Sites and Package Enum",
+  "fullname": "auxiliary/gather/ibm_bigfix_sites_packages_enum",
+  "rank": 300,
+  "disclosure_date": "2019-03-18",
+  "type": "auxiliary",
+  "author": [
+    "HD Moore",
+    "Chris Bellows",
+    "Ryan Hanson",
+    "Jacob Robles"
+  ],
+  "description": "This module retrieves masthead, site, and available package information\n        from IBM BigFix Relay Servers.",
+  "references": [
+    "CVE-2019-4061",
+    "URL-https://www.atredis.com/blog/2019/3/18/harvesting-data-from-bigfix-relay-servers"
+  ],
+  "rport": 52311,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/ibm_bigfix_sites_packages_enum.rb",
+  "is_install_path": true,
+  "ref_name": "gather/ibm_bigfix_sites_packages_enum",
+  "needs_cleanup": false
+}

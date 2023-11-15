@@ -1,0 +1,22 @@
+{
+  "name": "TFTP Fetch, Linux Add User",
+  "fullname": "payload/cmd/linux/tftp/x86/adduser",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "skape <mmiller@hick.org>",
+    "vlad902 <vlad902@gmail.com>",
+    "spoonm <spoonm@no$email.com>"
+  ],
+  "description": "Fetch and execute a x86 payload from a TFTP server.\nCreate a new user with UID 0",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x86/adduser",
+  "post_auth": true,
+  "needs_cleanup": false
+}

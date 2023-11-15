@@ -1,0 +1,19 @@
+{
+  "name": "NTDS Grabber",
+  "fullname": "post/windows/gather/ntds_grabber",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Koen Riepe (koen.riepe <Koen Riepe (koen.riepe@fox-it.com)>"
+  ],
+  "description": "This module uses a powershell script to obtain a copy of the ntds,dit SAM and SYSTEM files on a domain controller.\n          It compresses all these files in a cabinet file called All.cab.",
+  "platform": "Windows",
+  "arch": "x86, x64",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/ntds_grabber.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/ntds_grabber",
+  "session_types": [
+    "meterpreter"
+  ]
+}

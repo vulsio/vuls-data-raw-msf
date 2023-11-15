@@ -1,0 +1,20 @@
+{
+  "name": "BSD x64 Command Shell, Bind TCP Inline (IPv6)",
+  "fullname": "payload/bsd/x64/shell_bind_ipv6_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Balazs Bucsay @xoreipeip <balazs.bucsay[-at-]rycon[-dot-]hu>"
+  ],
+  "description": "Listen for a connection and spawn a command shell over IPv6",
+  "references": [
+    "URL-https://github.com/earthquake/shellcodes/blob/master/x86_64_bsd_ipv6_bind_tcp.asm.c"
+  ],
+  "platform": "BSD",
+  "arch": "x64",
+  "mod_time": "2023-07-27 16:02:37 +0000",
+  "path": "/modules/payloads/singles/bsd/x64/shell_bind_ipv6_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "bsd/x64/shell_bind_ipv6_tcp",
+  "needs_cleanup": false
+}

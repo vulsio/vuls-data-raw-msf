@@ -1,0 +1,35 @@
+{
+  "name": "Viproy CUCDM IP Phone XML Services - Speed Dial Attack Tool",
+  "fullname": "auxiliary/voip/cisco_cucdm_speed_dials",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "fozavci"
+  ],
+  "description": "The BVSMWeb portal in the web framework in Cisco Unified Communications Domain Manager\n        (CDM), before version 10, doesn't implement access control properly, which allows remote\n        attackers to modify user information. This module exploits the vulnerability to make\n        unauthorized speed dial entity manipulations.",
+  "references": [
+    "CVE-2014-3300",
+    "BID-68331"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-08-28 20:17:58 +0000",
+  "path": "/modules/auxiliary/voip/cisco_cucdm_speed_dials.rb",
+  "is_install_path": true,
+  "ref_name": "voip/cisco_cucdm_speed_dials",
+  "needs_cleanup": false
+}

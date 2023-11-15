@@ -1,0 +1,39 @@
+{
+  "name": "MS10-065 Microsoft IIS 5 NTFS Stream Authentication Bypass",
+  "fullname": "auxiliary/admin/http/iis_auth_bypass",
+  "rank": 300,
+  "disclosure_date": "2010-07-02",
+  "type": "auxiliary",
+  "author": [
+    "Soroush Dalili",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module bypasses basic authentication for Internet Information Services (IIS).\n          By appending the NTFS stream name to the directory name in a request, it is\n          possible to bypass authentication.",
+  "references": [
+    "CVE-2010-2731",
+    "OSVDB-66160",
+    "MSB-MS10-065",
+    "URL-https://soroush.secproject.com/blog/2010/07/iis5-1-directory-authentication-bypass-by-using-i30index_allocation/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/iis_auth_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/iis_auth_bypass",
+  "needs_cleanup": false
+}

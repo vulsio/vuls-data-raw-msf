@@ -1,0 +1,36 @@
+{
+  "name": "SAP SMB Relay Abuse",
+  "fullname": "auxiliary/scanner/sap/sap_smb_relay",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Alexey Tyurin",
+    "nmonkee"
+  ],
+  "description": "This module exploits provides several SMB Relay abuse through different SAP\n        services and functions. The attack is done through specially crafted requests\n        including a UNC Path which will be accessing by the SAP system while trying to\n        process the request.  In order to get the hashes the auxiliary/server/capture/smb\n        module can be used.",
+  "references": [
+    "URL-http://erpscan.com/advisories/dsecrg-12-033-sap-basis-6-407-02-xml-external-entity/",
+    "URL-https://launchpad.support.sap.com/#/notes/1597066"
+  ],
+  "rport": 8000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_smb_relay.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_smb_relay",
+  "needs_cleanup": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Windows Inject PE Files, Hidden Bind TCP Stager",
+  "fullname": "payload/windows/peinject/bind_hidden_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "ege <egebalci@pm.me>",
+    "hdm <x@hdm.io>",
+    "skape <mmiller@hick.org>",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "Inject a custom native PE file into the exploited process using a reflective PE loader. The reflective PE\nloader will execute the pre-mapped PE image starting from the address of entry after performing image base\nrelocation and API address resolution. This module requires a PE file that contains relocation data and a\nvalid (uncorrupted) import table. PE files with CLR(C#/.NET executables), bounded imports, and TLS callbacks\nare not currently supported. Also PE files which use resource loading might crash.\nListen for a connection from a hidden port and spawn a command shell to the allowed host.",
+  "references": [
+    "URL-https://github.com/EgeBalci/Amber",
+    "URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
+  ],
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2023-07-27 16:02:37 +0000",
+  "path": "/modules/payloads/stagers/windows/bind_hidden_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "windows/peinject/bind_hidden_tcp",
+  "needs_cleanup": false
+}

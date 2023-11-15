@@ -1,0 +1,23 @@
+{
+  "name": "Multiple Linux / Unix Post Sudo Upgrade Shell",
+  "fullname": "post/multi/manage/sudo",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "todb <todb@metasploit.com>",
+    "Ryan Baxendale <rbaxendale@gmail.com>"
+  ],
+  "description": "This module attempts to upgrade a shell account to UID 0 by reusing the\n          given password and passing it to sudo. This technique relies on sudo\n          versions from 2008 and later which support -A.",
+  "references": [
+    "URL-http://www.sudo.ws/repos/sudo/file/05780f5f71fd/sudo.h"
+  ],
+  "platform": "AIX,Linux,OSX,Solaris,Unix",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/manage/sudo.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/sudo",
+  "session_types": [
+    "shell"
+  ],
+  "needs_cleanup": true
+}

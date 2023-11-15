@@ -1,0 +1,31 @@
+{
+  "name": "HTTP HTML Title Tag Content Grabber",
+  "fullname": "auxiliary/scanner/http/title",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Stuart Morgan <stuart.morgan@mwrinfosecurity.com>"
+  ],
+  "description": "Generates a GET request to the provided webservers and returns the server header,\n        HTML title attribute and location header (if set). This is useful for rapidly identifying\n        interesting web applications en mass.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-04-25 21:07:14 +0000",
+  "path": "/modules/auxiliary/scanner/http/title.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/title",
+  "needs_cleanup": false
+}

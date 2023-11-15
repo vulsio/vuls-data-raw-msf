@@ -1,0 +1,35 @@
+{
+  "name": "Iomega StorCenter Pro NAS Web Authentication Bypass",
+  "fullname": "auxiliary/admin/http/iomega_storcenterpro_sessionid",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "The Iomega StorCenter Pro Network Attached Storage device web interface increments sessions IDs,\n        allowing for simple brute force attacks to bypass authentication and gain administrative\n        access.",
+  "references": [
+    "OSVDB-55586",
+    "CVE-2009-2367"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/iomega_storcenterpro_sessionid.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/iomega_storcenterpro_sessionid",
+  "needs_cleanup": false
+}

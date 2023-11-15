@@ -1,0 +1,20 @@
+{
+  "name": "Upload and Execute",
+  "fullname": "post/multi/manage/upload_exec",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "egypt <egypt@metasploit.com>"
+  ],
+  "description": "Push a file and execute it.",
+  "platform": "BSD,Linux,OSX,Solaris,Unix,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/manage/upload_exec.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/upload_exec",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ],
+  "needs_cleanup": true
+}

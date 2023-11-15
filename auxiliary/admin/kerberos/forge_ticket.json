@@ -1,0 +1,29 @@
+{
+  "name": "Kerberos Silver/Golden Ticket Forging",
+  "fullname": "auxiliary/admin/kerberos/forge_ticket",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Benjamin Delpy",
+    "Dean Welch",
+    "alanfoster"
+  ],
+  "description": "This module forges a Kerberos ticket",
+  "references": [
+    "URL-https://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it"
+  ],
+  "mod_time": "2023-09-13 15:34:17 +0000",
+  "path": "/modules/auxiliary/admin/kerberos/forge_ticket.rb",
+  "is_install_path": true,
+  "ref_name": "admin/kerberos/forge_ticket",
+  "post_auth": true,
+  "notes": {
+    "AKA": [
+      "Silver Ticket",
+      "Golden Ticket",
+      "Ticketer",
+      "Klist"
+    ]
+  },
+  "needs_cleanup": false
+}

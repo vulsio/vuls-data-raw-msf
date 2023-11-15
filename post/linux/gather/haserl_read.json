@@ -1,0 +1,33 @@
+{
+  "name": "Haserl Arbitrary File Reader",
+  "fullname": "post/linux/gather/haserl_read",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Julien (jvoisin) Voisin",
+    "Ike Broflovski"
+  ],
+  "description": "This module exploits haserl prior to 0.9.36 to read arbitrary files.\n          The most widely accepted exploitation vector is reading /etc/shadow,\n          which will reveal root's hash for cracking.",
+  "references": [
+    "URL-https://twitter.com/steaIth/status/1364940271054712842",
+    "URL-https://gitlab.alpinelinux.org/alpine/aports/-/issues/12539",
+    "CVE-2021-29133"
+  ],
+  "platform": "Linux",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/linux/gather/haserl_read.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/haserl_read",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

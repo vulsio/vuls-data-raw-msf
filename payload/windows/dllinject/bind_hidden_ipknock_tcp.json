@@ -1,0 +1,25 @@
+{
+  "name": "Reflective DLL Injection, Hidden Bind Ipknock TCP Stager",
+  "fullname": "payload/windows/dllinject/bind_hidden_ipknock_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "hdm <x@hdm.io>",
+    "skape <mmiller@hick.org>",
+    "Borja Merino <bmerinofe@gmail.com>"
+  ],
+  "description": "Inject a DLL via a reflective loader.\n\nListen for a connection. First, the port will need to be knocked from\nthe IP defined in KHOST. This IP will work as an authentication method\n(you can spoof it with tools like hping). After that you could get your\nshellcode from any IP. The socket will appear as \"closed,\" thus helping to\nhide the shellcode",
+  "references": [
+    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+    "URL-https://github.com/rapid7/ReflectiveDLLInjection",
+    "URL-http://www.shelliscoming.com/2014/07/ip-knock-shellcode-spoofed-ip-as.html"
+  ],
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2023-07-27 16:02:37 +0000",
+  "path": "/modules/payloads/stagers/windows/bind_hidden_ipknock_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "windows/dllinject/bind_hidden_ipknock_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MySQL Login Utility",
+  "fullname": "auxiliary/scanner/mysql/mysql_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Bernardo Damele A. G. <bernardo.damele@gmail.com>"
+  ],
+  "description": "This module simply queries the MySQL instance for a specific user/pass (default is root with blank).",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 3306,
+  "mod_time": "2021-08-31 17:10:07 +0000",
+  "path": "/modules/auxiliary/scanner/mysql/mysql_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/mysql/mysql_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Chinese Caidao Backdoor Bruteforce",
+  "fullname": "auxiliary/scanner/http/caidao_bruteforce_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Nixawk"
+  ],
+  "description": "This module attempts to bruteforce chinese caidao asp/php/aspx backdoor.",
+  "references": [
+    "URL-https://www.fireeye.com/blog/threat-research/2013/08/breaking-down-the-china-chopper-web-shell-part-i.html",
+    "URL-https://www.mandiant.com/resources/breaking-down-the-china-chopper-web-shell-part-ii",
+    "URL-https://www.exploit-db.com/docs/27654.pdf",
+    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA15-314A",
+    "URL-http://blog.csdn.net/nixawk/article/details/40430329"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/caidao_bruteforce_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/caidao_bruteforce_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "HTTPS Fetch, Linux Command Shell, Reverse TCP Stager (IPv6)",
+  "fullname": "payload/cmd/linux/https/x86/shell/reverse_ipv6_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "skape <mmiller@hick.org>",
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "Fetch and execute an x86 payload from an HTTPS server.\nSpawn a command shell (staged).\n\nConnect back to attacker over IPv6",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/https/x86/shell/reverse_ipv6_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Novell eDirectory eMBox Unauthenticated File Access",
+  "fullname": "auxiliary/admin/edirectory/edirectory_edirutil",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Nicob",
+    "MC <mc@metasploit.com>",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will access Novell eDirectory's eMBox service and can run the\n        following actions via the SOAP interface: GET_DN, READ_LOGS, LIST_SERVICES,\n        STOP_SERVICE, START_SERVICE, SET_LOGFILE.",
+  "references": [
+    "CVE-2008-0926",
+    "BID-28441",
+    "OSVDB-43690"
+  ],
+  "rport": 8028,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/admin/edirectory/edirectory_edirutil.rb",
+  "is_install_path": true,
+  "ref_name": "admin/edirectory/edirectory_edirutil",
+  "needs_cleanup": false
+}

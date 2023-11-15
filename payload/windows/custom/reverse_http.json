@@ -1,0 +1,18 @@
+{
+  "name": "Windows shellcode stage, Windows Reverse HTTP Stager (wininet)",
+  "fullname": "payload/windows/custom/reverse_http",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "bwatters-r7",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Custom shellcode stage.\n\nTunnel communication over HTTP (Windows wininet)",
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2021-11-10 12:33:52 +0000",
+  "path": "/modules/payloads/stagers/windows/reverse_http.rb",
+  "is_install_path": true,
+  "ref_name": "windows/custom/reverse_http",
+  "needs_cleanup": false
+}

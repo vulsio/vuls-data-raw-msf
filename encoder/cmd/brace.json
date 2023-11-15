@@ -1,0 +1,18 @@
+{
+  "name": "Bash Brace Expansion Command Encoder",
+  "fullname": "encoder/cmd/brace",
+  "rank": 100,
+  "type": "encoder",
+  "author": [
+    "wvu <wvu@metasploit.com>",
+    "egypt <egypt@metasploit.com>"
+  ],
+  "description": "This encoder uses brace expansion in Bash and other shells\n        to avoid whitespace without being overly fancy.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2023-05-25 23:46:18 +0000",
+  "path": "/modules/encoders/cmd/brace.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/brace",
+  "needs_cleanup": false
+}

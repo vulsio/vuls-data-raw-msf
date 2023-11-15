@@ -1,0 +1,23 @@
+{
+  "name": "Varnish Cache CLI Login Utility",
+  "fullname": "auxiliary/scanner/varnish/varnish_cli_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>",
+    "h00die <mike@shorebreaksecurity.com>"
+  ],
+  "description": "This module attempts to login to the Varnish Cache (varnishd) CLI instance using a bruteforce\n                           list of passwords.",
+  "references": [
+    "OSVDB-67670",
+    "CVE-2009-2936",
+    "EDB-35581",
+    "URL-https://www.varnish-cache.org/trac/wiki/CLI"
+  ],
+  "rport": 6082,
+  "mod_time": "2019-06-27 17:06:32 +0000",
+  "path": "/modules/auxiliary/scanner/varnish/varnish_cli_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/varnish/varnish_cli_login",
+  "needs_cleanup": false
+}

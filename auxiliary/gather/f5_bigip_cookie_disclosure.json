@@ -1,0 +1,46 @@
+{
+  "name": "F5 BIG-IP Backend Cookie Disclosure",
+  "fullname": "auxiliary/gather/f5_bigip_cookie_disclosure",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Thanat0s <thanspam@trollprod.org>",
+    "Oleg Broslavsky <ovbroslavsky@gmail.com>",
+    "Nikita Oleksov <neoleksov@gmail.com>",
+    "Denis Kolegov <dnkolegov@gmail.com>",
+    "Paul-Emmanuel Raoul <skyper@skyplabs.net>"
+  ],
+  "description": "This module identifies F5 BIG-IP load balancers and leaks backend information\n          (pool name, routed domain, and backend servers' IP addresses and ports) through\n          cookies inserted by the BIG-IP systems.",
+  "references": [
+    "URL-https://support.f5.com/csp/article/K6917",
+    "URL-https://support.f5.com/csp/article/K7784",
+    "URL-https://support.f5.com/csp/article/K14784",
+    "URL-https://support.f5.com/csp/article/K23254150"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-04 06:19:31 +0000",
+  "path": "/modules/auxiliary/gather/f5_bigip_cookie_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "gather/f5_bigip_cookie_disclosure",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

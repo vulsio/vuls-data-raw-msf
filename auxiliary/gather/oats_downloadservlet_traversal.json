@@ -1,0 +1,40 @@
+{
+  "name": "Oracle Application Testing Suite Post-Auth DownloadServlet Directory Traversal",
+  "fullname": "auxiliary/gather/oats_downloadservlet_traversal",
+  "rank": 300,
+  "disclosure_date": "2019-04-16",
+  "type": "auxiliary",
+  "author": [
+    "Steven Seeley",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module exploits a vulnerability in Oracle Application Testing Suite (OATS). In the Load\n        Testing interface, a remote user can abuse the custom report template selector, and cause the\n        DownloadServlet class to read any file on the server as SYSTEM. Since the Oracle application\n        contains multiple configuration files that include encrypted credentials, and that there are\n        public resources for decryption, it is actually possible to gain remote code execution\n        by leveraging this directory traversal attack.\n\n        Please note that authentication is required. By default, OATS has two built-in accounts:\n        default and administrator. You could try to target those first.",
+  "references": [
+    "CVE-2019-2557",
+    "URL-https://srcincite.io/advisories/src-2019-0033/",
+    "URL-https://www.oracle.com/security-alerts/cpuapr2019.html"
+  ],
+  "rport": 8088,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/oats_downloadservlet_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "gather/oats_downloadservlet_traversal",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

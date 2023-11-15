@@ -1,0 +1,22 @@
+{
+  "name": "HTTP Client LAN IP Address Gather",
+  "fullname": "auxiliary/gather/browser_lanipleak",
+  "rank": 300,
+  "disclosure_date": "2013-09-05",
+  "type": "auxiliary",
+  "author": [
+    "Daniel Roesler",
+    "Dhiraj Mishra"
+  ],
+  "description": "This module retrieves a browser's network interface IP addresses\n          using WebRTC.",
+  "references": [
+    "CVE-2018-6849",
+    "URL-http://net.ipcalf.com/",
+    "URL-https://www.inputzero.io/p/private-ip-leakage-using-webrtc.html"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/browser_lanipleak.rb",
+  "is_install_path": true,
+  "ref_name": "gather/browser_lanipleak",
+  "needs_cleanup": false
+}

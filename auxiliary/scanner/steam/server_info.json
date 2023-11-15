@@ -1,0 +1,19 @@
+{
+  "name": "Gather Steam Server Information",
+  "fullname": "auxiliary/scanner/steam/server_info",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module uses the A2S_INFO request to obtain information from a Steam server.",
+  "references": [
+    "URL-https://developer.valvesoftware.com/wiki/Server_queries#A2S_INFO"
+  ],
+  "rport": 27015,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/steam/server_info.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/steam/server_info",
+  "needs_cleanup": false
+}

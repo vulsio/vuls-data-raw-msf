@@ -1,0 +1,20 @@
+{
+  "name": "Modbus Client Utility",
+  "fullname": "auxiliary/scanner/scada/modbusclient",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "EsMnemon <esm@mnemonic.no>",
+    "Arnaud SOULLIE <arnaud.soullie@solucom.fr>",
+    "Alexandrine TORRENTS <alexandrine.torrents@eurecom.fr>",
+    "Mathieu CHEVALIER <mathieu.chevalier@eurecom.fr>",
+    "AZSG <AstroZombieSG@gmail.com>"
+  ],
+  "description": "This module allows reading and writing data to a PLC using the Modbus protocol.\n          This module is based on the 'modiconstop.rb' Basecamp module from DigitalBond,\n          as well as the mbtget perl script.",
+  "rport": 502,
+  "mod_time": "2022-01-20 12:23:01 +0000",
+  "path": "/modules/auxiliary/scanner/scada/modbusclient.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/scada/modbusclient",
+  "needs_cleanup": false
+}

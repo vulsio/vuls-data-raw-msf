@@ -1,0 +1,19 @@
+{
+  "name": "Powershell Exec, Windows shellcode stage, Reverse HTTP Stager Proxy",
+  "fullname": "payload/cmd/windows/powershell/custom/reverse_http_proxy_pstore",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "bwatters-r7",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Execute an x86 payload from a command via PowerShell.\n\nCustom shellcode stage.\n\nTunnel communication over HTTP",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-05-27 16:41:25 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell/custom/reverse_http_proxy_pstore",
+  "needs_cleanup": false
+}

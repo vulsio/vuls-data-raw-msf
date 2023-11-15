@@ -1,0 +1,38 @@
+{
+  "name": "cgit Directory Traversal",
+  "fullname": "auxiliary/scanner/http/cgit_traversal",
+  "rank": 300,
+  "disclosure_date": "2018-08-03",
+  "type": "auxiliary",
+  "author": [
+    "Google Project Zero",
+    "Dhiraj Mishra"
+  ],
+  "description": "This module exploits a directory traversal vulnerability which\n        exists in cgit < 1.2.1 cgit_clone_objects(), reachable when the\n        configuration flag enable-http-clone is set to 1 (default).",
+  "references": [
+    "CVE-2018-14912",
+    "URL-https://bugs.chromium.org/p/project-zero/issues/detail?id=1627",
+    "EDB-45148"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/cgit_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/cgit_traversal",
+  "needs_cleanup": false
+}

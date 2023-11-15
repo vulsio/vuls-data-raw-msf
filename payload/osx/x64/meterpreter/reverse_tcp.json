@@ -1,0 +1,24 @@
+{
+  "name": "OSX Meterpreter, Reverse TCP Stager",
+  "fullname": "payload/osx/x64/meterpreter/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "parchedmind",
+    "nologic",
+    "timwr",
+    "nemo <nemo@felinemenace.org>"
+  ],
+  "description": "Inject the mettle server payload (staged).\n\nConnect, read length, read buffer, execute",
+  "references": [
+    "URL-https://github.com/CylanceVulnResearch/osx_runbin",
+    "URL-https://github.com/nologic/shellcc"
+  ],
+  "platform": "OSX",
+  "arch": "x64",
+  "mod_time": "2022-05-04 14:43:05 +0000",
+  "path": "/modules/payloads/stagers/osx/x64/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "osx/x64/meterpreter/reverse_tcp",
+  "needs_cleanup": false
+}

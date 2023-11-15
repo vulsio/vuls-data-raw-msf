@@ -1,0 +1,20 @@
+{
+  "name": "Windows Upload/Execute, Bind TCP Stager with UUID Support (Windows x86)",
+  "fullname": "payload/windows/upexec/bind_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "vlad902 <vlad902@gmail.com>",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "hdm <x@hdm.io>",
+    "OJ Reeves"
+  ],
+  "description": "Uploads an executable and runs it (staged).\n\nListen for a connection with UUID Support (Windows x86)",
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/bind_tcp_uuid.rb",
+  "is_install_path": true,
+  "ref_name": "windows/upexec/bind_tcp_uuid",
+  "needs_cleanup": false
+}

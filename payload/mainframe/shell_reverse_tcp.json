@@ -1,0 +1,17 @@
+{
+  "name": "Z/OS (MVS) Command Shell, Reverse TCP Inline",
+  "fullname": "payload/mainframe/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Bigendian Smalls"
+  ],
+  "description": "Listen for a connection and spawn a command shell.\n          This implementation does not include ebcdic character translation,\n          so a client with translation capabilities is required.  MSF handles\n          this automatically.",
+  "platform": "Mainframe",
+  "arch": "zarch",
+  "mod_time": "2021-01-05 14:59:46 +0000",
+  "path": "/modules/payloads/singles/mainframe/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "mainframe/shell_reverse_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Single Byte",
+  "fullname": "nop/x86/single_byte",
+  "rank": 300,
+  "type": "nop",
+  "author": [
+    "spoonm <spoonm@no$email.com>"
+  ],
+  "description": "Single-byte NOP generator",
+  "platform": "All",
+  "arch": "x86",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/nops/x86/single_byte.rb",
+  "is_install_path": true,
+  "ref_name": "x86/single_byte",
+  "needs_cleanup": false
+}

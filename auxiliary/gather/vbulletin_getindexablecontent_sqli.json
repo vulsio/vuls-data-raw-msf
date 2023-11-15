@@ -1,0 +1,44 @@
+{
+  "name": "vBulletin /ajax/api/content_infraction/getIndexableContent nodeid Parameter SQL Injection",
+  "fullname": "auxiliary/gather/vbulletin_getindexablecontent_sqli",
+  "rank": 300,
+  "disclosure_date": "2020-03-12",
+  "type": "auxiliary",
+  "author": [
+    "Charles Fol <folcharles@gmail.com>",
+    "Zenofex <zenofex@exploitee.rs>"
+  ],
+  "description": "This module exploits a SQL injection vulnerability found in vBulletin 5.x.x to dump the user\n          table information or to dump all of the vBulletin tables (based on the selected options). This\n          module has been tested successfully on VBulletin Version 5.6.1 on Ubuntu Linux.",
+  "references": [
+    "CVE-2020-12720"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/gather/vbulletin_getindexablecontent_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "gather/vbulletin_getindexablecontent_sqli",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

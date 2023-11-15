@@ -1,0 +1,19 @@
+{
+  "name": "OSX Capture Userspace Keylogger",
+  "fullname": "post/osx/capture/keylog_recorder",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "Logs all keyboard events except cmd-keys and GUI password input.\n\n          Keylogs are transferred between client/server in chunks\n          every SYNCWAIT seconds for reliability.\n\n          Works by calling the Carbon GetKeys() hook using the DL lib\n          in OSX's system Ruby. The Ruby code is executed in a shell\n          command using -e, so the payload never hits the disk.",
+  "platform": "OSX",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/osx/capture/keylog_recorder.rb",
+  "is_install_path": true,
+  "ref_name": "osx/capture/keylog_recorder",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

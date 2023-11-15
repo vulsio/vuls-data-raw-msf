@@ -1,0 +1,21 @@
+{
+  "name": "Modbus Version Scanner",
+  "fullname": "auxiliary/scanner/scada/modbusdetect",
+  "rank": 300,
+  "disclosure_date": "2011-11-01",
+  "type": "auxiliary",
+  "author": [
+    "EsMnemon <esm@mnemonic.no>"
+  ],
+  "description": "This module detects the Modbus service, tested on a SAIA PCD1.M2 system.\n        Modbus is a clear text protocol used in common SCADA systems, developed\n        originally as a serial-line (RS232) async protocol, and later transformed to IP,\n        which is called ModbusTCP.",
+  "references": [
+    "URL-https://www.saia-pcd.com/en/products/plc/pcd-overview/Pages/pcd1-m2.aspx",
+    "URL-https://en.wikipedia.org/wiki/Modbus:TCP"
+  ],
+  "rport": 502,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/scada/modbusdetect.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/scada/modbusdetect",
+  "needs_cleanup": false
+}

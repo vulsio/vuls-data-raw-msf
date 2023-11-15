@@ -1,0 +1,19 @@
+{
+  "name": "Linux Command Shell, Reverse TCP Stager",
+  "fullname": "payload/linux/x86/shell/reverse_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "skape <mmiller@hick.org>",
+    "egypt <egypt@metasploit.com>",
+    "OJ Reeves"
+  ],
+  "description": "Spawn a command shell (staged).\n\nConnect back to the attacker",
+  "platform": "Linux",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/linux/x86/reverse_tcp_uuid.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x86/shell/reverse_tcp_uuid",
+  "needs_cleanup": false
+}

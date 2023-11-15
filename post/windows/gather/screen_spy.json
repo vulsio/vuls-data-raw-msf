@@ -1,0 +1,22 @@
+{
+  "name": "Windows Gather Screen Spy",
+  "fullname": "post/windows/gather/screen_spy",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Roni Bachar <roni.bachar.blog@gmail.com>",
+    "bannedit <bannedit@metasploit.com>",
+    "kernelsmith <kernelsmith /x40 kernelsmith /x2E com>",
+    "Adrian Kubok",
+    "DLL_Cool_J"
+  ],
+  "description": "This module will incrementally take desktop screenshots from the host. This\n          allows for screen spying which can be useful to determine if there is an active\n          user on a machine, or to record the screen for later data extraction.\n\n          Note: As of March, 2014, the VIEW_CMD option has been removed in\n          favor of the Boolean VIEW_SCREENSHOTS option, which will control if (but\n          not how) the collected screenshots will be viewed from the Metasploit\n          interface.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/screen_spy.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/screen_spy",
+  "session_types": [
+    "meterpreter"
+  ]
+}

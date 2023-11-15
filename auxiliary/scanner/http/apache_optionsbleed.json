@@ -1,0 +1,44 @@
+{
+  "name": "Apache Optionsbleed Scanner",
+  "fullname": "auxiliary/scanner/http/apache_optionsbleed",
+  "rank": 300,
+  "disclosure_date": "2017-09-18",
+  "type": "auxiliary",
+  "author": [
+    "Hanno Böck",
+    "h00die"
+  ],
+  "description": "This module scans for the Apache optionsbleed vulnerability where the Allow\n        response header returned from an OPTIONS request may bleed memory if the\n        server has a .htaccess file with an invalid Limit method defined.",
+  "references": [
+    "CVE-2017-9798",
+    "EDB-42745",
+    "URL-https://github.com/hannob/optionsbleed",
+    "URL-https://blog.fuzzing-project.org/60-Optionsbleed-HTTP-OPTIONS-method-can-leak-Apaches-server-memory.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/apache_optionsbleed.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/apache_optionsbleed",
+  "notes": {
+    "AKA": [
+      "Optionsbleed"
+    ]
+  },
+  "needs_cleanup": false
+}

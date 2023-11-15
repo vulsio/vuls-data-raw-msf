@@ -1,0 +1,43 @@
+{
+  "name": "MS17-010 SMB RCE Detection",
+  "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Sean Dillon <sean.dillon@risksense.com>",
+    "Luke Jennings"
+  ],
+  "description": "Uses information disclosure to determine if MS17-010 has been patched or not.\n        Specifically, it connects to the IPC$ tree and attempts a transaction on FID 0.\n        If the status returned is \"STATUS_INSUFF_SERVER_RESOURCES\", the machine does\n        not have the MS17-010 patch.\n\n        If the machine is missing the MS17-010 patch, the module will check for an\n        existing DoublePulsar (ring 0 shellcode/malware) infection.\n\n        This module does not require valid SMB credentials in default server\n        configurations. It can log on as the user \"\\\" and connect to IPC$.",
+  "references": [
+    "CVE-2017-0143",
+    "CVE-2017-0144",
+    "CVE-2017-0145",
+    "CVE-2017-0146",
+    "CVE-2017-0147",
+    "CVE-2017-0148",
+    "MSB-MS17-010",
+    "URL-https://zerosum0x0.blogspot.com/2017/04/doublepulsar-initial-smb-backdoor-ring.html",
+    "URL-https://github.com/countercept/doublepulsar-detection-script",
+    "URL-https://web.archive.org/web/20170513050203/https://technet.microsoft.com/en-us/library/security/ms17-010.aspx"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/smb/smb_ms17_010.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smb/smb_ms17_010",
+  "notes": {
+    "AKA": [
+      "DOUBLEPULSAR",
+      "ETERNALBLUE"
+    ]
+  },
+  "needs_cleanup": false
+}

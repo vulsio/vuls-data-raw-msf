@@ -1,0 +1,17 @@
+{
+  "name": "Windows Speech API - Say \"You Got Pwned!\"",
+  "fullname": "payload/windows/speak_pwned",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Berend-Jan \"SkyLined\" Wever <berendjanwever@gmail.com>"
+  ],
+  "description": "Causes the target to say \"You Got Pwned\" via the Windows Speech API",
+  "platform": "Windows",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/singles/windows/speak_pwned.rb",
+  "is_install_path": true,
+  "ref_name": "windows/speak_pwned",
+  "needs_cleanup": false
+}

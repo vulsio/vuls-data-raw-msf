@@ -1,0 +1,41 @@
+{
+  "name": "Microsoft IIS HTTP Internal IP Disclosure",
+  "fullname": "auxiliary/scanner/http/iis_internal_ip",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Heather Pilkington",
+    "Matthew Dunn - k0pak4"
+  ],
+  "description": "Collect any leaked internal IPs by requesting commonly redirected locations from IIS.\n          CVE-2000-0649 references IIS 5.1 (win2k, XP) and older.  However, in newer servers\n          such as IIS 7+, this occurs when the alternateHostName is not set or misconfigured. Also\n          collects internal IPs leaked from the PROPFIND method in certain IIS versions.",
+  "references": [
+    "CVE-2000-0649",
+    "CVE-2002-0422",
+    "BID-1499",
+    "EDB-20096",
+    "URL-https://support.microsoft.com/en-us/help/218180/internet-information-server-returns-ip-address-in-http-header-content",
+    "URL-https://support.microsoft.com/en-us/topic/fix-the-internal-ip-address-of-an-iis-7-0-server-is-revealed-if-an-http-request-that-does-not-have-a-host-header-or-has-a-null-host-header-is-sent-to-the-server-c493e9bc-dfd3-0d9b-941c-b2d93a957d9e",
+    "URL-https://techcommunity.microsoft.com/t5/iis-support-blog/iis-web-servers-running-in-windows-azure-may-reveal-their/ba-p/826500"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/iis_internal_ip.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/iis_internal_ip",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SunRPC Portmap Program Enumerator",
+  "fullname": "auxiliary/scanner/misc/sunrpc_portmapper",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "tebo <tebo@attackresearch.com>"
+  ],
+  "description": "This module calls the target portmap service and enumerates all program\n        entries and their running port numbers.",
+  "references": [
+    "URL-https://www.ietf.org/rfc/rfc1057.txt"
+  ],
+  "rport": 111,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/misc/sunrpc_portmapper.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/misc/sunrpc_portmapper",
+  "needs_cleanup": false
+}

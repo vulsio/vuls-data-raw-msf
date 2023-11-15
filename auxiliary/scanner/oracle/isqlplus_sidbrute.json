@@ -1,0 +1,36 @@
+{
+  "name": "Oracle iSQLPlus SID Check",
+  "fullname": "auxiliary/scanner/oracle/isqlplus_sidbrute",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "CG <cg@carnal0wnage.com>",
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module attempts to bruteforce the SID on the Oracle application server iSQL*Plus\n        login pages.  It does this by testing Oracle error responses returned in the HTTP response.\n        Incorrect username/pass with a correct SID will produce an Oracle ORA-01017 error.\n        Works against Oracle 9.2, 10.1 & 10.2 iSQL*Plus.  This module will attempt to\n        fingerprint the version and automatically select the correct POST request.",
+  "references": [
+    "URL-https://blog.carnal0wnage.com/"
+  ],
+  "rport": 5560,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/oracle/isqlplus_sidbrute.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/oracle/isqlplus_sidbrute",
+  "post_auth": true,
+  "needs_cleanup": false
+}

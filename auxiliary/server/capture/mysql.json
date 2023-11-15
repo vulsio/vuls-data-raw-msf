@@ -1,0 +1,15 @@
+{
+  "name": "Authentication Capture: MySQL",
+  "fullname": "auxiliary/server/capture/mysql",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Patrik Karlsson <patrik@cqure.net>"
+  ],
+  "description": "This module provides a fake MySQL service that is designed to\n        capture authentication credentials. It captures\tchallenge and\n        response pairs that can be supplied to Cain or JtR for cracking.",
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/server/capture/mysql.rb",
+  "is_install_path": true,
+  "ref_name": "server/capture/mysql",
+  "needs_cleanup": false
+}

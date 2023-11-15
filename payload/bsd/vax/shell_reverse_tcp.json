@@ -1,0 +1,17 @@
+{
+  "name": "BSD Command Shell, Reverse TCP Inline",
+  "fullname": "payload/bsd/vax/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "Connect back to attacker and spawn a command shell",
+  "platform": "BSD",
+  "arch": "vax",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/singles/bsd/vax/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "bsd/vax/shell_reverse_tcp",
+  "needs_cleanup": false
+}

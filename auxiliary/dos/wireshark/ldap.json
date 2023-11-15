@@ -1,0 +1,21 @@
+{
+  "name": "Wireshark LDAP Dissector DOS",
+  "fullname": "auxiliary/dos/wireshark/ldap",
+  "rank": 300,
+  "disclosure_date": "2008-03-28",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "The LDAP dissector in Wireshark 0.99.2 through 0.99.8 allows remote attackers\n          to cause a denial of service (application crash) via a malformed packet.",
+  "references": [
+    "CVE-2008-1562",
+    "OSVDB-43840"
+  ],
+  "rport": 389,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/dos/wireshark/ldap.rb",
+  "is_install_path": true,
+  "ref_name": "dos/wireshark/ldap",
+  "needs_cleanup": false
+}

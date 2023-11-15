@@ -1,0 +1,23 @@
+{
+  "name": "Microsoft Host Integration Server 2006 Command Execution Vulnerability",
+  "fullname": "auxiliary/admin/ms/ms08_059_his2006",
+  "rank": 300,
+  "disclosure_date": "2008-10-14",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "This module exploits a command-injection vulnerability in Microsoft Host Integration Server 2006.",
+  "references": [
+    "MSB-MS08-059",
+    "CVE-2008-3466",
+    "OSVDB-49068",
+    "URL-http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=745"
+  ],
+  "rport": 0,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/ms/ms08_059_his2006.rb",
+  "is_install_path": true,
+  "ref_name": "admin/ms/ms08_059_his2006",
+  "needs_cleanup": false
+}

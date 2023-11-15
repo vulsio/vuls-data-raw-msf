@@ -1,0 +1,25 @@
+{
+  "name": "SMB Directory Listing Utility",
+  "fullname": "auxiliary/admin/smb/list_directory",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "mubix <mubix@hak5.org>",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module lists the directory of a target share and path. The only reason\n      to use this module is if your existing SMB client is not able to support the features\n      of the Metasploit Framework that you need, like pass-the-hash authentication.",
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2020-05-13 16:34:47 +0000",
+  "path": "/modules/auxiliary/admin/smb/list_directory.rb",
+  "is_install_path": true,
+  "ref_name": "admin/smb/list_directory",
+  "needs_cleanup": false
+}

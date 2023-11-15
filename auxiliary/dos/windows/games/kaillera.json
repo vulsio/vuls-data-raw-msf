@@ -1,0 +1,17 @@
+{
+  "name": "Kaillera 0.86 Server Denial of Service",
+  "fullname": "auxiliary/dos/windows/games/kaillera",
+  "rank": 300,
+  "disclosure_date": "2011-07-02",
+  "type": "auxiliary",
+  "author": [
+    "Sil3nt_Dre4m"
+  ],
+  "description": "The Kaillera 0.86 server can be shut down by sending any malformed packet\n        after the initial \"hello\" packet.",
+  "rport": 27888,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/windows/games/kaillera.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/games/kaillera",
+  "needs_cleanup": false
+}

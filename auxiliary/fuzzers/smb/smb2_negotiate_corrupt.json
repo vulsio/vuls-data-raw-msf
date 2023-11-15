@@ -1,0 +1,16 @@
+{
+  "name": "SMB Negotiate SMB2 Dialect Corruption",
+  "fullname": "auxiliary/fuzzers/smb/smb2_negotiate_corrupt",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module sends a series of SMB negotiate requests that advertise a\n      SMB2 dialect with corrupted bytes.",
+  "rport": 445,
+  "mod_time": "2017-08-24 21:38:44 +0000",
+  "path": "/modules/auxiliary/fuzzers/smb/smb2_negotiate_corrupt.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/smb/smb2_negotiate_corrupt",
+  "needs_cleanup": false
+}

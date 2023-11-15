@@ -1,0 +1,16 @@
+{
+  "name": "SIP Username Enumerator (TCP)",
+  "fullname": "auxiliary/scanner/sip/enumerator_tcp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "Scan for numeric username/extensions using OPTIONS/REGISTER requests",
+  "rport": 5060,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/sip/enumerator_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sip/enumerator_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Energizer DUO Trojan Scanner",
+  "fullname": "auxiliary/scanner/backdoor/energizer_duo_detect",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Detect instances of the Energizer DUO trojan horse software on port 7777",
+  "references": [
+    "CVE-2010-0103",
+    "OSVDB-62782",
+    "US-CERT-VU-154421"
+  ],
+  "rport": 7777,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/backdoor/energizer_duo_detect.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/backdoor/energizer_duo_detect",
+  "needs_cleanup": false
+}

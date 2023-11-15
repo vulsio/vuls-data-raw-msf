@@ -1,0 +1,19 @@
+{
+  "name": "TFTP Fetch, Linux Command Shell, Reverse TCP Inline (IPv6)",
+  "fullname": "payload/cmd/linux/tftp/x86/shell_reverse_tcp_ipv6",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "Matteo Malvica <matteo@malvica.com>"
+  ],
+  "description": "Fetch and execute a x86 payload from a TFTP server.\nConnect back to attacker and spawn a command shell over IPv6",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x86/shell_reverse_tcp_ipv6",
+  "needs_cleanup": false
+}

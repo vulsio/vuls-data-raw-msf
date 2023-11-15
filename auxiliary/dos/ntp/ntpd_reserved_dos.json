@@ -1,0 +1,22 @@
+{
+  "name": "NTP.org ntpd Reserved Mode Denial of Service",
+  "fullname": "auxiliary/dos/ntp/ntpd_reserved_dos",
+  "rank": 300,
+  "disclosure_date": "2009-10-04",
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module exploits a denial of service vulnerability\n        within the NTP (network time protocol) demon. By sending\n        a single packet to a vulnerable ntpd server (Victim A),\n        spoofed from the IP address of another vulnerable ntpd server\n        (Victim B), both victims will enter an infinite response loop.\n        Note, unless you control the spoofed source host or the real\n        remote host(s), you will not be able to halt the DoS condition\n        once begun!",
+  "references": [
+    "BID-37255",
+    "CVE-2009-3563",
+    "OSVDB-60847",
+    "URL-https://bugs.ntp.org/show_bug.cgi?id=1331"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/ntp/ntpd_reserved_dos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/ntp/ntpd_reserved_dos",
+  "needs_cleanup": false
+}

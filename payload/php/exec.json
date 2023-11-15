@@ -1,0 +1,17 @@
+{
+  "name": "PHP Execute Command ",
+  "fullname": "payload/php/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "egypt <egypt@metasploit.com>"
+  ],
+  "description": "Execute a single system command",
+  "platform": "PHP",
+  "arch": "php",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/php/exec.rb",
+  "is_install_path": true,
+  "ref_name": "php/exec",
+  "needs_cleanup": false
+}

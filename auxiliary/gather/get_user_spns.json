@@ -1,0 +1,28 @@
+{
+  "name": "Gather Ticket Granting Service (TGS) tickets for User Service Principal Names (SPN)",
+  "fullname": "auxiliary/gather/get_user_spns",
+  "rank": 300,
+  "disclosure_date": "2014-09-27",
+  "type": "auxiliary",
+  "author": [
+    "Alberto Solino",
+    "Jacob Robles"
+  ],
+  "description": "This module will try to find Service Principal Names that are associated with normal user accounts.\n        Since normal accounts' passwords tend to be shorter than machine accounts, and knowing that a TGS request\n        will encrypt the ticket with the account the SPN is running under, this could be used for an offline\n        bruteforcing attack of the SPNs account NTLM hash if we can gather valid TGS for those SPNs.\n        This is part of the kerberoast attack research by Tim Medin (@timmedin).",
+  "references": [
+    "URL-https://github.com/CoreSecurity/impacket/blob/master/examples/GetUserSPNs.py",
+    "URL-https://files.sans.org/summit/hackfest2014/PDFs/Kicking%20the%20Guard%20Dog%20of%20Hades%20-%20Attacking%20Microsoft%20Kerberos%20%20-%20Tim%20Medin(1).pdf"
+  ],
+  "mod_time": "2023-01-17 18:59:12 +0000",
+  "path": "/modules/auxiliary/gather/get_user_spns.py",
+  "is_install_path": true,
+  "ref_name": "gather/get_user_spns",
+  "post_auth": true,
+  "notes": {
+    "AKA": [
+      "GetUserSPNs.py",
+      "Kerberoast"
+    ]
+  },
+  "needs_cleanup": false
+}

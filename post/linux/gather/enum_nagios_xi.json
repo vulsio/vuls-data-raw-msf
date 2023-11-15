@@ -1,0 +1,21 @@
+{
+  "name": "Nagios XI Enumeration",
+  "fullname": "post/linux/gather/enum_nagios_xi",
+  "rank": 300,
+  "disclosure_date": "2018-04-17",
+  "type": "post",
+  "author": [
+    "Cale Smith"
+  ],
+  "description": "NagiosXI may store credentials of the hosts it monitors. This module extracts these credentials,\n            creating opportunities for lateral movement.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/enum_nagios_xi.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/enum_nagios_xi",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ],
+  "needs_cleanup": true
+}

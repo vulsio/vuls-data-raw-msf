@@ -1,0 +1,39 @@
+{
+  "name": "NETGEAR WNR2000v5 Administrator Password Recovery",
+  "fullname": "auxiliary/admin/http/netgear_wnr2000_pass_recovery",
+  "rank": 300,
+  "disclosure_date": "2016-12-20",
+  "type": "auxiliary",
+  "author": [
+    "Pedro Ribeiro <pedrib@gmail.com>"
+  ],
+  "description": "The NETGEAR WNR2000 router has a vulnerability in the way it handles password recovery.\n          This vulnerability can be exploited by an unauthenticated attacker who is able to guess\n          the value of a certain timestamp which is in the configuration of the router.\n          Brute forcing the timestamp token might take a few minutes, a few hours, or days, but\n          it is guaranteed that it can be bruteforced.\n          This module works very reliably and it has been tested with the WNR2000v5, firmware versions\n          1.0.0.34 and 1.0.0.18. It should also work with the hardware revisions v4 and v3, but this\n          has not been tested.",
+  "references": [
+    "CVE-2016-10175",
+    "CVE-2016-10176",
+    "URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/netgear-wnr2000.txt",
+    "URL-https://seclists.org/fulldisclosure/2016/Dec/72",
+    "URL-https://kb.netgear.com/000036549/Insecure-Remote-Access-and-Command-Execution-Security-Vulnerability"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/netgear_wnr2000_pass_recovery.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/netgear_wnr2000_pass_recovery",
+  "needs_cleanup": false
+}

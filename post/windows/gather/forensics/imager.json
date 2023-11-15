@@ -1,0 +1,18 @@
+{
+  "name": "Windows Gather Forensic Imaging",
+  "fullname": "post/windows/gather/forensics/imager",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Wesley McGrew <wesley@mcgrewsecurity.com>"
+  ],
+  "description": "This module will perform byte-for-byte imaging of remote disks and volumes",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/gather/forensics/imager.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/forensics/imager",
+  "session_types": [
+    "meterpreter"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Windows Process Memory Dump",
+  "fullname": "post/windows/gather/memory_dump",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "smashery"
+  ],
+  "description": "This module creates a memory dump of a process (to disk) and downloads the file\n          for offline analysis.\n\n          Options for DUMP_TYPE affect the completeness of the dump:\n\n          \"full\" retrieves the entire process address space (all allocated pages);\n          \"standard\" excludes image files (e.g. DLLs and EXEs in the address space) as\n          well as memory mapped files. As a result, this option can be significantly\n          smaller in size.",
+  "platform": "Windows",
+  "mod_time": "2022-08-24 18:04:29 +0000",
+  "path": "/modules/post/windows/gather/memory_dump.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/memory_dump",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

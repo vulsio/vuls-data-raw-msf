@@ -1,0 +1,20 @@
+{
+  "name": "BNAT Router",
+  "fullname": "auxiliary/bnat/bnat_router",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "bannedit <bannedit@metasploit.com>",
+    "Jonathan Claudius"
+  ],
+  "description": "This module will properly route BNAT traffic and allow for connections to be\n        established to machines on ports which might not otherwise be accessible.",
+  "references": [
+    "URL-https://github.com/claudijd/bnat",
+    "URL-http://www.slideshare.net/claudijd/dc-skytalk-bnat-hijacking-repairing-broken-communication-channels"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/bnat/bnat_router.rb",
+  "is_install_path": true,
+  "ref_name": "bnat/bnat_router",
+  "needs_cleanup": false
+}

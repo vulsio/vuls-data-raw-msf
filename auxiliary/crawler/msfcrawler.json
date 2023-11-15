@@ -1,0 +1,16 @@
+{
+  "name": "Metasploit Web Crawler",
+  "fullname": "auxiliary/crawler/msfcrawler",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "This auxiliary module is a modular web crawler, to be used in conjunction with wmap (someday) or standalone.",
+  "rport": 80,
+  "mod_time": "2017-08-24 21:38:44 +0000",
+  "path": "/modules/auxiliary/crawler/msfcrawler.rb",
+  "is_install_path": true,
+  "ref_name": "crawler/msfcrawler",
+  "needs_cleanup": false
+}

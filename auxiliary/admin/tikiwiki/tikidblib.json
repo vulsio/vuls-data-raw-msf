@@ -1,0 +1,38 @@
+{
+  "name": "TikiWiki Information Disclosure",
+  "fullname": "auxiliary/admin/tikiwiki/tikidblib",
+  "rank": 300,
+  "disclosure_date": "2006-11-01",
+  "type": "auxiliary",
+  "author": [
+    "Matteo Cantoni <goony@nothink.org>"
+  ],
+  "description": "A vulnerability has been reported in Tikiwiki, which can be exploited by\n        an anonymous user to dump the MySQL user & passwd just by creating a mysql\n        error with the \"sort_mode\" var.\n\n        The vulnerability was reported in Tikiwiki version 1.9.5.",
+  "references": [
+    "OSVDB-30172",
+    "BID-20858",
+    "CVE-2006-5702",
+    "URL-https://web.archive.org/web/20080211225557/http://secunia.com/advisories/22678/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/admin/tikiwiki/tikidblib.rb",
+  "is_install_path": true,
+  "ref_name": "admin/tikiwiki/tikidblib",
+  "needs_cleanup": false
+}

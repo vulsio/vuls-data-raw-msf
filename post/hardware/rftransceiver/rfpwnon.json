@@ -1,0 +1,18 @@
+{
+  "name": "Brute Force AM/OOK (ie: Garage Doors)",
+  "fullname": "post/hardware/rftransceiver/rfpwnon",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Craig Smith"
+  ],
+  "description": "Post Module for HWBridge RFTranscievers.  Brute forces AM OOK or raw\n          binary signals.  This is a port of the rfpwnon tool by Corey Harding.\n          (https://github.com/exploitagency/github-rfpwnon/blob/master/rfpwnon.py)",
+  "platform": "Hardware",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/hardware/rftransceiver/rfpwnon.rb",
+  "is_install_path": true,
+  "ref_name": "hardware/rftransceiver/rfpwnon",
+  "session_types": [
+    "hwbridge"
+  ]
+}

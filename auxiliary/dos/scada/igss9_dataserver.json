@@ -1,0 +1,22 @@
+{
+  "name": "7-Technologies IGSS 9 IGSSdataServer.exe DoS",
+  "fullname": "auxiliary/dos/scada/igss9_dataserver",
+  "rank": 300,
+  "disclosure_date": "2011-12-20",
+  "type": "auxiliary",
+  "author": [
+    "jfa"
+  ],
+  "description": "The 7-Technologies SCADA IGSS Data Server (IGSSdataServer.exe) <= 9.0.0.10306 can be\n        brought down by sending a crafted TCP packet to port 12401.  This should also work\n        for version <= 9.0.0.1120, but that version hasn't been tested.",
+  "references": [
+    "CVE-2011-4050",
+    "OSVDB-77976",
+    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-11-335-01"
+  ],
+  "rport": 12401,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/dos/scada/igss9_dataserver.rb",
+  "is_install_path": true,
+  "ref_name": "dos/scada/igss9_dataserver",
+  "needs_cleanup": false
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Bitweaver overlay_type Directory Traversal",
+  "fullname": "auxiliary/scanner/http/bitweaver_overlay_type_traversal",
+  "rank": 300,
+  "disclosure_date": "2012-10-23",
+  "type": "auxiliary",
+  "author": [
+    "David Aaron",
+    "Jonathan Claudius",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability found in Bitweaver.\n        When handling the 'overlay_type' parameter, view_overlay.php fails to do any\n        path checking/filtering, which can be abused to read any file outside the\n        virtual directory.",
+  "references": [
+    "CVE-2012-5192",
+    "OSVDB-86599",
+    "EDB-22216",
+    "URL-https://www.trustwave.com/spiderlabs/advisories/TWSL2012-016.txt"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/bitweaver_overlay_type_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/bitweaver_overlay_type_traversal",
+  "needs_cleanup": false
+}

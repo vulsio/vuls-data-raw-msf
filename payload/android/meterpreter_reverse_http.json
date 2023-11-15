@@ -1,0 +1,14 @@
+{
+  "name": "Android Meterpreter Shell, Reverse HTTP Inline",
+  "fullname": "payload/android/meterpreter_reverse_http",
+  "rank": 300,
+  "type": "payload",
+  "description": "Connect back to attacker and spawn a Meterpreter shell",
+  "platform": "Android",
+  "arch": "dalvik",
+  "mod_time": "2021-08-13 16:21:39 +0000",
+  "path": "/modules/payloads/singles/android/meterpreter_reverse_http.rb",
+  "is_install_path": true,
+  "ref_name": "android/meterpreter_reverse_http",
+  "needs_cleanup": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ARRIS / Motorola SBG6580 Cable Modem SNMP Enumeration Module",
+  "fullname": "auxiliary/scanner/snmp/sbg6580_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Matthew Kienow <mkienow@inokii.com>"
+  ],
+  "description": "This module allows SNMP enumeration of the ARRIS / Motorola\n        SURFboard SBG6580 Series Wi-Fi Cable Modem Gateway. It supports the username\n        and password for the device user interface as well as wireless network keys\n        and information.\n        The default community used is \"public\".",
+  "references": [
+    "URL-https://seclists.org/fulldisclosure/2014/May/79",
+    "URL-https://web.archive.org/web/20150206092553/http://www.arrisi.com/modems/datasheet/SBG6580/SBG6580_UserGuide.pdf",
+    "OSVDB-110555"
+  ],
+  "rport": 161,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/sbg6580_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/sbg6580_enum",
+  "needs_cleanup": false
+}

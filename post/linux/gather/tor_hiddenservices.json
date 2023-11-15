@@ -1,0 +1,19 @@
+{
+  "name": "Linux Gather TOR Hidden Services",
+  "fullname": "post/linux/gather/tor_hiddenservices",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Harvey Phillips <xcellerator@gmx.com>"
+  ],
+  "description": "This module collects the hostnames name and private keys of\n          any TOR Hidden Services running on the target machine. It\n          will search for torrc and if found, will parse it for the\n          directories of Hidden Services. However, root permissions\n          are required to read them as they are owned by the user that\n          TOR runs as, usually a separate account.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/tor_hiddenservices.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/tor_hiddenservices",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

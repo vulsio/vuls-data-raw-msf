@@ -1,0 +1,24 @@
+{
+  "name": "Flash \"Rosetta\" JSONP GET/POST Response Disclosure",
+  "fullname": "auxiliary/gather/flash_rosetta_jsonp_url_disclosure",
+  "rank": 300,
+  "disclosure_date": "2014-07-08",
+  "type": "auxiliary",
+  "author": [
+    "Michele Spagnuolo",
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "A website that serves a JSONP endpoint that accepts a custom alphanumeric\n        callback of 1200 chars can be abused to serve an encoded swf payload that\n        steals the contents of a same-domain URL. Flash < 14.0.0.145 is required.\n\n        This module spins up a web server that, upon navigation from a user, attempts\n        to abuse the specified JSONP endpoint URLs by stealing the response from\n        GET requests to STEAL_URLS.",
+  "references": [
+    "CVE-2014-4671",
+    "URL-http://miki.it/blog/2014/7/8/abusing-jsonp-with-rosetta-flash/",
+    "URL-https://github.com/mikispag/rosettaflash",
+    "URL-https://www.quaxio.com/jsonp_handcrafted_flash_files/"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/flash_rosetta_jsonp_url_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "gather/flash_rosetta_jsonp_url_disclosure",
+  "check": true,
+  "needs_cleanup": false
+}

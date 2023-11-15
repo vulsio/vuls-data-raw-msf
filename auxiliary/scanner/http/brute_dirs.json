@@ -1,0 +1,31 @@
+{
+  "name": "HTTP Directory Brute Force Scanner",
+  "fullname": "auxiliary/scanner/http/brute_dirs",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "This module identifies the existence of interesting directories by brute forcing the name\n        in a given directory path.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-10-21 16:45:42 +0000",
+  "path": "/modules/auxiliary/scanner/http/brute_dirs.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/brute_dirs",
+  "needs_cleanup": false
+}

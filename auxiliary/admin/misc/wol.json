@@ -1,0 +1,15 @@
+{
+  "name": "UDP Wake-On-Lan (WOL)",
+  "fullname": "auxiliary/admin/misc/wol",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will turn on a remote machine with a network card that\n        supports wake-on-lan (or MagicPacket).  In order to use this, you must\n        know the machine's MAC address in advance.  The current default MAC\n        address is just an example of how your input should look like.\n\n          The password field is optional.  If present, it should be in this hex\n        format: 001122334455, which is translated to \"0x001122334455\" in binary.\n        Note that this should be either 4 or 6 bytes long.",
+  "mod_time": "2019-03-05 04:43:37 +0000",
+  "path": "/modules/auxiliary/admin/misc/wol.rb",
+  "is_install_path": true,
+  "ref_name": "admin/misc/wol",
+  "needs_cleanup": false
+}

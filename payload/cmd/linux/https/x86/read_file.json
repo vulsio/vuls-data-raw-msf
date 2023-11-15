@@ -1,0 +1,19 @@
+{
+  "name": "HTTPS Fetch, Linux Read File",
+  "fullname": "payload/cmd/linux/https/x86/read_file",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "hal"
+  ],
+  "description": "Fetch and execute an x86 payload from an HTTPS server.\nRead up to 4096 bytes from the local file system and write it back out to the specified file descriptor",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/https/x86/read_file",
+  "needs_cleanup": false
+}

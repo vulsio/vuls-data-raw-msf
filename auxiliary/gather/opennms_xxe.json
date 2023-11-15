@@ -1,0 +1,37 @@
+{
+  "name": "OpenNMS Authenticated XXE",
+  "fullname": "auxiliary/gather/opennms_xxe",
+  "rank": 300,
+  "disclosure_date": "2015-01-08",
+  "type": "auxiliary",
+  "author": [
+    "Stephen Breen <breenmachine@gmail.com>",
+    "Justin Kennedy <jstnkndy@gmail.com>"
+  ],
+  "description": "OpenNMS is vulnerable to XML External Entity Injection in the Real-Time Console interface.\n      Although this attack requires authentication, there are several factors that increase the\n      severity of this vulnerability.\n\n      1. OpenNMS runs with root privileges, taken from the OpenNMS FAQ: \"The difficulty with the\n      core of OpenNMS is that these components need to run as root to be able to bind to low-numbered\n      ports or generate network traffic that requires root\"\n\n      2. The user that you must authenticate as is the \"rtc\" user which has the default password of\n      \"rtc\". There is no mention of this user in the installation guides found here:\n      http://www.opennms.org/wiki/Tutorial_Installation, only mention that you should change the default\n      admin password of \"admin\" for security purposes.",
+  "references": [
+    "CVE-2015-0975"
+  ],
+  "rport": 8980,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/gather/opennms_xxe.rb",
+  "is_install_path": true,
+  "ref_name": "gather/opennms_xxe",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Windows Gather Local Admin Search",
+  "fullname": "post/windows/gather/local_admin_search_enum",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Brandon McCann \"zeknox\" <bmccann@accuvant.com>",
+    "Thomas McCarthy \"smilingraccoon\" <smilingraccoon@gmail.com>",
+    "Royce Davis \"r3dy\" <rdavis@accuvant.com>"
+  ],
+  "description": "This module will identify systems in a given range that the\n          supplied domain user (should migrate into a user pid) has administrative\n          access to by using the Windows API OpenSCManagerA to establishing a handle\n          to the remote host. Additionally it can enumerate logged in users and group\n          membership via Windows API NetWkstaUserEnum and NetUserGetGroups.",
+  "platform": "Windows",
+  "mod_time": "2023-05-25 12:45:30 +0000",
+  "path": "/modules/post/windows/gather/local_admin_search_enum.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/local_admin_search_enum",
+  "session_types": [
+    "meterpreter"
+  ]
+}

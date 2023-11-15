@@ -1,0 +1,28 @@
+{
+  "name": "WebEx Remote Command Execution Utility",
+  "fullname": "auxiliary/admin/smb/webexec_command",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Ron Bowes <ron@skullsecurity.net>"
+  ],
+  "description": "This module enables the execution of a single command as System by exploiting a remote\n        code execution vulnerability in Cisco's WebEx client software.",
+  "references": [
+    "URL-https://webexec.org",
+    "CVE-2018-15442"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2018-10-24 16:18:17 +0000",
+  "path": "/modules/auxiliary/admin/smb/webexec_command.rb",
+  "is_install_path": true,
+  "ref_name": "admin/smb/webexec_command",
+  "needs_cleanup": false
+}

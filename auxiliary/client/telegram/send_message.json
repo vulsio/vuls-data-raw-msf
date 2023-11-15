@@ -1,0 +1,16 @@
+{
+  "name": "Telegram Message Client",
+  "fullname": "auxiliary/client/telegram/send_message",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Ege Balcı <egebalci@pm.me>",
+    "Gaurav Purswani"
+  ],
+  "description": "This module can be used to send a document and/or message to\n        multiple chats on telegram. Please refer to the module\n        documentation for info on how to retrieve the bot token and corresponding chat\n        ID values.",
+  "mod_time": "2021-08-27 17:15:33 +0000",
+  "path": "/modules/auxiliary/client/telegram/send_message.rb",
+  "is_install_path": true,
+  "ref_name": "client/telegram/send_message",
+  "needs_cleanup": false
+}

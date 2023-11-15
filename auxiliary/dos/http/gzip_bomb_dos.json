@@ -1,0 +1,20 @@
+{
+  "name": "Gzip Memory Bomb Denial Of Service",
+  "fullname": "auxiliary/dos/http/gzip_bomb_dos",
+  "rank": 300,
+  "disclosure_date": "2004-01-01",
+  "type": "auxiliary",
+  "author": [
+    "info <info@aerasec.de>",
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "This module generates and hosts a 10MB single-round gzip file that decompresses to 10GB.\n        Many applications will not implement a length limit check and will eat up all memory and\n        eventually die. This can also be used to kill systems that download/parse content from\n        a user-provided URL (image-processing servers, AV, websites that accept zipped POST data, etc).\n\n        A FILEPATH datastore option can also be provided to save the .gz bomb locally.\n\n        Some clients (Firefox) will allow for multiple rounds of gzip. Most gzip utils will correctly\n        deflate multiple rounds of gzip on a file. Setting ROUNDS=3 and SIZE=10240 (default value)\n        will generate a 300 byte gzipped file that expands to 10GB.",
+  "references": [
+    "URL-http://www.aerasec.de/security/advisories/decompression-bomb-vulnerability.html"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/http/gzip_bomb_dos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/gzip_bomb_dos",
+  "needs_cleanup": false
+}

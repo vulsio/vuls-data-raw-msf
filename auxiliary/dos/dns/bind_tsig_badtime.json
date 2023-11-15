@@ -1,0 +1,28 @@
+{
+  "name": "BIND TSIG Badtime Query Denial of Service",
+  "fullname": "auxiliary/dos/dns/bind_tsig_badtime",
+  "rank": 300,
+  "disclosure_date": "2020-05-19",
+  "type": "auxiliary",
+  "author": [
+    "Tobias Klein",
+    "Shuto Imai"
+  ],
+  "description": "A logic error in code which checks TSIG validity can be used to\n          trigger an assertion failure in tsig.c.",
+  "references": [
+    "CVE-2020-8617",
+    "URL-https://gitlab.isc.org/isc-projects/bind9/-/issues/1703",
+    "URL-https://www.trapkit.de/advisories/TKADV2020-002.txt"
+  ],
+  "rport": 53,
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/dos/dns/bind_tsig_badtime.rb",
+  "is_install_path": true,
+  "ref_name": "dos/dns/bind_tsig_badtime",
+  "notes": {
+    "Stability": [
+      "crash-service-down"
+    ]
+  },
+  "needs_cleanup": false
+}

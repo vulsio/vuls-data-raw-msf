@@ -1,0 +1,27 @@
+{
+  "name": "DNS Record Scanner and Enumerator",
+  "fullname": "auxiliary/gather/enum_dns",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>",
+    "Nixawk"
+  ],
+  "description": "This module can be used to gather information about a domain from a\n        given DNS server by performing various DNS queries such as zone\n        transfers, reverse lookups, SRV record brute forcing, and other techniques.",
+  "references": [
+    "CVE-1999-0532",
+    "OSVDB-492"
+  ],
+  "rport": 53,
+  "autofilter_ports": [
+    53
+  ],
+  "autofilter_services": [
+    "dns"
+  ],
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/auxiliary/gather/enum_dns.rb",
+  "is_install_path": true,
+  "ref_name": "gather/enum_dns",
+  "needs_cleanup": false
+}

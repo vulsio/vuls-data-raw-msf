@@ -1,0 +1,22 @@
+{
+  "name": "NTP Mode 6 REQ_NONCE DRDoS Scanner",
+  "fullname": "auxiliary/scanner/ntp/ntp_req_nonce_dos",
+  "rank": 300,
+  "disclosure_date": "2014-08-25",
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "This module identifies NTP servers which permit mode 6 REQ_NONCE requests that\n        can be used to conduct DRDoS attacks. In some configurations, NTP servers will\n        respond to REQ_NONCE requests with a response larger than the request,\n        allowing remote attackers to cause a distributed, reflected\n        denial of service (aka, \"DRDoS\" or traffic amplification) via spoofed\n        requests.",
+  "references": [
+    "CVE-2013-5211",
+    "URL-https://github.com/rapid7/metasploit-framework/pull/3696",
+    "URL-https://www.rapid7.com/blog/post/2014/08/25/r7-2014-12-more-amplification-vulnerabilities-in-ntp-allow-even-more-drdos-attacks/"
+  ],
+  "rport": 123,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/ntp/ntp_req_nonce_dos.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ntp/ntp_req_nonce_dos",
+  "needs_cleanup": false
+}

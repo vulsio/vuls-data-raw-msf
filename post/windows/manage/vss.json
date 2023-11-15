@@ -1,0 +1,30 @@
+{
+  "name": "Windows Manage Volume Shadow Copies",
+  "fullname": "post/windows/manage/vss",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module will perform management actions for Volume Shadow Copies on the system. This is based on the VSSOwn\n          Script originally posted by Tim Tomes and Mark Baggett.\n\n          Works on win2k3 and later.",
+  "references": [
+    "URL-https://web.archive.org/web/20201111212952/https://securityweekly.com/2011/11/02/safely-dumping-hashes-from-liv/"
+  ],
+  "platform": "Windows",
+  "mod_time": "2022-02-23 16:27:12 +0000",
+  "path": "/modules/post/windows/manage/vss.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/vss",
+  "notes": {
+    "SideEffects": [
+      "config-changes",
+      "artifacts-on-disk"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

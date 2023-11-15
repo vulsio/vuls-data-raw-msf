@@ -1,0 +1,43 @@
+{
+  "name": "Joomla Account Creation and Privilege Escalation",
+  "fullname": "auxiliary/admin/http/joomla_registration_privesc",
+  "rank": 300,
+  "disclosure_date": "2016-10-25",
+  "type": "auxiliary",
+  "author": [
+    "Fabio Pires <fp@integrity.pt>",
+    "Filipe Reis <fr@integrity.pt>",
+    "Vitor Oliveira <vo@integrity.pt>"
+  ],
+  "description": "This module creates an arbitrary account with administrative privileges in Joomla versions 3.4.4\n          through 3.6.3. If an email server is configured in Joomla, an email will be sent to activate the account (the account is disabled by default).",
+  "references": [
+    "CVE-2016-8869",
+    "CVE-2016-8870",
+    "URL-https://developer.joomla.org/security-centre/660-20161002-core-elevated-privileges.html",
+    "URL-https://developer.joomla.org/security-centre/659-20161001-core-account-creation.html",
+    "URL-https://medium.com/@showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/joomla_registration_privesc.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/joomla_registration_privesc",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

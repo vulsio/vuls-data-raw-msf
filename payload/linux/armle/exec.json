@@ -1,0 +1,17 @@
+{
+  "name": "Linux Execute Command",
+  "fullname": "payload/linux/armle/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Jonathan Salwan"
+  ],
+  "description": "Execute an arbitrary command",
+  "platform": "Linux",
+  "arch": "armle",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/linux/armle/exec.rb",
+  "is_install_path": true,
+  "ref_name": "linux/armle/exec",
+  "needs_cleanup": false
+}

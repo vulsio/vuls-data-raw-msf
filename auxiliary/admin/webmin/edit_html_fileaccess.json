@@ -1,0 +1,41 @@
+{
+  "name": "Webmin edit_html.cgi file Parameter Traversal Arbitrary File Access",
+  "fullname": "auxiliary/admin/webmin/edit_html_fileaccess",
+  "rank": 300,
+  "disclosure_date": "2012-09-06",
+  "type": "auxiliary",
+  "author": [
+    "Unknown",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits a directory traversal in Webmin 1.580. The vulnerability\n        exists in the edit_html.cgi component and allows an authenticated user with access\n        to the File Manager Module to access arbitrary files with root privileges. The\n        module has been tested successfully with Webmin 1.580 over Ubuntu 10.04.",
+  "references": [
+    "OSVDB-85247",
+    "BID-55446",
+    "CVE-2012-2983",
+    "URL-http://www.americaninfosec.com/research/dossiers/AISG-12-002.pdf",
+    "URL-https://github.com/webmin/webmin/commit/4cd7bad70e23e4e19be8ccf7b9f245445b2b3b80"
+  ],
+  "rport": 10000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/webmin/edit_html_fileaccess.rb",
+  "is_install_path": true,
+  "ref_name": "admin/webmin/edit_html_fileaccess",
+  "post_auth": true,
+  "needs_cleanup": false
+}

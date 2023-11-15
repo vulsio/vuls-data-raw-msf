@@ -1,0 +1,31 @@
+{
+  "name": "HTTP Blind XPATH 1.0 Injector",
+  "fullname": "auxiliary/scanner/http/xpath",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "This module exploits blind XPATH 1.0 injections over HTTP GET requests.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/http/xpath.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/xpath",
+  "needs_cleanup": false
+}

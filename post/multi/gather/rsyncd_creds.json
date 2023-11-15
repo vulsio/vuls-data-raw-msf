@@ -1,0 +1,17 @@
+{
+  "name": "UNIX Gather RSYNC Credentials",
+  "fullname": "post/multi/gather/rsyncd_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>"
+  ],
+  "description": "Post Module to obtain credentials saved for RSYNC in various locations",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/rsyncd_creds.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/rsyncd_creds",
+  "session_types": [
+    "shell"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "BSD Command Shell, Reverse TCP Stager",
+  "fullname": "payload/bsd/x86/shell/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Spawn a command shell (staged).\n\nConnect back to the attacker",
+  "platform": "BSD",
+  "arch": "x86",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/bsd/x86/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "bsd/x86/shell/reverse_tcp",
+  "needs_cleanup": false
+}

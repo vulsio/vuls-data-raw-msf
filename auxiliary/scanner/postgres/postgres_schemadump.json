@@ -1,0 +1,23 @@
+{
+  "name": "Postgres Schema Dump",
+  "fullname": "auxiliary/scanner/postgres/postgres_schemadump",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module extracts the schema information from a\n          Postgres server.",
+  "rport": 5432,
+  "autofilter_ports": [
+    5432
+  ],
+  "autofilter_services": [
+    "postgres"
+  ],
+  "mod_time": "2021-07-29 18:51:58 +0000",
+  "path": "/modules/auxiliary/scanner/postgres/postgres_schemadump.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/postgres/postgres_schemadump",
+  "post_auth": true,
+  "needs_cleanup": false
+}

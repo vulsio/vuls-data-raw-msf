@@ -1,0 +1,40 @@
+{
+  "name": "Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Authentication Bypass",
+  "fullname": "auxiliary/admin/http/allegro_rompager_auth_bypass",
+  "rank": 300,
+  "disclosure_date": "2014-12-17",
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>",
+    "Jan Trencansky <jan.trencansky@gmail.com>",
+    "Lior Oppenheim"
+  ],
+  "description": "This module exploits HTTP servers that appear to be vulnerable to the\n          'Misfortune Cookie' vulnerability which affects Allegro Software\n          Rompager versions before 4.34 and can allow attackers to authenticate\n          to the HTTP service as an administrator without providing valid\n          credentials.",
+  "references": [
+    "CVE-2014-9222",
+    "URL-https://web.archive.org/web/20191006135858/http://mis.fortunecook.ie/",
+    "URL-https://web.archive.org/web/20190207102911/http://mis.fortunecook.ie/misfortune-cookie-suspected-vulnerable.pdf",
+    "URL-https://web.archive.org/web/20190623150837/http://mis.fortunecook.ie/too-many-cooks-exploiting-tr069_tal-oppenheim_31c3.pdf"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/allegro_rompager_auth_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/allegro_rompager_auth_bypass",
+  "needs_cleanup": false
+}

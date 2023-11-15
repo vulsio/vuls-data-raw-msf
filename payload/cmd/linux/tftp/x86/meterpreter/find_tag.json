@@ -1,0 +1,20 @@
+{
+  "name": "TFTP Fetch, Find Tag Stager",
+  "fullname": "payload/cmd/linux/tftp/x86/meterpreter/find_tag",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "William Webb <william_webb@rapid7.com>",
+    "skape <mmiller@hick.org>"
+  ],
+  "description": "Fetch and execute a x86 payload from a TFTP server.\nUse an established connection",
+  "platform": "Linux,Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x86/meterpreter/find_tag",
+  "needs_cleanup": false
+}

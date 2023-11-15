@@ -1,0 +1,23 @@
+{
+  "name": "Bookmarked Sites Retriever",
+  "fullname": "post/windows/gather/get_bookmarks",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "jerrelgordon"
+  ],
+  "description": "This module discovers information about a target by retrieving their bookmarked websites on Google Chrome, Opera and Microsoft Edge.",
+  "platform": "Windows",
+  "mod_time": "2022-05-11 14:29:36 +0000",
+  "path": "/modules/post/windows/gather/get_bookmarks.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/get_bookmarks",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

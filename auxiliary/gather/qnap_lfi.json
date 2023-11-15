@@ -1,0 +1,51 @@
+{
+  "name": "QNAP QTS and Photo Station Local File Inclusion",
+  "fullname": "auxiliary/gather/qnap_lfi",
+  "rank": 300,
+  "disclosure_date": "2019-11-25",
+  "type": "auxiliary",
+  "author": [
+    "Henry Huang",
+    "Redouane NIBOUCHA <rniboucha@yahoo.fr>"
+  ],
+  "description": "This module exploits a local file inclusion in QNAP QTS and Photo\n          Station that allows an unauthenticated attacker to download files from\n          the QNAP filesystem.\n\n          Because the HTTP server runs as root, it is possible to access\n          sensitive files, such as SSH private keys and password hashes.\n\n          This module has been tested on QTS 4.3.3 (unknown Photo Station\n          version) and QTS 4.3.6 with Photo Station 5.7.9.",
+  "references": [
+    "CVE-2019-7192",
+    "CVE-2019-7194",
+    "CVE-2019-7195",
+    "EDB-48531",
+    "URL-https://infosecwriteups.com/qnap-pre-auth-root-rce-affecting-450k-devices-on-the-internet-d55488d28a05",
+    "URL-https://www.qnap.com/en-us/security-advisory/nas-201911-25",
+    "URL-https://github.com/Imanfeng/QNAP-NAS-RCE"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-02-23 16:27:12 +0000",
+  "path": "/modules/auxiliary/gather/qnap_lfi.rb",
+  "is_install_path": true,
+  "ref_name": "gather/qnap_lfi",
+  "check": true,
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

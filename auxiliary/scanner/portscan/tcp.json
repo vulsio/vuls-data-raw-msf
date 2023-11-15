@@ -1,0 +1,16 @@
+{
+  "name": "TCP Port Scanner",
+  "fullname": "auxiliary/scanner/portscan/tcp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "Enumerate open TCP services by performing a full TCP connect on each port.\n        This does not need administrative privileges on the source machine, which\n        may be useful if pivoting.",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/portscan/tcp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/portscan/tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Architecture-Independent Meterpreter Stage, Reverse HTTPS Stager (Multiple Architectures)",
+  "fullname": "payload/multi/meterpreter/reverse_https",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "OJ Reeves"
+  ],
+  "description": "Handle Meterpreter sessions regardless of the target arch/platform.\n\nTunnel communication over HTTPS",
+  "platform": "Multi",
+  "arch": "x86, x86_64, x64, mips, mipsle, mipsbe, mips64, mips64le, ppc, ppce500v2, ppc64, ppc64le, cbea, cbea64, sparc, sparc64, armle, armbe, aarch64, cmd, php, tty, java, ruby, dalvik, python, nodejs, firefox, zarch, r",
+  "mod_time": "2021-04-21 19:46:44 +0000",
+  "path": "/modules/payloads/stagers/multi/reverse_https.rb",
+  "is_install_path": true,
+  "ref_name": "multi/meterpreter/reverse_https",
+  "needs_cleanup": false
+}

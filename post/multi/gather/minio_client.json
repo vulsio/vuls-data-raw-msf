@@ -1,0 +1,23 @@
+{
+  "name": "Gather MinIO Client Key",
+  "fullname": "post/multi/gather/minio_client",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Kali-Team <kali-team@qq.com>"
+  ],
+  "description": "This is a module that searches for MinIO Client credentials on a windows remote host.",
+  "references": [
+    "URL-https://blog.kali-team.cn/Metasploit-MinIO-Client-7d940c60ae8545aeaa29c96536dda855"
+  ],
+  "platform": "Linux,OSX,Unix,Windows",
+  "mod_time": "2023-01-11 14:30:23 +0000",
+  "path": "/modules/post/multi/gather/minio_client.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/minio_client",
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Joomla com_contenthistory Error-Based SQL Injection",
+  "fullname": "auxiliary/gather/joomla_contenthistory_sqli",
+  "rank": 300,
+  "disclosure_date": "2015-10-22",
+  "type": "auxiliary",
+  "author": [
+    "Asaf Orpani",
+    "bperry",
+    "Nixawk"
+  ],
+  "description": "This module exploits a SQL injection vulnerability in Joomla versions 3.2\n        through 3.4.4 in order to either enumerate usernames and password hashes.",
+  "references": [
+    "CVE-2015-7297",
+    "URL-https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/joomla-sql-injection-vulnerability-exploit-results-in-full-administrative-access/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/joomla_contenthistory_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "gather/joomla_contenthistory_sqli",
+  "check": true,
+  "needs_cleanup": false
+}

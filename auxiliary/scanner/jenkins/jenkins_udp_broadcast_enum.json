@@ -1,0 +1,19 @@
+{
+  "name": "Jenkins Server Broadcast Enumeration",
+  "fullname": "auxiliary/scanner/jenkins/jenkins_udp_broadcast_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Adam Compton <adam_compton@rapid7.com>",
+    "Matt Schmidt <matt_schmidt@rapid7.com>"
+  ],
+  "description": "This module sends out a udp broadcast packet querying for\n            any Jenkins servers on the local network.\n            Be advised that while this module does not identify the\n            port on which Jenkins is running, the default port for\n            Jenkins is 8080.",
+  "references": [
+    "URL-https://wiki.jenkins-ci.org/display/JENKINS/Auto-discovering+Jenkins+on+the+network"
+  ],
+  "mod_time": "2019-03-05 04:43:37 +0000",
+  "path": "/modules/auxiliary/scanner/jenkins/jenkins_udp_broadcast_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/jenkins/jenkins_udp_broadcast_enum",
+  "needs_cleanup": false
+}

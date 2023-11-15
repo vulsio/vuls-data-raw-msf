@@ -1,0 +1,24 @@
+{
+  "name": "SMB Create Pipe Request Fuzzer",
+  "fullname": "auxiliary/fuzzers/smb/smb_create_pipe",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module sends a series of SMB create pipe\n      requests using malicious strings.",
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/fuzzers/smb/smb_create_pipe.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/smb/smb_create_pipe",
+  "needs_cleanup": false
+}

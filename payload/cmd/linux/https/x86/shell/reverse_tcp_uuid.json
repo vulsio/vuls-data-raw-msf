@@ -1,0 +1,21 @@
+{
+  "name": "HTTPS Fetch, Linux Command Shell, Reverse TCP Stager",
+  "fullname": "payload/cmd/linux/https/x86/shell/reverse_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "skape <mmiller@hick.org>",
+    "egypt <egypt@metasploit.com>",
+    "OJ Reeves"
+  ],
+  "description": "Fetch and execute an x86 payload from an HTTPS server.\nSpawn a command shell (staged).\n\nConnect back to the attacker",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/https/x86/shell/reverse_tcp_uuid",
+  "needs_cleanup": false
+}

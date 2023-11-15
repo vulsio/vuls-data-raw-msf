@@ -1,0 +1,15 @@
+{
+  "name": "Search Engine Domain Email Address Collector",
+  "fullname": "auxiliary/gather/search_email_collector",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module uses Google, Bing and Yahoo to create a list of\n        valid email addresses for the target domain.",
+  "mod_time": "2021-11-17 15:08:27 +0000",
+  "path": "/modules/auxiliary/gather/search_email_collector.rb",
+  "is_install_path": true,
+  "ref_name": "gather/search_email_collector",
+  "needs_cleanup": false
+}

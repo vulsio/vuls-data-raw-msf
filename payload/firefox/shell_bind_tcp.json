@@ -1,0 +1,17 @@
+{
+  "name": "Command Shell, Bind TCP (via Firefox XPCOM script)",
+  "fullname": "payload/firefox/shell_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "Creates an interactive shell via Javascript with access to Firefox's XPCOM API",
+  "platform": "Firefox",
+  "arch": "firefox",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/firefox/shell_bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "firefox/shell_bind_tcp",
+  "needs_cleanup": false
+}

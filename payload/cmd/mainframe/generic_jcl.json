@@ -1,0 +1,17 @@
+{
+  "name": "Generic JCL Test for Mainframe Exploits",
+  "fullname": "payload/cmd/mainframe/generic_jcl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Bigendian Smalls"
+  ],
+  "description": "Provide JCL which can be used to submit\n                        a job to JES2 on z/OS which will exit and return 0.  This\n                        can be used as a template for other JCL based payloads",
+  "platform": "Mainframe",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/cmd/mainframe/generic_jcl.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/mainframe/generic_jcl",
+  "needs_cleanup": false
+}

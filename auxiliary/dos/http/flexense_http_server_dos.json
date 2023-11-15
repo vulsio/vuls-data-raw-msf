@@ -1,0 +1,22 @@
+{
+  "name": "Flexense HTTP Server Denial Of Service",
+  "fullname": "auxiliary/dos/http/flexense_http_server_dos",
+  "rank": 300,
+  "disclosure_date": "2018-03-09",
+  "type": "auxiliary",
+  "author": [
+    "Ege Balci <ege.balci@invictuseurope.com>"
+  ],
+  "description": "This module triggers a Denial of Service vulnerability in the Flexense HTTP server.\n        Vulnerability caused by a user mode write access memory violation and can be triggered with\n        rapidly sending variety of HTTP requests with long HTTP header values.\n\n        Multiple Flexense applications that are using Flexense HTTP server 10.6.24 and below vesions reportedly vulnerable.",
+  "references": [
+    "CVE-2018-8065",
+    "URL-https://github.com/EgeBalci/Sync_Breeze_Enterprise_10_6_24_-DOS"
+  ],
+  "rport": 80,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/http/flexense_http_server_dos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/flexense_http_server_dos",
+  "check": true,
+  "needs_cleanup": false
+}

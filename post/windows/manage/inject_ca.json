@@ -1,0 +1,18 @@
+{
+  "name": "Windows Manage Certificate Authority Injection",
+  "fullname": "post/windows/manage/inject_ca",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "vt <nick.freeman@security-assessment.com>"
+  ],
+  "description": "This module allows the attacker to insert an arbitrary CA certificate\n          into the victim's Trusted Root store.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/inject_ca.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/inject_ca",
+  "session_types": [
+    "meterpreter"
+  ]
+}

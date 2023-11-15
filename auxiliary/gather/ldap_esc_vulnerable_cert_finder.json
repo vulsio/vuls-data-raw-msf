@@ -1,0 +1,25 @@
+{
+  "name": "Misconfigured Certificate Template Finder",
+  "fullname": "auxiliary/gather/ldap_esc_vulnerable_cert_finder",
+  "rank": 300,
+  "disclosure_date": "2021-06-17",
+  "type": "auxiliary",
+  "author": [
+    "Grant Willcox"
+  ],
+  "description": "This module allows users to query a LDAP server for vulnerable certificate\n          templates and will print these certificates out in a table along with which\n          attack they are vulnerable to and the SIDs that can be used to enroll in that\n          certificate template.\n\n          Additionally the module will also print out a list of known certificate servers\n          along with info about which vulnerable certificate templates the certificate server\n          allows enrollment in and which SIDs are authorized to use that certificate server to\n          perform this enrollment operation.\n\n          Currently the module is capable of checking for ESC1, ESC2, and ESC3 vulnerable certificates.",
+  "rport": 389,
+  "mod_time": "2023-05-08 16:43:26 +0000",
+  "path": "/modules/auxiliary/gather/ldap_esc_vulnerable_cert_finder.rb",
+  "is_install_path": true,
+  "ref_name": "gather/ldap_esc_vulnerable_cert_finder",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

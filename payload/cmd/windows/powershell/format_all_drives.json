@@ -1,0 +1,27 @@
+{
+  "name": "Powershell Exec",
+  "fullname": "payload/cmd/windows/powershell/format_all_drives",
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "Ashfaq Ansari <ashfaq_ansari1989@hotmail.com>",
+    "Ruei-Min Jiang <mike820324@gmail.com>"
+  ],
+  "description": "Execute an x86 payload from a command via PowerShell",
+  "references": [
+    "URL-http://hacksys.vfreaks.com/research/shellcode-of-death.html",
+    "URL-https://github.com/hacksysteam/ShellcodeOfDeath"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-05-27 16:41:25 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell/format_all_drives",
+  "notes": {
+    "AKA": [
+      "ShellcodeOfDeath"
+    ]
+  },
+  "needs_cleanup": false
+}

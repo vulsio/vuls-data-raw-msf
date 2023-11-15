@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Bind TCP (via netcat -e) IPv6",
+  "fullname": "payload/cmd/unix/bind_netcat_gaping_ipv6",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Listen for a connection and spawn a command shell via netcat",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/bind_netcat_gaping_ipv6.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/bind_netcat_gaping_ipv6",
+  "needs_cleanup": false
+}

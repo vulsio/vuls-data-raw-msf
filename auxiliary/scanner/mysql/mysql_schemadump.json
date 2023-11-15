@@ -1,0 +1,16 @@
+{
+  "name": "MYSQL Schema Dump",
+  "fullname": "auxiliary/scanner/mysql/mysql_schemadump",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module extracts the schema information from a\n          MySQL DB server.",
+  "rport": 3306,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/mysql/mysql_schemadump.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/mysql/mysql_schemadump",
+  "needs_cleanup": false
+}

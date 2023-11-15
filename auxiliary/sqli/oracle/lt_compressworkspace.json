@@ -1,0 +1,23 @@
+{
+  "name": "Oracle DB SQL Injection via SYS.LT.COMPRESSWORKSPACE",
+  "fullname": "auxiliary/sqli/oracle/lt_compressworkspace",
+  "rank": 300,
+  "disclosure_date": "2008-10-13",
+  "type": "auxiliary",
+  "author": [
+    "CG <cg@carnal0wnage.com>"
+  ],
+  "description": "This module exploits an sql injection flaw in the COMPRESSWORKSPACE\n        procedure of the PL/SQL package SYS.LT. Any user with execute\n        privilege on the vulnerable package can exploit this vulnerability.",
+  "references": [
+    "CVE-2008-3982",
+    "OSVDB-49324",
+    "URL-http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpuoct2008.html"
+  ],
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/sqli/oracle/lt_compressworkspace.rb",
+  "is_install_path": true,
+  "ref_name": "sqli/oracle/lt_compressworkspace",
+  "post_auth": true,
+  "needs_cleanup": false
+}

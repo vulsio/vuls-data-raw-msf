@@ -1,0 +1,23 @@
+{
+  "name": "Multi Manage the screen of the target meterpreter session",
+  "fullname": "post/multi/manage/screenshare",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "timwr"
+  ],
+  "description": "This module allows you to view and control the screen of the target computer via\n          a local browser window. The module continually screenshots the target screen and\n          also relays all mouse and keyboard events to session.",
+  "platform": "Linux,OSX,Windows",
+  "mod_time": "2021-09-23 15:03:19 +0000",
+  "path": "/modules/post/multi/manage/screenshare.rb",
+  "is_install_path": true,
+  "ref_name": "multi/manage/screenshare",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

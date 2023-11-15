@@ -1,0 +1,18 @@
+{
+  "name": "Http:BL Lookup",
+  "fullname": "auxiliary/scanner/http/httpbl_lookup",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "mubix <mubix@hak5.org>"
+  ],
+  "description": "This module can be used to enumerate information\n        about an IP addresses from Project HoneyPot's HTTP Block List.",
+  "references": [
+    "URL-https://www.projecthoneypot.org/httpbl_api.php"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/httpbl_lookup.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/httpbl_lookup",
+  "needs_cleanup": false
+}

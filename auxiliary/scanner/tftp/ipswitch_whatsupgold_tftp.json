@@ -1,0 +1,26 @@
+{
+  "name": "IpSwitch WhatsUp Gold TFTP Directory Traversal",
+  "fullname": "auxiliary/scanner/tftp/ipswitch_whatsupgold_tftp",
+  "rank": 300,
+  "disclosure_date": "2011-12-12",
+  "type": "auxiliary",
+  "author": [
+    "Prabhu S Angadi",
+    "sinn3r <sinn3r@metasploit.com>",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This modules exploits a directory traversal vulnerability in IpSwitch WhatsUp\n        Gold's TFTP service.",
+  "references": [
+    "OSVDB-77455",
+    "BID-50890",
+    "EDB-18189",
+    "URL-http://secpod.org/advisories/SecPod_Ipswitch_TFTP_Server_Dir_Trav.txt",
+    "CVE-2011-4722"
+  ],
+  "rport": 69,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/tftp/ipswitch_whatsupgold_tftp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/tftp/ipswitch_whatsupgold_tftp",
+  "needs_cleanup": false
+}

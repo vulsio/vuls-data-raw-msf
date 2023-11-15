@@ -1,0 +1,22 @@
+{
+  "name": "Authentication Capture: SMTP",
+  "fullname": "auxiliary/server/capture/smtp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "ddz <ddz@theta44.org>",
+    "hdm <x@hdm.io>",
+    "h00die"
+  ],
+  "description": "This module provides a fake SMTP service that\n      is designed to capture authentication credentials.",
+  "references": [
+    "URL-https://www.samlogic.net/articles/smtp-commands-reference-auth.htm",
+    "URL-https://datatracker.ietf.org/doc/html/rfc5321",
+    "URL-http://fehcom.de/qmail/smtpauth.html"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/server/capture/smtp.rb",
+  "is_install_path": true,
+  "ref_name": "server/capture/smtp",
+  "needs_cleanup": false
+}

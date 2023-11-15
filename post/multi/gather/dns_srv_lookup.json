@@ -1,0 +1,19 @@
+{
+  "name": "Multi Gather DNS Service Record Lookup Scan",
+  "fullname": "post/multi/gather/dns_srv_lookup",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "Enumerates known SRV Records for a given domain using target host DNS query tool.",
+  "platform": "BSD,Linux,OSX,Solaris,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/dns_srv_lookup.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/dns_srv_lookup",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

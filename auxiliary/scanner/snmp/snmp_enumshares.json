@@ -1,0 +1,16 @@
+{
+  "name": "SNMP Windows SMB Share Enumeration",
+  "fullname": "auxiliary/scanner/snmp/snmp_enumshares",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "tebo <tebo@attackresearch.com>"
+  ],
+  "description": "This module will use LanManager OID values to enumerate SMB shares on a Windows system via SNMP",
+  "rport": 161,
+  "mod_time": "2022-11-01 14:22:49 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/snmp_enumshares.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/snmp_enumshares",
+  "needs_cleanup": false
+}

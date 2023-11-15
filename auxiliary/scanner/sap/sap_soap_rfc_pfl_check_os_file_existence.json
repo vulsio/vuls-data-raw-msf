@@ -1,0 +1,38 @@
+{
+  "name": "SAP SOAP RFC PFL_CHECK_OS_FILE_EXISTENCE File Existence Check",
+  "fullname": "auxiliary/scanner/sap/sap_soap_rfc_pfl_check_os_file_existence",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "lexey Tyurin",
+    "nmonkee"
+  ],
+  "description": "This module abuses the SAP NetWeaver PFL_CHECK_OS_FILE_EXISTENCE function, on\n        the SAP SOAP RFC Service, to check for files existence on the remote file system.\n        The module can also be used to capture SMB hashes by using a fake SMB share as\n        FILEPATH.",
+  "references": [
+    "OSVDB-78537",
+    "BID-51645",
+    "URL-http://erpscan.com/advisories/dsecrg-12-009-sap-netweaver-pfl_check_os_file_existence-missing-authorisation-check-and-smb-relay-vulnerability/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_pfl_check_os_file_existence.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_soap_rfc_pfl_check_os_file_existence",
+  "post_auth": true,
+  "needs_cleanup": false
+}

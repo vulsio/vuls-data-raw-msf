@@ -1,0 +1,16 @@
+{
+  "name": "NetBIOS Information Discovery",
+  "fullname": "auxiliary/scanner/netbios/nbname",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Discover host information through NetBIOS",
+  "rport": 137,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/netbios/nbname.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/netbios/nbname",
+  "needs_cleanup": false
+}

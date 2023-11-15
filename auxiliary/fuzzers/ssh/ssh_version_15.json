@@ -1,0 +1,16 @@
+{
+  "name": "SSH 1.5 Version Fuzzer",
+  "fullname": "auxiliary/fuzzers/ssh/ssh_version_15",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module sends a series of SSH requests with malicious version strings.",
+  "rport": 22,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/fuzzers/ssh/ssh_version_15.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/ssh/ssh_version_15",
+  "needs_cleanup": false
+}

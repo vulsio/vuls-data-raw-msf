@@ -1,0 +1,37 @@
+{
+  "name": "GlassFish Brute Force Utility",
+  "fullname": "auxiliary/scanner/http/glassfish_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Joshua Abraham <jabra@spl0it.org>",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module attempts to login to GlassFish instance using username and password\n        combinations indicated by the USER_FILE, PASS_FILE, and USERPASS_FILE options.\n        It will also try to do an authentication bypass against older versions of GlassFish.\n        Note: by default, GlassFish 4.0 requires HTTPS, which means you must set the SSL option\n        to true, and SSLVersion to TLS1. It also needs Secure Admin to access the DAS remotely.",
+  "references": [
+    "CVE-2011-0807",
+    "OSVDB-71948"
+  ],
+  "rport": 4848,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-09-02 11:41:27 +0000",
+  "path": "/modules/auxiliary/scanner/http/glassfish_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/glassfish_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

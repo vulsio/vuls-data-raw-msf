@@ -1,0 +1,35 @@
+{
+  "name": "Apple TV Image Remote Control",
+  "fullname": "auxiliary/admin/appletv/appletv_display_image",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "0a29406d9794e4f9b30b3c5d6702c708",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will show an image on an AppleTV device for a period of time.\n        Some AppleTV devices are actually password-protected, in that case please\n        set the PASSWORD datastore option. For password brute forcing, please see\n        the module auxiliary/scanner/http/appletv_login.",
+  "references": [
+    "URL-http://nto.github.io/AirPlay.html"
+  ],
+  "rport": 7000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/admin/appletv/appletv_display_image.rb",
+  "is_install_path": true,
+  "ref_name": "admin/appletv/appletv_display_image",
+  "needs_cleanup": false
+}

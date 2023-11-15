@@ -1,0 +1,50 @@
+{
+  "name": "Cisco PVC2300 POE Video Camera configuration download",
+  "fullname": "auxiliary/gather/cisco_pvc2300_download_config",
+  "rank": 300,
+  "disclosure_date": "2013-07-12",
+  "type": "auxiliary",
+  "author": [
+    "Craig Heffner",
+    "Erik Wynter"
+  ],
+  "description": "This module exploits an information disclosure vulnerability in Cisco PVC2300 cameras in order\n            to download the configuration file containing the admin credentials for the web interface.\n\n            The module first performs a basic check to see if the target is likely Cisco PVC2300. If so, the\n            module attempts to obtain a sessionID via an HTTP GET request to the vulnerable /oamp/System.xml\n            endpoint using hardcoded credentials.\n\n            If a session ID is obtained, the module uses it in another HTTP GET request to /oamp/System.xml\n            with the aim of downloading the configuration file. The configuration file, if obtained, is then\n            decoded and saved to the loot directory. Finally, the module attempts to extract the admin\n            credentials to the web interface from the decoded configuration file.\n\n            No known solution was made available for this vulnerability and no CVE has been published. It is\n            therefore likely that most (if not all) Cisco PVC2300 cameras are affected.\n\n            This module was successfully tested against several Cisco PVC2300 cameras.",
+  "references": [
+    "URL-https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2013/US-13-Heffner-Exploiting-Network-Surveillance-Cameras-Like-A-Hollywood-Hacker-Slides.pdf",
+    "URL-https://media.blackhat.com/us-13/US-13-Heffner-Exploiting-Network-Surveillance-Cameras-Like-A-Hollywood-Hacker-Slides.pdf",
+    "URL-https://www.youtube.com/watch?v=B8DjTcANBx0"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-08-04 11:45:36 +0000",
+  "path": "/modules/auxiliary/gather/cisco_pvc2300_download_config.rb",
+  "is_install_path": true,
+  "ref_name": "gather/cisco_pvc2300_download_config",
+  "check": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

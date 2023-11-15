@@ -1,0 +1,16 @@
+{
+  "name": "SSH Version Corruption",
+  "fullname": "auxiliary/fuzzers/ssh/ssh_version_corrupt",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module sends a series of SSH requests with a corrupted version string",
+  "rport": 22,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/fuzzers/ssh/ssh_version_corrupt.rb",
+  "is_install_path": true,
+  "ref_name": "fuzzers/ssh/ssh_version_corrupt",
+  "needs_cleanup": false
+}

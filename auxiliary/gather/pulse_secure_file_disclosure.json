@@ -1,0 +1,53 @@
+{
+  "name": "Pulse Secure VPN Arbitrary File Disclosure",
+  "fullname": "auxiliary/gather/pulse_secure_file_disclosure",
+  "rank": 300,
+  "disclosure_date": "2019-04-24",
+  "type": "auxiliary",
+  "author": [
+    "Orange Tsai",
+    "Meh Chang",
+    "Alyssa Herrera",
+    "Justin Wagner",
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module exploits a pre-auth directory traversal in the Pulse Secure\n        VPN server to dump an arbitrary file. Dumped files are stored in loot.\n\n        If the \"Automatic\" action is set, plaintext and hashed credentials, as\n        well as session IDs, will be dumped. Valid sessions can be hijacked by\n        setting the \"DSIG\" browser cookie to a valid session ID.\n\n        For the \"Manual\" action, please specify a file to dump via the \"FILE\"\n        option. /etc/passwd will be dumped by default. If the \"PRINT\" option is\n        set, file contents will be printed to the screen, with any unprintable\n        characters replaced by a period.\n\n        Please see related module exploit/linux/http/pulse_secure_cmd_exec for\n        a post-auth exploit that can leverage the results from this module.",
+  "references": [
+    "CVE-2019-11510",
+    "URL-https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101/",
+    "URL-https://blog.orange.tw/2019/09/attacking-ssl-vpn-part-3-golden-pulse-secure-rce-chain.html",
+    "URL-https://hackerone.com/reports/591295"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-09-15 16:35:55 +0000",
+  "path": "/modules/auxiliary/gather/pulse_secure_file_disclosure.rb",
+  "is_install_path": true,
+  "ref_name": "gather/pulse_secure_file_disclosure",
+  "notes": {
+    "RelatedModules": [
+      "exploit/linux/http/pulse_secure_cmd_exec"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

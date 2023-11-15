@@ -1,0 +1,19 @@
+{
+  "name": "Windows Gather Generic File Collection",
+  "fullname": "post/windows/gather/enum_files",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "3vi1john <Jbabio@me.com>",
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "This module downloads files recursively based on the FILE_GLOBS option.",
+  "platform": "Windows",
+  "mod_time": "2023-05-25 12:45:30 +0000",
+  "path": "/modules/post/windows/gather/enum_files.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_files",
+  "session_types": [
+    "meterpreter"
+  ]
+}

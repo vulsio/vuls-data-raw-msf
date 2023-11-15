@@ -1,0 +1,22 @@
+{
+  "name": "libssh Authentication Bypass Scanner",
+  "fullname": "auxiliary/scanner/ssh/libssh_auth_bypass",
+  "rank": 300,
+  "disclosure_date": "2018-10-16",
+  "type": "auxiliary",
+  "author": [
+    "Peter Winter-Smith",
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module exploits an authentication bypass in libssh server code\n        where a USERAUTH_SUCCESS message is sent in place of the expected\n        USERAUTH_REQUEST message. libssh versions 0.6.0 through 0.7.5 and\n        0.8.0 through 0.8.3 are vulnerable.\n\n        Note that this module's success depends on whether the server code\n        can trigger the correct (shell/exec) callbacks despite only the state\n        machine's authenticated state being set.\n\n        Therefore, you may or may not get a shell if the server requires\n        additional code paths to be followed.",
+  "references": [
+    "CVE-2018-10933",
+    "URL-https://www.libssh.org/security/advisories/CVE-2018-10933.txt"
+  ],
+  "rport": 22,
+  "mod_time": "2023-07-25 13:44:47 +0000",
+  "path": "/modules/auxiliary/scanner/ssh/libssh_auth_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ssh/libssh_auth_bypass",
+  "needs_cleanup": false
+}

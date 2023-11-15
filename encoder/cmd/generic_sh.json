@@ -1,0 +1,16 @@
+{
+  "name": "Generic Shell Variable Substitution Command Encoder",
+  "fullname": "encoder/cmd/generic_sh",
+  "type": "encoder",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This encoder uses standard Bourne shell variable substitution\n      tricks to avoid commonly restricted characters.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/encoders/cmd/generic_sh.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/generic_sh",
+  "needs_cleanup": false
+}

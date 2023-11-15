@@ -1,0 +1,33 @@
+{
+  "name": "Chrome Debugger Arbitrary File Read / Arbitrary Web Request",
+  "fullname": "auxiliary/gather/chrome_debugger",
+  "rank": 300,
+  "disclosure_date": "2019-09-24",
+  "type": "auxiliary",
+  "author": [
+    "Adam Baldwin (Evilpacket)",
+    "Nicholas Starke (The King Pig Demon)"
+  ],
+  "description": "This module uses the Chrome Debugger's API to read\n        files off the remote file system, or to make web requests\n        from a remote machine.  Useful for cloud metadata endpoints!",
+  "rport": 9222,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-29 17:59:14 +0000",
+  "path": "/modules/auxiliary/gather/chrome_debugger.rb",
+  "is_install_path": true,
+  "ref_name": "gather/chrome_debugger",
+  "needs_cleanup": false
+}

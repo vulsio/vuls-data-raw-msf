@@ -1,0 +1,18 @@
+{
+  "name": "Solaris Gather Virtual Environment Detection",
+  "fullname": "post/solaris/gather/checkvm",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module attempts to determine whether the system is running\n          inside of a virtual environment and if so, which one. This\n          module supports detection of Solaris Zone, VMWare, VirtualBox, Xen,\n          and QEMU/KVM.",
+  "platform": "Solaris",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/solaris/gather/checkvm.rb",
+  "is_install_path": true,
+  "ref_name": "solaris/gather/checkvm",
+  "session_types": [
+    "shell"
+  ]
+}

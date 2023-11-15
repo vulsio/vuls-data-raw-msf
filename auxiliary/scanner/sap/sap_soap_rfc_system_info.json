@@ -1,0 +1,38 @@
+{
+  "name": "SAP /sap/bc/soap/rfc SOAP Service RFC_SYSTEM_INFO Function Sensitive Information Gathering",
+  "fullname": "auxiliary/scanner/sap/sap_soap_rfc_system_info",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Agnivesh Sathasivam",
+    "nmonkee",
+    "ChrisJohnRiley"
+  ],
+  "description": "This module makes use of the RFC_SYSTEM_INFO Function to obtain the operating\n        system version, SAP version, IP address and other information through the use of\n        the /sap/bc/soap/rfc SOAP service.",
+  "references": [
+    "CVE-2006-6010",
+    "URL-https://labs.f-secure.com/tools/sap-metasploit-modules/"
+  ],
+  "rport": 8000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_system_info.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_soap_rfc_system_info",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "HTTP Fetch, Bind TCP Stager",
+  "fullname": "payload/cmd/linux/http/x64/meterpreter/bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Brent Cook <bcook@rapid7.com>",
+    "ricky"
+  ],
+  "description": "Fetch and execute an x64 payload from an HTTP server.\nListen for a connection",
+  "platform": "Linux,Linux",
+  "arch": "cmd",
+  "mod_time": "2023-05-25 11:49:38 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/http/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/http/x64/meterpreter/bind_tcp",
+  "needs_cleanup": false
+}

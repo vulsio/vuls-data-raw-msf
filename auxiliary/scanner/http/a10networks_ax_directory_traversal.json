@@ -1,0 +1,37 @@
+{
+  "name": "A10 Networks AX Loadbalancer Directory Traversal",
+  "fullname": "auxiliary/scanner/http/a10networks_ax_directory_traversal",
+  "rank": 300,
+  "disclosure_date": "2014-01-28",
+  "type": "auxiliary",
+  "author": [
+    "xistence"
+  ],
+  "description": "This module exploits a directory traversal flaw found in A10 Networks\n        (Soft) AX Loadbalancer version 2.6.1-GR1-P5/2.7.0 or less.  When\n        handling a file download request, the xml/downloads class fails to\n        properly check the 'filename' parameter, which can be abused to read\n        any file outside the virtual directory. Important files include SSL\n        certificates. This module works on both the hardware devices and the\n        Virtual Machine appliances. IMPORTANT NOTE: This module will also delete the\n        file on the device after downloading it. Because of this, the CONFIRM_DELETE\n        option must be set to 'true' either manually or by script.",
+  "references": [
+    "OSVDB-102657",
+    "BID-65206",
+    "EDB-31261"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/a10networks_ax_directory_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/a10networks_ax_directory_traversal",
+  "needs_cleanup": false
+}

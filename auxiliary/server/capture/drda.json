@@ -1,0 +1,15 @@
+{
+  "name": "Authentication Capture: DRDA (DB2, Informix, Derby)",
+  "fullname": "auxiliary/server/capture/drda",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Patrik Karlsson <patrik@cqure.net>"
+  ],
+  "description": "This module provides a fake DRDA (DB2, Informix, Derby) server\n      that is designed to capture authentication credentials.",
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/server/capture/drda.rb",
+  "is_install_path": true,
+  "ref_name": "server/capture/drda",
+  "needs_cleanup": false
+}

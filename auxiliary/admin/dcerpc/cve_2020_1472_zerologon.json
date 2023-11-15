@@ -1,0 +1,44 @@
+{
+  "name": "Netlogon Weak Cryptographic Authentication",
+  "fullname": "auxiliary/admin/dcerpc/cve_2020_1472_zerologon",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Tom Tervoort",
+    "Spencer McIntyre",
+    "Dirk-jan Mollema"
+  ],
+  "description": "A vulnerability exists within the Netlogon authentication process where the security properties granted by AES\n          are lost due to an implementation flaw related to the use of a static initialization vector (IV). An attacker\n          can leverage this flaw to target an Active Directory Domain Controller and make repeated authentication attempts\n          using NULL data fields which will succeed every 1 in 256 tries (~0.4%). This module leverages the vulnerability\n          to reset the machine account password to an empty string, which will then allow the attacker to authenticate as\n          the machine account. After exploitation, it's important to restore this password to it's original value. Failure\n          to do so can result in service instability.",
+  "references": [
+    "CVE-2020-1472",
+    "URL-https://www.secura.com/blog/zero-logon",
+    "URL-https://github.com/SecuraBV/CVE-2020-1472/blob/master/zerologon_tester.py",
+    "URL-https://github.com/dirkjanm/CVE-2020-1472/blob/master/restorepassword.py"
+  ],
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2022-08-03 14:27:30 +0000",
+  "path": "/modules/auxiliary/admin/dcerpc/cve_2020_1472_zerologon.rb",
+  "is_install_path": true,
+  "ref_name": "admin/dcerpc/cve_2020_1472_zerologon",
+  "check": true,
+  "notes": {
+    "AKA": [
+      "Zerologon"
+    ],
+    "SideEffects": [
+      "config-changes",
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

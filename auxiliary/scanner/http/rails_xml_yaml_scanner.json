@@ -1,0 +1,36 @@
+{
+  "name": "Ruby on Rails XML Processor YAML Deserialization Scanner",
+  "fullname": "auxiliary/scanner/http/rails_xml_yaml_scanner",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "jjarmoc"
+  ],
+  "description": "This module attempts to identify Ruby on Rails instances vulnerable to\n        an arbitrary object instantiation flaw in the XML request processor.",
+  "references": [
+    "CVE-2013-0156",
+    "URL-https://www.rapid7.com/blog/post/2013/01/09/serialization-mischief-in-ruby-land-cve-2013-0156/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/rails_xml_yaml_scanner.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/rails_xml_yaml_scanner",
+  "needs_cleanup": false
+}

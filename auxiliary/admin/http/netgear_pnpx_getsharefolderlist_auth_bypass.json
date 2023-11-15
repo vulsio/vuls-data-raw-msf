@@ -1,0 +1,53 @@
+{
+  "name": "Netgear PNPX_GetShareFolderList Authentication Bypass",
+  "fullname": "auxiliary/admin/http/netgear_pnpx_getsharefolderlist_auth_bypass",
+  "rank": 300,
+  "disclosure_date": "2021-09-06",
+  "type": "auxiliary",
+  "author": [
+    "Unknown",
+    "Grant Willcox"
+  ],
+  "description": "This module targets an authentication bypass vulnerability in the mini_http binary of several Netgear Routers\n          running firmware versions prior to 1.2.0.88, 1.0.1.80, 1.1.0.110, and 1.1.0.84. The vulnerability allows\n          unauthenticated attackers to reveal the password for the admin user that is used to log into the\n          router's administrative portal, in plaintext.\n\n          Once the password has been been obtained, the exploit enables telnet on the target router and then utiltizes\n          the auxiliary/scanner/telnet/telnet_login module to log into the router using the stolen credentials of the\n          admin user. This will result in the attacker obtaining a new telnet session as the \"root\" user.\n\n          This vulnerability was discovered and exploited by an independent security researcher who reported it to SSD.",
+  "references": [
+    "URL-https://kb.netgear.com/000063961/Security-Advisory-for-Authentication-Bypass-Vulnerability-on-the-D7000-and-Some-Routers-PSV-2021-0133",
+    "URL-https://ssd-disclosure.com/ssd-advisory-netgear-d7000-authentication-bypass/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-09-15 16:35:55 +0000",
+  "path": "/modules/auxiliary/admin/http/netgear_pnpx_getsharefolderlist_auth_bypass.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/netgear_pnpx_getsharefolderlist_auth_bypass",
+  "check": true,
+  "notes": {
+    "RelatedModules": [
+      "exploit/linux/telnet/netgear_telnetenable"
+    ],
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "config-changes",
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

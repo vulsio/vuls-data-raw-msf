@@ -1,0 +1,35 @@
+{
+  "name": "HTTP Open Proxy Detection",
+  "fullname": "auxiliary/scanner/http/open_proxy",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Matteo Cantoni <goony@nothink.org>"
+  ],
+  "description": "Checks if an HTTP proxy is open. False positive are avoided\n        verifying the HTTP return code and matching a pattern.\n        The CONNECT method is verified only the return code.\n        HTTP headers are shown regarding the use of proxy or load balancer.",
+  "references": [
+    "URL-https://en.wikipedia.org/wiki/Open_proxy",
+    "URL-https://svn.nmap.org/nmap/scripts/http-open-proxy.nse"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/open_proxy.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/open_proxy",
+  "needs_cleanup": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Mutiny 5 Arbitrary File Read and Delete",
+  "fullname": "auxiliary/admin/http/mutiny_frontend_read_delete",
+  "rank": 300,
+  "disclosure_date": "2013-05-15",
+  "type": "auxiliary",
+  "author": [
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits the EditDocument servlet from the frontend on the Mutiny 5\n          appliance. The EditDocument servlet provides file operations, such as copy and\n          delete, which are affected by a directory traversal vulnerability. Because of this,\n          any authenticated frontend user can read and delete arbitrary files from the system\n          with root privileges. In order to exploit the vulnerability a valid user (any role)\n          in the web frontend is required. The module has been tested successfully on the\n          Mutiny 5.0-1.07 appliance.",
+  "references": [
+    "CVE-2013-0136",
+    "US-CERT-VU-701572",
+    "URL-https://www.rapid7.com/blog/post/2013/05/15/new-1day-exploits-mutiny-vulnerabilities/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/mutiny_frontend_read_delete.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/mutiny_frontend_read_delete",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,30 @@
+{
+  "name": "VMware vCenter Server vmdir Information Disclosure",
+  "fullname": "auxiliary/gather/vmware_vcenter_vmdir_ldap",
+  "rank": 300,
+  "disclosure_date": "2020-04-09",
+  "type": "auxiliary",
+  "author": [
+    "Hynek Petrak",
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module uses an anonymous-bind LDAP connection to dump data from\n          the vmdir service in VMware vCenter Server version 6.7 prior to the\n          6.7U3f update, only if upgraded from a previous release line, such as\n          6.0 or 6.5.\n          If the bind username and password are provided (BIND_DN and BIND_PW\n          options), these credentials will be used instead of attempting an\n          anonymous bind.",
+  "references": [
+    "CVE-2020-3952",
+    "URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html"
+  ],
+  "rport": 636,
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/gather/vmware_vcenter_vmdir_ldap.rb",
+  "is_install_path": true,
+  "ref_name": "gather/vmware_vcenter_vmdir_ldap",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

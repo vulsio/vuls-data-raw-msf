@@ -1,0 +1,39 @@
+{
+  "name": "Axigen Arbitrary File Read and Delete",
+  "fullname": "auxiliary/admin/http/axigen_file_access",
+  "rank": 300,
+  "disclosure_date": "2012-10-31",
+  "type": "auxiliary",
+  "author": [
+    "Zhao Liang",
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability in the WebAdmin\n          interface of Axigen, which allows an authenticated user to read and delete\n          arbitrary files with SYSTEM privileges. The vulnerability is known to work on\n          Windows platforms. This module has been tested successfully on Axigen 8.10 over\n          Windows 2003 SP2.",
+  "references": [
+    "US-CERT-VU-586556",
+    "CVE-2012-4940",
+    "OSVDB-86802"
+  ],
+  "rport": 9000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/axigen_file_access.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/axigen_file_access",
+  "post_auth": true,
+  "needs_cleanup": false
+}

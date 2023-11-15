@@ -1,0 +1,21 @@
+{
+  "name": "Windows Manage RID Hijacking",
+  "fullname": "post/windows/manage/rid_hijack",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Sebastian Castro <sebastian.castro@cslcolombia.com>"
+  ],
+  "description": "This module will create an entry on the target by modifying some properties\n        of an existing account. It will change the account attributes by setting a\n        Relative Identifier (RID), which should be owned by one existing\n        account on the destination machine.\n\n        Taking advantage of some Windows Local Users Management integrity issues,\n        this module will allow to authenticate with one known account\n        credentials (like GUEST account), and access with the privileges of another\n        existing account (like ADMINISTRATOR account), even if the spoofed account is\n        disabled.",
+  "references": [
+    "URL-http://csl.com.co/rid-hijacking/"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-05-25 12:45:30 +0000",
+  "path": "/modules/post/windows/manage/rid_hijack.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/rid_hijack",
+  "session_types": [
+    "meterpreter"
+  ]
+}

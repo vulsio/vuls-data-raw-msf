@@ -1,0 +1,19 @@
+{
+  "name": "Linux Gather Protection Enumeration",
+  "fullname": "post/linux/gather/enum_protections",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "ohdae <bindshell@live.com>"
+  ],
+  "description": "This module checks whether popular system hardening mechanisms are\n          in place, such as SMEP, SMAP, SELinux, PaX and grsecurity. It also\n          tries to find installed applications that can be used to hinder,\n          prevent, or detect attacks, such as tripwire, snort, and apparmor.\n\n          This module is meant to identify Linux Secure Modules (LSM) in addition\n          to various antivirus, IDS/IPS, firewalls, sandboxes and other security\n          related software.",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/enum_protections.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/enum_protections",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

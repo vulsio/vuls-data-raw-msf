@@ -1,0 +1,31 @@
+{
+  "name": "HTTP SOAP Verb/Noun Brute Force Scanner",
+  "fullname": "auxiliary/scanner/http/soap_xml",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "This module attempts to brute force SOAP/XML requests to uncover\n        hidden methods.",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-05-30 10:56:41 +0000",
+  "path": "/modules/auxiliary/scanner/http/soap_xml.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/soap_xml",
+  "needs_cleanup": false
+}

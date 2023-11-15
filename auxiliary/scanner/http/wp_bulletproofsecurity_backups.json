@@ -1,0 +1,49 @@
+{
+  "name": "Wordpress BulletProof Security Backup Disclosure",
+  "fullname": "auxiliary/scanner/http/wp_bulletproofsecurity_backups",
+  "rank": 300,
+  "disclosure_date": "2021-09-17",
+  "type": "auxiliary",
+  "author": [
+    "Ron Jost (Hacker5preme)",
+    "h00die"
+  ],
+  "description": "The Wordpress plugin BulletProof Security, versions <= 5.1, suffers from an information disclosure\n          vulnerability, in that the db_backup_log.txt is publicly accessible.  If the backup functionality\n          is being utilized, this file will disclose where the backup files can be downloaded.\n          After downloading the backup file, it will be parsed to grab all user credentials.",
+  "references": [
+    "EDB-50382",
+    "CVE-2021-39327",
+    "PACKETSTORM-164420",
+    "URL-https://github.com/Hacker5preme/Exploits/blob/main/Wordpress/CVE-2021-39327/README.md"
+  ],
+  "platform": "PHP",
+  "arch": "php",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_bulletproofsecurity_backups.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_bulletproofsecurity_backups",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

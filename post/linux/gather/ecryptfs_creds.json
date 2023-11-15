@@ -1,0 +1,18 @@
+{
+  "name": "Gather eCryptfs Metadata",
+  "fullname": "post/linux/gather/ecryptfs_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Dhiru Kholia <dhiru@openwall.com>"
+  ],
+  "description": "This module will collect the contents of all users' .ecrypts directories on\n          the targeted machine. Collected \"wrapped-passphrase\" files can be\n          cracked with John the Ripper (JtR) to recover \"mount passphrases\".",
+  "platform": "Linux",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/gather/ecryptfs_creds.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/ecryptfs_creds",
+  "session_types": [
+    "shell"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Redis Extractor",
+  "fullname": "auxiliary/gather/redis_extractor",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Geoff Rainville noncenz <Geoff Rainville noncenz@ultibits.com>"
+  ],
+  "description": "This module connects to a Redis instance and retrieves keys and data stored.",
+  "references": [
+    "URL-https://redis.io/topics/protocol"
+  ],
+  "rport": 6379,
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/gather/redis_extractor.rb",
+  "is_install_path": true,
+  "ref_name": "gather/redis_extractor",
+  "check": true,
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

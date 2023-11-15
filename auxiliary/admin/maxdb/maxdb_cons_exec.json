@@ -1,0 +1,22 @@
+{
+  "name": "SAP MaxDB cons.exe Remote Command Injection",
+  "fullname": "auxiliary/admin/maxdb/maxdb_cons_exec",
+  "rank": 300,
+  "disclosure_date": "2008-01-09",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "SAP MaxDB is prone to a remote command-injection vulnerability\n          because the application fails to properly sanitize user-supplied input.",
+  "references": [
+    "OSVDB-40210",
+    "BID-27206",
+    "CVE-2008-0244"
+  ],
+  "rport": 7210,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/maxdb/maxdb_cons_exec.rb",
+  "is_install_path": true,
+  "ref_name": "admin/maxdb/maxdb_cons_exec",
+  "needs_cleanup": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "PostgreSQL Server Generic Query",
+  "fullname": "auxiliary/admin/postgres/postgres_readfile",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module imports a file local on the PostgreSQL Server into a\n          temporary table, reads it, and then drops the temporary table.\n          It requires PostgreSQL credentials with table CREATE privileges\n          as well as read privileges to the target file.",
+  "rport": 5432,
+  "autofilter_ports": [
+    5432
+  ],
+  "autofilter_services": [
+    "postgres"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/admin/postgres/postgres_readfile.rb",
+  "is_install_path": true,
+  "ref_name": "admin/postgres/postgres_readfile",
+  "post_auth": true,
+  "needs_cleanup": false
+}

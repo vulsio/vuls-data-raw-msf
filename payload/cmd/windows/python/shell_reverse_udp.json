@@ -1,0 +1,18 @@
+{
+  "name": "Python Exec, Command Shell, Reverse UDP (via python)",
+  "fullname": "payload/cmd/windows/python/shell_reverse_udp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Execute a Python payload from a command.\n\nCreates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.6-2.7 and 3.4+.",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-01-20 14:53:59 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/python.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/python/shell_reverse_udp",
+  "needs_cleanup": false
+}

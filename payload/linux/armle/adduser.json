@@ -1,0 +1,18 @@
+{
+  "name": "Linux Add User",
+  "fullname": "payload/linux/armle/adduser",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Jonathan Salwan"
+  ],
+  "description": "Create a new user with UID 0",
+  "platform": "Linux",
+  "arch": "armle",
+  "mod_time": "2022-09-22 12:55:41 +0000",
+  "path": "/modules/payloads/singles/linux/armle/adduser.rb",
+  "is_install_path": true,
+  "ref_name": "linux/armle/adduser",
+  "post_auth": true,
+  "needs_cleanup": false
+}

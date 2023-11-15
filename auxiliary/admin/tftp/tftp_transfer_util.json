@@ -1,0 +1,20 @@
+{
+  "name": "TFTP File Transfer Utility",
+  "fullname": "auxiliary/admin/tftp/tftp_transfer_util",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "todb <todb@metasploit.com>"
+  ],
+  "description": "This module will transfer a file to or from a remote TFTP server.\n          Note that the target must be able to connect back to the Metasploit system,\n          and NAT traversal for TFTP is often unsupported.\n\n          Two actions are supported: \"Upload\" and \"Download,\" which behave as one might\n          expect -- use 'set action Actionname' to use either mode of operation.\n\n          If \"Download\" is selected, at least one of FILENAME or REMOTE_FILENAME\n          must be set. If \"Upload\" is selected, either FILENAME must be set to a valid path to\n          a source file, or FILEDATA must be populated. FILENAME may be a fully qualified path,\n          or the name of a file in the Msf::Config.local_directory or Msf::Config.data_directory.",
+  "references": [
+    "URL-http://www.faqs.org/rfcs/rfc1350.html",
+    "URL-http://www.networksorcery.com/enp/protocol/tftp.htm"
+  ],
+  "rport": 69,
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/admin/tftp/tftp_transfer_util.rb",
+  "is_install_path": true,
+  "ref_name": "admin/tftp/tftp_transfer_util",
+  "needs_cleanup": false
+}

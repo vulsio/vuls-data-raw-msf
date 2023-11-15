@@ -1,0 +1,27 @@
+{
+  "name": "SMB Domain User Enumeration",
+  "fullname": "auxiliary/scanner/smb/smb_enumusers_domain",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "natron <natron@metasploit.com>",
+    "Joshua D. Abraham <jabra@praetorian.com>"
+  ],
+  "description": "Determine what domain users are logged into a remote system via a DCERPC to NetWkstaUserEnum.",
+  "references": [
+    "URL-https://docs.microsoft.com/en-us/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum"
+  ],
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/smb/smb_enumusers_domain.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smb/smb_enumusers_domain",
+  "needs_cleanup": false
+}

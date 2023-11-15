@@ -1,0 +1,24 @@
+{
+  "name": "Windows Installed AntiVirus Enumeration",
+  "fullname": "post/windows/gather/enum_av",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "rageltman <rageltman@sempervictus>"
+  ],
+  "description": "This module will enumerate the AV products detected by WMIC",
+  "platform": "Windows",
+  "mod_time": "2022-04-21 11:35:33 +0000",
+  "path": "/modules/post/windows/gather/enum_av.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_av",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

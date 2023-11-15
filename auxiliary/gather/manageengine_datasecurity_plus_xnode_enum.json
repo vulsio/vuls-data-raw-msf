@@ -1,0 +1,23 @@
+{
+  "name": "ManageEngine DataSecurity Plus Xnode Enumeration",
+  "fullname": "auxiliary/gather/manageengine_datasecurity_plus_xnode_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Sahil Dhar",
+    "Erik Wynter"
+  ],
+  "description": "This module exploits default admin credentials for the DataEngine\n        Xnode server in DataSecurity Plus versions prior to 6.0.1 (6011)\n        in order to dump the contents of Xnode data repositories (tables),\n        which may contain (a limited amount of) Active Directory\n        information including domain names, host names, usernames and SIDs.\n        This module can also be used against patched DataSecurity Plus\n        versions if the correct credentials are provided.\n\n        By default, this module dumps only the data repositories and fields\n        (columns) specified in the configuration file (set via the\n        CONFIG_FILE option). The configuration file is also used to\n        add labels to the values sent by Xnode in response to a query.\n\n        It is also possible to use the DUMP_ALL option to obtain all data\n        in all known data repositories without specifying data field names.\n        However, note that when using the DUMP_ALL option, the data won't be labeled.\n\n        This module has been successfully tested against ManageEngine\n        DataSecurity Plus 6.0.1 (6010) running on Windows Server 2012 R2.",
+  "references": [
+    "CVE-2020-11532",
+    "PACKETSTORM-157609"
+  ],
+  "rport": 29119,
+  "mod_time": "2022-08-24 16:15:11 +0000",
+  "path": "/modules/auxiliary/gather/manageengine_datasecurity_plus_xnode_enum.rb",
+  "is_install_path": true,
+  "ref_name": "gather/manageengine_datasecurity_plus_xnode_enum",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

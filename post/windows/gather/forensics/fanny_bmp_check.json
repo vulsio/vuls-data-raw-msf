@@ -1,0 +1,28 @@
+{
+  "name": "FannyBMP or DementiaWheel Detection Registry Check",
+  "fullname": "post/windows/gather/forensics/fanny_bmp_check",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "William M."
+  ],
+  "description": "This module searches for the Fanny.bmp worm related reg keys.\n          fannybmp is a worm that exploited zero day vulns\n          (more specifically, the LNK Exploit CVE-2010-2568).\n          Which allowed it to spread even if USB Autorun was turned off.\n          This is the same exploit that was used in StuxNet.",
+  "references": [
+    "URL-https://securelist.com/a-fanny-equation-i-am-your-father-stuxnet/68787",
+    "CVE-2010-2568"
+  ],
+  "platform": "Windows",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/windows/gather/forensics/fanny_bmp_check.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/forensics/fanny_bmp_check",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

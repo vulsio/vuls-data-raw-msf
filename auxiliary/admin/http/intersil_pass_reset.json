@@ -1,0 +1,41 @@
+{
+  "name": "Intersil (Boa) HTTPd Basic Authentication Password Reset",
+  "fullname": "auxiliary/admin/http/intersil_pass_reset",
+  "rank": 300,
+  "disclosure_date": "2007-09-10",
+  "type": "auxiliary",
+  "author": [
+    "Luca \"ikki\" Carettoni <luca.carettoni@securenetwork.it>",
+    "Claudio \"paper\" Merloni <claudio.merloni@securenetwork.it>",
+    "Max Dietz <maxwell.r.dietz@gmail.com>"
+  ],
+  "description": "The Intersil extension in the Boa HTTP Server 0.93.x - 0.94.11\n          allows basic authentication bypass when the user string is greater\n          than 127 bytes long.  The long string causes the password to be\n          overwritten in memory, which enables the attacker to reset the\n          password.  In addition, the malicious attempt also may cause a\n          denial-of-service condition.\n\n          Please note that you must set the request URI to the directory that\n          requires basic authentication in order to work properly.",
+  "references": [
+    "CVE-2007-4915",
+    "BID-25676",
+    "PACKETSTORM-59347"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/intersil_pass_reset.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/intersil_pass_reset",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

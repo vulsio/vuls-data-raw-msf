@@ -1,0 +1,17 @@
+{
+  "name": "Firefox XPCOM Execute Command",
+  "fullname": "payload/firefox/exec",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "This module runs a shell command on the target OS without touching the disk.\n        On Windows, this command will flash the command prompt momentarily.\n        This can be avoided by setting WSCRIPT to true, which drops a jscript\n        \"launcher\" to disk that hides the prompt.",
+  "platform": "Firefox",
+  "arch": "firefox",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/firefox/exec.rb",
+  "is_install_path": true,
+  "ref_name": "firefox/exec",
+  "needs_cleanup": false
+}

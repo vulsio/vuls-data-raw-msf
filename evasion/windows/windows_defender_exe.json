@@ -1,0 +1,20 @@
+{
+  "name": "Microsoft Windows Defender Evasive Executable",
+  "fullname": "evasion/windows/windows_defender_exe",
+  "rank": 300,
+  "type": "evasion",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module allows you to generate a Windows EXE that evades against Microsoft\n        Windows Defender. Multiple techniques such as shellcode encryption, source code\n        obfuscation, Metasm, and anti-emulation are used to achieve this.\n\n        For best results, please try to use payloads that use a more secure channel\n        such as HTTPS or RC4 in order to avoid the payload network traffic getting\n        caught by antivirus better.",
+  "platform": "Windows",
+  "arch": "x86",
+  "targets": [
+    "Microsoft Windows"
+  ],
+  "mod_time": "2018-10-06 16:04:07 +0000",
+  "path": "/modules/evasion/windows/windows_defender_exe.rb",
+  "is_install_path": true,
+  "ref_name": "windows/windows_defender_exe",
+  "needs_cleanup": false
+}

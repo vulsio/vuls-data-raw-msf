@@ -1,0 +1,25 @@
+{
+  "name": "Windows Gather File and Registry Artifacts Enumeration",
+  "fullname": "post/windows/gather/enum_artifacts",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "averagesecurityguy <stephen@averagesecurityguy.info>"
+  ],
+  "description": "This module will check the file system and registry for particular artifacts.\n\n          The list of artifacts is read in YAML format from data/post/enum_artifacts_list.txt\n          or a user specified file. Any matches are written to the loot.",
+  "platform": "Windows",
+  "mod_time": "2022-08-07 16:01:45 +0000",
+  "path": "/modules/post/windows/gather/enum_artifacts.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_artifacts",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "shell",
+    "powershell",
+    "meterpreter"
+  ]
+}

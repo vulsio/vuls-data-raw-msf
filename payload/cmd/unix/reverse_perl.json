@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Reverse TCP (via Perl)",
+  "fullname": "payload/cmd/unix/reverse_perl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "cazz <bmc@shmoo.com>"
+  ],
+  "description": "Creates an interactive shell via perl",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_perl.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_perl",
+  "needs_cleanup": false
+}

@@ -1,0 +1,29 @@
+{
+  "name": "RuggedCom Telnet Password Generator",
+  "fullname": "auxiliary/scanner/telnet/telnet_ruggedcom",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Borja Merino <bmerinofe@gmail.com>",
+    "jc"
+  ],
+  "description": "This module will calculate the password for the hard-coded hidden username\n        \"factory\" in the RuggedCom Rugged Operating System (ROS). The password is\n        dynamically generated based on the devices MAC address.",
+  "references": [
+    "CVE-2012-1803",
+    "EDB-18779",
+    "US-CERT-VU-889195"
+  ],
+  "rport": 23,
+  "autofilter_ports": [
+    23
+  ],
+  "autofilter_services": [
+    "telnet"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/telnet/telnet_ruggedcom.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/telnet/telnet_ruggedcom",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Office 365 User Enumeration",
+  "fullname": "auxiliary/gather/office365userenum",
+  "rank": 300,
+  "disclosure_date": "2018-09-05",
+  "type": "auxiliary",
+  "author": [
+    "Oliver Morton (GrimHacker) <grimhacker@grimhacker.com>"
+  ],
+  "description": "Enumerate valid usernames (email addresses) from Office 365 using ActiveSync.\n            Differences in the HTTP Response code and HTTP Headers can be used to differentiate between:\n             - Valid Username (Response code 401)\n             - Valid Username and Password without 2FA (Response Code 200)\n             - Valid Username and Password with 2FA (Response Code 403)\n             - Invalid Username (Response code 404 with Header X-CasErrorCode: UserNotFound)\n            Note this behaviour appears to be limited to Office365, MS Exchange does not appear to be affected.\n            Microsoft Security Response Center stated on 2017-06-28 that this issue does not \"meet the bar for security\n            servicing\". As such it is not expected to be fixed any time soon.",
+  "references": [
+    "URL-https://grimhacker.com/2017/07/24/office365-activesync-username-enumeration/"
+  ],
+  "rport": 443,
+  "mod_time": "2021-09-03 19:58:46 +0000",
+  "path": "/modules/auxiliary/gather/office365userenum.py",
+  "is_install_path": true,
+  "ref_name": "gather/office365userenum",
+  "post_auth": true,
+  "needs_cleanup": false
+}

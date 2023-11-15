@@ -1,0 +1,17 @@
+{
+  "name": "Ruby Pingback, Reverse TCP",
+  "fullname": "payload/ruby/pingback_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "asoto-r7"
+  ],
+  "description": "Connect back to the attacker, sends a UUID, then terminates",
+  "platform": "Ruby",
+  "arch": "ruby",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/ruby/pingback_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "ruby/pingback_reverse_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "PcAnywhere TCP Service Discovery",
+  "fullname": "auxiliary/scanner/pcanywhere/pcanywhere_tcp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Discover active pcAnywhere services through TCP",
+  "rport": 5631,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/pcanywhere/pcanywhere_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/pcanywhere/pcanywhere_tcp",
+  "needs_cleanup": false
+}

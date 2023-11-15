@@ -1,0 +1,19 @@
+{
+  "name": "Multi Gather Maven Credentials Collection",
+  "fullname": "post/multi/gather/maven_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "elenoir"
+  ],
+  "description": "This module will collect the contents of all users settings.xml on the targeted\n          machine.",
+  "platform": "BSD,Linux,OSX,Unix,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/maven_creds.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/maven_creds",
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

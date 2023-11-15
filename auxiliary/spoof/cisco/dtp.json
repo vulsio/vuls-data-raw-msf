@@ -1,0 +1,15 @@
+{
+  "name": "Forge Cisco DTP Packets",
+  "fullname": "auxiliary/spoof/cisco/dtp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Spencer McIntyre"
+  ],
+  "description": "This module forges DTP packets to initialize a trunk port.",
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/spoof/cisco/dtp.rb",
+  "is_install_path": true,
+  "ref_name": "spoof/cisco/dtp",
+  "needs_cleanup": false
+}

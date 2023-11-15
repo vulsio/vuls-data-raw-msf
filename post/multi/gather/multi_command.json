@@ -1,0 +1,18 @@
+{
+  "name": "Multi Gather Run Shell Command Resource File",
+  "fullname": "post/multi/gather/multi_command",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module will read shell commands from a resource file and\n          execute the commands in the specified Meterpreter or shell session.",
+  "platform": "BSD,Linux,OSX,Unix,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/multi_command.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/multi_command",
+  "session_types": [
+    "meterpreter"
+  ]
+}

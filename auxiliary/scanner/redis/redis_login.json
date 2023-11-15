@@ -1,0 +1,20 @@
+{
+  "name": "Redis Login Utility",
+  "fullname": "auxiliary/scanner/redis/redis_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Nixawk"
+  ],
+  "description": "This module attempts to authenticate to an Redis service.",
+  "references": [
+    "URL-https://redis.io/topics/protocol"
+  ],
+  "rport": 6379,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/redis/redis_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/redis/redis_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

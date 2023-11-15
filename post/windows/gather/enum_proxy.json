@@ -1,0 +1,25 @@
+{
+  "name": "Windows Gather Proxy Setting",
+  "fullname": "post/windows/gather/enum_proxy",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "mubix <mubix@hak5.org>"
+  ],
+  "description": "This module pulls a user's proxy settings. If neither RHOST or SID\n        are set it pulls the current user, else it will pull the user's settings\n        for the specified SID and target host.",
+  "platform": "Windows",
+  "mod_time": "2022-12-04 15:10:47 +0000",
+  "path": "/modules/post/windows/gather/enum_proxy.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_proxy",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

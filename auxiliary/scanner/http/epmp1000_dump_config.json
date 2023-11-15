@@ -1,0 +1,35 @@
+{
+  "name": "Cambium ePMP 1000 Dump Device Config",
+  "fullname": "auxiliary/scanner/http/epmp1000_dump_config",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Karn Ganeshen <KarnGaneshen@gmail.com>"
+  ],
+  "description": "This module dumps Cambium ePMP 1000 device configuration file. An\n          ePMP 1000 box has four (4) login accounts - admin/admin, installer/installer,\n          home/home, and readonly/readonly. This module requires any one of the following\n          login credentials - admin / installer / home - to dump device configuration\n          file.",
+  "references": [
+    "URL-http://ipositivesecurity.com/2015/11/28/cambium-epmp-1000-multiple-vulnerabilities/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-08-15 18:10:44 +0000",
+  "path": "/modules/auxiliary/scanner/http/epmp1000_dump_config.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/epmp1000_dump_config",
+  "post_auth": true,
+  "needs_cleanup": false
+}

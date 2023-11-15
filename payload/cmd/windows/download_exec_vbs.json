@@ -1,0 +1,17 @@
+{
+  "name": "Windows Executable Download and Execute (via .vbs)",
+  "fullname": "payload/cmd/windows/download_exec_vbs",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "scriptjunkie"
+  ],
+  "description": "Download an EXE from an HTTP(S) URL and execute it",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/cmd/windows/download_exec_vbs.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/download_exec_vbs",
+  "needs_cleanup": false
+}

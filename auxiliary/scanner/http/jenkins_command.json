@@ -1,0 +1,38 @@
+{
+  "name": "Jenkins-CI Unauthenticated Script-Console Scanner",
+  "fullname": "auxiliary/scanner/http/jenkins_command",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "altonjx",
+    "Jeffrey Cap"
+  ],
+  "description": "This module scans for unauthenticated Jenkins-CI script consoles and\n        executes the specified command.",
+  "references": [
+    "CVE-2015-8103",
+    "URL-https://www.jenkins.io/security/advisory/2015-11-11/",
+    "URL-https://www.pentestgeek.com/penetration-testing/hacking-jenkins-servers-with-no-password/",
+    "URL-https://www.jenkins.io/doc/book/managing/script-console/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/jenkins_command.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/jenkins_command",
+  "needs_cleanup": false
+}

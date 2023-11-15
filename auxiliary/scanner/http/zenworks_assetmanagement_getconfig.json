@@ -1,0 +1,35 @@
+{
+  "name": "Novell ZENworks Asset Management 7.5 Configuration Access",
+  "fullname": "auxiliary/scanner/http/zenworks_assetmanagement_getconfig",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "juan vazquez <juan.vazquez@metasploit.com>"
+  ],
+  "description": "This module exploits a hardcoded user and password for the GetConfig maintenance\n        task in Novell ZENworks Asset Management 7.5. The vulnerability exists in the Web\n        Console and can be triggered by sending a specially crafted request to the rtrlet component,\n        allowing a remote unauthenticated user to retrieve the configuration parameters of\n        Novell Zenworks Asset Managment, including the database credentials in clear text.\n        This module has been successfully tested on Novell ZENworks Asset Management 7.5.",
+  "references": [
+    "CVE-2012-4933",
+    "URL-https://www.rapid7.com/blog/post/2012/10/11/cve-2012-4933-novell-zenworks/"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/zenworks_assetmanagement_getconfig.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/zenworks_assetmanagement_getconfig",
+  "needs_cleanup": false
+}

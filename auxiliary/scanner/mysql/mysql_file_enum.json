@@ -1,0 +1,21 @@
+{
+  "name": "MYSQL File/Directory Enumerator",
+  "fullname": "auxiliary/scanner/mysql/mysql_file_enum",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Robin Wood <robin@digininja.org>"
+  ],
+  "description": "Enumerate files and directories using the MySQL load_file feature, for more\n        information see the URL in the references.",
+  "references": [
+    "URL-http://pauldotcom.com/2013/01/mysql-file-system-enumeration.html",
+    "URL-http://www.digininja.org/projects/mysql_file_enum.php"
+  ],
+  "rport": 3306,
+  "mod_time": "2023-08-17 19:07:28 +0000",
+  "path": "/modules/auxiliary/scanner/mysql/mysql_file_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/mysql/mysql_file_enum",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "GitLab User Enumeration",
+  "fullname": "auxiliary/scanner/http/gitlab_user_enum",
+  "rank": 300,
+  "disclosure_date": "2014-11-21",
+  "type": "auxiliary",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "The GitLab 'internal' API is exposed unauthenticated on GitLab. This\n        allows the username for each SSH Key ID number to be retrieved. Users\n        who do not have an SSH Key cannot be enumerated in this fashion. LDAP\n        users, e.g. Active Directory users will also be returned. This issue\n        was fixed in GitLab v7.5.0 and is present from GitLab v5.0.0.",
+  "references": [
+    "URL-https://labs.f-secure.com/archive/gitlab-user-enumeration/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/gitlab_user_enum.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/gitlab_user_enum",
+  "needs_cleanup": false
+}

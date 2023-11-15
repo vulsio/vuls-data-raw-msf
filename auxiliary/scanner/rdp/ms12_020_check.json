@@ -1,0 +1,25 @@
+{
+  "name": "MS12-020 Microsoft Remote Desktop Checker",
+  "fullname": "auxiliary/scanner/rdp/ms12_020_check",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Royce Davis \"R3dy\" <rdavis@accuvant.com>",
+    "Brandon McCann \"zeknox\" <bmccann@accuvant.com>"
+  ],
+  "description": "This module checks a range of hosts for the MS12-020 vulnerability.\n        This does not cause a DoS on the target.",
+  "references": [
+    "CVE-2012-0002",
+    "MSB-MS12-020",
+    "URL-https://docs.microsoft.com/en-us/security-updates/SecurityBulletins/2012/ms12-020",
+    "EDB-18606",
+    "URL-https://svn.nmap.org/nmap/scripts/rdp-vuln-ms12-020.nse"
+  ],
+  "rport": 3389,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/rdp/ms12_020_check.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/rdp/ms12_020_check",
+  "check": true,
+  "needs_cleanup": false
+}

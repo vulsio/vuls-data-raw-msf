@@ -1,0 +1,17 @@
+{
+  "name": "Solaris Command Shell, Reverse TCP Inline",
+  "fullname": "payload/solaris/x86/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>"
+  ],
+  "description": "Connect back to attacker and spawn a command shell",
+  "platform": "Solaris",
+  "arch": "x86",
+  "mod_time": "2021-01-05 14:59:46 +0000",
+  "path": "/modules/payloads/singles/solaris/x86/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "solaris/x86/shell_reverse_tcp",
+  "needs_cleanup": false
+}

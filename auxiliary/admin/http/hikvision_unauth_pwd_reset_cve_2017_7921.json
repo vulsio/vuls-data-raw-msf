@@ -1,0 +1,53 @@
+{
+  "name": "Hikvision IP Camera Unauthenticated Password Change Via Improper Authentication Logic",
+  "fullname": "auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+  "rank": 300,
+  "disclosure_date": "2017-09-23",
+  "type": "auxiliary",
+  "author": [
+    "Monte Crypto",
+    "h00die-gr3y <h00die.gr3y@gmail.com>"
+  ],
+  "description": "Many Hikvision IP cameras contain improper authentication logic which allows unauthenticated impersonation of any configured user account.\n          The vulnerability has been present in Hikvision products since 2014. In addition to Hikvision-branded devices, it\n          affects many white-labeled camera products sold under a variety of brand names.\n\n          Hundreds of thousands of vulnerable devices are still exposed to the Internet at the time\n          of publishing (shodan search: '\"App-webs\" \"200 OK\"'). Some of these devices can never be patched due to to the\n          vendor preventing users from upgrading the installed firmware on the affected device.\n\n          This module utilizes the bug in the authentication logic to perform an unauthenticated password change of any user account on\n          a vulnerable Hikvision IP Camera. This can then be utilized to gain full administrative access to the affected device.",
+  "references": [
+    "CVE-2017-7921",
+    "PACKETSTORM-144097",
+    "URL-https://ipvm.com/reports/hik-exploit",
+    "URL-https://attackerkb.com/topics/PlLehGSmxT/cve-2017-7921",
+    "URL-https://seclists.org/fulldisclosure/2017/Sep/23"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-09-23 12:19:29 +0000",
+  "path": "/modules/auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+  "check": true,
+  "post_auth": true,
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

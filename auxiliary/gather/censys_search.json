@@ -1,0 +1,25 @@
+{
+  "name": "Censys Search",
+  "fullname": "auxiliary/gather/censys_search",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Nixawk",
+    "e2002e",
+    "Christophe De La Fuente"
+  ],
+  "description": "The module uses the Censys REST API to access the same data accessible\n          through the web interface. The search endpoint allows queries using\n          the Censys Search Language against the Hosts dataset. Setting the\n          CERTIFICATES option will also retrieve the certificate details for each\n          relevant service by querying the Certificates dataset.",
+  "references": [
+    "URL-https://search.censys.io"
+  ],
+  "mod_time": "2022-07-04 17:19:16 +0000",
+  "path": "/modules/auxiliary/gather/censys_search.rb",
+  "is_install_path": true,
+  "ref_name": "gather/censys_search",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

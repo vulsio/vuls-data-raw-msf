@@ -1,0 +1,17 @@
+{
+  "name": "SPARC NOP Generator",
+  "fullname": "nop/sparc/random",
+  "rank": 300,
+  "type": "nop",
+  "author": [
+    "vlad902 <vlad902@gmail.com>"
+  ],
+  "description": "SPARC NOP generator",
+  "platform": "All",
+  "arch": "sparc",
+  "mod_time": "2018-08-27 11:24:38 +0000",
+  "path": "/modules/nops/sparc/random.rb",
+  "is_install_path": true,
+  "ref_name": "sparc/random",
+  "needs_cleanup": false
+}

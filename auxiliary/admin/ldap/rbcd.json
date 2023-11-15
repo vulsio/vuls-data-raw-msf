@@ -1,0 +1,28 @@
+{
+  "name": "Role Base Constrained Delegation",
+  "fullname": "auxiliary/admin/ldap/rbcd",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Podalirius",
+    "Charlie Bromberg",
+    "Spencer McIntyre"
+  ],
+  "description": "This module can read and write the necessary LDAP attributes to configure a particular object for Role Based\n          Constrained Delegation (RBCD). When writing, the module will add an access control entry to allow the account\n          specified in DELEGATE_FROM to the object specified in DELEGATE_TO. In order for this to succeed, the\n          authenticated user must have write access to the target object (the object specified in DELEGATE_TO).",
+  "references": [
+    "URL-https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/resource-based-constrained-delegation-ad-computer-object-take-over-and-privilged-code-execution",
+    "URL-https://www.thehacker.recipes/ad/movement/kerberos/delegations/rbcd",
+    "URL-https://github.com/SecureAuthCorp/impacket/blob/3c6713e309cae871d685fa443d3e21b7026a2155/examples/rbcd.py"
+  ],
+  "rport": 389,
+  "mod_time": "2023-02-24 13:50:04 +0000",
+  "path": "/modules/auxiliary/admin/ldap/rbcd.rb",
+  "is_install_path": true,
+  "ref_name": "admin/ldap/rbcd",
+  "notes": {
+    "SideEffects": [
+      "config-changes"
+    ]
+  },
+  "needs_cleanup": false
+}

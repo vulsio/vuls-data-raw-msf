@@ -1,0 +1,31 @@
+{
+  "name": "OpenSSL Heartbeat (Heartbleed) Client Memory Exposure",
+  "fullname": "auxiliary/server/openssl_heartbeat_client_memory",
+  "rank": 300,
+  "disclosure_date": "2014-04-07",
+  "type": "auxiliary",
+  "author": [
+    "Neel Mehta",
+    "Riku",
+    "Antti",
+    "Matti",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module provides a fake SSL service that is intended to\n        leak memory from client systems as they connect. This module is\n        hardcoded for using the AES-128-CBC-SHA1 cipher.",
+  "references": [
+    "CVE-2014-0160",
+    "US-CERT-VU-720951",
+    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-098A",
+    "URL-http://heartbleed.com/"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/server/openssl_heartbeat_client_memory.rb",
+  "is_install_path": true,
+  "ref_name": "server/openssl_heartbeat_client_memory",
+  "notes": {
+    "AKA": [
+      "Heartbleed"
+    ]
+  },
+  "needs_cleanup": false
+}

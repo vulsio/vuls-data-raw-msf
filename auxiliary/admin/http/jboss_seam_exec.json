@@ -1,0 +1,37 @@
+{
+  "name": "JBoss Seam 2 Remote Command Execution",
+  "fullname": "auxiliary/admin/http/jboss_seam_exec",
+  "rank": 300,
+  "disclosure_date": "2010-07-19",
+  "type": "auxiliary",
+  "author": [
+    "guerrino di massa",
+    "Cristiano Maruti <cmaruti@gmail.com>"
+  ],
+  "description": "JBoss Seam 2 (jboss-seam2), as used in JBoss Enterprise Application Platform\n          4.3.0 for Red Hat Linux, does not properly sanitize inputs for JBoss Expression\n          Language (EL) expressions, which allows remote attackers to execute arbitrary code\n          via a crafted URL. This modules also has been tested successfully against IBM\n          WebSphere 6.1 running on iSeries.\n\n          NOTE: this is only a vulnerability when the Java Security Manager is not properly\n          configured.",
+  "references": [
+    "CVE-2010-1871",
+    "OSVDB-66881"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/jboss_seam_exec.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/jboss_seam_exec",
+  "needs_cleanup": false
+}

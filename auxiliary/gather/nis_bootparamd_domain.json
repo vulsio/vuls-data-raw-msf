@@ -1,0 +1,23 @@
+{
+  "name": "NIS bootparamd Domain Name Disclosure",
+  "fullname": "auxiliary/gather/nis_bootparamd_domain",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "SATAN",
+    "pentestmonkey",
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module discloses the NIS domain name from bootparamd.\n\n        You must know a client address from the target's bootparams file.\n\n        Hint: try hosts within the same network range as the target.",
+  "references": [
+    "URL-https://datatracker.ietf.org/doc/html/rfc1831",
+    "URL-https://datatracker.ietf.org/doc/html/rfc4506",
+    "URL-https://pentestmonkey.net/blog/nis-domain-name"
+  ],
+  "rport": 111,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/nis_bootparamd_domain.rb",
+  "is_install_path": true,
+  "ref_name": "gather/nis_bootparamd_domain",
+  "needs_cleanup": false
+}

@@ -1,0 +1,39 @@
+{
+  "name": "BMC TrackIt! Unauthenticated Arbitrary User Password Change",
+  "fullname": "auxiliary/scanner/http/bmc_trackit_passwd_reset",
+  "rank": 300,
+  "disclosure_date": "2014-12-09",
+  "type": "auxiliary",
+  "author": [
+    "bperry",
+    "jhart"
+  ],
+  "description": "This module exploits a flaw in the password reset mechanism in BMC TrackIt! 11.3\n      and possibly prior versions. If the password reset service is configured to use\n      a domain administrator (which is the recommended configuration), then domain\n      credentials can be reset (such as domain Administrator).",
+  "references": [
+    "URL-https://www.zerodayinitiative.com/advisories/ZDI-14-419/",
+    "CVE-2014-8270"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/bmc_trackit_passwd_reset.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/bmc_trackit_passwd_reset",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "HTTP Fetch, Windows shellcode stage, Windows x64 IPv6 Bind TCP Stager with UUID Support",
+  "fullname": "payload/cmd/windows/http/x64/custom/bind_ipv6_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "bwatters-r7",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "OJ Reeves"
+  ],
+  "description": "Fetch and Execute an x64 payload from an http server.\n\nCustom shellcode stage.\n\nListen for an IPv6 connection with UUID Support (Windows x64)",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-07-31 16:38:09 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/http/x64/custom/bind_ipv6_tcp_uuid",
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Redis Command Execute Scanner",
+  "fullname": "auxiliary/scanner/redis/redis_server",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "iallison <ian@team-allison.com>",
+    "Nixawk"
+  ],
+  "description": "This module locates Redis endpoints by attempting to run a specified\n        Redis command.",
+  "rport": 6379,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/redis/redis_server.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/redis/redis_server",
+  "needs_cleanup": false
+}

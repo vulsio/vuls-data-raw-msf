@@ -1,0 +1,21 @@
+{
+  "name": "Android Stock Browser Iframe DOS",
+  "fullname": "auxiliary/dos/android/android_stock_browser_iframe",
+  "rank": 300,
+  "disclosure_date": "2012-12-01",
+  "type": "auxiliary",
+  "author": [
+    "Jean Pascal Pereira",
+    "Jonathan Waggoner"
+  ],
+  "description": "This module exploits a vulnerability in the native browser that comes with Android 4.0.3.\n          If successful, the browser will crash after viewing the webpage.",
+  "references": [
+    "PACKETSTORM-118539",
+    "CVE-2012-6301"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/android/android_stock_browser_iframe.rb",
+  "is_install_path": true,
+  "ref_name": "dos/android/android_stock_browser_iframe",
+  "needs_cleanup": false
+}

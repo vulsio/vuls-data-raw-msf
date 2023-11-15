@@ -1,0 +1,19 @@
+{
+  "name": "HTTPS Fetch, Windows x64 Command Shell, Windows x64 IPv6 Bind TCP Stager with UUID Support",
+  "fullname": "payload/cmd/windows/https/x64/shell/bind_ipv6_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "OJ Reeves"
+  ],
+  "description": "Fetch and Execute an x64 payload from an https server.\n\nSpawn a piped command shell (Windows x64) (staged).\n\nListen for an IPv6 connection with UUID Support (Windows x64)",
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-03-15 19:19:19 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/https/x64/shell/bind_ipv6_tcp_uuid",
+  "needs_cleanup": false
+}

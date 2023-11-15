@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Reverse TCP (via Ksh)",
+  "fullname": "payload/cmd/unix/reverse_ksh",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Wang Yihang <wangyihanger@gmail.com>"
+  ],
+  "description": "Connect back and create a command shell via Ksh.  Note: Although Ksh is often\n        available, please be aware it isn't usually installed by default.",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_ksh.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_ksh",
+  "needs_cleanup": false
+}

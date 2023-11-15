@@ -1,0 +1,36 @@
+{
+  "name": "marked npm module \"heading\" ReDoS",
+  "fullname": "auxiliary/dos/http/marked_redos",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Adam Cazzolla, Sonatype Security Research",
+    "Nick Starke, Sonatype Security Research"
+  ],
+  "description": "This module exploits a Regular Expression Denial of Service vulnerability\n        in the npm module \"marked\". The vulnerable portion of code that this module\n        targets is in the \"heading\" regular expression. Web applications that use\n        \"marked\" for generating html from markdown are vulnerable. Versions up to\n        0.4.0 are vulnerable.",
+  "references": [
+    "URL-https://blog.sonatype.com/cve-2017-17461-vulnerable-or-not",
+    "CWE-400"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2018-08-16 14:59:32 +0000",
+  "path": "/modules/auxiliary/dos/http/marked_redos.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/marked_redos",
+  "needs_cleanup": false
+}

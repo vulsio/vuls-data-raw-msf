@@ -1,0 +1,16 @@
+{
+  "name": "SIP Endpoint Scanner (UDP)",
+  "fullname": "auxiliary/scanner/sip/options",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Scan for SIP devices using OPTIONS requests",
+  "rport": 5060,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/sip/options.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sip/options",
+  "needs_cleanup": false
+}

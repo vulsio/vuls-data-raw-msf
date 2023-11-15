@@ -1,0 +1,38 @@
+{
+  "name": "TrendMicro OfficeScanNT Listener Traversal Arbitrary File Access",
+  "fullname": "auxiliary/admin/officescan/tmlisten_traversal",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Anshul Pandey <anshul999@gmail.com>",
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "This module tests for directory traversal vulnerability in the UpdateAgent\n        function in the OfficeScanNT Listener (TmListen.exe) service in Trend Micro\n        OfficeScan. This allows remote attackers to read arbitrary files as SYSTEM\n        via dot dot sequences in an HTTP request.",
+  "references": [
+    "OSVDB-48730",
+    "CVE-2008-2439",
+    "BID-31531",
+    "URL-http://www.trendmicro.com/ftp/documentation/readme/OSCE_7.3_Win_EN_CriticalPatch_B1372_Readme.txt"
+  ],
+  "rport": 26122,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-11-09 03:00:24 +0000",
+  "path": "/modules/auxiliary/admin/officescan/tmlisten_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "admin/officescan/tmlisten_traversal",
+  "needs_cleanup": false
+}

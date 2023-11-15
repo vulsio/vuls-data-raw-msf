@@ -1,0 +1,19 @@
+{
+  "name": "HTTP SSL Certificate Impersonation",
+  "fullname": "auxiliary/gather/impersonate_ssl",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley"
+  ],
+  "description": "This module request a copy of the remote SSL certificate and creates a local\n          (self.signed) version using the information from the remote version. The module\n          then Outputs (PEM|DER) format private key / certificate and a combined version\n          for use in Apache or other Metasploit modules requiring SSLCert Inputs for private\n          key / CA cert have been provided for those with DigiNotar certs hanging about!",
+  "references": [
+    "URL-https://www.slideshare.net/ChrisJohnRiley/ssl-certificate-impersonation-for-shits-andgiggles"
+  ],
+  "rport": 443,
+  "mod_time": "2022-06-08 11:53:42 +0000",
+  "path": "/modules/auxiliary/gather/impersonate_ssl.rb",
+  "is_install_path": true,
+  "ref_name": "gather/impersonate_ssl",
+  "needs_cleanup": false
+}

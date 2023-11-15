@@ -1,0 +1,41 @@
+{
+  "name": "Plixer Scrutinizer NetFlow and sFlow Analyzer HTTP Authentication Bypass",
+  "fullname": "auxiliary/admin/http/scrutinizer_add_user",
+  "rank": 300,
+  "disclosure_date": "2012-07-27",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>",
+    "Jonathan Claudius",
+    "Tanya Secker",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This will add an administrative account to Scrutinizer NetFlow and sFlow Analyzer\n          without any authentication.  Versions such as 9.0.1 or older are affected.",
+  "references": [
+    "CVE-2012-2626",
+    "OSVDB-84318",
+    "URL-https://www.trustwave.com/spiderlabs/advisories/TWSL2012-014.txt"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/scrutinizer_add_user.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/scrutinizer_add_user",
+  "post_auth": true,
+  "needs_cleanup": false
+}

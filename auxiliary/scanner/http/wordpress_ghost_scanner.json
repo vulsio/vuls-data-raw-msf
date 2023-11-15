@@ -1,0 +1,42 @@
+{
+  "name": "WordPress XMLRPC GHOST Vulnerability Scanner",
+  "fullname": "auxiliary/scanner/http/wordpress_ghost_scanner",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Robert Rowley",
+    "Christophe De La Fuente",
+    "Chaim Sanders",
+    "Felipe Costa",
+    "Jonathan Claudius",
+    "Karl Sigler",
+    "Christian Mehlmauer <FireFart@gmail.com>"
+  ],
+  "description": "This module can be used to determine hosts vulnerable to the GHOST vulnerability via\n      a call to the WordPress XMLRPC interface. If the target is vulnerable, the system\n      will segfault and return a server error. On patched systems, a normal XMLRPC error\n      is returned.",
+  "references": [
+    "CVE-2015-0235",
+    "URL-https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/ghost-gethostbyname-heap-overflow-in-glibc-cve-2015-0235/",
+    "URL-https://blog.sucuri.net/2015/01/critical-ghost-vulnerability-released.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-21 20:51:29 +0000",
+  "path": "/modules/auxiliary/scanner/http/wordpress_ghost_scanner.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wordpress_ghost_scanner",
+  "needs_cleanup": false
+}

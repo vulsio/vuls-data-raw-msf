@@ -1,0 +1,29 @@
+{
+  "name": "TeamViewer Unquoted URI Handler SMB Redirect",
+  "fullname": "auxiliary/server/teamviewer_uri_smb_redirect",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jeffrey Hofmann <me@jeffs.sh>",
+    "h00die"
+  ],
+  "description": "This module exploits an unquoted parameter call within the Teamviewer\n          URI handler to create an SMB connection to an attacker controlled IP.\n          TeamViewer < 8.0.258861, 9.0.258860, 10.0.258873, 11.0.258870,\n          12.0.258869, 13.2.36220, 14.2.56676, 14.7.48350, and 15.8.3 are\n          vulnerable.\n          Only Firefox can be exploited by this vulnerability, as all other\n          browsers encode the space after 'play' and before the SMB location,\n          preventing successful exploitation.\n          Teamviewer 15.4.4445, and 8.0.16642 were succssfully tested against.",
+  "references": [
+    "URL-https://jeffs.sh/CVEs/CVE-2020-13699.txt",
+    "CVE-2020-13699",
+    "URL-https://community.teamviewer.com/t5/Announcements/Statement-on-CVE-2020-13699/td-p/98448"
+  ],
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/server/teamviewer_uri_smb_redirect.rb",
+  "is_install_path": true,
+  "ref_name": "server/teamviewer_uri_smb_redirect",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

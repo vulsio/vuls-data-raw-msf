@@ -1,0 +1,15 @@
+{
+  "name": "ARP Sweep Local Network Discovery",
+  "fullname": "auxiliary/scanner/discovery/arp_sweep",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "belch"
+  ],
+  "description": "Enumerate alive Hosts in local network using ARP requests.",
+  "mod_time": "2017-10-31 04:53:14 +0000",
+  "path": "/modules/auxiliary/scanner/discovery/arp_sweep.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/discovery/arp_sweep",
+  "needs_cleanup": false
+}

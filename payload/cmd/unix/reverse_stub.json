@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command Shell, Reverse TCP (stub)",
+  "fullname": "payload/cmd/unix/reverse_stub",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Creates an interactive shell through an inbound connection (stub only, no payload)",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/reverse_stub.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/reverse_stub",
+  "needs_cleanup": false
+}

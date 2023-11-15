@@ -1,0 +1,38 @@
+{
+  "name": "DnaLIMS Directory Traversal",
+  "fullname": "auxiliary/scanner/http/dnalims_file_retrieve",
+  "rank": 300,
+  "disclosure_date": "2017-03-08",
+  "type": "auxiliary",
+  "author": [
+    "h00die <mike@shorebreaksecurity.com>",
+    "flakey_biscuit <nicholas@shorebreaksecurity.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability found in dnaLIMS.\n        Due to the way the viewAppletFsa.cgi script handles the 'secID' parameter, it is possible\n        to read a file outside the www directory.",
+  "references": [
+    "CVE-2017-6527",
+    "US-CERT-VU-929263",
+    "URL-https://www.shorebreaksecurity.com/blog/product-security-advisory-psa0002-dnalims/"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/dnalims_file_retrieve.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/dnalims_file_retrieve",
+  "needs_cleanup": false
+}

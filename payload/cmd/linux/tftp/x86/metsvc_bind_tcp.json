@@ -1,0 +1,19 @@
+{
+  "name": "TFTP Fetch, Linux Meterpreter Service, Bind TCP",
+  "fullname": "payload/cmd/linux/tftp/x86/metsvc_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "Spencer McIntyre",
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Fetch and execute a x86 payload from a TFTP server.\nStub payload for interacting with a Meterpreter Service",
+  "platform": "Linux",
+  "arch": "cmd",
+  "mod_time": "2023-06-09 16:47:45 +0000",
+  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/linux/tftp/x86/metsvc_bind_tcp",
+  "needs_cleanup": false
+}

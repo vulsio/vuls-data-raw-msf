@@ -1,0 +1,39 @@
+{
+  "name": "MantisBT Admin SQL Injection Arbitrary File Read",
+  "fullname": "auxiliary/gather/mantisbt_admin_sqli",
+  "rank": 300,
+  "disclosure_date": "2014-02-28",
+  "type": "auxiliary",
+  "author": [
+    "Jakub Galczyk",
+    "Brandon Perry <bperry.volatile@gmail.com>"
+  ],
+  "description": "Versions 1.2.13 through 1.2.16 are vulnerable to a SQL injection attack if\n      an attacker can gain access to administrative credentials.\n\n      This vuln was fixed in 1.2.17.",
+  "references": [
+    "CVE-2014-2238",
+    "URL-https://www.mantisbt.org/bugs/view.php?id=17055"
+  ],
+  "platform": "Linux,Windows",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/mantisbt_admin_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "gather/mantisbt_admin_sqli",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,47 @@
+{
+  "name": "SAP Internet Graphics Server (IGS) XMLCHART XXE",
+  "fullname": "auxiliary/admin/sap/sap_igs_xmlchart_xxe",
+  "rank": 300,
+  "disclosure_date": "2018-03-14",
+  "type": "auxiliary",
+  "author": [
+    "Yvan Genuer",
+    "Vladimir Ivanov"
+  ],
+  "description": "This module exploits CVE-2018-2392 and CVE-2018-2393, two XXE vulnerabilities within the XMLCHART page\n          of SAP Internet Graphics Servers (IGS) running versions 7.20, 7.20EXT, 7.45, 7.49, or 7.53. These\n          vulnerabilities occur due to a lack of appropriate validation on the Extension HTML tag when\n          submitting a POST request to the XMLCHART page to generate a new chart.\n\n          Successful exploitation will allow unauthenticated remote attackers to read files from the server as the user\n          from which the IGS service is started, which will typically be the SAP admin user. Alternatively attackers\n          can also abuse the XXE vulnerability to conduct a denial of service attack against the vulnerable\n          SAP IGS server.",
+  "references": [
+    "CVE-2018-2392",
+    "CVE-2018-2393",
+    "URL-https://download.ernw-insight.de/troopers/tr18/slides/TR18_SAP_IGS-The-vulnerable-forgotten-component.pdf"
+  ],
+  "rport": 40080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/admin/sap/sap_igs_xmlchart_xxe.rb",
+  "is_install_path": true,
+  "ref_name": "admin/sap/sap_igs_xmlchart_xxe",
+  "check": true,
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

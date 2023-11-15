@@ -1,0 +1,47 @@
+{
+  "name": "WordPress Total Upkeep Unauthenticated Backup Downloader",
+  "fullname": "auxiliary/scanner/http/wp_total_upkeep_downloader",
+  "rank": 300,
+  "disclosure_date": "2020-12-12",
+  "type": "auxiliary",
+  "author": [
+    "Wadeek",
+    "h00die"
+  ],
+  "description": "This module exploits an unauthenticated database backup vulnerability in WordPress plugin\n          'Boldgrid-Backup' also known as 'Total Upkeep' version < 1.14.10.\n          First, `env-info.php` is read to get server information.  Next, `restore-info.json` is\n          read to retrieve the last backup file.  That backup is then downloaded, and any sql\n          files will be parsed looking for the wp_users INSERT statement to grab user creds.",
+  "references": [
+    "EDB-49252",
+    "WPVDB-10502",
+    "WPVDB-10503",
+    "URL-https://plugins.trac.wordpress.org/changeset/2439376/boldgrid-backup"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_total_upkeep_downloader.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_total_upkeep_downloader",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

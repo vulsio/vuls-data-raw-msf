@@ -1,0 +1,17 @@
+{
+  "name": "Command Shell, Reverse TCP (via python)",
+  "fullname": "payload/python/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
+  ],
+  "description": "Creates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.4-2.7 and 3.4+.",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2023-06-08 06:52:33 +0000",
+  "path": "/modules/payloads/singles/python/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "python/shell_reverse_tcp",
+  "needs_cleanup": false
+}

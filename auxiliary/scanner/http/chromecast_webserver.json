@@ -1,0 +1,34 @@
+{
+  "name": "Chromecast Web Server Scanner",
+  "fullname": "auxiliary/scanner/http/chromecast_webserver",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module scans for the Chromecast web server on port 8008/TCP, and\n        can be used to discover devices which can be targeted by other Chromecast\n        modules, such as chromecast_youtube.",
+  "references": [
+    "URL-https://store.google.com/product/chromecast?utm_source=chromecast.com&hl=en-US"
+  ],
+  "rport": 8008,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/http/chromecast_webserver.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/chromecast_webserver",
+  "needs_cleanup": false
+}

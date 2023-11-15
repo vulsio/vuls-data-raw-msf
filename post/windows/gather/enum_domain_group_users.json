@@ -1,0 +1,24 @@
+{
+  "name": "Windows Gather Enumerate Domain Group",
+  "fullname": "post/windows/gather/enum_domain_group_users",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>",
+    "Stephen Haywood <haywoodsb@gmail.com>"
+  ],
+  "description": "This module extracts user accounts from the specified domain group\n          and stores the results in the loot. It will also verify if session\n          account is in the group. Data is stored in loot in a format that\n          is compatible with the token_hunter plugin. This module must be\n          run on a session running as a domain user.",
+  "platform": "Windows",
+  "mod_time": "2022-09-22 17:05:19 +0000",
+  "path": "/modules/post/windows/gather/enum_domain_group_users.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_domain_group_users",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

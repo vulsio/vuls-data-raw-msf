@@ -1,0 +1,17 @@
+{
+  "name": "Xerox Administrator Console Password Extractor",
+  "fullname": "auxiliary/gather/xerox_pwd_extract",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Deral \"Percentx\" Heiland",
+    "Pete \"Bokojan\" Arzamendi"
+  ],
+  "description": "This module will extract the management console's admin password from the\n        Xerox file system using firmware bootstrap injection.",
+  "rport": 80,
+  "mod_time": "2019-11-05 18:32:45 +0000",
+  "path": "/modules/auxiliary/gather/xerox_pwd_extract.rb",
+  "is_install_path": true,
+  "ref_name": "gather/xerox_pwd_extract",
+  "needs_cleanup": false
+}

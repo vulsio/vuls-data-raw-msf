@@ -1,0 +1,38 @@
+{
+  "name": "Nagios XI Scanner",
+  "fullname": "auxiliary/scanner/http/nagios_xi_scanner",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Erik Wynter"
+  ],
+  "description": "The module detects the version of Nagios XI applications and\n        suggests matching exploit modules based on the version number.\n        Since Nagios XI applications only reveal the version to authenticated\n        users, valid credentials for a Nagios XI account are required.\n        Alternatively, it is possible to provide a specific Nagios XI version\n        number via the `VERSION` option. In that case, the module simply\n        suggests matching exploit modules and does not probe the target(s).",
+  "references": [
+    "CVE-2019-15949",
+    "CVE-2020-5791",
+    "CVE-2020-5792",
+    "CVE-2020-35578",
+    "CVE-2021-37343"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-02-05 18:21:18 +0000",
+  "path": "/modules/auxiliary/scanner/http/nagios_xi_scanner.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/nagios_xi_scanner",
+  "needs_cleanup": false
+}

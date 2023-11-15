@@ -1,0 +1,27 @@
+{
+  "name": "Disable ClamAV",
+  "fullname": "post/linux/manage/disable_clamav",
+  "rank": 600,
+  "type": "post",
+  "author": [
+    "DLL_Cool_J"
+  ],
+  "description": "This module will write to the ClamAV Unix socket to shutoff ClamAV.",
+  "platform": "Linux",
+  "mod_time": "2023-02-23 20:57:19 +0000",
+  "path": "/modules/post/linux/manage/disable_clamav.rb",
+  "is_install_path": true,
+  "ref_name": "linux/manage/disable_clamav",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "service-resource-loss"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

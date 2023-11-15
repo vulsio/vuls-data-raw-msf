@@ -1,0 +1,23 @@
+{
+  "name": "Juniper SSH Backdoor Scanner",
+  "fullname": "auxiliary/scanner/ssh/juniper_backdoor",
+  "rank": 300,
+  "disclosure_date": "2015-12-20",
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "h00die <mike@stcyrsecurity.com>"
+  ],
+  "description": "This module scans for the Juniper SSH backdoor (also valid on Telnet).\n        Any username is required, and the password is <<< %s(un='%s') = %u.",
+  "references": [
+    "CVE-2015-7755",
+    "URL-https://www.rapid7.com/blog/post/2015/12/20/cve-2015-7755-juniper-screenos-authentication-backdoor/",
+    "URL-https://kb.juniper.net/InfoCenter/index?page=content&id=JSA10713"
+  ],
+  "rport": 22,
+  "mod_time": "2022-04-14 17:27:19 +0000",
+  "path": "/modules/auxiliary/scanner/ssh/juniper_backdoor.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ssh/juniper_backdoor",
+  "needs_cleanup": false
+}

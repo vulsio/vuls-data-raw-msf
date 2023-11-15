@@ -1,0 +1,28 @@
+{
+  "name": "Windows Escalation",
+  "fullname": "post/windows/escalate/getsystem",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module uses the `getsystem` command to escalate the current session to the SYSTEM account using various\n          techniques.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/escalate/getsystem.rb",
+  "is_install_path": true,
+  "ref_name": "windows/escalate/getsystem",
+  "notes": {
+    "AKA": [
+      "Named Pipe Impersonation",
+      "Token Duplication",
+      "RPCSS",
+      "PrintSpooler",
+      "EFSRPC",
+      "EfsPotato"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

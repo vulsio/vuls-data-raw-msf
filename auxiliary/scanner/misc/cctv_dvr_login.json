@@ -1,0 +1,17 @@
+{
+  "name": "CCTV DVR Login Scanning Utility",
+  "fullname": "auxiliary/scanner/misc/cctv_dvr_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Justin Cacak"
+  ],
+  "description": "This module tests for standalone CCTV DVR video surveillance\n        deployments specifically by MicroDigital, HIVISION, CTRing, and\n        numerous other rebranded devices that are utilizing default vendor\n        passwords. Additionally, this module has the ability to brute\n        force user accounts.\n\n        Such CCTV DVR video surveillance deployments support remote\n        viewing through Central Management Software (CMS) via the\n        CMS Web Client, an IE ActiveX control hosted over HTTP, or\n        through Win32 or mobile CMS client software. By default,\n        remote authentication is handled over port 5920/TCP with video\n        streaming over 5921/TCP.\n\n        After successful authentication over 5920/TCP this module\n        will then attempt to determine if the IE ActiveX control\n        is listening on the default HTTP port (80/TCP).",
+  "rport": 5920,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/misc/cctv_dvr_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/misc/cctv_dvr_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

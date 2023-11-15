@@ -1,0 +1,22 @@
+{
+  "name": "Windows Meterpreter Shell, Bind TCP Inline (x64)",
+  "fullname": "payload/windows/x64/meterpreter_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "OJ Reeves",
+    "sf <stephen_fewer@harmonysecurity.com>"
+  ],
+  "description": "Connect to victim and spawn a Meterpreter shell. Requires Windows XP SP2 or newer.",
+  "references": [
+    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
+  ],
+  "platform": "Windows",
+  "arch": "x64",
+  "mod_time": "2022-04-29 15:18:51 +0000",
+  "path": "/modules/payloads/singles/windows/x64/meterpreter_bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "windows/x64/meterpreter_bind_tcp",
+  "needs_cleanup": false
+}

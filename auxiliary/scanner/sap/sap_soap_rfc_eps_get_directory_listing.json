@@ -1,0 +1,35 @@
+{
+  "name": "SAP SOAP RFC EPS_GET_DIRECTORY_LISTING Directories Information Disclosure",
+  "fullname": "auxiliary/scanner/sap/sap_soap_rfc_eps_get_directory_listing",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "nmonkee"
+  ],
+  "description": "This module abuses the SAP NetWeaver EPS_GET_DIRECTORY_LISTING function, on the\n        SAP SOAP RFC Service, to check for remote directory existence and get the number\n        of entries on it. The module can also be used to capture SMB hashes by using a fake\n        SMB share as DIR.",
+  "references": [
+    "URL-https://labs.f-secure.com/"
+  ],
+  "rport": 8000,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_eps_get_directory_listing.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_soap_rfc_eps_get_directory_listing",
+  "post_auth": true,
+  "needs_cleanup": false
+}

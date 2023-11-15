@@ -1,0 +1,35 @@
+{
+  "name": "Joomla Bruteforce Login Utility",
+  "fullname": "auxiliary/scanner/http/joomla_bruteforce_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "luisco100 <luisco100@gmail.com>"
+  ],
+  "description": "This module attempts to authenticate to Joomla 2.5. or 3.0 through bruteforce attacks",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/http/joomla_bruteforce_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/joomla_bruteforce_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

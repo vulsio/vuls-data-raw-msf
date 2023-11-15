@@ -1,0 +1,16 @@
+{
+  "name": "SNMP Windows Username Enumeration",
+  "fullname": "auxiliary/scanner/snmp/snmp_enumusers",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "tebo <tebo@attackresearch.com>"
+  ],
+  "description": "This module will use LanManager/psProcessUsername OID values to\n        enumerate local user accounts on a Windows/Solaris system via SNMP",
+  "rport": 161,
+  "mod_time": "2022-11-01 14:22:49 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/snmp_enumusers.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/snmp_enumusers",
+  "needs_cleanup": false
+}

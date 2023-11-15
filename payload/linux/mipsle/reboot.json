@@ -1,0 +1,21 @@
+{
+  "name": "Linux Reboot",
+  "fullname": "payload/linux/mipsle/reboot",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Michael Messner <devnull@s3cur1ty.de>",
+    "rigan - <imrigan@gmail.com>"
+  ],
+  "description": "A very small shellcode for rebooting the system.\n            This payload is sometimes helpful for testing purposes.",
+  "references": [
+    "URL-http://www.shell-storm.org/shellcode/files/shellcode-795.php"
+  ],
+  "platform": "Linux",
+  "arch": "mipsle",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/linux/mipsle/reboot.rb",
+  "is_install_path": true,
+  "ref_name": "linux/mipsle/reboot",
+  "needs_cleanup": false
+}

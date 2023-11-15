@@ -1,0 +1,17 @@
+{
+  "name": "Simple",
+  "fullname": "nop/armle/simple",
+  "rank": 300,
+  "type": "nop",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Simple NOP generator",
+  "platform": "All",
+  "arch": "armle",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/nops/armle/simple.rb",
+  "is_install_path": true,
+  "ref_name": "armle/simple",
+  "needs_cleanup": false
+}

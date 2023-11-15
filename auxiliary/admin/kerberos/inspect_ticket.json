@@ -1,0 +1,20 @@
+{
+  "name": "Kerberos Ticket Inspecting",
+  "fullname": "auxiliary/admin/kerberos/inspect_ticket",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Dean Welch"
+  ],
+  "description": "This module outputs the contents of a ccache/kirbi file and optionally (when provided with the appropriate key)\n          decrypts and displays the encrypted content too.\n          Can be used for inspecting tickets that aren't working as intended in an effort to debug them.",
+  "mod_time": "2023-01-26 09:21:55 +0000",
+  "path": "/modules/auxiliary/admin/kerberos/inspect_ticket.rb",
+  "is_install_path": true,
+  "ref_name": "admin/kerberos/inspect_ticket",
+  "notes": {
+    "AKA": [
+      "klist"
+    ]
+  },
+  "needs_cleanup": false
+}

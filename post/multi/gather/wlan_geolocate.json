@@ -1,0 +1,19 @@
+{
+  "name": "Multiplatform WLAN Enumeration and Geolocation",
+  "fullname": "post/multi/gather/wlan_geolocate",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Tom Sellers <tom@fadedcode.net>"
+  ],
+  "description": "Enumerate wireless networks visible to the target device.\n          Optionally geolocate the target by gathering local wireless networks and\n          performing a lookup against Google APIs.",
+  "platform": "Android,BSD,Linux,OSX,Solaris,Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/wlan_geolocate.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/wlan_geolocate",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

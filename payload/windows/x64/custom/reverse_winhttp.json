@@ -1,0 +1,18 @@
+{
+  "name": "Windows shellcode stage, Windows x64 Reverse HTTP Stager (winhttp)",
+  "fullname": "payload/windows/x64/custom/reverse_winhttp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "bwatters-r7",
+    "OJ Reeves"
+  ],
+  "description": "Custom shellcode stage.\n\nTunnel communication over HTTP (Windows x64 winhttp)",
+  "platform": "Windows",
+  "arch": "x64",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/windows/x64/reverse_winhttp.rb",
+  "is_install_path": true,
+  "ref_name": "windows/x64/custom/reverse_winhttp",
+  "needs_cleanup": false
+}

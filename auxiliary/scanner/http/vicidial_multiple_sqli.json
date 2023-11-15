@@ -1,0 +1,47 @@
+{
+  "name": "VICIdial Multiple Authenticated SQLi",
+  "fullname": "auxiliary/scanner/http/vicidial_multiple_sqli",
+  "rank": 300,
+  "disclosure_date": "2022-04-19",
+  "type": "auxiliary",
+  "author": [
+    "h00die"
+  ],
+  "description": "This module exploits several authenticated SQL Inject vulnerabilities in VICIdial 2.14b0.5 prior to\n          svn/trunk revision 3555 (VICIBox 10.0.0, prior to January 20 is vulnerable).\n          Injection point 1 is on vicidial/admin.php when adding a user, in the modify_email_accounts parameter.\n          Injection point 2 is on vicidial/admin.php when adding a user, in the access_recordings parameter.\n          Injection point 3 is on vicidial/admin.php when adding a user, in the agentcall_email parameter.\n          Injection point 4 is on vicidial/AST_agent_time_sheet.php when adding a user, in the agent parameter.\n          Injection point 5 is on vicidial/user_stats.php when adding a user, in the file_download parameter.\n          VICIdial does not encrypt passwords by default.",
+  "references": [
+    "URL-https://www.vicidial.org/VICIDIALforum/viewtopic.php?f=4&t=41300&sid=aacb27a29fefd85265b4d55fe51122af",
+    "CVE-2022-34876",
+    "CVE-2022-34877",
+    "CVE-2022-34878"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-09-21 16:57:18 +0000",
+  "path": "/modules/auxiliary/scanner/http/vicidial_multiple_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/vicidial_multiple_sqli",
+  "post_auth": true,
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

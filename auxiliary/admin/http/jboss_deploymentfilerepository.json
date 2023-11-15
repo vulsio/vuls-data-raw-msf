@@ -1,0 +1,37 @@
+{
+  "name": "JBoss JMX Console DeploymentFileRepository WAR Upload and Deployment",
+  "fullname": "auxiliary/admin/http/jboss_deploymentfilerepository",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "us3r777 <us3r777@n0b0.so>"
+  ],
+  "description": "This module uses the DeploymentFileRepository class in the JBoss Application Server\n        to deploy a JSP file which then deploys an arbitrary WAR file.",
+  "references": [
+    "CVE-2010-0738",
+    "OSVDB-64171",
+    "URL-https://www.redteam-pentesting.de/en/publications/jboss/-bridging-the-gap-between-the-enterprise-and-you-or-whos-the-jboss-now",
+    "URL-https://bugzilla.redhat.com/show_bug.cgi?id=574105"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/jboss_deploymentfilerepository.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/jboss_deploymentfilerepository",
+  "needs_cleanup": false
+}

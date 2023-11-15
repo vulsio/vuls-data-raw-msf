@@ -1,0 +1,35 @@
+{
+  "name": "SAP Management Console Get Process Parameters",
+  "fullname": "auxiliary/scanner/sap/sap_mgmt_con_getprocessparameter",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley"
+  ],
+  "description": "This module simply attempts to output a SAP process parameters and\n        configuration settings through the SAP Management Console SOAP Interface.",
+  "references": [
+    "URL-https://blog.c22.cc"
+  ],
+  "rport": 50013,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    50013
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-05-30 10:56:41 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getprocessparameter.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_mgmt_con_getprocessparameter",
+  "needs_cleanup": false
+}

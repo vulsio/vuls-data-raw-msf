@@ -1,0 +1,34 @@
+{
+  "name": "SMB Login Check Scanner",
+  "fullname": "auxiliary/scanner/smb/smb_login",
+  "aliases": [
+    "auxiliary/scanner/smb/login"
+  ],
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "tebo <tebo@attackresearch.com>",
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
+    "Brandon McCann \"zeknox\" <bmccann@accuvant.com>",
+    "Tom Sellers <tom@fadedcode.net>"
+  ],
+  "description": "This module will test a SMB login on a range of machines and\n        report successful logins.  If you have loaded a database plugin\n        and connected to a database this module will record successful\n        logins and hosts so you can track your access.",
+  "references": [
+    "CVE-1999-0506"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2023-09-20 13:52:06 +0000",
+  "path": "/modules/auxiliary/scanner/smb/smb_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smb/smb_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

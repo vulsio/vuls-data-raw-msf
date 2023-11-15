@@ -1,0 +1,58 @@
+{
+  "name": "Tomcat Application Manager Login Utility",
+  "fullname": "auxiliary/scanner/http/tomcat_mgr_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>",
+    "Matteo Cantoni <goony@nothink.org>",
+    "jduck <jduck@metasploit.com>"
+  ],
+  "description": "This module simply attempts to login to a Tomcat Application Manager instance using a specific user/pass.",
+  "references": [
+    "CVE-2009-3843",
+    "OSVDB-60317",
+    "BID-37086",
+    "CVE-2009-4189",
+    "OSVDB-60670",
+    "URL-https://web.archive.org/web/20091129092955/http://www.harmonysecurity.com/blog/2009/11/hp-operations-manager-backdoor-account.html",
+    "ZDI-09-085",
+    "CVE-2009-4188",
+    "BID-38084",
+    "CVE-2010-0557",
+    "URL-http://www-01.ibm.com/support/docview.wss?uid=swg21419179",
+    "CVE-2010-4094",
+    "ZDI-10-214",
+    "CVE-2009-3548",
+    "OSVDB-60176",
+    "BID-36954",
+    "URL-https://tomcat.apache.org/",
+    "CVE-1999-0502"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    8081,
+    8444,
+    9080,
+    19300
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-11-27 15:35:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/tomcat_mgr_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/tomcat_mgr_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Oracle Password Hashdump",
+  "fullname": "auxiliary/scanner/oracle/oracle_hashdump",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module dumps the usernames and password hashes\n          from Oracle given the proper Credentials and SID.\n          These are then stored as creds for later cracking using auxiliary/analyze/jtr_oracle_fast.\n          This module supports Oracle DB versions 8i, 9i, 10g, 11g, and 12c.",
+  "rport": 1521,
+  "mod_time": "2019-03-28 10:06:56 +0000",
+  "path": "/modules/auxiliary/scanner/oracle/oracle_hashdump.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/oracle/oracle_hashdump",
+  "post_auth": true,
+  "needs_cleanup": false
+}

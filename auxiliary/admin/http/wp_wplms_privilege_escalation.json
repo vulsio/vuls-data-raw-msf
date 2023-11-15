@@ -1,0 +1,38 @@
+{
+  "name": "WordPress WPLMS Theme Privilege Escalation",
+  "fullname": "auxiliary/admin/http/wp_wplms_privilege_escalation",
+  "rank": 300,
+  "disclosure_date": "2015-02-09",
+  "type": "auxiliary",
+  "author": [
+    "Evex",
+    "rastating"
+  ],
+  "description": "The WordPress WPLMS theme from version 1.5.2 to 1.8.4.1 allows an\n          authenticated user of any user level to set any system option due to a lack of\n          validation in the import_data function of /includes/func.php.\n\n          The module first changes the admin e-mail address to prevent any\n          notifications being sent to the actual administrator during the attack,\n          re-enables user registration in case it has been disabled and sets the default\n          role to be administrator.  This will allow for the user to create a new account\n          with admin privileges via the default registration page found at\n          /wp-login.php?action=register.",
+  "references": [
+    "WPVDB-7785"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/wp_wplms_privilege_escalation.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/wp_wplms_privilege_escalation",
+  "check": true,
+  "post_auth": true,
+  "needs_cleanup": false
+}

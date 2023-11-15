@@ -1,0 +1,32 @@
+{
+  "name": "Web Site Crawler",
+  "fullname": "auxiliary/scanner/http/crawler",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "tasos"
+  ],
+  "description": "Crawl a web site and store information about what was found",
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-06-15 11:35:30 +0000",
+  "path": "/modules/auxiliary/scanner/http/crawler.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/crawler",
+  "needs_cleanup": false
+}

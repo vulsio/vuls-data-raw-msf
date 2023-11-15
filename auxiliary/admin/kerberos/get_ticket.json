@@ -1,0 +1,30 @@
+{
+  "name": "Kerberos TGT/TGS Ticket Requester",
+  "fullname": "auxiliary/admin/kerberos/get_ticket",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Christophe De La Fuente",
+    "Spencer McIntyre",
+    "Will Schroeder",
+    "Lee Christensen",
+    "Oliver Lyak",
+    "smashery"
+  ],
+  "description": "This module requests TGT/TGS Kerberos tickets from the KDC",
+  "rport": 88,
+  "mod_time": "2023-03-09 02:09:29 +0000",
+  "path": "/modules/auxiliary/admin/kerberos/get_ticket.rb",
+  "is_install_path": true,
+  "ref_name": "admin/kerberos/get_ticket",
+  "notes": {
+    "AKA": [
+      "getTGT",
+      "getST"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

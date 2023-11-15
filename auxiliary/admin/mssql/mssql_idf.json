@@ -1,0 +1,33 @@
+{
+  "name": "Microsoft SQL Server Interesting Data Finder",
+  "fullname": "auxiliary/admin/mssql/mssql_idf",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Robin Wood <robin@digininja.org>"
+  ],
+  "description": "This module will search the specified MSSQL server for\n        'interesting' columns and data.\n\n        This module has been tested against the latest SQL Server 2019 docker container image (22/04/2021).",
+  "references": [
+    "URL-http://www.digininja.org/metasploit/mssql_idf.php"
+  ],
+  "rport": 1433,
+  "autofilter_ports": [
+    1433,
+    1434,
+    1435,
+    14330,
+    2533,
+    9152,
+    2638
+  ],
+  "autofilter_services": [
+    "ms-sql-s",
+    "ms-sql2000",
+    "sybase"
+  ],
+  "mod_time": "2022-06-29 12:20:37 +0000",
+  "path": "/modules/auxiliary/admin/mssql/mssql_idf.rb",
+  "is_install_path": true,
+  "ref_name": "admin/mssql/mssql_idf",
+  "needs_cleanup": false
+}

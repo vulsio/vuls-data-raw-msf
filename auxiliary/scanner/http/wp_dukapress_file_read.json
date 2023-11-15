@@ -1,0 +1,38 @@
+{
+  "name": "WordPress DukaPress Plugin File Read Vulnerability",
+  "fullname": "auxiliary/scanner/http/wp_dukapress_file_read",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Kacper Szurek",
+    "Roberto Soares Espreto <robertoespreto@gmail.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability in WordPress Plugin\n        \"DukaPress\" version <= 2.5.3, allowing to read arbitrary files with the\n        web server privileges.",
+  "references": [
+    "EDB-35346",
+    "CVE-2014-8799",
+    "WPVDB-7731",
+    "OSVDB-115130"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-10-10 15:05:57 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_dukapress_file_read.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_dukapress_file_read",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Linux Mettle x64, Reverse TCP Stager",
+  "fullname": "payload/linux/x64/meterpreter/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brent Cook <bcook@rapid7.com>",
+    "ricky",
+    "tkmru"
+  ],
+  "description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker",
+  "platform": "Linux,Linux",
+  "arch": "x64",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/linux/x64/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x64/meterpreter/reverse_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,36 @@
+{
+  "name": "SAP Management Console GetProcessList",
+  "fullname": "auxiliary/scanner/sap/sap_mgmt_con_getprocesslist",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley",
+    "Bruno Morisson <bm@integrity.pt>"
+  ],
+  "description": "This module attempts to list SAP processes through the SAP Management Console SOAP Interface",
+  "references": [
+    "URL-https://blog.c22.cc"
+  ],
+  "rport": 50013,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    50013
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_getprocesslist.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_mgmt_con_getprocesslist",
+  "needs_cleanup": false
+}

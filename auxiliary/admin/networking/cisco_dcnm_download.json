@@ -1,0 +1,44 @@
+{
+  "name": "Cisco Data Center Network Manager Unauthenticated File Download",
+  "fullname": "auxiliary/admin/networking/cisco_dcnm_download",
+  "aliases": [
+    "auxiliary/admin/cisco/cisco_dcnm_download"
+  ],
+  "rank": 300,
+  "disclosure_date": "2019-06-26",
+  "type": "auxiliary",
+  "author": [
+    "Pedro Ribeiro <pedrib@gmail.com>"
+  ],
+  "description": "DCNM exposes a servlet to download files on /fm/downloadServlet.\n          An authenticated user can abuse this servlet to download arbitrary files as root by specifying\n          the full path of the file.\n          This module was tested on the DCNM Linux virtual appliance 10.4(2), 11.0(1) and 11.1(1), and should\n          work on a few versions below 10.4(2). Only version 11.0(1) requires authentication to exploit\n          (see References to understand why).",
+  "references": [
+    "CVE-2019-1619",
+    "CVE-2019-1621",
+    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190626-dcnm-bypass",
+    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190626-dcnm-file-dwnld",
+    "URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/Cisco/cisco-dcnm-rce.txt",
+    "URL-https://seclists.org/fulldisclosure/2019/Jul/7"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-13 18:55:39 +0000",
+  "path": "/modules/auxiliary/admin/networking/cisco_dcnm_download.rb",
+  "is_install_path": true,
+  "ref_name": "admin/networking/cisco_dcnm_download",
+  "post_auth": true,
+  "needs_cleanup": false
+}

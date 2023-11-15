@@ -1,0 +1,22 @@
+{
+  "name": "OS X Text to Speech Utility",
+  "fullname": "post/osx/admin/say",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will speak whatever is in the 'TEXT' option on the victim machine.",
+  "references": [
+    "URL-http://www.gabrielserafini.com/blog/2008/08/19/mac-os-x-voices-for-using-with-the-say-command/"
+  ],
+  "platform": "OSX",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/osx/admin/say.rb",
+  "is_install_path": true,
+  "ref_name": "osx/admin/say",
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}

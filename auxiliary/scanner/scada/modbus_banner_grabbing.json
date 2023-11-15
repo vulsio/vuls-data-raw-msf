@@ -1,0 +1,30 @@
+{
+  "name": "Modbus Banner Grabbing",
+  "fullname": "auxiliary/scanner/scada/modbus_banner_grabbing",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Juan Escobar <juan@null-life.com>",
+    "Ezequiel Fernandez"
+  ],
+  "description": "This module grabs the banner of any device running the Modbus protocol\n          by sending a request with Modbus Function Code 43 (Read Device\n          Identification). Modbus is a data communications protocol originally\n          published by Modicon (now Schneider Electric) in 1979 for use with its\n          programmable logic controllers (PLCs).",
+  "references": [
+    "URL-https://modbus.org/docs/Modbus_Messaging_Implementation_Guide_V1_0b.pdf",
+    "URL-https://en.wikipedia.org/wiki/Modbus#Modbus_TCP_frame_format_(primarily_used_on_Ethernet_networks)",
+    "URL-https://github.com/industrialarmy/Hello_Proto"
+  ],
+  "rport": 502,
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/auxiliary/scanner/scada/modbus_banner_grabbing.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/scada/modbus_banner_grabbing",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

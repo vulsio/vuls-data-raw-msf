@@ -1,0 +1,17 @@
+{
+  "name": "Non-Alpha Encoder",
+  "fullname": "encoder/x86/nonalpha",
+  "rank": 100,
+  "type": "encoder",
+  "author": [
+    "pusscat <pusscat@metasploit.com>"
+  ],
+  "description": "Encodes payloads as non-alpha based bytes. This allows\n        payloads to bypass both toupper() and tolower() calls,\n        but will fail isalpha(). Table based design from\n        Russel Sanford.",
+  "platform": "All",
+  "arch": "x86",
+  "mod_time": "2018-08-30 01:22:24 +0000",
+  "path": "/modules/encoders/x86/nonalpha.rb",
+  "is_install_path": true,
+  "ref_name": "x86/nonalpha",
+  "needs_cleanup": false
+}

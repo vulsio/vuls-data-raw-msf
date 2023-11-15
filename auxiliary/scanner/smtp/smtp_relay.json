@@ -1,0 +1,33 @@
+{
+  "name": "SMTP Open Relay Detection",
+  "fullname": "auxiliary/scanner/smtp/smtp_relay",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Campbell Murray",
+    "xistence <xistence@0x90.nl>"
+  ],
+  "description": "This module tests if an SMTP server will accept (via a code 250)\n        an e-mail by using a variation of testing methods.\n        Some of the extended methods will try to abuse configuration or mailserver flaws.",
+  "references": [
+    "URL-http://www.ietf.org/rfc/rfc2821.txt",
+    "URL-https://svn.nmap.org/nmap/scripts/smtp-open-relay.nse"
+  ],
+  "rport": 25,
+  "autofilter_ports": [
+    25,
+    465,
+    587,
+    2525,
+    25025,
+    25000
+  ],
+  "autofilter_services": [
+    "smtp",
+    "smtps"
+  ],
+  "mod_time": "2023-09-18 19:33:07 +0000",
+  "path": "/modules/auxiliary/scanner/smtp/smtp_relay.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smtp/smtp_relay",
+  "needs_cleanup": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Java Meterpreter, Java Bind TCP Stager",
+  "fullname": "payload/java/meterpreter/bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "mihi",
+    "egypt <egypt@metasploit.com>",
+    "OJ Reeves"
+  ],
+  "description": "Run a meterpreter server in Java.\n\nListen for a connection",
+  "platform": "Java",
+  "arch": "java",
+  "mod_time": "2023-09-27 11:20:17 +0000",
+  "path": "/modules/payloads/stagers/java/bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "java/meterpreter/bind_tcp",
+  "needs_cleanup": false
+}

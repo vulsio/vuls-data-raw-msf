@@ -1,0 +1,23 @@
+{
+  "name": "Windows Shell, Reverse TCP (via jjs)",
+  "fullname": "payload/cmd/windows/jjs_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "conerpirate",
+    "bcoles <bcoles@gmail.com>"
+  ],
+  "description": "Connect back and create a command shell via jjs",
+  "references": [
+    "URL-https://gtfobins.github.io/gtfobins/jjs/",
+    "URL-https://cornerpirate.com/2018/08/17/java-gives-a-shell-for-everything/",
+    "URL-https://h4wkst3r.blogspot.com/2018/05/code-execution-with-jdk-scripting-tools.html"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-11-22 05:49:48 +0000",
+  "path": "/modules/payloads/singles/cmd/windows/jjs_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/jjs_reverse_tcp",
+  "needs_cleanup": false
+}

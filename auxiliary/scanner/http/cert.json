@@ -1,0 +1,16 @@
+{
+  "name": "HTTP SSL Certificate Checker",
+  "fullname": "auxiliary/scanner/http/cert",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "nebulus"
+  ],
+  "description": "This module will check the certificate of the specified web servers\n        to ensure the subject and issuer match the supplied pattern and that the certificate\n        is not expired.",
+  "rport": 443,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/http/cert.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/cert",
+  "needs_cleanup": false
+}

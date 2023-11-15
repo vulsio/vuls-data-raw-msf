@@ -1,0 +1,16 @@
+{
+  "name": "Finger Service User Enumerator",
+  "fullname": "auxiliary/scanner/finger/finger_users",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Identify valid users through the finger service using a variety of tricks",
+  "rport": 79,
+  "mod_time": "2018-02-20 15:48:00 +0000",
+  "path": "/modules/auxiliary/scanner/finger/finger_users.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/finger/finger_users",
+  "needs_cleanup": false
+}

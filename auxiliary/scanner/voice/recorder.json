@@ -1,0 +1,15 @@
+{
+  "name": "Telephone Line Voice Scanner",
+  "fullname": "auxiliary/scanner/voice/recorder",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module dials a range of phone numbers and records audio from each answered call",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/voice/recorder.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/voice/recorder",
+  "needs_cleanup": false
+}

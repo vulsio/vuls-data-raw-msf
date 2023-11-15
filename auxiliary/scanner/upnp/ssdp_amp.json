@@ -1,0 +1,20 @@
+{
+  "name": "SSDP ssdp:all M-SEARCH Amplification Scanner",
+  "fullname": "auxiliary/scanner/upnp/ssdp_amp",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "xistence <xistence@0x90.nl>"
+  ],
+  "description": "Discover SSDP amplification possibilities",
+  "references": [
+    "CVE-2013-5211",
+    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A"
+  ],
+  "rport": 1900,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/upnp/ssdp_amp.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/upnp/ssdp_amp",
+  "needs_cleanup": false
+}

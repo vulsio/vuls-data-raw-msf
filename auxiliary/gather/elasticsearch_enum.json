@@ -1,0 +1,46 @@
+{
+  "name": "Elasticsearch Enumeration Utility",
+  "fullname": "auxiliary/gather/elasticsearch_enum",
+  "aliases": [
+    "auxiliary/scanner/elasticsearch/indices_enum"
+  ],
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Silas Cutler <Silas.Cutler@BlackListThisDomain.com>",
+    "h00die"
+  ],
+  "description": "This module enumerates Elasticsearch instances. It uses the REST API\n          in order to gather information about the server, the cluster, nodes,\n          in the cluster, indicies, and pull data from those indicies.",
+  "references": [
+    "URL-https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html"
+  ],
+  "rport": 9200,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-08-24 17:24:20 +0000",
+  "path": "/modules/auxiliary/gather/elasticsearch_enum.rb",
+  "is_install_path": true,
+  "ref_name": "gather/elasticsearch_enum",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

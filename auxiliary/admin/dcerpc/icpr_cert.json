@@ -1,0 +1,40 @@
+{
+  "name": "ICPR Certificate Management",
+  "fullname": "auxiliary/admin/dcerpc/icpr_cert",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Will Schroeder",
+    "Lee Christensen",
+    "Oliver Lyak",
+    "Spencer McIntyre"
+  ],
+  "description": "Request certificates via MS-ICPR (Active Directory Certificate Services). Depending on the certificate\n          template's configuration the resulting certificate can be used for various operations such as authentication.\n          PFX certificate files that are saved are encrypted with a blank password.",
+  "references": [
+    "URL-https://github.com/GhostPack/Certify",
+    "URL-https://github.com/ly4k/Certipy"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2022-12-02 16:29:02 +0000",
+  "path": "/modules/auxiliary/admin/dcerpc/icpr_cert.rb",
+  "is_install_path": true,
+  "ref_name": "admin/dcerpc/icpr_cert",
+  "notes": {
+    "AKA": [
+      "Certifry",
+      "Certipy"
+    ],
+    "SideEffects": [
+      "ioc-in-logs"
+    ]
+  },
+  "needs_cleanup": false
+}

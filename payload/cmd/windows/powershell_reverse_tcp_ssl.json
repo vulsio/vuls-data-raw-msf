@@ -1,0 +1,21 @@
+{
+  "name": "Windows Interactive Powershell Session, Reverse TCP SSL",
+  "fullname": "payload/cmd/windows/powershell_reverse_tcp_ssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Ben Turner",
+    "Dave Hardy"
+  ],
+  "description": "Interacts with a powershell session on an established SSL socket connection",
+  "references": [
+    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/cmd/windows/powershell_reverse_tcp_ssl.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/powershell_reverse_tcp_ssl",
+  "needs_cleanup": false
+}

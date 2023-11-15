@@ -1,0 +1,19 @@
+{
+  "name": "Linux Command Shell, Bind TCP Stager with UUID Support (Linux x86)",
+  "fullname": "payload/linux/x86/shell/bind_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "skape <mmiller@hick.org>",
+    "egypt <egypt@metasploit.com>",
+    "OJ Reeves"
+  ],
+  "description": "Spawn a command shell (staged).\n\nListen for a connection with UUID Support (Linux x86)",
+  "platform": "Linux",
+  "arch": "x86",
+  "mod_time": "2021-01-04 11:50:07 +0000",
+  "path": "/modules/payloads/stagers/linux/x86/bind_tcp_uuid.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x86/shell/bind_tcp_uuid",
+  "needs_cleanup": false
+}

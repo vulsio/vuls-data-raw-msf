@@ -1,0 +1,17 @@
+{
+  "name": "Solaris Command Shell, Find Port Inline",
+  "fullname": "payload/solaris/x86/shell_find_port",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Ramon de C Valle <rcvalle@metasploit.com>"
+  ],
+  "description": "Spawn a shell on an established connection",
+  "platform": "Solaris",
+  "arch": "x86",
+  "mod_time": "2021-01-05 14:59:46 +0000",
+  "path": "/modules/payloads/singles/solaris/x86/shell_find_port.rb",
+  "is_install_path": true,
+  "ref_name": "solaris/x86/shell_find_port",
+  "needs_cleanup": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Beckhoff TwinCAT SCADA PLC 2.11.0.2004 DoS",
+  "fullname": "auxiliary/dos/scada/beckhoff_twincat",
+  "rank": 300,
+  "disclosure_date": "2011-09-13",
+  "type": "auxiliary",
+  "author": [
+    "Luigi Auriemma",
+    "jfa"
+  ],
+  "description": "The Beckhoff TwinCAT version <= 2.11.0.2004 can be brought down by sending\n        a crafted UDP packet to port 48899 (TCATSysSrv.exe).",
+  "references": [
+    "CVE-2011-3486",
+    "OSVDB-75495",
+    "URL-http://aluigi.altervista.org/adv/twincat_1-adv.txt"
+  ],
+  "rport": 48899,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/scada/beckhoff_twincat.rb",
+  "is_install_path": true,
+  "ref_name": "dos/scada/beckhoff_twincat",
+  "needs_cleanup": false
+}

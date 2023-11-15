@@ -1,0 +1,21 @@
+{
+  "name": "Apple OSX/iOS/Windows Safari Non-HTTPOnly Cookie Theft",
+  "fullname": "auxiliary/gather/apple_safari_ftp_url_cookie_theft",
+  "rank": 300,
+  "disclosure_date": "2015-04-08",
+  "type": "auxiliary",
+  "author": [
+    "Jouko Pynnonen",
+    "joev <joev@metasploit.com>"
+  ],
+  "description": "A vulnerability exists in versions of OSX, iOS, and Windows Safari released\n        before April 8, 2015 that allows the non-HTTPOnly cookies of any\n        domain to be stolen.",
+  "references": [
+    "CVE-2015-1126",
+    "URL-https://seclists.org/fulldisclosure/2015/Apr/30"
+  ],
+  "mod_time": "2021-02-08 14:51:58 +0000",
+  "path": "/modules/auxiliary/gather/apple_safari_ftp_url_cookie_theft.rb",
+  "is_install_path": true,
+  "ref_name": "gather/apple_safari_ftp_url_cookie_theft",
+  "needs_cleanup": false
+}

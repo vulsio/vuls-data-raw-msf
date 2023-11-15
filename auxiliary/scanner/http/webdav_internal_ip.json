@@ -1,0 +1,34 @@
+{
+  "name": "HTTP WebDAV Internal IP Scanner",
+  "fullname": "auxiliary/scanner/http/webdav_internal_ip",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "et <et@metasploit.com>"
+  ],
+  "description": "Detect webservers internal IPs though WebDAV",
+  "references": [
+    "CVE-2002-0422"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2018-07-12 17:34:52 +0000",
+  "path": "/modules/auxiliary/scanner/http/webdav_internal_ip.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/webdav_internal_ip",
+  "needs_cleanup": false
+}

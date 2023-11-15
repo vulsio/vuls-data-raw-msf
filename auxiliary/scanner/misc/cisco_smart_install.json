@@ -1,0 +1,24 @@
+{
+  "name": "Identify Cisco Smart Install endpoints",
+  "fullname": "auxiliary/scanner/misc/cisco_smart_install",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jon Hart <jon_hart@rapid7.com>",
+    "Mumbai"
+  ],
+  "description": "This module attempts to connect to the specified Cisco Smart Install port\n          and determines if it speaks the Smart Install Protocol.  Exposure of SMI\n          to untrusted networks can allow complete compromise of the switch.",
+  "references": [
+    "URL-https://blog.talosintelligence.com/2017/02/cisco-coverage-for-smart-install-client.html",
+    "URL-https://blogs.cisco.com/security/cisco-psirt-mitigating-and-detecting-potential-abuse-of-cisco-smart-install-feature",
+    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170214-smi",
+    "URL-https://github.com/Cisco-Talos/smi_check",
+    "URL-https://github.com/frostbits-security/SIET"
+  ],
+  "rport": 4786,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/misc/cisco_smart_install.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/misc/cisco_smart_install",
+  "needs_cleanup": false
+}

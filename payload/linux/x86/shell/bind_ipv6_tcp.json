@@ -1,0 +1,19 @@
+{
+  "name": "Linux Command Shell, Bind IPv6 TCP Stager (Linux x86)",
+  "fullname": "payload/linux/x86/shell/bind_ipv6_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "skape <mmiller@hick.org>",
+    "kris katterjohn <katterjohn@gmail.com>",
+    "egypt <egypt@metasploit.com>"
+  ],
+  "description": "Spawn a command shell (staged).\n\nListen for an IPv6 connection (Linux x86)",
+  "platform": "Linux",
+  "arch": "x86",
+  "mod_time": "2021-01-04 11:50:07 +0000",
+  "path": "/modules/payloads/stagers/linux/x86/bind_ipv6_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x86/shell/bind_ipv6_tcp",
+  "needs_cleanup": false
+}

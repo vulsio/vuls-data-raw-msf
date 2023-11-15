@@ -1,0 +1,39 @@
+{
+  "name": "JBoss Vulnerability Scanner",
+  "fullname": "auxiliary/scanner/http/jboss_vulnscan",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Tyler Krpata",
+    "Zach Grace <@ztgrace>"
+  ],
+  "description": "This module scans a JBoss instance for a few vulnerabilities.",
+  "references": [
+    "CVE-2008-3273",
+    "CVE-2010-1429",
+    "CVE-2010-0738",
+    "CVE-2010-1428",
+    "CVE-2017-12149"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/http/jboss_vulnscan.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/jboss_vulnscan",
+  "needs_cleanup": false
+}

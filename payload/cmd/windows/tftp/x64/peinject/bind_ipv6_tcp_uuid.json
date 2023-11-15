@@ -1,0 +1,23 @@
+{
+  "name": "TFTP Fetch, Windows x64 IPv6 Bind TCP Stager with UUID Support",
+  "fullname": "payload/cmd/windows/tftp/x64/peinject/bind_ipv6_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brendan Watters",
+    "ege <egebalci@pm.me>",
+    "sf <stephen_fewer@harmonysecurity.com>",
+    "OJ Reeves"
+  ],
+  "description": "Fetch and Execute an x64 payload from a tftp server.\n\nListen for an IPv6 connection with UUID Support (Windows x64)",
+  "references": [
+    "URL-https://github.com/EgeBalci/Amber"
+  ],
+  "platform": "Windows",
+  "arch": "cmd",
+  "mod_time": "2023-03-15 19:19:19 +0000",
+  "path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/windows/tftp/x64/peinject/bind_ipv6_tcp_uuid",
+  "needs_cleanup": false
+}

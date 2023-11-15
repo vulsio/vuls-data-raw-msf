@@ -1,0 +1,25 @@
+{
+  "name": "Fortinet SSH Backdoor Scanner",
+  "fullname": "auxiliary/scanner/ssh/fortinet_backdoor",
+  "rank": 300,
+  "disclosure_date": "2016-01-09",
+  "type": "auxiliary",
+  "author": [
+    "operator8203 <operator8203@runbox.com>",
+    "wvu <wvu@metasploit.com>"
+  ],
+  "description": "This module scans for the Fortinet SSH backdoor.",
+  "references": [
+    "CVE-2016-1909",
+    "EDB-39224",
+    "PACKETSTORM-135225",
+    "URL-https://seclists.org/fulldisclosure/2016/Jan/26",
+    "URL-https://blog.fortinet.com/post/brief-statement-regarding-issues-found-with-fortios"
+  ],
+  "rport": 22,
+  "mod_time": "2022-04-14 17:27:19 +0000",
+  "path": "/modules/auxiliary/scanner/ssh/fortinet_backdoor.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ssh/fortinet_backdoor",
+  "needs_cleanup": false
+}

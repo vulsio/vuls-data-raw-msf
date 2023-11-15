@@ -1,0 +1,18 @@
+{
+  "name": "Linux Mettle x64, Reverse SCTP Stager",
+  "fullname": "payload/linux/x64/meterpreter/reverse_sctp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Brent Cook <bcook@rapid7.com>",
+    "RageLtMan <rageltman@sempervictus>"
+  ],
+  "description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker",
+  "platform": "Linux,Linux",
+  "arch": "x64",
+  "mod_time": "2023-04-27 16:21:34 +0000",
+  "path": "/modules/payloads/stagers/linux/x64/reverse_sctp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/x64/meterpreter/reverse_sctp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Joomla weblinks-categories Unauthenticated SQL Injection Arbitrary File Read",
+  "fullname": "auxiliary/gather/joomla_weblinks_sqli",
+  "rank": 300,
+  "disclosure_date": "2014-03-02",
+  "type": "auxiliary",
+  "author": [
+    "Brandon Perry <bperry.volatile@gmail.com>"
+  ],
+  "description": "Joomla versions 3.2.2 and below are vulnerable to an unauthenticated SQL injection\n      which allows an attacker to access the database or read arbitrary files as the\n      'mysql' user. This module will only work if the mysql user Joomla is using\n      to access the database has the LOAD_FILE permission.",
+  "references": [
+    "EDB-31459",
+    "URL-https://developer.joomla.org/security/578-20140301-core-sql-injection.html"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/joomla_weblinks_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "gather/joomla_weblinks_sqli",
+  "check": true,
+  "needs_cleanup": false
+}

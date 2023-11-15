@@ -1,0 +1,16 @@
+{
+  "name": "SIP Deregister Extension",
+  "fullname": "auxiliary/voip/sip_deregister",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "ChrisJohnRiley"
+  ],
+  "description": "This module will attempt to deregister a SIP user from the provider. It\n        has been tested successfully when the sip provider/server doesn't use REGISTER\n        authentication.",
+  "rport": 5060,
+  "mod_time": "2019-03-05 04:43:37 +0000",
+  "path": "/modules/auxiliary/voip/sip_deregister.rb",
+  "is_install_path": true,
+  "ref_name": "voip/sip_deregister",
+  "needs_cleanup": false
+}

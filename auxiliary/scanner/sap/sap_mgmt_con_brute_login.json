@@ -1,0 +1,36 @@
+{
+  "name": "SAP Management Console Brute Force",
+  "fullname": "auxiliary/scanner/sap/sap_mgmt_con_brute_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley"
+  ],
+  "description": "This module simply attempts to brute force the username and\n        password for the SAP Management Console SOAP Interface. If\n        the SAP_SID value is set it will replace instances of <SAPSID>\n        in any user/pass from any wordlist.",
+  "references": [
+    "URL-https://blog.c22.cc"
+  ],
+  "rport": 50013,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443,
+    50013
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_brute_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/sap/sap_mgmt_con_brute_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

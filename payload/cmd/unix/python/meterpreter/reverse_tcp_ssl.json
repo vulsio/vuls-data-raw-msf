@@ -1,0 +1,19 @@
+{
+  "name": "Python Exec, Python Meterpreter, Python Reverse TCP SSL Stager",
+  "fullname": "payload/cmd/unix/python/meterpreter/reverse_tcp_ssl",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Spencer McIntyre",
+    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
+    "RageLtMan"
+  ],
+  "description": "Execute a Python payload from a command.\n\nRun a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nReverse Python connect back stager using SSL",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/adapters/cmd/unix/python.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/python/meterpreter/reverse_tcp_ssl",
+  "needs_cleanup": false
+}

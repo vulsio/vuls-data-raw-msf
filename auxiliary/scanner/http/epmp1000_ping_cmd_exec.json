@@ -1,0 +1,36 @@
+{
+  "name": "Cambium ePMP 1000 'ping' Command Injection (up to v2.5)",
+  "fullname": "auxiliary/scanner/http/epmp1000_ping_cmd_exec",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Karn Ganeshen <KarnGaneshen@gmail.com>"
+  ],
+  "description": "This module exploits an OS Command Injection vulnerability in Cambium\n          ePMP 1000 (<v2.5) device management portal. It requires any one of the\n          following login credentials - admin/admin, installer/installer, home/home - to\n          execute arbitrary system commands.",
+  "references": [
+    "URL-http://ipositivesecurity.com/2015/11/28/cambium-epmp-1000-multiple-vulnerabilities/",
+    "URL-https://support.cambiumnetworks.com/file/476262a0256fdd8be0e595e51f5112e0f9700f83"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2019-08-15 18:10:44 +0000",
+  "path": "/modules/auxiliary/scanner/http/epmp1000_ping_cmd_exec.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/epmp1000_ping_cmd_exec",
+  "post_auth": true,
+  "needs_cleanup": false
+}

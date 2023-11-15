@@ -1,0 +1,28 @@
+{
+  "name": "MimiPenguin",
+  "fullname": "post/linux/gather/mimipenguin",
+  "rank": 300,
+  "disclosure_date": "2018-05-23",
+  "type": "post",
+  "author": [
+    "huntergregal",
+    "bcoles <bcoles@gmail.com>",
+    "Shelby Pace"
+  ],
+  "description": "This searches process memory for needles that indicate\n          where cleartext passwords may be located. If any needles\n          are discovered in the target process memory, collected\n          strings in adjacent memory will be hashed and compared\n          with password hashes found in `/etc/shadow`.",
+  "references": [
+    "URL-https://github.com/huntergregal/mimipenguin",
+    "URL-https://bugs.launchpad.net/ubuntu/+source/gnome-keyring/+bug/1772919",
+    "URL-https://bugs.launchpad.net/ubuntu/+source/lightdm/+bug/1717490",
+    "CVE-2018-20781"
+  ],
+  "platform": "Linux",
+  "arch": "x86, x64, aarch64",
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/post/linux/gather/mimipenguin.rb",
+  "is_install_path": true,
+  "ref_name": "linux/gather/mimipenguin",
+  "session_types": [
+    "meterpreter"
+  ]
+}

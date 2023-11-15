@@ -1,0 +1,32 @@
+{
+  "name": "PCMan FTP Server 2.0.7 Directory Traversal Information Disclosure",
+  "fullname": "auxiliary/scanner/ftp/pcman_ftp_traversal",
+  "rank": 300,
+  "disclosure_date": "2015-09-28",
+  "type": "auxiliary",
+  "author": [
+    "Jay Turla",
+    "James Fitts",
+    "Brad Wolfe <brad.wolfe@gmail.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability found in PCMan FTP Server 2.0.7.\n        This vulnerability allows an attacker to download arbitrary files from the server by crafting\n        a RETR command that includes file system traversal strings such as '..//'",
+  "references": [
+    "EDB-38340",
+    "CVE-2015-7601"
+  ],
+  "platform": "Windows",
+  "rport": 21,
+  "autofilter_ports": [
+    21,
+    2121
+  ],
+  "autofilter_services": [
+    "ftp"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/ftp/pcman_ftp_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/ftp/pcman_ftp_traversal",
+  "check": true,
+  "needs_cleanup": false
+}

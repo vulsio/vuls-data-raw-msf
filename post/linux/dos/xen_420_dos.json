@@ -1,0 +1,23 @@
+{
+  "name": "Linux DoS Xen 4.2.0 2012-5525",
+  "fullname": "post/linux/dos/xen_420_dos",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Christoph Sendner <christoph.sendner@stud-mail.uni-wuerzburg.de>",
+    "Aleksandar Milenkoski <aleksandar.milenkoski@uni-wuerzburg.de>"
+  ],
+  "description": "This module causes a hypervisor crash in Xen 4.2.0 when invoked from a\n          paravirtualized VM, including from dom0.  Successfully tested on Debian 7\n          3.2.0-4-amd64 with Xen 4.2.0.",
+  "references": [
+    "CVE-2012-5525"
+  ],
+  "platform": "Linux",
+  "arch": "x64",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/linux/dos/xen_420_dos.rb",
+  "is_install_path": true,
+  "ref_name": "linux/dos/xen_420_dos",
+  "session_types": [
+    "shell"
+  ]
+}

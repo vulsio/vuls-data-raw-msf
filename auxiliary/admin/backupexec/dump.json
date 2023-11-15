@@ -1,0 +1,23 @@
+{
+  "name": "Veritas Backup Exec Windows Remote File Access",
+  "fullname": "auxiliary/admin/backupexec/dump",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>",
+    "Unknown"
+  ],
+  "description": "This module abuses a logic flaw in the Backup Exec Windows Agent to download\n        arbitrary files from the system. This flaw was found by someone who wishes to\n        remain anonymous and affects all known versions of the Backup Exec Windows Agent. The\n        output file is in 'MTF' format, which can be extracted by the 'NTKBUp' program\n        listed in the references section. To transfer an entire directory, specify a\n        path that includes a trailing backslash.",
+  "references": [
+    "CVE-2005-2611",
+    "OSVDB-18695",
+    "BID-14551",
+    "URL-https://web.archive.org/web/20120227144337/http://www.fpns.net/willy/msbksrc.lzh"
+  ],
+  "rport": 10000,
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/admin/backupexec/dump.rb",
+  "is_install_path": true,
+  "ref_name": "admin/backupexec/dump",
+  "needs_cleanup": false
+}

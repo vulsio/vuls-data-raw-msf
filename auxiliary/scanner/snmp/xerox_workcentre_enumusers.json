@@ -1,0 +1,16 @@
+{
+  "name": "Xerox WorkCentre User Enumeration (SNMP)",
+  "fullname": "auxiliary/scanner/snmp/xerox_workcentre_enumusers",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "pello <fropert@packetfault.org>"
+  ],
+  "description": "This module will do user enumeration based on the Xerox WorkCentre present on the network.\n          SNMP is used to extract the usernames.",
+  "rport": 161,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/snmp/xerox_workcentre_enumusers.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/snmp/xerox_workcentre_enumusers",
+  "needs_cleanup": false
+}

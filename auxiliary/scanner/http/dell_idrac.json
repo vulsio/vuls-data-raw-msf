@@ -1,0 +1,36 @@
+{
+  "name": "Dell iDRAC Default Login",
+  "fullname": "auxiliary/scanner/http/dell_idrac",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Cristiano Maruti <cmaruti@gmail.com>",
+    "h00die"
+  ],
+  "description": "This module attempts to login to a iDRAC webserver instance using\n        default username and password.  Tested against Dell Remote Access\n        Controller 6 - Express version 1.50 and 1.85,\n        Controller 7 - Enterprise 2.63.60.62\n        Controller 8 - Enterprise 2.83.05\n        Controller 9 - Enterprise 4.40.00.00",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-09-23 17:57:40 +0000",
+  "path": "/modules/auxiliary/scanner/http/dell_idrac.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/dell_idrac",
+  "post_auth": true,
+  "needs_cleanup": false
+}

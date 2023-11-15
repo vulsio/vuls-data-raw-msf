@@ -1,0 +1,17 @@
+{
+  "name": "Python Pingback, Reverse TCP (via python)",
+  "fullname": "payload/python/pingback_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "asoto-r7"
+  ],
+  "description": "Connects back to the attacker, sends a UUID, then terminates",
+  "platform": "Python",
+  "arch": "python",
+  "mod_time": "2023-03-21 16:49:25 +0000",
+  "path": "/modules/payloads/singles/python/pingback_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "python/pingback_reverse_tcp",
+  "needs_cleanup": false
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Abandoned Cart for WooCommerce SQLi Scanner",
+  "fullname": "auxiliary/scanner/http/wp_abandoned_cart_sqli",
+  "rank": 300,
+  "disclosure_date": "2020-11-05",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "WPDeeply"
+  ],
+  "description": "Abandoned Cart, a plugin for WordPress which extends the WooCommerce plugin,\n          prior to 5.8.2 is affected by an unauthenticated SQL injection via the\n          billing_first_name parameter of the save_data AJAX call.  A valid\n          wp_woocommerce_session cookie is required, which has at least one item in the\n          cart.",
+  "references": [
+    "WPVDB-10461",
+    "URL-https://wpdeeply.com/woocommerce-abandoned-cart-before-5-8-2-sql-injection/",
+    "URL-https://plugins.trac.wordpress.org/changeset/2413885"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_abandoned_cart_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_abandoned_cart_sqli",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

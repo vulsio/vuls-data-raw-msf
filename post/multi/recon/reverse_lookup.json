@@ -1,0 +1,29 @@
+{
+  "name": "Reverse Lookup IP Addresses",
+  "fullname": "post/multi/recon/reverse_lookup",
+  "aliases": [
+    "post/windows/gather/reverse_lookup",
+    "post/windows/recon/resolve_ip"
+  ],
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "mubix <mubix@hak5.org>"
+  ],
+  "description": "This module reverse resolves an IP address or IP address range to hostnames.",
+  "platform": "BSD,Linux,OSX,Solaris,Unix,Windows",
+  "mod_time": "2022-11-05 13:18:35 +0000",
+  "path": "/modules/post/multi/recon/reverse_lookup.rb",
+  "is_install_path": true,
+  "ref_name": "multi/recon/reverse_lookup",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "powershell",
+    "shell"
+  ]
+}

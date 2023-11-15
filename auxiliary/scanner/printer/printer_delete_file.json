@@ -1,0 +1,23 @@
+{
+  "name": "Printer File Deletion Scanner",
+  "fullname": "auxiliary/scanner/printer/printer_delete_file",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "wvu <wvu@metasploit.com>",
+    "sinn3r <sinn3r@metasploit.com>",
+    "MC <mc@metasploit.com>",
+    "Myo Soe",
+    "Matteo Cantoni <goony@nothink.org>"
+  ],
+  "description": "This module deletes a file on a set of printers using the\n        Printer Job Language (PJL) protocol.",
+  "references": [
+    "URL-https://en.wikipedia.org/wiki/Printer_Job_Language"
+  ],
+  "rport": 9100,
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/printer/printer_delete_file.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/printer/printer_delete_file",
+  "needs_cleanup": false
+}

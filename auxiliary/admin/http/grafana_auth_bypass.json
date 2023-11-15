@@ -1,0 +1,22 @@
+{
+  "name": "Grafana 2.0 through 5.2.2 authentication bypass for LDAP and OAuth",
+  "fullname": "auxiliary/admin/http/grafana_auth_bypass",
+  "rank": 300,
+  "disclosure_date": "2019-08-14",
+  "type": "auxiliary",
+  "author": [
+    "Rene Riedling",
+    "Sebastian Solnica"
+  ],
+  "description": "This module generates a remember me cookie for a valid username. Through unpropper seeding \n        while userdate are requested from LDAP or OAuth it's possible to craft a valid remember me cookie. \n        This cookie can be used for bypass authentication for everyone knowing a valid username.",
+  "references": [
+    "CVE-2018-15727",
+    "URL-https://grafana.com/blog/2018/08/29/grafana-5.2.3-and-4.6.4-released-with-important-security-fix/"
+  ],
+  "rport": 3000,
+  "mod_time": "2022-09-29 01:28:56 +0000",
+  "path": "/modules/auxiliary/admin/http/grafana_auth_bypass.py",
+  "is_install_path": true,
+  "ref_name": "admin/http/grafana_auth_bypass",
+  "needs_cleanup": false
+}

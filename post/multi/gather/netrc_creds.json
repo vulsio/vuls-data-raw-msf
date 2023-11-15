@@ -1,0 +1,18 @@
+{
+  "name": "UNIX Gather .netrc Credentials",
+  "fullname": "post/multi/gather/netrc_creds",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Jon Hart <jhart@spoofed.org>"
+  ],
+  "description": "Post Module to obtain credentials saved for FTP and other services in .netrc",
+  "platform": "BSD,Linux,OSX,Unix",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/multi/gather/netrc_creds.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/netrc_creds",
+  "session_types": [
+    "shell"
+  ]
+}

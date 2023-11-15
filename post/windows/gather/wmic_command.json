@@ -1,0 +1,23 @@
+{
+  "name": "Windows Gather Run WMIC Commands",
+  "fullname": "post/windows/gather/wmic_command",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Carlos Perez <carlos_perez@darkoperator.com>"
+  ],
+  "description": "This module executes WMIC commands on the specified host.",
+  "platform": "Windows",
+  "mod_time": "2022-09-23 00:25:13 +0000",
+  "path": "/modules/post/windows/gather/wmic_command.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/wmic_command",
+  "notes": {
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

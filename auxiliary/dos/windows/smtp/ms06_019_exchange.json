@@ -1,0 +1,34 @@
+{
+  "name": "MS06-019 Exchange MODPROP Heap Overflow",
+  "fullname": "auxiliary/dos/windows/smtp/ms06_019_exchange",
+  "rank": 300,
+  "disclosure_date": "2004-11-12",
+  "type": "auxiliary",
+  "author": [
+    "pusscat <pusscat@metasploit.com>"
+  ],
+  "description": "This module triggers a heap overflow vulnerability in MS\n        Exchange that occurs when multiple malformed MODPROP values\n        occur in a VCAL request.",
+  "references": [
+    "BID-17908",
+    "CVE-2006-0027",
+    "MSB-MS06-019"
+  ],
+  "rport": 25,
+  "autofilter_ports": [
+    25,
+    465,
+    587,
+    2525,
+    25025,
+    25000
+  ],
+  "autofilter_services": [
+    "smtp",
+    "smtps"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/windows/smtp/ms06_019_exchange.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/smtp/ms06_019_exchange",
+  "needs_cleanup": false
+}

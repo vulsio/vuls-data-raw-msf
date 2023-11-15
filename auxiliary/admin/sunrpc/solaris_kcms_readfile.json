@@ -1,0 +1,24 @@
+{
+  "name": "Solaris KCMS + TTDB Arbitrary File Read",
+  "fullname": "auxiliary/admin/sunrpc/solaris_kcms_readfile",
+  "rank": 300,
+  "disclosure_date": "2003-01-22",
+  "type": "auxiliary",
+  "author": [
+    "vlad902 <vlad902@gmail.com>",
+    "jduck <jduck@metasploit.com>"
+  ],
+  "description": "This module targets a directory traversal vulnerability in the\n        kcms_server component from the Kodak Color Management System. By\n        utilizing the ToolTalk Database Server\\'s TT_ISBUILD procedure, an\n        attacker can bypass existing directory traversal validation and\n        read arbitrary files.\n\n        Vulnerable systems include Solaris 2.5 - 9 SPARC and x86. Both\n        kcms_server and rpc.ttdbserverd must be running on the target\n        host.",
+  "references": [
+    "CVE-2003-0027",
+    "OSVDB-8201",
+    "BID-6665",
+    "URL-http://marc.info/?l=bugtraq&m=104326556329850&w=2"
+  ],
+  "rport": 111,
+  "mod_time": "2019-10-05 13:50:30 +0000",
+  "path": "/modules/auxiliary/admin/sunrpc/solaris_kcms_readfile.rb",
+  "is_install_path": true,
+  "ref_name": "admin/sunrpc/solaris_kcms_readfile",
+  "needs_cleanup": false
+}

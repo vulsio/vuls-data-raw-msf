@@ -1,0 +1,23 @@
+{
+  "name": "SMB User Enumeration (SAM EnumUsers)",
+  "fullname": "auxiliary/scanner/smb/smb_enumusers",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Determine what local users exist via the SAM RPC service",
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2020-02-13 11:56:12 +0000",
+  "path": "/modules/auxiliary/scanner/smb/smb_enumusers.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/smb/smb_enumusers",
+  "needs_cleanup": false
+}

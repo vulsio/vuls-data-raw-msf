@@ -1,0 +1,17 @@
+{
+  "name": "Unix Command, Interact with Established Connection",
+  "fullname": "payload/cmd/unix/interact",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "Interacts with a shell on an established socket connection",
+  "platform": "Unix",
+  "arch": "cmd",
+  "mod_time": "2021-01-05 14:59:46 +0000",
+  "path": "/modules/payloads/singles/cmd/unix/interact.rb",
+  "is_install_path": true,
+  "ref_name": "cmd/unix/interact",
+  "needs_cleanup": false
+}

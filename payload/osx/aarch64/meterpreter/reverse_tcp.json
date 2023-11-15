@@ -1,0 +1,24 @@
+{
+  "name": "OSX Meterpreter, Reverse TCP Stager",
+  "fullname": "payload/osx/aarch64/meterpreter/reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "parchedmind",
+    "nologic",
+    "timwr",
+    "usiegl00"
+  ],
+  "description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker",
+  "references": [
+    "URL-https://github.com/CylanceVulnResearch/osx_runbin",
+    "URL-https://github.com/nologic/shellcc"
+  ],
+  "platform": "OSX",
+  "arch": "aarch64",
+  "mod_time": "2023-07-31 20:30:30 +0000",
+  "path": "/modules/payloads/stagers/osx/aarch64/reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "osx/aarch64/meterpreter/reverse_tcp",
+  "needs_cleanup": false
+}

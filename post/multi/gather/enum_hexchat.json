@@ -1,0 +1,34 @@
+{
+  "name": "Linux Gather HexChat/XChat Enumeration",
+  "fullname": "post/multi/gather/enum_hexchat",
+  "aliases": [
+    "post/linux/gather/enum_xchat"
+  ],
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "sinn3r <sinn3r@metasploit.com>",
+    "h00die"
+  ],
+  "description": "This module will collect HexChat and XChat's config files and chat logs from the victim's\n          machine.  There are three actions you may choose: CONFIGS, CHATS, and ALL.  The\n          CONFIGS option can be used to collect information such as channel settings,\n          channel/server passwords, etc.  The CHATS option will simply download all the\n          .log files.",
+  "references": [
+    "URL-https://hexchat.readthedocs.io/en/latest/settings.html"
+  ],
+  "platform": "Linux",
+  "mod_time": "2023-02-03 18:12:53 +0000",
+  "path": "/modules/post/multi/gather/enum_hexchat.rb",
+  "is_install_path": true,
+  "ref_name": "multi/gather/enum_hexchat",
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "shell",
+    "meterpreter"
+  ]
+}

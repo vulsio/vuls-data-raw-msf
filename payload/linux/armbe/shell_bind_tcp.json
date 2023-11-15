@@ -1,0 +1,20 @@
+{
+  "name": "Linux ARM Big Endian Command Shell, Bind TCP Inline",
+  "fullname": "payload/linux/armbe/shell_bind_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "Balazs Bucsay @xoreipeip <balazs.bucsay[-at-]rycon[-dot-]hu>"
+  ],
+  "description": "Listen for a connection and spawn a command shell",
+  "references": [
+    "URL-https://github.com/earthquake/shellcodes/blob/master/armeb_linux_ipv4_bind_tcp.s"
+  ],
+  "platform": "Linux",
+  "arch": "armbe",
+  "mod_time": "2023-07-27 16:02:37 +0000",
+  "path": "/modules/payloads/singles/linux/armbe/shell_bind_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "linux/armbe/shell_bind_tcp",
+  "needs_cleanup": false
+}

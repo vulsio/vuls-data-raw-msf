@@ -1,0 +1,37 @@
+{
+  "name": "TYPO3 sa-2010-020 Remote File Disclosure",
+  "fullname": "auxiliary/admin/http/typo3_sa_2010_020",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Chris John Riley",
+    "Gregor Kopf"
+  ],
+  "description": "This module exploits a flaw in the way the TYPO3 jumpurl feature matches hashes.\n        Due to this flaw a Remote File Disclosure is possible by matching the juhash of 0.\n        This flaw can be used to read any file that the web server user account has access to view.",
+  "references": [
+    "CVE-2010-3714",
+    "URL-http://typo3.org/teams/security/security-bulletins/typo3-sa-2010-020",
+    "URL-http://gregorkopf.de/slides_berlinsides_2010.pdf"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-02-08 14:30:08 +0000",
+  "path": "/modules/auxiliary/admin/http/typo3_sa_2010_020.rb",
+  "is_install_path": true,
+  "ref_name": "admin/http/typo3_sa_2010_020",
+  "needs_cleanup": false
+}

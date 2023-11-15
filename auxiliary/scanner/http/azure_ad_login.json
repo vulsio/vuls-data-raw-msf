@@ -1,0 +1,37 @@
+{
+  "name": "Microsoft Azure Active Directory Login Enumeration",
+  "fullname": "auxiliary/scanner/http/azure_ad_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Matthew Dunn - k0pak4"
+  ],
+  "description": "This module enumerates valid usernames and passwords against a\n        Microsoft Azure Active Directory domain by utilizing a flaw in\n        how SSO authenticates.",
+  "references": [
+    "URL-https://raxis.com/blog/metasploit-azure-ad-login",
+    "URL-https://arstechnica.com/information-technology/2021/09/new-azure-active-directory-password-brute-forcing-flaw-has-no-fix/",
+    "URL-https://github.com/treebuilder/aad-sso-enum-brute-spray"
+  ],
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-10-05 13:19:36 +0000",
+  "path": "/modules/auxiliary/scanner/http/azure_ad_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/azure_ad_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Cisco SSL VPN Bruteforce Login Utility",
+  "fullname": "auxiliary/scanner/http/cisco_ssl_vpn",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Jonathan Claudius <jclaudius@trustwave.com>"
+  ],
+  "description": "This module scans for Cisco SSL VPN web login portals and\n        performs login brute force to identify valid credentials.",
+  "rport": 443,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2021-01-28 10:35:25 +0000",
+  "path": "/modules/auxiliary/scanner/http/cisco_ssl_vpn.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/cisco_ssl_vpn",
+  "post_auth": true,
+  "needs_cleanup": false
+}

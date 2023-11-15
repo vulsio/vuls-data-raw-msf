@@ -1,0 +1,22 @@
+{
+  "name": "Oracle DB SQL Injection via SYS.LT.REMOVEWORKSPACE",
+  "fullname": "auxiliary/sqli/oracle/lt_removeworkspace",
+  "rank": 300,
+  "disclosure_date": "2008-10-13",
+  "type": "auxiliary",
+  "author": [
+    "Sh2kerr <research[ad]dsecrg.com>"
+  ],
+  "description": "This module exploits a sql injection flaw in the REMOVEWORKSPACE\n        procedure of the PL/SQL package SYS.LT. Any user with execute\n        privilege on the vulnerable package can exploit this vulnerability.",
+  "references": [
+    "CVE-2008-3984",
+    "OSVDB-49326"
+  ],
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/sqli/oracle/lt_removeworkspace.rb",
+  "is_install_path": true,
+  "ref_name": "sqli/oracle/lt_removeworkspace",
+  "post_auth": true,
+  "needs_cleanup": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Endpoint Mapper Service Discovery",
+  "fullname": "auxiliary/scanner/dcerpc/endpoint_mapper",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module can be used to obtain information from the\n        Endpoint Mapper service.",
+  "rport": 135,
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/scanner/dcerpc/endpoint_mapper.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/dcerpc/endpoint_mapper",
+  "needs_cleanup": false
+}

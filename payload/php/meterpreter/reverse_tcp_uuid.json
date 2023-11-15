@@ -1,0 +1,18 @@
+{
+  "name": "PHP Meterpreter, PHP Reverse TCP Stager",
+  "fullname": "payload/php/meterpreter/reverse_tcp_uuid",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "egypt <egypt@metasploit.com>",
+    "OJ Reeves"
+  ],
+  "description": "Run a meterpreter server in PHP.\n\nReverse PHP connect back stager with checks for disabled functions",
+  "platform": "PHP",
+  "arch": "php",
+  "mod_time": "2020-09-22 02:56:51 +0000",
+  "path": "/modules/payloads/stagers/php/reverse_tcp_uuid.rb",
+  "is_install_path": true,
+  "ref_name": "php/meterpreter/reverse_tcp_uuid",
+  "needs_cleanup": false
+}

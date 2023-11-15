@@ -1,0 +1,30 @@
+{
+  "name": "Microsoft SRV.SYS Pipe Transaction No Null",
+  "fullname": "auxiliary/dos/windows/smb/ms06_063_trans",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "hdm <x@hdm.io>"
+  ],
+  "description": "This module exploits a NULL pointer dereference flaw in the\n      SRV.SYS driver of the Windows operating system. This bug was\n      independently discovered by CORE Security and ISS.",
+  "references": [
+    "OSVDB-27644",
+    "MSB-MS06-063",
+    "CVE-2006-3942",
+    "BID-19215"
+  ],
+  "rport": 445,
+  "autofilter_ports": [
+    139,
+    445
+  ],
+  "autofilter_services": [
+    "netbios-ssn",
+    "microsoft-ds"
+  ],
+  "mod_time": "2020-05-13 16:34:47 +0000",
+  "path": "/modules/auxiliary/dos/windows/smb/ms06_063_trans.rb",
+  "is_install_path": true,
+  "ref_name": "dos/windows/smb/ms06_063_trans",
+  "needs_cleanup": false
+}

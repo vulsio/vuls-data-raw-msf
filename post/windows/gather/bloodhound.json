@@ -1,0 +1,28 @@
+{
+  "name": "BloodHound Ingestor",
+  "fullname": "post/windows/gather/bloodhound",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "h4ng3r <h4ng3r@computerpirate.me>",
+    "h00die"
+  ],
+  "description": "This module will execute the BloodHound C# Ingestor (aka SharpHound) to gather sessions, local admin, domain trusts and more.\n          With this information BloodHound will easily identify highly complex attack paths that would otherwise be impossible to quickly\n          identify within an Active Directory environment.",
+  "platform": "Windows",
+  "arch": "x86, x64",
+  "mod_time": "2022-11-17 16:49:11 +0000",
+  "path": "/modules/post/windows/gather/bloodhound.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/bloodhound",
+  "notes": {
+    "AKA": [
+      "sharphound"
+    ],
+    "SideEffects": [
+      "artifacts-on-disk"
+    ]
+  },
+  "session_types": [
+    "meterpreter"
+  ]
+}

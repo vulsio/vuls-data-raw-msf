@@ -1,0 +1,38 @@
+{
+  "name": "TP-Link Wireless Lite N Access Point Directory Traversal Vulnerability",
+  "fullname": "auxiliary/scanner/http/tplink_traversal_noauth",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Michael Messner <devnull@s3cur1ty.de>"
+  ],
+  "description": "This module tests whether a directory traversal vulnerability is present in\n        versions of TP-Link Access Point 3.12.16 Build 120228 Rel.37317n.",
+  "references": [
+    "CVE-2012-5687",
+    "OSVDB-86881",
+    "BID-57969",
+    "EDB-24504",
+    "URL-http://www.s3cur1ty.de/m1adv2013-011"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-03-10 18:03:35 +0000",
+  "path": "/modules/auxiliary/scanner/http/tplink_traversal_noauth.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/tplink_traversal_noauth",
+  "needs_cleanup": false
+}

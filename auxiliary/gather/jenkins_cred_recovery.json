@@ -1,0 +1,37 @@
+{
+  "name": "Jenkins Domain Credential Recovery",
+  "fullname": "auxiliary/gather/jenkins_cred_recovery",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Th3R3p0",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module will collect Jenkins domain credentials, and uses\n        the script console to decrypt each password if anonymous permission\n        is allowed.\n\n        It has been tested against Jenkins version 1.590, 1.633, and 1.638.",
+  "references": [
+    "EDB-38664",
+    "URL-https://www.th3r3p0.com/vulns/jenkins/jenkinsVuln.html"
+  ],
+  "rport": 8080,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/gather/jenkins_cred_recovery.rb",
+  "is_install_path": true,
+  "ref_name": "gather/jenkins_cred_recovery",
+  "check": true,
+  "needs_cleanup": false
+}

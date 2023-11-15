@@ -1,0 +1,46 @@
+{
+  "name": "Wordpress Paid Membership Pro code Unauthenticated SQLi",
+  "fullname": "auxiliary/scanner/http/wp_paid_membership_pro_code_sqli",
+  "rank": 300,
+  "disclosure_date": "2023-01-12",
+  "type": "auxiliary",
+  "author": [
+    "h00die",
+    "Joshua Martinelle"
+  ],
+  "description": "Paid Membership Pro, a WordPress plugin,\n          prior to 2.9.8 is affected by an unauthenticated SQL injection via the\n          `code` parameter.\n\n          Remote attackers can exploit this vulnerability to dump usernames and password hashes\n          from the `wp_users` table of the affected WordPress installation. These password hashes\n          can then be cracked offline using tools such as Hashcat to obtain valid login\n          credentials for the affected WordPress installation.",
+  "references": [
+    "CVE-2023-23488",
+    "URL-https://www.tenable.com/security/research/tra-2023-2"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2023-04-12 13:09:34 +0000",
+  "path": "/modules/auxiliary/scanner/http/wp_paid_membership_pro_code_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wp_paid_membership_pro_code_sqli",
+  "check": true,
+  "notes": {
+    "SideEffects": [
+      "ioc-in-logs"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "needs_cleanup": false
+}

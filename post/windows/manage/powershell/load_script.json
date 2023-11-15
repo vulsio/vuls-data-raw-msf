@@ -1,0 +1,19 @@
+{
+  "name": "Load Scripts Into PowerShell Session",
+  "fullname": "post/windows/manage/powershell/load_script",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Ben Turner benpturner <Ben Turner benpturner@yahoo.com>",
+    "Dave Hardy davehardy20 <Dave Hardy davehardy20@gmail.com>"
+  ],
+  "description": "This module will download and execute one or more PowerShell scripts\n          over a present powershell session.\n          Setting VERBOSE to true will show the stager results.",
+  "platform": "Windows",
+  "mod_time": "2023-02-08 13:47:34 +0000",
+  "path": "/modules/post/windows/manage/powershell/load_script.rb",
+  "is_install_path": true,
+  "ref_name": "windows/manage/powershell/load_script",
+  "session_types": [
+    "powershell"
+  ]
+}

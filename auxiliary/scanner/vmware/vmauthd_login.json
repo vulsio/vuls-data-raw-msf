@@ -1,0 +1,20 @@
+{
+  "name": "VMWare Authentication Daemon Login Scanner",
+  "fullname": "auxiliary/scanner/vmware/vmauthd_login",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module will test vmauthd logins on a range of machines and\n                report successful logins.",
+  "references": [
+    "CVE-1999-0502"
+  ],
+  "rport": 902,
+  "mod_time": "2021-08-31 17:10:07 +0000",
+  "path": "/modules/auxiliary/scanner/vmware/vmauthd_login.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/vmware/vmauthd_login",
+  "post_auth": true,
+  "needs_cleanup": false
+}

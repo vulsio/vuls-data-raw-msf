@@ -1,0 +1,41 @@
+{
+  "name": "ES File Explorer Open Port",
+  "fullname": "auxiliary/scanner/http/es_file_explorer_open_port",
+  "rank": 300,
+  "disclosure_date": "2019-01-16",
+  "type": "auxiliary",
+  "author": [
+    "小荷才露尖尖角",
+    "moonbocal",
+    "fs0c131y",
+    "h00die"
+  ],
+  "description": "This module connects to ES File Explorer's HTTP server to run\n        certain commands. The HTTP server is started on app launch, and is available\n        as long as the app is open. Version 4.1.9.7.4 and below are reported vulnerable\n        This module has been tested against 4.1.9.5.1.",
+  "references": [
+    "CVE-2019-6447",
+    "URL-https://www.ms509.com/2016/03/01/es-explorer-vul/",
+    "URL-https://github.com/fs0c131y/ESFileExplorerOpenPortVuln",
+    "URL-https://twitter.com/fs0c131y/status/1085460755313508352"
+  ],
+  "rport": 59777,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-05-12 22:15:21 +0000",
+  "path": "/modules/auxiliary/scanner/http/es_file_explorer_open_port.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/es_file_explorer_open_port",
+  "needs_cleanup": false
+}

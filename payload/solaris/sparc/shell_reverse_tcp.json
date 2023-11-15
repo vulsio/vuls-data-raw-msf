@@ -1,0 +1,17 @@
+{
+  "name": "Solaris Command Shell, Reverse TCP Inline",
+  "fullname": "payload/solaris/sparc/shell_reverse_tcp",
+  "rank": 300,
+  "type": "payload",
+  "author": [
+    "vlad902 <vlad902@gmail.com>"
+  ],
+  "description": "Connect back to attacker and spawn a command shell",
+  "platform": "Solaris",
+  "arch": "sparc",
+  "mod_time": "2022-11-04 00:33:03 +0000",
+  "path": "/modules/payloads/singles/solaris/sparc/shell_reverse_tcp.rb",
+  "is_install_path": true,
+  "ref_name": "solaris/sparc/shell_reverse_tcp",
+  "needs_cleanup": false
+}

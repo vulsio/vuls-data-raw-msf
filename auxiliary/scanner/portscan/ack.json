@@ -1,0 +1,15 @@
+{
+  "name": "TCP ACK Firewall Scanner",
+  "fullname": "auxiliary/scanner/portscan/ack",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "kris katterjohn <katterjohn@gmail.com>"
+  ],
+  "description": "Map out firewall rulesets with a raw ACK scan.  Any\n        unfiltered ports found means a stateful firewall is\n        not in place for them.",
+  "mod_time": "2017-07-24 06:26:21 +0000",
+  "path": "/modules/auxiliary/scanner/portscan/ack.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/portscan/ack",
+  "needs_cleanup": false
+}

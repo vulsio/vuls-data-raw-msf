@@ -1,0 +1,38 @@
+{
+  "name": "WordPress CP Multi-View Calendar Unauthenticated SQL Injection Scanner",
+  "fullname": "auxiliary/scanner/http/wordpress_cp_calendar_sqli",
+  "rank": 300,
+  "disclosure_date": "2015-03-03",
+  "type": "auxiliary",
+  "author": [
+    "Joaquin Ramirez Martinez",
+    "bperry"
+  ],
+  "description": "This module will scan given instances for an unauthenticated SQL injection\n        within the CP Multi-View Calendar plugin v1.1.4 for Wordpress.",
+  "references": [
+    "CVE-2014-8586",
+    "EDB-36243",
+    "WPVDB-7910"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/wordpress_cp_calendar_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/wordpress_cp_calendar_sqli",
+  "needs_cleanup": false
+}

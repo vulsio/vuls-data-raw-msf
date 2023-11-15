@@ -1,0 +1,19 @@
+{
+  "name": "Unitronics PCOM remote START/STOP/RESET command",
+  "fullname": "auxiliary/admin/scada/pcom_command",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Luis Rosa <lmrosa@dei.uc.pt>"
+  ],
+  "description": "Unitronics Vision PLCs allow remote administrative functions to control\n        the PLC using authenticated PCOM commands.\n\n        This module supports START, STOP and RESET operations.",
+  "references": [
+    "URL-https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf"
+  ],
+  "rport": 20256,
+  "mod_time": "2021-01-29 16:19:13 +0000",
+  "path": "/modules/auxiliary/admin/scada/pcom_command.rb",
+  "is_install_path": true,
+  "ref_name": "admin/scada/pcom_command",
+  "needs_cleanup": false
+}

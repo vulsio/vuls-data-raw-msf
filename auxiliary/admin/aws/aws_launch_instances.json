@@ -1,0 +1,20 @@
+{
+  "name": "Launches Hosts in AWS",
+  "fullname": "auxiliary/admin/aws/aws_launch_instances",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "Javier Godinez <godinezj@gmail.com>"
+  ],
+  "description": "This module will attempt to launch an AWS instances (hosts) in EC2.",
+  "references": [
+    "URL-https://drive.google.com/open?id=0B2Ka7F_6TetSNFdfbkI1cnJHUTQ",
+    "URL-https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/4721/IDY-W10-DevSecOps-on-the-Offense-Automating-Amazon-Web-Services-Account-Takeover.pdf"
+  ],
+  "rport": 443,
+  "mod_time": "2021-11-22 14:11:03 +0000",
+  "path": "/modules/auxiliary/admin/aws/aws_launch_instances.rb",
+  "is_install_path": true,
+  "ref_name": "admin/aws/aws_launch_instances",
+  "needs_cleanup": false
+}

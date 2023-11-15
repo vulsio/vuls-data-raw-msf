@@ -1,0 +1,39 @@
+{
+  "name": "Simple Web Server 2.3-RC1 Directory Traversal",
+  "fullname": "auxiliary/scanner/http/simple_webserver_traversal",
+  "rank": 300,
+  "disclosure_date": "2013-01-03",
+  "type": "auxiliary",
+  "author": [
+    "CwG GeNiuS",
+    "sinn3r <sinn3r@metasploit.com>"
+  ],
+  "description": "This module exploits a directory traversal vulnerability found in\n        Simple Web Server 2.3-RC1.",
+  "references": [
+    "CVE-2002-1864",
+    "OSVDB-88877",
+    "EDB-23886",
+    "URL-https://seclists.org/bugtraq/2013/Jan/12"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/http/simple_webserver_traversal.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/http/simple_webserver_traversal",
+  "needs_cleanup": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Microsoft SQL Server SQLi SUSER_SNAME Windows Domain Account Enumeration",
+  "fullname": "auxiliary/admin/mssql/mssql_enum_domain_accounts_sqli",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "nullbind <scott.sutherland@netspi.com>",
+    "antti <antti.rantasaari@netspi.com>"
+  ],
+  "description": "This module can be used to bruteforce RIDs associated with the domain of the SQL Server\n        using the SUSER_SNAME function via Error Based SQL injection. This is similar to the\n        smb_lookupsid module, but executed through SQL Server queries as any user with the PUBLIC\n        role (everyone). Information that can be enumerated includes Windows domain users, groups,\n        and computer accounts.  Enumerated accounts can then be used in online dictionary attacks.\n        The syntax for injection URLs is: /testing.asp?id=1+and+1=[SQLi];--",
+  "references": [
+    "URL-https://docs.microsoft.com/en-us/sql/t-sql/functions/suser-sname-transact-sql"
+  ],
+  "rport": 80,
+  "autofilter_ports": [
+    80,
+    8080,
+    443,
+    8000,
+    8888,
+    8880,
+    8008,
+    3000,
+    8443
+  ],
+  "autofilter_services": [
+    "http",
+    "https"
+  ],
+  "mod_time": "2022-01-23 15:28:32 +0000",
+  "path": "/modules/auxiliary/admin/mssql/mssql_enum_domain_accounts_sqli.rb",
+  "is_install_path": true,
+  "ref_name": "admin/mssql/mssql_enum_domain_accounts_sqli",
+  "needs_cleanup": false
+}

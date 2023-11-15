@@ -1,0 +1,22 @@
+{
+  "name": "3Com SuperStack Switch Denial of Service",
+  "fullname": "auxiliary/dos/http/3com_superstack_switch",
+  "rank": 300,
+  "disclosure_date": "2004-06-24",
+  "type": "auxiliary",
+  "author": [
+    "aushack <patrick@osisecurity.com.au>"
+  ],
+  "description": "This module causes a temporary denial of service condition\n        against 3Com SuperStack switches. By sending excessive data\n        to the HTTP Management interface, the switch stops responding\n        temporarily. The device does not reset. Tested successfully\n        against a 3300SM firmware v2.66. Reported to affect versions\n        prior to v2.72.",
+  "references": [
+    "OSVDB-7246",
+    "CVE-2004-2691",
+    "URL-http://support.3com.com/infodeli/tools/switches/dna1695-0aaa17.pdf"
+  ],
+  "rport": 80,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/dos/http/3com_superstack_switch.rb",
+  "is_install_path": true,
+  "ref_name": "dos/http/3com_superstack_switch",
+  "needs_cleanup": false
+}

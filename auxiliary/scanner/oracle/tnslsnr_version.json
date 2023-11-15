@@ -1,0 +1,17 @@
+{
+  "name": "Oracle TNS Listener Service Version Query",
+  "fullname": "auxiliary/scanner/oracle/tnslsnr_version",
+  "rank": 300,
+  "disclosure_date": "2009-01-07",
+  "type": "auxiliary",
+  "author": [
+    "CG <cg@carnal0wnage.com>"
+  ],
+  "description": "This module simply queries the tnslsnr service for the Oracle build.",
+  "rport": 1521,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/scanner/oracle/tnslsnr_version.rb",
+  "is_install_path": true,
+  "ref_name": "scanner/oracle/tnslsnr_version",
+  "needs_cleanup": false
+}

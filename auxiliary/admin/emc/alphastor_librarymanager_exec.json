@@ -1,0 +1,23 @@
+{
+  "name": "EMC AlphaStor Library Manager Arbitrary Command Execution",
+  "fullname": "auxiliary/admin/emc/alphastor_librarymanager_exec",
+  "rank": 300,
+  "disclosure_date": "2008-05-27",
+  "type": "auxiliary",
+  "author": [
+    "MC <mc@metasploit.com>"
+  ],
+  "description": "EMC AlphaStor Library Manager is prone to a remote command-injection vulnerability\n          because the application fails to properly sanitize user-supplied input.",
+  "references": [
+    "URL-http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=703",
+    "CVE-2008-2157",
+    "OSVDB-45715",
+    "BID-29398"
+  ],
+  "rport": 3500,
+  "mod_time": "2020-10-02 17:38:06 +0000",
+  "path": "/modules/auxiliary/admin/emc/alphastor_librarymanager_exec.rb",
+  "is_install_path": true,
+  "ref_name": "admin/emc/alphastor_librarymanager_exec",
+  "needs_cleanup": false
+}

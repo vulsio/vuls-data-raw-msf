@@ -1,0 +1,21 @@
+{
+  "name": "ISC DHCP Zero Length ClientID Denial of Service Module",
+  "fullname": "auxiliary/dos/dhcp/isc_dhcpd_clientid",
+  "rank": 300,
+  "type": "auxiliary",
+  "author": [
+    "sid",
+    "theLightCosine <theLightCosine@metasploit.com>"
+  ],
+  "description": "This module performs a Denial of Service Attack against the ISC DHCP server,\n        versions 4.1 before 4.1.1-P1 and 4.0 before 4.0.2-P1. It sends out a DHCP Request\n        message with a 0-length client_id option for an IP address on the appropriate range\n        for the dhcp server. When ISC DHCP Server tries to hash this value it exits\n        abnormally.",
+  "references": [
+    "CVE-2010-2156",
+    "OSVDB-65246",
+    "EDB-14185"
+  ],
+  "mod_time": "2019-03-05 03:38:51 +0000",
+  "path": "/modules/auxiliary/dos/dhcp/isc_dhcpd_clientid.rb",
+  "is_install_path": true,
+  "ref_name": "dos/dhcp/isc_dhcpd_clientid",
+  "needs_cleanup": false
+}

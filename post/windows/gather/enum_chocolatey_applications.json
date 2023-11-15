@@ -1,0 +1,27 @@
+{
+  "name": "Windows Gather Installed Application Within Chocolatey Enumeration",
+  "fullname": "post/windows/gather/enum_chocolatey_applications",
+  "rank": 300,
+  "type": "post",
+  "author": [
+    "Nick Cottrell <ncottrellweb@gmail.com>"
+  ],
+  "description": "This module will enumerate all installed applications on a Windows system with chocolatey installed",
+  "platform": "Windows",
+  "mod_time": "2022-04-01 10:56:11 +0000",
+  "path": "/modules/post/windows/gather/enum_chocolatey_applications.rb",
+  "is_install_path": true,
+  "ref_name": "windows/gather/enum_chocolatey_applications",
+  "notes": {
+    "Reliability": [
+      "repeatable-session"
+    ],
+    "Stability": [
+      "crash-safe"
+    ]
+  },
+  "session_types": [
+    "meterpreter",
+    "shell"
+  ]
+}
