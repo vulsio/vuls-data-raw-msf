@@ -1,17 +1,17 @@
 {
-  "name": "Jump/Call XOR Additive Feedback Encoder",
-  "fullname": "encoder/x86/jmp_call_additive",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Jump/Call XOR Additive Feedback",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/jmp_call_additive.rb",
-  "is_install_path": true,
-  "ref_name": "x86/jmp_call_additive",
-  "needs_cleanup": false
+	"name": "Jump/Call XOR Additive Feedback Encoder",
+	"fullname": "encoder/x86/jmp_call_additive",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Jump/Call XOR Additive Feedback",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/jmp_call_additive.rb",
+	"is_install_path": true,
+	"ref_name": "x86/jmp_call_additive",
+	"needs_cleanup": false
 }

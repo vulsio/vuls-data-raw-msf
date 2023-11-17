@@ -1,19 +1,19 @@
 {
-  "name": "OSX VPN Manager",
-  "fullname": "post/osx/manage/vpn",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Peter Toth <globetother@gmail.com>"
-  ],
-  "description": "This module lists VPN connections and tries to connect to them using stored credentials.",
-  "platform": "OSX",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/osx/manage/vpn.rb",
-  "is_install_path": true,
-  "ref_name": "osx/manage/vpn",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "OSX VPN Manager",
+	"fullname": "post/osx/manage/vpn",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Peter Toth <globetother@gmail.com>"
+	],
+	"description": "This module lists VPN connections and tries to connect to them using stored credentials.",
+	"platform": "OSX",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/osx/manage/vpn.rb",
+	"is_install_path": true,
+	"ref_name": "osx/manage/vpn",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

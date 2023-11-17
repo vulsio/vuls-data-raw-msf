@@ -1,25 +1,25 @@
 {
-  "name": "Windows Inject PE Files, Hidden Bind Ipknock TCP Stager",
-  "fullname": "payload/windows/peinject/bind_hidden_ipknock_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "ege <egebalci@pm.me>",
-    "hdm <x@hdm.io>",
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "Inject a custom native PE file into the exploited process using a reflective PE loader. The reflective PE\nloader will execute the pre-mapped PE image starting from the address of entry after performing image base\nrelocation and API address resolution. This module requires a PE file that contains relocation data and a\nvalid (uncorrupted) import table. PE files with CLR(C#/.NET executables), bounded imports, and TLS callbacks\nare not currently supported. Also PE files which use resource loading might crash.\nListen for a connection. First, the port will need to be knocked from\n                          the IP defined in KHOST. This IP will work as an authentication method\n                          (you can spoof it with tools like hping). After that you could get your\n                          shellcode from any IP. The socket will appear as \"closed,\" thus helping to\n                          hide the shellcode",
-  "references": [
-    "URL-https://github.com/EgeBalci/Amber",
-    "URL-http://www.shelliscoming.com/2014/07/ip-knock-shellcode-spoofed-ip-as.html"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2023-07-27 16:02:37 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_hidden_ipknock_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/peinject/bind_hidden_ipknock_tcp",
-  "needs_cleanup": false
+	"name": "Windows Inject PE Files, Hidden Bind Ipknock TCP Stager",
+	"fullname": "payload/windows/peinject/bind_hidden_ipknock_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"ege <egebalci@pm.me>",
+		"hdm <x@hdm.io>",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "Inject a custom native PE file into the exploited process using a reflective PE loader. The reflective PE\nloader will execute the pre-mapped PE image starting from the address of entry after performing image base\nrelocation and API address resolution. This module requires a PE file that contains relocation data and a\nvalid (uncorrupted) import table. PE files with CLR(C#/.NET executables), bounded imports, and TLS callbacks\nare not currently supported. Also PE files which use resource loading might crash.\nListen for a connection. First, the port will need to be knocked from\n                          the IP defined in KHOST. This IP will work as an authentication method\n                          (you can spoof it with tools like hping). After that you could get your\n                          shellcode from any IP. The socket will appear as \"closed,\" thus helping to\n                          hide the shellcode",
+	"references": [
+		"URL-https://github.com/EgeBalci/Amber",
+		"URL-http://www.shelliscoming.com/2014/07/ip-knock-shellcode-spoofed-ip-as.html"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2023-07-27 16:02:37 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_hidden_ipknock_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/peinject/bind_hidden_ipknock_tcp",
+	"needs_cleanup": false
 }

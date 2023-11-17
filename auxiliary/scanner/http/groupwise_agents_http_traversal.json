@@ -1,38 +1,38 @@
 {
-  "name": "Novell Groupwise Agents HTTP Directory Traversal",
-  "fullname": "auxiliary/scanner/http/groupwise_agents_http_traversal",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "r () b13$",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability in Novell Groupwise.\n        The vulnerability exists in the web interface of both the Post Office and the\n        MTA agents. This module has been tested successfully on Novell Groupwise 8.02 HP2\n        over Windows 2003 SP2.",
-  "references": [
-    "CVE-2012-0419",
-    "OSVDB-85801",
-    "BID-55648",
-    "URL-https://support.microfocus.com/kb/doc.php?id=7010772"
-  ],
-  "rport": 7181,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/groupwise_agents_http_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/groupwise_agents_http_traversal",
-  "needs_cleanup": false
+	"name": "Novell Groupwise Agents HTTP Directory Traversal",
+	"fullname": "auxiliary/scanner/http/groupwise_agents_http_traversal",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"r () b13$",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability in Novell Groupwise.\n        The vulnerability exists in the web interface of both the Post Office and the\n        MTA agents. This module has been tested successfully on Novell Groupwise 8.02 HP2\n        over Windows 2003 SP2.",
+	"references": [
+		"CVE-2012-0419",
+		"OSVDB-85801",
+		"BID-55648",
+		"URL-https://support.microfocus.com/kb/doc.php?id=7010772"
+	],
+	"rport": 7181,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/groupwise_agents_http_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/groupwise_agents_http_traversal",
+	"needs_cleanup": false
 }

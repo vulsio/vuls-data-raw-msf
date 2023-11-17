@@ -1,26 +1,26 @@
 {
-  "name": "Oracle DB SQL Injection via SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION",
-  "fullname": "auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription",
-  "rank": 300,
-  "disclosure_date": "2005-04-18",
-  "type": "auxiliary",
-  "author": [
-    "Esteban Martinez Fayo",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module will escalate an Oracle DB user to DBA by exploiting a sql injection\n        bug in the SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION package/function.\n        This vulnerability affects to Oracle Database Server 9i up to 9.2.0.5 and\n        10g up to 10.1.0.4.",
-  "references": [
-    "CVE-2005-4832",
-    "BID-13236",
-    "OSVDB-15553",
-    "URL-http://www.appsecinc.com/resources/alerts/oracle/2005-02.html",
-    "URL-http://www.argeniss.com/research/OraDBMS_CDC_SUBSCRIBEExploit.txt"
-  ],
-  "rport": 1521,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription.rb",
-  "is_install_path": true,
-  "ref_name": "sqli/oracle/dbms_cdc_subscribe_activate_subscription",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Oracle DB SQL Injection via SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION",
+	"fullname": "auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription",
+	"rank": 300,
+	"disclosure_date": "2005-04-18",
+	"type": "auxiliary",
+	"author": [
+		"Esteban Martinez Fayo",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module will escalate an Oracle DB user to DBA by exploiting a sql injection\n        bug in the SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION package/function.\n        This vulnerability affects to Oracle Database Server 9i up to 9.2.0.5 and\n        10g up to 10.1.0.4.",
+	"references": [
+		"CVE-2005-4832",
+		"BID-13236",
+		"OSVDB-15553",
+		"URL-http://www.appsecinc.com/resources/alerts/oracle/2005-02.html",
+		"URL-http://www.argeniss.com/research/OraDBMS_CDC_SUBSCRIBEExploit.txt"
+	],
+	"rport": 1521,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription.rb",
+	"is_install_path": true,
+	"ref_name": "sqli/oracle/dbms_cdc_subscribe_activate_subscription",
+	"post_auth": true,
+	"needs_cleanup": false
 }

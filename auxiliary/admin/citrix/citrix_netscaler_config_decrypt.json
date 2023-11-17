@@ -1,32 +1,32 @@
 {
-  "name": "Decrypt Citrix NetScaler Config Secrets",
-  "fullname": "auxiliary/admin/citrix/citrix_netscaler_config_decrypt",
-  "rank": 300,
-  "disclosure_date": "2022-05-19",
-  "type": "auxiliary",
-  "author": [
-    "npm <npm@cesium137.io>"
-  ],
-  "description": "This module takes a Citrix NetScaler ns.conf configuration file as\n          input and extracts secrets that have been stored with reversible\n          encryption. The module supports legacy NetScaler encryption (RC4)\n          as well as the newer AES-256-ECB and AES-256-CBC encryption types.\n          It is also possible to decrypt secrets protected by the Key\n          Encryption Key (KEK) method, provided the key fragment files F1.key\n          and F2.key are provided.",
-  "references": [
-    "URL-https://dozer.nz/posts/citrix-decrypt/",
-    "URL-https://www.ferroquesystems.com/resource/citrix-adc-security-kek-files/"
-  ],
-  "platform": "BSD",
-  "mod_time": "2022-07-13 08:36:18 +0000",
-  "path": "/modules/auxiliary/admin/citrix/citrix_netscaler_config_decrypt.rb",
-  "is_install_path": true,
-  "ref_name": "admin/citrix/citrix_netscaler_config_decrypt",
-  "notes": {
-    "Reliability": [
-      "repeatable-session"
-    ],
-    "SideEffects": [
-      "artifacts-on-disk"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Decrypt Citrix NetScaler Config Secrets",
+	"fullname": "auxiliary/admin/citrix/citrix_netscaler_config_decrypt",
+	"rank": 300,
+	"disclosure_date": "2022-05-19",
+	"type": "auxiliary",
+	"author": [
+		"npm <npm@cesium137.io>"
+	],
+	"description": "This module takes a Citrix NetScaler ns.conf configuration file as\n          input and extracts secrets that have been stored with reversible\n          encryption. The module supports legacy NetScaler encryption (RC4)\n          as well as the newer AES-256-ECB and AES-256-CBC encryption types.\n          It is also possible to decrypt secrets protected by the Key\n          Encryption Key (KEK) method, provided the key fragment files F1.key\n          and F2.key are provided.",
+	"references": [
+		"URL-https://dozer.nz/posts/citrix-decrypt/",
+		"URL-https://www.ferroquesystems.com/resource/citrix-adc-security-kek-files/"
+	],
+	"platform": "BSD",
+	"mod_time": "2022-07-13 08:36:18 +0000",
+	"path": "/modules/auxiliary/admin/citrix/citrix_netscaler_config_decrypt.rb",
+	"is_install_path": true,
+	"ref_name": "admin/citrix/citrix_netscaler_config_decrypt",
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"SideEffects": [
+			"artifacts-on-disk"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

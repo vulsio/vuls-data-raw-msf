@@ -1,18 +1,18 @@
 {
-  "name": "Windows Command, Double Reverse TCP Connection (via Perl)",
-  "fullname": "payload/cmd/windows/reverse_perl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "cazz <bmc@shmoo.com>",
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "Creates an interactive shell via perl",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/reverse_perl.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/reverse_perl",
-  "needs_cleanup": false
+	"name": "Windows Command, Double Reverse TCP Connection (via Perl)",
+	"fullname": "payload/cmd/windows/reverse_perl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"cazz <bmc@shmoo.com>",
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "Creates an interactive shell via perl",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/reverse_perl.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/reverse_perl",
+	"needs_cleanup": false
 }

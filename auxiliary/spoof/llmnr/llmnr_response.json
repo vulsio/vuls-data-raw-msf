@@ -1,18 +1,18 @@
 {
-  "name": "LLMNR Spoofer",
-  "fullname": "auxiliary/spoof/llmnr/llmnr_response",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Robin Francois <rof@navixia.com>"
-  ],
-  "description": "LLMNR (Link-local Multicast Name Resolution) is the successor of NetBIOS (Windows Vista and up) and is used to\n          resolve the names of neighboring computers. This module forges LLMNR responses by listening for LLMNR requests\n          sent to the LLMNR multicast address (224.0.0.252) and responding with a user-defined spoofed IP address.",
-  "references": [
-    "URL-http://www.ietf.org/rfc/rfc4795.txt"
-  ],
-  "mod_time": "2022-03-09 13:47:14 +0000",
-  "path": "/modules/auxiliary/spoof/llmnr/llmnr_response.rb",
-  "is_install_path": true,
-  "ref_name": "spoof/llmnr/llmnr_response",
-  "needs_cleanup": false
+	"name": "LLMNR Spoofer",
+	"fullname": "auxiliary/spoof/llmnr/llmnr_response",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Robin Francois <rof@navixia.com>"
+	],
+	"description": "LLMNR (Link-local Multicast Name Resolution) is the successor of NetBIOS (Windows Vista and up) and is used to\n          resolve the names of neighboring computers. This module forges LLMNR responses by listening for LLMNR requests\n          sent to the LLMNR multicast address (224.0.0.252) and responding with a user-defined spoofed IP address.",
+	"references": [
+		"URL-http://www.ietf.org/rfc/rfc4795.txt"
+	],
+	"mod_time": "2022-03-09 13:47:14 +0000",
+	"path": "/modules/auxiliary/spoof/llmnr/llmnr_response.rb",
+	"is_install_path": true,
+	"ref_name": "spoof/llmnr/llmnr_response",
+	"needs_cleanup": false
 }

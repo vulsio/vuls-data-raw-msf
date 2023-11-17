@@ -1,17 +1,17 @@
 {
-  "name": "Mac OS X x86 iSight Photo Capture, Bind TCP Stager",
-  "fullname": "payload/osx/x86/isight/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "ddz <ddz@theta44.org>"
-  ],
-  "description": "Inject a Mach-O bundle to capture a photo from the iSight (staged).\n\nListen, read length, read buffer, execute",
-  "platform": "OSX",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/osx/x86/bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x86/isight/bind_tcp",
-  "needs_cleanup": false
+	"name": "Mac OS X x86 iSight Photo Capture, Bind TCP Stager",
+	"fullname": "payload/osx/x86/isight/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"ddz <ddz@theta44.org>"
+	],
+	"description": "Inject a Mach-O bundle to capture a photo from the iSight (staged).\n\nListen, read length, read buffer, execute",
+	"platform": "OSX",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/osx/x86/bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x86/isight/bind_tcp",
+	"needs_cleanup": false
 }

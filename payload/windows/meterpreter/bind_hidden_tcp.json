@@ -1,26 +1,26 @@
 {
-  "name": "Windows Meterpreter (Reflective Injection), Hidden Bind TCP Stager",
-  "fullname": "payload/windows/meterpreter/bind_hidden_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves",
-    "hdm <x@hdm.io>",
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nListen for a connection from a hidden port and spawn a command shell to the allowed host.",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection",
-    "URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2023-07-27 16:02:37 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_hidden_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/meterpreter/bind_hidden_tcp",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter (Reflective Injection), Hidden Bind TCP Stager",
+	"fullname": "payload/windows/meterpreter/bind_hidden_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves",
+		"hdm <x@hdm.io>",
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nListen for a connection from a hidden port and spawn a command shell to the allowed host.",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection",
+		"URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2023-07-27 16:02:37 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_hidden_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/meterpreter/bind_hidden_tcp",
+	"needs_cleanup": false
 }

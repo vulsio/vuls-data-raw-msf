@@ -1,19 +1,19 @@
 {
-  "name": "Apple_iOS Meterpreter, Reverse HTTP Inline",
-  "fullname": "payload/apple_ios/armle/meterpreter_reverse_http",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Adam Cammack <adam_cammack@rapid7.com>",
-    "Brent Cook <brent_cook@rapid7.com>",
-    "timwr"
-  ],
-  "description": "Run the Meterpreter / Mettle server payload (stageless)",
-  "platform": "Apple_iOS",
-  "arch": "armle",
-  "mod_time": "2023-06-19 12:11:18 +0000",
-  "path": "/modules/payloads/singles/apple_ios/armle/meterpreter_reverse_http.rb",
-  "is_install_path": true,
-  "ref_name": "apple_ios/armle/meterpreter_reverse_http",
-  "needs_cleanup": false
+	"name": "Apple_iOS Meterpreter, Reverse HTTP Inline",
+	"fullname": "payload/apple_ios/armle/meterpreter_reverse_http",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Adam Cammack <adam_cammack@rapid7.com>",
+		"Brent Cook <brent_cook@rapid7.com>",
+		"timwr"
+	],
+	"description": "Run the Meterpreter / Mettle server payload (stageless)",
+	"platform": "Apple_iOS",
+	"arch": "armle",
+	"mod_time": "2023-06-19 12:11:18 +0000",
+	"path": "/modules/payloads/singles/apple_ios/armle/meterpreter_reverse_http.rb",
+	"is_install_path": true,
+	"ref_name": "apple_ios/armle/meterpreter_reverse_http",
+	"needs_cleanup": false
 }

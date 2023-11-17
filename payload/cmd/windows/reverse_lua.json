@@ -1,17 +1,17 @@
 {
-  "name": "Windows Command Shell, Reverse TCP (via Lua)",
-  "fullname": "payload/cmd/windows/reverse_lua",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "xistence <xistence@0x90.nl>"
-  ],
-  "description": "Creates an interactive shell via Lua",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/reverse_lua.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/reverse_lua",
-  "needs_cleanup": false
+	"name": "Windows Command Shell, Reverse TCP (via Lua)",
+	"fullname": "payload/cmd/windows/reverse_lua",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"xistence <xistence@0x90.nl>"
+	],
+	"description": "Creates an interactive shell via Lua",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/reverse_lua.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/reverse_lua",
+	"needs_cleanup": false
 }

@@ -1,32 +1,32 @@
 {
-  "name": "VMWare Enumerate User Accounts",
-  "fullname": "auxiliary/scanner/vmware/vmware_enum_users",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module will log into the Web API of VMWare and try to enumerate\n        all the user accounts. If the VMware instance is connected to one or\n        more domains, it will try to enumerate domain users as well.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/vmware/vmware_enum_users.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vmware/vmware_enum_users",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "VMWare Enumerate User Accounts",
+	"fullname": "auxiliary/scanner/vmware/vmware_enum_users",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module will log into the Web API of VMWare and try to enumerate\n        all the user accounts. If the VMware instance is connected to one or\n        more domains, it will try to enumerate domain users as well.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/vmware/vmware_enum_users.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vmware/vmware_enum_users",
+	"post_auth": true,
+	"needs_cleanup": false
 }

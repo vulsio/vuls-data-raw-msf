@@ -1,15 +1,15 @@
 {
-  "name": "Wardialer",
-  "fullname": "auxiliary/scanner/telephony/wardial",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "I)ruid <druid@caughq.org>"
-  ],
-  "description": "Scan for dial-up systems that are connected to modems and answer telephony indials.",
-  "mod_time": "2022-07-25 14:51:37 +0000",
-  "path": "/modules/auxiliary/scanner/telephony/wardial.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/telephony/wardial",
-  "needs_cleanup": false
+	"name": "Wardialer",
+	"fullname": "auxiliary/scanner/telephony/wardial",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"I)ruid <druid@caughq.org>"
+	],
+	"description": "Scan for dial-up systems that are connected to modems and answer telephony indials.",
+	"mod_time": "2022-07-25 14:51:37 +0000",
+	"path": "/modules/auxiliary/scanner/telephony/wardial.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/telephony/wardial",
+	"needs_cleanup": false
 }

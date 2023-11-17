@@ -1,19 +1,19 @@
 {
-  "name": "Windows Manage Trojanize Support Account",
-  "fullname": "post/windows/manage/enable_support_account",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "salcho <salchoman@gmail.com>"
-  ],
-  "description": "This module enables alternative access to servers and workstations\n          by modifying the support account's properties. It will enable\n          the account for remote access as the administrator user while\n          taking advantage of some weird behavior in lusrmgr.msc. It will\n          check if sufficient privileges are available for registry operations,\n          otherwise it exits.",
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/manage/enable_support_account.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/enable_support_account",
-  "post_auth": true,
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Trojanize Support Account",
+	"fullname": "post/windows/manage/enable_support_account",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"salcho <salchoman@gmail.com>"
+	],
+	"description": "This module enables alternative access to servers and workstations\n          by modifying the support account's properties. It will enable\n          the account for remote access as the administrator user while\n          taking advantage of some weird behavior in lusrmgr.msc. It will\n          check if sufficient privileges are available for registry operations,\n          otherwise it exits.",
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/manage/enable_support_account.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/enable_support_account",
+	"post_auth": true,
+	"session_types": [
+		"meterpreter"
+	]
 }

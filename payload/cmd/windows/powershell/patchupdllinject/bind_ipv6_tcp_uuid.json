@@ -1,22 +1,22 @@
 {
-  "name": "Powershell Exec, Bind IPv6 TCP Stager with UUID Support (Windows x86)",
-  "fullname": "payload/cmd/windows/powershell/patchupdllinject/bind_ipv6_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "jt <jt@klake.org>",
-    "skape <mmiller@hick.org>",
-    "hdm <x@hdm.io>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves"
-  ],
-  "description": "Execute an x86 payload from a command via PowerShell.\n\nListen for an IPv6 connection with UUID Support (Windows x86)",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/patchupdllinject/bind_ipv6_tcp_uuid",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Bind IPv6 TCP Stager with UUID Support (Windows x86)",
+	"fullname": "payload/cmd/windows/powershell/patchupdllinject/bind_ipv6_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"jt <jt@klake.org>",
+		"skape <mmiller@hick.org>",
+		"hdm <x@hdm.io>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves"
+	],
+	"description": "Execute an x86 payload from a command via PowerShell.\n\nListen for an IPv6 connection with UUID Support (Windows x86)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/patchupdllinject/bind_ipv6_tcp_uuid",
+	"needs_cleanup": false
 }

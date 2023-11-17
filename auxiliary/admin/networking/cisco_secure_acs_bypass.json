@@ -1,40 +1,40 @@
 {
-  "name": "Cisco Secure ACS Unauthorized Password Change",
-  "fullname": "auxiliary/admin/networking/cisco_secure_acs_bypass",
-  "aliases": [
-    "auxiliary/admin/cisco/cisco_secure_acs_bypass"
-  ],
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jason Kratzer <pyoor@flinkd.org>"
-  ],
-  "description": "This module exploits an authentication bypass issue which allows arbitrary\n          password change requests to be issued for any user in the local store.\n          Instances of Secure ACS running version 5.1 with patches 3, 4, or 5 as well\n          as version 5.2 with either no patches or patches 1 and 2 are vulnerable.",
-  "references": [
-    "BID-47093",
-    "CVE-2011-0951",
-    "URL-http://www.cisco.com/en/US/products/csa/cisco-sa-20110330-acs.html"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-07-16 05:43:52 +0000",
-  "path": "/modules/auxiliary/admin/networking/cisco_secure_acs_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "admin/networking/cisco_secure_acs_bypass",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Cisco Secure ACS Unauthorized Password Change",
+	"fullname": "auxiliary/admin/networking/cisco_secure_acs_bypass",
+	"aliases": [
+		"auxiliary/admin/cisco/cisco_secure_acs_bypass"
+	],
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jason Kratzer <pyoor@flinkd.org>"
+	],
+	"description": "This module exploits an authentication bypass issue which allows arbitrary\n          password change requests to be issued for any user in the local store.\n          Instances of Secure ACS running version 5.1 with patches 3, 4, or 5 as well\n          as version 5.2 with either no patches or patches 1 and 2 are vulnerable.",
+	"references": [
+		"BID-47093",
+		"CVE-2011-0951",
+		"URL-http://www.cisco.com/en/US/products/csa/cisco-sa-20110330-acs.html"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-07-16 05:43:52 +0000",
+	"path": "/modules/auxiliary/admin/networking/cisco_secure_acs_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "admin/networking/cisco_secure_acs_bypass",
+	"post_auth": true,
+	"needs_cleanup": false
 }

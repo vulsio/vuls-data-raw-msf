@@ -1,17 +1,17 @@
 {
-  "name": "PHP Command Shell, Reverse TCP (via PHP)",
-  "fullname": "payload/php/reverse_php",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "egypt <egypt@metasploit.com>"
-  ],
-  "description": "Reverse PHP connect back shell with checks for disabled functions",
-  "platform": "PHP",
-  "arch": "php",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/php/reverse_php.rb",
-  "is_install_path": true,
-  "ref_name": "php/reverse_php",
-  "needs_cleanup": false
+	"name": "PHP Command Shell, Reverse TCP (via PHP)",
+	"fullname": "payload/php/reverse_php",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"egypt <egypt@metasploit.com>"
+	],
+	"description": "Reverse PHP connect back shell with checks for disabled functions",
+	"platform": "PHP",
+	"arch": "php",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/php/reverse_php.rb",
+	"is_install_path": true,
+	"ref_name": "php/reverse_php",
+	"needs_cleanup": false
 }

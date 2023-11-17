@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather DNS Forward Lookup Bruteforce",
-  "fullname": "post/multi/gather/dns_bruteforce",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "Brute force subdomains and hostnames via wordlist.",
-  "platform": "BSD,Linux,OSX,Solaris,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/dns_bruteforce.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/dns_bruteforce",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Multi Gather DNS Forward Lookup Bruteforce",
+	"fullname": "post/multi/gather/dns_bruteforce",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "Brute force subdomains and hostnames via wordlist.",
+	"platform": "BSD,Linux,OSX,Solaris,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/dns_bruteforce.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/dns_bruteforce",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

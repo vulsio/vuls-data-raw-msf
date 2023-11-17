@@ -1,36 +1,36 @@
 {
-  "name": "Lansweeper Credential Collector",
-  "fullname": "auxiliary/gather/lansweeper_collector",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sghctoma <tamas.szakaly@praudit.hu>",
-    "eq <balazs.bucsay@praudit.hu>",
-    "calderpwn <calderon@websec.mx>"
-  ],
-  "description": "Lansweeper stores the credentials it uses to scan the computers\n        in its Microsoft SQL database.  The passwords are XTea-encrypted with a\n        68 character long key, in which the first 8 characters are stored with\n        the password in the database and the other 60 is static. Lansweeper, by\n        default, creates an MSSQL user \"lansweeperuser\" with the password is\n        \"mysecretpassword0*\", and stores its data in a database called\n        \"lansweeperdb\". This module will query the MSSQL database for the\n        credentials.",
-  "references": [
-    "URL-http://www.lansweeper.com",
-    "URL-http://www.praudit.hu/prauditeng/index.php/blog/a-lansweeper-es-a-tea"
-  ],
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2019-11-05 18:32:45 +0000",
-  "path": "/modules/auxiliary/gather/lansweeper_collector.rb",
-  "is_install_path": true,
-  "ref_name": "gather/lansweeper_collector",
-  "needs_cleanup": false
+	"name": "Lansweeper Credential Collector",
+	"fullname": "auxiliary/gather/lansweeper_collector",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sghctoma <tamas.szakaly@praudit.hu>",
+		"eq <balazs.bucsay@praudit.hu>",
+		"calderpwn <calderon@websec.mx>"
+	],
+	"description": "Lansweeper stores the credentials it uses to scan the computers\n        in its Microsoft SQL database.  The passwords are XTea-encrypted with a\n        68 character long key, in which the first 8 characters are stored with\n        the password in the database and the other 60 is static. Lansweeper, by\n        default, creates an MSSQL user \"lansweeperuser\" with the password is\n        \"mysecretpassword0*\", and stores its data in a database called\n        \"lansweeperdb\". This module will query the MSSQL database for the\n        credentials.",
+	"references": [
+		"URL-http://www.lansweeper.com",
+		"URL-http://www.praudit.hu/prauditeng/index.php/blog/a-lansweeper-es-a-tea"
+	],
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2019-11-05 18:32:45 +0000",
+	"path": "/modules/auxiliary/gather/lansweeper_collector.rb",
+	"is_install_path": true,
+	"ref_name": "gather/lansweeper_collector",
+	"needs_cleanup": false
 }

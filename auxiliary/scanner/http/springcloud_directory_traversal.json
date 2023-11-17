@@ -1,47 +1,47 @@
 {
-  "name": "Directory Traversal in Spring Cloud Config Server",
-  "fullname": "auxiliary/scanner/http/springcloud_directory_traversal",
-  "rank": 300,
-  "disclosure_date": "2020-06-01",
-  "type": "auxiliary",
-  "author": [
-    "Fei Lu",
-    "bfpiaoran <bfpiaoran@qq.com>",
-    "Dhiraj Mishra"
-  ],
-  "description": "This module exploits an unauthenticated directory traversal vulnerability\n          which exists in Spring Cloud Config versions 2.2.x prior to 2.2.3 and\n          2.1.x prior to 2.1.9, and older unsupported versions. Spring\n          Cloud Config listens by default on port 8888.",
-  "references": [
-    "CVE-2020-5410",
-    "URL-https://tanzu.vmware.com/security/cve-2020-5410",
-    "URL-https://xz.aliyun.com/t/7877"
-  ],
-  "rport": 8888,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/scanner/http/springcloud_directory_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/springcloud_directory_traversal",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Directory Traversal in Spring Cloud Config Server",
+	"fullname": "auxiliary/scanner/http/springcloud_directory_traversal",
+	"rank": 300,
+	"disclosure_date": "2020-06-01",
+	"type": "auxiliary",
+	"author": [
+		"Fei Lu",
+		"bfpiaoran <bfpiaoran@qq.com>",
+		"Dhiraj Mishra"
+	],
+	"description": "This module exploits an unauthenticated directory traversal vulnerability\n          which exists in Spring Cloud Config versions 2.2.x prior to 2.2.3 and\n          2.1.x prior to 2.1.9, and older unsupported versions. Spring\n          Cloud Config listens by default on port 8888.",
+	"references": [
+		"CVE-2020-5410",
+		"URL-https://tanzu.vmware.com/security/cve-2020-5410",
+		"URL-https://xz.aliyun.com/t/7877"
+	],
+	"rport": 8888,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/scanner/http/springcloud_directory_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/springcloud_directory_traversal",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

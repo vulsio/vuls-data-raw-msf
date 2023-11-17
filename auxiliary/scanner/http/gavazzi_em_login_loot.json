@@ -1,36 +1,36 @@
 {
-  "name": "Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database",
-  "fullname": "auxiliary/scanner/http/gavazzi_em_login_loot",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "This module scans for Carlo Gavazzi Energy Meters login portals, performs a login brute force attack, enumerates device firmware version, and attempt to extract the SMTP configuration. A valid, admin privileged user is required to extract the SMTP password. In some older firmware versions, the SMTP config can be retrieved without any authentication. The module also exploits an access control vulnerability which allows an unauthenticated user to remotely dump the database file EWplant.db. This db file contains information such as power/energy utilization data, tariffs, and revenue statistics. Vulnerable firmware versions include - VMU-C EM prior to firmware Version A11_U05 and VMU-C PV prior to firmware Version A17.",
-  "references": [
-    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-17-012-03",
-    "CVE-2017-5146"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/gavazzi_em_login_loot.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/gavazzi_em_login_loot",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database",
+	"fullname": "auxiliary/scanner/http/gavazzi_em_login_loot",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "This module scans for Carlo Gavazzi Energy Meters login portals, performs a login brute force attack, enumerates device firmware version, and attempt to extract the SMTP configuration. A valid, admin privileged user is required to extract the SMTP password. In some older firmware versions, the SMTP config can be retrieved without any authentication. The module also exploits an access control vulnerability which allows an unauthenticated user to remotely dump the database file EWplant.db. This db file contains information such as power/energy utilization data, tariffs, and revenue statistics. Vulnerable firmware versions include - VMU-C EM prior to firmware Version A11_U05 and VMU-C PV prior to firmware Version A17.",
+	"references": [
+		"URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-17-012-03",
+		"CVE-2017-5146"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/gavazzi_em_login_loot.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/gavazzi_em_login_loot",
+	"post_auth": true,
+	"needs_cleanup": false
 }

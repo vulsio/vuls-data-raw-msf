@@ -1,22 +1,22 @@
 {
-  "name": "Oracle RDBMS Login Utility",
-  "fullname": "auxiliary/scanner/oracle/oracle_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Patrik Karlsson <patrik@cqure.net>",
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module attempts to authenticate against an Oracle RDBMS\n        instance using username and password combinations indicated\n        by the USER_FILE, PASS_FILE, and USERPASS_FILE options.\n\n        Due to a bug in nmap versions 6.50-7.80 may not work.",
-  "references": [
-    "URL-https://www.oracle.com/database/",
-    "CVE-1999-0502",
-    "URL-https://nmap.org/nsedoc/scripts/oracle-brute.html"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/oracle/oracle_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/oracle/oracle_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Oracle RDBMS Login Utility",
+	"fullname": "auxiliary/scanner/oracle/oracle_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Patrik Karlsson <patrik@cqure.net>",
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module attempts to authenticate against an Oracle RDBMS\n        instance using username and password combinations indicated\n        by the USER_FILE, PASS_FILE, and USERPASS_FILE options.\n\n        Due to a bug in nmap versions 6.50-7.80 may not work.",
+	"references": [
+		"URL-https://www.oracle.com/database/",
+		"CVE-1999-0502",
+		"URL-https://nmap.org/nsedoc/scripts/oracle-brute.html"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/oracle/oracle_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/oracle/oracle_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

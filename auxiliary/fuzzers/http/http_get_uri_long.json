@@ -1,16 +1,16 @@
 {
-  "name": "HTTP GET Request URI Fuzzer (Incrementing Lengths)",
-  "fullname": "auxiliary/fuzzers/http/http_get_uri_long",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "nullthreat"
-  ],
-  "description": "This module sends a series of HTTP GET request with incrementing URL lengths.",
-  "rport": 80,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/fuzzers/http/http_get_uri_long.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/http/http_get_uri_long",
-  "needs_cleanup": false
+	"name": "HTTP GET Request URI Fuzzer (Incrementing Lengths)",
+	"fullname": "auxiliary/fuzzers/http/http_get_uri_long",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"nullthreat"
+	],
+	"description": "This module sends a series of HTTP GET request with incrementing URL lengths.",
+	"rport": 80,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/fuzzers/http/http_get_uri_long.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/http/http_get_uri_long",
+	"needs_cleanup": false
 }

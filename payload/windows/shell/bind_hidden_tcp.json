@@ -1,24 +1,24 @@
 {
-  "name": "Windows Command Shell, Hidden Bind TCP Stager",
-  "fullname": "payload/windows/shell/bind_hidden_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "spoonm <spoonm@no$email.com>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>",
-    "skape <mmiller@hick.org>",
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "Spawn a piped command shell (staged).\n\nListen for a connection from a hidden port and spawn a command shell to the allowed host.",
-  "references": [
-    "URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2023-07-27 16:02:37 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_hidden_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/shell/bind_hidden_tcp",
-  "needs_cleanup": false
+	"name": "Windows Command Shell, Hidden Bind TCP Stager",
+	"fullname": "payload/windows/shell/bind_hidden_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"spoonm <spoonm@no$email.com>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>",
+		"skape <mmiller@hick.org>",
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "Spawn a piped command shell (staged).\n\nListen for a connection from a hidden port and spawn a command shell to the allowed host.",
+	"references": [
+		"URL-http://www.shelliscoming.com/2014/03/hidden-bind-shell-keep-your-shellcode.html"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2023-07-27 16:02:37 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_hidden_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/shell/bind_hidden_tcp",
+	"needs_cleanup": false
 }

@@ -1,46 +1,46 @@
 {
-  "name": "Ruby On Rails File Content Disclosure ('doubletap')",
-  "fullname": "auxiliary/gather/rails_doubletap_file_read",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Carter Brainerd <0xCB@protonmail.com>",
-    "John Hawthorn <john@hawthorn.email>"
-  ],
-  "description": "This module uses a path traversal vulnerability in Ruby on Rails\n          versions =< 5.2.2 to read files on a target server.",
-  "references": [
-    "URL-https://hackerone.com/reports/473888",
-    "URL-https://github.com/mpgn/Rails-doubletap-RCE",
-    "URL-https://groups.google.com/forum/#!topic/rubyonrails-security/pFRKI96Sm8Q",
-    "URL-https://chybeta.github.io/2019/03/16/Analysis-for%E3%80%90CVE-2019-5418%E3%80%91File-Content-Disclosure-on-Rails/",
-    "CVE-2019-5418",
-    "EDB-46585"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-04-21 12:00:20 +0000",
-  "path": "/modules/auxiliary/gather/rails_doubletap_file_read.rb",
-  "is_install_path": true,
-  "ref_name": "gather/rails_doubletap_file_read",
-  "check": true,
-  "notes": {
-    "AKA": [
-      "DoubleTap"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Ruby On Rails File Content Disclosure ('doubletap')",
+	"fullname": "auxiliary/gather/rails_doubletap_file_read",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Carter Brainerd <0xCB@protonmail.com>",
+		"John Hawthorn <john@hawthorn.email>"
+	],
+	"description": "This module uses a path traversal vulnerability in Ruby on Rails\n          versions =< 5.2.2 to read files on a target server.",
+	"references": [
+		"URL-https://hackerone.com/reports/473888",
+		"URL-https://github.com/mpgn/Rails-doubletap-RCE",
+		"URL-https://groups.google.com/forum/#!topic/rubyonrails-security/pFRKI96Sm8Q",
+		"URL-https://chybeta.github.io/2019/03/16/Analysis-for%E3%80%90CVE-2019-5418%E3%80%91File-Content-Disclosure-on-Rails/",
+		"CVE-2019-5418",
+		"EDB-46585"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-04-21 12:00:20 +0000",
+	"path": "/modules/auxiliary/gather/rails_doubletap_file_read.rb",
+	"is_install_path": true,
+	"ref_name": "gather/rails_doubletap_file_read",
+	"check": true,
+	"notes": {
+		"AKA": [
+			"DoubleTap"
+		]
+	},
+	"needs_cleanup": false
 }

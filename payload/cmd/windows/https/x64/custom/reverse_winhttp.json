@@ -1,19 +1,19 @@
 {
-  "name": "HTTPS Fetch, Windows shellcode stage, Windows x64 Reverse HTTP Stager (winhttp)",
-  "fullname": "payload/cmd/windows/https/x64/custom/reverse_winhttp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "bwatters-r7",
-    "OJ Reeves"
-  ],
-  "description": "Fetch and Execute an x64 payload from an https server.\n\nCustom shellcode stage.\n\nTunnel communication over HTTP (Windows x64 winhttp)",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/https/x64/custom/reverse_winhttp",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Windows shellcode stage, Windows x64 Reverse HTTP Stager (winhttp)",
+	"fullname": "payload/cmd/windows/https/x64/custom/reverse_winhttp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"bwatters-r7",
+		"OJ Reeves"
+	],
+	"description": "Fetch and Execute an x64 payload from an https server.\n\nCustom shellcode stage.\n\nTunnel communication over HTTP (Windows x64 winhttp)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/https/x64/custom/reverse_winhttp",
+	"needs_cleanup": false
 }

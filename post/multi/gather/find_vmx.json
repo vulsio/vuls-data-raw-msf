@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather VMWare VM Identification",
-  "fullname": "post/multi/gather/find_vmx",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module will attempt to find any VMWare virtual machines stored on the target.",
-  "platform": "BSD,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/find_vmx.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/find_vmx",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Gather VMWare VM Identification",
+	"fullname": "post/multi/gather/find_vmx",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module will attempt to find any VMWare virtual machines stored on the target.",
+	"platform": "BSD,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/find_vmx.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/find_vmx",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

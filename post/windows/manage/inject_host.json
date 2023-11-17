@@ -1,18 +1,18 @@
 {
-  "name": "Windows Manage Hosts File Injection",
-  "fullname": "post/windows/manage/inject_host",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "vt <nick.freeman@security-assessment.com>"
-  ],
-  "description": "This module allows the attacker to insert a new entry into the target\n          system's hosts file.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/inject_host.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/inject_host",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Hosts File Injection",
+	"fullname": "post/windows/manage/inject_host",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"vt <nick.freeman@security-assessment.com>"
+	],
+	"description": "This module allows the attacker to insert a new entry into the target\n          system's hosts file.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/inject_host.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/inject_host",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,38 +1,38 @@
 {
-  "name": "SAP ConfigServlet OS Command Execution",
-  "fullname": "auxiliary/admin/sap/sap_configservlet_exec_noauth",
-  "rank": 300,
-  "disclosure_date": "2012-11-01",
-  "type": "auxiliary",
-  "author": [
-    "Dmitry Chastuhin",
-    "Andras Kabai"
-  ],
-  "description": "This module allows execution of operating system commands through the SAP\n        ConfigServlet without any authentication.",
-  "references": [
-    "OSVDB-92704",
-    "EDB-24963",
-    "URL-http://erpscan.com/wp-content/uploads/2012/11/Breaking-SAP-Portal-HackerHalted-2012.pdf"
-  ],
-  "rport": 50000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/admin/sap/sap_configservlet_exec_noauth.rb",
-  "is_install_path": true,
-  "ref_name": "admin/sap/sap_configservlet_exec_noauth",
-  "needs_cleanup": false
+	"name": "SAP ConfigServlet OS Command Execution",
+	"fullname": "auxiliary/admin/sap/sap_configservlet_exec_noauth",
+	"rank": 300,
+	"disclosure_date": "2012-11-01",
+	"type": "auxiliary",
+	"author": [
+		"Dmitry Chastuhin",
+		"Andras Kabai"
+	],
+	"description": "This module allows execution of operating system commands through the SAP\n        ConfigServlet without any authentication.",
+	"references": [
+		"OSVDB-92704",
+		"EDB-24963",
+		"URL-http://erpscan.com/wp-content/uploads/2012/11/Breaking-SAP-Portal-HackerHalted-2012.pdf"
+	],
+	"rport": 50000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/admin/sap/sap_configservlet_exec_noauth.rb",
+	"is_install_path": true,
+	"ref_name": "admin/sap/sap_configservlet_exec_noauth",
+	"needs_cleanup": false
 }

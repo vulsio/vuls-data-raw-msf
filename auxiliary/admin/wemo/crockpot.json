@@ -1,45 +1,45 @@
 {
-  "name": "Belkin Wemo-Enabled Crock-Pot Remote Control",
-  "fullname": "auxiliary/admin/wemo/crockpot",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "wvu <wvu@metasploit.com>"
-  ],
-  "description": "This module acts as a simple remote control for Belkin Wemo-enabled\n        Crock-Pots by implementing a subset of the functionality provided by the\n        Wemo App.\n\n        No vulnerabilities are exploited by this Metasploit module in any way.",
-  "references": [
-    "URL-https://www.crock-pot.com/wemo-landing-page.html",
-    "URL-https://www.belkin.com/us/support-article?articleNum=101177",
-    "URL-http://www.wemo.com/"
-  ],
-  "rport": 49152,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-12-03 01:04:48 +0000",
-  "path": "/modules/auxiliary/admin/wemo/crockpot.rb",
-  "is_install_path": true,
-  "ref_name": "admin/wemo/crockpot",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "physical-effects"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Belkin Wemo-Enabled Crock-Pot Remote Control",
+	"fullname": "auxiliary/admin/wemo/crockpot",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"wvu <wvu@metasploit.com>"
+	],
+	"description": "This module acts as a simple remote control for Belkin Wemo-enabled\n        Crock-Pots by implementing a subset of the functionality provided by the\n        Wemo App.\n\n        No vulnerabilities are exploited by this Metasploit module in any way.",
+	"references": [
+		"URL-https://www.crock-pot.com/wemo-landing-page.html",
+		"URL-https://www.belkin.com/us/support-article?articleNum=101177",
+		"URL-http://www.wemo.com/"
+	],
+	"rport": 49152,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-12-03 01:04:48 +0000",
+	"path": "/modules/auxiliary/admin/wemo/crockpot.rb",
+	"is_install_path": true,
+	"ref_name": "admin/wemo/crockpot",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"physical-effects"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

@@ -1,15 +1,15 @@
 {
-  "name": "UDP Empty Prober",
-  "fullname": "auxiliary/scanner/discovery/empty_udp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "Detect UDP services that reply to empty probes",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/discovery/empty_udp.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/discovery/empty_udp",
-  "needs_cleanup": false
+	"name": "UDP Empty Prober",
+	"fullname": "auxiliary/scanner/discovery/empty_udp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "Detect UDP services that reply to empty probes",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/discovery/empty_udp.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/discovery/empty_udp",
+	"needs_cleanup": false
 }

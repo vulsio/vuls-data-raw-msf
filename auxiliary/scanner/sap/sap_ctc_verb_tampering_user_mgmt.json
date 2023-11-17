@@ -1,37 +1,37 @@
 {
-  "name": "SAP CTC Service Verb Tampering User Management",
-  "fullname": "auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Alexandr Polyakov",
-    "nmonkee"
-  ],
-  "description": "This module exploits an authentication bypass vulnerability in SAP NetWeaver\n        CTC service. The service is vulnerable to verb tampering allowing for unauthorised\n        OS user management. Information about resolution should be available at SAP notes\n        1589525 and 1624450 (authentication required).",
-  "references": [
-    "URL-http://erpscan.com/advisories/dsecrg-11-041-sap-netweaver-authentication-bypass-verb-tampering/",
-    "URL-http://erpscan.com/wp-content/uploads/2012/11/Breaking-SAP-Portal-HackerHalted-2012.pdf"
-  ],
-  "rport": 50000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_ctc_verb_tampering_user_mgmt",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "SAP CTC Service Verb Tampering User Management",
+	"fullname": "auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Alexandr Polyakov",
+		"nmonkee"
+	],
+	"description": "This module exploits an authentication bypass vulnerability in SAP NetWeaver\n        CTC service. The service is vulnerable to verb tampering allowing for unauthorised\n        OS user management. Information about resolution should be available at SAP notes\n        1589525 and 1624450 (authentication required).",
+	"references": [
+		"URL-http://erpscan.com/advisories/dsecrg-11-041-sap-netweaver-authentication-bypass-verb-tampering/",
+		"URL-http://erpscan.com/wp-content/uploads/2012/11/Breaking-SAP-Portal-HackerHalted-2012.pdf"
+	],
+	"rport": 50000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_ctc_verb_tampering_user_mgmt",
+	"post_auth": true,
+	"needs_cleanup": false
 }

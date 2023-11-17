@@ -1,17 +1,17 @@
 {
-  "name": "Python Exec, Python Meterpreter Shell, Bind TCP Inline",
-  "fullname": "payload/cmd/windows/python/meterpreter_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre"
-  ],
-  "description": "Execute a Python payload from a command.\n\nConnect to the victim and spawn a Meterpreter shell",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-01-20 14:53:59 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/python.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/python/meterpreter_bind_tcp",
-  "needs_cleanup": false
+	"name": "Python Exec, Python Meterpreter Shell, Bind TCP Inline",
+	"fullname": "payload/cmd/windows/python/meterpreter_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Execute a Python payload from a command.\n\nConnect to the victim and spawn a Meterpreter shell",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-01-20 14:53:59 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/python.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/python/meterpreter_bind_tcp",
+	"needs_cleanup": false
 }

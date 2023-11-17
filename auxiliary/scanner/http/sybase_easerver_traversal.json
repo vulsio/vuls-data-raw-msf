@@ -1,39 +1,39 @@
 {
-  "name": "Sybase Easerver 6.3 Directory Traversal",
-  "fullname": "auxiliary/scanner/http/sybase_easerver_traversal",
-  "rank": 300,
-  "disclosure_date": "2011-05-25",
-  "type": "auxiliary",
-  "author": [
-    "Sow Ching Shiong",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability found in Sybase\n        EAserver's Jetty webserver on port 8000. Code execution seems unlikely with\n        EAserver's default configuration unless the web server allows WRITE permission.",
-  "references": [
-    "CVE-2011-2474",
-    "OSVDB-72498",
-    "URL-http://www.sybase.com/detail?id=1093216",
-    "URL-https://labs.idefense.com/verisign/intelligence/2009/vulnerabilities/display.php?id=912"
-  ],
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/sybase_easerver_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/sybase_easerver_traversal",
-  "needs_cleanup": false
+	"name": "Sybase Easerver 6.3 Directory Traversal",
+	"fullname": "auxiliary/scanner/http/sybase_easerver_traversal",
+	"rank": 300,
+	"disclosure_date": "2011-05-25",
+	"type": "auxiliary",
+	"author": [
+		"Sow Ching Shiong",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability found in Sybase\n        EAserver's Jetty webserver on port 8000. Code execution seems unlikely with\n        EAserver's default configuration unless the web server allows WRITE permission.",
+	"references": [
+		"CVE-2011-2474",
+		"OSVDB-72498",
+		"URL-http://www.sybase.com/detail?id=1093216",
+		"URL-https://labs.idefense.com/verisign/intelligence/2009/vulnerabilities/display.php?id=912"
+	],
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/sybase_easerver_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/sybase_easerver_traversal",
+	"needs_cleanup": false
 }

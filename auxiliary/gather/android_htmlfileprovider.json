@@ -1,20 +1,20 @@
 {
-  "name": "Android Content Provider File Disclosure",
-  "fullname": "auxiliary/gather/android_htmlfileprovider",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Thomas Cannon",
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "This module exploits a cross-domain issue within the Android web browser to\n        exfiltrate files from a vulnerable device.",
-  "references": [
-    "CVE-2010-4804",
-    "URL-http://thomascannon.net/blog/2010/11/android-data-stealing-vulnerability/"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/gather/android_htmlfileprovider.rb",
-  "is_install_path": true,
-  "ref_name": "gather/android_htmlfileprovider",
-  "needs_cleanup": false
+	"name": "Android Content Provider File Disclosure",
+	"fullname": "auxiliary/gather/android_htmlfileprovider",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Thomas Cannon",
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "This module exploits a cross-domain issue within the Android web browser to\n        exfiltrate files from a vulnerable device.",
+	"references": [
+		"CVE-2010-4804",
+		"URL-http://thomascannon.net/blog/2010/11/android-data-stealing-vulnerability/"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/gather/android_htmlfileprovider.rb",
+	"is_install_path": true,
+	"ref_name": "gather/android_htmlfileprovider",
+	"needs_cleanup": false
 }

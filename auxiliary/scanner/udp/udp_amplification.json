@@ -1,19 +1,19 @@
 {
-  "name": "UDP Amplification Scanner",
-  "fullname": "auxiliary/scanner/udp/udp_amplification",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "Detect UDP endpoints with UDP amplification vulnerabilities",
-  "references": [
-    "CVE-2013-5211",
-    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/udp/udp_amplification.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/udp/udp_amplification",
-  "needs_cleanup": false
+	"name": "UDP Amplification Scanner",
+	"fullname": "auxiliary/scanner/udp/udp_amplification",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "Detect UDP endpoints with UDP amplification vulnerabilities",
+	"references": [
+		"CVE-2013-5211",
+		"URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/udp/udp_amplification.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/udp/udp_amplification",
+	"needs_cleanup": false
 }

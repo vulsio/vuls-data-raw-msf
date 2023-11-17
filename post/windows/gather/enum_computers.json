@@ -1,25 +1,25 @@
 {
-  "name": "Windows Gather Enumerate Computers",
-  "fullname": "post/windows/gather/enum_computers",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Joshua Abraham <jabra@rapid7.com>"
-  ],
-  "description": "This module will enumerate computers included in the primary Active Directory domain.",
-  "platform": "Windows",
-  "mod_time": "2023-10-12 10:59:29 +0000",
-  "path": "/modules/post/windows/gather/enum_computers.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_computers",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter",
-    "powershell",
-    "shell"
-  ]
+	"name": "Windows Gather Enumerate Computers",
+	"fullname": "post/windows/gather/enum_computers",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Joshua Abraham <jabra@rapid7.com>"
+	],
+	"description": "This module will enumerate computers included in the primary Active Directory domain.",
+	"platform": "Windows",
+	"mod_time": "2023-10-12 10:59:29 +0000",
+	"path": "/modules/post/windows/gather/enum_computers.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_computers",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter",
+		"powershell",
+		"shell"
+	]
 }

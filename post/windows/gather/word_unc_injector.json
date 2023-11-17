@@ -1,21 +1,21 @@
 {
-  "name": "Windows Gather Microsoft Office Word UNC Path Injector",
-  "fullname": "post/windows/gather/word_unc_injector",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "SphaZ <cyberphaz@gmail.com>"
-  ],
-  "description": "This module modifies a remote .docx file that will, upon opening, submit\n          stored netNTLM credentials to a remote host. Verified to work with Microsoft\n          Word 2003, 2007, 2010, and 2013. In order to get the hashes the\n          auxiliary/server/capture/smb module can be used.",
-  "references": [
-    "URL-https://web.archive.org/web/20140527232608/http://jedicorp.com/?p=534"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/word_unc_injector.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/word_unc_injector",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Microsoft Office Word UNC Path Injector",
+	"fullname": "post/windows/gather/word_unc_injector",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"SphaZ <cyberphaz@gmail.com>"
+	],
+	"description": "This module modifies a remote .docx file that will, upon opening, submit\n          stored netNTLM credentials to a remote host. Verified to work with Microsoft\n          Word 2003, 2007, 2010, and 2013. In order to get the hashes the\n          auxiliary/server/capture/smb module can be used.",
+	"references": [
+		"URL-https://web.archive.org/web/20140527232608/http://jedicorp.com/?p=534"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/word_unc_injector.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/word_unc_injector",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,15 +1,15 @@
 {
-  "name": "HTTP Client MS Credential Catcher",
-  "fullname": "auxiliary/server/capture/http_ntlm",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ryan Linn <sussurro@happypacket.net>"
-  ],
-  "description": "This module attempts to quietly catch NTLM/LM Challenge hashes.",
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/server/capture/http_ntlm.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/http_ntlm",
-  "needs_cleanup": false
+	"name": "HTTP Client MS Credential Catcher",
+	"fullname": "auxiliary/server/capture/http_ntlm",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ryan Linn <sussurro@happypacket.net>"
+	],
+	"description": "This module attempts to quietly catch NTLM/LM Challenge hashes.",
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/server/capture/http_ntlm.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/http_ntlm",
+	"needs_cleanup": false
 }

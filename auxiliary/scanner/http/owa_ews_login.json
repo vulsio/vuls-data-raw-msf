@@ -1,17 +1,17 @@
 {
-  "name": "OWA Exchange Web Services (EWS) Login Scanner",
-  "fullname": "auxiliary/scanner/http/owa_ews_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rich Whitcroft"
-  ],
-  "description": "This module attempts to log in to the Exchange Web Services, often\n        exposed at https://example.com/ews/, using NTLM authentication. This\n        method is faster and simpler than traditional form-based logins.\n\n        In most cases, all you need to set is RHOSTS and some combination of\n        user/pass files; the autodiscovery should find the location of the NTLM\n        authentication point as well as the AD domain, and use them accordingly.",
-  "rport": 443,
-  "mod_time": "2021-08-31 17:10:07 +0000",
-  "path": "/modules/auxiliary/scanner/http/owa_ews_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/owa_ews_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "OWA Exchange Web Services (EWS) Login Scanner",
+	"fullname": "auxiliary/scanner/http/owa_ews_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rich Whitcroft"
+	],
+	"description": "This module attempts to log in to the Exchange Web Services, often\n        exposed at https://example.com/ews/, using NTLM authentication. This\n        method is faster and simpler than traditional form-based logins.\n\n        In most cases, all you need to set is RHOSTS and some combination of\n        user/pass files; the autodiscovery should find the location of the NTLM\n        authentication point as well as the AD domain, and use them accordingly.",
+	"rport": 443,
+	"mod_time": "2021-08-31 17:10:07 +0000",
+	"path": "/modules/auxiliary/scanner/http/owa_ews_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/owa_ews_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

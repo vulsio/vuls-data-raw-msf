@@ -1,19 +1,19 @@
 {
-  "name": "Netopia 3347 Cable Modem Wifi Enumeration",
-  "fullname": "auxiliary/scanner/snmp/netopia_enum",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Deral \"PercentX\" Heiland"
-  ],
-  "description": "This module extracts WEP keys and WPA preshared keys from\n        certain Netopia cable modems.",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2014/05/15/r7-2014-01-r7-2014-02-r7-2014-03-disclosures-exposure-of-critical-information-via-snmp-public-community-string/"
-  ],
-  "rport": 161,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/snmp/netopia_enum.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/snmp/netopia_enum",
-  "needs_cleanup": false
+	"name": "Netopia 3347 Cable Modem Wifi Enumeration",
+	"fullname": "auxiliary/scanner/snmp/netopia_enum",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Deral \"PercentX\" Heiland"
+	],
+	"description": "This module extracts WEP keys and WPA preshared keys from\n        certain Netopia cable modems.",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2014/05/15/r7-2014-01-r7-2014-02-r7-2014-03-disclosures-exposure-of-critical-information-via-snmp-public-community-string/"
+	],
+	"rport": 161,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/snmp/netopia_enum.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/snmp/netopia_enum",
+	"needs_cleanup": false
 }

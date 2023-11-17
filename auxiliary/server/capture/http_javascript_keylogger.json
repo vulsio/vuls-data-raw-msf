@@ -1,16 +1,16 @@
 {
-  "name": "Capture: HTTP JavaScript Keylogger",
-  "fullname": "auxiliary/server/capture/http_javascript_keylogger",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Marcus J. Carey <mjc@threatagent.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This modules runs a web server that demonstrates keystroke\n        logging through JavaScript. The DEMO option can be set to enable\n        a page that demonstrates this technique. Future improvements will\n        allow for a configurable template to be used with this module.\n        To use this module with an existing web page, simply add a\n        script source tag pointing to the URL of this service ending\n        in the .js extension. For example, if URIPATH is set to \"test\",\n        the following URL will load this script into the calling site:\n        http://server:port/test/anything.js",
-  "mod_time": "2018-04-20 16:34:51 +0000",
-  "path": "/modules/auxiliary/server/capture/http_javascript_keylogger.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/http_javascript_keylogger",
-  "needs_cleanup": false
+	"name": "Capture: HTTP JavaScript Keylogger",
+	"fullname": "auxiliary/server/capture/http_javascript_keylogger",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Marcus J. Carey <mjc@threatagent.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This modules runs a web server that demonstrates keystroke\n        logging through JavaScript. The DEMO option can be set to enable\n        a page that demonstrates this technique. Future improvements will\n        allow for a configurable template to be used with this module.\n        To use this module with an existing web page, simply add a\n        script source tag pointing to the URL of this service ending\n        in the .js extension. For example, if URIPATH is set to \"test\",\n        the following URL will load this script into the calling site:\n        http://server:port/test/anything.js",
+	"mod_time": "2018-04-20 16:34:51 +0000",
+	"path": "/modules/auxiliary/server/capture/http_javascript_keylogger.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/http_javascript_keylogger",
+	"needs_cleanup": false
 }

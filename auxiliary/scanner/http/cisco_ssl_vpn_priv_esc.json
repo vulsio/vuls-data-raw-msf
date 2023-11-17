@@ -1,39 +1,39 @@
 {
-  "name": "Cisco ASA SSL VPN Privilege Escalation Vulnerability",
-  "fullname": "auxiliary/scanner/http/cisco_ssl_vpn_priv_esc",
-  "rank": 300,
-  "disclosure_date": "2014-04-09",
-  "type": "auxiliary",
-  "author": [
-    "jclaudius <jclaudius@trustwave.com>",
-    "lguay <laura.r.guay@gmail.com>"
-  ],
-  "description": "This module exploits a privilege escalation vulnerability for Cisco\n        ASA SSL VPN (aka: WebVPN). It allows level 0 users to escalate to\n        level 15.",
-  "references": [
-    "CVE-2014-2127",
-    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140409-asa",
-    "URL-https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=18908"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/cisco_ssl_vpn_priv_esc.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/cisco_ssl_vpn_priv_esc",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Cisco ASA SSL VPN Privilege Escalation Vulnerability",
+	"fullname": "auxiliary/scanner/http/cisco_ssl_vpn_priv_esc",
+	"rank": 300,
+	"disclosure_date": "2014-04-09",
+	"type": "auxiliary",
+	"author": [
+		"jclaudius <jclaudius@trustwave.com>",
+		"lguay <laura.r.guay@gmail.com>"
+	],
+	"description": "This module exploits a privilege escalation vulnerability for Cisco\n        ASA SSL VPN (aka: WebVPN). It allows level 0 users to escalate to\n        level 15.",
+	"references": [
+		"CVE-2014-2127",
+		"URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140409-asa",
+		"URL-https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=18908"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/cisco_ssl_vpn_priv_esc.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/cisco_ssl_vpn_priv_esc",
+	"post_auth": true,
+	"needs_cleanup": false
 }

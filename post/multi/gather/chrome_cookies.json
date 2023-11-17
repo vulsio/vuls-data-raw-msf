@@ -1,19 +1,19 @@
 {
-  "name": "Chrome Gather Cookies",
-  "fullname": "post/multi/gather/chrome_cookies",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "mangopdf <mangodotpdf@gmail.com>"
-  ],
-  "description": "Read all cookies from the Default Chrome profile of the target user.",
-  "platform": "BSD,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/chrome_cookies.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/chrome_cookies",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Chrome Gather Cookies",
+	"fullname": "post/multi/gather/chrome_cookies",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"mangopdf <mangodotpdf@gmail.com>"
+	],
+	"description": "Read all cookies from the Default Chrome profile of the target user.",
+	"platform": "BSD,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/chrome_cookies.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/chrome_cookies",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

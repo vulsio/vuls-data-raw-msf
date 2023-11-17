@@ -1,17 +1,17 @@
 {
-  "name": "Unix Command Shell, Reverse SCTP (via socat)",
-  "fullname": "payload/cmd/unix/reverse_socat_sctp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Creates an interactive shell via socat",
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2023-04-27 16:21:34 +0000",
-  "path": "/modules/payloads/singles/cmd/unix/reverse_socat_sctp.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/reverse_socat_sctp",
-  "needs_cleanup": false
+	"name": "Unix Command Shell, Reverse SCTP (via socat)",
+	"fullname": "payload/cmd/unix/reverse_socat_sctp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Creates an interactive shell via socat",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2023-04-27 16:21:34 +0000",
+	"path": "/modules/payloads/singles/cmd/unix/reverse_socat_sctp.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/reverse_socat_sctp",
+	"needs_cleanup": false
 }

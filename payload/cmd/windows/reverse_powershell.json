@@ -1,21 +1,21 @@
 {
-  "name": "Windows Command Shell, Reverse TCP (via Powershell)",
-  "fullname": "payload/cmd/windows/reverse_powershell",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Dave Kennedy",
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "Connect back and create a command shell via Powershell",
-  "references": [
-    "URL-https://github.com/trustedsec/social-engineer-toolkit/blob/master/src/powershell/reverse.powershell"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/reverse_powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/reverse_powershell",
-  "needs_cleanup": false
+	"name": "Windows Command Shell, Reverse TCP (via Powershell)",
+	"fullname": "payload/cmd/windows/reverse_powershell",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Dave Kennedy",
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "Connect back and create a command shell via Powershell",
+	"references": [
+		"URL-https://github.com/trustedsec/social-engineer-toolkit/blob/master/src/powershell/reverse.powershell"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/reverse_powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/reverse_powershell",
+	"needs_cleanup": false
 }

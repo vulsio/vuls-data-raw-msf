@@ -1,21 +1,21 @@
 {
-  "name": "Linux Reboot",
-  "fullname": "payload/linux/mipsbe/reboot",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Michael Messner <devnull@s3cur1ty.de>",
-    "rigan - <imrigan@gmail.com>"
-  ],
-  "description": "A very small shellcode for rebooting the system.\n            This payload is sometimes helpful for testing purposes or executing\n            other payloads that rely on initial startup procedures.",
-  "references": [
-    "URL-http://www.shell-storm.org/shellcode/files/shellcode-795.php"
-  ],
-  "platform": "Linux",
-  "arch": "mipsbe",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/linux/mipsbe/reboot.rb",
-  "is_install_path": true,
-  "ref_name": "linux/mipsbe/reboot",
-  "needs_cleanup": false
+	"name": "Linux Reboot",
+	"fullname": "payload/linux/mipsbe/reboot",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Michael Messner <devnull@s3cur1ty.de>",
+		"rigan - <imrigan@gmail.com>"
+	],
+	"description": "A very small shellcode for rebooting the system.\n            This payload is sometimes helpful for testing purposes or executing\n            other payloads that rely on initial startup procedures.",
+	"references": [
+		"URL-http://www.shell-storm.org/shellcode/files/shellcode-795.php"
+	],
+	"platform": "Linux",
+	"arch": "mipsbe",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/linux/mipsbe/reboot.rb",
+	"is_install_path": true,
+	"ref_name": "linux/mipsbe/reboot",
+	"needs_cleanup": false
 }

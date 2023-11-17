@@ -1,34 +1,34 @@
 {
-  "name": "Microsoft SQL Server Generic Query",
-  "fullname": "auxiliary/admin/mssql/mssql_sql",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "tebo <tebo@attackresearch.com>"
-  ],
-  "description": "This module will allow for simple SQL statements to be executed against a\n          MSSQL/MSDE instance given the appropriate credentials.",
-  "references": [
-    "URL-http://www.attackresearch.com",
-    "URL-http://msdn.microsoft.com/en-us/library/cc448435(PROT.10).aspx"
-  ],
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2017-08-24 21:38:44 +0000",
-  "path": "/modules/auxiliary/admin/mssql/mssql_sql.rb",
-  "is_install_path": true,
-  "ref_name": "admin/mssql/mssql_sql",
-  "needs_cleanup": false
+	"name": "Microsoft SQL Server Generic Query",
+	"fullname": "auxiliary/admin/mssql/mssql_sql",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"tebo <tebo@attackresearch.com>"
+	],
+	"description": "This module will allow for simple SQL statements to be executed against a\n          MSSQL/MSDE instance given the appropriate credentials.",
+	"references": [
+		"URL-http://www.attackresearch.com",
+		"URL-http://msdn.microsoft.com/en-us/library/cc448435(PROT.10).aspx"
+	],
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2017-08-24 21:38:44 +0000",
+	"path": "/modules/auxiliary/admin/mssql/mssql_sql.rb",
+	"is_install_path": true,
+	"ref_name": "admin/mssql/mssql_sql",
+	"needs_cleanup": false
 }

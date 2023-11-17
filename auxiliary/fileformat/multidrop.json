@@ -1,23 +1,23 @@
 {
-  "name": "Windows SMB Multi Dropper",
-  "fullname": "auxiliary/fileformat/multidrop",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Richard Davy - secureyourit.co.uk",
-    "Lnk Creation Code by Mubix",
-    "asoto-r7"
-  ],
-  "description": "This module dependent on the given filename extension creates either\n          a .lnk, .scf, .url, .xml, or desktop.ini file which includes a reference\n          to the specified remote host, causing SMB connections to be initiated\n          from any user that views the file.",
-  "references": [
-    "URL-https://malicious.link/blog/2012/02/11/ms08_068-ms10_046-fun-until-2018",
-    "URL-https://malicious.link/post/2012/2012-02-19-developing-the-lnk-metasploit-post-module-with-mona/",
-    "URL-https://bohops.com/2018/08/04/capturing-netntlm-hashes-with-office-dot-xml-documents/"
-  ],
-  "platform": "Windows",
-  "mod_time": "2022-12-04 17:41:24 +0000",
-  "path": "/modules/auxiliary/fileformat/multidrop.rb",
-  "is_install_path": true,
-  "ref_name": "fileformat/multidrop",
-  "needs_cleanup": false
+	"name": "Windows SMB Multi Dropper",
+	"fullname": "auxiliary/fileformat/multidrop",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Richard Davy - secureyourit.co.uk",
+		"Lnk Creation Code by Mubix",
+		"asoto-r7"
+	],
+	"description": "This module dependent on the given filename extension creates either\n          a .lnk, .scf, .url, .xml, or desktop.ini file which includes a reference\n          to the specified remote host, causing SMB connections to be initiated\n          from any user that views the file.",
+	"references": [
+		"URL-https://malicious.link/blog/2012/02/11/ms08_068-ms10_046-fun-until-2018",
+		"URL-https://malicious.link/post/2012/2012-02-19-developing-the-lnk-metasploit-post-module-with-mona/",
+		"URL-https://bohops.com/2018/08/04/capturing-netntlm-hashes-with-office-dot-xml-documents/"
+	],
+	"platform": "Windows",
+	"mod_time": "2022-12-04 17:41:24 +0000",
+	"path": "/modules/auxiliary/fileformat/multidrop.rb",
+	"is_install_path": true,
+	"ref_name": "fileformat/multidrop",
+	"needs_cleanup": false
 }

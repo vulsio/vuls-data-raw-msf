@@ -1,22 +1,22 @@
 {
-  "name": "Reflective DLL Injection, Reverse HTTP Stager Proxy",
-  "fullname": "payload/windows/dllinject/reverse_http_proxy_pstore",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Inject a DLL via a reflective loader.\n\nTunnel communication over HTTP",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_http_proxy_pstore.rb",
-  "is_install_path": true,
-  "ref_name": "windows/dllinject/reverse_http_proxy_pstore",
-  "needs_cleanup": false
+	"name": "Reflective DLL Injection, Reverse HTTP Stager Proxy",
+	"fullname": "payload/windows/dllinject/reverse_http_proxy_pstore",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Inject a DLL via a reflective loader.\n\nTunnel communication over HTTP",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_http_proxy_pstore.rb",
+	"is_install_path": true,
+	"ref_name": "windows/dllinject/reverse_http_proxy_pstore",
+	"needs_cleanup": false
 }

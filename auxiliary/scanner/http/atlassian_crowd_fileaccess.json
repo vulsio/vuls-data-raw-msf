@@ -1,42 +1,42 @@
 {
-  "name": "Atlassian Crowd XML Entity Expansion Remote File Access",
-  "fullname": "auxiliary/scanner/http/atlassian_crowd_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Will Caput",
-    "Trevor Hartman",
-    "Thaddeus Bogner",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module simply attempts to read a remote file from the server using a\n        vulnerability in the way Atlassian Crowd handles XML files. The vulnerability\n        occurs while trying to expand external entities with the SYSTEM identifier. This\n        module has been tested successfully on Linux and Windows installations of Crowd.",
-  "references": [
-    "CVE-2012-2926",
-    "OSVDB-82274",
-    "BID-53595",
-    "URL-https://neg9.org/",
-    "URL-https://confluence.atlassian.com/crowd/crowd-security-advisory-2012-05-17-283641186.html"
-  ],
-  "rport": 8095,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443,
-    8095
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/atlassian_crowd_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/atlassian_crowd_fileaccess",
-  "needs_cleanup": false
+	"name": "Atlassian Crowd XML Entity Expansion Remote File Access",
+	"fullname": "auxiliary/scanner/http/atlassian_crowd_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Will Caput",
+		"Trevor Hartman",
+		"Thaddeus Bogner",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module simply attempts to read a remote file from the server using a\n        vulnerability in the way Atlassian Crowd handles XML files. The vulnerability\n        occurs while trying to expand external entities with the SYSTEM identifier. This\n        module has been tested successfully on Linux and Windows installations of Crowd.",
+	"references": [
+		"CVE-2012-2926",
+		"OSVDB-82274",
+		"BID-53595",
+		"URL-https://neg9.org/",
+		"URL-https://confluence.atlassian.com/crowd/crowd-security-advisory-2012-05-17-283641186.html"
+	],
+	"rport": 8095,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443,
+		8095
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/atlassian_crowd_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/atlassian_crowd_fileaccess",
+	"needs_cleanup": false
 }

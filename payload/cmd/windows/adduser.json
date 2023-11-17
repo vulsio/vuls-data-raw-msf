@@ -1,20 +1,20 @@
 {
-  "name": "Windows Execute net user /ADD CMD",
-  "fullname": "payload/cmd/windows/adduser",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "hdm <x@hdm.io>",
-    "scriptjunkie",
-    "Chris John Riley"
-  ],
-  "description": "Create a new user and add them to local administration group.\n\n        Note: The specified password is checked for common complexity\n        requirements to prevent the target machine rejecting the user\n        for failing to meet policy requirements.\n\n        Complexity check: 8-14 chars (1 UPPER, 1 lower, 1 digit/special)",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/adduser.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/adduser",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Windows Execute net user /ADD CMD",
+	"fullname": "payload/cmd/windows/adduser",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"hdm <x@hdm.io>",
+		"scriptjunkie",
+		"Chris John Riley"
+	],
+	"description": "Create a new user and add them to local administration group.\n\n        Note: The specified password is checked for common complexity\n        requirements to prevent the target machine rejecting the user\n        for failing to meet policy requirements.\n\n        Complexity check: 8-14 chars (1 UPPER, 1 lower, 1 digit/special)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/adduser.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/adduser",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,36 +1,36 @@
 {
-  "name": "HTTP Cross-Site Tracing Detection",
-  "fullname": "auxiliary/scanner/http/trace",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jay Turla <@shipcod3>",
-    "CG <cg@carnal0wnage.com>"
-  ],
-  "description": "Checks if the host is vulnerable to Cross-Site Tracing (XST)",
-  "references": [
-    "CVE-2005-3398",
-    "URL-https://owasp.org/www-community/attacks/Cross_Site_Tracing"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/trace.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/trace",
-  "needs_cleanup": false
+	"name": "HTTP Cross-Site Tracing Detection",
+	"fullname": "auxiliary/scanner/http/trace",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jay Turla <@shipcod3>",
+		"CG <cg@carnal0wnage.com>"
+	],
+	"description": "Checks if the host is vulnerable to Cross-Site Tracing (XST)",
+	"references": [
+		"CVE-2005-3398",
+		"URL-https://owasp.org/www-community/attacks/Cross_Site_Tracing"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/trace.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/trace",
+	"needs_cleanup": false
 }

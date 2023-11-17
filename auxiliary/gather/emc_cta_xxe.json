@@ -1,36 +1,36 @@
 {
-  "name": "EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read",
-  "fullname": "auxiliary/gather/emc_cta_xxe",
-  "rank": 300,
-  "disclosure_date": "2014-03-31",
-  "type": "auxiliary",
-  "author": [
-    "Brandon Perry <bperry.volatile@gmail.com>"
-  ],
-  "description": "EMC CTA v10.0 is susceptible to an unauthenticated XXE attack\n      that allows an attacker to read arbitrary files from the file system\n      with the permissions of the root user.",
-  "references": [
-    "CVE-2014-0644",
-    "EDB-32623"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/gather/emc_cta_xxe.rb",
-  "is_install_path": true,
-  "ref_name": "gather/emc_cta_xxe",
-  "needs_cleanup": false
+	"name": "EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read",
+	"fullname": "auxiliary/gather/emc_cta_xxe",
+	"rank": 300,
+	"disclosure_date": "2014-03-31",
+	"type": "auxiliary",
+	"author": [
+		"Brandon Perry <bperry.volatile@gmail.com>"
+	],
+	"description": "EMC CTA v10.0 is susceptible to an unauthenticated XXE attack\n      that allows an attacker to read arbitrary files from the file system\n      with the permissions of the root user.",
+	"references": [
+		"CVE-2014-0644",
+		"EDB-32623"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/gather/emc_cta_xxe.rb",
+	"is_install_path": true,
+	"ref_name": "gather/emc_cta_xxe",
+	"needs_cleanup": false
 }

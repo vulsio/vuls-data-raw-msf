@@ -1,16 +1,16 @@
 {
-  "name": "MMS Client",
-  "fullname": "auxiliary/client/mms/send_mms",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module sends an MMS message to multiple phones of the same carrier.\n        You can use it to send a malicious attachment to phones.",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/client/mms/send_mms.rb",
-  "is_install_path": true,
-  "ref_name": "client/mms/send_mms",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "MMS Client",
+	"fullname": "auxiliary/client/mms/send_mms",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module sends an MMS message to multiple phones of the same carrier.\n        You can use it to send a malicious attachment to phones.",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/client/mms/send_mms.rb",
+	"is_install_path": true,
+	"ref_name": "client/mms/send_mms",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,23 +1,23 @@
 {
-  "name": "HP Data Protector Manager RDS DOS",
-  "fullname": "auxiliary/dos/hp/data_protector_rds",
-  "rank": 300,
-  "disclosure_date": "2011-01-08",
-  "type": "auxiliary",
-  "author": [
-    "Roi Mallo <rmallof@gmail.com>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module causes a remote DOS on HP Data Protector's RDS service.  By sending\n        a malformed packet to port 1530, _rm32.dll causes RDS to crash due to an enormous\n        size for malloc().",
-  "references": [
-    "CVE-2011-0514",
-    "OSVDB-70617",
-    "EDB-15940"
-  ],
-  "rport": 1530,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/hp/data_protector_rds.rb",
-  "is_install_path": true,
-  "ref_name": "dos/hp/data_protector_rds",
-  "needs_cleanup": false
+	"name": "HP Data Protector Manager RDS DOS",
+	"fullname": "auxiliary/dos/hp/data_protector_rds",
+	"rank": 300,
+	"disclosure_date": "2011-01-08",
+	"type": "auxiliary",
+	"author": [
+		"Roi Mallo <rmallof@gmail.com>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module causes a remote DOS on HP Data Protector's RDS service.  By sending\n        a malformed packet to port 1530, _rm32.dll causes RDS to crash due to an enormous\n        size for malloc().",
+	"references": [
+		"CVE-2011-0514",
+		"OSVDB-70617",
+		"EDB-15940"
+	],
+	"rport": 1530,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/hp/data_protector_rds.rb",
+	"is_install_path": true,
+	"ref_name": "dos/hp/data_protector_rds",
+	"needs_cleanup": false
 }

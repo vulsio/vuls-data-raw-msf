@@ -1,15 +1,15 @@
 {
-  "name": "Password Cracker: Mobile",
-  "fullname": "auxiliary/analyze/crack_mobile",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "h00die"
-  ],
-  "description": "This module uses Hashcat to identify weak passwords that have been\n        acquired from Android systems.  These utilize MD5 or SHA1 hashing.\n        Android (Samsung) SHA1 is format 5800 in Hashcat.  Android\n        (non-Samsung) SHA1 is format 110 in Hashcat.  Android MD5 is format 10.\n        JTR does not support Android hashes at the time of writing.",
-  "mod_time": "2021-01-27 13:50:39 +0000",
-  "path": "/modules/auxiliary/analyze/crack_mobile.rb",
-  "is_install_path": true,
-  "ref_name": "analyze/crack_mobile",
-  "needs_cleanup": false
+	"name": "Password Cracker: Mobile",
+	"fullname": "auxiliary/analyze/crack_mobile",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"h00die"
+	],
+	"description": "This module uses Hashcat to identify weak passwords that have been\n        acquired from Android systems.  These utilize MD5 or SHA1 hashing.\n        Android (Samsung) SHA1 is format 5800 in Hashcat.  Android\n        (non-Samsung) SHA1 is format 110 in Hashcat.  Android MD5 is format 10.\n        JTR does not support Android hashes at the time of writing.",
+	"mod_time": "2021-01-27 13:50:39 +0000",
+	"path": "/modules/auxiliary/analyze/crack_mobile.rb",
+	"is_install_path": true,
+	"ref_name": "analyze/crack_mobile",
+	"needs_cleanup": false
 }

@@ -1,39 +1,39 @@
 {
-  "name": "Kaseya VSA Master Administrator Account Creation",
-  "fullname": "auxiliary/admin/http/kaseya_master_admin",
-  "rank": 300,
-  "disclosure_date": "2015-09-23",
-  "type": "auxiliary",
-  "author": [
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "This module abuses the setAccount page on Kaseya VSA between 7 and 9.1 to create a new\n          Master Administrator account. Normally this page is only accessible via the localhost\n          interface, but the application does nothing to prevent this apart from attempting to\n          force a redirect. This module has been tested with Kaseya VSA v7.0.0.17, v8.0.0.10 and\n          v9.0.0.3.",
-  "references": [
-    "CVE-2015-6922",
-    "ZDI-15-448",
-    "URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/Kaseya/kaseya-vsa-vuln-2.txt",
-    "URL-https://seclists.org/bugtraq/2015/Sep/132"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/kaseya_master_admin.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/kaseya_master_admin",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Kaseya VSA Master Administrator Account Creation",
+	"fullname": "auxiliary/admin/http/kaseya_master_admin",
+	"rank": 300,
+	"disclosure_date": "2015-09-23",
+	"type": "auxiliary",
+	"author": [
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "This module abuses the setAccount page on Kaseya VSA between 7 and 9.1 to create a new\n          Master Administrator account. Normally this page is only accessible via the localhost\n          interface, but the application does nothing to prevent this apart from attempting to\n          force a redirect. This module has been tested with Kaseya VSA v7.0.0.17, v8.0.0.10 and\n          v9.0.0.3.",
+	"references": [
+		"CVE-2015-6922",
+		"ZDI-15-448",
+		"URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/Kaseya/kaseya-vsa-vuln-2.txt",
+		"URL-https://seclists.org/bugtraq/2015/Sep/132"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/kaseya_master_admin.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/kaseya_master_admin",
+	"post_auth": true,
+	"needs_cleanup": false
 }

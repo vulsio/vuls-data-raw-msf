@@ -1,34 +1,34 @@
 {
-  "name": "Generic HTTP Directory Traversal Utility",
-  "fullname": "auxiliary/scanner/http/http_traversal",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ewerson Guimaraes(Crash) <crash@dclabs.com.br>",
-    "Michael Messner <devnull@s3cur1ty.de>",
-    "et <et@cyberspace.org>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module allows you to test if a web server (or web application) is\n        vulnerable to directory traversal with three different actions.\n\n          The 'CHECK' action (default) is used to automatically (or manually) find if\n        directory traversal exists in the web server, and then return the path that\n        triggers the vulnerability.  The 'DOWNLOAD' action shares the same ability as\n        'CHECK', but will take advantage of the found trigger to download files based on\n        a 'FILELIST' of your choosing.  The 'PHPSOURCE' action can be used to download\n        source against PHP applications.  The 'WRITABLE' action can be used to determine\n        if the trigger can be used to write files outside the www directory.\n\n          To use the 'COOKIE' option, set your value like so: \"name=value\".",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-03-11 08:13:02 +0000",
-  "path": "/modules/auxiliary/scanner/http/http_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/http_traversal",
-  "needs_cleanup": false
+	"name": "Generic HTTP Directory Traversal Utility",
+	"fullname": "auxiliary/scanner/http/http_traversal",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ewerson Guimaraes(Crash) <crash@dclabs.com.br>",
+		"Michael Messner <devnull@s3cur1ty.de>",
+		"et <et@cyberspace.org>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module allows you to test if a web server (or web application) is\n        vulnerable to directory traversal with three different actions.\n\n          The 'CHECK' action (default) is used to automatically (or manually) find if\n        directory traversal exists in the web server, and then return the path that\n        triggers the vulnerability.  The 'DOWNLOAD' action shares the same ability as\n        'CHECK', but will take advantage of the found trigger to download files based on\n        a 'FILELIST' of your choosing.  The 'PHPSOURCE' action can be used to download\n        source against PHP applications.  The 'WRITABLE' action can be used to determine\n        if the trigger can be used to write files outside the www directory.\n\n          To use the 'COOKIE' option, set your value like so: \"name=value\".",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-03-11 08:13:02 +0000",
+	"path": "/modules/auxiliary/scanner/http/http_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/http_traversal",
+	"needs_cleanup": false
 }

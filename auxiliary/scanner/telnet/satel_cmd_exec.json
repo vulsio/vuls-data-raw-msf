@@ -1,28 +1,28 @@
 {
-  "name": "Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability",
-  "fullname": "auxiliary/scanner/telnet/satel_cmd_exec",
-  "rank": 300,
-  "disclosure_date": "2017-04-07",
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "This module exploits an OS Command Injection vulnerability in Satel Iberia SenNet Data Loggers & Electricity Meters\n        to perform arbitrary command execution as 'root'.",
-  "references": [
-    "CVE-2017-6048",
-    "URL-https://ipositivesecurity.com/2017/04/07/sennet-data-logger-appliances-and-electricity-meters-multiple-vulnerabilties/",
-    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-17-131-02"
-  ],
-  "rport": 5000,
-  "autofilter_ports": [
-    23
-  ],
-  "autofilter_services": [
-    "telnet"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/telnet/satel_cmd_exec.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/telnet/satel_cmd_exec",
-  "needs_cleanup": false
+	"name": "Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability",
+	"fullname": "auxiliary/scanner/telnet/satel_cmd_exec",
+	"rank": 300,
+	"disclosure_date": "2017-04-07",
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "This module exploits an OS Command Injection vulnerability in Satel Iberia SenNet Data Loggers & Electricity Meters\n        to perform arbitrary command execution as 'root'.",
+	"references": [
+		"CVE-2017-6048",
+		"URL-https://ipositivesecurity.com/2017/04/07/sennet-data-logger-appliances-and-electricity-meters-multiple-vulnerabilties/",
+		"URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-17-131-02"
+	],
+	"rport": 5000,
+	"autofilter_ports": [
+		23
+	],
+	"autofilter_services": [
+		"telnet"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/telnet/satel_cmd_exec.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/telnet/satel_cmd_exec",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather DbVisualizer Connections Settings",
-  "fullname": "post/multi/gather/dbvis_enum",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "David Bloom"
-  ],
-  "description": "DbVisualizer stores the user database configuration in dbvis.xml.\n          This module retrieves the connections settings from this file and decrypts the encrypted passwords.",
-  "platform": "Linux,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/dbvis_enum.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/dbvis_enum",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Multi Gather DbVisualizer Connections Settings",
+	"fullname": "post/multi/gather/dbvis_enum",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"David Bloom"
+	],
+	"description": "DbVisualizer stores the user database configuration in dbvis.xml.\n          This module retrieves the connections settings from this file and decrypts the encrypted passwords.",
+	"platform": "Linux,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/dbvis_enum.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/dbvis_enum",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

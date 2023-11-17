@@ -1,20 +1,20 @@
 {
-  "name": "Linux Add User",
-  "fullname": "payload/linux/x86/adduser",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "vlad902 <vlad902@gmail.com>",
-    "spoonm <spoonm@no$email.com>"
-  ],
-  "description": "Create a new user with UID 0",
-  "platform": "Linux",
-  "arch": "x86",
-  "mod_time": "2022-09-22 12:55:41 +0000",
-  "path": "/modules/payloads/singles/linux/x86/adduser.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/adduser",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Linux Add User",
+	"fullname": "payload/linux/x86/adduser",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"vlad902 <vlad902@gmail.com>",
+		"spoonm <spoonm@no$email.com>"
+	],
+	"description": "Create a new user with UID 0",
+	"platform": "Linux",
+	"arch": "x86",
+	"mod_time": "2022-09-22 12:55:41 +0000",
+	"path": "/modules/payloads/singles/linux/x86/adduser.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/adduser",
+	"post_auth": true,
+	"needs_cleanup": false
 }

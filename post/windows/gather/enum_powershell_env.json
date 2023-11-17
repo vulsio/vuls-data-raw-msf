@@ -1,29 +1,29 @@
 {
-  "name": "Windows Gather PowerShell Environment Setting Enumeration",
-  "fullname": "post/windows/gather/enum_powershell_env",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module will enumerate Microsoft PowerShell settings.",
-  "references": [
-    "URL-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies",
-    "URL-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles"
-  ],
-  "platform": "Windows",
-  "mod_time": "2022-08-01 00:56:21 +0000",
-  "path": "/modules/post/windows/gather/enum_powershell_env.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_powershell_env",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter",
-    "shell",
-    "powershell"
-  ]
+	"name": "Windows Gather PowerShell Environment Setting Enumeration",
+	"fullname": "post/windows/gather/enum_powershell_env",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module will enumerate Microsoft PowerShell settings.",
+	"references": [
+		"URL-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies",
+		"URL-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles"
+	],
+	"platform": "Windows",
+	"mod_time": "2022-08-01 00:56:21 +0000",
+	"path": "/modules/post/windows/gather/enum_powershell_env.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_powershell_env",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter",
+		"shell",
+		"powershell"
+	]
 }

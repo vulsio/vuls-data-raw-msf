@@ -1,17 +1,17 @@
 {
-  "name": "Single-byte XOR Countdown Encoder",
-  "fullname": "encoder/x86/countdown",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "vlad902 <vlad902@gmail.com>"
-  ],
-  "description": "This encoder uses the length of the payload as a position-dependent\n        encoder key to produce a small decoder stub.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2018-09-01 02:40:26 +0000",
-  "path": "/modules/encoders/x86/countdown.rb",
-  "is_install_path": true,
-  "ref_name": "x86/countdown",
-  "needs_cleanup": false
+	"name": "Single-byte XOR Countdown Encoder",
+	"fullname": "encoder/x86/countdown",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"vlad902 <vlad902@gmail.com>"
+	],
+	"description": "This encoder uses the length of the payload as a position-dependent\n        encoder key to produce a small decoder stub.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2018-09-01 02:40:26 +0000",
+	"path": "/modules/encoders/x86/countdown.rb",
+	"is_install_path": true,
+	"ref_name": "x86/countdown",
+	"needs_cleanup": false
 }

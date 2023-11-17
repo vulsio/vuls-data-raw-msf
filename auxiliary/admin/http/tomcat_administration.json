@@ -1,35 +1,35 @@
 {
-  "name": "Tomcat Administration Tool Default Access",
-  "fullname": "auxiliary/admin/http/tomcat_administration",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "Detect the Tomcat administration interface.  The administration interface is included in versions 5.5 and lower.\n                        Port 8180 is the default for FreeBSD, 8080 for all others.",
-  "references": [
-    "URL-http://tomcat.apache.org/"
-  ],
-  "rport": 8180,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/tomcat_administration.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/tomcat_administration",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Tomcat Administration Tool Default Access",
+	"fullname": "auxiliary/admin/http/tomcat_administration",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "Detect the Tomcat administration interface.  The administration interface is included in versions 5.5 and lower.\n                        Port 8180 is the default for FreeBSD, 8080 for all others.",
+	"references": [
+		"URL-http://tomcat.apache.org/"
+	],
+	"rport": 8180,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/tomcat_administration.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/tomcat_administration",
+	"post_auth": true,
+	"needs_cleanup": false
 }

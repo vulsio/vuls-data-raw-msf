@@ -1,19 +1,19 @@
 {
-  "name": "TFTP Fetch, Linux Command Shell, Reverse SCTP Stager",
-  "fullname": "payload/cmd/linux/tftp/x64/shell/reverse_sctp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "ricky",
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Fetch and execute an x64 payload from a TFTP server.\nSpawn a command shell (staged).\n\nConnect back to the attacker",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-05-25 11:49:38 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/x64/shell/reverse_sctp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Linux Command Shell, Reverse SCTP Stager",
+	"fullname": "payload/cmd/linux/tftp/x64/shell/reverse_sctp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"ricky",
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Fetch and execute an x64 payload from a TFTP server.\nSpawn a command shell (staged).\n\nConnect back to the attacker",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-05-25 11:49:38 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/x64/shell/reverse_sctp",
+	"needs_cleanup": false
 }

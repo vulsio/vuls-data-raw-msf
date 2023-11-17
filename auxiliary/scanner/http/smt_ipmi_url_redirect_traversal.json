@@ -1,38 +1,38 @@
 {
-  "name": "Supermicro Onboard IPMI url_redirect.cgi Authenticated Directory Traversal",
-  "fullname": "auxiliary/scanner/http/smt_ipmi_url_redirect_traversal",
-  "rank": 300,
-  "disclosure_date": "2013-11-06",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module abuses a directory traversal vulnerability in the url_redirect.cgi application\n        accessible through the web interface of Supermicro Onboard IPMI controllers.  The vulnerability\n        is present due to a lack of sanitization of the url_name parameter. This allows an attacker with\n        a valid, but not necessarily administrator-level account, to access the contents of any file\n        on the system. This includes the /nv/PSBlock file, which contains the cleartext credentials for\n        all configured accounts. This module has been tested on a Supermicro Onboard IPMI (X9SCL/X9SCM)\n        with firmware version SMT_X9_214. Other file names to try include /PSStore, /PMConfig.dat, and\n        /wsman/simple_auth.passwd",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2013/11/06/supermicro-ipmi-firmware-vulnerabilities/",
-    "URL-https://github.com/zenfish/ipmi/blob/master/dump_SM.py"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/smt_ipmi_url_redirect_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/smt_ipmi_url_redirect_traversal",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Supermicro Onboard IPMI url_redirect.cgi Authenticated Directory Traversal",
+	"fullname": "auxiliary/scanner/http/smt_ipmi_url_redirect_traversal",
+	"rank": 300,
+	"disclosure_date": "2013-11-06",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module abuses a directory traversal vulnerability in the url_redirect.cgi application\n        accessible through the web interface of Supermicro Onboard IPMI controllers.  The vulnerability\n        is present due to a lack of sanitization of the url_name parameter. This allows an attacker with\n        a valid, but not necessarily administrator-level account, to access the contents of any file\n        on the system. This includes the /nv/PSBlock file, which contains the cleartext credentials for\n        all configured accounts. This module has been tested on a Supermicro Onboard IPMI (X9SCL/X9SCM)\n        with firmware version SMT_X9_214. Other file names to try include /PSStore, /PMConfig.dat, and\n        /wsman/simple_auth.passwd",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2013/11/06/supermicro-ipmi-firmware-vulnerabilities/",
+		"URL-https://github.com/zenfish/ipmi/blob/master/dump_SM.py"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/smt_ipmi_url_redirect_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/smt_ipmi_url_redirect_traversal",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,27 +1,27 @@
 {
-  "name": "FTP Authentication Scanner",
-  "fullname": "auxiliary/scanner/ftp/ftp_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module will test FTP logins on a range of machines and\n        report successful logins.  If you have loaded a database plugin\n        and connected to a database this module will record successful\n        logins and hosts so you can track your access.",
-  "references": [
-    "CVE-1999-0502"
-  ],
-  "rport": 21,
-  "autofilter_ports": [
-    21,
-    2121
-  ],
-  "autofilter_services": [
-    "ftp"
-  ],
-  "mod_time": "2023-04-18 23:44:58 +0000",
-  "path": "/modules/auxiliary/scanner/ftp/ftp_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ftp/ftp_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "FTP Authentication Scanner",
+	"fullname": "auxiliary/scanner/ftp/ftp_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module will test FTP logins on a range of machines and\n        report successful logins.  If you have loaded a database plugin\n        and connected to a database this module will record successful\n        logins and hosts so you can track your access.",
+	"references": [
+		"CVE-1999-0502"
+	],
+	"rport": 21,
+	"autofilter_ports": [
+		21,
+		2121
+	],
+	"autofilter_services": [
+		"ftp"
+	],
+	"mod_time": "2023-04-18 23:44:58 +0000",
+	"path": "/modules/auxiliary/scanner/ftp/ftp_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ftp/ftp_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

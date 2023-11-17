@@ -1,20 +1,20 @@
 {
-  "name": "Windows Command Shell, Bind TCP Stager (Windows x86)",
-  "fullname": "payload/windows/shell/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "spoonm <spoonm@no$email.com>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>",
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Spawn a piped command shell (staged).\n\nListen for a connection (Windows x86)",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/shell/bind_tcp",
-  "needs_cleanup": false
+	"name": "Windows Command Shell, Bind TCP Stager (Windows x86)",
+	"fullname": "payload/windows/shell/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"spoonm <spoonm@no$email.com>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>",
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Spawn a piped command shell (staged).\n\nListen for a connection (Windows x86)",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/shell/bind_tcp",
+	"needs_cleanup": false
 }

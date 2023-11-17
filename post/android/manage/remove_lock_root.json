@@ -1,19 +1,19 @@
 {
-  "name": "Android Root Remove Device Locks (root)",
-  "fullname": "post/android/manage/remove_lock_root",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "timwr"
-  ],
-  "description": "This module uses root privileges to remove the device lock.\n            In some cases the original lock method will still be present but any key/gesture will\n            unlock the device.",
-  "platform": "Android",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/android/manage/remove_lock_root.rb",
-  "is_install_path": true,
-  "ref_name": "android/manage/remove_lock_root",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Android Root Remove Device Locks (root)",
+	"fullname": "post/android/manage/remove_lock_root",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"timwr"
+	],
+	"description": "This module uses root privileges to remove the device lock.\n            In some cases the original lock method will still be present but any key/gesture will\n            unlock the device.",
+	"platform": "Android",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/android/manage/remove_lock_root.rb",
+	"is_install_path": true,
+	"ref_name": "android/manage/remove_lock_root",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

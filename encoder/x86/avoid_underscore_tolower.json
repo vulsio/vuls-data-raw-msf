@@ -1,17 +1,17 @@
 {
-  "name": "Avoid underscore/tolower",
-  "fullname": "encoder/x86/avoid_underscore_tolower",
-  "type": "encoder",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "Underscore/tolower Safe Encoder used to exploit CVE-2012-2329. It is a\n        modified version of the 'Avoid UTF8/tolower' encoder by skape. Please check\n        the documentation of the skape encoder before using it. As the original,\n        this encoder expects ECX pointing to the start of the encoded payload. Also\n        BufferOffset must be provided if needed.\n\n        The changes introduced are (1) avoid the use of the 0x5f byte (underscore) in\n        because it is a badchar in the CVE-2012-2329 case and (2) optimize the\n        transformation block, having into account more relaxed conditions about bad\n        characters greater than 0x80.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/avoid_underscore_tolower.rb",
-  "is_install_path": true,
-  "ref_name": "x86/avoid_underscore_tolower",
-  "needs_cleanup": false
+	"name": "Avoid underscore/tolower",
+	"fullname": "encoder/x86/avoid_underscore_tolower",
+	"type": "encoder",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "Underscore/tolower Safe Encoder used to exploit CVE-2012-2329. It is a\n        modified version of the 'Avoid UTF8/tolower' encoder by skape. Please check\n        the documentation of the skape encoder before using it. As the original,\n        this encoder expects ECX pointing to the start of the encoded payload. Also\n        BufferOffset must be provided if needed.\n\n        The changes introduced are (1) avoid the use of the 0x5f byte (underscore) in\n        because it is a badchar in the CVE-2012-2329 case and (2) optimize the\n        transformation block, having into account more relaxed conditions about bad\n        characters greater than 0x80.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/avoid_underscore_tolower.rb",
+	"is_install_path": true,
+	"ref_name": "x86/avoid_underscore_tolower",
+	"needs_cleanup": false
 }

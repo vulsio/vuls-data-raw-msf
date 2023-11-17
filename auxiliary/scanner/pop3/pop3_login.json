@@ -1,21 +1,21 @@
 {
-  "name": "POP3 Login Utility",
-  "fullname": "auxiliary/scanner/pop3/pop3_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Heyder Andrade <heyder@alligatorteam.org>"
-  ],
-  "description": "This module attempts to authenticate to an POP3 service.",
-  "references": [
-    "URL-https://www.ietf.org/rfc/rfc1734.txt",
-    "URL-https://www.ietf.org/rfc/rfc1939.txt"
-  ],
-  "rport": 110,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/pop3/pop3_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/pop3/pop3_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "POP3 Login Utility",
+	"fullname": "auxiliary/scanner/pop3/pop3_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Heyder Andrade <heyder@alligatorteam.org>"
+	],
+	"description": "This module attempts to authenticate to an POP3 service.",
+	"references": [
+		"URL-https://www.ietf.org/rfc/rfc1734.txt",
+		"URL-https://www.ietf.org/rfc/rfc1939.txt"
+	],
+	"rport": 110,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/pop3/pop3_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/pop3/pop3_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

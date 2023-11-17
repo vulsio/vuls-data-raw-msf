@@ -1,33 +1,33 @@
 {
-  "name": "CorpWatch Company ID Information Search",
-  "fullname": "auxiliary/gather/corpwatch_lookup_id",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Brandon Perry <bperry.volatile@gmail.com>"
-  ],
-  "description": "This module interfaces with the CorpWatch API to get publicly available\n        info for a given CorpWatch ID of the company.  If you don't know the\n        CorpWatch ID, please use the corpwatch_lookup_name module first.",
-  "references": [
-    "URL-http://api.corpwatch.org/"
-  ],
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-03-05 04:43:03 +0000",
-  "path": "/modules/auxiliary/gather/corpwatch_lookup_id.rb",
-  "is_install_path": true,
-  "ref_name": "gather/corpwatch_lookup_id",
-  "needs_cleanup": false
+	"name": "CorpWatch Company ID Information Search",
+	"fullname": "auxiliary/gather/corpwatch_lookup_id",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Brandon Perry <bperry.volatile@gmail.com>"
+	],
+	"description": "This module interfaces with the CorpWatch API to get publicly available\n        info for a given CorpWatch ID of the company.  If you don't know the\n        CorpWatch ID, please use the corpwatch_lookup_name module first.",
+	"references": [
+		"URL-http://api.corpwatch.org/"
+	],
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-03-05 04:43:03 +0000",
+	"path": "/modules/auxiliary/gather/corpwatch_lookup_id.rb",
+	"is_install_path": true,
+	"ref_name": "gather/corpwatch_lookup_id",
+	"needs_cleanup": false
 }

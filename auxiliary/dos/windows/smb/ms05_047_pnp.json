@@ -1,30 +1,30 @@
 {
-  "name": "Microsoft Plug and Play Service Registry Overflow",
-  "fullname": "auxiliary/dos/windows/smb/ms05_047_pnp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module triggers a stack buffer overflow in the Windows Plug\n        and Play service. This vulnerability can be exploited on\n        Windows 2000 without a valid user account. Since the PnP\n        service runs inside the service.exe process, this module\n        will result in a forced reboot on Windows 2000. Obtaining\n        code execution is possible if user-controlled memory can\n        be placed at 0x00000030, 0x0030005C, or 0x005C005C.",
-  "references": [
-    "CVE-2005-2120",
-    "MSB-MS05-047",
-    "BID-15065",
-    "OSVDB-18830"
-  ],
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/dos/windows/smb/ms05_047_pnp.rb",
-  "is_install_path": true,
-  "ref_name": "dos/windows/smb/ms05_047_pnp",
-  "needs_cleanup": false
+	"name": "Microsoft Plug and Play Service Registry Overflow",
+	"fullname": "auxiliary/dos/windows/smb/ms05_047_pnp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module triggers a stack buffer overflow in the Windows Plug\n        and Play service. This vulnerability can be exploited on\n        Windows 2000 without a valid user account. Since the PnP\n        service runs inside the service.exe process, this module\n        will result in a forced reboot on Windows 2000. Obtaining\n        code execution is possible if user-controlled memory can\n        be placed at 0x00000030, 0x0030005C, or 0x005C005C.",
+	"references": [
+		"CVE-2005-2120",
+		"MSB-MS05-047",
+		"BID-15065",
+		"OSVDB-18830"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/dos/windows/smb/ms05_047_pnp.rb",
+	"is_install_path": true,
+	"ref_name": "dos/windows/smb/ms05_047_pnp",
+	"needs_cleanup": false
 }

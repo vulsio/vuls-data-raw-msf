@@ -1,35 +1,35 @@
 {
-  "name": "GitLab Login Utility",
-  "fullname": "auxiliary/scanner/http/gitlab_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module attempts to login to a GitLab instance using a specific user/pass.",
-  "references": [
-    "URL-https://labs.f-secure.com/archive/gitlab-user-enumeration/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/gitlab_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/gitlab_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "GitLab Login Utility",
+	"fullname": "auxiliary/scanner/http/gitlab_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module attempts to login to a GitLab instance using a specific user/pass.",
+	"references": [
+		"URL-https://labs.f-secure.com/archive/gitlab-user-enumeration/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/gitlab_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/gitlab_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "TFTP Fetch, Windows x64 LoadLibrary Path",
-  "fullname": "payload/cmd/windows/tftp/x64/loadlibrary",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "scriptjunkie",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Fetch and Execute an x64 payload from a tftp server.\n\nLoad an arbitrary x64 library path",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/tftp/x64/loadlibrary",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Windows x64 LoadLibrary Path",
+	"fullname": "payload/cmd/windows/tftp/x64/loadlibrary",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"scriptjunkie",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Fetch and Execute an x64 payload from a tftp server.\n\nLoad an arbitrary x64 library path",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/tftp/x64/loadlibrary",
+	"needs_cleanup": false
 }

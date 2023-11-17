@@ -1,17 +1,17 @@
 {
-  "name": "Command Shell, Bind TCP (via nodejs)",
-  "fullname": "payload/nodejs/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "Creates an interactive shell via nodejs",
-  "platform": "NodeJS",
-  "arch": "nodejs",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/nodejs/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "nodejs/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Command Shell, Bind TCP (via nodejs)",
+	"fullname": "payload/nodejs/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"joev <joev@metasploit.com>"
+	],
+	"description": "Creates an interactive shell via nodejs",
+	"platform": "NodeJS",
+	"arch": "nodejs",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/nodejs/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "nodejs/shell_bind_tcp",
+	"needs_cleanup": false
 }

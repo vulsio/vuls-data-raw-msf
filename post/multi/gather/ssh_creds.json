@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather OpenSSH PKI Credentials Collection",
-  "fullname": "post/multi/gather/ssh_creds",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Jim Halfpenny"
-  ],
-  "description": "This module will collect the contents of all users' .ssh directories on the targeted\n          machine. Additionally, known_hosts and authorized_keys and any other files are also\n          downloaded. This module is largely based on firefox_creds.rb.",
-  "platform": "BSD,Linux,OSX,Unix",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/ssh_creds.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/ssh_creds",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Multi Gather OpenSSH PKI Credentials Collection",
+	"fullname": "post/multi/gather/ssh_creds",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Jim Halfpenny"
+	],
+	"description": "This module will collect the contents of all users' .ssh directories on the targeted\n          machine. Additionally, known_hosts and authorized_keys and any other files are also\n          downloaded. This module is largely based on firefox_creds.rb.",
+	"platform": "BSD,Linux,OSX,Unix",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/ssh_creds.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/ssh_creds",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

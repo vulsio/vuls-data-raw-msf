@@ -1,17 +1,17 @@
 {
-  "name": "Linux Command Shell, Reverse TCP Inline (IPv6)",
-  "fullname": "payload/linux/x86/shell_reverse_tcp_ipv6",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Matteo Malvica <matteo@malvica.com>"
-  ],
-  "description": "Connect back to attacker and spawn a command shell over IPv6",
-  "platform": "Linux",
-  "arch": "x86",
-  "mod_time": "2022-09-22 12:55:41 +0000",
-  "path": "/modules/payloads/singles/linux/x86/shell_reverse_tcp_ipv6.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/shell_reverse_tcp_ipv6",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Reverse TCP Inline (IPv6)",
+	"fullname": "payload/linux/x86/shell_reverse_tcp_ipv6",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Matteo Malvica <matteo@malvica.com>"
+	],
+	"description": "Connect back to attacker and spawn a command shell over IPv6",
+	"platform": "Linux",
+	"arch": "x86",
+	"mod_time": "2022-09-22 12:55:41 +0000",
+	"path": "/modules/payloads/singles/linux/x86/shell_reverse_tcp_ipv6.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/shell_reverse_tcp_ipv6",
+	"needs_cleanup": false
 }

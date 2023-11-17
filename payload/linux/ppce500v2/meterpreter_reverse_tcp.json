@@ -1,19 +1,19 @@
 {
-  "name": "Linux Meterpreter, Reverse TCP Inline",
-  "fullname": "payload/linux/ppce500v2/meterpreter_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Adam Cammack <adam_cammack@rapid7.com>",
-    "Brent Cook <brent_cook@rapid7.com>",
-    "timwr"
-  ],
-  "description": "Run the Meterpreter / Mettle server payload (stageless)",
-  "platform": "Linux",
-  "arch": "ppce500v2",
-  "mod_time": "2023-06-19 12:11:18 +0000",
-  "path": "/modules/payloads/singles/linux/ppce500v2/meterpreter_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/ppce500v2/meterpreter_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Linux Meterpreter, Reverse TCP Inline",
+	"fullname": "payload/linux/ppce500v2/meterpreter_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Adam Cammack <adam_cammack@rapid7.com>",
+		"Brent Cook <brent_cook@rapid7.com>",
+		"timwr"
+	],
+	"description": "Run the Meterpreter / Mettle server payload (stageless)",
+	"platform": "Linux",
+	"arch": "ppce500v2",
+	"mod_time": "2023-06-19 12:11:18 +0000",
+	"path": "/modules/payloads/singles/linux/ppce500v2/meterpreter_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/ppce500v2/meterpreter_reverse_tcp",
+	"needs_cleanup": false
 }

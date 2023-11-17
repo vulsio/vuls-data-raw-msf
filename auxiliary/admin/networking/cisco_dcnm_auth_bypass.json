@@ -1,51 +1,51 @@
 {
-  "name": "Cisco DCNM auth bypass",
-  "fullname": "auxiliary/admin/networking/cisco_dcnm_auth_bypass",
-  "rank": 300,
-  "disclosure_date": "2020-06-01",
-  "type": "auxiliary",
-  "author": [
-    "MR_ME",
-    "Yann Castel (yann.castel <Yann Castel (yann.castel@orange.com)>"
-  ],
-  "description": "This exploit is able to add an admin account to a Cisco DCNM with credentials you can choose.\n          After that, you can login to the web interface with those credentials.\n          The only necessary condition is the more or less recent connection of an admin as this exploit\n          uses a kind of session stealing.",
-  "references": [
-    "CVE-2019-15975",
-    "EDB-48018"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-03-31 23:53:41 +0000",
-  "path": "/modules/auxiliary/admin/networking/cisco_dcnm_auth_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "admin/networking/cisco_dcnm_auth_bypass",
-  "check": true,
-  "post_auth": true,
-  "notes": {
-    "Reliability": [
-      "repeatable-session"
-    ],
-    "SideEffects": [
-      "ioc-in-logs",
-      "config-changes"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Cisco DCNM auth bypass",
+	"fullname": "auxiliary/admin/networking/cisco_dcnm_auth_bypass",
+	"rank": 300,
+	"disclosure_date": "2020-06-01",
+	"type": "auxiliary",
+	"author": [
+		"MR_ME",
+		"Yann Castel (yann.castel <Yann Castel (yann.castel@orange.com)>"
+	],
+	"description": "This exploit is able to add an admin account to a Cisco DCNM with credentials you can choose.\n          After that, you can login to the web interface with those credentials.\n          The only necessary condition is the more or less recent connection of an admin as this exploit\n          uses a kind of session stealing.",
+	"references": [
+		"CVE-2019-15975",
+		"EDB-48018"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-03-31 23:53:41 +0000",
+	"path": "/modules/auxiliary/admin/networking/cisco_dcnm_auth_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "admin/networking/cisco_dcnm_auth_bypass",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

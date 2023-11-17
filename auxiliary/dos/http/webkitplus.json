@@ -1,25 +1,25 @@
 {
-  "name": "WebKitGTK+ WebKitFaviconDatabase DoS",
-  "fullname": "auxiliary/dos/http/webkitplus",
-  "rank": 300,
-  "disclosure_date": "2018-06-03",
-  "type": "auxiliary",
-  "author": [
-    "Dhiraj Mishra",
-    "Hardik Mehta",
-    "Zubin Devnani",
-    "Manuel Caballero"
-  ],
-  "description": "This module exploits a vulnerability in WebKitFaviconDatabase when pageURL is unset.\n          If successful, it could lead to application crash, resulting in denial of service.",
-  "references": [
-    "EDB-44842",
-    "CVE-2018-11646",
-    "URL-https://bugs.webkit.org/show_bug.cgi?id=186164",
-    "URL-https://www.inputzero.io/2018/06/cve-2018-11646-webkit.html"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/dos/http/webkitplus.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/webkitplus",
-  "needs_cleanup": false
+	"name": "WebKitGTK+ WebKitFaviconDatabase DoS",
+	"fullname": "auxiliary/dos/http/webkitplus",
+	"rank": 300,
+	"disclosure_date": "2018-06-03",
+	"type": "auxiliary",
+	"author": [
+		"Dhiraj Mishra",
+		"Hardik Mehta",
+		"Zubin Devnani",
+		"Manuel Caballero"
+	],
+	"description": "This module exploits a vulnerability in WebKitFaviconDatabase when pageURL is unset.\n          If successful, it could lead to application crash, resulting in denial of service.",
+	"references": [
+		"EDB-44842",
+		"CVE-2018-11646",
+		"URL-https://bugs.webkit.org/show_bug.cgi?id=186164",
+		"URL-https://www.inputzero.io/2018/06/cve-2018-11646-webkit.html"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/dos/http/webkitplus.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/webkitplus",
+	"needs_cleanup": false
 }

@@ -1,24 +1,24 @@
 {
-  "name": "Forward SSH Agent Requests To Remote Pageant",
-  "fullname": "post/windows/manage/forward_pageant",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Stuart Morgan <stuart.morgan@mwrinfosecurity.com>",
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module forwards SSH agent requests from a local socket to a remote Pageant instance.\n          If a target Windows machine is compromised and is running Pageant, this will allow the\n          attacker to run normal OpenSSH commands (e.g. ssh-add -l) against the Pageant host which are\n          tunneled through the meterpreter session. This could therefore be used to authenticate\n          with a remote host using a private key which is loaded into a remote user's Pageant instance,\n          without ever having knowledge of the private key itself.\n\n          Note that this requires the PageantJacker meterpreter extension, but this will be automatically\n          loaded into the remote meterpreter session by this module if it is not already loaded.",
-  "platform": "Windows",
-  "mod_time": "2022-09-23 17:41:20 +0000",
-  "path": "/modules/post/windows/manage/forward_pageant.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/forward_pageant",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Forward SSH Agent Requests To Remote Pageant",
+	"fullname": "post/windows/manage/forward_pageant",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Stuart Morgan <stuart.morgan@mwrinfosecurity.com>",
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module forwards SSH agent requests from a local socket to a remote Pageant instance.\n          If a target Windows machine is compromised and is running Pageant, this will allow the\n          attacker to run normal OpenSSH commands (e.g. ssh-add -l) against the Pageant host which are\n          tunneled through the meterpreter session. This could therefore be used to authenticate\n          with a remote host using a private key which is loaded into a remote user's Pageant instance,\n          without ever having knowledge of the private key itself.\n\n          Note that this requires the PageantJacker meterpreter extension, but this will be automatically\n          loaded into the remote meterpreter session by this module if it is not already loaded.",
+	"platform": "Windows",
+	"mod_time": "2022-09-23 17:41:20 +0000",
+	"path": "/modules/post/windows/manage/forward_pageant.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/forward_pageant",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

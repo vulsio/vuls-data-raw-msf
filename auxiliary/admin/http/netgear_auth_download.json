@@ -1,39 +1,39 @@
 {
-  "name": "NETGEAR ProSafe Network Management System 300 Authenticated File Download",
-  "fullname": "auxiliary/admin/http/netgear_auth_download",
-  "rank": 300,
-  "disclosure_date": "2016-02-04",
-  "type": "auxiliary",
-  "author": [
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "Netgear's ProSafe NMS300 is a network management utility that runs on Windows systems.\n          The application has a file download vulnerability that can be exploited by an\n          authenticated remote attacker to download any file in the system.\n          This module has been tested with versions 1.5.0.2, 1.4.0.17 and 1.1.0.13.",
-  "references": [
-    "CVE-2016-1524",
-    "US-CERT-VU-777024",
-    "URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/netgear_nms_rce.txt",
-    "URL-https://seclists.org/fulldisclosure/2016/Feb/30"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/netgear_auth_download.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/netgear_auth_download",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "NETGEAR ProSafe Network Management System 300 Authenticated File Download",
+	"fullname": "auxiliary/admin/http/netgear_auth_download",
+	"rank": 300,
+	"disclosure_date": "2016-02-04",
+	"type": "auxiliary",
+	"author": [
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "Netgear's ProSafe NMS300 is a network management utility that runs on Windows systems.\n          The application has a file download vulnerability that can be exploited by an\n          authenticated remote attacker to download any file in the system.\n          This module has been tested with versions 1.5.0.2, 1.4.0.17 and 1.1.0.13.",
+	"references": [
+		"CVE-2016-1524",
+		"US-CERT-VU-777024",
+		"URL-https://raw.githubusercontent.com/pedrib/PoC/master/advisories/netgear_nms_rce.txt",
+		"URL-https://seclists.org/fulldisclosure/2016/Feb/30"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/netgear_auth_download.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/netgear_auth_download",
+	"post_auth": true,
+	"needs_cleanup": false
 }

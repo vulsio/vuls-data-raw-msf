@@ -1,19 +1,19 @@
 {
-  "name": "Gopher gophermap Scanner",
-  "fullname": "auxiliary/scanner/gopher/gopher_gophermap",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "h00die"
-  ],
-  "description": "This module identifies Gopher servers, and processes the gophermap\n        file which lists all the files on the server.",
-  "references": [
-    "URL-https://sdfeu.org/w/tutorials:gopher"
-  ],
-  "rport": 70,
-  "mod_time": "2017-10-20 09:44:07 +0000",
-  "path": "/modules/auxiliary/scanner/gopher/gopher_gophermap.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/gopher/gopher_gophermap",
-  "needs_cleanup": false
+	"name": "Gopher gophermap Scanner",
+	"fullname": "auxiliary/scanner/gopher/gopher_gophermap",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"h00die"
+	],
+	"description": "This module identifies Gopher servers, and processes the gophermap\n        file which lists all the files on the server.",
+	"references": [
+		"URL-https://sdfeu.org/w/tutorials:gopher"
+	],
+	"rport": 70,
+	"mod_time": "2017-10-20 09:44:07 +0000",
+	"path": "/modules/auxiliary/scanner/gopher/gopher_gophermap.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/gopher/gopher_gophermap",
+	"needs_cleanup": false
 }

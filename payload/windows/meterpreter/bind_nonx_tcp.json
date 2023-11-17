@@ -1,24 +1,24 @@
 {
-  "name": "Windows Meterpreter (Reflective Injection), Bind TCP Stager (No NX or Win7)",
-  "fullname": "payload/windows/meterpreter/bind_nonx_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves",
-    "vlad902 <vlad902@gmail.com>"
-  ],
-  "description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nListen for a connection (No NX)",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_nonx_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/meterpreter/bind_nonx_tcp",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter (Reflective Injection), Bind TCP Stager (No NX or Win7)",
+	"fullname": "payload/windows/meterpreter/bind_nonx_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves",
+		"vlad902 <vlad902@gmail.com>"
+	],
+	"description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nListen for a connection (No NX)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_nonx_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/meterpreter/bind_nonx_tcp",
+	"needs_cleanup": false
 }

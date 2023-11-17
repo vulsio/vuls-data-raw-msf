@@ -1,47 +1,47 @@
 {
-  "name": "BillQuick Web Suite txtID SQLi",
-  "fullname": "auxiliary/gather/billquick_txtid_sqli",
-  "rank": 300,
-  "disclosure_date": "2021-10-22",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "Caleb Stewart <caleb.stewart94@gmail.com>"
-  ],
-  "description": "This module exploits a SQL injection vulnerability in BillQUick Web Suite prior to version 22.0.9.1.\n          The application is .net based, and the database is required to be MSSQL.  Luckily the website gives\n          error based SQLi messages, so it is trivial to pull data from the database.  However the webapp\n          uses an unknown password security algorithm.  This vulnerability does not seem to support stacked\n          queries.\n          This module pulls the database name, banner, user, hostname, and the SecurityTable (user table).",
-  "references": [
-    "URL-https://www.huntress.com/blog/threat-advisory-hackers-are-exploiting-a-vulnerability-in-popular-billing-software-to-deploy-ransomware",
-    "URL-http://billquick.net/download/Support_Download/BQWS2021Upgrade/WebSuite2021LogFile_9_1.pdf",
-    "CVE-2021-42258"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-05-06 00:22:52 +0000",
-  "path": "/modules/auxiliary/gather/billquick_txtid_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "gather/billquick_txtid_sqli",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "BillQuick Web Suite txtID SQLi",
+	"fullname": "auxiliary/gather/billquick_txtid_sqli",
+	"rank": 300,
+	"disclosure_date": "2021-10-22",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Caleb Stewart <caleb.stewart94@gmail.com>"
+	],
+	"description": "This module exploits a SQL injection vulnerability in BillQUick Web Suite prior to version 22.0.9.1.\n          The application is .net based, and the database is required to be MSSQL.  Luckily the website gives\n          error based SQLi messages, so it is trivial to pull data from the database.  However the webapp\n          uses an unknown password security algorithm.  This vulnerability does not seem to support stacked\n          queries.\n          This module pulls the database name, banner, user, hostname, and the SecurityTable (user table).",
+	"references": [
+		"URL-https://www.huntress.com/blog/threat-advisory-hackers-are-exploiting-a-vulnerability-in-popular-billing-software-to-deploy-ransomware",
+		"URL-http://billquick.net/download/Support_Download/BQWS2021Upgrade/WebSuite2021LogFile_9_1.pdf",
+		"CVE-2021-42258"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-05-06 00:22:52 +0000",
+	"path": "/modules/auxiliary/gather/billquick_txtid_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "gather/billquick_txtid_sqli",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

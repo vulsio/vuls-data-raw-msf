@@ -1,39 +1,39 @@
 {
-  "name": "Tomcat UTF-8 Directory Traversal Vulnerability",
-  "fullname": "auxiliary/admin/http/tomcat_utf8_traversal",
-  "rank": 300,
-  "disclosure_date": "2009-01-09",
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>",
-    "guerrino <ruggine> di massa"
-  ],
-  "description": "This module tests whether a directory traversal vulnerability is present\n        in versions of Apache Tomcat 4.1.0 - 4.1.37, 5.5.0 - 5.5.26 and 6.0.0\n        - 6.0.16 under specific and non-default installations. The connector must have\n        allowLinking set to true and URIEncoding set to UTF-8. Furthermore, the\n        vulnerability actually occurs within Java and not Tomcat; the server must\n        use Java versions prior to Sun 1.4.2_19, 1.5.0_17, 6u11 - or prior IBM Java\n        5.0 SR9, 1.4.2 SR13, SE 6 SR4 releases. This module has only been tested against\n        RedHat 9 running Tomcat 6.0.16 and Sun JRE 1.5.0-05. You may wish to change\n        FILE (hosts,sensitive files), MAXDIRS and RPORT depending on your environment.",
-  "references": [
-    "URL-http://tomcat.apache.org/",
-    "OSVDB-47464",
-    "CVE-2008-2938",
-    "URL-http://www.securityfocus.com/archive/1/499926"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-04-12 13:01:49 +0000",
-  "path": "/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/tomcat_utf8_traversal",
-  "needs_cleanup": false
+	"name": "Tomcat UTF-8 Directory Traversal Vulnerability",
+	"fullname": "auxiliary/admin/http/tomcat_utf8_traversal",
+	"rank": 300,
+	"disclosure_date": "2009-01-09",
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>",
+		"guerrino <ruggine> di massa"
+	],
+	"description": "This module tests whether a directory traversal vulnerability is present\n        in versions of Apache Tomcat 4.1.0 - 4.1.37, 5.5.0 - 5.5.26 and 6.0.0\n        - 6.0.16 under specific and non-default installations. The connector must have\n        allowLinking set to true and URIEncoding set to UTF-8. Furthermore, the\n        vulnerability actually occurs within Java and not Tomcat; the server must\n        use Java versions prior to Sun 1.4.2_19, 1.5.0_17, 6u11 - or prior IBM Java\n        5.0 SR9, 1.4.2 SR13, SE 6 SR4 releases. This module has only been tested against\n        RedHat 9 running Tomcat 6.0.16 and Sun JRE 1.5.0-05. You may wish to change\n        FILE (hosts,sensitive files), MAXDIRS and RPORT depending on your environment.",
+	"references": [
+		"URL-http://tomcat.apache.org/",
+		"OSVDB-47464",
+		"CVE-2008-2938",
+		"URL-http://www.securityfocus.com/archive/1/499926"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-04-12 13:01:49 +0000",
+	"path": "/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/tomcat_utf8_traversal",
+	"needs_cleanup": false
 }

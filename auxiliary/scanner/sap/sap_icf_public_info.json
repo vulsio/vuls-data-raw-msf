@@ -1,33 +1,33 @@
 {
-  "name": "SAP ICF /sap/public/info Service Sensitive Information Gathering",
-  "fullname": "auxiliary/scanner/sap/sap_icf_public_info",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Agnivesh Sathasivam",
-    "nmonkee",
-    "ChrisJohnRiley"
-  ],
-  "description": "This module uses the /sap/public/info service within SAP Internet Communication\n        Framework (ICF) to obtain the operating system version, SAP version, IP address\n        and other information.",
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_icf_public_info.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_icf_public_info",
-  "needs_cleanup": false
+	"name": "SAP ICF /sap/public/info Service Sensitive Information Gathering",
+	"fullname": "auxiliary/scanner/sap/sap_icf_public_info",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Agnivesh Sathasivam",
+		"nmonkee",
+		"ChrisJohnRiley"
+	],
+	"description": "This module uses the /sap/public/info service within SAP Internet Communication\n        Framework (ICF) to obtain the operating system version, SAP version, IP address\n        and other information.",
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_icf_public_info.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_icf_public_info",
+	"needs_cleanup": false
 }

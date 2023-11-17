@@ -1,45 +1,45 @@
 {
-  "name": "Elasticsearch Memory Disclosure",
-  "fullname": "auxiliary/scanner/http/elasticsearch_memory_disclosure",
-  "rank": 300,
-  "disclosure_date": "2021-07-21",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "Eric Howard",
-    "R0NY"
-  ],
-  "description": "This module exploits a memory disclosure vulnerability in Elasticsearch\n          7.10.0 to 7.13.3 (inclusive). A user with the ability to submit arbitrary\n          queries to Elasticsearch can generate an error message containing previously\n          used portions of a data buffer.\n          This buffer could contain sensitive information such as Elasticsearch\n          documents or authentication details. This vulnerability's output is similar\n          to heartbleed.",
-  "references": [
-    "EDB-50149",
-    "CVE-2021-22145",
-    "URL-https://discuss.elastic.co/t/elasticsearch-7-13-4-security-update/279177"
-  ],
-  "rport": 9200,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-09-01 20:14:41 +0000",
-  "path": "/modules/auxiliary/scanner/http/elasticsearch_memory_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/elasticsearch_memory_disclosure",
-  "check": true,
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Elasticsearch Memory Disclosure",
+	"fullname": "auxiliary/scanner/http/elasticsearch_memory_disclosure",
+	"rank": 300,
+	"disclosure_date": "2021-07-21",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Eric Howard",
+		"R0NY"
+	],
+	"description": "This module exploits a memory disclosure vulnerability in Elasticsearch\n          7.10.0 to 7.13.3 (inclusive). A user with the ability to submit arbitrary\n          queries to Elasticsearch can generate an error message containing previously\n          used portions of a data buffer.\n          This buffer could contain sensitive information such as Elasticsearch\n          documents or authentication details. This vulnerability's output is similar\n          to heartbleed.",
+	"references": [
+		"EDB-50149",
+		"CVE-2021-22145",
+		"URL-https://discuss.elastic.co/t/elasticsearch-7-13-4-security-update/279177"
+	],
+	"rport": 9200,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-09-01 20:14:41 +0000",
+	"path": "/modules/auxiliary/scanner/http/elasticsearch_memory_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/elasticsearch_memory_disclosure",
+	"check": true,
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

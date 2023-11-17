@@ -1,19 +1,19 @@
 {
-  "name": "TFTP Fetch, Windows shellcode stage, Windows x64 Reverse HTTP Stager (wininet)",
-  "fullname": "payload/cmd/windows/tftp/x64/custom/reverse_http",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "bwatters-r7",
-    "OJ Reeves"
-  ],
-  "description": "Fetch and Execute an x64 payload from a tftp server.\n\nCustom shellcode stage.\n\nTunnel communication over HTTP (Windows x64 wininet)",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/tftp/x64/custom/reverse_http",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Windows shellcode stage, Windows x64 Reverse HTTP Stager (wininet)",
+	"fullname": "payload/cmd/windows/tftp/x64/custom/reverse_http",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"bwatters-r7",
+		"OJ Reeves"
+	],
+	"description": "Fetch and Execute an x64 payload from a tftp server.\n\nCustom shellcode stage.\n\nTunnel communication over HTTP (Windows x64 wininet)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/tftp/x64/custom/reverse_http",
+	"needs_cleanup": false
 }

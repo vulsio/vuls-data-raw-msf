@@ -1,19 +1,19 @@
 {
-  "name": "Gather Quake Server Information",
-  "fullname": "auxiliary/scanner/quake/server_info",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module uses the getstatus or getinfo request to obtain\n          information from a Quakeserver.",
-  "references": [
-    "URL-ftp://ftp.idsoftware.com/idstuff/quake3/docs/server.txt"
-  ],
-  "rport": 27960,
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/quake/server_info.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/quake/server_info",
-  "needs_cleanup": false
+	"name": "Gather Quake Server Information",
+	"fullname": "auxiliary/scanner/quake/server_info",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module uses the getstatus or getinfo request to obtain\n          information from a Quakeserver.",
+	"references": [
+		"URL-ftp://ftp.idsoftware.com/idstuff/quake3/docs/server.txt"
+	],
+	"rport": 27960,
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/quake/server_info.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/quake/server_info",
+	"needs_cleanup": false
 }

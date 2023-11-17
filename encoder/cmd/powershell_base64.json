@@ -1,17 +1,17 @@
 {
-  "name": "Powershell Base64 Command Encoder",
-  "fullname": "encoder/cmd/powershell_base64",
-  "rank": 600,
-  "type": "encoder",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This encodes the command as a base64 encoded command for powershell.",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-06-02 10:22:56 +0000",
-  "path": "/modules/encoders/cmd/powershell_base64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/powershell_base64",
-  "needs_cleanup": false
+	"name": "Powershell Base64 Command Encoder",
+	"fullname": "encoder/cmd/powershell_base64",
+	"rank": 600,
+	"type": "encoder",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This encodes the command as a base64 encoded command for powershell.",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-06-02 10:22:56 +0000",
+	"path": "/modules/encoders/cmd/powershell_base64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/powershell_base64",
+	"needs_cleanup": false
 }

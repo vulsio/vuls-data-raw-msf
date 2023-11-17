@@ -1,19 +1,19 @@
 {
-  "name": "HTTPS Fetch, Linux Command Shell, Find Port Inline",
-  "fullname": "payload/cmd/linux/https/x86/shell_find_port",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "Ramon de C Valle <rcvalle@metasploit.com>"
-  ],
-  "description": "Fetch and execute an x86 payload from an HTTPS server.\nSpawn a shell on an established connection",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/https/x86/shell_find_port",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Linux Command Shell, Find Port Inline",
+	"fullname": "payload/cmd/linux/https/x86/shell_find_port",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"Ramon de C Valle <rcvalle@metasploit.com>"
+	],
+	"description": "Fetch and execute an x86 payload from an HTTPS server.\nSpawn a shell on an established connection",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/https/x86/shell_find_port",
+	"needs_cleanup": false
 }

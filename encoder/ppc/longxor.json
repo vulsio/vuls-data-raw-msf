@@ -1,18 +1,18 @@
 {
-  "name": "PPC LongXOR Encoder",
-  "fullname": "encoder/ppc/longxor",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "ddz <ddz@theta44.org>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This encoder is ghandi's PPC dword xor encoder with some size tweaks\n        by HDM.",
-  "platform": "All",
-  "arch": "ppc",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/ppc/longxor.rb",
-  "is_install_path": true,
-  "ref_name": "ppc/longxor",
-  "needs_cleanup": false
+	"name": "PPC LongXOR Encoder",
+	"fullname": "encoder/ppc/longxor",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"ddz <ddz@theta44.org>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This encoder is ghandi's PPC dword xor encoder with some size tweaks\n        by HDM.",
+	"platform": "All",
+	"arch": "ppc",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/ppc/longxor.rb",
+	"is_install_path": true,
+	"ref_name": "ppc/longxor",
+	"needs_cleanup": false
 }

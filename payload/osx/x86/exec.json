@@ -1,19 +1,19 @@
 {
-  "name": "OS X Execute Command",
-  "fullname": "payload/osx/x86/exec",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "snagg <snagg@openssl.it>",
-    "argp <argp@census-labs.com>",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "Execute an arbitrary command",
-  "platform": "OSX",
-  "arch": "x86",
-  "mod_time": "2022-09-22 12:55:41 +0000",
-  "path": "/modules/payloads/singles/osx/x86/exec.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x86/exec",
-  "needs_cleanup": false
+	"name": "OS X Execute Command",
+	"fullname": "payload/osx/x86/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"snagg <snagg@openssl.it>",
+		"argp <argp@census-labs.com>",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "Execute an arbitrary command",
+	"platform": "OSX",
+	"arch": "x86",
+	"mod_time": "2022-09-22 12:55:41 +0000",
+	"path": "/modules/payloads/singles/osx/x86/exec.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x86/exec",
+	"needs_cleanup": false
 }

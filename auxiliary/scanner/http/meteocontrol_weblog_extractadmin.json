@@ -1,36 +1,36 @@
 {
-  "name": "Meteocontrol WEBlog Password Extractor",
-  "fullname": "auxiliary/scanner/http/meteocontrol_weblog_extractadmin",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "This module exploits an authentication bypass vulnerability in Meteocontrol WEBLog appliances (software version < May 2016 release) to extract Administrator password for the device management portal.",
-  "references": [
-    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-16-133-01",
-    "CVE-2016-2296",
-    "CVE-2016-2298"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/meteocontrol_weblog_extractadmin.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/meteocontrol_weblog_extractadmin",
-  "needs_cleanup": false
+	"name": "Meteocontrol WEBlog Password Extractor",
+	"fullname": "auxiliary/scanner/http/meteocontrol_weblog_extractadmin",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "This module exploits an authentication bypass vulnerability in Meteocontrol WEBLog appliances (software version < May 2016 release) to extract Administrator password for the device management portal.",
+	"references": [
+		"URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-16-133-01",
+		"CVE-2016-2296",
+		"CVE-2016-2298"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/meteocontrol_weblog_extractadmin.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/meteocontrol_weblog_extractadmin",
+	"needs_cleanup": false
 }

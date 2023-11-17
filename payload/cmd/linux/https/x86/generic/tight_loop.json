@@ -1,19 +1,19 @@
 {
-  "name": "HTTPS Fetch, Generic x86 Tight Loop",
-  "fullname": "payload/cmd/linux/https/x86/generic/tight_loop",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "Fetch and execute an x86 payload from an HTTPS server.\nGenerate a tight loop in the target process",
-  "platform": "BSD,BSDi,Linux,OSX,Solaris,Windows",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/https/x86/generic/tight_loop",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Generic x86 Tight Loop",
+	"fullname": "payload/cmd/linux/https/x86/generic/tight_loop",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "Fetch and execute an x86 payload from an HTTPS server.\nGenerate a tight loop in the target process",
+	"platform": "BSD,BSDi,Linux,OSX,Solaris,Windows",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/https/x86/generic/tight_loop",
+	"needs_cleanup": false
 }

@@ -1,39 +1,39 @@
 {
-  "name": "Supermicro Onboard IPMI Port 49152 Sensitive File Exposure",
-  "fullname": "auxiliary/scanner/http/smt_ipmi_49152_exposure",
-  "rank": 300,
-  "disclosure_date": "2014-06-19",
-  "type": "auxiliary",
-  "author": [
-    "Zach Wikholm <kestrel@trylinux.us>",
-    "John Matherly <jmath@shodan.io>",
-    "Dan Farmer <zen@fish2.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module abuses a file exposure vulnerability accessible through the web interface\n        on port 49152 of Supermicro Onboard IPMI controllers.  The vulnerability allows an attacker\n        to obtain detailed device information and download data files containing the clear-text\n        usernames and passwords for the controller. In May of 2014, at least 30,000 unique IPs\n        were exposed to the internet with this vulnerability.",
-  "references": [
-    "URL-http://blog.cari.net/carisirt-yet-another-bmc-vulnerability-and-some-added-extras/",
-    "URL-https://github.com/zenfish/ipmi/blob/master/dump_SM.py"
-  ],
-  "rport": 49152,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/smt_ipmi_49152_exposure.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/smt_ipmi_49152_exposure",
-  "needs_cleanup": false
+	"name": "Supermicro Onboard IPMI Port 49152 Sensitive File Exposure",
+	"fullname": "auxiliary/scanner/http/smt_ipmi_49152_exposure",
+	"rank": 300,
+	"disclosure_date": "2014-06-19",
+	"type": "auxiliary",
+	"author": [
+		"Zach Wikholm <kestrel@trylinux.us>",
+		"John Matherly <jmath@shodan.io>",
+		"Dan Farmer <zen@fish2.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module abuses a file exposure vulnerability accessible through the web interface\n        on port 49152 of Supermicro Onboard IPMI controllers.  The vulnerability allows an attacker\n        to obtain detailed device information and download data files containing the clear-text\n        usernames and passwords for the controller. In May of 2014, at least 30,000 unique IPs\n        were exposed to the internet with this vulnerability.",
+	"references": [
+		"URL-http://blog.cari.net/carisirt-yet-another-bmc-vulnerability-and-some-added-extras/",
+		"URL-https://github.com/zenfish/ipmi/blob/master/dump_SM.py"
+	],
+	"rport": 49152,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/smt_ipmi_49152_exposure.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/smt_ipmi_49152_exposure",
+	"needs_cleanup": false
 }

@@ -1,18 +1,18 @@
 {
-  "name": "Windows Gather Process Memory Grep",
-  "fullname": "post/windows/gather/memory_grep",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "bannedit <bannedit@metasploit.com>"
-  ],
-  "description": "This module allows for searching the memory space of a process for potentially\n          sensitive data.  Please note: When the HEAP option is enabled, the module will have\n          to migrate to the process you are grepping, and will not migrate back automatically.\n          This means that if the user terminates the application after using this module, you\n          may lose your session.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/memory_grep.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/memory_grep",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Process Memory Grep",
+	"fullname": "post/windows/gather/memory_grep",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"bannedit <bannedit@metasploit.com>"
+	],
+	"description": "This module allows for searching the memory space of a process for potentially\n          sensitive data.  Please note: When the HEAP option is enabled, the module will have\n          to migrate to the process you are grepping, and will not migrate back automatically.\n          This means that if the user terminates the application after using this module, you\n          may lose your session.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/memory_grep.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/memory_grep",
+	"session_types": [
+		"meterpreter"
+	]
 }

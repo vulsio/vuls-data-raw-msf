@@ -1,20 +1,20 @@
 {
-  "name": "Linux Gather Network Information",
-  "fullname": "post/linux/gather/enum_network",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "ohdae <bindshell@live.com>",
-    "Stephen Haywood <averagesecurityguy@gmail.com>"
-  ],
-  "description": "This module gathers network information from the target system\n          IPTables rules, interfaces, wireless information, open and listening\n          ports, active network connections, DNS information and SSH information.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/gather/enum_network.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_network",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather Network Information",
+	"fullname": "post/linux/gather/enum_network",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"ohdae <bindshell@live.com>",
+		"Stephen Haywood <averagesecurityguy@gmail.com>"
+	],
+	"description": "This module gathers network information from the target system\n          IPTables rules, interfaces, wireless information, open and listening\n          ports, active network connections, DNS information and SSH information.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/gather/enum_network.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_network",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

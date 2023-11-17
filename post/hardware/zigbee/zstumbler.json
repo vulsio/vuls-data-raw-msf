@@ -1,18 +1,18 @@
 {
-  "name": "Sends Beacons to Scan for Active ZigBee Networks",
-  "fullname": "post/hardware/zigbee/zstumbler",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Craig Smith"
-  ],
-  "description": "Post Module to send beacon signals to the broadcast address while\n          channel hopping",
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/zigbee/zstumbler.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/zigbee/zstumbler",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "Sends Beacons to Scan for Active ZigBee Networks",
+	"fullname": "post/hardware/zigbee/zstumbler",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Craig Smith"
+	],
+	"description": "Post Module to send beacon signals to the broadcast address while\n          channel hopping",
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/zigbee/zstumbler.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/zigbee/zstumbler",
+	"session_types": [
+		"hwbridge"
+	]
 }

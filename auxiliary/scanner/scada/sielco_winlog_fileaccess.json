@@ -1,24 +1,24 @@
 {
-  "name": "Sielco Sistemi Winlog Remote File Access",
-  "fullname": "auxiliary/scanner/scada/sielco_winlog_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Luigi Auriemma",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal in Sielco Sistemi Winlog. The vulnerability\n        exists in the Runtime.exe service and can be triggered by sending a specially crafted packet\n        to the 46824/TCP port. This module has been successfully tested on Sielco Sistemi Winlog Lite\n        2.07.14.",
-  "references": [
-    "CVE-2012-4356",
-    "OSVDB-83275",
-    "BID-54212",
-    "EDB-19409",
-    "URL-http://aluigi.altervista.org/adv/winlog_2-adv.txt"
-  ],
-  "rport": 46824,
-  "mod_time": "2018-07-12 17:34:52 +0000",
-  "path": "/modules/auxiliary/scanner/scada/sielco_winlog_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/sielco_winlog_fileaccess",
-  "needs_cleanup": false
+	"name": "Sielco Sistemi Winlog Remote File Access",
+	"fullname": "auxiliary/scanner/scada/sielco_winlog_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Luigi Auriemma",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal in Sielco Sistemi Winlog. The vulnerability\n        exists in the Runtime.exe service and can be triggered by sending a specially crafted packet\n        to the 46824/TCP port. This module has been successfully tested on Sielco Sistemi Winlog Lite\n        2.07.14.",
+	"references": [
+		"CVE-2012-4356",
+		"OSVDB-83275",
+		"BID-54212",
+		"EDB-19409",
+		"URL-http://aluigi.altervista.org/adv/winlog_2-adv.txt"
+	],
+	"rport": 46824,
+	"mod_time": "2018-07-12 17:34:52 +0000",
+	"path": "/modules/auxiliary/scanner/scada/sielco_winlog_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/sielco_winlog_fileaccess",
+	"needs_cleanup": false
 }

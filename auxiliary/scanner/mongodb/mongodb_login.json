@@ -1,21 +1,21 @@
 {
-  "name": "MongoDB Login Utility",
-  "fullname": "auxiliary/scanner/mongodb/mongodb_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Gregory Man <man.gregory@gmail.com>"
-  ],
-  "description": "This module attempts to brute force authentication credentials for MongoDB.\n        Note that, by default, MongoDB does not require authentication.",
-  "references": [
-    "URL-https://docs.mongodb.com/manual/reference/mongodb-wire-protocol/",
-    "URL-https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst/"
-  ],
-  "rport": 27017,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/mongodb/mongodb_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/mongodb/mongodb_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "MongoDB Login Utility",
+	"fullname": "auxiliary/scanner/mongodb/mongodb_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Gregory Man <man.gregory@gmail.com>"
+	],
+	"description": "This module attempts to brute force authentication credentials for MongoDB.\n        Note that, by default, MongoDB does not require authentication.",
+	"references": [
+		"URL-https://docs.mongodb.com/manual/reference/mongodb-wire-protocol/",
+		"URL-https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst/"
+	],
+	"rport": 27017,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/mongodb/mongodb_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/mongodb/mongodb_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

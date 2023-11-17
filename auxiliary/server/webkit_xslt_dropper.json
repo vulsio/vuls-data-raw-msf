@@ -1,18 +1,18 @@
 {
-  "name": "Cross Platform Webkit File Dropper",
-  "fullname": "auxiliary/server/webkit_xslt_dropper",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Nicolas Gregoire"
-  ],
-  "description": "This module exploits a XSLT vulnerability in Webkit to drop ASCII or UTF-8\n        files to the target file-system.  By default, the file will be dropped in\n        C:\\Program Files\\",
-  "references": [
-    "CVE-2011-1774"
-  ],
-  "mod_time": "2020-05-12 22:15:21 +0000",
-  "path": "/modules/auxiliary/server/webkit_xslt_dropper.rb",
-  "is_install_path": true,
-  "ref_name": "server/webkit_xslt_dropper",
-  "needs_cleanup": false
+	"name": "Cross Platform Webkit File Dropper",
+	"fullname": "auxiliary/server/webkit_xslt_dropper",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Nicolas Gregoire"
+	],
+	"description": "This module exploits a XSLT vulnerability in Webkit to drop ASCII or UTF-8\n        files to the target file-system.  By default, the file will be dropped in\n        C:\\Program Files\\",
+	"references": [
+		"CVE-2011-1774"
+	],
+	"mod_time": "2020-05-12 22:15:21 +0000",
+	"path": "/modules/auxiliary/server/webkit_xslt_dropper.rb",
+	"is_install_path": true,
+	"ref_name": "server/webkit_xslt_dropper",
+	"needs_cleanup": false
 }

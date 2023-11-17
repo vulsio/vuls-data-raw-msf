@@ -1,36 +1,36 @@
 {
-  "name": "HTTP Host Header Injection Detection",
-  "fullname": "auxiliary/scanner/http/host_header_injection",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jay Turla",
-    "Medz Barao"
-  ],
-  "description": "Checks if the host is vulnerable to Host header injection",
-  "references": [
-    "CVE-2016-10073",
-    "URL-http://www.skeletonscribe.net/2013/05/practical-http-host-header-attacks.html"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-11-22 15:09:08 +0000",
-  "path": "/modules/auxiliary/scanner/http/host_header_injection.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/host_header_injection",
-  "needs_cleanup": false
+	"name": "HTTP Host Header Injection Detection",
+	"fullname": "auxiliary/scanner/http/host_header_injection",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jay Turla",
+		"Medz Barao"
+	],
+	"description": "Checks if the host is vulnerable to Host header injection",
+	"references": [
+		"CVE-2016-10073",
+		"URL-http://www.skeletonscribe.net/2013/05/practical-http-host-header-attacks.html"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-11-22 15:09:08 +0000",
+	"path": "/modules/auxiliary/scanner/http/host_header_injection.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/host_header_injection",
+	"needs_cleanup": false
 }

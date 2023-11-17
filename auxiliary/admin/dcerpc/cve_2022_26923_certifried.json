@@ -1,44 +1,44 @@
 {
-  "name": "Active Directory Certificate Services (ADCS) privilege escalation (Certifried)",
-  "fullname": "auxiliary/admin/dcerpc/cve_2022_26923_certifried",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Oliver Lyak",
-    "CravateRouge",
-    "Erik Wynter",
-    "Christophe De La Fuente"
-  ],
-  "description": "This module exploits a privilege escalation vulnerability in Active\n          Directory Certificate Services (ADCS) to generate a valid certificate\n          impersonating the Domain Controller (DC) computer account. This\n          certificate is then used to authenticate to the target as the DC\n          account using PKINIT preauthentication mechanism. The module will get\n          and cache the Ticket-Granting-Ticket (TGT) for this account along\n          with its NTLM hash. Finally, it requests a TGS impersonating a\n          privileged user (Administrator by default). This TGS can then be used\n          by other modules or external tools.",
-  "references": [
-    "URL-https://research.ifcr.dk/certifried-active-directory-domain-privilege-escalation-cve-2022-26923-9e098fe298f4",
-    "URL-https://cravaterouge.github.io/ad/privesc/2022/05/11/bloodyad-and-CVE-2022-26923.html",
-    "CVE-2022-26923"
-  ],
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2023-03-13 10:31:27 +0000",
-  "path": "/modules/auxiliary/admin/dcerpc/cve_2022_26923_certifried.rb",
-  "is_install_path": true,
-  "ref_name": "admin/dcerpc/cve_2022_26923_certifried",
-  "post_auth": true,
-  "notes": {
-    "AKA": [
-      "Certifried"
-    ],
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Active Directory Certificate Services (ADCS) privilege escalation (Certifried)",
+	"fullname": "auxiliary/admin/dcerpc/cve_2022_26923_certifried",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Oliver Lyak",
+		"CravateRouge",
+		"Erik Wynter",
+		"Christophe De La Fuente"
+	],
+	"description": "This module exploits a privilege escalation vulnerability in Active\n          Directory Certificate Services (ADCS) to generate a valid certificate\n          impersonating the Domain Controller (DC) computer account. This\n          certificate is then used to authenticate to the target as the DC\n          account using PKINIT preauthentication mechanism. The module will get\n          and cache the Ticket-Granting-Ticket (TGT) for this account along\n          with its NTLM hash. Finally, it requests a TGS impersonating a\n          privileged user (Administrator by default). This TGS can then be used\n          by other modules or external tools.",
+	"references": [
+		"URL-https://research.ifcr.dk/certifried-active-directory-domain-privilege-escalation-cve-2022-26923-9e098fe298f4",
+		"URL-https://cravaterouge.github.io/ad/privesc/2022/05/11/bloodyad-and-CVE-2022-26923.html",
+		"CVE-2022-26923"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2023-03-13 10:31:27 +0000",
+	"path": "/modules/auxiliary/admin/dcerpc/cve_2022_26923_certifried.rb",
+	"is_install_path": true,
+	"ref_name": "admin/dcerpc/cve_2022_26923_certifried",
+	"post_auth": true,
+	"notes": {
+		"AKA": [
+			"Certifried"
+		],
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

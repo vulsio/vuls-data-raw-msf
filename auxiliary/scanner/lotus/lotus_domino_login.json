@@ -1,32 +1,32 @@
 {
-  "name": "Lotus Domino Brute Force Utility",
-  "fullname": "auxiliary/scanner/lotus/lotus_domino_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Tiago Ferreira <tiago.ccna@gmail.com>"
-  ],
-  "description": "Lotus Domino Authentication Brute Force Utility",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/lotus/lotus_domino_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/lotus/lotus_domino_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Lotus Domino Brute Force Utility",
+	"fullname": "auxiliary/scanner/lotus/lotus_domino_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Tiago Ferreira <tiago.ccna@gmail.com>"
+	],
+	"description": "Lotus Domino Authentication Brute Force Utility",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/lotus/lotus_domino_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/lotus/lotus_domino_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

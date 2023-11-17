@@ -1,40 +1,40 @@
 {
-  "name": "Outlook Web App (OWA) Brute Force Utility",
-  "fullname": "auxiliary/scanner/http/owa_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Vitor Moreira",
-    "Spencer McIntyre",
-    "SecureState R&D Team",
-    "sinn3r <sinn3r@metasploit.com>",
-    "Brandon Knight",
-    "Pete (Bokojan) Arzamendi",
-    "Nate Power",
-    "Chapman (R3naissance) Schleiss",
-    "Andrew Smith"
-  ],
-  "description": "This module tests credentials on OWA 2003, 2007, 2010, 2013, and 2016 servers.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/http/owa_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/owa_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Outlook Web App (OWA) Brute Force Utility",
+	"fullname": "auxiliary/scanner/http/owa_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Vitor Moreira",
+		"Spencer McIntyre",
+		"SecureState R&D Team",
+		"sinn3r <sinn3r@metasploit.com>",
+		"Brandon Knight",
+		"Pete (Bokojan) Arzamendi",
+		"Nate Power",
+		"Chapman (R3naissance) Schleiss",
+		"Andrew Smith"
+	],
+	"description": "This module tests credentials on OWA 2003, 2007, 2010, 2013, and 2016 servers.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/http/owa_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/owa_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

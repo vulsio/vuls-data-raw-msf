@@ -1,18 +1,18 @@
 {
-  "name": "Windows shellcode stage, Reverse HTTP Stager Proxy",
-  "fullname": "payload/windows/custom/reverse_http_proxy_pstore",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "bwatters-r7",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Custom shellcode stage.\n\nTunnel communication over HTTP",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_http_proxy_pstore.rb",
-  "is_install_path": true,
-  "ref_name": "windows/custom/reverse_http_proxy_pstore",
-  "needs_cleanup": false
+	"name": "Windows shellcode stage, Reverse HTTP Stager Proxy",
+	"fullname": "payload/windows/custom/reverse_http_proxy_pstore",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"bwatters-r7",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Custom shellcode stage.\n\nTunnel communication over HTTP",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_http_proxy_pstore.rb",
+	"is_install_path": true,
+	"ref_name": "windows/custom/reverse_http_proxy_pstore",
+	"needs_cleanup": false
 }

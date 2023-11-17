@@ -1,19 +1,19 @@
 {
-  "name": "Windows Manage PowerShell Download and/or Execute",
-  "fullname": "post/windows/manage/powershell/exec_powershell",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Nicholas Nam (nick <Nicholas Nam (nick@executionflow.org)>",
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "This module will download and execute a PowerShell script over a meterpreter session.\n          The user may also enter text substitutions to be made in memory before execution.\n          Setting VERBOSE to true will output both the script prior to execution and the results.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/powershell/exec_powershell.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/powershell/exec_powershell",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage PowerShell Download and/or Execute",
+	"fullname": "post/windows/manage/powershell/exec_powershell",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Nicholas Nam (nick <Nicholas Nam (nick@executionflow.org)>",
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "This module will download and execute a PowerShell script over a meterpreter session.\n          The user may also enter text substitutions to be made in memory before execution.\n          Setting VERBOSE to true will output both the script prior to execution and the results.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/powershell/exec_powershell.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/powershell/exec_powershell",
+	"session_types": [
+		"meterpreter"
+	]
 }

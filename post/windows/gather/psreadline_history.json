@@ -1,23 +1,23 @@
 {
-  "name": "Windows Gather PSReadline History",
-  "fullname": "post/windows/gather/psreadline_history",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Garvit Dewan <d.garvit@gmail.com>"
-  ],
-  "description": "Gathers Power Shell history data from the target machine.",
-  "references": [
-    "URL-https://docs.microsoft.com/en-us/powershell/module/psreadline/",
-    "URL-https://github.com/KalibRx/PoshHarvestPy/blob/master/poshharvest.py",
-    "URL-https://0xdf.gitlab.io/2018/11/08/powershell-history-file.html"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/psreadline_history.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/psreadline_history",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather PSReadline History",
+	"fullname": "post/windows/gather/psreadline_history",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Garvit Dewan <d.garvit@gmail.com>"
+	],
+	"description": "Gathers Power Shell history data from the target machine.",
+	"references": [
+		"URL-https://docs.microsoft.com/en-us/powershell/module/psreadline/",
+		"URL-https://github.com/KalibRx/PoshHarvestPy/blob/master/poshharvest.py",
+		"URL-https://0xdf.gitlab.io/2018/11/08/powershell-history-file.html"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/psreadline_history.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/psreadline_history",
+	"session_types": [
+		"meterpreter"
+	]
 }

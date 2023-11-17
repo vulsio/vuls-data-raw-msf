@@ -1,35 +1,35 @@
 {
-  "name": "Sendmail SMTP Address prescan Memory Corruption",
-  "fullname": "auxiliary/dos/smtp/sendmail_prescan",
-  "rank": 300,
-  "disclosure_date": "2003-09-17",
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "This is a proof of concept denial of service module for Sendmail versions\n        8.12.8 and earlier. The vulnerability is within the prescan() method when\n        parsing SMTP headers. Due to the prescan function, only 0x5c and 0x00\n        bytes can be used, limiting the likelihood for arbitrary code execution.",
-  "references": [
-    "OSVDB-2577",
-    "CVE-2003-0694",
-    "BID-8641",
-    "EDB-24"
-  ],
-  "rport": 25,
-  "autofilter_ports": [
-    25,
-    465,
-    587,
-    2525,
-    25025,
-    25000
-  ],
-  "autofilter_services": [
-    "smtp",
-    "smtps"
-  ],
-  "mod_time": "2023-01-04 14:45:58 +0000",
-  "path": "/modules/auxiliary/dos/smtp/sendmail_prescan.rb",
-  "is_install_path": true,
-  "ref_name": "dos/smtp/sendmail_prescan",
-  "needs_cleanup": false
+	"name": "Sendmail SMTP Address prescan Memory Corruption",
+	"fullname": "auxiliary/dos/smtp/sendmail_prescan",
+	"rank": 300,
+	"disclosure_date": "2003-09-17",
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "This is a proof of concept denial of service module for Sendmail versions\n        8.12.8 and earlier. The vulnerability is within the prescan() method when\n        parsing SMTP headers. Due to the prescan function, only 0x5c and 0x00\n        bytes can be used, limiting the likelihood for arbitrary code execution.",
+	"references": [
+		"OSVDB-2577",
+		"CVE-2003-0694",
+		"BID-8641",
+		"EDB-24"
+	],
+	"rport": 25,
+	"autofilter_ports": [
+		25,
+		465,
+		587,
+		2525,
+		25025,
+		25000
+	],
+	"autofilter_services": [
+		"smtp",
+		"smtps"
+	],
+	"mod_time": "2023-01-04 14:45:58 +0000",
+	"path": "/modules/auxiliary/dos/smtp/sendmail_prescan.rb",
+	"is_install_path": true,
+	"ref_name": "dos/smtp/sendmail_prescan",
+	"needs_cleanup": false
 }

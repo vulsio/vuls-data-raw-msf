@@ -1,32 +1,32 @@
 {
-  "name": "OpenVAS gsad Web Interface Login Utility",
-  "fullname": "auxiliary/scanner/openvas/openvas_gsad_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Vlatko Kosturjak <kost@linux.hr>"
-  ],
-  "description": "This module simply attempts to login to an OpenVAS gsad interface\n        using a specific user/pass.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-08-26 21:01:10 +0000",
-  "path": "/modules/auxiliary/scanner/openvas/openvas_gsad_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/openvas/openvas_gsad_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "OpenVAS gsad Web Interface Login Utility",
+	"fullname": "auxiliary/scanner/openvas/openvas_gsad_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Vlatko Kosturjak <kost@linux.hr>"
+	],
+	"description": "This module simply attempts to login to an OpenVAS gsad interface\n        using a specific user/pass.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-08-26 21:01:10 +0000",
+	"path": "/modules/auxiliary/scanner/openvas/openvas_gsad_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/openvas/openvas_gsad_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

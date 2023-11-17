@@ -1,35 +1,35 @@
 {
-  "name": "ManageEngine ServiceDesk Plus Path Traversal",
-  "fullname": "auxiliary/scanner/http/servicedesk_plus_traversal",
-  "rank": 300,
-  "disclosure_date": "2015-10-03",
-  "type": "auxiliary",
-  "author": [
-    "xistence <xistence@0x90.nl>"
-  ],
-  "description": "This module exploits an unauthenticated path traversal vulnerability found in ManageEngine\n        ServiceDesk Plus build 9110 and lower. The module will retrieve any file on the filesystem\n        with the same privileges as Support Center Plus is running. On Windows, files can be retrieved\n        with SYSTEM privileges. The issue has been resolved in ServiceDesk Plus build 91111 (issue SD-60283).",
-  "references": [
-    "URL-https://www.manageengine.com/products/service-desk/readme-9.1.html"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/servicedesk_plus_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/servicedesk_plus_traversal",
-  "needs_cleanup": false
+	"name": "ManageEngine ServiceDesk Plus Path Traversal",
+	"fullname": "auxiliary/scanner/http/servicedesk_plus_traversal",
+	"rank": 300,
+	"disclosure_date": "2015-10-03",
+	"type": "auxiliary",
+	"author": [
+		"xistence <xistence@0x90.nl>"
+	],
+	"description": "This module exploits an unauthenticated path traversal vulnerability found in ManageEngine\n        ServiceDesk Plus build 9110 and lower. The module will retrieve any file on the filesystem\n        with the same privileges as Support Center Plus is running. On Windows, files can be retrieved\n        with SYSTEM privileges. The issue has been resolved in ServiceDesk Plus build 91111 (issue SD-60283).",
+	"references": [
+		"URL-https://www.manageengine.com/products/service-desk/readme-9.1.html"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/servicedesk_plus_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/servicedesk_plus_traversal",
+	"needs_cleanup": false
 }

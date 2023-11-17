@@ -1,27 +1,27 @@
 {
-  "name": "Linux Container Enumeration",
-  "fullname": "post/linux/gather/enum_containers",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "stealthcopter"
-  ],
-  "description": "This module attempts to enumerate containers on the target machine and optionally run a command on each active container found.\n          Currently it supports Docker, LXC and RKT.",
-  "platform": "Linux",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/linux/gather/enum_containers.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_containers",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Container Enumeration",
+	"fullname": "post/linux/gather/enum_containers",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"stealthcopter"
+	],
+	"description": "This module attempts to enumerate containers on the target machine and optionally run a command on each active container found.\n          Currently it supports Docker, LXC and RKT.",
+	"platform": "Linux",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/linux/gather/enum_containers.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_containers",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

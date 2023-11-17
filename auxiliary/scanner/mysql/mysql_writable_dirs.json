@@ -1,20 +1,20 @@
 {
-  "name": "MYSQL Directory Write Test",
-  "fullname": "auxiliary/scanner/mysql/mysql_writable_dirs",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "AverageSecurityGuy <stephen@averagesecurityguy.info>"
-  ],
-  "description": "Enumerate writeable directories using the MySQL SELECT INTO DUMPFILE feature, for more\n        information see the URL in the references. ***Note: For every writable directory found,\n        a file with the specified FILE_NAME containing the text test will be written to the directory.***",
-  "references": [
-    "URL-https://dev.mysql.com/doc/refman/5.7/en/select-into.html"
-  ],
-  "rport": 3306,
-  "mod_time": "2023-08-17 19:07:28 +0000",
-  "path": "/modules/auxiliary/scanner/mysql/mysql_writable_dirs.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/mysql/mysql_writable_dirs",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "MYSQL Directory Write Test",
+	"fullname": "auxiliary/scanner/mysql/mysql_writable_dirs",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"AverageSecurityGuy <stephen@averagesecurityguy.info>"
+	],
+	"description": "Enumerate writeable directories using the MySQL SELECT INTO DUMPFILE feature, for more\n        information see the URL in the references. ***Note: For every writable directory found,\n        a file with the specified FILE_NAME containing the text test will be written to the directory.***",
+	"references": [
+		"URL-https://dev.mysql.com/doc/refman/5.7/en/select-into.html"
+	],
+	"rport": 3306,
+	"mod_time": "2023-08-17 19:07:28 +0000",
+	"path": "/modules/auxiliary/scanner/mysql/mysql_writable_dirs.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/mysql/mysql_writable_dirs",
+	"post_auth": true,
+	"needs_cleanup": false
 }

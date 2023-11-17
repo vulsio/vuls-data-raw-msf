@@ -1,25 +1,25 @@
 {
-  "name": "SMB Scanner Check File/Directory Utility",
-  "fullname": "auxiliary/admin/smb/check_dir_file",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>",
-    "j0hn__f"
-  ],
-  "description": "This module is useful when checking an entire network\n        of SMB hosts for the presence of a known file or directory.\n        An example would be to scan all systems for the presence of\n        antivirus or known malware outbreak. Typically you must set\n        RPATH, SMBUser, SMBDomain and SMBPass to operate correctly.",
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2020-05-13 16:34:47 +0000",
-  "path": "/modules/auxiliary/admin/smb/check_dir_file.rb",
-  "is_install_path": true,
-  "ref_name": "admin/smb/check_dir_file",
-  "needs_cleanup": false
+	"name": "SMB Scanner Check File/Directory Utility",
+	"fullname": "auxiliary/admin/smb/check_dir_file",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>",
+		"j0hn__f"
+	],
+	"description": "This module is useful when checking an entire network\n        of SMB hosts for the presence of a known file or directory.\n        An example would be to scan all systems for the presence of\n        antivirus or known malware outbreak. Typically you must set\n        RPATH, SMBUser, SMBDomain and SMBPass to operate correctly.",
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2020-05-13 16:34:47 +0000",
+	"path": "/modules/auxiliary/admin/smb/check_dir_file.rb",
+	"is_install_path": true,
+	"ref_name": "admin/smb/check_dir_file",
+	"needs_cleanup": false
 }

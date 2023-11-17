@@ -1,19 +1,19 @@
 {
-  "name": "HTTP Fetch, Linux Command Shell, Bind TCP Inline (IPv6)",
-  "fullname": "payload/cmd/linux/http/x86/shell_bind_ipv6_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "Fetch and execute a x86 payload from an HTTP server.\nListen for a connection over IPv6 and spawn a command shell",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/http/x86/shell_bind_ipv6_tcp",
-  "needs_cleanup": false
+	"name": "HTTP Fetch, Linux Command Shell, Bind TCP Inline (IPv6)",
+	"fullname": "payload/cmd/linux/http/x86/shell_bind_ipv6_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "Fetch and execute a x86 payload from an HTTP server.\nListen for a connection over IPv6 and spawn a command shell",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/http/x86/shell_bind_ipv6_tcp",
+	"needs_cleanup": false
 }

@@ -1,18 +1,18 @@
 {
-  "name": "Linux Mettle x86, Bind TCP Stager",
-  "fullname": "payload/linux/x86/meterpreter/bind_nonx_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "William Webb <william_webb@rapid7.com>",
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Inject the mettle server payload (staged).\n\nListen for a connection",
-  "platform": "Linux,Linux",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/linux/x86/bind_nonx_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/meterpreter/bind_nonx_tcp",
-  "needs_cleanup": false
+	"name": "Linux Mettle x86, Bind TCP Stager",
+	"fullname": "payload/linux/x86/meterpreter/bind_nonx_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"William Webb <william_webb@rapid7.com>",
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Inject the mettle server payload (staged).\n\nListen for a connection",
+	"platform": "Linux,Linux",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/linux/x86/bind_nonx_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/meterpreter/bind_nonx_tcp",
+	"needs_cleanup": false
 }

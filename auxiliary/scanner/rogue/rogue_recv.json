@@ -1,16 +1,16 @@
 {
-  "name": "Rogue Gateway Detection: Receiver",
-  "fullname": "auxiliary/scanner/rogue/rogue_recv",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module listens for replies to the requests sent by\n      the rogue_send module. The RPORT, CPORT, and ECHOID values\n      must match the rogue_send parameters used exactly.",
-  "rport": 80,
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/rogue/rogue_recv.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/rogue/rogue_recv",
-  "needs_cleanup": false
+	"name": "Rogue Gateway Detection: Receiver",
+	"fullname": "auxiliary/scanner/rogue/rogue_recv",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module listens for replies to the requests sent by\n      the rogue_send module. The RPORT, CPORT, and ECHOID values\n      must match the rogue_send parameters used exactly.",
+	"rport": 80,
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/rogue/rogue_recv.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/rogue/rogue_recv",
+	"needs_cleanup": false
 }

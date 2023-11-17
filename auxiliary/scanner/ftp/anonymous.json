@@ -1,26 +1,26 @@
 {
-  "name": "Anonymous FTP Access Detection",
-  "fullname": "auxiliary/scanner/ftp/anonymous",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "Detect anonymous (read/write) FTP server access.",
-  "references": [
-    "URL-https://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
-  ],
-  "rport": 21,
-  "autofilter_ports": [
-    21,
-    2121
-  ],
-  "autofilter_services": [
-    "ftp"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/ftp/anonymous.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ftp/anonymous",
-  "needs_cleanup": false
+	"name": "Anonymous FTP Access Detection",
+	"fullname": "auxiliary/scanner/ftp/anonymous",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "Detect anonymous (read/write) FTP server access.",
+	"references": [
+		"URL-https://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
+	],
+	"rport": 21,
+	"autofilter_ports": [
+		21,
+		2121
+	],
+	"autofilter_services": [
+		"ftp"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/ftp/anonymous.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ftp/anonymous",
+	"needs_cleanup": false
 }

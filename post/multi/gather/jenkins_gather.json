@@ -1,19 +1,19 @@
 {
-  "name": "Jenkins Credential Collector",
-  "fullname": "post/multi/gather/jenkins_gather",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "thesubtlety"
-  ],
-  "description": "This module can be used to extract saved Jenkins credentials, user\n          tokens, SSH keys, and secrets. Interesting files will be stored in\n          loot along with combined csv output.",
-  "platform": "Linux,Windows",
-  "mod_time": "2023-07-18 14:17:15 +0000",
-  "path": "/modules/post/multi/gather/jenkins_gather.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/jenkins_gather",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Jenkins Credential Collector",
+	"fullname": "post/multi/gather/jenkins_gather",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"thesubtlety"
+	],
+	"description": "This module can be used to extract saved Jenkins credentials, user\n          tokens, SSH keys, and secrets. Interesting files will be stored in\n          loot along with combined csv output.",
+	"platform": "Linux,Windows",
+	"mod_time": "2023-07-18 14:17:15 +0000",
+	"path": "/modules/post/multi/gather/jenkins_gather.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/jenkins_gather",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

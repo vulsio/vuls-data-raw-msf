@@ -1,35 +1,35 @@
 {
-  "name": "Amazon Fire TV YouTube Remote Control",
-  "fullname": "auxiliary/admin/firetv/firetv_youtube",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "wvu <wvu@metasploit.com>"
-  ],
-  "description": "This module acts as a simple remote control for the Amazon Fire TV's\n        YouTube app.\n\n        Tested on the Amazon Fire TV Stick.",
-  "references": [
-    "URL-https://www.amazon.com/dp/B00CX5P8FC?_encoding=UTF8&showFS=1",
-    "URL-https://www.amazon.com/dp/B00GDQ0RMG/ref=fs_ftvs"
-  ],
-  "rport": 8008,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/firetv/firetv_youtube.rb",
-  "is_install_path": true,
-  "ref_name": "admin/firetv/firetv_youtube",
-  "needs_cleanup": false
+	"name": "Amazon Fire TV YouTube Remote Control",
+	"fullname": "auxiliary/admin/firetv/firetv_youtube",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"wvu <wvu@metasploit.com>"
+	],
+	"description": "This module acts as a simple remote control for the Amazon Fire TV's\n        YouTube app.\n\n        Tested on the Amazon Fire TV Stick.",
+	"references": [
+		"URL-https://www.amazon.com/dp/B00CX5P8FC?_encoding=UTF8&showFS=1",
+		"URL-https://www.amazon.com/dp/B00GDQ0RMG/ref=fs_ftvs"
+	],
+	"rport": 8008,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/firetv/firetv_youtube.rb",
+	"is_install_path": true,
+	"ref_name": "admin/firetv/firetv_youtube",
+	"needs_cleanup": false
 }

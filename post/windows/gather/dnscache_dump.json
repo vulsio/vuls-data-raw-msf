@@ -1,18 +1,18 @@
 {
-  "name": "Windows Gather DNS Cache",
-  "fullname": "post/windows/gather/dnscache_dump",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "This module displays the records stored in the DNS cache.",
-  "platform": "Windows",
-  "mod_time": "2021-10-06 13:43:31 +0000",
-  "path": "/modules/post/windows/gather/dnscache_dump.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/dnscache_dump",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather DNS Cache",
+	"fullname": "post/windows/gather/dnscache_dump",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "This module displays the records stored in the DNS cache.",
+	"platform": "Windows",
+	"mod_time": "2021-10-06 13:43:31 +0000",
+	"path": "/modules/post/windows/gather/dnscache_dump.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/dnscache_dump",
+	"session_types": [
+		"meterpreter"
+	]
 }

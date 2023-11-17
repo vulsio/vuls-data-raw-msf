@@ -1,35 +1,35 @@
 {
-  "name": "HTTP Git Scanner",
-  "fullname": "auxiliary/scanner/http/git_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Nixawk",
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module can detect situations where there may be information\n        disclosure vulnerabilities that occur when a Git repository is made\n        available over HTTP.",
-  "references": [
-    "URL-https://github.com/git/git/blob/master/Documentation/technical/index-format.txt"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/git_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/git_scanner",
-  "needs_cleanup": false
+	"name": "HTTP Git Scanner",
+	"fullname": "auxiliary/scanner/http/git_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Nixawk",
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module can detect situations where there may be information\n        disclosure vulnerabilities that occur when a Git repository is made\n        available over HTTP.",
+	"references": [
+		"URL-https://github.com/git/git/blob/master/Documentation/technical/index-format.txt"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/git_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/git_scanner",
+	"needs_cleanup": false
 }

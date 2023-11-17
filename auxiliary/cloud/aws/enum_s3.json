@@ -1,15 +1,15 @@
 {
-  "name": "Amazon Web Services S3 instance enumeration",
-  "fullname": "auxiliary/cloud/aws/enum_s3",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Aaron Soto <aaron.soto@rapid7.com>"
-  ],
-  "description": "Provided AWS credentials, this module will call the authenticated\n                          API of Amazon Web Services to list all S3 buckets associated\n                          with the account",
-  "mod_time": "2021-05-27 15:15:31 +0000",
-  "path": "/modules/auxiliary/cloud/aws/enum_s3.rb",
-  "is_install_path": true,
-  "ref_name": "cloud/aws/enum_s3",
-  "needs_cleanup": false
+	"name": "Amazon Web Services S3 instance enumeration",
+	"fullname": "auxiliary/cloud/aws/enum_s3",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Aaron Soto <aaron.soto@rapid7.com>"
+	],
+	"description": "Provided AWS credentials, this module will call the authenticated\n                          API of Amazon Web Services to list all S3 buckets associated\n                          with the account",
+	"mod_time": "2021-05-27 15:15:31 +0000",
+	"path": "/modules/auxiliary/cloud/aws/enum_s3.rb",
+	"is_install_path": true,
+	"ref_name": "cloud/aws/enum_s3",
+	"needs_cleanup": false
 }

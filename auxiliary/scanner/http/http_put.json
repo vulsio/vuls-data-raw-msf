@@ -1,36 +1,36 @@
 {
-  "name": "HTTP Writable Path PUT/DELETE File Access",
-  "fullname": "auxiliary/scanner/http/http_put",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Kashif <Kashif@compulife.com.pk>",
-    "CG <cg@carnal0wnage.com>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module can abuse misconfigured web servers to upload and delete web content\n        via PUT and DELETE HTTP requests. Set ACTION to either PUT or DELETE.\n\n        PUT is the default.  If filename isn't specified, the module will generate a\n        random string for you as a .txt file. If DELETE is used, a filename is required.",
-  "references": [
-    "OSVDB-397"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-05-12 22:15:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/http_put.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/http_put",
-  "needs_cleanup": false
+	"name": "HTTP Writable Path PUT/DELETE File Access",
+	"fullname": "auxiliary/scanner/http/http_put",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Kashif <Kashif@compulife.com.pk>",
+		"CG <cg@carnal0wnage.com>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module can abuse misconfigured web servers to upload and delete web content\n        via PUT and DELETE HTTP requests. Set ACTION to either PUT or DELETE.\n\n        PUT is the default.  If filename isn't specified, the module will generate a\n        random string for you as a .txt file. If DELETE is used, a filename is required.",
+	"references": [
+		"OSVDB-397"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-05-12 22:15:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/http_put.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/http_put",
+	"needs_cleanup": false
 }

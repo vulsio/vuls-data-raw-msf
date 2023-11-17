@@ -1,22 +1,22 @@
 {
-  "name": "Telnet Service Banner Detection",
-  "fullname": "auxiliary/scanner/telnet/telnet_version",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Detect telnet services",
-  "rport": 23,
-  "autofilter_ports": [
-    23
-  ],
-  "autofilter_services": [
-    "telnet"
-  ],
-  "mod_time": "2020-06-11 13:09:25 +0000",
-  "path": "/modules/auxiliary/scanner/telnet/telnet_version.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/telnet/telnet_version",
-  "needs_cleanup": false
+	"name": "Telnet Service Banner Detection",
+	"fullname": "auxiliary/scanner/telnet/telnet_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Detect telnet services",
+	"rport": 23,
+	"autofilter_ports": [
+		23
+	],
+	"autofilter_services": [
+		"telnet"
+	],
+	"mod_time": "2020-06-11 13:09:25 +0000",
+	"path": "/modules/auxiliary/scanner/telnet/telnet_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/telnet/telnet_version",
+	"needs_cleanup": false
 }

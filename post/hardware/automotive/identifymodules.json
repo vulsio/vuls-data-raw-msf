@@ -1,18 +1,18 @@
 {
-  "name": "Scan CAN Bus for Diagnostic Modules",
-  "fullname": "post/hardware/automotive/identifymodules",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Craig Smith"
-  ],
-  "description": "Post Module to scan the CAN bus for any modules that can respond to UDS DSC queries",
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/automotive/identifymodules.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/automotive/identifymodules",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "Scan CAN Bus for Diagnostic Modules",
+	"fullname": "post/hardware/automotive/identifymodules",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Craig Smith"
+	],
+	"description": "Post Module to scan the CAN bus for any modules that can respond to UDS DSC queries",
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/automotive/identifymodules.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/automotive/identifymodules",
+	"session_types": [
+		"hwbridge"
+	]
 }

@@ -1,39 +1,39 @@
 {
-  "name": "Microsoft IIS shortname vulnerability scanner",
-  "fullname": "auxiliary/scanner/http/iis_shortname_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Soroush Dalili",
-    "Ali Abbasnejad",
-    "MinatoTW <shaks19jais@gmail.com>",
-    "egre55 <ianaustin@protonmail.com>"
-  ],
-  "description": "The vulnerability is caused by a tilde character \"~\" in a GET or OPTIONS request, which\n         could allow remote attackers to disclose 8.3 filenames (short names). In 2010, Soroush Dalili\n         and Ali Abbasnejad discovered the original bug (GET request). This was publicly disclosed in\n         2012. In 2014, Soroush Dalili discovered that newer IIS installations are vulnerable with OPTIONS.",
-  "references": [
-    "URL-https://soroush.secproject.com/blog/tag/iis-tilde-vulnerability/",
-    "URL-https://support.detectify.com/customer/portal/articles/1711520-microsoft-iis-tilde-vulnerability"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/iis_shortname_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/iis_shortname_scanner",
-  "check": true,
-  "needs_cleanup": false
+	"name": "Microsoft IIS shortname vulnerability scanner",
+	"fullname": "auxiliary/scanner/http/iis_shortname_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Soroush Dalili",
+		"Ali Abbasnejad",
+		"MinatoTW <shaks19jais@gmail.com>",
+		"egre55 <ianaustin@protonmail.com>"
+	],
+	"description": "The vulnerability is caused by a tilde character \"~\" in a GET or OPTIONS request, which\n         could allow remote attackers to disclose 8.3 filenames (short names). In 2010, Soroush Dalili\n         and Ali Abbasnejad discovered the original bug (GET request). This was publicly disclosed in\n         2012. In 2014, Soroush Dalili discovered that newer IIS installations are vulnerable with OPTIONS.",
+	"references": [
+		"URL-https://soroush.secproject.com/blog/tag/iis-tilde-vulnerability/",
+		"URL-https://support.detectify.com/customer/portal/articles/1711520-microsoft-iis-tilde-vulnerability"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/iis_shortname_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/iis_shortname_scanner",
+	"check": true,
+	"needs_cleanup": false
 }

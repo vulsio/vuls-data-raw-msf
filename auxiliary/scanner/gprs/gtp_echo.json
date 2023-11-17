@@ -1,21 +1,21 @@
 {
-  "name": "GTP Echo Scanner",
-  "fullname": "auxiliary/scanner/gprs/gtp_echo",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Daniel Mende",
-    "Spencer McIntyre"
-  ],
-  "description": "This module sends UDP GTP (GTP-U) echo requests to the target RHOSTS and\n        reports on which ones respond, thus identifying General Packet Radio\n        Service (GPRS) servers. This module does not support scanning with SCTP.",
-  "references": [
-    "URL-https://insinuator.net/tag/gtp/",
-    "URL-https://www.etsi.org/deliver/etsi_ts/129200_129299/129281/08.00.00_60/ts_129281v080000p.pdf"
-  ],
-  "rport": 2152,
-  "mod_time": "2019-04-26 17:45:27 +0000",
-  "path": "/modules/auxiliary/scanner/gprs/gtp_echo.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/gprs/gtp_echo",
-  "needs_cleanup": false
+	"name": "GTP Echo Scanner",
+	"fullname": "auxiliary/scanner/gprs/gtp_echo",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Daniel Mende",
+		"Spencer McIntyre"
+	],
+	"description": "This module sends UDP GTP (GTP-U) echo requests to the target RHOSTS and\n        reports on which ones respond, thus identifying General Packet Radio\n        Service (GPRS) servers. This module does not support scanning with SCTP.",
+	"references": [
+		"URL-https://insinuator.net/tag/gtp/",
+		"URL-https://www.etsi.org/deliver/etsi_ts/129200_129299/129281/08.00.00_60/ts_129281v080000p.pdf"
+	],
+	"rport": 2152,
+	"mod_time": "2019-04-26 17:45:27 +0000",
+	"path": "/modules/auxiliary/scanner/gprs/gtp_echo.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/gprs/gtp_echo",
+	"needs_cleanup": false
 }

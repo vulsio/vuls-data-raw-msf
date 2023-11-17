@@ -1,21 +1,21 @@
 {
-  "name": "Windows Outbound-Filtering Rules",
-  "fullname": "post/windows/recon/outbound_ports",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "This module makes some kind of TCP traceroute to get outbound-filtering rules.\n          It will try to make a TCP connection to a certain public IP address (this IP\n          does not need to be under your control) using different TTL incremental values.\n          This way if you get an answer (ICMP TTL time exceeded packet) from a public IP\n          device you can infer that the destination port is allowed. Setting STOP to\n          true the module will stop as soon as you reach a public IP (this will generate\n          less noise in the network).",
-  "references": [
-    "URL-http://www.shelliscoming.com/2014/11/getting-outbound-filtering-rules-by.html"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/recon/outbound_ports.rb",
-  "is_install_path": true,
-  "ref_name": "windows/recon/outbound_ports",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Outbound-Filtering Rules",
+	"fullname": "post/windows/recon/outbound_ports",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "This module makes some kind of TCP traceroute to get outbound-filtering rules.\n          It will try to make a TCP connection to a certain public IP address (this IP\n          does not need to be under your control) using different TTL incremental values.\n          This way if you get an answer (ICMP TTL time exceeded packet) from a public IP\n          device you can infer that the destination port is allowed. Setting STOP to\n          true the module will stop as soon as you reach a public IP (this will generate\n          less noise in the network).",
+	"references": [
+		"URL-http://www.shelliscoming.com/2014/11/getting-outbound-filtering-rules-by.html"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/recon/outbound_ports.rb",
+	"is_install_path": true,
+	"ref_name": "windows/recon/outbound_ports",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,22 +1,22 @@
 {
-  "name": "Windows Meterpreter Shell, Reverse TCP Inline",
-  "fullname": "payload/windows/meterpreter_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "OJ Reeves",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Connect back to attacker and spawn a Meterpreter shell. Requires Windows XP SP2 or newer.",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-05-23 11:55:38 +0000",
-  "path": "/modules/payloads/singles/windows/meterpreter_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/meterpreter_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter Shell, Reverse TCP Inline",
+	"fullname": "payload/windows/meterpreter_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"OJ Reeves",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Connect back to attacker and spawn a Meterpreter shell. Requires Windows XP SP2 or newer.",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-05-23 11:55:38 +0000",
+	"path": "/modules/payloads/singles/windows/meterpreter_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/meterpreter_reverse_tcp",
+	"needs_cleanup": false
 }

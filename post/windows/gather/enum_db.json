@@ -1,19 +1,19 @@
 {
-  "name": "Windows Gather Database Instance Enumeration",
-  "fullname": "post/windows/gather/enum_db",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Barry Shteiman <barry@sectorix.com>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module will enumerate a windows system for installed database instances",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_db.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_db",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Database Instance Enumeration",
+	"fullname": "post/windows/gather/enum_db",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Barry Shteiman <barry@sectorix.com>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module will enumerate a windows system for installed database instances",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_db.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_db",
+	"session_types": [
+		"meterpreter"
+	]
 }

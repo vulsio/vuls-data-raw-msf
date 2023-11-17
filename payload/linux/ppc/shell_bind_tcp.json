@@ -1,17 +1,17 @@
 {
-  "name": "Linux Command Shell, Bind TCP Inline",
-  "fullname": "payload/linux/ppc/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Ramon de C Valle <rcvalle@metasploit.com>"
-  ],
-  "description": "Listen for a connection and spawn a command shell",
-  "platform": "Linux",
-  "arch": "ppc, cbea",
-  "mod_time": "2021-01-05 14:59:46 +0000",
-  "path": "/modules/payloads/singles/linux/ppc/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/ppc/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Bind TCP Inline",
+	"fullname": "payload/linux/ppc/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Ramon de C Valle <rcvalle@metasploit.com>"
+	],
+	"description": "Listen for a connection and spawn a command shell",
+	"platform": "Linux",
+	"arch": "ppc, cbea",
+	"mod_time": "2021-01-05 14:59:46 +0000",
+	"path": "/modules/payloads/singles/linux/ppc/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/ppc/shell_bind_tcp",
+	"needs_cleanup": false
 }

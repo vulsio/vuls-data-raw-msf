@@ -1,19 +1,19 @@
 {
-  "name": "Windows Manage Process Migration",
-  "fullname": "post/windows/manage/migrate",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>",
-    "phra <https://iwantmore.pizza>"
-  ],
-  "description": "This module will migrate a Meterpreter session from one process\n          to another. A given process PID to migrate to or the module can spawn one and\n          migrate to that newly spawned process.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/migrate.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/migrate",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Process Migration",
+	"fullname": "post/windows/manage/migrate",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>",
+		"phra <https://iwantmore.pizza>"
+	],
+	"description": "This module will migrate a Meterpreter session from one process\n          to another. A given process PID to migrate to or the module can spawn one and\n          migrate to that newly spawned process.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/migrate.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/migrate",
+	"session_types": [
+		"meterpreter"
+	]
 }

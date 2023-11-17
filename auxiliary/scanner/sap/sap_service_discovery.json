@@ -1,18 +1,18 @@
 {
-  "name": "SAP Service Discovery",
-  "fullname": "auxiliary/scanner/sap/sap_service_discovery",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Chris John Riley"
-  ],
-  "description": "Scans for listening SAP services.",
-  "references": [
-    "URL-https://blog.c22.cc"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_service_discovery.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_service_discovery",
-  "needs_cleanup": false
+	"name": "SAP Service Discovery",
+	"fullname": "auxiliary/scanner/sap/sap_service_discovery",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Chris John Riley"
+	],
+	"description": "Scans for listening SAP services.",
+	"references": [
+		"URL-https://blog.c22.cc"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_service_discovery.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_service_discovery",
+	"needs_cleanup": false
 }

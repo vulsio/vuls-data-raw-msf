@@ -1,31 +1,31 @@
 {
-  "name": "Windows Manage Add User to the Domain and/or to a Domain Group",
-  "fullname": "post/windows/manage/add_user",
-  "aliases": [
-    "post/windows/manage/add_user_domain"
-  ],
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Joshua Abraham <jabra@rapid7.com>"
-  ],
-  "description": "This module adds a user to the Domain and/or to a Domain group. It will\n          check if sufficient privileges are present for certain actions and run\n          getprivs for system.  If you elevated privs to system, the\n          SeAssignPrimaryTokenPrivilege will not be assigned. You need to migrate to\n          a process that is running as system. If you don't have privs, this script\n          exits.",
-  "platform": "Windows",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/windows/manage/add_user.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/add_user",
-  "post_auth": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs",
-      "config-changes"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Add User to the Domain and/or to a Domain Group",
+	"fullname": "post/windows/manage/add_user",
+	"aliases": [
+		"post/windows/manage/add_user_domain"
+	],
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Joshua Abraham <jabra@rapid7.com>"
+	],
+	"description": "This module adds a user to the Domain and/or to a Domain group. It will\n          check if sufficient privileges are present for certain actions and run\n          getprivs for system.  If you elevated privs to system, the\n          SeAssignPrimaryTokenPrivilege will not be assigned. You need to migrate to\n          a process that is running as system. If you don't have privs, this script\n          exits.",
+	"platform": "Windows",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/windows/manage/add_user.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/add_user",
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

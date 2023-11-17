@@ -1,17 +1,17 @@
 {
-  "name": "BSD Command Shell, Bind TCP Inline",
-  "fullname": "payload/bsd/sparc/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "vlad902 <vlad902@gmail.com>"
-  ],
-  "description": "Listen for a connection and spawn a command shell",
-  "platform": "BSD",
-  "arch": "sparc",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/bsd/sparc/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "bsd/sparc/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "BSD Command Shell, Bind TCP Inline",
+	"fullname": "payload/bsd/sparc/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"vlad902 <vlad902@gmail.com>"
+	],
+	"description": "Listen for a connection and spawn a command shell",
+	"platform": "BSD",
+	"arch": "sparc",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/bsd/sparc/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "bsd/sparc/shell_bind_tcp",
+	"needs_cleanup": false
 }

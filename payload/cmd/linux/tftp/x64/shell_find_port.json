@@ -1,18 +1,18 @@
 {
-  "name": "TFTP Fetch, Linux Command Shell, Find Port Inline",
-  "fullname": "payload/cmd/linux/tftp/x64/shell_find_port",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "mak"
-  ],
-  "description": "Fetch and execute an x64 payload from a TFTP server.\nSpawn a shell on an established connection",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-05-25 11:49:38 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/x64/shell_find_port",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Linux Command Shell, Find Port Inline",
+	"fullname": "payload/cmd/linux/tftp/x64/shell_find_port",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"mak"
+	],
+	"description": "Fetch and execute an x64 payload from a TFTP server.\nSpawn a shell on an established connection",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-05-25 11:49:38 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/x64/shell_find_port",
+	"needs_cleanup": false
 }

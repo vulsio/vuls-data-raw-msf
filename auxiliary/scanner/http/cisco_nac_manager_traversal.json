@@ -1,35 +1,35 @@
 {
-  "name": "Cisco Network Access Manager Directory Traversal Vulnerability",
-  "fullname": "auxiliary/scanner/http/cisco_nac_manager_traversal",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Nenad Stojanovski <nenad.stojanovski@gmail.com>"
-  ],
-  "description": "This module tests whether a directory traversal vulnerablity is present\n        in versions of Cisco Network Access Manager 4.8.x You may wish to change\n        FILE (e.g. passwd or hosts), MAXDIRS and RPORT depending on your environment.",
-  "references": [
-    "CVE-2011-3305",
-    "OSVDB-76080"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/cisco_nac_manager_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/cisco_nac_manager_traversal",
-  "needs_cleanup": false
+	"name": "Cisco Network Access Manager Directory Traversal Vulnerability",
+	"fullname": "auxiliary/scanner/http/cisco_nac_manager_traversal",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Nenad Stojanovski <nenad.stojanovski@gmail.com>"
+	],
+	"description": "This module tests whether a directory traversal vulnerablity is present\n        in versions of Cisco Network Access Manager 4.8.x You may wish to change\n        FILE (e.g. passwd or hosts), MAXDIRS and RPORT depending on your environment.",
+	"references": [
+		"CVE-2011-3305",
+		"OSVDB-76080"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/cisco_nac_manager_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/cisco_nac_manager_traversal",
+	"needs_cleanup": false
 }

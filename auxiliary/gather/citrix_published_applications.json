@@ -1,19 +1,19 @@
 {
-  "name": "Citrix MetaFrame ICA Published Applications Scanner",
-  "fullname": "auxiliary/gather/citrix_published_applications",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "This module attempts to query Citrix Metaframe ICA server to obtain\n        a published list of applications.",
-  "references": [
-    "URL-http://www.securiteam.com/exploits/5CP0B1F80S.html"
-  ],
-  "rport": 1604,
-  "mod_time": "2017-11-09 03:00:24 +0000",
-  "path": "/modules/auxiliary/gather/citrix_published_applications.rb",
-  "is_install_path": true,
-  "ref_name": "gather/citrix_published_applications",
-  "needs_cleanup": false
+	"name": "Citrix MetaFrame ICA Published Applications Scanner",
+	"fullname": "auxiliary/gather/citrix_published_applications",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "This module attempts to query Citrix Metaframe ICA server to obtain\n        a published list of applications.",
+	"references": [
+		"URL-http://www.securiteam.com/exploits/5CP0B1F80S.html"
+	],
+	"rport": 1604,
+	"mod_time": "2017-11-09 03:00:24 +0000",
+	"path": "/modules/auxiliary/gather/citrix_published_applications.rb",
+	"is_install_path": true,
+	"ref_name": "gather/citrix_published_applications",
+	"needs_cleanup": false
 }

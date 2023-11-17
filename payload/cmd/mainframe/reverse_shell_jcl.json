@@ -1,17 +1,17 @@
 {
-  "name": "Z/OS (MVS) Command Shell, Reverse TCP",
-  "fullname": "payload/cmd/mainframe/reverse_shell_jcl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Bigendian Smalls"
-  ],
-  "description": "Provide JCL which creates a reverse shell\n                       This implementation does not include ebcdic character translation,\n                       so a client with translation capabilities is required.  MSF handles\n                       this automatically.",
-  "platform": "Mainframe",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/cmd/mainframe/reverse_shell_jcl.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/mainframe/reverse_shell_jcl",
-  "needs_cleanup": false
+	"name": "Z/OS (MVS) Command Shell, Reverse TCP",
+	"fullname": "payload/cmd/mainframe/reverse_shell_jcl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Bigendian Smalls"
+	],
+	"description": "Provide JCL which creates a reverse shell\n                       This implementation does not include ebcdic character translation,\n                       so a client with translation capabilities is required.  MSF handles\n                       this automatically.",
+	"platform": "Mainframe",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/cmd/mainframe/reverse_shell_jcl.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/mainframe/reverse_shell_jcl",
+	"needs_cleanup": false
 }

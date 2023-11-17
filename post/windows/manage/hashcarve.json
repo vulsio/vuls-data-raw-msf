@@ -1,19 +1,19 @@
 {
-  "name": "Windows Local User Account Hash Carver",
-  "fullname": "post/windows/manage/hashcarve",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "p3nt4"
-  ],
-  "description": "This module will change a local user's password directly in the registry.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/hashcarve.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/hashcarve",
-  "post_auth": true,
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Local User Account Hash Carver",
+	"fullname": "post/windows/manage/hashcarve",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"p3nt4"
+	],
+	"description": "This module will change a local user's password directly in the registry.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/hashcarve.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/hashcarve",
+	"post_auth": true,
+	"session_types": [
+		"meterpreter"
+	]
 }

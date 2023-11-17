@@ -1,37 +1,37 @@
 {
-  "name": "InfluxDB Enum Utility",
-  "fullname": "auxiliary/scanner/http/influxdb_enum",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Roberto Soares Espreto <robertoespreto@gmail.com>",
-    "Nixawk"
-  ],
-  "description": "This module enumerates databases on InfluxDB using the REST API using the\n        default authentication of root:root.",
-  "references": [
-    "URL-https://docs.influxdata.com/influxdb/v2.1/",
-    "URL-https://www.shodan.io/search?query=X-Influxdb-Version"
-  ],
-  "rport": 8086,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/influxdb_enum.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/influxdb_enum",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "InfluxDB Enum Utility",
+	"fullname": "auxiliary/scanner/http/influxdb_enum",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Roberto Soares Espreto <robertoespreto@gmail.com>",
+		"Nixawk"
+	],
+	"description": "This module enumerates databases on InfluxDB using the REST API using the\n        default authentication of root:root.",
+	"references": [
+		"URL-https://docs.influxdata.com/influxdb/v2.1/",
+		"URL-https://www.shodan.io/search?query=X-Influxdb-Version"
+	],
+	"rport": 8086,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/influxdb_enum.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/influxdb_enum",
+	"post_auth": true,
+	"needs_cleanup": false
 }

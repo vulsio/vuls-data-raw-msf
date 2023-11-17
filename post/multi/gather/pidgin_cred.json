@@ -1,20 +1,20 @@
 {
-  "name": "Multi Gather Pidgin Instant Messenger Credential Collection",
-  "fullname": "post/multi/gather/pidgin_cred",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "bannedit <bannedit@metasploit.com>",
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module will collect credentials from the Pidgin IM client if it is installed.",
-  "platform": "BSD,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/pidgin_cred.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/pidgin_cred",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Gather Pidgin Instant Messenger Credential Collection",
+	"fullname": "post/multi/gather/pidgin_cred",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"bannedit <bannedit@metasploit.com>",
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module will collect credentials from the Pidgin IM client if it is installed.",
+	"platform": "BSD,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/pidgin_cred.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/pidgin_cred",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

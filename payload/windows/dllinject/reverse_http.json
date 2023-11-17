@@ -1,22 +1,22 @@
 {
-  "name": "Reflective DLL Injection, Windows Reverse HTTP Stager (wininet)",
-  "fullname": "payload/windows/dllinject/reverse_http",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Inject a DLL via a reflective loader.\n\nTunnel communication over HTTP (Windows wininet)",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2021-11-10 12:33:52 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_http.rb",
-  "is_install_path": true,
-  "ref_name": "windows/dllinject/reverse_http",
-  "needs_cleanup": false
+	"name": "Reflective DLL Injection, Windows Reverse HTTP Stager (wininet)",
+	"fullname": "payload/windows/dllinject/reverse_http",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Inject a DLL via a reflective loader.\n\nTunnel communication over HTTP (Windows wininet)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2021-11-10 12:33:52 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_http.rb",
+	"is_install_path": true,
+	"ref_name": "windows/dllinject/reverse_http",
+	"needs_cleanup": false
 }

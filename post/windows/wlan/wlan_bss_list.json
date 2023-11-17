@@ -1,18 +1,18 @@
 {
-  "name": "Windows Gather Wireless BSS Info",
-  "fullname": "post/windows/wlan/wlan_bss_list",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module gathers information about the wireless Basic Service Sets\n          available to the victim machine.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/wlan/wlan_bss_list.rb",
-  "is_install_path": true,
-  "ref_name": "windows/wlan/wlan_bss_list",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Wireless BSS Info",
+	"fullname": "post/windows/wlan/wlan_bss_list",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module gathers information about the wireless Basic Service Sets\n          available to the victim machine.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/wlan/wlan_bss_list.rb",
+	"is_install_path": true,
+	"ref_name": "windows/wlan/wlan_bss_list",
+	"session_types": [
+		"meterpreter"
+	]
 }

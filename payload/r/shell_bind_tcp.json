@@ -1,17 +1,17 @@
 {
-  "name": "R Command Shell, Bind TCP",
-  "fullname": "payload/r/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Continually listen for a connection and spawn a command shell via R",
-  "platform": "R",
-  "arch": "r",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/r/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "r/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "R Command Shell, Bind TCP",
+	"fullname": "payload/r/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Continually listen for a connection and spawn a command shell via R",
+	"platform": "R",
+	"arch": "r",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/r/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "r/shell_bind_tcp",
+	"needs_cleanup": false
 }

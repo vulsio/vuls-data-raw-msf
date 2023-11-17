@@ -1,24 +1,24 @@
 {
-  "name": "SMB Create Pipe Request Corruption",
-  "fullname": "auxiliary/fuzzers/smb/smb_create_pipe_corrupt",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module sends a series of SMB create pipe requests with corrupted bytes.",
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2020-05-13 16:34:47 +0000",
-  "path": "/modules/auxiliary/fuzzers/smb/smb_create_pipe_corrupt.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/smb/smb_create_pipe_corrupt",
-  "needs_cleanup": false
+	"name": "SMB Create Pipe Request Corruption",
+	"fullname": "auxiliary/fuzzers/smb/smb_create_pipe_corrupt",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module sends a series of SMB create pipe requests with corrupted bytes.",
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2020-05-13 16:34:47 +0000",
+	"path": "/modules/auxiliary/fuzzers/smb/smb_create_pipe_corrupt.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/smb/smb_create_pipe_corrupt",
+	"needs_cleanup": false
 }

@@ -1,18 +1,18 @@
 {
-  "name": "Shodan Honeyscore Client",
-  "fullname": "auxiliary/gather/shodan_honeyscore",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "thecarterb"
-  ],
-  "description": "This module uses the shodan API to check\n        if a server is a honeypot or not. The api\n        returns a score from 0.0 to 1.0. 1.0 being a honeypot.\n        A shodan API key is needed for this module to work properly.\n\n        If you don't have an account, go here to register:\n        https://account.shodan.io/register\n        For more info on how their honeyscore system works, go here:\n        https://honeyscore.shodan.io/",
-  "references": [
-    "URL-https://honeyscore.shodan.io/"
-  ],
-  "mod_time": "2020-06-17 14:22:07 +0000",
-  "path": "/modules/auxiliary/gather/shodan_honeyscore.rb",
-  "is_install_path": true,
-  "ref_name": "gather/shodan_honeyscore",
-  "needs_cleanup": false
+	"name": "Shodan Honeyscore Client",
+	"fullname": "auxiliary/gather/shodan_honeyscore",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"thecarterb"
+	],
+	"description": "This module uses the shodan API to check\n        if a server is a honeypot or not. The api\n        returns a score from 0.0 to 1.0. 1.0 being a honeypot.\n        A shodan API key is needed for this module to work properly.\n\n        If you don't have an account, go here to register:\n        https://account.shodan.io/register\n        For more info on how their honeyscore system works, go here:\n        https://honeyscore.shodan.io/",
+	"references": [
+		"URL-https://honeyscore.shodan.io/"
+	],
+	"mod_time": "2020-06-17 14:22:07 +0000",
+	"path": "/modules/auxiliary/gather/shodan_honeyscore.rb",
+	"is_install_path": true,
+	"ref_name": "gather/shodan_honeyscore",
+	"needs_cleanup": false
 }

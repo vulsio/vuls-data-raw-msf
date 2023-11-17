@@ -1,16 +1,16 @@
 {
-  "name": "IBM WebSphere MQ Channel Name Bruteforce",
-  "fullname": "auxiliary/scanner/misc/ibm_mq_channel_brute",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Petros Koutroumpis"
-  ],
-  "description": "This module uses a dictionary to bruteforce MQ channel names. For all identified channels it also returns if SSL is used and whether it is a server-connection channel.",
-  "rport": 1414,
-  "mod_time": "2018-11-20 16:24:17 +0000",
-  "path": "/modules/auxiliary/scanner/misc/ibm_mq_channel_brute.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/ibm_mq_channel_brute",
-  "needs_cleanup": false
+	"name": "IBM WebSphere MQ Channel Name Bruteforce",
+	"fullname": "auxiliary/scanner/misc/ibm_mq_channel_brute",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Petros Koutroumpis"
+	],
+	"description": "This module uses a dictionary to bruteforce MQ channel names. For all identified channels it also returns if SSL is used and whether it is a server-connection channel.",
+	"rport": 1414,
+	"mod_time": "2018-11-20 16:24:17 +0000",
+	"path": "/modules/auxiliary/scanner/misc/ibm_mq_channel_brute.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/ibm_mq_channel_brute",
+	"needs_cleanup": false
 }

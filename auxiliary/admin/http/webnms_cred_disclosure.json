@@ -1,38 +1,38 @@
 {
-  "name": "WebNMS Framework Server Credential Disclosure",
-  "fullname": "auxiliary/admin/http/webnms_cred_disclosure",
-  "rank": 300,
-  "disclosure_date": "2016-07-04",
-  "type": "auxiliary",
-  "author": [
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "This module abuses two vulnerabilities in WebNMS Framework Server 5.2 to extract\n          all user credentials. The first vulnerability is an unauthenticated file download\n          in the FetchFile servlet, which is used to download the file containing the user\n          credentials. The second vulnerability is that the passwords in the file are\n          obfuscated with a very weak algorithm which can be easily reversed.\n          This module has been tested with WebNMS Framework Server 5.2 and 5.2 SP1 on\n          Windows and Linux.",
-  "references": [
-    "CVE-2016-6601",
-    "CVE-2016-6602",
-    "URL-https://blogs.securiteam.com/index.php/archives/2712",
-    "URL-https://seclists.org/fulldisclosure/2016/Aug/54"
-  ],
-  "rport": 9090,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/webnms_cred_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/webnms_cred_disclosure",
-  "needs_cleanup": false
+	"name": "WebNMS Framework Server Credential Disclosure",
+	"fullname": "auxiliary/admin/http/webnms_cred_disclosure",
+	"rank": 300,
+	"disclosure_date": "2016-07-04",
+	"type": "auxiliary",
+	"author": [
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "This module abuses two vulnerabilities in WebNMS Framework Server 5.2 to extract\n          all user credentials. The first vulnerability is an unauthenticated file download\n          in the FetchFile servlet, which is used to download the file containing the user\n          credentials. The second vulnerability is that the passwords in the file are\n          obfuscated with a very weak algorithm which can be easily reversed.\n          This module has been tested with WebNMS Framework Server 5.2 and 5.2 SP1 on\n          Windows and Linux.",
+	"references": [
+		"CVE-2016-6601",
+		"CVE-2016-6602",
+		"URL-https://blogs.securiteam.com/index.php/archives/2712",
+		"URL-https://seclists.org/fulldisclosure/2016/Aug/54"
+	],
+	"rport": 9090,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/webnms_cred_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/webnms_cred_disclosure",
+	"needs_cleanup": false
 }

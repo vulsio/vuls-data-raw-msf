@@ -1,45 +1,45 @@
 {
-  "name": "Squid Proxy Range Header DoS",
-  "fullname": "auxiliary/dos/http/squid_range_dos",
-  "rank": 300,
-  "disclosure_date": "2021-05-27",
-  "type": "auxiliary",
-  "author": [
-    "Joshua Rogers"
-  ],
-  "description": "The range handler in The Squid Caching Proxy Server 3.0-4.1.4 and\n          5.0.1-5.0.5 suffers from multiple vulnerabilities triggered\n          by specific HTTP requests and responses.\n\n          These vulnerabilities allow remote attackers to cause a\n          denial of service through specifically crafted requests.",
-  "references": [
-    "CVE-2021-31806",
-    "CVE-2021-31807",
-    "URL-https://blogs.opera.com/security/2021/10/fuzzing-http-proxies-squid-part-2/"
-  ],
-  "rport": 3128,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-10-21 19:15:30 +0000",
-  "path": "/modules/auxiliary/dos/http/squid_range_dos.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/squid_range_dos",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-service-down"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Squid Proxy Range Header DoS",
+	"fullname": "auxiliary/dos/http/squid_range_dos",
+	"rank": 300,
+	"disclosure_date": "2021-05-27",
+	"type": "auxiliary",
+	"author": [
+		"Joshua Rogers"
+	],
+	"description": "The range handler in The Squid Caching Proxy Server 3.0-4.1.4 and\n          5.0.1-5.0.5 suffers from multiple vulnerabilities triggered\n          by specific HTTP requests and responses.\n\n          These vulnerabilities allow remote attackers to cause a\n          denial of service through specifically crafted requests.",
+	"references": [
+		"CVE-2021-31806",
+		"CVE-2021-31807",
+		"URL-https://blogs.opera.com/security/2021/10/fuzzing-http-proxies-squid-part-2/"
+	],
+	"rport": 3128,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-10-21 19:15:30 +0000",
+	"path": "/modules/auxiliary/dos/http/squid_range_dos.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/squid_range_dos",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-service-down"
+		]
+	},
+	"needs_cleanup": false
 }

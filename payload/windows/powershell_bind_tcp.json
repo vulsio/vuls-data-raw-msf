@@ -1,23 +1,23 @@
 {
-  "name": "Windows Interactive Powershell Session, Bind TCP",
-  "fullname": "payload/windows/powershell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Ben Turner",
-    "Dave Hardy",
-    "vlad902 <vlad902@gmail.com>",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Listen for a connection and spawn an interactive powershell session",
-  "references": [
-    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/payloads/singles/windows/powershell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/powershell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Windows Interactive Powershell Session, Bind TCP",
+	"fullname": "payload/windows/powershell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Ben Turner",
+		"Dave Hardy",
+		"vlad902 <vlad902@gmail.com>",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Listen for a connection and spawn an interactive powershell session",
+	"references": [
+		"URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/payloads/singles/windows/powershell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/powershell_bind_tcp",
+	"needs_cleanup": false
 }

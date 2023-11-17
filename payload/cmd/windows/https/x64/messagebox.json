@@ -1,18 +1,18 @@
 {
-  "name": "HTTPS Fetch, Windows MessageBox x64",
-  "fullname": "payload/cmd/windows/https/x64/messagebox",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "pasta <jaguinaga@infobytesec.com>"
-  ],
-  "description": "Fetch and Execute an x64 payload from an https server.\n\nSpawn a dialog via MessageBox using a customizable title, text & icon",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/https/x64/messagebox",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Windows MessageBox x64",
+	"fullname": "payload/cmd/windows/https/x64/messagebox",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"pasta <jaguinaga@infobytesec.com>"
+	],
+	"description": "Fetch and Execute an x64 payload from an https server.\n\nSpawn a dialog via MessageBox using a customizable title, text & icon",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/https/x64/messagebox",
+	"needs_cleanup": false
 }

@@ -1,20 +1,20 @@
 {
-  "name": "Auxilliary Parser Windows Unattend Passwords",
-  "fullname": "auxiliary/parser/unattend",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module parses Unattend files in the target directory.\n\n        See also: post/windows/gather/enum_unattend",
-  "references": [
-    "URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-8.1-and-8/ff715801(v=win.10)",
-    "URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc749415(v=ws.10)",
-    "URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732280(v=ws.10)"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/parser/unattend.rb",
-  "is_install_path": true,
-  "ref_name": "parser/unattend",
-  "needs_cleanup": false
+	"name": "Auxilliary Parser Windows Unattend Passwords",
+	"fullname": "auxiliary/parser/unattend",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module parses Unattend files in the target directory.\n\n        See also: post/windows/gather/enum_unattend",
+	"references": [
+		"URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-8.1-and-8/ff715801(v=win.10)",
+		"URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc749415(v=ws.10)",
+		"URL-https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732280(v=ws.10)"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/parser/unattend.rb",
+	"is_install_path": true,
+	"ref_name": "parser/unattend",
+	"needs_cleanup": false
 }

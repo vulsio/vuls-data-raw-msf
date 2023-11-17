@@ -1,39 +1,39 @@
 {
-  "name": "Dolibarr Gather Credentials via SQL Injection",
-  "fullname": "auxiliary/gather/dolibarr_creds_sqli",
-  "rank": 300,
-  "disclosure_date": "2018-05-30",
-  "type": "auxiliary",
-  "author": [
-    "Issam Rabhi",
-    "Kevin Locati",
-    "Shelby Pace"
-  ],
-  "description": "This module enables an authenticated user to collect the usernames and\n         encrypted passwords of other users in the Dolibarr ERP/CRM via SQL\n         injection.",
-  "references": [
-    "CVE-2018-10094",
-    "EDB-44805"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/gather/dolibarr_creds_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "gather/dolibarr_creds_sqli",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Dolibarr Gather Credentials via SQL Injection",
+	"fullname": "auxiliary/gather/dolibarr_creds_sqli",
+	"rank": 300,
+	"disclosure_date": "2018-05-30",
+	"type": "auxiliary",
+	"author": [
+		"Issam Rabhi",
+		"Kevin Locati",
+		"Shelby Pace"
+	],
+	"description": "This module enables an authenticated user to collect the usernames and\n         encrypted passwords of other users in the Dolibarr ERP/CRM via SQL\n         injection.",
+	"references": [
+		"CVE-2018-10094",
+		"EDB-44805"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/gather/dolibarr_creds_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "gather/dolibarr_creds_sqli",
+	"post_auth": true,
+	"needs_cleanup": false
 }

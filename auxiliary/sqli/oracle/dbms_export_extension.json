@@ -1,24 +1,24 @@
 {
-  "name": "Oracle DB SQL Injection via DBMS_EXPORT_EXTENSION",
-  "fullname": "auxiliary/sqli/oracle/dbms_export_extension",
-  "rank": 300,
-  "disclosure_date": "2006-04-26",
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module will escalate an Oracle DB user to DBA by exploiting a\n        sql injection bug in the DBMS_EXPORT_EXTENSION.GET_DOMAIN_INDEX_METADATA package.\n\n        Note: This module has been tested against 9i, 10gR1 and 10gR2.",
-  "references": [
-    "CVE-2006-2081",
-    "OSVDB-25002",
-    "BID-17699",
-    "URL-http://www.red-database-security.com/exploits/oracle-sql-injection-oracle-dbms_export_extension.html"
-  ],
-  "rport": 1521,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/sqli/oracle/dbms_export_extension.rb",
-  "is_install_path": true,
-  "ref_name": "sqli/oracle/dbms_export_extension",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Oracle DB SQL Injection via DBMS_EXPORT_EXTENSION",
+	"fullname": "auxiliary/sqli/oracle/dbms_export_extension",
+	"rank": 300,
+	"disclosure_date": "2006-04-26",
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module will escalate an Oracle DB user to DBA by exploiting a\n        sql injection bug in the DBMS_EXPORT_EXTENSION.GET_DOMAIN_INDEX_METADATA package.\n\n        Note: This module has been tested against 9i, 10gR1 and 10gR2.",
+	"references": [
+		"CVE-2006-2081",
+		"OSVDB-25002",
+		"BID-17699",
+		"URL-http://www.red-database-security.com/exploits/oracle-sql-injection-oracle-dbms_export_extension.html"
+	],
+	"rport": 1521,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/sqli/oracle/dbms_export_extension.rb",
+	"is_install_path": true,
+	"ref_name": "sqli/oracle/dbms_export_extension",
+	"post_auth": true,
+	"needs_cleanup": false
 }

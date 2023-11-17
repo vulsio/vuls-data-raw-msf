@@ -1,22 +1,22 @@
 {
-  "name": "Foxit Reader Authorization Bypass",
-  "fullname": "auxiliary/pdf/foxit/authbypass",
-  "rank": 300,
-  "disclosure_date": "2009-03-09",
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>",
-    "Didier Stevens <didier.stevens@gmail.com>"
-  ],
-  "description": "This module exploits an authorization bypass vulnerability in Foxit Reader\n        build 1120. When an attacker creates a specially crafted pdf file containing\n        an Open/Execute action, arbitrary commands can be executed without confirmation\n        from the victim.",
-  "references": [
-    "CVE-2009-0836",
-    "OSVDB-55615",
-    "BID-34035"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/pdf/foxit/authbypass.rb",
-  "is_install_path": true,
-  "ref_name": "pdf/foxit/authbypass",
-  "needs_cleanup": false
+	"name": "Foxit Reader Authorization Bypass",
+	"fullname": "auxiliary/pdf/foxit/authbypass",
+	"rank": 300,
+	"disclosure_date": "2009-03-09",
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>",
+		"Didier Stevens <didier.stevens@gmail.com>"
+	],
+	"description": "This module exploits an authorization bypass vulnerability in Foxit Reader\n        build 1120. When an attacker creates a specially crafted pdf file containing\n        an Open/Execute action, arbitrary commands can be executed without confirmation\n        from the victim.",
+	"references": [
+		"CVE-2009-0836",
+		"OSVDB-55615",
+		"BID-34035"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/pdf/foxit/authbypass.rb",
+	"is_install_path": true,
+	"ref_name": "pdf/foxit/authbypass",
+	"needs_cleanup": false
 }

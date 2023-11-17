@@ -1,22 +1,22 @@
 {
-  "name": "Windows Interactive Powershell Session, Reverse TCP SSL",
-  "fullname": "payload/windows/x64/powershell_reverse_tcp_ssl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Ben Turner",
-    "Dave Hardy",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Listen for a connection and spawn an interactive powershell session over SSL",
-  "references": [
-    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
-  ],
-  "platform": "Windows",
-  "arch": "x64",
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/payloads/singles/windows/x64/powershell_reverse_tcp_ssl.rb",
-  "is_install_path": true,
-  "ref_name": "windows/x64/powershell_reverse_tcp_ssl",
-  "needs_cleanup": false
+	"name": "Windows Interactive Powershell Session, Reverse TCP SSL",
+	"fullname": "payload/windows/x64/powershell_reverse_tcp_ssl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Ben Turner",
+		"Dave Hardy",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Listen for a connection and spawn an interactive powershell session over SSL",
+	"references": [
+		"URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+	],
+	"platform": "Windows",
+	"arch": "x64",
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/payloads/singles/windows/x64/powershell_reverse_tcp_ssl.rb",
+	"is_install_path": true,
+	"ref_name": "windows/x64/powershell_reverse_tcp_ssl",
+	"needs_cleanup": false
 }

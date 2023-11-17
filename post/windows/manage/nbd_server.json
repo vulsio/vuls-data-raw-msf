@@ -1,18 +1,18 @@
 {
-  "name": "Windows Manage Local NBD Server for Remote Disks",
-  "fullname": "post/windows/manage/nbd_server",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Wesley McGrew <wesley@mcgrewsecurity.com>"
-  ],
-  "description": "Maps remote disks and logical volumes to a local Network Block\n          Device server. Allows for forensic tools to be executed on the remote disk directly.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/nbd_server.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/nbd_server",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Local NBD Server for Remote Disks",
+	"fullname": "post/windows/manage/nbd_server",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Wesley McGrew <wesley@mcgrewsecurity.com>"
+	],
+	"description": "Maps remote disks and logical volumes to a local Network Block\n          Device server. Allows for forensic tools to be executed on the remote disk directly.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/nbd_server.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/nbd_server",
+	"session_types": [
+		"meterpreter"
+	]
 }

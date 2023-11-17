@@ -1,19 +1,19 @@
 {
-  "name": "Powershell Exec, Windows shellcode stage, Windows x64 Reverse Named Pipe (SMB) Stager",
-  "fullname": "payload/cmd/windows/powershell/x64/custom/reverse_named_pipe",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "bwatters-r7",
-    "OJ Reeves"
-  ],
-  "description": "Execute an x64 payload from a command via PowerShell.\n\nCustom shellcode stage.\n\nConnect back to the attacker via a named pipe pivot",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/x64/custom/reverse_named_pipe",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Windows shellcode stage, Windows x64 Reverse Named Pipe (SMB) Stager",
+	"fullname": "payload/cmd/windows/powershell/x64/custom/reverse_named_pipe",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"bwatters-r7",
+		"OJ Reeves"
+	],
+	"description": "Execute an x64 payload from a command via PowerShell.\n\nCustom shellcode stage.\n\nConnect back to the attacker via a named pipe pivot",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/x64/custom/reverse_named_pipe",
+	"needs_cleanup": false
 }

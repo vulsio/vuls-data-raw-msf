@@ -1,19 +1,19 @@
 {
-  "name": "Byte XORi Encoder",
-  "fullname": "encoder/mipsle/byte_xori",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "Julien Tinnes <julien@cr0.org>",
-    "juan vazquez <juan.vazquez@metasploit.com>",
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "Mips Web server exploit friendly xor encoder. This encoder has been found useful on\n        situations where '&' (0x26) is a badchar. Since 0x26 is the xor's opcode on MIPS\n        architectures, this one is based on the xori instruction.",
-  "platform": "All",
-  "arch": "mipsle",
-  "mod_time": "2018-12-18 16:30:47 +0000",
-  "path": "/modules/encoders/mipsle/byte_xori.rb",
-  "is_install_path": true,
-  "ref_name": "mipsle/byte_xori",
-  "needs_cleanup": false
+	"name": "Byte XORi Encoder",
+	"fullname": "encoder/mipsle/byte_xori",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"Julien Tinnes <julien@cr0.org>",
+		"juan vazquez <juan.vazquez@metasploit.com>",
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "Mips Web server exploit friendly xor encoder. This encoder has been found useful on\n        situations where '&' (0x26) is a badchar. Since 0x26 is the xor's opcode on MIPS\n        architectures, this one is based on the xori instruction.",
+	"platform": "All",
+	"arch": "mipsle",
+	"mod_time": "2018-12-18 16:30:47 +0000",
+	"path": "/modules/encoders/mipsle/byte_xori.rb",
+	"is_install_path": true,
+	"ref_name": "mipsle/byte_xori",
+	"needs_cleanup": false
 }

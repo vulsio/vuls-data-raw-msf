@@ -1,36 +1,36 @@
 {
-  "name": "Cambium ePMP 1000 Account Password Reset",
-  "fullname": "auxiliary/scanner/http/epmp1000_reset_pass",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "This module exploits an access control vulnerability in Cambium ePMP\n          device management portal. It requires any one of the following non-admin login\n          credentials - installer/installer, home/home - to reset password of other\n          existing user(s) including 'admin'. All versions <=3.5 are affected. This\n          module works on versions 3.0-3.5-RC7.",
-  "references": [
-    "CVE-2017-5254",
-    "URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/epmp1000_reset_pass.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/epmp1000_reset_pass",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Cambium ePMP 1000 Account Password Reset",
+	"fullname": "auxiliary/scanner/http/epmp1000_reset_pass",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "This module exploits an access control vulnerability in Cambium ePMP\n          device management portal. It requires any one of the following non-admin login\n          credentials - installer/installer, home/home - to reset password of other\n          existing user(s) including 'admin'. All versions <=3.5 are affected. This\n          module works on versions 3.0-3.5-RC7.",
+	"references": [
+		"CVE-2017-5254",
+		"URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/epmp1000_reset_pass.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/epmp1000_reset_pass",
+	"post_auth": true,
+	"needs_cleanup": false
 }

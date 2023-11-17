@@ -1,24 +1,24 @@
 {
-  "name": "VNC Server (Reflective Injection), Reverse Hop HTTP/HTTPS Stager",
-  "fullname": "payload/windows/vncinject/reverse_hop_http",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "scriptjunkie <scriptjunkie@scriptjunkie.us>",
-    "bannedit <bannedit@metasploit.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Inject a VNC Dll via a reflective loader (staged).\n\nTunnel communication over an HTTP or HTTPS hop point. Note that you must first upload\ndata/hop/hop.php to the PHP server you wish to use as a hop.",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_hop_http.rb",
-  "is_install_path": true,
-  "ref_name": "windows/vncinject/reverse_hop_http",
-  "needs_cleanup": false
+	"name": "VNC Server (Reflective Injection), Reverse Hop HTTP/HTTPS Stager",
+	"fullname": "payload/windows/vncinject/reverse_hop_http",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"scriptjunkie <scriptjunkie@scriptjunkie.us>",
+		"bannedit <bannedit@metasploit.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Inject a VNC Dll via a reflective loader (staged).\n\nTunnel communication over an HTTP or HTTPS hop point. Note that you must first upload\ndata/hop/hop.php to the PHP server you wish to use as a hop.",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_hop_http.rb",
+	"is_install_path": true,
+	"ref_name": "windows/vncinject/reverse_hop_http",
+	"needs_cleanup": false
 }

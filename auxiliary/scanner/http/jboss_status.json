@@ -1,38 +1,38 @@
 {
-  "name": "JBoss Status Servlet Information Gathering",
-  "fullname": "auxiliary/scanner/http/jboss_status",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "This module queries the JBoss status servlet to collect sensitive\n        information, including URL paths, GET parameters and client IP addresses.\n        This module has been tested against JBoss 4.0, 4.2.2 and 4.2.3.",
-  "references": [
-    "CVE-2008-3273",
-    "CVE-2010-1429",
-    "URL-https://seclists.org/fulldisclosure/2011/Sep/139",
-    "URL-https://owasp.org/www-pdf-archive/OWASP3011_Luca.pdf",
-    "URL-https://www.slideshare.net/chrisgates/lares-fromlowtopwned"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/jboss_status.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/jboss_status",
-  "needs_cleanup": false
+	"name": "JBoss Status Servlet Information Gathering",
+	"fullname": "auxiliary/scanner/http/jboss_status",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "This module queries the JBoss status servlet to collect sensitive\n        information, including URL paths, GET parameters and client IP addresses.\n        This module has been tested against JBoss 4.0, 4.2.2 and 4.2.3.",
+	"references": [
+		"CVE-2008-3273",
+		"CVE-2010-1429",
+		"URL-https://seclists.org/fulldisclosure/2011/Sep/139",
+		"URL-https://owasp.org/www-pdf-archive/OWASP3011_Luca.pdf",
+		"URL-https://www.slideshare.net/chrisgates/lares-fromlowtopwned"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/jboss_status.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/jboss_status",
+	"needs_cleanup": false
 }

@@ -1,41 +1,41 @@
 {
-  "name": "Wordpress XMLRPC DoS",
-  "fullname": "auxiliary/dos/http/wordpress_xmlrpc_dos",
-  "rank": 300,
-  "disclosure_date": "2014-08-06",
-  "type": "auxiliary",
-  "author": [
-    "Nir Goldshlager",
-    "Christian Mehlmauer <FireFart@gmail.com>"
-  ],
-  "description": "Wordpress XMLRPC parsing is vulnerable to a XML based denial of service.\n        This vulnerability affects Wordpress 3.5 - 3.9.2 (3.8.4 and 3.7.4 are\n        also patched).",
-  "references": [
-    "CVE-2014-5266",
-    "URL-https://wordpress.org/news/2014/08/wordpress-3-9-2/",
-    "URL-http://www.breaksec.com/?p=6362",
-    "URL-https://mashable.com/archive/wordpress-xml-blowup-dos",
-    "URL-https://core.trac.wordpress.org/changeset/29404",
-    "WPVDB-7526"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/dos/http/wordpress_xmlrpc_dos.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/wordpress_xmlrpc_dos",
-  "needs_cleanup": false
+	"name": "Wordpress XMLRPC DoS",
+	"fullname": "auxiliary/dos/http/wordpress_xmlrpc_dos",
+	"rank": 300,
+	"disclosure_date": "2014-08-06",
+	"type": "auxiliary",
+	"author": [
+		"Nir Goldshlager",
+		"Christian Mehlmauer <FireFart@gmail.com>"
+	],
+	"description": "Wordpress XMLRPC parsing is vulnerable to a XML based denial of service.\n        This vulnerability affects Wordpress 3.5 - 3.9.2 (3.8.4 and 3.7.4 are\n        also patched).",
+	"references": [
+		"CVE-2014-5266",
+		"URL-https://wordpress.org/news/2014/08/wordpress-3-9-2/",
+		"URL-http://www.breaksec.com/?p=6362",
+		"URL-https://mashable.com/archive/wordpress-xml-blowup-dos",
+		"URL-https://core.trac.wordpress.org/changeset/29404",
+		"WPVDB-7526"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/dos/http/wordpress_xmlrpc_dos.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/wordpress_xmlrpc_dos",
+	"needs_cleanup": false
 }

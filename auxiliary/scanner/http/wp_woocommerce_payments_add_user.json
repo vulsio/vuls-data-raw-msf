@@ -1,49 +1,49 @@
 {
-  "name": "Wordpress Plugin WooCommerce Payments Unauthenticated Admin Creation",
-  "fullname": "auxiliary/scanner/http/wp_woocommerce_payments_add_user",
-  "rank": 300,
-  "disclosure_date": "2023-03-22",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "Michael Mazzolini",
-    "Julien Ahrens"
-  ],
-  "description": "WooCommerce-Payments plugin for Wordpress versions 4.8', '4.8.2, 4.9', '4.9.1,\n          5.0', '5.0.4, 5.1', '5.1.3, 5.2', '5.2.2, 5.3', '5.3.1, 5.4', '5.4.1,\n          5.5', '5.5.2, and 5.6', '5.6.2 contain an authentication bypass by specifying a valid user ID number\n          within the X-WCPAY-PLATFORM-CHECKOUT-USER header. With this authentication bypass, a user can then use the API\n          to create a new user with administrative privileges on the target WordPress site IF the user ID\n          selected corresponds to an administrator account.",
-  "references": [
-    "URL-https://www.rcesecurity.com/2023/07/patch-diffing-cve-2023-28121-to-compromise-a-woocommerce/",
-    "URL-https://developer.woocommerce.com/2023/03/23/critical-vulnerability-detected-in-woocommerce-payments-what-you-need-to-know/",
-    "CVE-2023-28121"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-07-09 19:48:16 +0000",
-  "path": "/modules/auxiliary/scanner/http/wp_woocommerce_payments_add_user.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/wp_woocommerce_payments_add_user",
-  "check": true,
-  "post_auth": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Wordpress Plugin WooCommerce Payments Unauthenticated Admin Creation",
+	"fullname": "auxiliary/scanner/http/wp_woocommerce_payments_add_user",
+	"rank": 300,
+	"disclosure_date": "2023-03-22",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Michael Mazzolini",
+		"Julien Ahrens"
+	],
+	"description": "WooCommerce-Payments plugin for Wordpress versions 4.8', '4.8.2, 4.9', '4.9.1,\n          5.0', '5.0.4, 5.1', '5.1.3, 5.2', '5.2.2, 5.3', '5.3.1, 5.4', '5.4.1,\n          5.5', '5.5.2, and 5.6', '5.6.2 contain an authentication bypass by specifying a valid user ID number\n          within the X-WCPAY-PLATFORM-CHECKOUT-USER header. With this authentication bypass, a user can then use the API\n          to create a new user with administrative privileges on the target WordPress site IF the user ID\n          selected corresponds to an administrator account.",
+	"references": [
+		"URL-https://www.rcesecurity.com/2023/07/patch-diffing-cve-2023-28121-to-compromise-a-woocommerce/",
+		"URL-https://developer.woocommerce.com/2023/03/23/critical-vulnerability-detected-in-woocommerce-payments-what-you-need-to-know/",
+		"CVE-2023-28121"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-07-09 19:48:16 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_woocommerce_payments_add_user.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_woocommerce_payments_add_user",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

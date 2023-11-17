@@ -1,19 +1,19 @@
 {
-  "name": "Powershell Exec, Windows x64 LoadLibrary Path",
-  "fullname": "payload/cmd/windows/powershell/x64/loadlibrary",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "scriptjunkie",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Execute an x64 payload from a command via PowerShell.\n\nLoad an arbitrary x64 library path",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/x64/loadlibrary",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Windows x64 LoadLibrary Path",
+	"fullname": "payload/cmd/windows/powershell/x64/loadlibrary",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"scriptjunkie",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Execute an x64 payload from a command via PowerShell.\n\nLoad an arbitrary x64 library path",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/x64/loadlibrary",
+	"needs_cleanup": false
 }

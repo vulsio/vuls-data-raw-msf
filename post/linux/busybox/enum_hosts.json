@@ -1,18 +1,18 @@
 {
-  "name": "BusyBox Enumerate Host Names",
-  "fullname": "post/linux/busybox/enum_hosts",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Javier Vicente Vallejo"
-  ],
-  "description": "This module will be applied on a session connected to a BusyBox shell. It will enumerate\n        host names related to the device executing BusyBox.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/busybox/enum_hosts.rb",
-  "is_install_path": true,
-  "ref_name": "linux/busybox/enum_hosts",
-  "session_types": [
-    "shell"
-  ]
+	"name": "BusyBox Enumerate Host Names",
+	"fullname": "post/linux/busybox/enum_hosts",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Javier Vicente Vallejo"
+	],
+	"description": "This module will be applied on a session connected to a BusyBox shell. It will enumerate\n        host names related to the device executing BusyBox.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/busybox/enum_hosts.rb",
+	"is_install_path": true,
+	"ref_name": "linux/busybox/enum_hosts",
+	"session_types": [
+		"shell"
+	]
 }

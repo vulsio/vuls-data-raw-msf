@@ -1,47 +1,47 @@
 {
-  "name": "Peplink Balance routers SQLi",
-  "fullname": "auxiliary/gather/peplink_bauth_sqli",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "X41 D-Sec GmbH <info@x41-dsec.de>",
-    "Redouane NIBOUCHA <rniboucha@yahoo.fr>"
-  ],
-  "description": "Firmware versions up to 7.0.0-build1904 of Peplink Balance routers are affected by an unauthenticated\n          SQL injection vulnerability in the bauth cookie, successful exploitation of the vulnerability allows an\n          attacker to retrieve the cookies of authenticated users, bypassing the web portal authentication.\n\n          By default, a session expires 4 hours after login (the setting can be changed by the admin), for this\n          reason, the module attempts to retrieve the most recently created sessions.",
-  "references": [
-    "EDB-42130",
-    "CVE-2017-8835",
-    "URL-https://gist.github.com/red0xff/c4511d2f427efcb8b018534704e9607a"
-  ],
-  "platform": "Linux",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/gather/peplink_bauth_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "gather/peplink_bauth_sqli",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Peplink Balance routers SQLi",
+	"fullname": "auxiliary/gather/peplink_bauth_sqli",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"X41 D-Sec GmbH <info@x41-dsec.de>",
+		"Redouane NIBOUCHA <rniboucha@yahoo.fr>"
+	],
+	"description": "Firmware versions up to 7.0.0-build1904 of Peplink Balance routers are affected by an unauthenticated\n          SQL injection vulnerability in the bauth cookie, successful exploitation of the vulnerability allows an\n          attacker to retrieve the cookies of authenticated users, bypassing the web portal authentication.\n\n          By default, a session expires 4 hours after login (the setting can be changed by the admin), for this\n          reason, the module attempts to retrieve the most recently created sessions.",
+	"references": [
+		"EDB-42130",
+		"CVE-2017-8835",
+		"URL-https://gist.github.com/red0xff/c4511d2f427efcb8b018534704e9607a"
+	],
+	"platform": "Linux",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/gather/peplink_bauth_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "gather/peplink_bauth_sqli",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

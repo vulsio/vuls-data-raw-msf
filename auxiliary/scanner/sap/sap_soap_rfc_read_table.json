@@ -1,36 +1,36 @@
 {
-  "name": "SAP /sap/bc/soap/rfc SOAP Service RFC_READ_TABLE Function Dump Data",
-  "fullname": "auxiliary/scanner/sap/sap_soap_rfc_read_table",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Agnivesh Sathasivam",
-    "nmonkee"
-  ],
-  "description": "This module makes use of the RFC_READ_TABLE Function to read data from tables using\n        the /sap/bc/soap/rfc SOAP service.",
-  "references": [
-    "URL-https://labs.f-secure.com/tools/sap-metasploit-modules/"
-  ],
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_read_table.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_soap_rfc_read_table",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "SAP /sap/bc/soap/rfc SOAP Service RFC_READ_TABLE Function Dump Data",
+	"fullname": "auxiliary/scanner/sap/sap_soap_rfc_read_table",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Agnivesh Sathasivam",
+		"nmonkee"
+	],
+	"description": "This module makes use of the RFC_READ_TABLE Function to read data from tables using\n        the /sap/bc/soap/rfc SOAP service.",
+	"references": [
+		"URL-https://labs.f-secure.com/tools/sap-metasploit-modules/"
+	],
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_read_table.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_soap_rfc_read_table",
+	"post_auth": true,
+	"needs_cleanup": false
 }

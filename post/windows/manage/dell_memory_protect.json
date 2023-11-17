@@ -1,38 +1,38 @@
 {
-  "name": "Dell DBUtilDrv2.sys Memory Protection Modifier",
-  "fullname": "post/windows/manage/dell_memory_protect",
-  "type": "post",
-  "author": [
-    "SentinelLabs",
-    "Kasif Dekel",
-    "Red Cursor",
-    "Jacob Baines"
-  ],
-  "description": "The Dell DBUtilDrv2.sys drivers version 2.5 and 2.7 have a write-what-where condition\n          that allows an attacker to read and write arbitrary kernel-mode memory. This module\n          installs the provided driver, enables or disables LSA protection on the provided\n          PID, and then removes the driver. This would allow, for example, dumping LSASS memory\n          even when secureboot is enabled or preventing antivirus from accessing the memory of\n          a chosen PID.\n\n          The affected drivers are not distributed with Metasploit. You will truly need to\n          Bring Your Own (Dell) Driver.",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2021/12/13/driver-based-attacks-past-and-present/",
-    "URL-https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection",
-    "URL-https://itm4n.github.io/lsass-runasppl/",
-    "URL-https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/",
-    "URL-https://attackerkb.com/assessments/12d7b263-3684-4442-812e-dc30b93def93",
-    "URL-https://github.com/RedCursorSecurityConsulting/PPLKiller",
-    "URL-https://github.com/jbaines-r7/dellicious"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/manage/dell_memory_protect.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/dell_memory_protect",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs",
-      "artifacts-on-disk"
-    ],
-    "Stability": [
-      "crash-os-restarts"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Dell DBUtilDrv2.sys Memory Protection Modifier",
+	"fullname": "post/windows/manage/dell_memory_protect",
+	"type": "post",
+	"author": [
+		"SentinelLabs",
+		"Kasif Dekel",
+		"Red Cursor",
+		"Jacob Baines"
+	],
+	"description": "The Dell DBUtilDrv2.sys drivers version 2.5 and 2.7 have a write-what-where condition\n          that allows an attacker to read and write arbitrary kernel-mode memory. This module\n          installs the provided driver, enables or disables LSA protection on the provided\n          PID, and then removes the driver. This would allow, for example, dumping LSASS memory\n          even when secureboot is enabled or preventing antivirus from accessing the memory of\n          a chosen PID.\n\n          The affected drivers are not distributed with Metasploit. You will truly need to\n          Bring Your Own (Dell) Driver.",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2021/12/13/driver-based-attacks-past-and-present/",
+		"URL-https://docs.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection",
+		"URL-https://itm4n.github.io/lsass-runasppl/",
+		"URL-https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/",
+		"URL-https://attackerkb.com/assessments/12d7b263-3684-4442-812e-dc30b93def93",
+		"URL-https://github.com/RedCursorSecurityConsulting/PPLKiller",
+		"URL-https://github.com/jbaines-r7/dellicious"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/manage/dell_memory_protect.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/dell_memory_protect",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs",
+			"artifacts-on-disk"
+		],
+		"Stability": [
+			"crash-os-restarts"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

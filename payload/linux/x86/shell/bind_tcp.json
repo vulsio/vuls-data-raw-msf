@@ -1,18 +1,18 @@
 {
-  "name": "Linux Command Shell, Bind TCP Stager (Linux x86)",
-  "fullname": "payload/linux/x86/shell/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "egypt <egypt@metasploit.com>"
-  ],
-  "description": "Spawn a command shell (staged).\n\nListen for a connection (Linux x86)",
-  "platform": "Linux",
-  "arch": "x86",
-  "mod_time": "2021-01-04 11:50:07 +0000",
-  "path": "/modules/payloads/stagers/linux/x86/bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/shell/bind_tcp",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Bind TCP Stager (Linux x86)",
+	"fullname": "payload/linux/x86/shell/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"egypt <egypt@metasploit.com>"
+	],
+	"description": "Spawn a command shell (staged).\n\nListen for a connection (Linux x86)",
+	"platform": "Linux",
+	"arch": "x86",
+	"mod_time": "2021-01-04 11:50:07 +0000",
+	"path": "/modules/payloads/stagers/linux/x86/bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/shell/bind_tcp",
+	"needs_cleanup": false
 }

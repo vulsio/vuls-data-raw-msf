@@ -1,23 +1,23 @@
 {
-  "name": "TFTP Fetch",
-  "fullname": "payload/cmd/windows/tftp/x64/powershell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Ben Turner",
-    "Dave Hardy",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Fetch and Execute an x64 payload from a tftp server",
-  "references": [
-    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/tftp/x64/powershell_bind_tcp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch",
+	"fullname": "payload/cmd/windows/tftp/x64/powershell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Ben Turner",
+		"Dave Hardy",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Fetch and Execute an x64 payload from a tftp server",
+	"references": [
+		"URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/tftp/x64/powershell_bind_tcp",
+	"needs_cleanup": false
 }

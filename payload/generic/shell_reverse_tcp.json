@@ -1,17 +1,17 @@
 {
-  "name": "Generic Command Shell, Reverse TCP Inline",
-  "fullname": "payload/generic/shell_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Connect back to attacker and spawn a command shell",
-  "platform": "All",
-  "arch": "x86, x86_64, x64, mips, mipsle, mipsbe, mips64, mips64le, ppc, ppce500v2, ppc64, ppc64le, cbea, cbea64, sparc, sparc64, armle, armbe, aarch64, cmd, php, java, ruby, dalvik, python, nodejs, firefox, zarch, r",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/singles/generic/shell_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "generic/shell_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Generic Command Shell, Reverse TCP Inline",
+	"fullname": "payload/generic/shell_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Connect back to attacker and spawn a command shell",
+	"platform": "All",
+	"arch": "x86, x86_64, x64, mips, mipsle, mipsbe, mips64, mips64le, ppc, ppce500v2, ppc64, ppc64le, cbea, cbea64, sparc, sparc64, armle, armbe, aarch64, cmd, php, java, ruby, dalvik, python, nodejs, firefox, zarch, r",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/singles/generic/shell_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "generic/shell_reverse_tcp",
+	"needs_cleanup": false
 }

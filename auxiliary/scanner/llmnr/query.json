@@ -1,16 +1,16 @@
 {
-  "name": "LLMNR Query",
-  "fullname": "auxiliary/scanner/llmnr/query",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module sends LLMNR queries, which are really just normal UDP DNS\n          queries done (usually) over multicast on a different port, 5355.\n          Targets other than the default RHOSTS' 224.0.0.252 should not respond\n          but may anyway.",
-  "rport": 5355,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/llmnr/query.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/llmnr/query",
-  "needs_cleanup": false
+	"name": "LLMNR Query",
+	"fullname": "auxiliary/scanner/llmnr/query",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module sends LLMNR queries, which are really just normal UDP DNS\n          queries done (usually) over multicast on a different port, 5355.\n          Targets other than the default RHOSTS' 224.0.0.252 should not respond\n          but may anyway.",
+	"rport": 5355,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/llmnr/query.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/llmnr/query",
+	"needs_cleanup": false
 }

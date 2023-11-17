@@ -1,16 +1,16 @@
 {
-  "name": "HP Operations Manager Perfd Environment Scanner",
-  "fullname": "auxiliary/gather/hp_enum_perfd",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Roberto Soares Espreto <robertoespreto@gmail.com>"
-  ],
-  "description": "This module will enumerate the process list of a remote machine by abusing\n        HP Operation Manager's unauthenticated 'perfd' daemon.",
-  "rport": 5227,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/gather/hp_enum_perfd.rb",
-  "is_install_path": true,
-  "ref_name": "gather/hp_enum_perfd",
-  "needs_cleanup": false
+	"name": "HP Operations Manager Perfd Environment Scanner",
+	"fullname": "auxiliary/gather/hp_enum_perfd",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Roberto Soares Espreto <robertoespreto@gmail.com>"
+	],
+	"description": "This module will enumerate the process list of a remote machine by abusing\n        HP Operation Manager's unauthenticated 'perfd' daemon.",
+	"rport": 5227,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/gather/hp_enum_perfd.rb",
+	"is_install_path": true,
+	"ref_name": "gather/hp_enum_perfd",
+	"needs_cleanup": false
 }

@@ -1,44 +1,44 @@
 {
-  "name": "SurgeNews User Credentials",
-  "fullname": "auxiliary/scanner/http/surgenews_user_creds",
-  "rank": 300,
-  "disclosure_date": "2017-06-16",
-  "type": "auxiliary",
-  "author": [
-    "bcoles <bcoles@gmail.com>"
-  ],
-  "description": "This module exploits a vulnerability in the WebNews web interface\n          of SurgeNews on TCP ports 9080 and 8119 which allows unauthenticated\n          users to download arbitrary files from the software root directory;\n          including the user database, configuration files and log files.\n\n          This module extracts the administrator username and password, and\n          the usernames and passwords or password hashes for all users.\n\n          This module has been tested successfully on SurgeNews version\n          2.0a-13 on Windows 7 SP 1 and 2.0a-12 on Ubuntu Linux.",
-  "references": [
-    "URL-http://news.netwinsite.com:8119/webnews?cmd=body&item=34896&group=netwin.surgemail"
-  ],
-  "rport": 9080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-04-12 19:05:30 +0000",
-  "path": "/modules/auxiliary/scanner/http/surgenews_user_creds.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/surgenews_user_creds",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "SurgeNews User Credentials",
+	"fullname": "auxiliary/scanner/http/surgenews_user_creds",
+	"rank": 300,
+	"disclosure_date": "2017-06-16",
+	"type": "auxiliary",
+	"author": [
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "This module exploits a vulnerability in the WebNews web interface\n          of SurgeNews on TCP ports 9080 and 8119 which allows unauthenticated\n          users to download arbitrary files from the software root directory;\n          including the user database, configuration files and log files.\n\n          This module extracts the administrator username and password, and\n          the usernames and passwords or password hashes for all users.\n\n          This module has been tested successfully on SurgeNews version\n          2.0a-13 on Windows 7 SP 1 and 2.0a-12 on Ubuntu Linux.",
+	"references": [
+		"URL-http://news.netwinsite.com:8119/webnews?cmd=body&item=34896&group=netwin.surgemail"
+	],
+	"rport": 9080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-04-12 19:05:30 +0000",
+	"path": "/modules/auxiliary/scanner/http/surgenews_user_creds.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/surgenews_user_creds",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

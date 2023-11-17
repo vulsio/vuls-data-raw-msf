@@ -1,21 +1,21 @@
 {
-  "name": "GNU Wget FTP Symlink Arbitrary Filesystem Access",
-  "fullname": "auxiliary/server/wget_symlink_file_write",
-  "rank": 300,
-  "disclosure_date": "2014-10-27",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module exploits a vulnerability in Wget when used in\n        recursive (-r) mode with a FTP server as a destination. A\n        symlink is used to allow arbitrary writes to the target's\n        filesystem. To specify content for the file, use the\n        \"file:/path\" syntax for the TARGET_DATA option.\n\n        Tested successfully with wget 1.14. Versions prior to 1.16\n        are presumed vulnerable.",
-  "references": [
-    "CVE-2014-4877",
-    "URL-https://bugzilla.redhat.com/show_bug.cgi?id=1139181",
-    "URL-https://www.rapid7.com/blog/post/2014/10/28/r7-2014-15-gnu-wget-ftp-symlink-arbitrary-filesystem-access"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/server/wget_symlink_file_write.rb",
-  "is_install_path": true,
-  "ref_name": "server/wget_symlink_file_write",
-  "needs_cleanup": false
+	"name": "GNU Wget FTP Symlink Arbitrary Filesystem Access",
+	"fullname": "auxiliary/server/wget_symlink_file_write",
+	"rank": 300,
+	"disclosure_date": "2014-10-27",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module exploits a vulnerability in Wget when used in\n        recursive (-r) mode with a FTP server as a destination. A\n        symlink is used to allow arbitrary writes to the target's\n        filesystem. To specify content for the file, use the\n        \"file:/path\" syntax for the TARGET_DATA option.\n\n        Tested successfully with wget 1.14. Versions prior to 1.16\n        are presumed vulnerable.",
+	"references": [
+		"CVE-2014-4877",
+		"URL-https://bugzilla.redhat.com/show_bug.cgi?id=1139181",
+		"URL-https://www.rapid7.com/blog/post/2014/10/28/r7-2014-15-gnu-wget-ftp-symlink-arbitrary-filesystem-access"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/server/wget_symlink_file_write.rb",
+	"is_install_path": true,
+	"ref_name": "server/wget_symlink_file_write",
+	"needs_cleanup": false
 }

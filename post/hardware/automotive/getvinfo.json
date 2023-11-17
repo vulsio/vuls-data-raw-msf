@@ -1,18 +1,18 @@
 {
-  "name": "Get the Vehicle Information Such as the VIN from the Target Module",
-  "fullname": "post/hardware/automotive/getvinfo",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Craig Smith"
-  ],
-  "description": "Post Module to query DTCs, Some common engine info and Vehicle Info.\n          It returns such things as engine speed, coolant temp, Diagnostic\n          Trouble Codes as well as All info stored by Mode $09 Vehicle Info, VIN, etc",
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/automotive/getvinfo.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/automotive/getvinfo",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "Get the Vehicle Information Such as the VIN from the Target Module",
+	"fullname": "post/hardware/automotive/getvinfo",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Craig Smith"
+	],
+	"description": "Post Module to query DTCs, Some common engine info and Vehicle Info.\n          It returns such things as engine speed, coolant temp, Diagnostic\n          Trouble Codes as well as All info stored by Mode $09 Vehicle Info, VIN, etc",
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/automotive/getvinfo.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/automotive/getvinfo",
+	"session_types": [
+		"hwbridge"
+	]
 }

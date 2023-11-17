@@ -1,18 +1,18 @@
 {
-  "name": "Python Exec, Command Shell, Bind TCP (via python)",
-  "fullname": "payload/cmd/unix/python/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "mumbai"
-  ],
-  "description": "Execute a Python payload from a command.\n\nCreates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.4-2.7 and 3.4+.",
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/adapters/cmd/unix/python.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/python/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Python Exec, Command Shell, Bind TCP (via python)",
+	"fullname": "payload/cmd/unix/python/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"mumbai"
+	],
+	"description": "Execute a Python payload from a command.\n\nCreates an interactive shell via Python, encodes with base64 by design. Compatible with Python 2.4-2.7 and 3.4+.",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/unix/python.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/python/shell_bind_tcp",
+	"needs_cleanup": false
 }

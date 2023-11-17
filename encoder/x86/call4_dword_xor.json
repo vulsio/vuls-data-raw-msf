@@ -1,18 +1,18 @@
 {
-  "name": "Call+4 Dword XOR Encoder",
-  "fullname": "encoder/x86/call4_dword_xor",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "hdm <x@hdm.io>",
-    "spoonm <spoonm@no$email.com>"
-  ],
-  "description": "Call+4 Dword XOR Encoder",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/call4_dword_xor.rb",
-  "is_install_path": true,
-  "ref_name": "x86/call4_dword_xor",
-  "needs_cleanup": false
+	"name": "Call+4 Dword XOR Encoder",
+	"fullname": "encoder/x86/call4_dword_xor",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"hdm <x@hdm.io>",
+		"spoonm <spoonm@no$email.com>"
+	],
+	"description": "Call+4 Dword XOR Encoder",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/call4_dword_xor.rb",
+	"is_install_path": true,
+	"ref_name": "x86/call4_dword_xor",
+	"needs_cleanup": false
 }

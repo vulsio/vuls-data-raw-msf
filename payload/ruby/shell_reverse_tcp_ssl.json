@@ -1,17 +1,17 @@
 {
-  "name": "Ruby Command Shell, Reverse TCP SSL",
-  "fullname": "payload/ruby/shell_reverse_tcp_ssl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Connect back and create a command shell via Ruby, uses SSL",
-  "platform": "Ruby",
-  "arch": "ruby",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/ruby/shell_reverse_tcp_ssl.rb",
-  "is_install_path": true,
-  "ref_name": "ruby/shell_reverse_tcp_ssl",
-  "needs_cleanup": false
+	"name": "Ruby Command Shell, Reverse TCP SSL",
+	"fullname": "payload/ruby/shell_reverse_tcp_ssl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Connect back and create a command shell via Ruby, uses SSL",
+	"platform": "Ruby",
+	"arch": "ruby",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/ruby/shell_reverse_tcp_ssl.rb",
+	"is_install_path": true,
+	"ref_name": "ruby/shell_reverse_tcp_ssl",
+	"needs_cleanup": false
 }

@@ -1,16 +1,16 @@
 {
-  "name": "Rogue Gateway Detection: Sender",
-  "fullname": "auxiliary/scanner/rogue/rogue_send",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module send a series of TCP SYN and ICMP ECHO requests\n      to each internal target host, spoofing the source address of an external\n      system running the rogue_recv module. This allows the system running\n      the rogue_recv module to determine what external IP a given internal\n      system is using as its default route.",
-  "rport": 80,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/rogue/rogue_send.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/rogue/rogue_send",
-  "needs_cleanup": false
+	"name": "Rogue Gateway Detection: Sender",
+	"fullname": "auxiliary/scanner/rogue/rogue_send",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module send a series of TCP SYN and ICMP ECHO requests\n      to each internal target host, spoofing the source address of an external\n      system running the rogue_recv module. This allows the system running\n      the rogue_recv module to determine what external IP a given internal\n      system is using as its default route.",
+	"rport": 80,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/rogue/rogue_send.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/rogue/rogue_send",
+	"needs_cleanup": false
 }

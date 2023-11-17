@@ -1,35 +1,35 @@
 {
-  "name": "Apache Reverse Proxy Bypass Vulnerability Scanner",
-  "fullname": "auxiliary/scanner/http/rewrite_proxy_bypass",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "chao-mu"
-  ],
-  "description": "Scan for poorly configured reverse proxy servers.\n        By default, this module attempts to force the server to make\n        a request with an invalid domain name. Then, if the bypass\n        is successful, the server will look it up and of course fail,\n        then responding with a status code 502. A baseline status code\n        is always established and if that baseline matches your test\n        status code, the injection attempt does not occur.\n        \"set VERBOSE true\" if you are paranoid and want to catch potential\n        false negatives. Works best against Apache and mod_rewrite",
-  "references": [
-    "URL-http://www.contextis.com/research/blog/reverseproxybypass/",
-    "CVE-2011-3368"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/rewrite_proxy_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/rewrite_proxy_bypass",
-  "needs_cleanup": false
+	"name": "Apache Reverse Proxy Bypass Vulnerability Scanner",
+	"fullname": "auxiliary/scanner/http/rewrite_proxy_bypass",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"chao-mu"
+	],
+	"description": "Scan for poorly configured reverse proxy servers.\n        By default, this module attempts to force the server to make\n        a request with an invalid domain name. Then, if the bypass\n        is successful, the server will look it up and of course fail,\n        then responding with a status code 502. A baseline status code\n        is always established and if that baseline matches your test\n        status code, the injection attempt does not occur.\n        \"set VERBOSE true\" if you are paranoid and want to catch potential\n        false negatives. Works best against Apache and mod_rewrite",
+	"references": [
+		"URL-http://www.contextis.com/research/blog/reverseproxybypass/",
+		"CVE-2011-3368"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/rewrite_proxy_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/rewrite_proxy_bypass",
+	"needs_cleanup": false
 }

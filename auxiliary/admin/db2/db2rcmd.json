@@ -1,31 +1,31 @@
 {
-  "name": "IBM DB2 db2rcmd.exe Command Execution Vulnerability",
-  "fullname": "auxiliary/admin/db2/db2rcmd",
-  "rank": 300,
-  "disclosure_date": "2004-03-04",
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module exploits a vulnerability in the Remote Command Server\n          component in IBM's DB2 Universal Database 8.1. An authenticated\n          attacker can send arbitrary commands to the DB2REMOTECMD named pipe\n          which could lead to administrator privileges.",
-  "references": [
-    "CVE-2004-0795",
-    "OSVDB-4180",
-    "BID-9821"
-  ],
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2022-08-08 01:40:15 +0000",
-  "path": "/modules/auxiliary/admin/db2/db2rcmd.rb",
-  "is_install_path": true,
-  "ref_name": "admin/db2/db2rcmd",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "IBM DB2 db2rcmd.exe Command Execution Vulnerability",
+	"fullname": "auxiliary/admin/db2/db2rcmd",
+	"rank": 300,
+	"disclosure_date": "2004-03-04",
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module exploits a vulnerability in the Remote Command Server\n          component in IBM's DB2 Universal Database 8.1. An authenticated\n          attacker can send arbitrary commands to the DB2REMOTECMD named pipe\n          which could lead to administrator privileges.",
+	"references": [
+		"CVE-2004-0795",
+		"OSVDB-4180",
+		"BID-9821"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2022-08-08 01:40:15 +0000",
+	"path": "/modules/auxiliary/admin/db2/db2rcmd.rb",
+	"is_install_path": true,
+	"ref_name": "admin/db2/db2rcmd",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,33 +1,33 @@
 {
-  "name": "Shodan Host Port",
-  "fullname": "auxiliary/gather/shodan_host",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "natto97"
-  ],
-  "description": "This module uses the shodan API to return all port information found on a given host IP.",
-  "references": [
-    "URL-https://honeyscore.shodan.io/"
-  ],
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/gather/shodan_host.rb",
-  "is_install_path": true,
-  "ref_name": "gather/shodan_host",
-  "needs_cleanup": false
+	"name": "Shodan Host Port",
+	"fullname": "auxiliary/gather/shodan_host",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"natto97"
+	],
+	"description": "This module uses the shodan API to return all port information found on a given host IP.",
+	"references": [
+		"URL-https://honeyscore.shodan.io/"
+	],
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/gather/shodan_host.rb",
+	"is_install_path": true,
+	"ref_name": "gather/shodan_host",
+	"needs_cleanup": false
 }

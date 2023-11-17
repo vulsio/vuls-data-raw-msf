@@ -1,31 +1,31 @@
 {
-  "name": "Generic Emailer (SMTP)",
-  "fullname": "auxiliary/client/smtp/emailer",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "et <et@metasploit.com>"
-  ],
-  "description": "This module can be used to automate email delivery.\n        This code is based on Joshua Abraham's email script for social\n        engineering.",
-  "references": [
-    "URL-http://spl0it.org/"
-  ],
-  "rport": 25,
-  "autofilter_ports": [
-    25,
-    465,
-    587,
-    2525,
-    25025,
-    25000
-  ],
-  "autofilter_services": [
-    "smtp",
-    "smtps"
-  ],
-  "mod_time": "2022-03-10 18:03:35 +0000",
-  "path": "/modules/auxiliary/client/smtp/emailer.rb",
-  "is_install_path": true,
-  "ref_name": "client/smtp/emailer",
-  "needs_cleanup": false
+	"name": "Generic Emailer (SMTP)",
+	"fullname": "auxiliary/client/smtp/emailer",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"et <et@metasploit.com>"
+	],
+	"description": "This module can be used to automate email delivery.\n        This code is based on Joshua Abraham's email script for social\n        engineering.",
+	"references": [
+		"URL-http://spl0it.org/"
+	],
+	"rport": 25,
+	"autofilter_ports": [
+		25,
+		465,
+		587,
+		2525,
+		25025,
+		25000
+	],
+	"autofilter_services": [
+		"smtp",
+		"smtps"
+	],
+	"mod_time": "2022-03-10 18:03:35 +0000",
+	"path": "/modules/auxiliary/client/smtp/emailer.rb",
+	"is_install_path": true,
+	"ref_name": "client/smtp/emailer",
+	"needs_cleanup": false
 }

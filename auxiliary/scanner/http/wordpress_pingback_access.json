@@ -1,39 +1,39 @@
 {
-  "name": "Wordpress Pingback Locator",
-  "fullname": "auxiliary/scanner/http/wordpress_pingback_access",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Thomas McCarthy \"smilingraccoon\" <smilingraccoon@gmail.com>",
-    "Brandon McCann \"zeknox\" <bmccann@accuvant.com>",
-    "Christian Mehlmauer <FireFart@gmail.com>"
-  ],
-  "description": "This module will scan for wordpress sites with the Pingback\n          API enabled. By interfacing with the API an attacker can cause\n          the wordpress site to port scan an external target and return\n          results. Refer to the wordpress_pingback_portscanner module.\n          This issue was fixed in wordpress 3.5.1",
-  "references": [
-    "CVE-2013-0235",
-    "URL-https://bugtraq.securityfocus.com/archive/1/525045/30/30/threaded",
-    "URL-http://www.ethicalhack3r.co.uk/security/introduction-to-the-wordpress-xml-rpc-api/",
-    "URL-https://github.com/FireFart/WordpressPingbackPortScanner"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/wordpress_pingback_access.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/wordpress_pingback_access",
-  "needs_cleanup": false
+	"name": "Wordpress Pingback Locator",
+	"fullname": "auxiliary/scanner/http/wordpress_pingback_access",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Thomas McCarthy \"smilingraccoon\" <smilingraccoon@gmail.com>",
+		"Brandon McCann \"zeknox\" <bmccann@accuvant.com>",
+		"Christian Mehlmauer <FireFart@gmail.com>"
+	],
+	"description": "This module will scan for wordpress sites with the Pingback\n          API enabled. By interfacing with the API an attacker can cause\n          the wordpress site to port scan an external target and return\n          results. Refer to the wordpress_pingback_portscanner module.\n          This issue was fixed in wordpress 3.5.1",
+	"references": [
+		"CVE-2013-0235",
+		"URL-https://bugtraq.securityfocus.com/archive/1/525045/30/30/threaded",
+		"URL-http://www.ethicalhack3r.co.uk/security/introduction-to-the-wordpress-xml-rpc-api/",
+		"URL-https://github.com/FireFart/WordpressPingbackPortScanner"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/wordpress_pingback_access.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wordpress_pingback_access",
+	"needs_cleanup": false
 }

@@ -1,29 +1,29 @@
 {
-  "name": "LDAP Information Disclosure",
-  "fullname": "auxiliary/gather/ldap_hashdump",
-  "rank": 300,
-  "disclosure_date": "2020-07-23",
-  "type": "auxiliary",
-  "author": [
-    "Hynek Petrak"
-  ],
-  "description": "This module uses an anonymous-bind LDAP connection to dump data from\n          an LDAP server. Searching for attributes with user credentials\n          (e.g. userPassword).",
-  "references": [
-    "CVE-2020-3952",
-    "URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html"
-  ],
-  "rport": 636,
-  "mod_time": "2023-04-12 13:09:34 +0000",
-  "path": "/modules/auxiliary/gather/ldap_hashdump.rb",
-  "is_install_path": true,
-  "ref_name": "gather/ldap_hashdump",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "LDAP Information Disclosure",
+	"fullname": "auxiliary/gather/ldap_hashdump",
+	"rank": 300,
+	"disclosure_date": "2020-07-23",
+	"type": "auxiliary",
+	"author": [
+		"Hynek Petrak"
+	],
+	"description": "This module uses an anonymous-bind LDAP connection to dump data from\n          an LDAP server. Searching for attributes with user credentials\n          (e.g. userPassword).",
+	"references": [
+		"CVE-2020-3952",
+		"URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html"
+	],
+	"rport": 636,
+	"mod_time": "2023-04-12 13:09:34 +0000",
+	"path": "/modules/auxiliary/gather/ldap_hashdump.rb",
+	"is_install_path": true,
+	"ref_name": "gather/ldap_hashdump",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

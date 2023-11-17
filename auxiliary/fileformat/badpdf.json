@@ -1,23 +1,23 @@
 {
-  "name": "BADPDF Malicious PDF Creator",
-  "fullname": "auxiliary/fileformat/badpdf",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Assaf Baharav",
-    "Yaron Fruchtmann",
-    "Ido Solomon",
-    "Richard Davy - secureyourit.co.uk"
-  ],
-  "description": "This module can either creates a blank PDF file which contains a UNC link which can be used\n          to capture NetNTLM credentials, or if the PDFINJECT option is used it will inject the necessary\n          code into an existing PDF document if possible.",
-  "references": [
-    "CVE-2018-4993",
-    "URL-https://research.checkpoint.com/ntlm-credentials-theft-via-pdf-files/"
-  ],
-  "platform": "Windows",
-  "mod_time": "2022-03-10 18:03:35 +0000",
-  "path": "/modules/auxiliary/fileformat/badpdf.rb",
-  "is_install_path": true,
-  "ref_name": "fileformat/badpdf",
-  "needs_cleanup": false
+	"name": "BADPDF Malicious PDF Creator",
+	"fullname": "auxiliary/fileformat/badpdf",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Assaf Baharav",
+		"Yaron Fruchtmann",
+		"Ido Solomon",
+		"Richard Davy - secureyourit.co.uk"
+	],
+	"description": "This module can either creates a blank PDF file which contains a UNC link which can be used\n          to capture NetNTLM credentials, or if the PDFINJECT option is used it will inject the necessary\n          code into an existing PDF document if possible.",
+	"references": [
+		"CVE-2018-4993",
+		"URL-https://research.checkpoint.com/ntlm-credentials-theft-via-pdf-files/"
+	],
+	"platform": "Windows",
+	"mod_time": "2022-03-10 18:03:35 +0000",
+	"path": "/modules/auxiliary/fileformat/badpdf.rb",
+	"is_install_path": true,
+	"ref_name": "fileformat/badpdf",
+	"needs_cleanup": false
 }

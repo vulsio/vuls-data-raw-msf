@@ -1,21 +1,21 @@
 {
-  "name": "Apple Filing Protocol Login Utility",
-  "fullname": "auxiliary/scanner/afp/afp_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Gregory Man <man.gregory@gmail.com>"
-  ],
-  "description": "This module attempts to bruteforce authentication credentials for AFP.",
-  "references": [
-    "URL-https://web.archive.org/web/20130309051753/https://developer.apple.com/library/mac/#documentation/Networking/Reference/AFP_Reference/Reference/reference.html",
-    "URL-https://developer.apple.com/library/mac/documentation/networking/conceptual/afp/AFPSecurity/AFPSecurity.html"
-  ],
-  "rport": 548,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/afp/afp_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/afp/afp_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Apple Filing Protocol Login Utility",
+	"fullname": "auxiliary/scanner/afp/afp_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Gregory Man <man.gregory@gmail.com>"
+	],
+	"description": "This module attempts to bruteforce authentication credentials for AFP.",
+	"references": [
+		"URL-https://web.archive.org/web/20130309051753/https://developer.apple.com/library/mac/#documentation/Networking/Reference/AFP_Reference/Reference/reference.html",
+		"URL-https://developer.apple.com/library/mac/documentation/networking/conceptual/afp/AFPSecurity/AFPSecurity.html"
+	],
+	"rport": 548,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/afp/afp_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/afp/afp_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

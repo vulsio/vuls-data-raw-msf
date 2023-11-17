@@ -1,17 +1,17 @@
 {
-  "name": "OS X (vfork) Command Shell, Reverse TCP Stager",
-  "fullname": "payload/osx/x86/vforkshell/reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "ddz <ddz@theta44.org>"
-  ],
-  "description": "Call vfork() if necessary and spawn a command shell (staged).\n\nConnect, read length, read buffer, execute",
-  "platform": "OSX",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/osx/x86/reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x86/vforkshell/reverse_tcp",
-  "needs_cleanup": false
+	"name": "OS X (vfork) Command Shell, Reverse TCP Stager",
+	"fullname": "payload/osx/x86/vforkshell/reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"ddz <ddz@theta44.org>"
+	],
+	"description": "Call vfork() if necessary and spawn a command shell (staged).\n\nConnect, read length, read buffer, execute",
+	"platform": "OSX",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/osx/x86/reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x86/vforkshell/reverse_tcp",
+	"needs_cleanup": false
 }

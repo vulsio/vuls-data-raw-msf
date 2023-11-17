@@ -1,16 +1,16 @@
 {
-  "name": "CPUID-based Context Keyed Payload Encoder",
-  "fullname": "encoder/x86/context_cpuid",
-  "type": "encoder",
-  "author": [
-    "Dimitris Glynos"
-  ],
-  "description": "This is a Context-Keyed Payload Encoder based on CPUID and Shikata Ga Nai.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/context_cpuid.rb",
-  "is_install_path": true,
-  "ref_name": "x86/context_cpuid",
-  "needs_cleanup": false
+	"name": "CPUID-based Context Keyed Payload Encoder",
+	"fullname": "encoder/x86/context_cpuid",
+	"type": "encoder",
+	"author": [
+		"Dimitris Glynos"
+	],
+	"description": "This is a Context-Keyed Payload Encoder based on CPUID and Shikata Ga Nai.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/context_cpuid.rb",
+	"is_install_path": true,
+	"ref_name": "x86/context_cpuid",
+	"needs_cleanup": false
 }

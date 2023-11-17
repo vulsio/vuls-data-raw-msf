@@ -1,38 +1,38 @@
 {
-  "name": "Apache ActiveMQ JSP Files Source Disclosure",
-  "fullname": "auxiliary/scanner/http/apache_activemq_source_disclosure",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Veerendra G.G",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a source code disclosure in Apache ActiveMQ. The\n        vulnerability is due to the Jetty's ResourceHandler handling of specially crafted\n        URI's starting with //. It has been tested successfully on Apache ActiveMQ 5.3.1\n        over Windows 2003 SP2 and Ubuntu 10.04.",
-  "references": [
-    "CVE-2010-1587",
-    "OSVDB-64020",
-    "BID-39636",
-    "URL-https://issues.apache.org/jira/browse/AMQ-2700"
-  ],
-  "rport": 8161,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/apache_activemq_source_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/apache_activemq_source_disclosure",
-  "needs_cleanup": false
+	"name": "Apache ActiveMQ JSP Files Source Disclosure",
+	"fullname": "auxiliary/scanner/http/apache_activemq_source_disclosure",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Veerendra G.G",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a source code disclosure in Apache ActiveMQ. The\n        vulnerability is due to the Jetty's ResourceHandler handling of specially crafted\n        URI's starting with //. It has been tested successfully on Apache ActiveMQ 5.3.1\n        over Windows 2003 SP2 and Ubuntu 10.04.",
+	"references": [
+		"CVE-2010-1587",
+		"OSVDB-64020",
+		"BID-39636",
+		"URL-https://issues.apache.org/jira/browse/AMQ-2700"
+	],
+	"rport": 8161,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/apache_activemq_source_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/apache_activemq_source_disclosure",
+	"needs_cleanup": false
 }

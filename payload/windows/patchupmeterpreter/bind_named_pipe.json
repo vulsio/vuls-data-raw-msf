@@ -1,19 +1,19 @@
 {
-  "name": "Windows Meterpreter (skape/jt Injection), Windows x86 Bind Named Pipe Stager",
-  "fullname": "payload/windows/patchupmeterpreter/bind_named_pipe",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "jt <jt@klake.org>",
-    "UserExistsError"
-  ],
-  "description": "Inject the meterpreter server DLL (staged).\n\nListen for a pipe connection (Windows x86)",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/windows/bind_named_pipe.rb",
-  "is_install_path": true,
-  "ref_name": "windows/patchupmeterpreter/bind_named_pipe",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter (skape/jt Injection), Windows x86 Bind Named Pipe Stager",
+	"fullname": "payload/windows/patchupmeterpreter/bind_named_pipe",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"jt <jt@klake.org>",
+		"UserExistsError"
+	],
+	"description": "Inject the meterpreter server DLL (staged).\n\nListen for a pipe connection (Windows x86)",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/windows/bind_named_pipe.rb",
+	"is_install_path": true,
+	"ref_name": "windows/patchupmeterpreter/bind_named_pipe",
+	"needs_cleanup": false
 }

@@ -1,50 +1,50 @@
 {
-  "name": "Grafana Plugin Path Traversal",
-  "fullname": "auxiliary/scanner/http/grafana_plugin_traversal",
-  "rank": 300,
-  "disclosure_date": "2021-12-02",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "jordyv"
-  ],
-  "description": "Grafana versions 8.0.0-beta1 through 8.3.0 prior to 8.0.7, 8.1.8, 8.2.7, or 8.3.1 are vulnerable to directory traversal\n          through the plugin URL.  A valid plugin ID is required, but many are installed by default.",
-  "references": [
-    "CVE-2021-43798",
-    "URL-https://github.com/grafana/grafana/security/advisories/GHSA-8pjx-jj86-j47p",
-    "URL-https://grafana.com/blog/2021/12/07/grafana-8.3.1-8.2.7-8.1.8-and-8.0.7-released-with-high-severity-security-fix/",
-    "EDB-50581",
-    "URL-https://github.com/jas502n/Grafana-CVE-2021-43798",
-    "URL-https://github.com/grafana/grafana/commit/c798c0e958d15d9cc7f27c72113d572fa58545ce",
-    "URL-https://labs.detectify.com/security-guidance/how-i-found-the-grafana-zero-day-path-traversal-exploit-that-gave-me-access-to-your-logs/"
-  ],
-  "rport": 3000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-11-02 07:43:01 +0000",
-  "path": "/modules/auxiliary/scanner/http/grafana_plugin_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/grafana_plugin_traversal",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Grafana Plugin Path Traversal",
+	"fullname": "auxiliary/scanner/http/grafana_plugin_traversal",
+	"rank": 300,
+	"disclosure_date": "2021-12-02",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"jordyv"
+	],
+	"description": "Grafana versions 8.0.0-beta1 through 8.3.0 prior to 8.0.7, 8.1.8, 8.2.7, or 8.3.1 are vulnerable to directory traversal\n          through the plugin URL.  A valid plugin ID is required, but many are installed by default.",
+	"references": [
+		"CVE-2021-43798",
+		"URL-https://github.com/grafana/grafana/security/advisories/GHSA-8pjx-jj86-j47p",
+		"URL-https://grafana.com/blog/2021/12/07/grafana-8.3.1-8.2.7-8.1.8-and-8.0.7-released-with-high-severity-security-fix/",
+		"EDB-50581",
+		"URL-https://github.com/jas502n/Grafana-CVE-2021-43798",
+		"URL-https://github.com/grafana/grafana/commit/c798c0e958d15d9cc7f27c72113d572fa58545ce",
+		"URL-https://labs.detectify.com/security-guidance/how-i-found-the-grafana-zero-day-path-traversal-exploit-that-gave-me-access-to-your-logs/"
+	],
+	"rport": 3000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-11-02 07:43:01 +0000",
+	"path": "/modules/auxiliary/scanner/http/grafana_plugin_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/grafana_plugin_traversal",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

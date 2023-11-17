@@ -1,21 +1,21 @@
 {
-  "name": "D-Link i2eye Video Conference AutoAnswer (WDBRPC)",
-  "fullname": "auxiliary/admin/vxworks/dlink_i2eye_autoanswer",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module can be used to enable auto-answer mode for the D-Link\n      i2eye video conferencing system. Once this setting has been flipped,\n      the device will accept incoming video calls without acknowledgement.\n      The NetMeeting software included in Windows XP can be used to connect\n      to this device. The i2eye product is no longer supported by the vendor\n      and all models have reached their end of life (EOL).",
-  "references": [
-    "OSVDB-66842",
-    "URL-https://www.rapid7.com/blog/post/2010/08/02/new-vxworks-vulnerabilities/",
-    "US-CERT-VU-362332"
-  ],
-  "rport": 17185,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/vxworks/dlink_i2eye_autoanswer.rb",
-  "is_install_path": true,
-  "ref_name": "admin/vxworks/dlink_i2eye_autoanswer",
-  "needs_cleanup": false
+	"name": "D-Link i2eye Video Conference AutoAnswer (WDBRPC)",
+	"fullname": "auxiliary/admin/vxworks/dlink_i2eye_autoanswer",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module can be used to enable auto-answer mode for the D-Link\n      i2eye video conferencing system. Once this setting has been flipped,\n      the device will accept incoming video calls without acknowledgement.\n      The NetMeeting software included in Windows XP can be used to connect\n      to this device. The i2eye product is no longer supported by the vendor\n      and all models have reached their end of life (EOL).",
+	"references": [
+		"OSVDB-66842",
+		"URL-https://www.rapid7.com/blog/post/2010/08/02/new-vxworks-vulnerabilities/",
+		"US-CERT-VU-362332"
+	],
+	"rport": 17185,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/vxworks/dlink_i2eye_autoanswer.rb",
+	"is_install_path": true,
+	"ref_name": "admin/vxworks/dlink_i2eye_autoanswer",
+	"needs_cleanup": false
 }

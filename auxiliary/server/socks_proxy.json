@@ -1,17 +1,17 @@
 {
-  "name": "SOCKS Proxy Server",
-  "fullname": "auxiliary/server/socks_proxy",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "Spencer McIntyre",
-    "surefire"
-  ],
-  "description": "This module provides a SOCKS proxy server that uses the builtin Metasploit routing to relay connections.",
-  "mod_time": "2022-03-22 09:23:09 +0000",
-  "path": "/modules/auxiliary/server/socks_proxy.rb",
-  "is_install_path": true,
-  "ref_name": "server/socks_proxy",
-  "needs_cleanup": false
+	"name": "SOCKS Proxy Server",
+	"fullname": "auxiliary/server/socks_proxy",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"Spencer McIntyre",
+		"surefire"
+	],
+	"description": "This module provides a SOCKS proxy server that uses the builtin Metasploit routing to relay connections.",
+	"mod_time": "2022-03-22 09:23:09 +0000",
+	"path": "/modules/auxiliary/server/socks_proxy.rb",
+	"is_install_path": true,
+	"ref_name": "server/socks_proxy",
+	"needs_cleanup": false
 }

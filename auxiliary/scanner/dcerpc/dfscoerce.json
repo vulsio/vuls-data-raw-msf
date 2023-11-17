@@ -1,29 +1,29 @@
 {
-  "name": "DFSCoerce",
-  "fullname": "auxiliary/scanner/dcerpc/dfscoerce",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Wh04m1001",
-    "xct_de",
-    "Spencer McIntyre"
-  ],
-  "description": "Coerce an authentication attempt over SMB to other machines via MS-DFSNM methods.",
-  "references": [
-    "URL-https://github.com/Wh04m1001/DFSCoerce"
-  ],
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2022-06-30 17:38:30 +0000",
-  "path": "/modules/auxiliary/scanner/dcerpc/dfscoerce.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/dcerpc/dfscoerce",
-  "needs_cleanup": false
+	"name": "DFSCoerce",
+	"fullname": "auxiliary/scanner/dcerpc/dfscoerce",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Wh04m1001",
+		"xct_de",
+		"Spencer McIntyre"
+	],
+	"description": "Coerce an authentication attempt over SMB to other machines via MS-DFSNM methods.",
+	"references": [
+		"URL-https://github.com/Wh04m1001/DFSCoerce"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2022-06-30 17:38:30 +0000",
+	"path": "/modules/auxiliary/scanner/dcerpc/dfscoerce.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/dcerpc/dfscoerce",
+	"needs_cleanup": false
 }

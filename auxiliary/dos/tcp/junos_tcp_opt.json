@@ -1,20 +1,20 @@
 {
-  "name": "Juniper JunOS Malformed TCP Option",
-  "fullname": "auxiliary/dos/tcp/junos_tcp_opt",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module exploits a denial of service vulnerability\n        in Juniper Network's JunOS router operating system. By sending a TCP\n        packet with TCP option 101 set, an attacker can cause an affected\n        router to reboot.",
-  "references": [
-    "BID-37670",
-    "OSVDB-61538",
-    "URL-http://praetorianprefect.com/archives/2010/01/junos-juniper-flaw-exposes-core-routers-to-kernal-crash/"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/dos/tcp/junos_tcp_opt.rb",
-  "is_install_path": true,
-  "ref_name": "dos/tcp/junos_tcp_opt",
-  "needs_cleanup": false
+	"name": "Juniper JunOS Malformed TCP Option",
+	"fullname": "auxiliary/dos/tcp/junos_tcp_opt",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module exploits a denial of service vulnerability\n        in Juniper Network's JunOS router operating system. By sending a TCP\n        packet with TCP option 101 set, an attacker can cause an affected\n        router to reboot.",
+	"references": [
+		"BID-37670",
+		"OSVDB-61538",
+		"URL-http://praetorianprefect.com/archives/2010/01/junos-juniper-flaw-exposes-core-routers-to-kernal-crash/"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/dos/tcp/junos_tcp_opt.rb",
+	"is_install_path": true,
+	"ref_name": "dos/tcp/junos_tcp_opt",
+	"needs_cleanup": false
 }

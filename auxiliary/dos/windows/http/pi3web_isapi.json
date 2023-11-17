@@ -1,37 +1,37 @@
 {
-  "name": "Pi3Web ISAPI DoS",
-  "fullname": "auxiliary/dos/windows/http/pi3web_isapi",
-  "rank": 300,
-  "disclosure_date": "2008-11-13",
-  "type": "auxiliary",
-  "author": [
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "The Pi3Web HTTP server crashes when a request is made for an invalid DLL\n        file in /isapi for versions 2.0.13 and earlier. By default, the non-DLLs\n        in this directory after installation are users.txt, install.daf and\n        readme.daf.",
-  "references": [
-    "CVE-2008-6938",
-    "OSVDB-49998",
-    "EDB-7109"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/windows/http/pi3web_isapi.rb",
-  "is_install_path": true,
-  "ref_name": "dos/windows/http/pi3web_isapi",
-  "needs_cleanup": false
+	"name": "Pi3Web ISAPI DoS",
+	"fullname": "auxiliary/dos/windows/http/pi3web_isapi",
+	"rank": 300,
+	"disclosure_date": "2008-11-13",
+	"type": "auxiliary",
+	"author": [
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "The Pi3Web HTTP server crashes when a request is made for an invalid DLL\n        file in /isapi for versions 2.0.13 and earlier. By default, the non-DLLs\n        in this directory after installation are users.txt, install.daf and\n        readme.daf.",
+	"references": [
+		"CVE-2008-6938",
+		"OSVDB-49998",
+		"EDB-7109"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/windows/http/pi3web_isapi.rb",
+	"is_install_path": true,
+	"ref_name": "dos/windows/http/pi3web_isapi",
+	"needs_cleanup": false
 }

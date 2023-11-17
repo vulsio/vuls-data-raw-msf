@@ -1,50 +1,50 @@
 {
-  "name": "GitLab Authenticated File Read",
-  "fullname": "auxiliary/gather/gitlab_authenticated_subgroups_file_read",
-  "rank": 300,
-  "disclosure_date": "2023-05-23",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "pwnie",
-    "Vitellozzo"
-  ],
-  "description": "GitLab version 16.0 contains a directory traversal for arbitrary file read\n          as the `gitlab-www` user. This module requires authentication for exploitation.\n          In order to use this module, a user must be able to create a project and groups.\n          When exploiting this vulnerability, there is a direct correlation between the traversal\n          depth, and the depth of groups the vulnerable project is in. The minimum for this seems\n          to be 5, but up to 11 have also been observed. An example of this, is if the directory\n          traversal needs a depth of 11, a group\n          and 10 nested child groups, each a sub of the previous, will be created (adding up to 11).\n          Visually this looks like:\n          Group1->sub1->sub2->sub3->sub4->sub5->sub6->sub7->sub8->sub9->sub10.\n          If the depth was 5, a group and 4 nested child groups would be created.\n          With all these requirements satisfied a dummy file is uploaded, and the full\n          traversal is then executed. Cleanup is performed by deleting the first group which\n          cascades to deleting all other objects created.",
-  "references": [
-    "URL-https://about.gitlab.com/releases/2023/05/23/critical-security-release-gitlab-16-0-1-released/",
-    "URL-https://github.com/Occamsec/CVE-2023-2825",
-    "URL-https://labs.watchtowr.com/gitlab-arbitrary-file-read-gitlab-cve-2023-2825-analysis/",
-    "CVE-2023-2825"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-06-06 16:24:38 +0000",
-  "path": "/modules/auxiliary/gather/gitlab_authenticated_subgroups_file_read.rb",
-  "is_install_path": true,
-  "ref_name": "gather/gitlab_authenticated_subgroups_file_read",
-  "check": true,
-  "post_auth": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "GitLab Authenticated File Read",
+	"fullname": "auxiliary/gather/gitlab_authenticated_subgroups_file_read",
+	"rank": 300,
+	"disclosure_date": "2023-05-23",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"pwnie",
+		"Vitellozzo"
+	],
+	"description": "GitLab version 16.0 contains a directory traversal for arbitrary file read\n          as the `gitlab-www` user. This module requires authentication for exploitation.\n          In order to use this module, a user must be able to create a project and groups.\n          When exploiting this vulnerability, there is a direct correlation between the traversal\n          depth, and the depth of groups the vulnerable project is in. The minimum for this seems\n          to be 5, but up to 11 have also been observed. An example of this, is if the directory\n          traversal needs a depth of 11, a group\n          and 10 nested child groups, each a sub of the previous, will be created (adding up to 11).\n          Visually this looks like:\n          Group1->sub1->sub2->sub3->sub4->sub5->sub6->sub7->sub8->sub9->sub10.\n          If the depth was 5, a group and 4 nested child groups would be created.\n          With all these requirements satisfied a dummy file is uploaded, and the full\n          traversal is then executed. Cleanup is performed by deleting the first group which\n          cascades to deleting all other objects created.",
+	"references": [
+		"URL-https://about.gitlab.com/releases/2023/05/23/critical-security-release-gitlab-16-0-1-released/",
+		"URL-https://github.com/Occamsec/CVE-2023-2825",
+		"URL-https://labs.watchtowr.com/gitlab-arbitrary-file-read-gitlab-cve-2023-2825-analysis/",
+		"CVE-2023-2825"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-06-06 16:24:38 +0000",
+	"path": "/modules/auxiliary/gather/gitlab_authenticated_subgroups_file_read.rb",
+	"is_install_path": true,
+	"ref_name": "gather/gitlab_authenticated_subgroups_file_read",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

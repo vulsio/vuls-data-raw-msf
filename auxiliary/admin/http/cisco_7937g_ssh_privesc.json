@@ -1,21 +1,21 @@
 {
-  "name": "Cisco 7937G SSH Privilege Escalation",
-  "fullname": "auxiliary/admin/http/cisco_7937g_ssh_privesc",
-  "rank": 300,
-  "disclosure_date": "2020-06-02",
-  "type": "auxiliary",
-  "author": [
-    "Cody Martin"
-  ],
-  "description": "This module exploits a feature that should not be available \n\tvia the web interface. An unauthenticated user may change \n\tthe credentials for SSH access to any username and password \n\tcombination desired, giving access to administrative \n\tfunctions through an SSH connection.",
-  "references": [
-    "URL-https://web.archive.org/web/20200921054955/https://www.blacklanternsecurity.com/2020-08-07-Cisco-Unified-IP-Conference-Station-7937G/",
-    "CVE-2020-16137"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/http/cisco_7937g_ssh_privesc.py",
-  "is_install_path": true,
-  "ref_name": "admin/http/cisco_7937g_ssh_privesc",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Cisco 7937G SSH Privilege Escalation",
+	"fullname": "auxiliary/admin/http/cisco_7937g_ssh_privesc",
+	"rank": 300,
+	"disclosure_date": "2020-06-02",
+	"type": "auxiliary",
+	"author": [
+		"Cody Martin"
+	],
+	"description": "This module exploits a feature that should not be available \n\tvia the web interface. An unauthenticated user may change \n\tthe credentials for SSH access to any username and password \n\tcombination desired, giving access to administrative \n\tfunctions through an SSH connection.",
+	"references": [
+		"URL-https://web.archive.org/web/20200921054955/https://www.blacklanternsecurity.com/2020-08-07-Cisco-Unified-IP-Conference-Station-7937G/",
+		"CVE-2020-16137"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/http/cisco_7937g_ssh_privesc.py",
+	"is_install_path": true,
+	"ref_name": "admin/http/cisco_7937g_ssh_privesc",
+	"post_auth": true,
+	"needs_cleanup": false
 }

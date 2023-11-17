@@ -1,31 +1,31 @@
 {
-  "name": "HTTP Previous Directory File Scanner",
-  "fullname": "auxiliary/scanner/http/prev_dir_same_name_file",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "et <et@metasploit.com>"
-  ],
-  "description": "This module identifies files in the first parent directory with same name as\n        the given directory path. Example: Test /backup/files/ will look for the\n        following files /backup/files.ext .",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/http/prev_dir_same_name_file.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/prev_dir_same_name_file",
-  "needs_cleanup": false
+	"name": "HTTP Previous Directory File Scanner",
+	"fullname": "auxiliary/scanner/http/prev_dir_same_name_file",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"et <et@metasploit.com>"
+	],
+	"description": "This module identifies files in the first parent directory with same name as\n        the given directory path. Example: Test /backup/files/ will look for the\n        following files /backup/files.ext .",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/http/prev_dir_same_name_file.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/prev_dir_same_name_file",
+	"needs_cleanup": false
 }

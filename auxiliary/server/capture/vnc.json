@@ -1,15 +1,15 @@
 {
-  "name": "Authentication Capture: VNC",
-  "fullname": "auxiliary/server/capture/vnc",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Patrik Karlsson <patrik@cqure.net>"
-  ],
-  "description": "This module provides a fake VNC service that\n      is designed to capture authentication credentials.",
-  "mod_time": "2023-04-12 13:09:34 +0000",
-  "path": "/modules/auxiliary/server/capture/vnc.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/vnc",
-  "needs_cleanup": false
+	"name": "Authentication Capture: VNC",
+	"fullname": "auxiliary/server/capture/vnc",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Patrik Karlsson <patrik@cqure.net>"
+	],
+	"description": "This module provides a fake VNC service that\n      is designed to capture authentication credentials.",
+	"mod_time": "2023-04-12 13:09:34 +0000",
+	"path": "/modules/auxiliary/server/capture/vnc.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/vnc",
+	"needs_cleanup": false
 }

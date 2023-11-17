@@ -1,18 +1,18 @@
 {
-  "name": "Authentication Capture: SMB",
-  "fullname": "auxiliary/server/capture/smb",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "Spencer McIntyre",
-    "agalway-r7",
-    "sjanusz-r7"
-  ],
-  "description": "This module provides a SMB service that can be used to capture the challenge-response\n        password NTLMv1 & NTLMv2 hashes used with SMB1, SMB2, or SMB3 client systems.\n        Responses sent by this service by default use a random 8 byte challenge string.\n        A specific value (such as `1122334455667788`) can be set using the CHALLENGE option,\n        allowing for easy cracking using Cain & Abel (NTLMv1) or John the Ripper\n        (with jumbo patch).\n\n        To exploit this, the target system must try to authenticate to this\n        module. One way to force an SMB authentication attempt is by embedding\n        a UNC path (\\\\SERVER\\SHARE) into a web page or email message. When\n        the victim views the web page or email, their system will\n        automatically connect to the server specified in the UNC share (the IP\n        address of the system running this module) and attempt to\n        authenticate. Another option is using auxiliary/spoof/{nbns,llmnr} to\n        respond to queries for names the victim is already looking for.\n\n        Documentation of the above spoofing methods can be found by running `info -d`.",
-  "mod_time": "2022-10-13 10:13:27 +0000",
-  "path": "/modules/auxiliary/server/capture/smb.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/smb",
-  "needs_cleanup": false
+	"name": "Authentication Capture: SMB",
+	"fullname": "auxiliary/server/capture/smb",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"Spencer McIntyre",
+		"agalway-r7",
+		"sjanusz-r7"
+	],
+	"description": "This module provides a SMB service that can be used to capture the challenge-response\n        password NTLMv1 & NTLMv2 hashes used with SMB1, SMB2, or SMB3 client systems.\n        Responses sent by this service by default use a random 8 byte challenge string.\n        A specific value (such as `1122334455667788`) can be set using the CHALLENGE option,\n        allowing for easy cracking using Cain & Abel (NTLMv1) or John the Ripper\n        (with jumbo patch).\n\n        To exploit this, the target system must try to authenticate to this\n        module. One way to force an SMB authentication attempt is by embedding\n        a UNC path (\\\\SERVER\\SHARE) into a web page or email message. When\n        the victim views the web page or email, their system will\n        automatically connect to the server specified in the UNC share (the IP\n        address of the system running this module) and attempt to\n        authenticate. Another option is using auxiliary/spoof/{nbns,llmnr} to\n        respond to queries for names the victim is already looking for.\n\n        Documentation of the above spoofing methods can be found by running `info -d`.",
+	"mod_time": "2022-10-13 10:13:27 +0000",
+	"path": "/modules/auxiliary/server/capture/smb.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/smb",
+	"needs_cleanup": false
 }

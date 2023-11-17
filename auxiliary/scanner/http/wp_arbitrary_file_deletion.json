@@ -1,44 +1,44 @@
 {
-  "name": "Wordpress Arbitrary File Deletion",
-  "fullname": "auxiliary/scanner/http/wp_arbitrary_file_deletion",
-  "rank": 300,
-  "disclosure_date": "2018-06-26",
-  "type": "auxiliary",
-  "author": [
-    "Slavco Mihajloski",
-    "Karim El Ouerghemmi",
-    "Aloïs Thévenot"
-  ],
-  "description": "An arbitrary file deletion vulnerability in the WordPress core allows any user with privileges of an\n        Author to completely take over the WordPress site and to execute arbitrary code on the server.",
-  "references": [
-    "WPVDB-9100",
-    "EDB-44949",
-    "PACKETSTORM-148333",
-    "URL-https://blog.sonarsource.com/wordpress-file-delete-to-code-execution/",
-    "URL-https://blog.vulnspy.com/2018/06/27/Wordpress-4-9-6-Arbitrary-File-Delection-Vulnerbility-Exploit/"
-  ],
-  "platform": "PHP",
-  "arch": "php",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/wp_arbitrary_file_deletion.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/wp_arbitrary_file_deletion",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Wordpress Arbitrary File Deletion",
+	"fullname": "auxiliary/scanner/http/wp_arbitrary_file_deletion",
+	"rank": 300,
+	"disclosure_date": "2018-06-26",
+	"type": "auxiliary",
+	"author": [
+		"Slavco Mihajloski",
+		"Karim El Ouerghemmi",
+		"Aloïs Thévenot"
+	],
+	"description": "An arbitrary file deletion vulnerability in the WordPress core allows any user with privileges of an\n        Author to completely take over the WordPress site and to execute arbitrary code on the server.",
+	"references": [
+		"WPVDB-9100",
+		"EDB-44949",
+		"PACKETSTORM-148333",
+		"URL-https://blog.sonarsource.com/wordpress-file-delete-to-code-execution/",
+		"URL-https://blog.vulnspy.com/2018/06/27/Wordpress-4-9-6-Arbitrary-File-Delection-Vulnerbility-Exploit/"
+	],
+	"platform": "PHP",
+	"arch": "php",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_arbitrary_file_deletion.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_arbitrary_file_deletion",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,16 +1,16 @@
 {
-  "name": "BMP Polyglot",
-  "fullname": "encoder/x86/bmp_polyglot",
-  "type": "encoder",
-  "author": [
-    "Spencer McIntyre"
-  ],
-  "description": "Encodes a payload in such a way that the resulting binary blob is both\n        valid x86 shellcode and a valid bitmap image file (.bmp). The selected\n        bitmap file to inject into must use the BM (Windows 3.1x/95/NT) header\n        and the 40-byte Windows 3.1x/NT BITMAPINFOHEADER. Additionally the file\n        must use either 24 or 32 bits per pixel as the color depth and no\n        compression. This encoder makes absolutely no effort to remove any\n        invalid characters.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/bmp_polyglot.rb",
-  "is_install_path": true,
-  "ref_name": "x86/bmp_polyglot",
-  "needs_cleanup": false
+	"name": "BMP Polyglot",
+	"fullname": "encoder/x86/bmp_polyglot",
+	"type": "encoder",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Encodes a payload in such a way that the resulting binary blob is both\n        valid x86 shellcode and a valid bitmap image file (.bmp). The selected\n        bitmap file to inject into must use the BM (Windows 3.1x/95/NT) header\n        and the 40-byte Windows 3.1x/NT BITMAPINFOHEADER. Additionally the file\n        must use either 24 or 32 bits per pixel as the color depth and no\n        compression. This encoder makes absolutely no effort to remove any\n        invalid characters.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/bmp_polyglot.rb",
+	"is_install_path": true,
+	"ref_name": "x86/bmp_polyglot",
+	"needs_cleanup": false
 }

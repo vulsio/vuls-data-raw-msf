@@ -1,21 +1,21 @@
 {
-  "name": "HTTPS Fetch",
-  "fullname": "payload/cmd/linux/https/x86/meterpreter_reverse_https",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "Adam Cammack <adam_cammack@rapid7.com>",
-    "Brent Cook <brent_cook@rapid7.com>",
-    "timwr"
-  ],
-  "description": "Fetch and execute an x86 payload from an HTTPS server.",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/https/x86/meterpreter_reverse_https",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch",
+	"fullname": "payload/cmd/linux/https/x86/meterpreter_reverse_https",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"Adam Cammack <adam_cammack@rapid7.com>",
+		"Brent Cook <brent_cook@rapid7.com>",
+		"timwr"
+	],
+	"description": "Fetch and execute an x86 payload from an HTTPS server.",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/https/x86/meterpreter_reverse_https",
+	"needs_cleanup": false
 }

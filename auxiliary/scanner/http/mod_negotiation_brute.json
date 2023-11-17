@@ -1,31 +1,31 @@
 {
-  "name": "Apache HTTPD mod_negotiation Filename Bruter",
-  "fullname": "auxiliary/scanner/http/mod_negotiation_brute",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "diablohorn <diablohorn@gmail.com>"
-  ],
-  "description": "This module performs a brute force attack in order to discover existing files on a\n        server which uses mod_negotiation. If the filename is found, the IP address and the\n        files found will be displayed.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/mod_negotiation_brute.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/mod_negotiation_brute",
-  "needs_cleanup": false
+	"name": "Apache HTTPD mod_negotiation Filename Bruter",
+	"fullname": "auxiliary/scanner/http/mod_negotiation_brute",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"diablohorn <diablohorn@gmail.com>"
+	],
+	"description": "This module performs a brute force attack in order to discover existing files on a\n        server which uses mod_negotiation. If the filename is found, the IP address and the\n        files found will be displayed.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/mod_negotiation_brute.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/mod_negotiation_brute",
+	"needs_cleanup": false
 }

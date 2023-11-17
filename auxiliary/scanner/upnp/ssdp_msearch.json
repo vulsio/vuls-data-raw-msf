@@ -1,23 +1,23 @@
 {
-  "name": "UPnP SSDP M-SEARCH Information Discovery",
-  "fullname": "auxiliary/scanner/upnp/ssdp_msearch",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "todb <todb@metasploit.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Discover information from UPnP-enabled systems",
-  "references": [
-    "CVE-2012-5958",
-    "CVE-2012-5959",
-    "CVE-2013-0230",
-    "CVE-2013-0229"
-  ],
-  "rport": 1900,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/upnp/ssdp_msearch.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/upnp/ssdp_msearch",
-  "needs_cleanup": false
+	"name": "UPnP SSDP M-SEARCH Information Discovery",
+	"fullname": "auxiliary/scanner/upnp/ssdp_msearch",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"todb <todb@metasploit.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Discover information from UPnP-enabled systems",
+	"references": [
+		"CVE-2012-5958",
+		"CVE-2012-5959",
+		"CVE-2013-0230",
+		"CVE-2013-0229"
+	],
+	"rport": 1900,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/upnp/ssdp_msearch.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/upnp/ssdp_msearch",
+	"needs_cleanup": false
 }

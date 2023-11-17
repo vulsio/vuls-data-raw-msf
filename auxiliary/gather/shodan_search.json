@@ -1,31 +1,31 @@
 {
-  "name": "Shodan Search",
-  "fullname": "auxiliary/gather/shodan_search",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "John H Sawyer <john@sploitlab.com>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module uses the Shodan API to search Shodan. Accounts are free\n        and an API key is required to use this module. Output from the module\n        is displayed to the screen and can be saved to a file or the MSF database.\n        NOTE: SHODAN filters (i.e. port, hostname, os, geo, city) can be used in\n        queries, but there are limitations when used with a free API key. Please\n        see the Shodan site for more information.\n        Shodan website: https://www.shodan.io/\n        API: https://developer.shodan.io/api",
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-03-01 21:31:35 +0000",
-  "path": "/modules/auxiliary/gather/shodan_search.rb",
-  "is_install_path": true,
-  "ref_name": "gather/shodan_search",
-  "needs_cleanup": false
+	"name": "Shodan Search",
+	"fullname": "auxiliary/gather/shodan_search",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"John H Sawyer <john@sploitlab.com>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module uses the Shodan API to search Shodan. Accounts are free\n        and an API key is required to use this module. Output from the module\n        is displayed to the screen and can be saved to a file or the MSF database.\n        NOTE: SHODAN filters (i.e. port, hostname, os, geo, city) can be used in\n        queries, but there are limitations when used with a free API key. Please\n        see the Shodan site for more information.\n        Shodan website: https://www.shodan.io/\n        API: https://developer.shodan.io/api",
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-03-01 21:31:35 +0000",
+	"path": "/modules/auxiliary/gather/shodan_search.rb",
+	"is_install_path": true,
+	"ref_name": "gather/shodan_search",
+	"needs_cleanup": false
 }

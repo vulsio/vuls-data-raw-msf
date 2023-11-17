@@ -1,22 +1,22 @@
 {
-  "name": "Android Browser RCE Through Google Play Store XFO",
-  "fullname": "auxiliary/admin/android/google_play_store_uxss_xframe_rce",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rafay Baloch",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module combines two vulnerabilities to achieve remote code\n        execution on affected Android devices. First, the module exploits\n        CVE-2014-6041, a Universal Cross-Site Scripting (UXSS) vulnerability present in\n        versions of Android's open source stock browser (the AOSP Browser) prior to\n        4.4. Second, the Google Play store's web interface fails to enforce a\n        X-Frame-Options: DENY header (XFO) on some error pages, and therefore, can be\n        targeted for script injection. As a result, this leads to remote code execution\n        through Google Play's remote installation feature, as any application available\n        on the Google Play store can be installed and launched on the user's device.\n\n        This module requires that the user is logged into Google with a vulnerable browser.\n\n        To list the activities in an APK, you can use `aapt dump badging /path/to/app.apk`.",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2014/09/15/major-android-bug-is-a-privacy-disaster-cve-2014-6041/",
-    "URL-https://web.archive.org/web/20150316151817/http://1337day.com/exploit/description/22581",
-    "OSVDB-110664",
-    "CVE-2014-6041"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/android/google_play_store_uxss_xframe_rce.rb",
-  "is_install_path": true,
-  "ref_name": "admin/android/google_play_store_uxss_xframe_rce",
-  "needs_cleanup": false
+	"name": "Android Browser RCE Through Google Play Store XFO",
+	"fullname": "auxiliary/admin/android/google_play_store_uxss_xframe_rce",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rafay Baloch",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module combines two vulnerabilities to achieve remote code\n        execution on affected Android devices. First, the module exploits\n        CVE-2014-6041, a Universal Cross-Site Scripting (UXSS) vulnerability present in\n        versions of Android's open source stock browser (the AOSP Browser) prior to\n        4.4. Second, the Google Play store's web interface fails to enforce a\n        X-Frame-Options: DENY header (XFO) on some error pages, and therefore, can be\n        targeted for script injection. As a result, this leads to remote code execution\n        through Google Play's remote installation feature, as any application available\n        on the Google Play store can be installed and launched on the user's device.\n\n        This module requires that the user is logged into Google with a vulnerable browser.\n\n        To list the activities in an APK, you can use `aapt dump badging /path/to/app.apk`.",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2014/09/15/major-android-bug-is-a-privacy-disaster-cve-2014-6041/",
+		"URL-https://web.archive.org/web/20150316151817/http://1337day.com/exploit/description/22581",
+		"OSVDB-110664",
+		"CVE-2014-6041"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/android/google_play_store_uxss_xframe_rce.rb",
+	"is_install_path": true,
+	"ref_name": "admin/android/google_play_store_uxss_xframe_rce",
+	"needs_cleanup": false
 }

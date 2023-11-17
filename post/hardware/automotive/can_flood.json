@@ -1,18 +1,18 @@
 {
-  "name": "CAN Flood",
-  "fullname": "post/hardware/automotive/can_flood",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Pietro Biondi"
-  ],
-  "description": "This module floods a CAN interface with supplied frames.",
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/automotive/can_flood.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/automotive/can_flood",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "CAN Flood",
+	"fullname": "post/hardware/automotive/can_flood",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Pietro Biondi"
+	],
+	"description": "This module floods a CAN interface with supplied frames.",
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/automotive/can_flood.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/automotive/can_flood",
+	"session_types": [
+		"hwbridge"
+	]
 }

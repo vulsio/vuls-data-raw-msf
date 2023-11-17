@@ -1,25 +1,25 @@
 {
-  "name": "Xymon Daemon Gather Information",
-  "fullname": "auxiliary/gather/xymon_info",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Markus Krell",
-    "bcoles <bcoles@gmail.com>"
-  ],
-  "description": "This module retrieves information from a Xymon daemon service\n        (formerly Hobbit, based on Big Brother), including server\n        configuration information, a list of monitored hosts, and\n        associated client log for each host.\n\n        This module also retrieves usernames and password hashes from\n        the `xymonpasswd` config file from Xymon servers before 4.3.25,\n        which permit download arbitrary config files (CVE-2016-2055),\n        and servers configured with `ALLOWALLCONFIGFILES` enabled.",
-  "references": [
-    "CVE-2016-2055",
-    "PACKETSTORM-135758",
-    "URL-https://lists.xymon.com/pipermail/xymon/2016-February/042986.html",
-    "URL-https://xymon.sourceforge.net/",
-    "URL-https://en.wikipedia.org/wiki/Xymon",
-    "URL-https://en.wikipedia.org/wiki/Big_Brother_(software)"
-  ],
-  "rport": 1984,
-  "mod_time": "2023-04-12 13:09:34 +0000",
-  "path": "/modules/auxiliary/gather/xymon_info.rb",
-  "is_install_path": true,
-  "ref_name": "gather/xymon_info",
-  "needs_cleanup": false
+	"name": "Xymon Daemon Gather Information",
+	"fullname": "auxiliary/gather/xymon_info",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Markus Krell",
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "This module retrieves information from a Xymon daemon service\n        (formerly Hobbit, based on Big Brother), including server\n        configuration information, a list of monitored hosts, and\n        associated client log for each host.\n\n        This module also retrieves usernames and password hashes from\n        the `xymonpasswd` config file from Xymon servers before 4.3.25,\n        which permit download arbitrary config files (CVE-2016-2055),\n        and servers configured with `ALLOWALLCONFIGFILES` enabled.",
+	"references": [
+		"CVE-2016-2055",
+		"PACKETSTORM-135758",
+		"URL-https://lists.xymon.com/pipermail/xymon/2016-February/042986.html",
+		"URL-https://xymon.sourceforge.net/",
+		"URL-https://en.wikipedia.org/wiki/Xymon",
+		"URL-https://en.wikipedia.org/wiki/Big_Brother_(software)"
+	],
+	"rport": 1984,
+	"mod_time": "2023-04-12 13:09:34 +0000",
+	"path": "/modules/auxiliary/gather/xymon_info.rb",
+	"is_install_path": true,
+	"ref_name": "gather/xymon_info",
+	"needs_cleanup": false
 }

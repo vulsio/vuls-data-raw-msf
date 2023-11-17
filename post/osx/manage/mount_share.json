@@ -1,20 +1,20 @@
 {
-  "name": "OSX Network Share Mounter",
-  "fullname": "post/osx/manage/mount_share",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Peter Toth <globetother@gmail.com>",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module lists saved network shares and tries to connect to them using stored\n          credentials. This does not require root privileges.",
-  "platform": "OSX",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/osx/manage/mount_share.rb",
-  "is_install_path": true,
-  "ref_name": "osx/manage/mount_share",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "OSX Network Share Mounter",
+	"fullname": "post/osx/manage/mount_share",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Peter Toth <globetother@gmail.com>",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module lists saved network shares and tries to connect to them using stored\n          credentials. This does not require root privileges.",
+	"platform": "OSX",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/osx/manage/mount_share.rb",
+	"is_install_path": true,
+	"ref_name": "osx/manage/mount_share",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

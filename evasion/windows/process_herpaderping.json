@@ -1,26 +1,26 @@
 {
-  "name": "Process Herpaderping evasion technique",
-  "fullname": "evasion/windows/process_herpaderping",
-  "rank": 300,
-  "type": "evasion",
-  "author": [
-    "Johnny Shaw",
-    "Christophe De La Fuente"
-  ],
-  "description": "This module allows you to generate a Windows executable that evades security\n          products such as Windows Defender, Avast, etc. This uses the Process\n          Herpaderping technique to bypass Antivirus detection. This method consists in\n          obscuring the behavior of a running process by modifying the executable on disk\n          after the image has been mapped in memory (more details https://jxy-s.github.io/herpaderping/).\n\n          First, the chosen payload is encrypted and embedded in a loader Portable\n          Executable (PE) file. This file is then included in the final executable. Once\n          this executable is launched on the target, the loader PE is dropped on disk and\n          executed, following the Process Herpaderping technique. Note that the name of\n          the file that is being dropped is randomly generated. However, it is possible\n          to configure the destination path from Metasploit (see WRITEABLE_DIR option\n          description).\n\n          Here is the main workflow:\n          1. Retrieve the target name (where the PE loader will be dropped).\n          2. Retrieve the PE loader from the binary and write it on disk.\n          3. Create a section object and create a process from the mapped image.\n          4. Modify the file content on disk by copying another (inoffensive) executable\n          or by using random bytes (see REPLACED_WITH_FILE option description).\n          5. Create the main Thread.\n\n          The source code is based on Johnny Shaw's PoC (https://github.com/jxy-s/herpaderping).",
-  "references": [
-    "URL-https://jxy-s.github.io/herpaderping/",
-    "URL-https://github.com/jxy-s/herpaderping"
-  ],
-  "platform": "Windows",
-  "arch": "x64, x86",
-  "targets": [
-    "Microsoft Windows (x64)",
-    "Microsoft Windows (x86)"
-  ],
-  "mod_time": "2022-03-10 18:03:35 +0000",
-  "path": "/modules/evasion/windows/process_herpaderping.rb",
-  "is_install_path": true,
-  "ref_name": "windows/process_herpaderping",
-  "needs_cleanup": false
+	"name": "Process Herpaderping evasion technique",
+	"fullname": "evasion/windows/process_herpaderping",
+	"rank": 300,
+	"type": "evasion",
+	"author": [
+		"Johnny Shaw",
+		"Christophe De La Fuente"
+	],
+	"description": "This module allows you to generate a Windows executable that evades security\n          products such as Windows Defender, Avast, etc. This uses the Process\n          Herpaderping technique to bypass Antivirus detection. This method consists in\n          obscuring the behavior of a running process by modifying the executable on disk\n          after the image has been mapped in memory (more details https://jxy-s.github.io/herpaderping/).\n\n          First, the chosen payload is encrypted and embedded in a loader Portable\n          Executable (PE) file. This file is then included in the final executable. Once\n          this executable is launched on the target, the loader PE is dropped on disk and\n          executed, following the Process Herpaderping technique. Note that the name of\n          the file that is being dropped is randomly generated. However, it is possible\n          to configure the destination path from Metasploit (see WRITEABLE_DIR option\n          description).\n\n          Here is the main workflow:\n          1. Retrieve the target name (where the PE loader will be dropped).\n          2. Retrieve the PE loader from the binary and write it on disk.\n          3. Create a section object and create a process from the mapped image.\n          4. Modify the file content on disk by copying another (inoffensive) executable\n          or by using random bytes (see REPLACED_WITH_FILE option description).\n          5. Create the main Thread.\n\n          The source code is based on Johnny Shaw's PoC (https://github.com/jxy-s/herpaderping).",
+	"references": [
+		"URL-https://jxy-s.github.io/herpaderping/",
+		"URL-https://github.com/jxy-s/herpaderping"
+	],
+	"platform": "Windows",
+	"arch": "x64, x86",
+	"targets": [
+		"Microsoft Windows (x64)",
+		"Microsoft Windows (x86)"
+	],
+	"mod_time": "2022-03-10 18:03:35 +0000",
+	"path": "/modules/evasion/windows/process_herpaderping.rb",
+	"is_install_path": true,
+	"ref_name": "windows/process_herpaderping",
+	"needs_cleanup": false
 }

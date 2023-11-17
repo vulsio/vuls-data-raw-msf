@@ -1,34 +1,34 @@
 {
-  "name": "SVN wc.db Scanner",
-  "fullname": "auxiliary/scanner/http/svn_wcdb_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Stephen Haywood <stephen@averagesecurityguy.info>"
-  ],
-  "description": "Scan for servers that allow access to the SVN wc.db file.\n        Based on the work by Tim Meddin.",
-  "references": [
-    "URL-https://web.archive.org/web/20130107035252/http://pen-testing.sans.org/blog/pen-testing/2012/12/06/all-your-svn-are-belong-to-us"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/svn_wcdb_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/svn_wcdb_scanner",
-  "needs_cleanup": false
+	"name": "SVN wc.db Scanner",
+	"fullname": "auxiliary/scanner/http/svn_wcdb_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Stephen Haywood <stephen@averagesecurityguy.info>"
+	],
+	"description": "Scan for servers that allow access to the SVN wc.db file.\n        Based on the work by Tim Meddin.",
+	"references": [
+		"URL-https://web.archive.org/web/20130107035252/http://pen-testing.sans.org/blog/pen-testing/2012/12/06/all-your-svn-are-belong-to-us"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/svn_wcdb_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/svn_wcdb_scanner",
+	"needs_cleanup": false
 }

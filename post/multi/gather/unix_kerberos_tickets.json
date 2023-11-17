@@ -1,27 +1,27 @@
 {
-  "name": "UNIX Gather Kerberos Tickets",
-  "fullname": "post/multi/gather/unix_kerberos_tickets",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Tim Brown <timb@nth-dimension.org.uk>"
-  ],
-  "description": "Post Module to obtain all kerberos tickets on the targeted UNIX machine.",
-  "platform": "AIX,Linux,OSX,Solaris,Unix",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/multi/gather/unix_kerberos_tickets.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/unix_kerberos_tickets",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "UNIX Gather Kerberos Tickets",
+	"fullname": "post/multi/gather/unix_kerberos_tickets",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Tim Brown <timb@nth-dimension.org.uk>"
+	],
+	"description": "Post Module to obtain all kerberos tickets on the targeted UNIX machine.",
+	"platform": "AIX,Linux,OSX,Solaris,Unix",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/multi/gather/unix_kerberos_tickets.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/unix_kerberos_tickets",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

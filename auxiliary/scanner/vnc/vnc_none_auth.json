@@ -1,22 +1,22 @@
 {
-  "name": "VNC Authentication None Detection",
-  "fullname": "auxiliary/scanner/vnc/vnc_none_auth",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>",
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "Detect VNC servers that support the \"None\" authentication method.",
-  "references": [
-    "CVE-2006-2369",
-    "URL-https://en.wikipedia.org/wiki/RFB",
-    "URL-https://en.wikipedia.org/wiki/Vnc"
-  ],
-  "rport": 5900,
-  "mod_time": "2022-02-21 08:06:36 +0000",
-  "path": "/modules/auxiliary/scanner/vnc/vnc_none_auth.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vnc/vnc_none_auth",
-  "needs_cleanup": false
+	"name": "VNC Authentication None Detection",
+	"fullname": "auxiliary/scanner/vnc/vnc_none_auth",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>",
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "Detect VNC servers that support the \"None\" authentication method.",
+	"references": [
+		"CVE-2006-2369",
+		"URL-https://en.wikipedia.org/wiki/RFB",
+		"URL-https://en.wikipedia.org/wiki/Vnc"
+	],
+	"rport": 5900,
+	"mod_time": "2022-02-21 08:06:36 +0000",
+	"path": "/modules/auxiliary/scanner/vnc/vnc_none_auth.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vnc/vnc_none_auth",
+	"needs_cleanup": false
 }

@@ -1,32 +1,32 @@
 {
-  "name": "PhpMyAdmin Login Scanner",
-  "fullname": "auxiliary/scanner/http/phpmyadmin_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Shelby Pace"
-  ],
-  "description": "This module will attempt to authenticate to PhpMyAdmin.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-08-31 17:10:07 +0000",
-  "path": "/modules/auxiliary/scanner/http/phpmyadmin_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/phpmyadmin_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "PhpMyAdmin Login Scanner",
+	"fullname": "auxiliary/scanner/http/phpmyadmin_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Shelby Pace"
+	],
+	"description": "This module will attempt to authenticate to PhpMyAdmin.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-08-31 17:10:07 +0000",
+	"path": "/modules/auxiliary/scanner/http/phpmyadmin_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/phpmyadmin_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

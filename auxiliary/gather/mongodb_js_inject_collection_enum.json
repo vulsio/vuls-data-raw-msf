@@ -1,36 +1,36 @@
 {
-  "name": "MongoDB NoSQL Collection Enumeration Via Injection",
-  "fullname": "auxiliary/gather/mongodb_js_inject_collection_enum",
-  "rank": 300,
-  "disclosure_date": "2014-06-07",
-  "type": "auxiliary",
-  "author": [
-    "Brandon Perry <bperry.volatile@gmail.com>"
-  ],
-  "description": "This module can exploit NoSQL injections on MongoDB versions less than 2.4\n      and enumerate the collections available in the data via boolean injections.",
-  "references": [
-    "URL-https://nosql.mypopescu.com/post/14453905385/attacking-nosql-and-nodejs-server-side#_=_"
-  ],
-  "platform": "Linux,Windows",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/mongodb_js_inject_collection_enum.rb",
-  "is_install_path": true,
-  "ref_name": "gather/mongodb_js_inject_collection_enum",
-  "needs_cleanup": false
+	"name": "MongoDB NoSQL Collection Enumeration Via Injection",
+	"fullname": "auxiliary/gather/mongodb_js_inject_collection_enum",
+	"rank": 300,
+	"disclosure_date": "2014-06-07",
+	"type": "auxiliary",
+	"author": [
+		"Brandon Perry <bperry.volatile@gmail.com>"
+	],
+	"description": "This module can exploit NoSQL injections on MongoDB versions less than 2.4\n      and enumerate the collections available in the data via boolean injections.",
+	"references": [
+		"URL-https://nosql.mypopescu.com/post/14453905385/attacking-nosql-and-nodejs-server-side#_=_"
+	],
+	"platform": "Linux,Windows",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/mongodb_js_inject_collection_enum.rb",
+	"is_install_path": true,
+	"ref_name": "gather/mongodb_js_inject_collection_enum",
+	"needs_cleanup": false
 }

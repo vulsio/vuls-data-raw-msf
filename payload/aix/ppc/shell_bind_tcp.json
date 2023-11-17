@@ -1,17 +1,17 @@
 {
-  "name": "AIX Command Shell, Bind TCP Inline",
-  "fullname": "payload/aix/ppc/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Ramon de C Valle <rcvalle@metasploit.com>"
-  ],
-  "description": "Listen for a connection and spawn a command shell",
-  "platform": "AIX",
-  "arch": "ppc",
-  "mod_time": "2021-01-05 14:59:46 +0000",
-  "path": "/modules/payloads/singles/aix/ppc/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "aix/ppc/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "AIX Command Shell, Bind TCP Inline",
+	"fullname": "payload/aix/ppc/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Ramon de C Valle <rcvalle@metasploit.com>"
+	],
+	"description": "Listen for a connection and spawn a command shell",
+	"platform": "AIX",
+	"arch": "ppc",
+	"mod_time": "2021-01-05 14:59:46 +0000",
+	"path": "/modules/payloads/singles/aix/ppc/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "aix/ppc/shell_bind_tcp",
+	"needs_cleanup": false
 }

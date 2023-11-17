@@ -1,32 +1,32 @@
 {
-  "name": "Nessus RPC Interface Login Utility",
-  "fullname": "auxiliary/scanner/nessus/nessus_rest_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "void_in"
-  ],
-  "description": "This module will attempt to authenticate to a Nessus server RPC interface.",
-  "rport": 8834,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-05-11 13:01:46 +0000",
-  "path": "/modules/auxiliary/scanner/nessus/nessus_rest_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/nessus/nessus_rest_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Nessus RPC Interface Login Utility",
+	"fullname": "auxiliary/scanner/nessus/nessus_rest_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"void_in"
+	],
+	"description": "This module will attempt to authenticate to a Nessus server RPC interface.",
+	"rport": 8834,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-05-11 13:01:46 +0000",
+	"path": "/modules/auxiliary/scanner/nessus/nessus_rest_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/nessus/nessus_rest_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

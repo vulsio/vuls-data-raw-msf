@@ -1,21 +1,21 @@
 {
-  "name": "Microsoft RDP Web Client Login Enumeration",
-  "fullname": "auxiliary/scanner/http/rdp_web_login",
-  "rank": 300,
-  "disclosure_date": "2020-12-23",
-  "type": "auxiliary",
-  "author": [
-    "Matthew Dunn"
-  ],
-  "description": "Enumerate valid usernames and passwords against a Microsoft RDP Web Client\n        by attempting authentication and performing a timing based check\n        against the provided username.",
-  "references": [
-    "URL-https://raxis.com/blog/rd-web-access-vulnerability"
-  ],
-  "rport": 443,
-  "mod_time": "2022-01-04 14:24:07 +0000",
-  "path": "/modules/auxiliary/scanner/http/rdp_web_login.py",
-  "is_install_path": true,
-  "ref_name": "scanner/http/rdp_web_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Microsoft RDP Web Client Login Enumeration",
+	"fullname": "auxiliary/scanner/http/rdp_web_login",
+	"rank": 300,
+	"disclosure_date": "2020-12-23",
+	"type": "auxiliary",
+	"author": [
+		"Matthew Dunn"
+	],
+	"description": "Enumerate valid usernames and passwords against a Microsoft RDP Web Client\n        by attempting authentication and performing a timing based check\n        against the provided username.",
+	"references": [
+		"URL-https://raxis.com/blog/rd-web-access-vulnerability"
+	],
+	"rport": 443,
+	"mod_time": "2022-01-04 14:24:07 +0000",
+	"path": "/modules/auxiliary/scanner/http/rdp_web_login.py",
+	"is_install_path": true,
+	"ref_name": "scanner/http/rdp_web_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

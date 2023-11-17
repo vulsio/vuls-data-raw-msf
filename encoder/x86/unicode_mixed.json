@@ -1,17 +1,17 @@
 {
-  "name": "Alpha2 Alphanumeric Unicode Mixedcase Encoder",
-  "fullname": "encoder/x86/unicode_mixed",
-  "type": "encoder",
-  "author": [
-    "pusscat <pusscat@metasploit.com>",
-    "skylined <skylined@edup.tudelft.nl>"
-  ],
-  "description": "Encodes payload as unicode-safe mixedcase text.  This encoder uses\n        SkyLined's Alpha2 encoding suite.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2020-05-02 21:51:05 +0000",
-  "path": "/modules/encoders/x86/unicode_mixed.rb",
-  "is_install_path": true,
-  "ref_name": "x86/unicode_mixed",
-  "needs_cleanup": false
+	"name": "Alpha2 Alphanumeric Unicode Mixedcase Encoder",
+	"fullname": "encoder/x86/unicode_mixed",
+	"type": "encoder",
+	"author": [
+		"pusscat <pusscat@metasploit.com>",
+		"skylined <skylined@edup.tudelft.nl>"
+	],
+	"description": "Encodes payload as unicode-safe mixedcase text.  This encoder uses\n        SkyLined's Alpha2 encoding suite.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2020-05-02 21:51:05 +0000",
+	"path": "/modules/encoders/x86/unicode_mixed.rb",
+	"is_install_path": true,
+	"ref_name": "x86/unicode_mixed",
+	"needs_cleanup": false
 }

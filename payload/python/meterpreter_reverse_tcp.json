@@ -1,17 +1,17 @@
 {
-  "name": "Python Meterpreter Shell, Reverse TCP Inline",
-  "fullname": "payload/python/meterpreter_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre"
-  ],
-  "description": "Connect back to the attacker and spawn a Meterpreter shell",
-  "platform": "Python",
-  "arch": "python",
-  "mod_time": "2022-11-05 15:58:10 +0000",
-  "path": "/modules/payloads/singles/python/meterpreter_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "python/meterpreter_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Python Meterpreter Shell, Reverse TCP Inline",
+	"fullname": "payload/python/meterpreter_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Connect back to the attacker and spawn a Meterpreter shell",
+	"platform": "Python",
+	"arch": "python",
+	"mod_time": "2022-11-05 15:58:10 +0000",
+	"path": "/modules/payloads/singles/python/meterpreter_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "python/meterpreter_reverse_tcp",
+	"needs_cleanup": false
 }

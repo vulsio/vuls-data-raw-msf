@@ -1,19 +1,19 @@
 {
-  "name": "Java RMI Registry Interfaces Enumeration",
-  "fullname": "auxiliary/gather/java_rmi_registry",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module gathers information from an RMI endpoint running an RMI registry\n        interface. It enumerates the names bound in a registry and looks up each\n        remote reference.",
-  "references": [
-    "URL-https://docs.oracle.com/javase/8/docs/platform/rmi/spec/rmiTOC.html"
-  ],
-  "rport": 1099,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/java_rmi_registry.rb",
-  "is_install_path": true,
-  "ref_name": "gather/java_rmi_registry",
-  "needs_cleanup": false
+	"name": "Java RMI Registry Interfaces Enumeration",
+	"fullname": "auxiliary/gather/java_rmi_registry",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module gathers information from an RMI endpoint running an RMI registry\n        interface. It enumerates the names bound in a registry and looks up each\n        remote reference.",
+	"references": [
+		"URL-https://docs.oracle.com/javase/8/docs/platform/rmi/spec/rmiTOC.html"
+	],
+	"rport": 1099,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/java_rmi_registry.rb",
+	"is_install_path": true,
+	"ref_name": "gather/java_rmi_registry",
+	"needs_cleanup": false
 }

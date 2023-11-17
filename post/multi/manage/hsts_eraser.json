@@ -1,24 +1,24 @@
 {
-  "name": "Web browsers HSTS entries eraser",
-  "fullname": "post/multi/manage/hsts_eraser",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Sheila A. Berta (UnaPibaGeek)"
-  ],
-  "description": "This module removes the HSTS database of the following tools and web browsers: Mozilla Firefox,\n          Google Chrome, Opera, Safari and wget.",
-  "references": [
-    "URL-http://blog.en.elevenpaths.com/2017/12/breaking-out-hsts-and-hpkp-on-firefox.html",
-    "URL-https://www.blackhat.com/docs/eu-17/materials/eu-17-Berta-Breaking-Out-HSTS-And-HPKP-On-Firefox-IE-Edge-And-Possibly-Chrome.pdf"
-  ],
-  "platform": "Linux,OSX,Unix,Windows",
-  "arch": "x86, x64",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/manage/hsts_eraser.rb",
-  "is_install_path": true,
-  "ref_name": "multi/manage/hsts_eraser",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Web browsers HSTS entries eraser",
+	"fullname": "post/multi/manage/hsts_eraser",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Sheila A. Berta (UnaPibaGeek)"
+	],
+	"description": "This module removes the HSTS database of the following tools and web browsers: Mozilla Firefox,\n          Google Chrome, Opera, Safari and wget.",
+	"references": [
+		"URL-http://blog.en.elevenpaths.com/2017/12/breaking-out-hsts-and-hpkp-on-firefox.html",
+		"URL-https://www.blackhat.com/docs/eu-17/materials/eu-17-Berta-Breaking-Out-HSTS-And-HPKP-On-Firefox-IE-Edge-And-Possibly-Chrome.pdf"
+	],
+	"platform": "Linux,OSX,Unix,Windows",
+	"arch": "x86, x64",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/manage/hsts_eraser.rb",
+	"is_install_path": true,
+	"ref_name": "multi/manage/hsts_eraser",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

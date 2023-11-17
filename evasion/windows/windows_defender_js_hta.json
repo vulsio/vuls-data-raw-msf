@@ -1,21 +1,21 @@
 {
-  "name": "Microsoft Windows Defender Evasive JS.Net and HTA",
-  "fullname": "evasion/windows/windows_defender_js_hta",
-  "rank": 300,
-  "type": "evasion",
-  "author": [
-    "sinmygit",
-    "Shelby Pace"
-  ],
-  "description": "This module will generate an HTA file that writes and compiles a JScript.NET file\n        containing shellcode on the target machine. After compilation, the generated EXE will\n        execute the shellcode without interference from Windows Defender.\n\n        It is recommended that you use a payload that uses RC4 or HTTPS for best experience.",
-  "platform": "Windows",
-  "arch": "x64",
-  "targets": [
-    "Microsoft Windows"
-  ],
-  "mod_time": "2023-03-05 14:30:47 +0000",
-  "path": "/modules/evasion/windows/windows_defender_js_hta.rb",
-  "is_install_path": true,
-  "ref_name": "windows/windows_defender_js_hta",
-  "needs_cleanup": false
+	"name": "Microsoft Windows Defender Evasive JS.Net and HTA",
+	"fullname": "evasion/windows/windows_defender_js_hta",
+	"rank": 300,
+	"type": "evasion",
+	"author": [
+		"sinmygit",
+		"Shelby Pace"
+	],
+	"description": "This module will generate an HTA file that writes and compiles a JScript.NET file\n        containing shellcode on the target machine. After compilation, the generated EXE will\n        execute the shellcode without interference from Windows Defender.\n\n        It is recommended that you use a payload that uses RC4 or HTTPS for best experience.",
+	"platform": "Windows",
+	"arch": "x64",
+	"targets": [
+		"Microsoft Windows"
+	],
+	"mod_time": "2023-03-05 14:30:47 +0000",
+	"path": "/modules/evasion/windows/windows_defender_js_hta.rb",
+	"is_install_path": true,
+	"ref_name": "windows/windows_defender_js_hta",
+	"needs_cleanup": false
 }

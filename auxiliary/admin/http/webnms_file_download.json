@@ -1,37 +1,37 @@
 {
-  "name": "WebNMS Framework Server Arbitrary Text File Download",
-  "fullname": "auxiliary/admin/http/webnms_file_download",
-  "rank": 300,
-  "disclosure_date": "2016-07-04",
-  "type": "auxiliary",
-  "author": [
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "This module abuses a vulnerability in WebNMS Framework Server 5.2 that allows an\n          unauthenticated user to download files off the file system by using a directory\n          traversal attack on the FetchFile servlet.\n          Note that only text files can be downloaded properly, as any binary file will get\n          mangled by the servlet. Also note that for Windows targets you can only download\n          files that are in the same drive as the WebNMS installation.\n          This module has been tested with WebNMS Framework Server 5.2 and 5.2 SP1 on\n          Windows and Linux.",
-  "references": [
-    "CVE-2016-6601",
-    "URL-https://blogs.securiteam.com/index.php/archives/2712",
-    "URL-https://seclists.org/fulldisclosure/2016/Aug/54"
-  ],
-  "rport": 9090,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/webnms_file_download.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/webnms_file_download",
-  "needs_cleanup": false
+	"name": "WebNMS Framework Server Arbitrary Text File Download",
+	"fullname": "auxiliary/admin/http/webnms_file_download",
+	"rank": 300,
+	"disclosure_date": "2016-07-04",
+	"type": "auxiliary",
+	"author": [
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "This module abuses a vulnerability in WebNMS Framework Server 5.2 that allows an\n          unauthenticated user to download files off the file system by using a directory\n          traversal attack on the FetchFile servlet.\n          Note that only text files can be downloaded properly, as any binary file will get\n          mangled by the servlet. Also note that for Windows targets you can only download\n          files that are in the same drive as the WebNMS installation.\n          This module has been tested with WebNMS Framework Server 5.2 and 5.2 SP1 on\n          Windows and Linux.",
+	"references": [
+		"CVE-2016-6601",
+		"URL-https://blogs.securiteam.com/index.php/archives/2712",
+		"URL-https://seclists.org/fulldisclosure/2016/Aug/54"
+	],
+	"rport": 9090,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/webnms_file_download.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/webnms_file_download",
+	"needs_cleanup": false
 }

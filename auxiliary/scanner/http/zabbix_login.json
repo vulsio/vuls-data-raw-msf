@@ -1,32 +1,32 @@
 {
-  "name": "Zabbix Server Brute Force Utility",
-  "fullname": "auxiliary/scanner/http/zabbix_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module attempts to login to Zabbix server instance using username and password\n        combinations indicated by the USER_FILE, PASS_FILE, and USERPASS_FILE options. It\n        will also test for the Zabbix default login (Admin:zabbix) and guest access.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-09-02 11:41:27 +0000",
-  "path": "/modules/auxiliary/scanner/http/zabbix_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/zabbix_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Zabbix Server Brute Force Utility",
+	"fullname": "auxiliary/scanner/http/zabbix_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module attempts to login to Zabbix server instance using username and password\n        combinations indicated by the USER_FILE, PASS_FILE, and USERPASS_FILE options. It\n        will also test for the Zabbix default login (Admin:zabbix) and guest access.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-09-02 11:41:27 +0000",
+	"path": "/modules/auxiliary/scanner/http/zabbix_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/zabbix_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

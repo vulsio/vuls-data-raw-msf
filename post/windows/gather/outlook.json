@@ -1,19 +1,19 @@
 {
-  "name": "Windows Gather Outlook Email Messages",
-  "fullname": "post/windows/gather/outlook",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Wesley Neelen <security@forsec.nl>"
-  ],
-  "description": "This module allows reading and searching email messages from the local\n          Outlook installation using PowerShell. Please note that this module is\n          manipulating the victims keyboard/mouse.  If a victim is active on the target\n          system, he may notice the activities of this module. Tested on Windows 8.1\n          x64 with Office 2013.",
-  "platform": "Windows",
-  "arch": "x86, x64",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/outlook.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/outlook",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Outlook Email Messages",
+	"fullname": "post/windows/gather/outlook",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Wesley Neelen <security@forsec.nl>"
+	],
+	"description": "This module allows reading and searching email messages from the local\n          Outlook installation using PowerShell. Please note that this module is\n          manipulating the victims keyboard/mouse.  If a victim is active on the target\n          system, he may notice the activities of this module. Tested on Windows 8.1\n          x64 with Office 2013.",
+	"platform": "Windows",
+	"arch": "x86, x64",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/outlook.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/outlook",
+	"session_types": [
+		"meterpreter"
+	]
 }

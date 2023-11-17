@@ -1,36 +1,36 @@
 {
-  "name": "VMware vCenter Server vmdir Authentication Bypass",
-  "fullname": "auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass",
-  "rank": 300,
-  "disclosure_date": "2020-04-09",
-  "type": "auxiliary",
-  "author": [
-    "Hynek Petrak",
-    "JJ Lehmann",
-    "Ofri Ziv",
-    "wvu <wvu@metasploit.com>"
-  ],
-  "description": "This module bypasses LDAP authentication in VMware vCenter Server's\n          vmdir service to add an arbitrary administrator user. Version 6.7\n          prior to the 6.7U3f update is vulnerable, only if upgraded from a\n          previous release line, such as 6.0 or 6.5.\n          Note that it is also possible to provide a bind username and password\n          to authenticate if the target is not vulnerable. It will add an\n          arbitrary administrator user the same way.",
-  "references": [
-    "CVE-2020-3952",
-    "URL-https://www.guardicore.com/2020/04/pwning-vmware-vcenter-cve-2020-3952/",
-    "URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html",
-    "URL-https://github.com/HynekPetrak/HynekPetrak/blob/master/take_over_vcenter_670.md"
-  ],
-  "rport": 636,
-  "mod_time": "2022-01-12 16:51:40 +0000",
-  "path": "/modules/auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "admin/ldap/vmware_vcenter_vmdir_auth_bypass",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs",
-      "config-changes"
-    ],
-    "Stability": [
-      "service-resource-loss"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "VMware vCenter Server vmdir Authentication Bypass",
+	"fullname": "auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass",
+	"rank": 300,
+	"disclosure_date": "2020-04-09",
+	"type": "auxiliary",
+	"author": [
+		"Hynek Petrak",
+		"JJ Lehmann",
+		"Ofri Ziv",
+		"wvu <wvu@metasploit.com>"
+	],
+	"description": "This module bypasses LDAP authentication in VMware vCenter Server's\n          vmdir service to add an arbitrary administrator user. Version 6.7\n          prior to the 6.7U3f update is vulnerable, only if upgraded from a\n          previous release line, such as 6.0 or 6.5.\n          Note that it is also possible to provide a bind username and password\n          to authenticate if the target is not vulnerable. It will add an\n          arbitrary administrator user the same way.",
+	"references": [
+		"CVE-2020-3952",
+		"URL-https://www.guardicore.com/2020/04/pwning-vmware-vcenter-cve-2020-3952/",
+		"URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html",
+		"URL-https://github.com/HynekPetrak/HynekPetrak/blob/master/take_over_vcenter_670.md"
+	],
+	"rport": 636,
+	"mod_time": "2022-01-12 16:51:40 +0000",
+	"path": "/modules/auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "admin/ldap/vmware_vcenter_vmdir_auth_bypass",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"service-resource-loss"
+		]
+	},
+	"needs_cleanup": false
 }

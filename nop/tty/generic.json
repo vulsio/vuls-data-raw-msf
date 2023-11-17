@@ -1,17 +1,17 @@
 {
-  "name": "TTY Nop Generator",
-  "fullname": "nop/tty/generic",
-  "rank": 300,
-  "type": "nop",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Generates harmless padding for TTY input",
-  "platform": "All",
-  "arch": "tty",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/nops/tty/generic.rb",
-  "is_install_path": true,
-  "ref_name": "tty/generic",
-  "needs_cleanup": false
+	"name": "TTY Nop Generator",
+	"fullname": "nop/tty/generic",
+	"rank": 300,
+	"type": "nop",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Generates harmless padding for TTY input",
+	"platform": "All",
+	"arch": "tty",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/nops/tty/generic.rb",
+	"is_install_path": true,
+	"ref_name": "tty/generic",
+	"needs_cleanup": false
 }

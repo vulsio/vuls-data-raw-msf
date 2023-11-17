@@ -1,21 +1,21 @@
 {
-  "name": "SNMP Set Module",
-  "fullname": "auxiliary/scanner/snmp/snmp_set",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "This module, similar to snmpset tool, uses the SNMP SET request\n          to set information on a network entity. A OID (numeric notation)\n          and a value are required. Target device must permit write access.",
-  "references": [
-    "URL-https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
-    "URL-http://www.net-snmp.org/docs/man/snmpset.html",
-    "URL-http://www.oid-info.com/"
-  ],
-  "rport": 161,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/snmp/snmp_set.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/snmp/snmp_set",
-  "needs_cleanup": false
+	"name": "SNMP Set Module",
+	"fullname": "auxiliary/scanner/snmp/snmp_set",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "This module, similar to snmpset tool, uses the SNMP SET request\n          to set information on a network entity. A OID (numeric notation)\n          and a value are required. Target device must permit write access.",
+	"references": [
+		"URL-https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
+		"URL-http://www.net-snmp.org/docs/man/snmpset.html",
+		"URL-http://www.oid-info.com/"
+	],
+	"rport": 161,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/snmp/snmp_set.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/snmp/snmp_set",
+	"needs_cleanup": false
 }

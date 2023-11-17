@@ -1,19 +1,19 @@
 {
-  "name": "Windows 'Run As' Using Powershell",
-  "fullname": "post/windows/manage/run_as_psh",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "p3nt4"
-  ],
-  "description": "This module will start a process as another user using powershell.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/run_as_psh.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/run_as_psh",
-  "post_auth": true,
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows 'Run As' Using Powershell",
+	"fullname": "post/windows/manage/run_as_psh",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"p3nt4"
+	],
+	"description": "This module will start a process as another user using powershell.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/run_as_psh.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/run_as_psh",
+	"post_auth": true,
+	"session_types": [
+		"meterpreter"
+	]
 }

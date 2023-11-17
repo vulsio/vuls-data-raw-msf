@@ -1,23 +1,23 @@
 {
-  "name": "Linux Gather System and User Information",
-  "fullname": "post/linux/gather/enum_system",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>",
-    "Stephen Haywood <averagesecurityguy@gmail.com>",
-    "sinn3r <sinn3r@metasploit.com>",
-    "ohdae <bindshell@live.com>",
-    "Roberto Espreto <robertoespreto@gmail.com>"
-  ],
-  "description": "This module gathers system information. We collect\n          installed packages, installed services, mount information,\n          user list, user bash history and cron jobs",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/gather/enum_system.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_system",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather System and User Information",
+	"fullname": "post/linux/gather/enum_system",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>",
+		"Stephen Haywood <averagesecurityguy@gmail.com>",
+		"sinn3r <sinn3r@metasploit.com>",
+		"ohdae <bindshell@live.com>",
+		"Roberto Espreto <robertoespreto@gmail.com>"
+	],
+	"description": "This module gathers system information. We collect\n          installed packages, installed services, mount information,\n          user list, user bash history and cron jobs",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/gather/enum_system.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_system",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

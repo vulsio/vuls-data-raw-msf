@@ -1,26 +1,26 @@
 {
-  "name": "Ruby on Rails Action View MIME Memory Exhaustion",
-  "fullname": "auxiliary/dos/http/rails_action_view",
-  "rank": 300,
-  "disclosure_date": "2013-12-04",
-  "type": "auxiliary",
-  "author": [
-    "Toby Hsieh",
-    "joev <joev@metasploit.com>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module exploits a Denial of Service (DoS) condition in Action View that requires\n        a controller action. By sending a specially crafted content-type header to a Rails\n        application, it is possible for it to store the invalid MIME type, and may eventually\n        consume all memory if enough invalid MIMEs are given.\n\n        Versions 3.0.0 and other later versions are affected, fixed in 4.0.2 and 3.2.16.",
-  "references": [
-    "CVE-2013-6414",
-    "OSVDB-100525",
-    "BID-64074",
-    "URL-https://seclists.org/oss-sec/2013/q4/400",
-    "URL-https://github.com/rails/rails/commit/bee3b7f9371d1e2ddcfe6eaff5dcb26c0a248068"
-  ],
-  "rport": 80,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/http/rails_action_view.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/rails_action_view",
-  "needs_cleanup": false
+	"name": "Ruby on Rails Action View MIME Memory Exhaustion",
+	"fullname": "auxiliary/dos/http/rails_action_view",
+	"rank": 300,
+	"disclosure_date": "2013-12-04",
+	"type": "auxiliary",
+	"author": [
+		"Toby Hsieh",
+		"joev <joev@metasploit.com>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module exploits a Denial of Service (DoS) condition in Action View that requires\n        a controller action. By sending a specially crafted content-type header to a Rails\n        application, it is possible for it to store the invalid MIME type, and may eventually\n        consume all memory if enough invalid MIMEs are given.\n\n        Versions 3.0.0 and other later versions are affected, fixed in 4.0.2 and 3.2.16.",
+	"references": [
+		"CVE-2013-6414",
+		"OSVDB-100525",
+		"BID-64074",
+		"URL-https://seclists.org/oss-sec/2013/q4/400",
+		"URL-https://github.com/rails/rails/commit/bee3b7f9371d1e2ddcfe6eaff5dcb26c0a248068"
+	],
+	"rport": 80,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/http/rails_action_view.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/rails_action_view",
+	"needs_cleanup": false
 }

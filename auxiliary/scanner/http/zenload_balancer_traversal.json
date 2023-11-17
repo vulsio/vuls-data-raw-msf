@@ -1,45 +1,45 @@
 {
-  "name": "Zen Load Balancer Directory Traversal",
-  "fullname": "auxiliary/scanner/http/zenload_balancer_traversal",
-  "rank": 300,
-  "disclosure_date": "2020-04-10",
-  "type": "auxiliary",
-  "author": [
-    "Basim Alabdullah",
-    "Dhiraj Mishra"
-  ],
-  "description": "This module exploits a authenticated directory traversal vulnerability in Zen Load\n          Balancer `v3.10.1`. The flaw exists in 'index.cgi' not properly handling 'filelog='\n          parameter which allows a malicious actor to load arbitrary file path.",
-  "references": [
-    "EDB-48308"
-  ],
-  "rport": 444,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/scanner/http/zenload_balancer_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/zenload_balancer_traversal",
-  "post_auth": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Zen Load Balancer Directory Traversal",
+	"fullname": "auxiliary/scanner/http/zenload_balancer_traversal",
+	"rank": 300,
+	"disclosure_date": "2020-04-10",
+	"type": "auxiliary",
+	"author": [
+		"Basim Alabdullah",
+		"Dhiraj Mishra"
+	],
+	"description": "This module exploits a authenticated directory traversal vulnerability in Zen Load\n          Balancer `v3.10.1`. The flaw exists in 'index.cgi' not properly handling 'filelog='\n          parameter which allows a malicious actor to load arbitrary file path.",
+	"references": [
+		"EDB-48308"
+	],
+	"rport": 444,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/scanner/http/zenload_balancer_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/zenload_balancer_traversal",
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

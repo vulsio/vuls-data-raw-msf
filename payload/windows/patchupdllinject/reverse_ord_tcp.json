@@ -1,19 +1,19 @@
 {
-  "name": "Windows Inject DLL, Reverse Ordinal TCP Stager (No NX or Win7)",
-  "fullname": "payload/windows/patchupdllinject/reverse_ord_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "jt <jt@klake.org>",
-    "skape <mmiller@hick.org>",
-    "spoonm <spoonm@no$email.com>"
-  ],
-  "description": "Inject a custom DLL into the exploited process.\n\nConnect back to the attacker",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_ord_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/patchupdllinject/reverse_ord_tcp",
-  "needs_cleanup": false
+	"name": "Windows Inject DLL, Reverse Ordinal TCP Stager (No NX or Win7)",
+	"fullname": "payload/windows/patchupdllinject/reverse_ord_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"jt <jt@klake.org>",
+		"skape <mmiller@hick.org>",
+		"spoonm <spoonm@no$email.com>"
+	],
+	"description": "Inject a custom DLL into the exploited process.\n\nConnect back to the attacker",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_ord_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/patchupdllinject/reverse_ord_tcp",
+	"needs_cleanup": false
 }

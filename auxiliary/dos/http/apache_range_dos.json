@@ -1,40 +1,40 @@
 {
-  "name": "Apache Range Header DoS (Apache Killer)",
-  "fullname": "auxiliary/dos/http/apache_range_dos",
-  "rank": 300,
-  "disclosure_date": "2011-08-19",
-  "type": "auxiliary",
-  "author": [
-    "Kingcope",
-    "Masashi Fujiwara",
-    "Markus Neis <markus.neis@gmail.com>"
-  ],
-  "description": "The byterange filter in the Apache HTTP Server 2.0.x through 2.0.64, and 2.2.x\n        through 2.2.19 allows remote attackers to cause a denial of service (memory and\n        CPU consumption) via a Range header that expresses multiple overlapping ranges,\n        exploit called \"Apache Killer\"",
-  "references": [
-    "BID-49303",
-    "CVE-2011-3192",
-    "EDB-17696",
-    "OSVDB-74721"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/http/apache_range_dos.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/apache_range_dos",
-  "needs_cleanup": false
+	"name": "Apache Range Header DoS (Apache Killer)",
+	"fullname": "auxiliary/dos/http/apache_range_dos",
+	"rank": 300,
+	"disclosure_date": "2011-08-19",
+	"type": "auxiliary",
+	"author": [
+		"Kingcope",
+		"Masashi Fujiwara",
+		"Markus Neis <markus.neis@gmail.com>"
+	],
+	"description": "The byterange filter in the Apache HTTP Server 2.0.x through 2.0.64, and 2.2.x\n        through 2.2.19 allows remote attackers to cause a denial of service (memory and\n        CPU consumption) via a Range header that expresses multiple overlapping ranges,\n        exploit called \"Apache Killer\"",
+	"references": [
+		"BID-49303",
+		"CVE-2011-3192",
+		"EDB-17696",
+		"OSVDB-74721"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/http/apache_range_dos.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/apache_range_dos",
+	"needs_cleanup": false
 }

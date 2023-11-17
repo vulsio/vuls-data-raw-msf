@@ -1,41 +1,41 @@
 {
-  "name": "Advantech WebAccess DBVisitor.dll ChartThemeConfig SQL Injection",
-  "fullname": "auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli",
-  "rank": 300,
-  "disclosure_date": "2014-04-08",
-  "type": "auxiliary",
-  "author": [
-    "rgod <rgod@autistici.org>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a SQL injection vulnerability found in Advantech WebAccess 7.1. The\n        vulnerability exists in the DBVisitor.dll component, and can be abused through malicious\n        requests to the ChartThemeConfig web service. This module can be used to extract the site\n        and project usernames and hashes.",
-  "references": [
-    "CVE-2014-0763",
-    "ZDI-14-077",
-    "OSVDB-105572",
-    "BID-66740",
-    "URL-https://ics-cert.us-cert.gov/advisories/ICSA-14-079-03"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "admin/scada/advantech_webaccess_dbvisitor_sqli",
-  "check": true,
-  "needs_cleanup": false
+	"name": "Advantech WebAccess DBVisitor.dll ChartThemeConfig SQL Injection",
+	"fullname": "auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli",
+	"rank": 300,
+	"disclosure_date": "2014-04-08",
+	"type": "auxiliary",
+	"author": [
+		"rgod <rgod@autistici.org>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a SQL injection vulnerability found in Advantech WebAccess 7.1. The\n        vulnerability exists in the DBVisitor.dll component, and can be abused through malicious\n        requests to the ChartThemeConfig web service. This module can be used to extract the site\n        and project usernames and hashes.",
+	"references": [
+		"CVE-2014-0763",
+		"ZDI-14-077",
+		"OSVDB-105572",
+		"BID-66740",
+		"URL-https://ics-cert.us-cert.gov/advisories/ICSA-14-079-03"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "admin/scada/advantech_webaccess_dbvisitor_sqli",
+	"check": true,
+	"needs_cleanup": false
 }

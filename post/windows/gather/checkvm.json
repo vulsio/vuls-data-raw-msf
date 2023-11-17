@@ -1,31 +1,31 @@
 {
-  "name": "Windows Gather Virtual Environment Detection",
-  "fullname": "post/windows/gather/checkvm",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>",
-    "Aaron Soto <aaron_soto@rapid7.com>"
-  ],
-  "description": "This module attempts to determine whether the system is running\n          inside of a virtual environment and if so, which one. This\n          module supports detection of Hyper-V, VMWare, VirtualBox, Xen, QEMU,\n          and Parallels.",
-  "references": [
-    "URL-https://handlers.sans.org/tliston/ThwartingVMDetection_Liston_Skoudis.pdf",
-    "URL-https://www.heise.de/security/downloads/07/1/1/8/3/5/5/9/vmde.pdf",
-    "URL-https://evasions.checkpoint.com/techniques/registry.html"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-11-03 11:18:55 +0000",
-  "path": "/modules/post/windows/gather/checkvm.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/checkvm",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter",
-    "powershell",
-    "shell"
-  ]
+	"name": "Windows Gather Virtual Environment Detection",
+	"fullname": "post/windows/gather/checkvm",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>",
+		"Aaron Soto <aaron_soto@rapid7.com>"
+	],
+	"description": "This module attempts to determine whether the system is running\n          inside of a virtual environment and if so, which one. This\n          module supports detection of Hyper-V, VMWare, VirtualBox, Xen, QEMU,\n          and Parallels.",
+	"references": [
+		"URL-https://handlers.sans.org/tliston/ThwartingVMDetection_Liston_Skoudis.pdf",
+		"URL-https://www.heise.de/security/downloads/07/1/1/8/3/5/5/9/vmde.pdf",
+		"URL-https://evasions.checkpoint.com/techniques/registry.html"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-11-03 11:18:55 +0000",
+	"path": "/modules/post/windows/gather/checkvm.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/checkvm",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter",
+		"powershell",
+		"shell"
+	]
 }

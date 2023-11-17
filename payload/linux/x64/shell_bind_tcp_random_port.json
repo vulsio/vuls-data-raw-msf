@@ -1,20 +1,20 @@
 {
-  "name": "Linux Command Shell, Bind TCP Random Port Inline",
-  "fullname": "payload/linux/x64/shell_bind_tcp_random_port",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Geyslan G. Bem <geyslan@gmail.com>"
-  ],
-  "description": "Listen for a connection in a random port and spawn a command shell.\n        Use nmap to discover the open port: 'nmap -sS target -p-'.",
-  "references": [
-    "URL-https://github.com/geyslan/SLAE/blob/master/improvements/tiny_shell_bind_tcp_random_port_x86_64.asm"
-  ],
-  "platform": "Linux",
-  "arch": "x64",
-  "mod_time": "2023-07-27 16:02:37 +0000",
-  "path": "/modules/payloads/singles/linux/x64/shell_bind_tcp_random_port.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x64/shell_bind_tcp_random_port",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Bind TCP Random Port Inline",
+	"fullname": "payload/linux/x64/shell_bind_tcp_random_port",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Geyslan G. Bem <geyslan@gmail.com>"
+	],
+	"description": "Listen for a connection in a random port and spawn a command shell.\n        Use nmap to discover the open port: 'nmap -sS target -p-'.",
+	"references": [
+		"URL-https://github.com/geyslan/SLAE/blob/master/improvements/tiny_shell_bind_tcp_random_port_x86_64.asm"
+	],
+	"platform": "Linux",
+	"arch": "x64",
+	"mod_time": "2023-07-27 16:02:37 +0000",
+	"path": "/modules/payloads/singles/linux/x64/shell_bind_tcp_random_port.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x64/shell_bind_tcp_random_port",
+	"needs_cleanup": false
 }

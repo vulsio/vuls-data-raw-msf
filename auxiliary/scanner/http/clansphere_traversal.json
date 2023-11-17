@@ -1,37 +1,37 @@
 {
-  "name": "ClanSphere 2011.3 Local File Inclusion Vulnerability",
-  "fullname": "auxiliary/scanner/http/clansphere_traversal",
-  "rank": 300,
-  "disclosure_date": "2012-10-23",
-  "type": "auxiliary",
-  "author": [
-    "blkhtc0rp",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal flaw found in Clansphere 2011.3.\n        The application fails to handle the cs_lang parameter properly, which can be\n        used to read any file outside the virtual directory.",
-  "references": [
-    "OSVDB-86720",
-    "EDB-22181"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/clansphere_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/clansphere_traversal",
-  "needs_cleanup": false
+	"name": "ClanSphere 2011.3 Local File Inclusion Vulnerability",
+	"fullname": "auxiliary/scanner/http/clansphere_traversal",
+	"rank": 300,
+	"disclosure_date": "2012-10-23",
+	"type": "auxiliary",
+	"author": [
+		"blkhtc0rp",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal flaw found in Clansphere 2011.3.\n        The application fails to handle the cs_lang parameter properly, which can be\n        used to read any file outside the virtual directory.",
+	"references": [
+		"OSVDB-86720",
+		"EDB-22181"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/clansphere_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/clansphere_traversal",
+	"needs_cleanup": false
 }

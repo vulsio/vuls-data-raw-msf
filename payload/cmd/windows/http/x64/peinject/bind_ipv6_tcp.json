@@ -1,22 +1,22 @@
 {
-  "name": "HTTP Fetch, Windows x64 IPv6 Bind TCP Stager",
-  "fullname": "payload/cmd/windows/http/x64/peinject/bind_ipv6_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "ege <egebalci@pm.me>",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Fetch and Execute an x64 payload from an http server.\n\nListen for an IPv6 connection (Windows x64)",
-  "references": [
-    "URL-https://github.com/EgeBalci/Amber"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-07-31 16:38:09 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/http/x64/peinject/bind_ipv6_tcp",
-  "needs_cleanup": false
+	"name": "HTTP Fetch, Windows x64 IPv6 Bind TCP Stager",
+	"fullname": "payload/cmd/windows/http/x64/peinject/bind_ipv6_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"ege <egebalci@pm.me>",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Fetch and Execute an x64 payload from an http server.\n\nListen for an IPv6 connection (Windows x64)",
+	"references": [
+		"URL-https://github.com/EgeBalci/Amber"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-07-31 16:38:09 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/http/x64/peinject/bind_ipv6_tcp",
+	"needs_cleanup": false
 }

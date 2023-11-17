@@ -1,23 +1,23 @@
 {
-  "name": "Password Cracker: Databases",
-  "fullname": "auxiliary/analyze/crack_databases",
-  "aliases": [
-    "auxiliary/analyze/jtr_mssql_fast",
-    "auxiliary/analyze/jtr_mysql_fast",
-    "auxiliary/analyze/jtr_oracle_fast",
-    "auxiliary/analyze/jtr_postgres_fast"
-  ],
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>",
-    "hdm <x@hdm.io>",
-    "h00die"
-  ],
-  "description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from the mssql_hashdump, mysql_hashdump, postgres_hashdump, or oracle_hashdump modules.\n        Passwords that have been successfully cracked are then saved as proper credentials.\n        Due to the complexity of some of the hash types, they can be very slow.  Setting the\n        ITERATION_TIMEOUT is highly recommended.",
-  "mod_time": "2021-02-01 14:16:13 +0000",
-  "path": "/modules/auxiliary/analyze/crack_databases.rb",
-  "is_install_path": true,
-  "ref_name": "analyze/crack_databases",
-  "needs_cleanup": false
+	"name": "Password Cracker: Databases",
+	"fullname": "auxiliary/analyze/crack_databases",
+	"aliases": [
+		"auxiliary/analyze/jtr_mssql_fast",
+		"auxiliary/analyze/jtr_mysql_fast",
+		"auxiliary/analyze/jtr_oracle_fast",
+		"auxiliary/analyze/jtr_postgres_fast"
+	],
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>",
+		"hdm <x@hdm.io>",
+		"h00die"
+	],
+	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from the mssql_hashdump, mysql_hashdump, postgres_hashdump, or oracle_hashdump modules.\n        Passwords that have been successfully cracked are then saved as proper credentials.\n        Due to the complexity of some of the hash types, they can be very slow.  Setting the\n        ITERATION_TIMEOUT is highly recommended.",
+	"mod_time": "2021-02-01 14:16:13 +0000",
+	"path": "/modules/auxiliary/analyze/crack_databases.rb",
+	"is_install_path": true,
+	"ref_name": "analyze/crack_databases",
+	"needs_cleanup": false
 }

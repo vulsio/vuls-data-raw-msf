@@ -1,17 +1,17 @@
 {
-  "name": "Simple",
-  "fullname": "nop/aarch64/simple",
-  "rank": 300,
-  "type": "nop",
-  "author": [
-    "timwr"
-  ],
-  "description": "Simple NOP generator",
-  "platform": "All",
-  "arch": "aarch64",
-  "mod_time": "2023-03-22 12:52:15 +0000",
-  "path": "/modules/nops/aarch64/simple.rb",
-  "is_install_path": true,
-  "ref_name": "aarch64/simple",
-  "needs_cleanup": false
+	"name": "Simple",
+	"fullname": "nop/aarch64/simple",
+	"rank": 300,
+	"type": "nop",
+	"author": [
+		"timwr"
+	],
+	"description": "Simple NOP generator",
+	"platform": "All",
+	"arch": "aarch64",
+	"mod_time": "2023-03-22 12:52:15 +0000",
+	"path": "/modules/nops/aarch64/simple.rb",
+	"is_install_path": true,
+	"ref_name": "aarch64/simple",
+	"needs_cleanup": false
 }

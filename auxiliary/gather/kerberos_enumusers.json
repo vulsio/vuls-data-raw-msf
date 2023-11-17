@@ -1,22 +1,22 @@
 {
-  "name": "Kerberos Domain User Enumeration",
-  "fullname": "auxiliary/gather/kerberos_enumusers",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matt Byrne <attackdebris@gmail.com>",
-    "alanfoster",
-    "sjanusz-r7"
-  ],
-  "description": "This module will enumerate valid Domain Users via Kerberos from an unauthenticated perspective. It utilizes\n          the different responses returned by the service for valid and invalid users.",
-  "references": [
-    "URL-https://nmap.org/nsedoc/scripts/krb5-enum-users.html"
-  ],
-  "rport": 88,
-  "mod_time": "2022-05-27 13:34:10 +0000",
-  "path": "/modules/auxiliary/gather/kerberos_enumusers.rb",
-  "is_install_path": true,
-  "ref_name": "gather/kerberos_enumusers",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Kerberos Domain User Enumeration",
+	"fullname": "auxiliary/gather/kerberos_enumusers",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matt Byrne <attackdebris@gmail.com>",
+		"alanfoster",
+		"sjanusz-r7"
+	],
+	"description": "This module will enumerate valid Domain Users via Kerberos from an unauthenticated perspective. It utilizes\n          the different responses returned by the service for valid and invalid users.",
+	"references": [
+		"URL-https://nmap.org/nsedoc/scripts/krb5-enum-users.html"
+	],
+	"rport": 88,
+	"mod_time": "2022-05-27 13:34:10 +0000",
+	"path": "/modules/auxiliary/gather/kerberos_enumusers.rb",
+	"is_install_path": true,
+	"ref_name": "gather/kerberos_enumusers",
+	"post_auth": true,
+	"needs_cleanup": false
 }

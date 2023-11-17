@@ -1,16 +1,16 @@
 {
-  "name": "Single Static Bit",
-  "fullname": "encoder/x86/single_static_bit",
-  "type": "encoder",
-  "author": [
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "Static value for specific bit",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/single_static_bit.rb",
-  "is_install_path": true,
-  "ref_name": "x86/single_static_bit",
-  "needs_cleanup": false
+	"name": "Single Static Bit",
+	"fullname": "encoder/x86/single_static_bit",
+	"type": "encoder",
+	"author": [
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "Static value for specific bit",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/single_static_bit.rb",
+	"is_install_path": true,
+	"ref_name": "x86/single_static_bit",
+	"needs_cleanup": false
 }

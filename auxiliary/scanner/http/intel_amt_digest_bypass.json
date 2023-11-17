@@ -1,37 +1,37 @@
 {
-  "name": "Intel AMT Digest Authentication Bypass Scanner",
-  "fullname": "auxiliary/scanner/http/intel_amt_digest_bypass",
-  "rank": 300,
-  "disclosure_date": "2017-05-05",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module scans for Intel Active Management Technology endpoints and attempts\n        to bypass authentication using a blank HTTP digest (CVE-2017-5689). This service\n        can be found on ports 16992, 16993 (tls), 623, and 624 (tls).",
-  "references": [
-    "CVE-2017-5689",
-    "URL-https://www.embedi.com/news/what-you-need-know-about-intel-amt-vulnerability",
-    "URL-https://www.intel.com/content/www/us/en/security-center/default.html?intelid=INTEL-SA-00075&languageid=en-fr"
-  ],
-  "rport": 16992,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/intel_amt_digest_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/intel_amt_digest_bypass",
-  "needs_cleanup": false
+	"name": "Intel AMT Digest Authentication Bypass Scanner",
+	"fullname": "auxiliary/scanner/http/intel_amt_digest_bypass",
+	"rank": 300,
+	"disclosure_date": "2017-05-05",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module scans for Intel Active Management Technology endpoints and attempts\n        to bypass authentication using a blank HTTP digest (CVE-2017-5689). This service\n        can be found on ports 16992, 16993 (tls), 623, and 624 (tls).",
+	"references": [
+		"CVE-2017-5689",
+		"URL-https://www.embedi.com/news/what-you-need-know-about-intel-amt-vulnerability",
+		"URL-https://www.intel.com/content/www/us/en/security-center/default.html?intelid=INTEL-SA-00075&languageid=en-fr"
+	],
+	"rport": 16992,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/intel_amt_digest_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/intel_amt_digest_bypass",
+	"needs_cleanup": false
 }

@@ -1,14 +1,14 @@
 {
-  "name": "Linux dup2 Command Shell, Reverse TCP Stager",
-  "fullname": "payload/linux/aarch64/shell/reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "description": "dup2 socket in x12, then execve.\n\nConnect back to the attacker",
-  "platform": "Linux",
-  "arch": "aarch64",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/linux/aarch64/reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/aarch64/shell/reverse_tcp",
-  "needs_cleanup": false
+	"name": "Linux dup2 Command Shell, Reverse TCP Stager",
+	"fullname": "payload/linux/aarch64/shell/reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"description": "dup2 socket in x12, then execve.\n\nConnect back to the attacker",
+	"platform": "Linux",
+	"arch": "aarch64",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/linux/aarch64/reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/aarch64/shell/reverse_tcp",
+	"needs_cleanup": false
 }

@@ -1,20 +1,20 @@
 {
-  "name": "Android Browser File Theft",
-  "fullname": "auxiliary/gather/android_browser_file_theft",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rafay Baloch",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module steals the cookie, password, and autofill databases from the\n        Browser application on AOSP 4.3 and below.",
-  "references": [
-    "URL-https://android.googlesource.com/platform/packages/apps/Browser/+/d2391b492dec778452238bc6d9d549d56d41c107%5E%21/#F0",
-    "URL-https://bugs.chromium.org/p/chromium/issues/detail?id=90222"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/android_browser_file_theft.rb",
-  "is_install_path": true,
-  "ref_name": "gather/android_browser_file_theft",
-  "needs_cleanup": false
+	"name": "Android Browser File Theft",
+	"fullname": "auxiliary/gather/android_browser_file_theft",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rafay Baloch",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module steals the cookie, password, and autofill databases from the\n        Browser application on AOSP 4.3 and below.",
+	"references": [
+		"URL-https://android.googlesource.com/platform/packages/apps/Browser/+/d2391b492dec778452238bc6d9d549d56d41c107%5E%21/#F0",
+		"URL-https://bugs.chromium.org/p/chromium/issues/detail?id=90222"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/android_browser_file_theft.rb",
+	"is_install_path": true,
+	"ref_name": "gather/android_browser_file_theft",
+	"needs_cleanup": false
 }

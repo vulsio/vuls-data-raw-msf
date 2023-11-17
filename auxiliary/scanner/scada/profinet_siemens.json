@@ -1,19 +1,19 @@
 {
-  "name": "Siemens Profinet Scanner",
-  "fullname": "auxiliary/scanner/scada/profinet_siemens",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Tijl Deneut <tijl.deneut@howest.be>"
-  ],
-  "description": "This module will use Layer2 packets, known as Profinet Discovery packets,\n        to detect all Siemens (and sometimes other) devices on a network.\n        It is perfectly SCADA-safe, as there will only be ONE single packet sent out.\n        Devices will respond with their IP configuration and hostnames.\n        Created by XiaK Industrial Security Research Center (www[dot]xiak[dot]be))",
-  "references": [
-    "URL-https://wiki.wireshark.org/PROFINET/DCP",
-    "URL-https://github.com/tijldeneut/ICSSecurityScripts"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/scada/profinet_siemens.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/profinet_siemens",
-  "needs_cleanup": false
+	"name": "Siemens Profinet Scanner",
+	"fullname": "auxiliary/scanner/scada/profinet_siemens",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Tijl Deneut <tijl.deneut@howest.be>"
+	],
+	"description": "This module will use Layer2 packets, known as Profinet Discovery packets,\n        to detect all Siemens (and sometimes other) devices on a network.\n        It is perfectly SCADA-safe, as there will only be ONE single packet sent out.\n        Devices will respond with their IP configuration and hostnames.\n        Created by XiaK Industrial Security Research Center (www[dot]xiak[dot]be))",
+	"references": [
+		"URL-https://wiki.wireshark.org/PROFINET/DCP",
+		"URL-https://github.com/tijldeneut/ICSSecurityScripts"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/scada/profinet_siemens.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/profinet_siemens",
+	"needs_cleanup": false
 }

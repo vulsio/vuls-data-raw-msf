@@ -1,37 +1,37 @@
 {
-  "name": "SAP SOAP RFC RZL_READ_DIR_LOCAL Directory Contents Listing",
-  "fullname": "auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Alexey Tyurin",
-    "nmonkee"
-  ],
-  "description": "This module exploits the SAP NetWeaver RZL_READ_DIR_LOCAL function, on the SAP\n        SOAP RFC Service, to enumerate directory contents. It returns only the first 32\n        characters of the filename since they are truncated. The module can also be used to\n        capture SMB hashes by using a fake SMB share as DIR.",
-  "references": [
-    "OSVDB-92732",
-    "URL-http://erpscan.com/advisories/dsecrg-12-026-sap-netweaver-rzl_read_dir_local-missing-authorization-check-and-smb-relay-vulnerability/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_soap_rfc_rzl_read_dir",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "SAP SOAP RFC RZL_READ_DIR_LOCAL Directory Contents Listing",
+	"fullname": "auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Alexey Tyurin",
+		"nmonkee"
+	],
+	"description": "This module exploits the SAP NetWeaver RZL_READ_DIR_LOCAL function, on the SAP\n        SOAP RFC Service, to enumerate directory contents. It returns only the first 32\n        characters of the filename since they are truncated. The module can also be used to\n        capture SMB hashes by using a fake SMB share as DIR.",
+	"references": [
+		"OSVDB-92732",
+		"URL-http://erpscan.com/advisories/dsecrg-12-026-sap-netweaver-rzl_read_dir_local-missing-authorization-check-and-smb-relay-vulnerability/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_soap_rfc_rzl_read_dir",
+	"post_auth": true,
+	"needs_cleanup": false
 }

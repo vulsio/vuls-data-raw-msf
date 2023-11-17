@@ -1,19 +1,19 @@
 {
-  "name": "JCL to Escalate Privileges",
-  "fullname": "payload/cmd/mainframe/apf_privesc_jcl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Bigendian Smalls",
-    "Ayoub"
-  ],
-  "description": "(Elevate privileges for user. Adds\n         SYSTEM SPECIAL and BPX.SUPERUSER to user profile. Does this by using\n         an unsecured/updateable APF authorized library (APFLIB) and updating\n         the user's ACEE using this program/library.  Note: This privesc only\n         works with z/OS systems using RACF, no other ESM is supported.)",
-  "platform": "Mainframe",
-  "arch": "cmd",
-  "rport": 21,
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/cmd/mainframe/apf_privesc_jcl.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/mainframe/apf_privesc_jcl",
-  "needs_cleanup": false
+	"name": "JCL to Escalate Privileges",
+	"fullname": "payload/cmd/mainframe/apf_privesc_jcl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Bigendian Smalls",
+		"Ayoub"
+	],
+	"description": "(Elevate privileges for user. Adds\n         SYSTEM SPECIAL and BPX.SUPERUSER to user profile. Does this by using\n         an unsecured/updateable APF authorized library (APFLIB) and updating\n         the user's ACEE using this program/library.  Note: This privesc only\n         works with z/OS systems using RACF, no other ESM is supported.)",
+	"platform": "Mainframe",
+	"arch": "cmd",
+	"rport": 21,
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/cmd/mainframe/apf_privesc_jcl.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/mainframe/apf_privesc_jcl",
+	"needs_cleanup": false
 }

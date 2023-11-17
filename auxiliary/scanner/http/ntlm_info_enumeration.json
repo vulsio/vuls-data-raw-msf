@@ -1,31 +1,31 @@
 {
-  "name": "Host Information Enumeration via NTLM Authentication",
-  "fullname": "auxiliary/scanner/http/ntlm_info_enumeration",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Brandon Knight"
-  ],
-  "description": "This module makes requests to resources on the target server in\n        an attempt to find resources which permit NTLM authentication. For\n        resources which permit NTLM authentication, a blank NTLM type 1 message\n        is sent to enumerate a type 2 message from the target server. The type\n        2 message is then parsed for information such as the Active Directory\n        domain and NetBIOS name.  A single URI can be specified with TARGET_URI\n        and/or a file of URIs can be specified with TARGET_URIS_FILE (default).",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-09-22 15:44:19 +0000",
-  "path": "/modules/auxiliary/scanner/http/ntlm_info_enumeration.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/ntlm_info_enumeration",
-  "needs_cleanup": false
+	"name": "Host Information Enumeration via NTLM Authentication",
+	"fullname": "auxiliary/scanner/http/ntlm_info_enumeration",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Brandon Knight"
+	],
+	"description": "This module makes requests to resources on the target server in\n        an attempt to find resources which permit NTLM authentication. For\n        resources which permit NTLM authentication, a blank NTLM type 1 message\n        is sent to enumerate a type 2 message from the target server. The type\n        2 message is then parsed for information such as the Active Directory\n        domain and NetBIOS name.  A single URI can be specified with TARGET_URI\n        and/or a file of URIs can be specified with TARGET_URIS_FILE (default).",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-09-22 15:44:19 +0000",
+	"path": "/modules/auxiliary/scanner/http/ntlm_info_enumeration.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/ntlm_info_enumeration",
+	"needs_cleanup": false
 }

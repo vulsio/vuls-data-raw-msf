@@ -1,19 +1,19 @@
 {
-  "name": "SSH Version Scanner",
-  "fullname": "auxiliary/scanner/ssh/ssh_version",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Daniel van Eeden <metasploit@myname.nl>"
-  ],
-  "description": "Detect SSH Version.",
-  "references": [
-    "URL-https://en.wikipedia.org/wiki/SecureShell"
-  ],
-  "rport": 22,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/ssh/ssh_version.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ssh/ssh_version",
-  "needs_cleanup": false
+	"name": "SSH Version Scanner",
+	"fullname": "auxiliary/scanner/ssh/ssh_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Daniel van Eeden <metasploit@myname.nl>"
+	],
+	"description": "Detect SSH Version.",
+	"references": [
+		"URL-https://en.wikipedia.org/wiki/SecureShell"
+	],
+	"rport": 22,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/ssh/ssh_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ssh/ssh_version",
+	"needs_cleanup": false
 }

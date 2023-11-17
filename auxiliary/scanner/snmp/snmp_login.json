@@ -1,20 +1,20 @@
 {
-  "name": "SNMP Community Login Scanner",
-  "fullname": "auxiliary/scanner/snmp/snmp_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module logs in to SNMP devices using common community names.",
-  "references": [
-    "CVE-1999-0508"
-  ],
-  "rport": 161,
-  "mod_time": "2019-06-27 17:06:32 +0000",
-  "path": "/modules/auxiliary/scanner/snmp/snmp_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/snmp/snmp_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "SNMP Community Login Scanner",
+	"fullname": "auxiliary/scanner/snmp/snmp_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module logs in to SNMP devices using common community names.",
+	"references": [
+		"CVE-1999-0508"
+	],
+	"rport": 161,
+	"mod_time": "2019-06-27 17:06:32 +0000",
+	"path": "/modules/auxiliary/scanner/snmp/snmp_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/snmp/snmp_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

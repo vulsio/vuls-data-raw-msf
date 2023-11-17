@@ -1,24 +1,24 @@
 {
-  "name": "Linux Gather NetworkManager 802-11-Wireless-Security Credentials",
-  "fullname": "post/linux/gather/enum_psk",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Cenk Kalpakoglu"
-  ],
-  "description": "This module collects 802-11-Wireless-Security credentials such as\n          Access-Point name and Pre-Shared-Key from Linux NetworkManager\n          connection configuration files.",
-  "platform": "Linux",
-  "mod_time": "2022-11-21 00:28:34 +0000",
-  "path": "/modules/post/linux/gather/enum_psk.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_psk",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather NetworkManager 802-11-Wireless-Security Credentials",
+	"fullname": "post/linux/gather/enum_psk",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Cenk Kalpakoglu"
+	],
+	"description": "This module collects 802-11-Wireless-Security credentials such as\n          Access-Point name and Pre-Shared-Key from Linux NetworkManager\n          connection configuration files.",
+	"platform": "Linux",
+	"mod_time": "2022-11-21 00:28:34 +0000",
+	"path": "/modules/post/linux/gather/enum_psk.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_psk",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

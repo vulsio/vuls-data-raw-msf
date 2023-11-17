@@ -1,42 +1,42 @@
 {
-  "name": "Citrix ADC (NetScaler) Bleed Scanner",
-  "fullname": "auxiliary/scanner/http/citrix_bleed_cve_2023_4966",
-  "rank": 300,
-  "disclosure_date": "2023-10-25",
-  "type": "auxiliary",
-  "author": [
-    "Dylan Pindur",
-    "Spencer McIntyre"
-  ],
-  "description": "This module scans for a vulnerability that allows a remote, unauthenticated attacker to leak memory for a\n          target Citrix ADC server. The leaked memory is then scanned for session cookies which can be hijacked if found.",
-  "references": [
-    "CVE-2023-4966",
-    "URL-https://www.assetnote.io/resources/research/citrix-bleed-leaking-session-tokens-with-cve-2023-4966"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-10-27 13:48:45 +0000",
-  "path": "/modules/auxiliary/scanner/http/citrix_bleed_cve_2023_4966.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/citrix_bleed_cve_2023_4966",
-  "notes": {
-    "AKA": [
-      "Citrix Bleed"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Citrix ADC (NetScaler) Bleed Scanner",
+	"fullname": "auxiliary/scanner/http/citrix_bleed_cve_2023_4966",
+	"rank": 300,
+	"disclosure_date": "2023-10-25",
+	"type": "auxiliary",
+	"author": [
+		"Dylan Pindur",
+		"Spencer McIntyre"
+	],
+	"description": "This module scans for a vulnerability that allows a remote, unauthenticated attacker to leak memory for a\n          target Citrix ADC server. The leaked memory is then scanned for session cookies which can be hijacked if found.",
+	"references": [
+		"CVE-2023-4966",
+		"URL-https://www.assetnote.io/resources/research/citrix-bleed-leaking-session-tokens-with-cve-2023-4966"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-10-27 13:48:45 +0000",
+	"path": "/modules/auxiliary/scanner/http/citrix_bleed_cve_2023_4966.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/citrix_bleed_cve_2023_4966",
+	"notes": {
+		"AKA": [
+			"Citrix Bleed"
+		]
+	},
+	"needs_cleanup": false
 }

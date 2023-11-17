@@ -1,38 +1,38 @@
 {
-  "name": "Microsoft SQL Server Find and Sample Data",
-  "fullname": "auxiliary/admin/mssql/mssql_findandsampledata",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Scott Sutherland <scott.sutherland@netspi.com>",
-    "Robin Wood <robin@digininja.org>",
-    "humble-desser <humble.desser@gmail.com>",
-    "Carlos Perez <carlos_perez@darkoperator.com>",
-    "hdm <x@hdm.io>",
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This script will search through all of the non-default databases\n      on the SQL Server for columns that match the keywords defined in the TSQL KEYWORDS\n      option. If column names are found that match the defined keywords and data is present\n      in the associated tables, the script will select a sample of the records from each of\n      the affected tables.  The sample size is determined by the SAMPLE_SIZE option, and results\n      output in a CSV format.",
-  "references": [
-    "URL-http://www.netspi.com/blog/author/ssutherland/"
-  ],
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2019-09-23 15:29:38 +0000",
-  "path": "/modules/auxiliary/admin/mssql/mssql_findandsampledata.rb",
-  "is_install_path": true,
-  "ref_name": "admin/mssql/mssql_findandsampledata",
-  "needs_cleanup": false
+	"name": "Microsoft SQL Server Find and Sample Data",
+	"fullname": "auxiliary/admin/mssql/mssql_findandsampledata",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Scott Sutherland <scott.sutherland@netspi.com>",
+		"Robin Wood <robin@digininja.org>",
+		"humble-desser <humble.desser@gmail.com>",
+		"Carlos Perez <carlos_perez@darkoperator.com>",
+		"hdm <x@hdm.io>",
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This script will search through all of the non-default databases\n      on the SQL Server for columns that match the keywords defined in the TSQL KEYWORDS\n      option. If column names are found that match the defined keywords and data is present\n      in the associated tables, the script will select a sample of the records from each of\n      the affected tables.  The sample size is determined by the SAMPLE_SIZE option, and results\n      output in a CSV format.",
+	"references": [
+		"URL-http://www.netspi.com/blog/author/ssutherland/"
+	],
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2019-09-23 15:29:38 +0000",
+	"path": "/modules/auxiliary/admin/mssql/mssql_findandsampledata.rb",
+	"is_install_path": true,
+	"ref_name": "admin/mssql/mssql_findandsampledata",
+	"needs_cleanup": false
 }

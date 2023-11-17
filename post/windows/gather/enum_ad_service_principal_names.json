@@ -1,22 +1,22 @@
 {
-  "name": "Windows Gather Active Directory Service Principal Names",
-  "fullname": "post/windows/gather/enum_ad_service_principal_names",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>",
-    "Scott Sutherland"
-  ],
-  "description": "This module will enumerate servicePrincipalName in the default AD directory\n          where the user is a member of the Domain Admins group.",
-  "references": [
-    "URL-https://www.netspi.com/blog/entryid/214/faster-domain-escalation-using-ldap"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_ad_service_principal_names.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_ad_service_principal_names",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Active Directory Service Principal Names",
+	"fullname": "post/windows/gather/enum_ad_service_principal_names",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>",
+		"Scott Sutherland"
+	],
+	"description": "This module will enumerate servicePrincipalName in the default AD directory\n          where the user is a member of the Domain Admins group.",
+	"references": [
+		"URL-https://www.netspi.com/blog/entryid/214/faster-domain-escalation-using-ldap"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_ad_service_principal_names.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_ad_service_principal_names",
+	"session_types": [
+		"meterpreter"
+	]
 }

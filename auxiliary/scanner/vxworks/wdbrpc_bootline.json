@@ -1,20 +1,20 @@
 {
-  "name": "VxWorks WDB Agent Boot Parameter Scanner",
-  "fullname": "auxiliary/scanner/vxworks/wdbrpc_bootline",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Scan for exposed VxWorks wdbrpc daemons and dump the boot parameters from memory",
-  "references": [
-    "URL-http://blog.metasploit.com/2010/08/vxworks-vulnerabilities.html",
-    "US-CERT-VU-362332"
-  ],
-  "rport": 17185,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/vxworks/wdbrpc_bootline.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vxworks/wdbrpc_bootline",
-  "needs_cleanup": false
+	"name": "VxWorks WDB Agent Boot Parameter Scanner",
+	"fullname": "auxiliary/scanner/vxworks/wdbrpc_bootline",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Scan for exposed VxWorks wdbrpc daemons and dump the boot parameters from memory",
+	"references": [
+		"URL-http://blog.metasploit.com/2010/08/vxworks-vulnerabilities.html",
+		"US-CERT-VU-362332"
+	],
+	"rport": 17185,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/vxworks/wdbrpc_bootline.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vxworks/wdbrpc_bootline",
+	"needs_cleanup": false
 }

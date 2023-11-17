@@ -1,17 +1,17 @@
 {
-  "name": "Ruby Pingback, Bind TCP",
-  "fullname": "payload/ruby/pingback_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "asoto-r7"
-  ],
-  "description": "Listens for a connection from the attacker, sends a UUID, then terminates",
-  "platform": "Ruby",
-  "arch": "ruby",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/ruby/pingback_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "ruby/pingback_bind_tcp",
-  "needs_cleanup": false
+	"name": "Ruby Pingback, Bind TCP",
+	"fullname": "payload/ruby/pingback_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"asoto-r7"
+	],
+	"description": "Listens for a connection from the attacker, sends a UUID, then terminates",
+	"platform": "Ruby",
+	"arch": "ruby",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/ruby/pingback_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "ruby/pingback_bind_tcp",
+	"needs_cleanup": false
 }

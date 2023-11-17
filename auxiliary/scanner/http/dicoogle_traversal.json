@@ -1,36 +1,36 @@
 {
-  "name": "Dicoogle PACS Web Server Directory Traversal",
-  "fullname": "auxiliary/scanner/http/dicoogle_traversal",
-  "rank": 300,
-  "disclosure_date": "2018-07-11",
-  "type": "auxiliary",
-  "author": [
-    "Carlos Avila",
-    "h00die"
-  ],
-  "description": "This module exploits an unauthenticated directory traversal vulnerability\n        in the Dicoogle PACS Web Server v2.5.0 and possibly earlier, allowing an\n        attacker to read arbitrary files with the web server privileges.\n        While the application is java based, the directory traversal was only\n        successful against Windows targets.",
-  "references": [
-    "EDB-45007"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/dicoogle_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/dicoogle_traversal",
-  "needs_cleanup": false
+	"name": "Dicoogle PACS Web Server Directory Traversal",
+	"fullname": "auxiliary/scanner/http/dicoogle_traversal",
+	"rank": 300,
+	"disclosure_date": "2018-07-11",
+	"type": "auxiliary",
+	"author": [
+		"Carlos Avila",
+		"h00die"
+	],
+	"description": "This module exploits an unauthenticated directory traversal vulnerability\n        in the Dicoogle PACS Web Server v2.5.0 and possibly earlier, allowing an\n        attacker to read arbitrary files with the web server privileges.\n        While the application is java based, the directory traversal was only\n        successful against Windows targets.",
+	"references": [
+		"EDB-45007"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/dicoogle_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/dicoogle_traversal",
+	"needs_cleanup": false
 }

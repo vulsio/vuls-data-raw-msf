@@ -1,18 +1,18 @@
 {
-  "name": "Ruby Command Shell, Bind TCP",
-  "fullname": "payload/ruby/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "kris katterjohn <katterjohn@gmail.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Continually listen for a connection and spawn a command shell via Ruby",
-  "platform": "Ruby",
-  "arch": "ruby",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/ruby/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "ruby/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Ruby Command Shell, Bind TCP",
+	"fullname": "payload/ruby/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"kris katterjohn <katterjohn@gmail.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Continually listen for a connection and spawn a command shell via Ruby",
+	"platform": "Ruby",
+	"arch": "ruby",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/ruby/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "ruby/shell_bind_tcp",
+	"needs_cleanup": false
 }

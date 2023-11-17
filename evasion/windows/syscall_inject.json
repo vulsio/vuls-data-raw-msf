@@ -1,20 +1,20 @@
 {
-  "name": "Direct windows syscall evasion technique",
-  "fullname": "evasion/windows/syscall_inject",
-  "rank": 300,
-  "type": "evasion",
-  "author": [
-    "Yaz (kensh1ro)"
-  ],
-  "description": "This module allows you to generate a Windows EXE that evades Host-based security products\n          such as EDR/AVs. It uses direct windows syscalls to achieve stealthiness, and avoid EDR hooking.\n\n          please try to use payloads that use a more secure transfer channel such as HTTPS or RC4\n          in order to avoid payload's network traffic getting caught by network defense mechanisms.\n          NOTE: for better evasion ratio, use high SLEEP values",
-  "platform": "Windows",
-  "arch": "x64",
-  "targets": [
-    "Microsoft Windows (x64)"
-  ],
-  "mod_time": "2021-09-22 09:55:17 +0000",
-  "path": "/modules/evasion/windows/syscall_inject.rb",
-  "is_install_path": true,
-  "ref_name": "windows/syscall_inject",
-  "needs_cleanup": false
+	"name": "Direct windows syscall evasion technique",
+	"fullname": "evasion/windows/syscall_inject",
+	"rank": 300,
+	"type": "evasion",
+	"author": [
+		"Yaz (kensh1ro)"
+	],
+	"description": "This module allows you to generate a Windows EXE that evades Host-based security products\n          such as EDR/AVs. It uses direct windows syscalls to achieve stealthiness, and avoid EDR hooking.\n\n          please try to use payloads that use a more secure transfer channel such as HTTPS or RC4\n          in order to avoid payload's network traffic getting caught by network defense mechanisms.\n          NOTE: for better evasion ratio, use high SLEEP values",
+	"platform": "Windows",
+	"arch": "x64",
+	"targets": [
+		"Microsoft Windows (x64)"
+	],
+	"mod_time": "2021-09-22 09:55:17 +0000",
+	"path": "/modules/evasion/windows/syscall_inject.rb",
+	"is_install_path": true,
+	"ref_name": "windows/syscall_inject",
+	"needs_cleanup": false
 }

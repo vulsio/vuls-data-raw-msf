@@ -1,36 +1,36 @@
 {
-  "name": "SAP Management Console List Config Files",
-  "fullname": "auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Chris John Riley",
-    "Jacobo Avariento Gimeno"
-  ],
-  "description": "This module attempts to list the config files\n        through the SAP Management Console SOAP Interface.\n        Returns a list of config files found in the SAP configuration with its\n        absolute paths inside the server filesystem.",
-  "references": [
-    "URL-https://blog.c22.cc"
-  ],
-  "rport": 50013,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443,
-    50013
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_mgmt_con_listconfigfiles",
-  "needs_cleanup": false
+	"name": "SAP Management Console List Config Files",
+	"fullname": "auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Chris John Riley",
+		"Jacobo Avariento Gimeno"
+	],
+	"description": "This module attempts to list the config files\n        through the SAP Management Console SOAP Interface.\n        Returns a list of config files found in the SAP configuration with its\n        absolute paths inside the server filesystem.",
+	"references": [
+		"URL-https://blog.c22.cc"
+	],
+	"rport": 50013,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443,
+		50013
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_mgmt_con_listconfigfiles",
+	"needs_cleanup": false
 }

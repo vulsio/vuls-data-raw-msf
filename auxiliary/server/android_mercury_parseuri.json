@@ -1,21 +1,21 @@
 {
-  "name": "Android Mercury Browser Intent URI Scheme and Directory Traversal Vulnerability",
-  "fullname": "auxiliary/server/android_mercury_parseuri",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "rotlogix",
-    "sinn3r <sinn3r@metasploit.com>",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module exploits an unsafe intent URI scheme and directory traversal found in\n        Android Mercury Browser version 3.2.3. The intent allows the attacker to invoke a\n        private wifi manager activity, which starts a web server for Mercury on port 8888.\n        The webserver also suffers a directory traversal that allows remote access to\n        sensitive files.\n\n        By default, this module will go after webviewCookiesChromium.db, webviewCookiesChromiumPrivate.db,\n        webview.db, and bookmarks.db. But if this isn't enough, you can also specify the\n        ADDITIONAL_FILES datastore option to collect more files.",
-  "references": [
-    "URL-http://rotlogix.com/2015/08/23/exploiting-the-mercury-browser-for-android/",
-    "URL-http://versprite.com/og/multiple-vulnerabilities-in-mercury-browser-for-android-version-3-0-0/"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/server/android_mercury_parseuri.rb",
-  "is_install_path": true,
-  "ref_name": "server/android_mercury_parseuri",
-  "needs_cleanup": false
+	"name": "Android Mercury Browser Intent URI Scheme and Directory Traversal Vulnerability",
+	"fullname": "auxiliary/server/android_mercury_parseuri",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"rotlogix",
+		"sinn3r <sinn3r@metasploit.com>",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module exploits an unsafe intent URI scheme and directory traversal found in\n        Android Mercury Browser version 3.2.3. The intent allows the attacker to invoke a\n        private wifi manager activity, which starts a web server for Mercury on port 8888.\n        The webserver also suffers a directory traversal that allows remote access to\n        sensitive files.\n\n        By default, this module will go after webviewCookiesChromium.db, webviewCookiesChromiumPrivate.db,\n        webview.db, and bookmarks.db. But if this isn't enough, you can also specify the\n        ADDITIONAL_FILES datastore option to collect more files.",
+	"references": [
+		"URL-http://rotlogix.com/2015/08/23/exploiting-the-mercury-browser-for-android/",
+		"URL-http://versprite.com/og/multiple-vulnerabilities-in-mercury-browser-for-android-version-3-0-0/"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/server/android_mercury_parseuri.rb",
+	"is_install_path": true,
+	"ref_name": "server/android_mercury_parseuri",
+	"needs_cleanup": false
 }

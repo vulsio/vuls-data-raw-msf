@@ -1,44 +1,44 @@
 {
-  "name": "Citrix ADC (NetScaler) Directory Traversal Scanner",
-  "fullname": "auxiliary/scanner/http/citrix_dir_traversal",
-  "rank": 300,
-  "disclosure_date": "2019-12-17",
-  "type": "auxiliary",
-  "author": [
-    "Mikhail Klyuchnikov",
-    "Erik Wynter",
-    "altonjx"
-  ],
-  "description": "This module exploits a directory traversal vulnerability (CVE-2019-19781) within Citrix ADC\n        (NetScaler). It requests the smb.conf file located in the /vpns/cfg directory by issuing the request\n        /vpn/../vpns/cfg/smb.conf. It then checks if the server is vulnerable by looking for the presence of\n        a \"[global]\" directive in smb.conf, which this file should always contain.",
-  "references": [
-    "CVE-2019-19781",
-    "URL-https://web.archive.org/web/20200111095223/https://support.citrix.com/article/CTX267027/",
-    "URL-https://swarm.ptsecurity.com/remote-code-execution-in-citrix-adc/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/citrix_dir_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/citrix_dir_traversal",
-  "notes": {
-    "AKA": [
-      "Shitrix"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Citrix ADC (NetScaler) Directory Traversal Scanner",
+	"fullname": "auxiliary/scanner/http/citrix_dir_traversal",
+	"rank": 300,
+	"disclosure_date": "2019-12-17",
+	"type": "auxiliary",
+	"author": [
+		"Mikhail Klyuchnikov",
+		"Erik Wynter",
+		"altonjx"
+	],
+	"description": "This module exploits a directory traversal vulnerability (CVE-2019-19781) within Citrix ADC\n        (NetScaler). It requests the smb.conf file located in the /vpns/cfg directory by issuing the request\n        /vpn/../vpns/cfg/smb.conf. It then checks if the server is vulnerable by looking for the presence of\n        a \"[global]\" directive in smb.conf, which this file should always contain.",
+	"references": [
+		"CVE-2019-19781",
+		"URL-https://web.archive.org/web/20200111095223/https://support.citrix.com/article/CTX267027/",
+		"URL-https://swarm.ptsecurity.com/remote-code-execution-in-citrix-adc/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/citrix_dir_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/citrix_dir_traversal",
+	"notes": {
+		"AKA": [
+			"Shitrix"
+		]
+	},
+	"needs_cleanup": false
 }

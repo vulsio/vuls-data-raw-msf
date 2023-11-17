@@ -1,18 +1,18 @@
 {
-  "name": "Linux Mettle x86, Reverse TCP Stager (IPv6)",
-  "fullname": "payload/linux/x86/meterpreter/reverse_ipv6_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "William Webb <william_webb@rapid7.com>",
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "Inject the mettle server payload (staged).\n\nConnect back to attacker over IPv6",
-  "platform": "Linux,Linux",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/linux/x86/reverse_ipv6_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/meterpreter/reverse_ipv6_tcp",
-  "needs_cleanup": false
+	"name": "Linux Mettle x86, Reverse TCP Stager (IPv6)",
+	"fullname": "payload/linux/x86/meterpreter/reverse_ipv6_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"William Webb <william_webb@rapid7.com>",
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "Inject the mettle server payload (staged).\n\nConnect back to attacker over IPv6",
+	"platform": "Linux,Linux",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/linux/x86/reverse_ipv6_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/meterpreter/reverse_ipv6_tcp",
+	"needs_cleanup": false
 }

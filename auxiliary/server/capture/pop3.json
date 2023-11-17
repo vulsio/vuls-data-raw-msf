@@ -1,16 +1,16 @@
 {
-  "name": "Authentication Capture: POP3",
-  "fullname": "auxiliary/server/capture/pop3",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "ddz <ddz@theta44.org>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module provides a fake POP3 service that\n      is designed to capture authentication credentials.",
-  "mod_time": "2020-05-12 22:15:21 +0000",
-  "path": "/modules/auxiliary/server/capture/pop3.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/pop3",
-  "needs_cleanup": false
+	"name": "Authentication Capture: POP3",
+	"fullname": "auxiliary/server/capture/pop3",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"ddz <ddz@theta44.org>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module provides a fake POP3 service that\n      is designed to capture authentication credentials.",
+	"mod_time": "2020-05-12 22:15:21 +0000",
+	"path": "/modules/auxiliary/server/capture/pop3.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/pop3",
+	"needs_cleanup": false
 }

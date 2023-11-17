@@ -1,19 +1,19 @@
 {
-  "name": "Mac OS X Safari .webarchive File Format UXSS",
-  "fullname": "auxiliary/gather/apple_safari_webarchive_uxss",
-  "rank": 300,
-  "disclosure_date": "2013-02-22",
-  "type": "auxiliary",
-  "author": [
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "Generates a .webarchive file for Mac OS X Safari that will attempt to\n        inject cross-domain Javascript (UXSS), silently install a browser\n        extension, collect user information, steal the cookie database,\n        and steal arbitrary local files.\n\n        When opened on the target machine the webarchive file must not have the\n        quarantine attribute set, as this forces the webarchive to execute in a\n        sandbox.",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2013/04/25/abusing-safaris-webarchive-file-format/"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/apple_safari_webarchive_uxss.rb",
-  "is_install_path": true,
-  "ref_name": "gather/apple_safari_webarchive_uxss",
-  "needs_cleanup": false
+	"name": "Mac OS X Safari .webarchive File Format UXSS",
+	"fullname": "auxiliary/gather/apple_safari_webarchive_uxss",
+	"rank": 300,
+	"disclosure_date": "2013-02-22",
+	"type": "auxiliary",
+	"author": [
+		"joev <joev@metasploit.com>"
+	],
+	"description": "Generates a .webarchive file for Mac OS X Safari that will attempt to\n        inject cross-domain Javascript (UXSS), silently install a browser\n        extension, collect user information, steal the cookie database,\n        and steal arbitrary local files.\n\n        When opened on the target machine the webarchive file must not have the\n        quarantine attribute set, as this forces the webarchive to execute in a\n        sandbox.",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2013/04/25/abusing-safaris-webarchive-file-format/"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/apple_safari_webarchive_uxss.rb",
+	"is_install_path": true,
+	"ref_name": "gather/apple_safari_webarchive_uxss",
+	"needs_cleanup": false
 }

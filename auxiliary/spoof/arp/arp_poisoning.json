@@ -1,21 +1,21 @@
 {
-  "name": "ARP Spoof",
-  "fullname": "auxiliary/spoof/arp/arp_poisoning",
-  "rank": 300,
-  "disclosure_date": "1999-12-22",
-  "type": "auxiliary",
-  "author": [
-    "amaloteaux <alex_maloteaux@metasploit.com>"
-  ],
-  "description": "Spoof ARP replies and poison remote ARP caches to conduct IP address spoofing or a denial of service.",
-  "references": [
-    "OSVDB-11169",
-    "CVE-1999-0667",
-    "URL-https://en.wikipedia.org/wiki/ARP_spoofing"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/spoof/arp/arp_poisoning.rb",
-  "is_install_path": true,
-  "ref_name": "spoof/arp/arp_poisoning",
-  "needs_cleanup": false
+	"name": "ARP Spoof",
+	"fullname": "auxiliary/spoof/arp/arp_poisoning",
+	"rank": 300,
+	"disclosure_date": "1999-12-22",
+	"type": "auxiliary",
+	"author": [
+		"amaloteaux <alex_maloteaux@metasploit.com>"
+	],
+	"description": "Spoof ARP replies and poison remote ARP caches to conduct IP address spoofing or a denial of service.",
+	"references": [
+		"OSVDB-11169",
+		"CVE-1999-0667",
+		"URL-https://en.wikipedia.org/wiki/ARP_spoofing"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/spoof/arp/arp_poisoning.rb",
+	"is_install_path": true,
+	"ref_name": "spoof/arp/arp_poisoning",
+	"needs_cleanup": false
 }

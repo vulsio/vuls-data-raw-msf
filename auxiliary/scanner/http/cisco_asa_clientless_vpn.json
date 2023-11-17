@@ -1,47 +1,47 @@
 {
-  "name": "Cisco ASA Clientless SSL VPN (WebVPN) Brute-force Login Utility",
-  "fullname": "auxiliary/scanner/http/cisco_asa_clientless_vpn",
-  "aliases": [
-    "auxiliary/scanner/http/cisco_asa_asdm"
-  ],
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jonathan Claudius <jclaudius@trustwave.com>",
-    "jbaines-r7"
-  ],
-  "description": "This module scans for Cisco ASA Clientless SSL VPN (WebVPN) web login portals and\n          performs login brute-force to identify valid credentials.",
-  "references": [
-    "URL-https://www.cisco.com/c/en/us/support/docs/security-vpn/webvpn-ssl-vpn/119417-config-asa-00.html"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-08-19 10:51:33 +0000",
-  "path": "/modules/auxiliary/scanner/http/cisco_asa_clientless_vpn.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/cisco_asa_clientless_vpn",
-  "post_auth": true,
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Cisco ASA Clientless SSL VPN (WebVPN) Brute-force Login Utility",
+	"fullname": "auxiliary/scanner/http/cisco_asa_clientless_vpn",
+	"aliases": [
+		"auxiliary/scanner/http/cisco_asa_asdm"
+	],
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jonathan Claudius <jclaudius@trustwave.com>",
+		"jbaines-r7"
+	],
+	"description": "This module scans for Cisco ASA Clientless SSL VPN (WebVPN) web login portals and\n          performs login brute-force to identify valid credentials.",
+	"references": [
+		"URL-https://www.cisco.com/c/en/us/support/docs/security-vpn/webvpn-ssl-vpn/119417-config-asa-00.html"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-08-19 10:51:33 +0000",
+	"path": "/modules/auxiliary/scanner/http/cisco_asa_clientless_vpn.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/cisco_asa_clientless_vpn",
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

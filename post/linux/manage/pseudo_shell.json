@@ -1,19 +1,19 @@
 {
-  "name": "Pseudo-Shell Post-Exploitation Module",
-  "fullname": "post/linux/manage/pseudo_shell",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
-  ],
-  "description": "This module will run a Pseudo-Shell.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/manage/pseudo_shell.rb",
-  "is_install_path": true,
-  "ref_name": "linux/manage/pseudo_shell",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Pseudo-Shell Post-Exploitation Module",
+	"fullname": "post/linux/manage/pseudo_shell",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
+	],
+	"description": "This module will run a Pseudo-Shell.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/manage/pseudo_shell.rb",
+	"is_install_path": true,
+	"ref_name": "linux/manage/pseudo_shell",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

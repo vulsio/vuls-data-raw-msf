@@ -1,21 +1,21 @@
 {
-  "name": "Windows Gather Active Directory BitLocker Recovery",
-  "fullname": "post/windows/gather/enum_ad_bitlocker",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Ben Campbell <ben.campbell@mwrinfosecurity.com>"
-  ],
-  "description": "This module will enumerate BitLocker recovery passwords in the default AD\n          directory. This module does require Domain Admin or other delegated privileges.",
-  "references": [
-    "URL-https://technet.microsoft.com/en-us/library/cc771778%28v=ws.10%29.aspx"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_ad_bitlocker.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_ad_bitlocker",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Active Directory BitLocker Recovery",
+	"fullname": "post/windows/gather/enum_ad_bitlocker",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Ben Campbell <ben.campbell@mwrinfosecurity.com>"
+	],
+	"description": "This module will enumerate BitLocker recovery passwords in the default AD\n          directory. This module does require Domain Admin or other delegated privileges.",
+	"references": [
+		"URL-https://technet.microsoft.com/en-us/library/cc771778%28v=ws.10%29.aspx"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_ad_bitlocker.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_ad_bitlocker",
+	"session_types": [
+		"meterpreter"
+	]
 }

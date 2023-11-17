@@ -1,19 +1,19 @@
 {
-  "name": "Windows Gather Enumerate Active Domain Users",
-  "fullname": "post/windows/gather/enum_domain_users",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Etienne Stalmans <etienne@sensepost.com>",
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module will enumerate computers included in the primary Domain and attempt\n          to list all locations the targeted user has sessions on. If the HOST option is specified\n          the module will target only that host. If the HOST is specified and USER is set to nil, all users\n          logged into that host will be returned.'",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_domain_users.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_domain_users",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Enumerate Active Domain Users",
+	"fullname": "post/windows/gather/enum_domain_users",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Etienne Stalmans <etienne@sensepost.com>",
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module will enumerate computers included in the primary Domain and attempt\n          to list all locations the targeted user has sessions on. If the HOST option is specified\n          the module will target only that host. If the HOST is specified and USER is set to nil, all users\n          logged into that host will be returned.'",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_domain_users.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_domain_users",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,18 +1,18 @@
 {
-  "name": "PHP Command Shell, Bind TCP (via PHP)",
-  "fullname": "payload/php/bind_php",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "egypt <egypt@metasploit.com>",
-    "diaul <diaul@devilopers.org>"
-  ],
-  "description": "Listen for a connection and spawn a command shell via php",
-  "platform": "PHP",
-  "arch": "php",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/php/bind_php.rb",
-  "is_install_path": true,
-  "ref_name": "php/bind_php",
-  "needs_cleanup": false
+	"name": "PHP Command Shell, Bind TCP (via PHP)",
+	"fullname": "payload/php/bind_php",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"egypt <egypt@metasploit.com>",
+		"diaul <diaul@devilopers.org>"
+	],
+	"description": "Listen for a connection and spawn a command shell via php",
+	"platform": "PHP",
+	"arch": "php",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/php/bind_php.rb",
+	"is_install_path": true,
+	"ref_name": "php/bind_php",
+	"needs_cleanup": false
 }

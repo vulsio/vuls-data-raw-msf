@@ -1,34 +1,34 @@
 {
-  "name": "MSSQL Login Utility",
-  "fullname": "auxiliary/scanner/mssql/mssql_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module simply queries the MSSQL instance for a specific user/pass (default is sa with blank).",
-  "references": [
-    "CVE-1999-0506"
-  ],
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2023-01-24 14:30:39 +0000",
-  "path": "/modules/auxiliary/scanner/mssql/mssql_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/mssql/mssql_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "MSSQL Login Utility",
+	"fullname": "auxiliary/scanner/mssql/mssql_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module simply queries the MSSQL instance for a specific user/pass (default is sa with blank).",
+	"references": [
+		"CVE-1999-0506"
+	],
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2023-01-24 14:30:39 +0000",
+	"path": "/modules/auxiliary/scanner/mssql/mssql_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/mssql/mssql_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

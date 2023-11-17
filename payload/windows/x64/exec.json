@@ -1,17 +1,17 @@
 {
-  "name": "Windows x64 Execute Command",
-  "fullname": "payload/windows/x64/exec",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Execute an arbitrary command (Windows x64)",
-  "platform": "Windows",
-  "arch": "x64",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/windows/x64/exec.rb",
-  "is_install_path": true,
-  "ref_name": "windows/x64/exec",
-  "needs_cleanup": false
+	"name": "Windows x64 Execute Command",
+	"fullname": "payload/windows/x64/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Execute an arbitrary command (Windows x64)",
+	"platform": "Windows",
+	"arch": "x64",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/windows/x64/exec.rb",
+	"is_install_path": true,
+	"ref_name": "windows/x64/exec",
+	"needs_cleanup": false
 }

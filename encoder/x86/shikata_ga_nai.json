@@ -1,17 +1,17 @@
 {
-  "name": "Polymorphic XOR Additive Feedback Encoder",
-  "fullname": "encoder/x86/shikata_ga_nai",
-  "rank": 600,
-  "type": "encoder",
-  "author": [
-    "spoonm <spoonm@no$email.com>"
-  ],
-  "description": "This encoder implements a polymorphic XOR additive feedback encoder.\n        The decoder stub is generated based on dynamic instruction\n        substitution and dynamic block ordering.  Registers are also\n        selected dynamically.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/shikata_ga_nai.rb",
-  "is_install_path": true,
-  "ref_name": "x86/shikata_ga_nai",
-  "needs_cleanup": false
+	"name": "Polymorphic XOR Additive Feedback Encoder",
+	"fullname": "encoder/x86/shikata_ga_nai",
+	"rank": 600,
+	"type": "encoder",
+	"author": [
+		"spoonm <spoonm@no$email.com>"
+	],
+	"description": "This encoder implements a polymorphic XOR additive feedback encoder.\n        The decoder stub is generated based on dynamic instruction\n        substitution and dynamic block ordering.  Registers are also\n        selected dynamically.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/shikata_ga_nai.rb",
+	"is_install_path": true,
+	"ref_name": "x86/shikata_ga_nai",
+	"needs_cleanup": false
 }

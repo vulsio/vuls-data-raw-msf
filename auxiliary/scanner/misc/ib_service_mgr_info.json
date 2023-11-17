@@ -1,17 +1,17 @@
 {
-  "name": "Borland InterBase Services Manager Information",
-  "fullname": "auxiliary/scanner/misc/ib_service_mgr_info",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ramon de C Valle <rcvalle@metasploit.com>",
-    "Adriano Lima <adriano@risesecurity.org>"
-  ],
-  "description": "This module retrieves version of the services manager, version\n        and implementation of the InterBase server from InterBase\n        Services Manager.",
-  "rport": 3050,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/misc/ib_service_mgr_info.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/ib_service_mgr_info",
-  "needs_cleanup": false
+	"name": "Borland InterBase Services Manager Information",
+	"fullname": "auxiliary/scanner/misc/ib_service_mgr_info",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ramon de C Valle <rcvalle@metasploit.com>",
+		"Adriano Lima <adriano@risesecurity.org>"
+	],
+	"description": "This module retrieves version of the services manager, version\n        and implementation of the InterBase server from InterBase\n        Services Manager.",
+	"rport": 3050,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/misc/ib_service_mgr_info.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/ib_service_mgr_info",
+	"needs_cleanup": false
 }

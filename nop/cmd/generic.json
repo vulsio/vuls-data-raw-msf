@@ -1,18 +1,18 @@
 {
-  "name": "Generic Command Nop Generator",
-  "fullname": "nop/cmd/generic",
-  "rank": 300,
-  "type": "nop",
-  "author": [
-    "hdm <x@hdm.io>",
-    "bcoles <bcoles@gmail.com>"
-  ],
-  "description": "Generates harmless padding for command payloads.",
-  "platform": "All",
-  "arch": "cmd",
-  "mod_time": "2022-01-28 15:29:56 +0000",
-  "path": "/modules/nops/cmd/generic.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/generic",
-  "needs_cleanup": false
+	"name": "Generic Command Nop Generator",
+	"fullname": "nop/cmd/generic",
+	"rank": 300,
+	"type": "nop",
+	"author": [
+		"hdm <x@hdm.io>",
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "Generates harmless padding for command payloads.",
+	"platform": "All",
+	"arch": "cmd",
+	"mod_time": "2022-01-28 15:29:56 +0000",
+	"path": "/modules/nops/cmd/generic.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/generic",
+	"needs_cleanup": false
 }

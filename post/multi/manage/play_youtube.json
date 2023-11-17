@@ -1,26 +1,26 @@
 {
-  "name": "Multi Manage YouTube Broadcast",
-  "fullname": "post/multi/manage/play_youtube",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module will broadcast a YouTube video on specified compromised systems. It will play\n          the video in the target machine's native browser. The VID datastore option is the \"v\"\n          parameter in a YouTube video's URL.\n\n          Enabling the EMBED option will play the video in full screen mode through a clean interface\n          but is not compatible with all videos.\n\n          This module will create a custom profile for Firefox on Linux systems in the /tmp directory.",
-  "platform": "Android,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/manage/play_youtube.rb",
-  "is_install_path": true,
-  "ref_name": "multi/manage/play_youtube",
-  "notes": {
-    "SideEffects": [
-      "artifacts-on-disk",
-      "audio-effects",
-      "screen-effects"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Manage YouTube Broadcast",
+	"fullname": "post/multi/manage/play_youtube",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module will broadcast a YouTube video on specified compromised systems. It will play\n          the video in the target machine's native browser. The VID datastore option is the \"v\"\n          parameter in a YouTube video's URL.\n\n          Enabling the EMBED option will play the video in full screen mode through a clean interface\n          but is not compatible with all videos.\n\n          This module will create a custom profile for Firefox on Linux systems in the /tmp directory.",
+	"platform": "Android,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/manage/play_youtube.rb",
+	"is_install_path": true,
+	"ref_name": "multi/manage/play_youtube",
+	"notes": {
+		"SideEffects": [
+			"artifacts-on-disk",
+			"audio-effects",
+			"screen-effects"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

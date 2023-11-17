@@ -1,36 +1,36 @@
 {
-  "name": "Cambium cnPilot r200/r201 Login Scanner and Config Dump",
-  "fullname": "auxiliary/scanner/http/cnpilot_r_web_login_loot",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "This module scans for Cambium cnPilot r200/r201 management login\n        portal(s), attempts to identify valid credentials, and dump device\n        configuration.\n\n        The device has at least two (2) users - admin and user. Due to an\n        access control vulnerability, it is possible for 'user' account to access full\n        device config. All information, including passwords, and keys, is stored\n        insecurely, in clear-text form, thus allowing unauthorized admin access to any\n        user.",
-  "references": [
-    "CVE-2017-5260",
-    "URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/cnpilot_r_web_login_loot.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/cnpilot_r_web_login_loot",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Cambium cnPilot r200/r201 Login Scanner and Config Dump",
+	"fullname": "auxiliary/scanner/http/cnpilot_r_web_login_loot",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "This module scans for Cambium cnPilot r200/r201 management login\n        portal(s), attempts to identify valid credentials, and dump device\n        configuration.\n\n        The device has at least two (2) users - admin and user. Due to an\n        access control vulnerability, it is possible for 'user' account to access full\n        device config. All information, including passwords, and keys, is stored\n        insecurely, in clear-text form, thus allowing unauthorized admin access to any\n        user.",
+	"references": [
+		"CVE-2017-5260",
+		"URL-https://www.rapid7.com/blog/post/2017/12/19/r7-2017-25-cambium-epmp-and-cnpilot-multiple-vulnerabilities/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/cnpilot_r_web_login_loot.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/cnpilot_r_web_login_loot",
+	"post_auth": true,
+	"needs_cleanup": false
 }

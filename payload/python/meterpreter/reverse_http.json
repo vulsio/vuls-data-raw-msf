@@ -1,17 +1,17 @@
 {
-  "name": "Python Meterpreter, Python Reverse HTTP Stager",
-  "fullname": "payload/python/meterpreter/reverse_http",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre"
-  ],
-  "description": "Run a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nTunnel communication over HTTP",
-  "platform": "Python",
-  "arch": "python",
-  "mod_time": "2022-11-05 15:58:10 +0000",
-  "path": "/modules/payloads/stagers/python/reverse_http.rb",
-  "is_install_path": true,
-  "ref_name": "python/meterpreter/reverse_http",
-  "needs_cleanup": false
+	"name": "Python Meterpreter, Python Reverse HTTP Stager",
+	"fullname": "payload/python/meterpreter/reverse_http",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Run a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nTunnel communication over HTTP",
+	"platform": "Python",
+	"arch": "python",
+	"mod_time": "2022-11-05 15:58:10 +0000",
+	"path": "/modules/payloads/stagers/python/reverse_http.rb",
+	"is_install_path": true,
+	"ref_name": "python/meterpreter/reverse_http",
+	"needs_cleanup": false
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Pcap Replay Utility",
-  "fullname": "auxiliary/spoof/replay/pcap_replay",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "amaloteaux <alex_maloteaux@metasploit.com>"
-  ],
-  "description": "Replay a pcap capture file",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/spoof/replay/pcap_replay.rb",
-  "is_install_path": true,
-  "ref_name": "spoof/replay/pcap_replay",
-  "needs_cleanup": false
+	"name": "Pcap Replay Utility",
+	"fullname": "auxiliary/spoof/replay/pcap_replay",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"amaloteaux <alex_maloteaux@metasploit.com>"
+	],
+	"description": "Replay a pcap capture file",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/spoof/replay/pcap_replay.rb",
+	"is_install_path": true,
+	"ref_name": "spoof/replay/pcap_replay",
+	"needs_cleanup": false
 }

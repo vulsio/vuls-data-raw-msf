@@ -1,19 +1,19 @@
 {
-  "name": "Apple Filing Protocol Info Enumerator",
-  "fullname": "auxiliary/scanner/afp/afp_server_info",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Gregory Man <man.gregory@gmail.com>"
-  ],
-  "description": "This module fetches AFP server information, including server name,\n        network address, supported AFP versions, signature, machine type,\n        and server flags.",
-  "references": [
-    "URL-https://web.archive.org/web/20130309051753/https://developer.apple.com/library/mac/#documentation/Networking/Reference/AFP_Reference/Reference/reference.html"
-  ],
-  "rport": 548,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/afp/afp_server_info.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/afp/afp_server_info",
-  "needs_cleanup": false
+	"name": "Apple Filing Protocol Info Enumerator",
+	"fullname": "auxiliary/scanner/afp/afp_server_info",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Gregory Man <man.gregory@gmail.com>"
+	],
+	"description": "This module fetches AFP server information, including server name,\n        network address, supported AFP versions, signature, machine type,\n        and server flags.",
+	"references": [
+		"URL-https://web.archive.org/web/20130309051753/https://developer.apple.com/library/mac/#documentation/Networking/Reference/AFP_Reference/Reference/reference.html"
+	],
+	"rport": 548,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/afp/afp_server_info.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/afp/afp_server_info",
+	"needs_cleanup": false
 }

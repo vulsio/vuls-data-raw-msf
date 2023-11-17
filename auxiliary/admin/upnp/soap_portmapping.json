@@ -1,35 +1,35 @@
 {
-  "name": "UPnP IGD SOAP Port Mapping Utility",
-  "fullname": "auxiliary/admin/upnp/soap_portmapping",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "St0rn <fabien@anbu-pentest.com>",
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "Manage port mappings on UPnP IGD-capable device using the AddPortMapping and\n        DeletePortMapping SOAP requests",
-  "references": [
-    "URL-http://www.upnp-hacks.org/igd.html"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/admin/upnp/soap_portmapping.rb",
-  "is_install_path": true,
-  "ref_name": "admin/upnp/soap_portmapping",
-  "needs_cleanup": false
+	"name": "UPnP IGD SOAP Port Mapping Utility",
+	"fullname": "auxiliary/admin/upnp/soap_portmapping",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"St0rn <fabien@anbu-pentest.com>",
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "Manage port mappings on UPnP IGD-capable device using the AddPortMapping and\n        DeletePortMapping SOAP requests",
+	"references": [
+		"URL-http://www.upnp-hacks.org/igd.html"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/admin/upnp/soap_portmapping.rb",
+	"is_install_path": true,
+	"ref_name": "admin/upnp/soap_portmapping",
+	"needs_cleanup": false
 }

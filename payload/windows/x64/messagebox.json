@@ -1,17 +1,17 @@
 {
-  "name": "Windows MessageBox x64",
-  "fullname": "payload/windows/x64/messagebox",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "pasta <jaguinaga@infobytesec.com>"
-  ],
-  "description": "Spawn a dialog via MessageBox using a customizable title, text & icon",
-  "platform": "Windows",
-  "arch": "x64",
-  "mod_time": "2023-08-03 17:10:11 +0000",
-  "path": "/modules/payloads/singles/windows/x64/messagebox.rb",
-  "is_install_path": true,
-  "ref_name": "windows/x64/messagebox",
-  "needs_cleanup": false
+	"name": "Windows MessageBox x64",
+	"fullname": "payload/windows/x64/messagebox",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"pasta <jaguinaga@infobytesec.com>"
+	],
+	"description": "Spawn a dialog via MessageBox using a customizable title, text & icon",
+	"platform": "Windows",
+	"arch": "x64",
+	"mod_time": "2023-08-03 17:10:11 +0000",
+	"path": "/modules/payloads/singles/windows/x64/messagebox.rb",
+	"is_install_path": true,
+	"ref_name": "windows/x64/messagebox",
+	"needs_cleanup": false
 }

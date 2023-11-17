@@ -1,22 +1,22 @@
 {
-  "name": "Multi Manage DbVisualizer Add Db Admin",
-  "fullname": "post/multi/manage/dbvis_add_db_admin",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "David Bloom"
-  ],
-  "description": "Dbvisulaizer offers a command line functionality to execute SQL pre-configured databases\n          (With GUI). The remote database can be accessed from the command line without the need\n          to authenticate, which can be abused to create an administrator in the database with the\n          proper database permissions. Note: This module currently only supports MySQL.",
-  "references": [
-    "URL-http://youtu.be/0LCLRVHX1vA"
-  ],
-  "platform": "Linux,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/manage/dbvis_add_db_admin.rb",
-  "is_install_path": true,
-  "ref_name": "multi/manage/dbvis_add_db_admin",
-  "post_auth": true,
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Multi Manage DbVisualizer Add Db Admin",
+	"fullname": "post/multi/manage/dbvis_add_db_admin",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"David Bloom"
+	],
+	"description": "Dbvisulaizer offers a command line functionality to execute SQL pre-configured databases\n          (With GUI). The remote database can be accessed from the command line without the need\n          to authenticate, which can be abused to create an administrator in the database with the\n          proper database permissions. Note: This module currently only supports MySQL.",
+	"references": [
+		"URL-http://youtu.be/0LCLRVHX1vA"
+	],
+	"platform": "Linux,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/manage/dbvis_add_db_admin.rb",
+	"is_install_path": true,
+	"ref_name": "multi/manage/dbvis_add_db_admin",
+	"post_auth": true,
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Unix Command Shell, Bind TCP (via jjs)",
-  "fullname": "payload/cmd/unix/bind_jjs",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "conerpirate",
-    "bcoles <bcoles@gmail.com>"
-  ],
-  "description": "Listen for a connection and spawn a command shell via jjs",
-  "references": [
-    "URL-https://gtfobins.github.io/gtfobins/jjs/",
-    "URL-https://cornerpirate.com/2018/08/17/java-gives-a-shell-for-everything/",
-    "URL-https://h4wkst3r.blogspot.com/2018/05/code-execution-with-jdk-scripting-tools.html"
-  ],
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/unix/bind_jjs.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/bind_jjs",
-  "needs_cleanup": false
+	"name": "Unix Command Shell, Bind TCP (via jjs)",
+	"fullname": "payload/cmd/unix/bind_jjs",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"conerpirate",
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "Listen for a connection and spawn a command shell via jjs",
+	"references": [
+		"URL-https://gtfobins.github.io/gtfobins/jjs/",
+		"URL-https://cornerpirate.com/2018/08/17/java-gives-a-shell-for-everything/",
+		"URL-https://h4wkst3r.blogspot.com/2018/05/code-execution-with-jdk-scripting-tools.html"
+	],
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/unix/bind_jjs.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/bind_jjs",
+	"needs_cleanup": false
 }

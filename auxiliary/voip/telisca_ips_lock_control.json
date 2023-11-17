@@ -1,33 +1,33 @@
 {
-  "name": "Telisca IPS Lock Cisco IP Phone Control",
-  "fullname": "auxiliary/voip/telisca_ips_lock_control",
-  "rank": 300,
-  "disclosure_date": "2015-12-17",
-  "type": "auxiliary",
-  "author": [
-    "Fakhir Karim Reda <karim.fakhir@gmail.com>",
-    "zirsalem"
-  ],
-  "description": "This module allows an unauthenticated attacker to exercise the\n        \"Lock\" and \"Unlock\" functionality of Telisca IPS Lock for Cisco IP\n        Phones. This module should be run in the VoIP VLAN, and requires\n        knowledge of the target phone's name (for example, SEP002497AB1D4B).\n\n        Set ACTION to either LOCK or UNLOCK. UNLOCK is the default.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-04-21 13:31:55 +0000",
-  "path": "/modules/auxiliary/voip/telisca_ips_lock_control.rb",
-  "is_install_path": true,
-  "ref_name": "voip/telisca_ips_lock_control",
-  "needs_cleanup": false
+	"name": "Telisca IPS Lock Cisco IP Phone Control",
+	"fullname": "auxiliary/voip/telisca_ips_lock_control",
+	"rank": 300,
+	"disclosure_date": "2015-12-17",
+	"type": "auxiliary",
+	"author": [
+		"Fakhir Karim Reda <karim.fakhir@gmail.com>",
+		"zirsalem"
+	],
+	"description": "This module allows an unauthenticated attacker to exercise the\n        \"Lock\" and \"Unlock\" functionality of Telisca IPS Lock for Cisco IP\n        Phones. This module should be run in the VoIP VLAN, and requires\n        knowledge of the target phone's name (for example, SEP002497AB1D4B).\n\n        Set ACTION to either LOCK or UNLOCK. UNLOCK is the default.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-04-21 13:31:55 +0000",
+	"path": "/modules/auxiliary/voip/telisca_ips_lock_control.rb",
+	"is_install_path": true,
+	"ref_name": "voip/telisca_ips_lock_control",
+	"needs_cleanup": false
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Sticky Keys Persistence Module",
-  "fullname": "post/windows/manage/sticky_keys",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "OJ Reeves"
-  ],
-  "description": "This module makes it possible to apply the 'sticky keys' hack to a session with appropriate\n          rights. The hack provides a means to get a SYSTEM shell using UI-level interaction at an RDP\n          login screen or via a UAC confirmation dialog. The module modifies the Debug registry setting\n          for certain executables.\n\n          The module options allow for this hack to be applied to:\n\n          SETHC   (sethc.exe is invoked when SHIFT is pressed 5 times),\n          UTILMAN (Utilman.exe is invoked by pressing WINDOWS+U),\n          OSK     (osk.exe is invoked by pressing WINDOWS+U, then launching the on-screen keyboard), and\n          DISP    (DisplaySwitch.exe is invoked by pressing WINDOWS+P).\n\n          The hack can be added using the ADD action, and removed with the REMOVE action.\n\n          Custom payloads and binaries can be run as part of this exploit, but must be manually uploaded\n          to the target prior to running the module. By default, a SYSTEM command prompt is installed\n          using the registry method if this module is run without modifying any parameters.",
-  "references": [
-    "URL-https://web.archive.org/web/20170201184448/https://social.technet.microsoft.com/Forums/windows/en-US/a3968ec9-5824-4bc2-82a2-a37ea88c273a/sticky-keys-exploit",
-    "URL-https://blog.carnal0wnage.com/2012/04/privilege-escalation-via-sticky-keys.html"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-05-11 12:22:54 +0000",
-  "path": "/modules/post/windows/manage/sticky_keys.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/sticky_keys",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Sticky Keys Persistence Module",
+	"fullname": "post/windows/manage/sticky_keys",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"OJ Reeves"
+	],
+	"description": "This module makes it possible to apply the 'sticky keys' hack to a session with appropriate\n          rights. The hack provides a means to get a SYSTEM shell using UI-level interaction at an RDP\n          login screen or via a UAC confirmation dialog. The module modifies the Debug registry setting\n          for certain executables.\n\n          The module options allow for this hack to be applied to:\n\n          SETHC   (sethc.exe is invoked when SHIFT is pressed 5 times),\n          UTILMAN (Utilman.exe is invoked by pressing WINDOWS+U),\n          OSK     (osk.exe is invoked by pressing WINDOWS+U, then launching the on-screen keyboard), and\n          DISP    (DisplaySwitch.exe is invoked by pressing WINDOWS+P).\n\n          The hack can be added using the ADD action, and removed with the REMOVE action.\n\n          Custom payloads and binaries can be run as part of this exploit, but must be manually uploaded\n          to the target prior to running the module. By default, a SYSTEM command prompt is installed\n          using the registry method if this module is run without modifying any parameters.",
+	"references": [
+		"URL-https://web.archive.org/web/20170201184448/https://social.technet.microsoft.com/Forums/windows/en-US/a3968ec9-5824-4bc2-82a2-a37ea88c273a/sticky-keys-exploit",
+		"URL-https://blog.carnal0wnage.com/2012/04/privilege-escalation-via-sticky-keys.html"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-05-11 12:22:54 +0000",
+	"path": "/modules/post/windows/manage/sticky_keys.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/sticky_keys",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

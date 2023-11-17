@@ -1,17 +1,17 @@
 {
-  "name": "Hostname-based Context Keyed Payload Encoder",
-  "fullname": "encoder/x64/xor_context",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "sfoso"
-  ],
-  "description": "Context-Keyed Payload Encoder based on hostname and x64 XOR encoder.",
-  "platform": "Linux",
-  "arch": "x64",
-  "mod_time": "2019-07-01 10:36:08 +0000",
-  "path": "/modules/encoders/x64/xor_context.rb",
-  "is_install_path": true,
-  "ref_name": "x64/xor_context",
-  "needs_cleanup": false
+	"name": "Hostname-based Context Keyed Payload Encoder",
+	"fullname": "encoder/x64/xor_context",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"sfoso"
+	],
+	"description": "Context-Keyed Payload Encoder based on hostname and x64 XOR encoder.",
+	"platform": "Linux",
+	"arch": "x64",
+	"mod_time": "2019-07-01 10:36:08 +0000",
+	"path": "/modules/encoders/x64/xor_context.rb",
+	"is_install_path": true,
+	"ref_name": "x64/xor_context",
+	"needs_cleanup": false
 }

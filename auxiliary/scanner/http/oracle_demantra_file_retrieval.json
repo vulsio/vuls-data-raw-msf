@@ -1,38 +1,38 @@
 {
-  "name": "Oracle Demantra Arbitrary File Retrieval with Authentication Bypass",
-  "fullname": "auxiliary/scanner/http/oracle_demantra_file_retrieval",
-  "rank": 300,
-  "disclosure_date": "2014-02-28",
-  "type": "auxiliary",
-  "author": [
-    "Oliver Gruskovnjak"
-  ],
-  "description": "This module exploits a file download vulnerability found in Oracle\n        Demantra 12.2.1 in combination with an authentication bypass. By\n        combining these exposures, an unauthenticated user can retrieve any file\n        on the system by referencing the full file path to any file a vulnerable\n        machine.",
-  "references": [
-    "CVE-2013-5877",
-    "CVE-2013-5880",
-    "URL-https://www.portcullis-security.com/security-research-and-downloads/security-advisories/cve-2013-5877/",
-    "URL-https://www.portcullis-security.com/security-research-and-downloads/security-advisories/cve-2013-5880/"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/oracle_demantra_file_retrieval.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/oracle_demantra_file_retrieval",
-  "needs_cleanup": false
+	"name": "Oracle Demantra Arbitrary File Retrieval with Authentication Bypass",
+	"fullname": "auxiliary/scanner/http/oracle_demantra_file_retrieval",
+	"rank": 300,
+	"disclosure_date": "2014-02-28",
+	"type": "auxiliary",
+	"author": [
+		"Oliver Gruskovnjak"
+	],
+	"description": "This module exploits a file download vulnerability found in Oracle\n        Demantra 12.2.1 in combination with an authentication bypass. By\n        combining these exposures, an unauthenticated user can retrieve any file\n        on the system by referencing the full file path to any file a vulnerable\n        machine.",
+	"references": [
+		"CVE-2013-5877",
+		"CVE-2013-5880",
+		"URL-https://www.portcullis-security.com/security-research-and-downloads/security-advisories/cve-2013-5877/",
+		"URL-https://www.portcullis-security.com/security-research-and-downloads/security-advisories/cve-2013-5880/"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/oracle_demantra_file_retrieval.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/oracle_demantra_file_retrieval",
+	"needs_cleanup": false
 }

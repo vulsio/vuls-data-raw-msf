@@ -1,18 +1,18 @@
 {
-  "name": "TFTP Fetch, Linux x64 Command Shell, Bind TCP Inline (IPv6)",
-  "fullname": "payload/cmd/linux/tftp/x64/shell_bind_ipv6_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "epi <epibar052@gmail.com>"
-  ],
-  "description": "Fetch and execute an x64 payload from a TFTP server.\nListen for an IPv6 connection and spawn a command shell",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-05-25 11:49:38 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/x64/shell_bind_ipv6_tcp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Linux x64 Command Shell, Bind TCP Inline (IPv6)",
+	"fullname": "payload/cmd/linux/tftp/x64/shell_bind_ipv6_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"epi <epibar052@gmail.com>"
+	],
+	"description": "Fetch and execute an x64 payload from a TFTP server.\nListen for an IPv6 connection and spawn a command shell",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-05-25 11:49:38 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/x64/shell_bind_ipv6_tcp",
+	"needs_cleanup": false
 }

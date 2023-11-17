@@ -1,38 +1,38 @@
 {
-  "name": "FortiMail Unauthenticated Login Bypass Scanner",
-  "fullname": "auxiliary/scanner/http/fortimail_login_bypass_detection",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Mike Connor",
-    "Juerg Schweingruber <juerg.schweingruber@redguard.ch>",
-    "Patrick Schmid <patrick.schmid@redguard.ch>"
-  ],
-  "description": "This module attempts to detect instances of FortiMail vulnerable\n        against an unauthenticated login bypass (CVE-2020-9294).",
-  "references": [
-    "CVE-2020-9294",
-    "URL-https://www.fortiguard.com/psirt/FG-IR-20-045",
-    "URL-https://www.redguard.ch/blog/2020/07/02/fortimail-unauthenticated-login-bypass/"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/fortimail_login_bypass_detection.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/fortimail_login_bypass_detection",
-  "needs_cleanup": false
+	"name": "FortiMail Unauthenticated Login Bypass Scanner",
+	"fullname": "auxiliary/scanner/http/fortimail_login_bypass_detection",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Mike Connor",
+		"Juerg Schweingruber <juerg.schweingruber@redguard.ch>",
+		"Patrick Schmid <patrick.schmid@redguard.ch>"
+	],
+	"description": "This module attempts to detect instances of FortiMail vulnerable\n        against an unauthenticated login bypass (CVE-2020-9294).",
+	"references": [
+		"CVE-2020-9294",
+		"URL-https://www.fortiguard.com/psirt/FG-IR-20-045",
+		"URL-https://www.redguard.ch/blog/2020/07/02/fortimail-unauthenticated-login-bypass/"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/fortimail_login_bypass_detection.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/fortimail_login_bypass_detection",
+	"needs_cleanup": false
 }

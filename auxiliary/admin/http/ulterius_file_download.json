@@ -1,36 +1,36 @@
 {
-  "name": "Ulterius Server File Download Vulnerability",
-  "fullname": "auxiliary/admin/http/ulterius_file_download",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rick Osgood",
-    "Jacob Robles"
-  ],
-  "description": "This module exploits a directory traversal vulnerability in Ulterius Server < v1.9.5.0\n          to download files from the affected host. A valid file path is needed to download a file.\n          Fortunately, Ulterius indexes every file on the system, which can be stored in the\n          following location:\n\n          http://ulteriusURL:port/.../fileIndex.db.\n\n          This module can download and parse the fileIndex.db file. There is also an option to\n          download a file using a provided path.",
-  "references": [
-    "EDB-43141",
-    "CVE-2017-16806"
-  ],
-  "rport": 22006,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/ulterius_file_download.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/ulterius_file_download",
-  "needs_cleanup": false
+	"name": "Ulterius Server File Download Vulnerability",
+	"fullname": "auxiliary/admin/http/ulterius_file_download",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rick Osgood",
+		"Jacob Robles"
+	],
+	"description": "This module exploits a directory traversal vulnerability in Ulterius Server < v1.9.5.0\n          to download files from the affected host. A valid file path is needed to download a file.\n          Fortunately, Ulterius indexes every file on the system, which can be stored in the\n          following location:\n\n          http://ulteriusURL:port/.../fileIndex.db.\n\n          This module can download and parse the fileIndex.db file. There is also an option to\n          download a file using a provided path.",
+	"references": [
+		"EDB-43141",
+		"CVE-2017-16806"
+	],
+	"rport": 22006,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/ulterius_file_download.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/ulterius_file_download",
+	"needs_cleanup": false
 }

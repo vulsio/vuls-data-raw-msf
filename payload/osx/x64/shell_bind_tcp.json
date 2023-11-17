@@ -1,17 +1,17 @@
 {
-  "name": "OS X x64 Shell Bind TCP",
-  "fullname": "payload/osx/x64/shell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "nemo <nemo@felinemenace.org>"
-  ],
-  "description": "Bind an arbitrary command to an arbitrary port",
-  "platform": "OSX",
-  "arch": "x64",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/osx/x64/shell_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x64/shell_bind_tcp",
-  "needs_cleanup": false
+	"name": "OS X x64 Shell Bind TCP",
+	"fullname": "payload/osx/x64/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"nemo <nemo@felinemenace.org>"
+	],
+	"description": "Bind an arbitrary command to an arbitrary port",
+	"platform": "OSX",
+	"arch": "x64",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/osx/x64/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x64/shell_bind_tcp",
+	"needs_cleanup": false
 }

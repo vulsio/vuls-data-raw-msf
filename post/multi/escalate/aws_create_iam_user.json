@@ -1,24 +1,24 @@
 {
-  "name": "Create an AWS IAM User",
-  "fullname": "post/multi/escalate/aws_create_iam_user",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Javier Godinez <godinezj@gmail.com>",
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module will attempt to create an AWS (Amazon Web Services) IAM\n          (Identity and Access Management) user with Admin privileges.",
-  "references": [
-    "URL-https://github.com/devsecops/bootcamp/raw/master/Week-6/slides/june-DSO-bootcamp-week-six-lesson-three.pdf"
-  ],
-  "platform": "Unix",
-  "rport": 443,
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/escalate/aws_create_iam_user.rb",
-  "is_install_path": true,
-  "ref_name": "multi/escalate/aws_create_iam_user",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Create an AWS IAM User",
+	"fullname": "post/multi/escalate/aws_create_iam_user",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Javier Godinez <godinezj@gmail.com>",
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module will attempt to create an AWS (Amazon Web Services) IAM\n          (Identity and Access Management) user with Admin privileges.",
+	"references": [
+		"URL-https://github.com/devsecops/bootcamp/raw/master/Week-6/slides/june-DSO-bootcamp-week-six-lesson-three.pdf"
+	],
+	"platform": "Unix",
+	"rport": 443,
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/escalate/aws_create_iam_user.rb",
+	"is_install_path": true,
+	"ref_name": "multi/escalate/aws_create_iam_user",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

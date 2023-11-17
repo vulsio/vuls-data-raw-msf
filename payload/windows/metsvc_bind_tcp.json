@@ -1,17 +1,17 @@
 {
-  "name": "Windows Meterpreter Service, Bind TCP",
-  "fullname": "payload/windows/metsvc_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Stub payload for interacting with a Meterpreter Service",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2021-01-05 14:59:46 +0000",
-  "path": "/modules/payloads/singles/windows/metsvc_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/metsvc_bind_tcp",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter Service, Bind TCP",
+	"fullname": "payload/windows/metsvc_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Stub payload for interacting with a Meterpreter Service",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2021-01-05 14:59:46 +0000",
+	"path": "/modules/payloads/singles/windows/metsvc_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/metsvc_bind_tcp",
+	"needs_cleanup": false
 }

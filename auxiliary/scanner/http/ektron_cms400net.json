@@ -1,32 +1,32 @@
 {
-  "name": "Ektron CMS400.NET Default Password Scanner",
-  "fullname": "auxiliary/scanner/http/ektron_cms400net",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Justin Cacak"
-  ],
-  "description": "Ektron CMS400.NET is a web content management system based on .NET.\n          This module tests for installations that are utilizing default\n          passwords set by the vendor. Additionally, it has the ability\n          to brute force user accounts. Note that Ektron CMS400.NET, by\n          default, enforces account lockouts for regular user account\n          after a number of failed attempts.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/ektron_cms400net.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/ektron_cms400net",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Ektron CMS400.NET Default Password Scanner",
+	"fullname": "auxiliary/scanner/http/ektron_cms400net",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Justin Cacak"
+	],
+	"description": "Ektron CMS400.NET is a web content management system based on .NET.\n          This module tests for installations that are utilizing default\n          passwords set by the vendor. Additionally, it has the ability\n          to brute force user accounts. Note that Ektron CMS400.NET, by\n          default, enforces account lockouts for regular user account\n          after a number of failed attempts.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/ektron_cms400net.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/ektron_cms400net",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Linux Gather Gnome-Commander Creds",
-  "fullname": "post/linux/gather/gnome_commander_creds",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "David Bloom"
-  ],
-  "description": "This module collects the clear text passwords stored by\n          Gnome-commander, a GUI file explorer for GNOME.  Typically, these\n          passwords are stored in the user's home directory, at\n          ~/.gnome-commander/connections.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/gather/gnome_commander_creds.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/gnome_commander_creds",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Linux Gather Gnome-Commander Creds",
+	"fullname": "post/linux/gather/gnome_commander_creds",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"David Bloom"
+	],
+	"description": "This module collects the clear text passwords stored by\n          Gnome-commander, a GUI file explorer for GNOME.  Typically, these\n          passwords are stored in the user's home directory, at\n          ~/.gnome-commander/connections.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/gather/gnome_commander_creds.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/gnome_commander_creds",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

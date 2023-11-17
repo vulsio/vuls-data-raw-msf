@@ -1,17 +1,17 @@
 {
-  "name": "Windows Executable Download and Evaluate VBS",
-  "fullname": "payload/cmd/windows/download_eval_vbs",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "scriptjunkie"
-  ],
-  "description": "Downloads a file from an HTTP(S) URL and executes it as a vbs script.\n            Use it to stage a vbs encoded payload from a short command line.",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/download_eval_vbs.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/download_eval_vbs",
-  "needs_cleanup": false
+	"name": "Windows Executable Download and Evaluate VBS",
+	"fullname": "payload/cmd/windows/download_eval_vbs",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"scriptjunkie"
+	],
+	"description": "Downloads a file from an HTTP(S) URL and executes it as a vbs script.\n            Use it to stage a vbs encoded payload from a short command line.",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/download_eval_vbs.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/download_eval_vbs",
+	"needs_cleanup": false
 }

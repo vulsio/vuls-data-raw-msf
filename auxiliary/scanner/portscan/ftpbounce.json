@@ -1,22 +1,22 @@
 {
-  "name": "FTP Bounce Port Scanner",
-  "fullname": "auxiliary/scanner/portscan/ftpbounce",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "Enumerate TCP services via the FTP bounce PORT/LIST\n        method.",
-  "autofilter_ports": [
-    21,
-    2121
-  ],
-  "autofilter_services": [
-    "ftp"
-  ],
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/portscan/ftpbounce.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/portscan/ftpbounce",
-  "needs_cleanup": false
+	"name": "FTP Bounce Port Scanner",
+	"fullname": "auxiliary/scanner/portscan/ftpbounce",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "Enumerate TCP services via the FTP bounce PORT/LIST\n        method.",
+	"autofilter_ports": [
+		21,
+		2121
+	],
+	"autofilter_services": [
+		"ftp"
+	],
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/portscan/ftpbounce.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/portscan/ftpbounce",
+	"needs_cleanup": false
 }

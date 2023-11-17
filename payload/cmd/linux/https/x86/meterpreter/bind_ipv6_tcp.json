@@ -1,21 +1,21 @@
 {
-  "name": "HTTPS Fetch, Bind IPv6 TCP Stager (Linux x86)",
-  "fullname": "payload/cmd/linux/https/x86/meterpreter/bind_ipv6_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "William Webb <william_webb@rapid7.com>",
-    "kris katterjohn <katterjohn@gmail.com>",
-    "egypt <egypt@metasploit.com>"
-  ],
-  "description": "Fetch and execute an x86 payload from an HTTPS server.\nListen for an IPv6 connection (Linux x86)",
-  "platform": "Linux,Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/https/x86/meterpreter/bind_ipv6_tcp",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Bind IPv6 TCP Stager (Linux x86)",
+	"fullname": "payload/cmd/linux/https/x86/meterpreter/bind_ipv6_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"William Webb <william_webb@rapid7.com>",
+		"kris katterjohn <katterjohn@gmail.com>",
+		"egypt <egypt@metasploit.com>"
+	],
+	"description": "Fetch and execute an x86 payload from an HTTPS server.\nListen for an IPv6 connection (Linux x86)",
+	"platform": "Linux,Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/https/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/https/x86/meterpreter/bind_ipv6_tcp",
+	"needs_cleanup": false
 }

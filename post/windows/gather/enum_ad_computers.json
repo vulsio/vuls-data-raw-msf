@@ -1,21 +1,21 @@
 {
-  "name": "Windows Gather Active Directory Computers",
-  "fullname": "post/windows/gather/enum_ad_computers",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module will enumerate computers in the default AD directory.\n\n          Optional Attributes to use in ATTRIBS:\n          objectClass, cn, description, distinguishedName, instanceType, whenCreated,\n          whenChanged, uSNCreated, uSNChanged, name, objectGUID,\n          userAccountControl, badPwdCount, codePage, countryCode,\n          badPasswordTime, lastLogoff, lastLogon, localPolicyFlags,\n          pwdLastSet, primaryGroupID, objectSid, accountExpires,\n          logonCount, sAMAccountName, sAMAccountType, operatingSystem,\n          operatingSystemVersion, operatingSystemServicePack, serverReferenceBL,\n          dNSHostName, rIDSetPreferences, servicePrincipalName, objectCategory,\n          netbootSCPBL, isCriticalSystemObject, frsComputerReferenceBL,\n          lastLogonTimestamp, msDS-SupportedEncryptionTypes\n\n          ActiveDirectory has a MAX_SEARCH limit of 1000 by default. Split search up\n          if you hit that limit.\n\n          Possible filters:\n          (objectClass=computer) # All Computers\n          (primaryGroupID=516)  # All Domain Controllers\n          (&(objectCategory=computer)(operatingSystem=*server*)) # All Servers",
-  "references": [
-    "URL-http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_ad_computers.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_ad_computers",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Active Directory Computers",
+	"fullname": "post/windows/gather/enum_ad_computers",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module will enumerate computers in the default AD directory.\n\n          Optional Attributes to use in ATTRIBS:\n          objectClass, cn, description, distinguishedName, instanceType, whenCreated,\n          whenChanged, uSNCreated, uSNChanged, name, objectGUID,\n          userAccountControl, badPwdCount, codePage, countryCode,\n          badPasswordTime, lastLogoff, lastLogon, localPolicyFlags,\n          pwdLastSet, primaryGroupID, objectSid, accountExpires,\n          logonCount, sAMAccountName, sAMAccountType, operatingSystem,\n          operatingSystemVersion, operatingSystemServicePack, serverReferenceBL,\n          dNSHostName, rIDSetPreferences, servicePrincipalName, objectCategory,\n          netbootSCPBL, isCriticalSystemObject, frsComputerReferenceBL,\n          lastLogonTimestamp, msDS-SupportedEncryptionTypes\n\n          ActiveDirectory has a MAX_SEARCH limit of 1000 by default. Split search up\n          if you hit that limit.\n\n          Possible filters:\n          (objectClass=computer) # All Computers\n          (primaryGroupID=516)  # All Domain Controllers\n          (&(objectCategory=computer)(operatingSystem=*server*)) # All Servers",
+	"references": [
+		"URL-http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_ad_computers.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_ad_computers",
+	"session_types": [
+		"meterpreter"
+	]
 }

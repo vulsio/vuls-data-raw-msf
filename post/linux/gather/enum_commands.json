@@ -1,24 +1,24 @@
 {
-  "name": "Gather Available Shell Commands",
-  "fullname": "post/linux/gather/enum_commands",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
-  ],
-  "description": "This module will check which shell commands are available on a system.\"",
-  "platform": "Linux,Unix",
-  "mod_time": "2022-12-20 23:42:51 +0000",
-  "path": "/modules/post/linux/gather/enum_commands.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_commands",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Gather Available Shell Commands",
+	"fullname": "post/linux/gather/enum_commands",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
+	],
+	"description": "This module will check which shell commands are available on a system.\"",
+	"platform": "Linux,Unix",
+	"mod_time": "2022-12-20 23:42:51 +0000",
+	"path": "/modules/post/linux/gather/enum_commands.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_commands",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

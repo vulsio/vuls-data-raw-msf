@@ -1,47 +1,47 @@
 {
-  "name": "WordPress Email Subscribers and Newsletter Hash SQLi Scanner",
-  "fullname": "auxiliary/scanner/http/wp_email_sub_news_sqli",
-  "rank": 300,
-  "disclosure_date": "2019-11-13",
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "red0xff",
-    "Wordfence"
-  ],
-  "description": "Email Subscribers & Newsletters plugin contains an unauthenticated timebased SQL injection in\n          versions before 4.3.1.  The hash parameter is vulnerable to injection.",
-  "references": [
-    "EDB-48699",
-    "CVE-2019-20361",
-    "URL-https://www.wordfence.com/blog/2019/11/multiple-vulnerabilities-patched-in-email-subscribers-newsletters-plugin/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-04-12 13:09:34 +0000",
-  "path": "/modules/auxiliary/scanner/http/wp_email_sub_news_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/wp_email_sub_news_sqli",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "WordPress Email Subscribers and Newsletter Hash SQLi Scanner",
+	"fullname": "auxiliary/scanner/http/wp_email_sub_news_sqli",
+	"rank": 300,
+	"disclosure_date": "2019-11-13",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"red0xff",
+		"Wordfence"
+	],
+	"description": "Email Subscribers & Newsletters plugin contains an unauthenticated timebased SQL injection in\n          versions before 4.3.1.  The hash parameter is vulnerable to injection.",
+	"references": [
+		"EDB-48699",
+		"CVE-2019-20361",
+		"URL-https://www.wordfence.com/blog/2019/11/multiple-vulnerabilities-patched-in-email-subscribers-newsletters-plugin/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-04-12 13:09:34 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_email_sub_news_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_email_sub_news_sqli",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Cisco IOS SNMP File Upload (TFTP)",
-  "fullname": "auxiliary/scanner/snmp/cisco_upload_file",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "pello <fropert@packetfault.org>",
-    "ct5595"
-  ],
-  "description": "This module will copy file to a Cisco IOS device using SNMP and TFTP.\n        The action Override_Config will override the running config of the Cisco device.\n        A read-write SNMP community is required. The SNMP community scanner module can\n        assist in identifying a read-write community. The target must\n        be able to connect back to the Metasploit system and the use of\n        NAT will cause the TFTP transfer to fail.",
-  "rport": 161,
-  "mod_time": "2019-04-09 09:01:33 +0000",
-  "path": "/modules/auxiliary/scanner/snmp/cisco_upload_file.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/snmp/cisco_upload_file",
-  "needs_cleanup": false
+	"name": "Cisco IOS SNMP File Upload (TFTP)",
+	"fullname": "auxiliary/scanner/snmp/cisco_upload_file",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"pello <fropert@packetfault.org>",
+		"ct5595"
+	],
+	"description": "This module will copy file to a Cisco IOS device using SNMP and TFTP.\n        The action Override_Config will override the running config of the Cisco device.\n        A read-write SNMP community is required. The SNMP community scanner module can\n        assist in identifying a read-write community. The target must\n        be able to connect back to the Metasploit system and the use of\n        NAT will cause the TFTP transfer to fail.",
+	"rport": 161,
+	"mod_time": "2019-04-09 09:01:33 +0000",
+	"path": "/modules/auxiliary/scanner/snmp/cisco_upload_file.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/snmp/cisco_upload_file",
+	"needs_cleanup": false
 }

@@ -1,38 +1,38 @@
 {
-  "name": "Apache Tomcat User Enumeration",
-  "fullname": "auxiliary/scanner/http/tomcat_enum",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Heyder Andrade <heyder.andrade@gmail.com>",
-    "Leandro Oliveira <leandrofernando@gmail.com>"
-  ],
-  "description": "This module enumerates Apache Tomcat's usernames via malformed requests to\n        j_security_check, which can be found in the web administration package. It should\n        work against Tomcat servers 4.1.0 - 4.1.39, 5.5.0 - 5.5.27, and 6.0.0 - 6.0.18.\n        Newer versions no longer have the \"admin\" package by default. The 'admin' package\n        is no longer provided for Tomcat 6 and later versions.",
-  "references": [
-    "BID-35196",
-    "CVE-2009-0580",
-    "OSVDB-55055"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/tomcat_enum.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/tomcat_enum",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Apache Tomcat User Enumeration",
+	"fullname": "auxiliary/scanner/http/tomcat_enum",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Heyder Andrade <heyder.andrade@gmail.com>",
+		"Leandro Oliveira <leandrofernando@gmail.com>"
+	],
+	"description": "This module enumerates Apache Tomcat's usernames via malformed requests to\n        j_security_check, which can be found in the web administration package. It should\n        work against Tomcat servers 4.1.0 - 4.1.39, 5.5.0 - 5.5.27, and 6.0.0 - 6.0.18.\n        Newer versions no longer have the \"admin\" package by default. The 'admin' package\n        is no longer provided for Tomcat 6 and later versions.",
+	"references": [
+		"BID-35196",
+		"CVE-2009-0580",
+		"OSVDB-55055"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/tomcat_enum.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/tomcat_enum",
+	"post_auth": true,
+	"needs_cleanup": false
 }

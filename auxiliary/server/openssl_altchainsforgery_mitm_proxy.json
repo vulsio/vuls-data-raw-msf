@@ -1,23 +1,23 @@
 {
-  "name": "OpenSSL Alternative Chains Certificate Forgery MITM Proxy",
-  "fullname": "auxiliary/server/openssl_altchainsforgery_mitm_proxy",
-  "rank": 300,
-  "disclosure_date": "2015-07-09",
-  "type": "auxiliary",
-  "author": [
-    "David Benjamin",
-    "Adam Langley",
-    "Ramon de C Valle <rcvalle@metasploit.com>"
-  ],
-  "description": "This module exploits a logic error in OpenSSL by impersonating the server\n        and sending a specially-crafted chain of certificates, resulting in\n        certain checks on untrusted certificates to be bypassed on the client,\n        allowing it to use a valid leaf certificate as a CA certificate to sign a\n        fake certificate. The SSL/TLS session is then proxied to the server\n        allowing the session to continue normally and application data transmitted\n        between the peers to be saved.\n\n        The valid leaf certificate must not contain the keyUsage extension or it\n        must have at least the keyCertSign bit set (see X509_check_issued function\n        in crypto/x509v3/v3_purp.c); otherwise; X509_verify_cert fails with\n        X509_V_ERR_UNABLE_TO_GET_ISSUER_CERT_LOCALLY. This module requires an\n        active man-in-the-middle attack.",
-  "references": [
-    "CVE-2015-1793",
-    "CWE-754",
-    "URL-http://git.openssl.org/?p=openssl.git;a=commit;h=f404943bcab4898d18f3ac1b36479d1d7bbbb9e6"
-  ],
-  "mod_time": "2021-02-19 20:35:33 +0000",
-  "path": "/modules/auxiliary/server/openssl_altchainsforgery_mitm_proxy.rb",
-  "is_install_path": true,
-  "ref_name": "server/openssl_altchainsforgery_mitm_proxy",
-  "needs_cleanup": false
+	"name": "OpenSSL Alternative Chains Certificate Forgery MITM Proxy",
+	"fullname": "auxiliary/server/openssl_altchainsforgery_mitm_proxy",
+	"rank": 300,
+	"disclosure_date": "2015-07-09",
+	"type": "auxiliary",
+	"author": [
+		"David Benjamin",
+		"Adam Langley",
+		"Ramon de C Valle <rcvalle@metasploit.com>"
+	],
+	"description": "This module exploits a logic error in OpenSSL by impersonating the server\n        and sending a specially-crafted chain of certificates, resulting in\n        certain checks on untrusted certificates to be bypassed on the client,\n        allowing it to use a valid leaf certificate as a CA certificate to sign a\n        fake certificate. The SSL/TLS session is then proxied to the server\n        allowing the session to continue normally and application data transmitted\n        between the peers to be saved.\n\n        The valid leaf certificate must not contain the keyUsage extension or it\n        must have at least the keyCertSign bit set (see X509_check_issued function\n        in crypto/x509v3/v3_purp.c); otherwise; X509_verify_cert fails with\n        X509_V_ERR_UNABLE_TO_GET_ISSUER_CERT_LOCALLY. This module requires an\n        active man-in-the-middle attack.",
+	"references": [
+		"CVE-2015-1793",
+		"CWE-754",
+		"URL-http://git.openssl.org/?p=openssl.git;a=commit;h=f404943bcab4898d18f3ac1b36479d1d7bbbb9e6"
+	],
+	"mod_time": "2021-02-19 20:35:33 +0000",
+	"path": "/modules/auxiliary/server/openssl_altchainsforgery_mitm_proxy.rb",
+	"is_install_path": true,
+	"ref_name": "server/openssl_altchainsforgery_mitm_proxy",
+	"needs_cleanup": false
 }

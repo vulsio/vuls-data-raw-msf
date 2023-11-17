@@ -1,18 +1,18 @@
 {
-  "name": "OSX Manage Webcam",
-  "fullname": "post/osx/manage/webcam",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module will allow the user to detect installed webcams (with\n          the LIST action), take a snapshot (with the SNAPSHOT action), or\n          record a webcam and mic (with the RECORD action)",
-  "platform": "OSX",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/osx/manage/webcam.rb",
-  "is_install_path": true,
-  "ref_name": "osx/manage/webcam",
-  "session_types": [
-    "shell"
-  ]
+	"name": "OSX Manage Webcam",
+	"fullname": "post/osx/manage/webcam",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module will allow the user to detect installed webcams (with\n          the LIST action), take a snapshot (with the SNAPSHOT action), or\n          record a webcam and mic (with the RECORD action)",
+	"platform": "OSX",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/osx/manage/webcam.rb",
+	"is_install_path": true,
+	"ref_name": "osx/manage/webcam",
+	"session_types": [
+		"shell"
+	]
 }

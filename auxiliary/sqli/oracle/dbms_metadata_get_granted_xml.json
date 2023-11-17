@@ -1,21 +1,21 @@
 {
-  "name": "Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_GRANTED_XML",
-  "fullname": "auxiliary/sqli/oracle/dbms_metadata_get_granted_xml",
-  "rank": 300,
-  "disclosure_date": "2008-01-05",
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module will escalate an Oracle DB user to DBA by exploiting a sql injection\n        bug in the SYS.DBMS_METADATA.GET_GRANTED_XML package/function.",
-  "references": [
-    "URL-http://www.metasploit.com"
-  ],
-  "rport": 1521,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/sqli/oracle/dbms_metadata_get_granted_xml.rb",
-  "is_install_path": true,
-  "ref_name": "sqli/oracle/dbms_metadata_get_granted_xml",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_GRANTED_XML",
+	"fullname": "auxiliary/sqli/oracle/dbms_metadata_get_granted_xml",
+	"rank": 300,
+	"disclosure_date": "2008-01-05",
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module will escalate an Oracle DB user to DBA by exploiting a sql injection\n        bug in the SYS.DBMS_METADATA.GET_GRANTED_XML package/function.",
+	"references": [
+		"URL-http://www.metasploit.com"
+	],
+	"rport": 1521,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/sqli/oracle/dbms_metadata_get_granted_xml.rb",
+	"is_install_path": true,
+	"ref_name": "sqli/oracle/dbms_metadata_get_granted_xml",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Memcached Stats Amplification Scanner",
-  "fullname": "auxiliary/scanner/memcached/memcached_amp",
-  "rank": 300,
-  "disclosure_date": "2018-02-27",
-  "type": "auxiliary",
-  "author": [
-    "Marek Majkowski",
-    "xistence <xistence@0x90.nl>",
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module can be used to discover Memcached servers which expose the\n          unrestricted UDP port 11211. A basic \"stats\" request is executed to check\n          if an amplification attack is possible against a third party.",
-  "references": [
-    "URL-https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/",
-    "CVE-2018-1000115"
-  ],
-  "rport": 11211,
-  "mod_time": "2020-10-02 12:20:05 +0000",
-  "path": "/modules/auxiliary/scanner/memcached/memcached_amp.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/memcached/memcached_amp",
-  "needs_cleanup": false
+	"name": "Memcached Stats Amplification Scanner",
+	"fullname": "auxiliary/scanner/memcached/memcached_amp",
+	"rank": 300,
+	"disclosure_date": "2018-02-27",
+	"type": "auxiliary",
+	"author": [
+		"Marek Majkowski",
+		"xistence <xistence@0x90.nl>",
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module can be used to discover Memcached servers which expose the\n          unrestricted UDP port 11211. A basic \"stats\" request is executed to check\n          if an amplification attack is possible against a third party.",
+	"references": [
+		"URL-https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/",
+		"CVE-2018-1000115"
+	],
+	"rport": 11211,
+	"mod_time": "2020-10-02 12:20:05 +0000",
+	"path": "/modules/auxiliary/scanner/memcached/memcached_amp.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/memcached/memcached_amp",
+	"needs_cleanup": false
 }

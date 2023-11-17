@@ -1,17 +1,17 @@
 {
-  "name": "Python Exec, Python Meterpreter, Python Bind TCP Stager",
-  "fullname": "payload/cmd/unix/python/meterpreter/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre"
-  ],
-  "description": "Execute a Python payload from a command.\n\nRun a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nListen for a connection",
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/adapters/cmd/unix/python.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/python/meterpreter/bind_tcp",
-  "needs_cleanup": false
+	"name": "Python Exec, Python Meterpreter, Python Bind TCP Stager",
+	"fullname": "payload/cmd/unix/python/meterpreter/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Execute a Python payload from a command.\n\nRun a meterpreter server in Python (compatible with 2.5-2.7 & 3.1+).\n\nListen for a connection",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/unix/python.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/python/meterpreter/bind_tcp",
+	"needs_cleanup": false
 }

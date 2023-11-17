@@ -1,22 +1,22 @@
 {
-  "name": "Vulnerable domain identification",
-  "fullname": "auxiliary/scanner/msmail/host_id",
-  "rank": 300,
-  "disclosure_date": "2018-11-06",
-  "type": "auxiliary",
-  "author": [
-    "poptart",
-    "jlarose",
-    "Vincent Yiu",
-    "grimhacker",
-    "Nate Power",
-    "Nick Powers",
-    "clee-r7"
-  ],
-  "description": "Identifying potentially vulnerable Exchange endpoints",
-  "mod_time": "2018-12-07 13:29:56 +0000",
-  "path": "/modules/auxiliary/scanner/msmail/host_id.go",
-  "is_install_path": true,
-  "ref_name": "scanner/msmail/host_id",
-  "needs_cleanup": false
+	"name": "Vulnerable domain identification",
+	"fullname": "auxiliary/scanner/msmail/host_id",
+	"rank": 300,
+	"disclosure_date": "2018-11-06",
+	"type": "auxiliary",
+	"author": [
+		"poptart",
+		"jlarose",
+		"Vincent Yiu",
+		"grimhacker",
+		"Nate Power",
+		"Nick Powers",
+		"clee-r7"
+	],
+	"description": "Identifying potentially vulnerable Exchange endpoints",
+	"mod_time": "2018-12-07 13:29:56 +0000",
+	"path": "/modules/auxiliary/scanner/msmail/host_id.go",
+	"is_install_path": true,
+	"ref_name": "scanner/msmail/host_id",
+	"needs_cleanup": false
 }

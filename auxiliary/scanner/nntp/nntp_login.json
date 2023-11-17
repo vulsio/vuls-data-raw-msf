@@ -1,23 +1,23 @@
 {
-  "name": "NNTP Login Utility",
-  "fullname": "auxiliary/scanner/nntp/nntp_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "bcoles <bcoles@gmail.com>"
-  ],
-  "description": "This module attempts to authenticate to NNTP services\n        which support the AUTHINFO authentication extension.\n\n        This module supports AUTHINFO USER/PASS authentication,\n        but does not support AUTHINFO GENERIC or AUTHINFO SASL\n        authentication methods.",
-  "references": [
-    "CVE-1999-0502",
-    "URL-https://datatracker.ietf.org/doc/html/rfc3977",
-    "URL-https://datatracker.ietf.org/doc/html/rfc4642",
-    "URL-https://datatracker.ietf.org/doc/html/rfc4643"
-  ],
-  "rport": 119,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/nntp/nntp_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/nntp/nntp_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "NNTP Login Utility",
+	"fullname": "auxiliary/scanner/nntp/nntp_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "This module attempts to authenticate to NNTP services\n        which support the AUTHINFO authentication extension.\n\n        This module supports AUTHINFO USER/PASS authentication,\n        but does not support AUTHINFO GENERIC or AUTHINFO SASL\n        authentication methods.",
+	"references": [
+		"CVE-1999-0502",
+		"URL-https://datatracker.ietf.org/doc/html/rfc3977",
+		"URL-https://datatracker.ietf.org/doc/html/rfc4642",
+		"URL-https://datatracker.ietf.org/doc/html/rfc4643"
+	],
+	"rport": 119,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/nntp/nntp_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/nntp/nntp_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

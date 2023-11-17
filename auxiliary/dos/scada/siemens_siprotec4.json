@@ -1,20 +1,20 @@
 {
-  "name": "Siemens SIPROTEC 4 and SIPROTEC Compact EN100 Ethernet Module - Denial of Service",
-  "fullname": "auxiliary/dos/scada/siemens_siprotec4",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "M. Can Kurnaz"
-  ],
-  "description": "This module sends a specially crafted packet to port 50000/UDP\n             causing a denial of service of the affected (Siemens SIPROTEC 4 and SIPROTEC Compact < V4.25) devices.\n             A manual reboot is required to return the device to service.\n             CVE-2015-5374 and a CVSS v2 base score of 7.8 have been assigned to this vulnerability.",
-  "references": [
-    "EDB-44103",
-    "URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-15-202-01"
-  ],
-  "rport": 50000,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/dos/scada/siemens_siprotec4.rb",
-  "is_install_path": true,
-  "ref_name": "dos/scada/siemens_siprotec4",
-  "needs_cleanup": false
+	"name": "Siemens SIPROTEC 4 and SIPROTEC Compact EN100 Ethernet Module - Denial of Service",
+	"fullname": "auxiliary/dos/scada/siemens_siprotec4",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"M. Can Kurnaz"
+	],
+	"description": "This module sends a specially crafted packet to port 50000/UDP\n             causing a denial of service of the affected (Siemens SIPROTEC 4 and SIPROTEC Compact < V4.25) devices.\n             A manual reboot is required to return the device to service.\n             CVE-2015-5374 and a CVSS v2 base score of 7.8 have been assigned to this vulnerability.",
+	"references": [
+		"EDB-44103",
+		"URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-15-202-01"
+	],
+	"rport": 50000,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/dos/scada/siemens_siprotec4.rb",
+	"is_install_path": true,
+	"ref_name": "dos/scada/siemens_siprotec4",
+	"needs_cleanup": false
 }

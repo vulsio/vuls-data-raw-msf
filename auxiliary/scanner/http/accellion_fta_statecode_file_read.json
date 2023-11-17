@@ -1,36 +1,36 @@
 {
-  "name": "Accellion FTA 'statecode' Cookie Arbitrary File Read",
-  "fullname": "auxiliary/scanner/http/accellion_fta_statecode_file_read",
-  "rank": 300,
-  "disclosure_date": "2015-07-10",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module exploits a file disclosure vulnerability in the Accellion\n        File Transfer appliance. This vulnerability is triggered when a user-provided\n        'statecode' cookie parameter is appended to a file path that is processed as\n        a HTML template. By prepending this cookie with directory traversal sequence\n        and appending a NULL byte, any file readable by the web user can be exposed.\n        The web user has read access to a number of sensitive files, including the\n        system configuration and files uploaded to the appliance by users.\n        This issue was confirmed on version FTA_9_11_200, but may apply to previous\n        versions as well. This issue was fixed in software update FTA_9_11_210.",
-  "references": [
-    "URL-https://www.rapid7.com/blog/post/2015/07/10/r7-2015-08-accellion-file-transfer-appliance-vulnerabilities-cve-2015-2856-cve-2015-2857/",
-    "CVE-2015-2856"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/accellion_fta_statecode_file_read.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/accellion_fta_statecode_file_read",
-  "needs_cleanup": false
+	"name": "Accellion FTA 'statecode' Cookie Arbitrary File Read",
+	"fullname": "auxiliary/scanner/http/accellion_fta_statecode_file_read",
+	"rank": 300,
+	"disclosure_date": "2015-07-10",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module exploits a file disclosure vulnerability in the Accellion\n        File Transfer appliance. This vulnerability is triggered when a user-provided\n        'statecode' cookie parameter is appended to a file path that is processed as\n        a HTML template. By prepending this cookie with directory traversal sequence\n        and appending a NULL byte, any file readable by the web user can be exposed.\n        The web user has read access to a number of sensitive files, including the\n        system configuration and files uploaded to the appliance by users.\n        This issue was confirmed on version FTA_9_11_200, but may apply to previous\n        versions as well. This issue was fixed in software update FTA_9_11_210.",
+	"references": [
+		"URL-https://www.rapid7.com/blog/post/2015/07/10/r7-2015-08-accellion-file-transfer-appliance-vulnerabilities-cve-2015-2856-cve-2015-2857/",
+		"CVE-2015-2856"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/accellion_fta_statecode_file_read.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/accellion_fta_statecode_file_read",
+	"needs_cleanup": false
 }

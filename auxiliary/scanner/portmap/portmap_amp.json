@@ -1,21 +1,21 @@
 {
-  "name": "Portmapper Amplification Scanner",
-  "fullname": "auxiliary/scanner/portmap/portmap_amp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "xistence <xistence@0x90.nl>"
-  ],
-  "description": "This module can be used to discover Portmapper services which can be used in an\n        amplification DDoS attack against a third party.",
-  "references": [
-    "CVE-2013-5211",
-    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A",
-    "URL-http://blog.level3.com/security/a-new-ddos-reflection-attack-portmapper-an-early-warning-to-the-industry/"
-  ],
-  "rport": 111,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/portmap/portmap_amp.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/portmap/portmap_amp",
-  "needs_cleanup": false
+	"name": "Portmapper Amplification Scanner",
+	"fullname": "auxiliary/scanner/portmap/portmap_amp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"xistence <xistence@0x90.nl>"
+	],
+	"description": "This module can be used to discover Portmapper services which can be used in an\n        amplification DDoS attack against a third party.",
+	"references": [
+		"CVE-2013-5211",
+		"URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A",
+		"URL-http://blog.level3.com/security/a-new-ddos-reflection-attack-portmapper-an-early-warning-to-the-industry/"
+	],
+	"rport": 111,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/portmap/portmap_amp.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/portmap/portmap_amp",
+	"needs_cleanup": false
 }

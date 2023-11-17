@@ -1,18 +1,18 @@
 {
-  "name": "Windows LoadLibrary Path",
-  "fullname": "payload/windows/loadlibrary",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Load an arbitrary library path",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/windows/loadlibrary.rb",
-  "is_install_path": true,
-  "ref_name": "windows/loadlibrary",
-  "needs_cleanup": false
+	"name": "Windows LoadLibrary Path",
+	"fullname": "payload/windows/loadlibrary",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Load an arbitrary library path",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/windows/loadlibrary.rb",
+	"is_install_path": true,
+	"ref_name": "windows/loadlibrary",
+	"needs_cleanup": false
 }

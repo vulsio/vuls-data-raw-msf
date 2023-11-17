@@ -1,15 +1,15 @@
 {
-  "name": "Windows Gather Enum User MUICache",
-  "fullname": "post/windows/gather/enum_muicache",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "TJ Glad <tjglad@cmail.nu>"
-  ],
-  "description": "This module gathers information about the files and file paths that logged on users have\n          executed on the system. It also will check if the file still exists on the system. This\n          information is gathered by using information stored under the MUICache registry key. If\n          the user is logged in when the module is executed it will collect the MUICache entries\n          by accessing the registry directly. If the user is not logged in the module will download\n          users registry hive NTUSER.DAT/UsrClass.dat from the system and the MUICache contents are\n          parsed from the downloaded hive.",
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/gather/enum_muicache.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_muicache"
+	"name": "Windows Gather Enum User MUICache",
+	"fullname": "post/windows/gather/enum_muicache",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"TJ Glad <tjglad@cmail.nu>"
+	],
+	"description": "This module gathers information about the files and file paths that logged on users have\n          executed on the system. It also will check if the file still exists on the system. This\n          information is gathered by using information stored under the MUICache registry key. If\n          the user is logged in when the module is executed it will collect the MUICache entries\n          by accessing the registry directly. If the user is not logged in the module will download\n          users registry hive NTUSER.DAT/UsrClass.dat from the system and the MUICache contents are\n          parsed from the downloaded hive.",
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/gather/enum_muicache.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_muicache"
 }

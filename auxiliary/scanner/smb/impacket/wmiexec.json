@@ -1,26 +1,26 @@
 {
-  "name": "WMI Exec",
-  "fullname": "auxiliary/scanner/smb/impacket/wmiexec",
-  "rank": 300,
-  "disclosure_date": "2018-03-19",
-  "type": "auxiliary",
-  "author": [
-    "beto",
-    "Spencer McIntyre"
-  ],
-  "description": "A similar approach to psexec but executing commands through WMI.",
-  "references": [
-    "URL-https://github.com/CoreSecurity/impacket/blob/master/examples/wmiexec.py"
-  ],
-  "mod_time": "2022-10-15 16:42:30 +0000",
-  "path": "/modules/auxiliary/scanner/smb/impacket/wmiexec.py",
-  "is_install_path": true,
-  "ref_name": "scanner/smb/impacket/wmiexec",
-  "post_auth": true,
-  "notes": {
-    "AKA": [
-      "wmiexec.py"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "WMI Exec",
+	"fullname": "auxiliary/scanner/smb/impacket/wmiexec",
+	"rank": 300,
+	"disclosure_date": "2018-03-19",
+	"type": "auxiliary",
+	"author": [
+		"beto",
+		"Spencer McIntyre"
+	],
+	"description": "A similar approach to psexec but executing commands through WMI.",
+	"references": [
+		"URL-https://github.com/CoreSecurity/impacket/blob/master/examples/wmiexec.py"
+	],
+	"mod_time": "2022-10-15 16:42:30 +0000",
+	"path": "/modules/auxiliary/scanner/smb/impacket/wmiexec.py",
+	"is_install_path": true,
+	"ref_name": "scanner/smb/impacket/wmiexec",
+	"post_auth": true,
+	"notes": {
+		"AKA": [
+			"wmiexec.py"
+		]
+	},
+	"needs_cleanup": false
 }

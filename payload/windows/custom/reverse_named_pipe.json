@@ -1,18 +1,18 @@
 {
-  "name": "Windows shellcode stage, Windows x86 Reverse Named Pipe (SMB) Stager",
-  "fullname": "payload/windows/custom/reverse_named_pipe",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "bwatters-r7",
-    "OJ Reeves"
-  ],
-  "description": "Custom shellcode stage.\n\nConnect back to the attacker via a named pipe pivot",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_named_pipe.rb",
-  "is_install_path": true,
-  "ref_name": "windows/custom/reverse_named_pipe",
-  "needs_cleanup": false
+	"name": "Windows shellcode stage, Windows x86 Reverse Named Pipe (SMB) Stager",
+	"fullname": "payload/windows/custom/reverse_named_pipe",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"bwatters-r7",
+		"OJ Reeves"
+	],
+	"description": "Custom shellcode stage.\n\nConnect back to the attacker via a named pipe pivot",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_named_pipe.rb",
+	"is_install_path": true,
+	"ref_name": "windows/custom/reverse_named_pipe",
+	"needs_cleanup": false
 }

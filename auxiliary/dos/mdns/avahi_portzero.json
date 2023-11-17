@@ -1,21 +1,21 @@
 {
-  "name": "Avahi Source Port 0 DoS",
-  "fullname": "auxiliary/dos/mdns/avahi_portzero",
-  "rank": 300,
-  "disclosure_date": "2008-11-14",
-  "type": "auxiliary",
-  "author": [
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "Avahi-daemon versions prior to 0.6.24 can be DoS'd\n        with an mDNS packet with a source port of 0.",
-  "references": [
-    "CVE-2008-5081",
-    "OSVDB-50929"
-  ],
-  "rport": 5353,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/dos/mdns/avahi_portzero.rb",
-  "is_install_path": true,
-  "ref_name": "dos/mdns/avahi_portzero",
-  "needs_cleanup": false
+	"name": "Avahi Source Port 0 DoS",
+	"fullname": "auxiliary/dos/mdns/avahi_portzero",
+	"rank": 300,
+	"disclosure_date": "2008-11-14",
+	"type": "auxiliary",
+	"author": [
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "Avahi-daemon versions prior to 0.6.24 can be DoS'd\n        with an mDNS packet with a source port of 0.",
+	"references": [
+		"CVE-2008-5081",
+		"OSVDB-50929"
+	],
+	"rport": 5353,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/dos/mdns/avahi_portzero.rb",
+	"is_install_path": true,
+	"ref_name": "dos/mdns/avahi_portzero",
+	"needs_cleanup": false
 }

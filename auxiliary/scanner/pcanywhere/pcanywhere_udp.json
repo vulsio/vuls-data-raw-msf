@@ -1,19 +1,19 @@
 {
-  "name": "PcAnywhere UDP Service Discovery",
-  "fullname": "auxiliary/scanner/pcanywhere/pcanywhere_udp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Discover active pcAnywhere services through UDP",
-  "references": [
-    "URL-http://www.unixwiz.net/tools/pcascan.txt"
-  ],
-  "rport": 5632,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/pcanywhere/pcanywhere_udp.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/pcanywhere/pcanywhere_udp",
-  "needs_cleanup": false
+	"name": "PcAnywhere UDP Service Discovery",
+	"fullname": "auxiliary/scanner/pcanywhere/pcanywhere_udp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Discover active pcAnywhere services through UDP",
+	"references": [
+		"URL-http://www.unixwiz.net/tools/pcascan.txt"
+	],
+	"rport": 5632,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/pcanywhere/pcanywhere_udp.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/pcanywhere/pcanywhere_udp",
+	"needs_cleanup": false
 }

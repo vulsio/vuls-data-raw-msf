@@ -1,29 +1,29 @@
 {
-  "name": "HTTPS Fetch, Bind TCP Stager (RC4 Stage Encryption, Metasm)",
-  "fullname": "payload/cmd/windows/https/x64/meterpreter/bind_tcp_rc4",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves",
-    "hdm <x@hdm.io>",
-    "mihi",
-    "max3raza",
-    "RageLtMan"
-  ],
-  "description": "Fetch and Execute an x64 payload from an https server.\n\nConnect back to the attacker",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/https/x64/meterpreter/bind_tcp_rc4",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Bind TCP Stager (RC4 Stage Encryption, Metasm)",
+	"fullname": "payload/cmd/windows/https/x64/meterpreter/bind_tcp_rc4",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves",
+		"hdm <x@hdm.io>",
+		"mihi",
+		"max3raza",
+		"RageLtMan"
+	],
+	"description": "Fetch and Execute an x64 payload from an https server.\n\nConnect back to the attacker",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/https/x64/meterpreter/bind_tcp_rc4",
+	"post_auth": true,
+	"needs_cleanup": false
 }

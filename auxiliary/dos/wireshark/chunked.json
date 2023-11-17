@@ -1,21 +1,21 @@
 {
-  "name": "Wireshark chunked_encoding_dissector Function DOS",
-  "fullname": "auxiliary/dos/wireshark/chunked",
-  "rank": 300,
-  "disclosure_date": "2007-02-22",
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "Wireshark crash when dissecting an HTTP chunked response.\n        Versions affected: 0.99.5 (Bug 1394)",
-  "references": [
-    "CVE-2007-3389",
-    "OSVDB-37643",
-    "URL-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=1394"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/wireshark/chunked.rb",
-  "is_install_path": true,
-  "ref_name": "dos/wireshark/chunked",
-  "needs_cleanup": false
+	"name": "Wireshark chunked_encoding_dissector Function DOS",
+	"fullname": "auxiliary/dos/wireshark/chunked",
+	"rank": 300,
+	"disclosure_date": "2007-02-22",
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "Wireshark crash when dissecting an HTTP chunked response.\n        Versions affected: 0.99.5 (Bug 1394)",
+	"references": [
+		"CVE-2007-3389",
+		"OSVDB-37643",
+		"URL-https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=1394"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/wireshark/chunked.rb",
+	"is_install_path": true,
+	"ref_name": "dos/wireshark/chunked",
+	"needs_cleanup": false
 }

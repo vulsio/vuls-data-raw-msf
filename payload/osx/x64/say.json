@@ -1,17 +1,17 @@
 {
-  "name": "OS X x64 say Shellcode",
-  "fullname": "payload/osx/x64/say",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "nemo <nemo@felinemenace.org>"
-  ],
-  "description": "Say an arbitrary string outloud using Mac OS X text2speech",
-  "platform": "OSX",
-  "arch": "x64",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/osx/x64/say.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x64/say",
-  "needs_cleanup": false
+	"name": "OS X x64 say Shellcode",
+	"fullname": "payload/osx/x64/say",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"nemo <nemo@felinemenace.org>"
+	],
+	"description": "Say an arbitrary string outloud using Mac OS X text2speech",
+	"platform": "OSX",
+	"arch": "x64",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/osx/x64/say.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x64/say",
+	"needs_cleanup": false
 }

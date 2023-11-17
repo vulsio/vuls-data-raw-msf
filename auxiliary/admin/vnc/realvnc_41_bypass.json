@@ -1,24 +1,24 @@
 {
-  "name": "RealVNC NULL Authentication Mode Bypass",
-  "fullname": "auxiliary/admin/vnc/realvnc_41_bypass",
-  "rank": 300,
-  "disclosure_date": "2006-05-15",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module exploits an Authentication bypass Vulnerability\n        in RealVNC Server version 4.1.0 and 4.1.1. It sets up a proxy\n        listener on LPORT and proxies to the target server\n\n        The AUTOVNC option requires that vncviewer be installed on\n        the attacking machine.",
-  "references": [
-    "BID-17978",
-    "OSVDB-25479",
-    "URL-https://web.archive.org/web/20080102163013/http://secunia.com/advisories/20107/",
-    "CVE-2006-2369"
-  ],
-  "rport": 5900,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/vnc/realvnc_41_bypass.rb",
-  "is_install_path": true,
-  "ref_name": "admin/vnc/realvnc_41_bypass",
-  "needs_cleanup": false
+	"name": "RealVNC NULL Authentication Mode Bypass",
+	"fullname": "auxiliary/admin/vnc/realvnc_41_bypass",
+	"rank": 300,
+	"disclosure_date": "2006-05-15",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module exploits an Authentication bypass Vulnerability\n        in RealVNC Server version 4.1.0 and 4.1.1. It sets up a proxy\n        listener on LPORT and proxies to the target server\n\n        The AUTOVNC option requires that vncviewer be installed on\n        the attacking machine.",
+	"references": [
+		"BID-17978",
+		"OSVDB-25479",
+		"URL-https://web.archive.org/web/20080102163013/http://secunia.com/advisories/20107/",
+		"CVE-2006-2369"
+	],
+	"rport": 5900,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/vnc/realvnc_41_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "admin/vnc/realvnc_41_bypass",
+	"needs_cleanup": false
 }

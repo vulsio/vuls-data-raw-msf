@@ -1,26 +1,26 @@
 {
-  "name": "Powershell Exec, Hidden Bind Ipknock TCP Stager",
-  "fullname": "payload/cmd/windows/powershell/vncinject/bind_hidden_ipknock_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "hdm <x@hdm.io>",
-    "skape <mmiller@hick.org>",
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "Execute an x86 payload from a command via PowerShell.\n\nListen for a connection. First, the port will need to be knocked from\nthe IP defined in KHOST. This IP will work as an authentication method\n(you can spoof it with tools like hping). After that you could get your\nshellcode from any IP. The socket will appear as \"closed,\" thus helping to\nhide the shellcode",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection",
-    "URL-http://www.shelliscoming.com/2014/07/ip-knock-shellcode-spoofed-ip-as.html"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/vncinject/bind_hidden_ipknock_tcp",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Hidden Bind Ipknock TCP Stager",
+	"fullname": "payload/cmd/windows/powershell/vncinject/bind_hidden_ipknock_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"hdm <x@hdm.io>",
+		"skape <mmiller@hick.org>",
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "Execute an x86 payload from a command via PowerShell.\n\nListen for a connection. First, the port will need to be knocked from\nthe IP defined in KHOST. This IP will work as an authentication method\n(you can spoof it with tools like hping). After that you could get your\nshellcode from any IP. The socket will appear as \"closed,\" thus helping to\nhide the shellcode",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection",
+		"URL-http://www.shelliscoming.com/2014/07/ip-knock-shellcode-spoofed-ip-as.html"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/vncinject/bind_hidden_ipknock_tcp",
+	"needs_cleanup": false
 }

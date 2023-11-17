@@ -1,19 +1,19 @@
 {
-  "name": "Windows Manage Inject in Memory Multiple Payloads",
-  "fullname": "post/windows/manage/multi_meterpreter_inject",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>",
-    "David Kennedy \"ReL1K\" <kennedyd013@gmail.com>"
-  ],
-  "description": "This module will inject in to several processes a given\n          payload and connecting to a given list of IP Addresses.\n          The module works with a given lists of IP Addresses and\n          process PIDs if no PID is given it will start a the given\n          process in the advanced options and inject the selected\n          payload in to the memory of the created module.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/multi_meterpreter_inject.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/multi_meterpreter_inject",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Inject in Memory Multiple Payloads",
+	"fullname": "post/windows/manage/multi_meterpreter_inject",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>",
+		"David Kennedy \"ReL1K\" <kennedyd013@gmail.com>"
+	],
+	"description": "This module will inject in to several processes a given\n          payload and connecting to a given list of IP Addresses.\n          The module works with a given lists of IP Addresses and\n          process PIDs if no PID is given it will start a the given\n          process in the advanced options and inject the selected\n          payload in to the memory of the created module.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/multi_meterpreter_inject.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/multi_meterpreter_inject",
+	"session_types": [
+		"meterpreter"
+	]
 }

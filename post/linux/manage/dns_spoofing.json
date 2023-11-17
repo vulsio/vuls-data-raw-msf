@@ -1,19 +1,19 @@
 {
-  "name": "Native DNS Spoofing module",
-  "fullname": "post/linux/manage/dns_spoofing",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
-  ],
-  "description": "This module will be applied on a session connected to a shell. It will redirect DNS Request to remote DNS server.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/manage/dns_spoofing.rb",
-  "is_install_path": true,
-  "ref_name": "linux/manage/dns_spoofing",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Native DNS Spoofing module",
+	"fullname": "post/linux/manage/dns_spoofing",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Alberto Rafael Rodriguez Iglesias <albertocysec@gmail.com>"
+	],
+	"description": "This module will be applied on a session connected to a shell. It will redirect DNS Request to remote DNS server.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/manage/dns_spoofing.rb",
+	"is_install_path": true,
+	"ref_name": "linux/manage/dns_spoofing",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

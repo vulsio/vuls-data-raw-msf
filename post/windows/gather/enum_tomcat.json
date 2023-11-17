@@ -1,18 +1,18 @@
 {
-  "name": "Windows Gather Apache Tomcat Enumeration",
-  "fullname": "post/windows/gather/enum_tomcat",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Barry Shteiman <barry@sectorix.com>"
-  ],
-  "description": "This module will collect information from a Windows-based Apache Tomcat. You will get\n          information such as: The installation path, Tomcat version, port, web applications,\n          users, passwords, roles, etc.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_tomcat.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_tomcat",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Apache Tomcat Enumeration",
+	"fullname": "post/windows/gather/enum_tomcat",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Barry Shteiman <barry@sectorix.com>"
+	],
+	"description": "This module will collect information from a Windows-based Apache Tomcat. You will get\n          information such as: The installation path, Tomcat version, port, web applications,\n          users, passwords, roles, etc.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_tomcat.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_tomcat",
+	"session_types": [
+		"meterpreter"
+	]
 }

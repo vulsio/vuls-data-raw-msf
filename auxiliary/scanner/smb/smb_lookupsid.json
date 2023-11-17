@@ -1,23 +1,23 @@
 {
-  "name": "SMB SID User Enumeration (LookupSid)",
-  "fullname": "auxiliary/scanner/smb/smb_lookupsid",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Determine what users exist via brute force SID lookups.\n        This module can enumerate both local and domain accounts by setting\n        ACTION to either LOCAL or DOMAIN",
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/smb/smb_lookupsid.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/smb/smb_lookupsid",
-  "needs_cleanup": false
+	"name": "SMB SID User Enumeration (LookupSid)",
+	"fullname": "auxiliary/scanner/smb/smb_lookupsid",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Determine what users exist via brute force SID lookups.\n        This module can enumerate both local and domain accounts by setting\n        ACTION to either LOCAL or DOMAIN",
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/smb/smb_lookupsid.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/smb/smb_lookupsid",
+	"needs_cleanup": false
 }

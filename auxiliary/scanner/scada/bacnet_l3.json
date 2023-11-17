@@ -1,26 +1,26 @@
 {
-  "name": "BACnet Scanner",
-  "fullname": "auxiliary/scanner/scada/bacnet_l3",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Paz <Paz @ SCADAfence>"
-  ],
-  "description": "Discover BACnet devices by broadcasting Who-is message, then poll\n        discovered devices for properties including model name,\n        software version, firmware revision and description.",
-  "mod_time": "2022-08-01 15:11:57 +0000",
-  "path": "/modules/auxiliary/scanner/scada/bacnet_l3.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/bacnet_l3",
-  "notes": {
-    "Reliability": [
-      "unreliable-session"
-    ],
-    "SideEffects": [
-      "screen-effects"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "BACnet Scanner",
+	"fullname": "auxiliary/scanner/scada/bacnet_l3",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Paz <Paz @ SCADAfence>"
+	],
+	"description": "Discover BACnet devices by broadcasting Who-is message, then poll\n        discovered devices for properties including model name,\n        software version, firmware revision and description.",
+	"mod_time": "2022-08-01 15:11:57 +0000",
+	"path": "/modules/auxiliary/scanner/scada/bacnet_l3.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/bacnet_l3",
+	"notes": {
+		"Reliability": [
+			"unreliable-session"
+		],
+		"SideEffects": [
+			"screen-effects"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

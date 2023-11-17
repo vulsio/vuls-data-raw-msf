@@ -1,23 +1,23 @@
 {
-  "name": "Windows Hyper-V VM Enumeration",
-  "fullname": "post/windows/gather/enum_hyperv_vms",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "gwillcox-r7"
-  ],
-  "description": "This module will check if the target machine is a Hyper-V host and, if it is, will return a list of all\n          of the VMs running on the host, as well as stats such as their state, version, CPU Usage, uptime, and status.",
-  "platform": "Windows",
-  "mod_time": "2021-08-27 17:15:33 +0000",
-  "path": "/modules/post/windows/gather/enum_hyperv_vms.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_hyperv_vms",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Hyper-V VM Enumeration",
+	"fullname": "post/windows/gather/enum_hyperv_vms",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"gwillcox-r7"
+	],
+	"description": "This module will check if the target machine is a Hyper-V host and, if it is, will return a list of all\n          of the VMs running on the host, as well as stats such as their state, version, CPU Usage, uptime, and status.",
+	"platform": "Windows",
+	"mod_time": "2021-08-27 17:15:33 +0000",
+	"path": "/modules/post/windows/gather/enum_hyperv_vms.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_hyperv_vms",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

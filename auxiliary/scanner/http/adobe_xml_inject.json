@@ -1,38 +1,38 @@
 {
-  "name": "Adobe XML External Entity Injection",
-  "fullname": "auxiliary/scanner/http/adobe_xml_inject",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "CG <cg@carnal0wnage.com>"
-  ],
-  "description": "Multiple Adobe Products -- XML External Entity Injection. Affected Software: BlazeDS 3.2 and\n        earlier versions, LiveCycle 9.0, 8.2.1, and 8.0.1, LiveCycle Data Services 3.0, 2.6.1, and\n        2.5.1, Flex Data Services 2.0.1, ColdFusion 9.0, 8.0.1, 8.0, and 7.0.2",
-  "references": [
-    "CVE-2009-3960",
-    "OSVDB-62292",
-    "BID-38197",
-    "URL-http://www.security-assessment.com/files/advisories/2010-02-22_Multiple_Adobe_Products-XML_External_Entity_and_XML_Injection.pdf",
-    "URL-https://www.adobe.com/support/security/bulletins/apsb10-05.html"
-  ],
-  "rport": 8400,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/adobe_xml_inject.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/adobe_xml_inject",
-  "needs_cleanup": false
+	"name": "Adobe XML External Entity Injection",
+	"fullname": "auxiliary/scanner/http/adobe_xml_inject",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"CG <cg@carnal0wnage.com>"
+	],
+	"description": "Multiple Adobe Products -- XML External Entity Injection. Affected Software: BlazeDS 3.2 and\n        earlier versions, LiveCycle 9.0, 8.2.1, and 8.0.1, LiveCycle Data Services 3.0, 2.6.1, and\n        2.5.1, Flex Data Services 2.0.1, ColdFusion 9.0, 8.0.1, 8.0, and 7.0.2",
+	"references": [
+		"CVE-2009-3960",
+		"OSVDB-62292",
+		"BID-38197",
+		"URL-http://www.security-assessment.com/files/advisories/2010-02-22_Multiple_Adobe_Products-XML_External_Entity_and_XML_Injection.pdf",
+		"URL-https://www.adobe.com/support/security/bulletins/apsb10-05.html"
+	],
+	"rport": 8400,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/adobe_xml_inject.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/adobe_xml_inject",
+	"needs_cleanup": false
 }

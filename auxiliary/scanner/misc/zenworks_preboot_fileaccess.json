@@ -1,22 +1,22 @@
 {
-  "name": "Novell ZENworks Configuration Management Preboot Service Remote File Access",
-  "fullname": "auxiliary/scanner/misc/zenworks_preboot_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Luigi Auriemma",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal in the ZENworks Configuration Management.\n        The vulnerability exists in the Preboot service and can be triggered by sending a specially\n        crafted PROXY_CMD_FTP_FILE (opcode 0x21) packet to the 998/TCP port. This module has been\n        successfully tested on Novell ZENworks Configuration Management 10 SP2 and SP3 over Windows.",
-  "references": [
-    "CVE-2012-2215",
-    "OSVDB-80230",
-    "URL-https://web.archive.org/web/20121103122235/http://www.verisigninc.com/en_US/products-and-services/network-intelligence-availability/idefense/public-vulnerability-reports/articles/index.xhtml?id=975"
-  ],
-  "rport": 998,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/misc/zenworks_preboot_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/zenworks_preboot_fileaccess",
-  "needs_cleanup": false
+	"name": "Novell ZENworks Configuration Management Preboot Service Remote File Access",
+	"fullname": "auxiliary/scanner/misc/zenworks_preboot_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Luigi Auriemma",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal in the ZENworks Configuration Management.\n        The vulnerability exists in the Preboot service and can be triggered by sending a specially\n        crafted PROXY_CMD_FTP_FILE (opcode 0x21) packet to the 998/TCP port. This module has been\n        successfully tested on Novell ZENworks Configuration Management 10 SP2 and SP3 over Windows.",
+	"references": [
+		"CVE-2012-2215",
+		"OSVDB-80230",
+		"URL-https://web.archive.org/web/20121103122235/http://www.verisigninc.com/en_US/products-and-services/network-intelligence-availability/idefense/public-vulnerability-reports/articles/index.xhtml?id=975"
+	],
+	"rport": 998,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/misc/zenworks_preboot_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/zenworks_preboot_fileaccess",
+	"needs_cleanup": false
 }

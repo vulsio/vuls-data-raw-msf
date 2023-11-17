@@ -1,35 +1,35 @@
 {
-  "name": "Microsoft SQL Server Command Execution",
-  "fullname": "auxiliary/admin/mssql/mssql_exec",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "tebo <tebo@attackresearch.com>",
-    "arcc <pw@evait.de>"
-  ],
-  "description": "This module will execute a Windows command on a MSSQL/MSDE instance via the xp_cmdshell (default) or the\n          sp_oacreate procedure (more opsec safe, no output, no temporary data table). A valid username and password is\n          required to use this module.",
-  "references": [
-    "URL-http://msdn.microsoft.com/en-us/library/cc448435(PROT.10).aspx",
-    "URL-https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-oacreate-transact-sql"
-  ],
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2021-04-12 14:48:25 +0000",
-  "path": "/modules/auxiliary/admin/mssql/mssql_exec.rb",
-  "is_install_path": true,
-  "ref_name": "admin/mssql/mssql_exec",
-  "needs_cleanup": false
+	"name": "Microsoft SQL Server Command Execution",
+	"fullname": "auxiliary/admin/mssql/mssql_exec",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"tebo <tebo@attackresearch.com>",
+		"arcc <pw@evait.de>"
+	],
+	"description": "This module will execute a Windows command on a MSSQL/MSDE instance via the xp_cmdshell (default) or the\n          sp_oacreate procedure (more opsec safe, no output, no temporary data table). A valid username and password is\n          required to use this module.",
+	"references": [
+		"URL-http://msdn.microsoft.com/en-us/library/cc448435(PROT.10).aspx",
+		"URL-https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-oacreate-transact-sql"
+	],
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2021-04-12 14:48:25 +0000",
+	"path": "/modules/auxiliary/admin/mssql/mssql_exec.rb",
+	"is_install_path": true,
+	"ref_name": "admin/mssql/mssql_exec",
+	"needs_cleanup": false
 }

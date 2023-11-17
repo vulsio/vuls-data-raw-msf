@@ -1,17 +1,17 @@
 {
-  "name": "Unix Command Shell, Reverse TCP (/dev/tcp)",
-  "fullname": "payload/cmd/unix/reverse_bash",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Creates an interactive shell via bash's builtin /dev/tcp.\n\n        This will not work on circa 2009 and older Debian-based Linux\n        distributions (including Ubuntu) because they compile bash\n        without the /dev/tcp feature.",
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/unix/reverse_bash.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/reverse_bash",
-  "needs_cleanup": false
+	"name": "Unix Command Shell, Reverse TCP (/dev/tcp)",
+	"fullname": "payload/cmd/unix/reverse_bash",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Creates an interactive shell via bash's builtin /dev/tcp.\n\n        This will not work on circa 2009 and older Debian-based Linux\n        distributions (including Ubuntu) because they compile bash\n        without the /dev/tcp feature.",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/unix/reverse_bash.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/reverse_bash",
+	"needs_cleanup": false
 }

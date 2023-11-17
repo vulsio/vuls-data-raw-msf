@@ -1,35 +1,35 @@
 {
-  "name": "VMWare Web Login Scanner",
-  "fullname": "auxiliary/scanner/vmware/vmware_http_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module attempts to authenticate to the VMWare HTTP service\n        for VmWare Server, ESX, and ESXI",
-  "references": [
-    "CVE-1999-0502"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/vmware/vmware_http_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vmware/vmware_http_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "VMWare Web Login Scanner",
+	"fullname": "auxiliary/scanner/vmware/vmware_http_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module attempts to authenticate to the VMWare HTTP service\n        for VmWare Server, ESX, and ESXI",
+	"references": [
+		"CVE-1999-0502"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/vmware/vmware_http_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vmware/vmware_http_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

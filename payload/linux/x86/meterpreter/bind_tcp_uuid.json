@@ -1,20 +1,20 @@
 {
-  "name": "Linux Mettle x86, Bind TCP Stager with UUID Support (Linux x86)",
-  "fullname": "payload/linux/x86/meterpreter/bind_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "William Webb <william_webb@rapid7.com>",
-    "skape <mmiller@hick.org>",
-    "egypt <egypt@metasploit.com>",
-    "OJ Reeves"
-  ],
-  "description": "Inject the mettle server payload (staged).\n\nListen for a connection with UUID Support (Linux x86)",
-  "platform": "Linux,Linux",
-  "arch": "x86",
-  "mod_time": "2021-01-04 11:50:07 +0000",
-  "path": "/modules/payloads/stagers/linux/x86/bind_tcp_uuid.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/meterpreter/bind_tcp_uuid",
-  "needs_cleanup": false
+	"name": "Linux Mettle x86, Bind TCP Stager with UUID Support (Linux x86)",
+	"fullname": "payload/linux/x86/meterpreter/bind_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"William Webb <william_webb@rapid7.com>",
+		"skape <mmiller@hick.org>",
+		"egypt <egypt@metasploit.com>",
+		"OJ Reeves"
+	],
+	"description": "Inject the mettle server payload (staged).\n\nListen for a connection with UUID Support (Linux x86)",
+	"platform": "Linux,Linux",
+	"arch": "x86",
+	"mod_time": "2021-01-04 11:50:07 +0000",
+	"path": "/modules/payloads/stagers/linux/x86/bind_tcp_uuid.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/meterpreter/bind_tcp_uuid",
+	"needs_cleanup": false
 }

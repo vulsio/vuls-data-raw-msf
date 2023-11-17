@@ -1,30 +1,30 @@
 {
-  "name": "Microsoft SQL Server Configuration Enumerator",
-  "fullname": "auxiliary/admin/mssql/mssql_enum",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module will perform a series of configuration audits and\n        security checks against a Microsoft SQL Server database. For this\n        module to work, valid administrative user credentials must be\n        supplied.",
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2017-08-16 21:40:03 +0000",
-  "path": "/modules/auxiliary/admin/mssql/mssql_enum.rb",
-  "is_install_path": true,
-  "ref_name": "admin/mssql/mssql_enum",
-  "needs_cleanup": false
+	"name": "Microsoft SQL Server Configuration Enumerator",
+	"fullname": "auxiliary/admin/mssql/mssql_enum",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module will perform a series of configuration audits and\n        security checks against a Microsoft SQL Server database. For this\n        module to work, valid administrative user credentials must be\n        supplied.",
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2017-08-16 21:40:03 +0000",
+	"path": "/modules/auxiliary/admin/mssql/mssql_enum.rb",
+	"is_install_path": true,
+	"ref_name": "admin/mssql/mssql_enum",
+	"needs_cleanup": false
 }

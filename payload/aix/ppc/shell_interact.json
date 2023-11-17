@@ -1,17 +1,17 @@
 {
-  "name": "AIX execve Shell for inetd",
-  "fullname": "payload/aix/ppc/shell_interact",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "Simply execve /bin/sh (for inetd programs)",
-  "platform": "AIX",
-  "arch": "ppc",
-  "mod_time": "2021-01-05 14:59:46 +0000",
-  "path": "/modules/payloads/singles/aix/ppc/shell_interact.rb",
-  "is_install_path": true,
-  "ref_name": "aix/ppc/shell_interact",
-  "needs_cleanup": false
+	"name": "AIX execve Shell for inetd",
+	"fullname": "payload/aix/ppc/shell_interact",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "Simply execve /bin/sh (for inetd programs)",
+	"platform": "AIX",
+	"arch": "ppc",
+	"mod_time": "2021-01-05 14:59:46 +0000",
+	"path": "/modules/payloads/singles/aix/ppc/shell_interact.rb",
+	"is_install_path": true,
+	"ref_name": "aix/ppc/shell_interact",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Unitronics PCOM Client",
-  "fullname": "auxiliary/scanner/scada/pcomclient",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Luis Rosa <lmrosa@dei.uc.pt>"
-  ],
-  "description": "Unitronics Vision PLCs allow unauthenticated PCOM commands\n        to query PLC registers.",
-  "references": [
-    "URL-https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf"
-  ],
-  "rport": 20256,
-  "mod_time": "2019-02-08 19:22:48 +0000",
-  "path": "/modules/auxiliary/scanner/scada/pcomclient.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/pcomclient",
-  "needs_cleanup": false
+	"name": "Unitronics PCOM Client",
+	"fullname": "auxiliary/scanner/scada/pcomclient",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Luis Rosa <lmrosa@dei.uc.pt>"
+	],
+	"description": "Unitronics Vision PLCs allow unauthenticated PCOM commands\n        to query PLC registers.",
+	"references": [
+		"URL-https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf"
+	],
+	"rport": 20256,
+	"mod_time": "2019-02-08 19:22:48 +0000",
+	"path": "/modules/auxiliary/scanner/scada/pcomclient.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/pcomclient",
+	"needs_cleanup": false
 }

@@ -1,16 +1,16 @@
 {
-  "name": "EMC AlphaStor Library Manager Service",
-  "fullname": "auxiliary/scanner/emc/alphastor_librarymanager",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module queries the remote host for the EMC Alphastor Library Management Service.",
-  "rport": 3500,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/emc/alphastor_librarymanager.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/emc/alphastor_librarymanager",
-  "needs_cleanup": false
+	"name": "EMC AlphaStor Library Manager Service",
+	"fullname": "auxiliary/scanner/emc/alphastor_librarymanager",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module queries the remote host for the EMC Alphastor Library Management Service.",
+	"rport": 3500,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/emc/alphastor_librarymanager.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/emc/alphastor_librarymanager",
+	"needs_cleanup": false
 }

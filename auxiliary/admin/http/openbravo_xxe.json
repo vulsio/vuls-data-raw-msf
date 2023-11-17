@@ -1,39 +1,39 @@
 {
-  "name": "Openbravo ERP XXE Arbitrary File Read",
-  "fullname": "auxiliary/admin/http/openbravo_xxe",
-  "rank": 300,
-  "disclosure_date": "2013-10-30",
-  "type": "auxiliary",
-  "author": [
-    "Brandon Perry <bperry.volatile@gmail.com>"
-  ],
-  "description": "The Openbravo ERP XML API expands external entities which can be defined as\n          local files. This allows the user to read any files from the FS as the\n          user Openbravo is running as (generally not root).\n\n          This module was tested against Openbravo ERP version 3.0MP25 and 2.50MP6.",
-  "references": [
-    "CVE-2013-3617",
-    "OSVDB-99141",
-    "BID-63431",
-    "URL-https://www.rapid7.com/blog/post/2013/10/30/seven-tricks-and-treats"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/openbravo_xxe.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/openbravo_xxe",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Openbravo ERP XXE Arbitrary File Read",
+	"fullname": "auxiliary/admin/http/openbravo_xxe",
+	"rank": 300,
+	"disclosure_date": "2013-10-30",
+	"type": "auxiliary",
+	"author": [
+		"Brandon Perry <bperry.volatile@gmail.com>"
+	],
+	"description": "The Openbravo ERP XML API expands external entities which can be defined as\n          local files. This allows the user to read any files from the FS as the\n          user Openbravo is running as (generally not root).\n\n          This module was tested against Openbravo ERP version 3.0MP25 and 2.50MP6.",
+	"references": [
+		"CVE-2013-3617",
+		"OSVDB-99141",
+		"BID-63431",
+		"URL-https://www.rapid7.com/blog/post/2013/10/30/seven-tricks-and-treats"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/openbravo_xxe.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/openbravo_xxe",
+	"post_auth": true,
+	"needs_cleanup": false
 }

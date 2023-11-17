@@ -1,27 +1,27 @@
 {
-  "name": "SaltStack Salt Information Gatherer",
-  "fullname": "post/multi/gather/saltstack_salt",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "h00die",
-    "c2Vlcgo"
-  ],
-  "description": "This module gathers information from SaltStack Salt masters and minions.\n          Data gathered from minions: 1. salt minion config file\n          Data gathered from masters: 1. minion list (denied, pre, rejected, accepted)\n          2. minion hostname/ip/os (depending on module settings)\n          3. SLS\n          4. roster, any SSH keys are retrieved and saved to creds, SSH passwords printed\n          5. minion config files\n          6. pillar data",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/multi/gather/saltstack_salt.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/saltstack_salt",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "SaltStack Salt Information Gatherer",
+	"fullname": "post/multi/gather/saltstack_salt",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"h00die",
+		"c2Vlcgo"
+	],
+	"description": "This module gathers information from SaltStack Salt masters and minions.\n          Data gathered from minions: 1. salt minion config file\n          Data gathered from masters: 1. minion list (denied, pre, rejected, accepted)\n          2. minion hostname/ip/os (depending on module settings)\n          3. SLS\n          4. roster, any SSH keys are retrieved and saved to creds, SSH passwords printed\n          5. minion config files\n          6. pillar data",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/multi/gather/saltstack_salt.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/saltstack_salt",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

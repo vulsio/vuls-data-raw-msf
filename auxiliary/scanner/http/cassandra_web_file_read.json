@@ -1,42 +1,42 @@
 {
-  "name": "Cassandra Web File Read Vulnerability",
-  "fullname": "auxiliary/scanner/http/cassandra_web_file_read",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jeremy Brown",
-    "krastanoel"
-  ],
-  "description": "This module exploits an unauthenticated directory traversal vulnerability in Cassandra Web\n          'Cassandra Web' version 0.5.0 and earlier, allowing arbitrary file read with the web server privileges.\n          This vulnerability occured due to the disabled Rack::Protection module",
-  "references": [
-    "URL-https://github.com/avalanche123/cassandra-web/commit/f11e47a26f316827f631d7bcfec14b9dd94f44be",
-    "EDB-49362"
-  ],
-  "rport": 3000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-08-03 19:21:42 +0000",
-  "path": "/modules/auxiliary/scanner/http/cassandra_web_file_read.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/cassandra_web_file_read",
-  "check": true,
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Cassandra Web File Read Vulnerability",
+	"fullname": "auxiliary/scanner/http/cassandra_web_file_read",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jeremy Brown",
+		"krastanoel"
+	],
+	"description": "This module exploits an unauthenticated directory traversal vulnerability in Cassandra Web\n          'Cassandra Web' version 0.5.0 and earlier, allowing arbitrary file read with the web server privileges.\n          This vulnerability occured due to the disabled Rack::Protection module",
+	"references": [
+		"URL-https://github.com/avalanche123/cassandra-web/commit/f11e47a26f316827f631d7bcfec14b9dd94f44be",
+		"EDB-49362"
+	],
+	"rport": 3000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-08-03 19:21:42 +0000",
+	"path": "/modules/auxiliary/scanner/http/cassandra_web_file_read.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/cassandra_web_file_read",
+	"check": true,
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

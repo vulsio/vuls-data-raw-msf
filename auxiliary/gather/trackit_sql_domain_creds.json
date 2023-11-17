@@ -1,23 +1,23 @@
 {
-  "name": "BMC / Numara Track-It! Domain Administrator and SQL Server User Password Disclosure",
-  "fullname": "auxiliary/gather/trackit_sql_domain_creds",
-  "rank": 300,
-  "disclosure_date": "2014-10-07",
-  "type": "auxiliary",
-  "author": [
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "This module exploits an unauthenticated configuration retrieval .NET remoting\n        service in Numara / BMC Track-It! v9 to v11.X, which can be abused to retrieve the Domain\n        Administrator and the SQL server user credentials.\n        This module has been tested successfully on versions 11.3.0.355, 10.0.51.135, 10.0.50.107,\n        10.0.0.143 and 9.0.30.248.",
-  "references": [
-    "CVE-2014-4872",
-    "OSVDB-112741",
-    "US-CERT-VU-121036",
-    "URL-https://seclists.org/fulldisclosure/2014/Oct/34"
-  ],
-  "rport": 9010,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/gather/trackit_sql_domain_creds.rb",
-  "is_install_path": true,
-  "ref_name": "gather/trackit_sql_domain_creds",
-  "needs_cleanup": false
+	"name": "BMC / Numara Track-It! Domain Administrator and SQL Server User Password Disclosure",
+	"fullname": "auxiliary/gather/trackit_sql_domain_creds",
+	"rank": 300,
+	"disclosure_date": "2014-10-07",
+	"type": "auxiliary",
+	"author": [
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "This module exploits an unauthenticated configuration retrieval .NET remoting\n        service in Numara / BMC Track-It! v9 to v11.X, which can be abused to retrieve the Domain\n        Administrator and the SQL server user credentials.\n        This module has been tested successfully on versions 11.3.0.355, 10.0.51.135, 10.0.50.107,\n        10.0.0.143 and 9.0.30.248.",
+	"references": [
+		"CVE-2014-4872",
+		"OSVDB-112741",
+		"US-CERT-VU-121036",
+		"URL-https://seclists.org/fulldisclosure/2014/Oct/34"
+	],
+	"rport": 9010,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/gather/trackit_sql_domain_creds.rb",
+	"is_install_path": true,
+	"ref_name": "gather/trackit_sql_domain_creds",
+	"needs_cleanup": false
 }

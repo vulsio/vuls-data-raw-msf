@@ -1,24 +1,24 @@
 {
-  "name": "BIND TSIG Query Denial of Service",
-  "fullname": "auxiliary/dos/dns/bind_tsig",
-  "rank": 300,
-  "disclosure_date": "2016-09-27",
-  "type": "auxiliary",
-  "author": [
-    "Martin Rocha",
-    "Ezequiel Tavella",
-    "Alejandro Parodi",
-    "Infobyte Research Team"
-  ],
-  "description": "A defect in the rendering of messages into packets can cause named to\n        exit with an assertion failure in buffer.c while constructing a response\n        to a query that meets certain criteria.\n\n        This assertion can be triggered even if the apparent source address\n        isn't allowed to make queries.",
-  "references": [
-    "CVE-2016-2776",
-    "URL-http://blog.infobytesec.com/2016/10/a-tale-of-dns-packet-cve-2016-2776.html"
-  ],
-  "rport": 53,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/dns/bind_tsig.rb",
-  "is_install_path": true,
-  "ref_name": "dos/dns/bind_tsig",
-  "needs_cleanup": false
+	"name": "BIND TSIG Query Denial of Service",
+	"fullname": "auxiliary/dos/dns/bind_tsig",
+	"rank": 300,
+	"disclosure_date": "2016-09-27",
+	"type": "auxiliary",
+	"author": [
+		"Martin Rocha",
+		"Ezequiel Tavella",
+		"Alejandro Parodi",
+		"Infobyte Research Team"
+	],
+	"description": "A defect in the rendering of messages into packets can cause named to\n        exit with an assertion failure in buffer.c while constructing a response\n        to a query that meets certain criteria.\n\n        This assertion can be triggered even if the apparent source address\n        isn't allowed to make queries.",
+	"references": [
+		"CVE-2016-2776",
+		"URL-http://blog.infobytesec.com/2016/10/a-tale-of-dns-packet-cve-2016-2776.html"
+	],
+	"rport": 53,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/dns/bind_tsig.rb",
+	"is_install_path": true,
+	"ref_name": "dos/dns/bind_tsig",
+	"needs_cleanup": false
 }

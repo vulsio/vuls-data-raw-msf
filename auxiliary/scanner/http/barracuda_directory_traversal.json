@@ -1,37 +1,37 @@
 {
-  "name": "Barracuda Multiple Product \"locale\" Directory Traversal",
-  "fullname": "auxiliary/scanner/http/barracuda_directory_traversal",
-  "rank": 300,
-  "disclosure_date": "2010-10-08",
-  "type": "auxiliary",
-  "author": [
-    "Tiago Ferreira <tiago.ccna@gmail.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability present in\n        several Barracuda products, including the Barracuda Spam and Virus Firewall,\n        Barracuda SSL VPN, and the Barracuda Web Application Firewall. By default,\n        this module will attempt to download the Barracuda configuration file.",
-  "references": [
-    "OSVDB-68301",
-    "URL-https://web.archive.org/web/20101004131244/http://secunia.com/advisories/41609/",
-    "EDB-15130"
-  ],
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/barracuda_directory_traversal",
-  "needs_cleanup": false
+	"name": "Barracuda Multiple Product \"locale\" Directory Traversal",
+	"fullname": "auxiliary/scanner/http/barracuda_directory_traversal",
+	"rank": 300,
+	"disclosure_date": "2010-10-08",
+	"type": "auxiliary",
+	"author": [
+		"Tiago Ferreira <tiago.ccna@gmail.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability present in\n        several Barracuda products, including the Barracuda Spam and Virus Firewall,\n        Barracuda SSL VPN, and the Barracuda Web Application Firewall. By default,\n        this module will attempt to download the Barracuda configuration file.",
+	"references": [
+		"OSVDB-68301",
+		"URL-https://web.archive.org/web/20101004131244/http://secunia.com/advisories/41609/",
+		"EDB-15130"
+	],
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/barracuda_directory_traversal",
+	"needs_cleanup": false
 }

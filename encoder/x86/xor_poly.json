@@ -1,17 +1,17 @@
 {
-  "name": "XOR POLY Encoder",
-  "fullname": "encoder/x86/xor_poly",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "Arthur RAOUT"
-  ],
-  "description": "An x86 Simple POLY Xor encoding method. using polymorphism Register swapping, and instructions modification",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2023-03-02 13:08:09 +0000",
-  "path": "/modules/encoders/x86/xor_poly.rb",
-  "is_install_path": true,
-  "ref_name": "x86/xor_poly",
-  "needs_cleanup": false
+	"name": "XOR POLY Encoder",
+	"fullname": "encoder/x86/xor_poly",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"Arthur RAOUT"
+	],
+	"description": "An x86 Simple POLY Xor encoding method. using polymorphism Register swapping, and instructions modification",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2023-03-02 13:08:09 +0000",
+	"path": "/modules/encoders/x86/xor_poly.rb",
+	"is_install_path": true,
+	"ref_name": "x86/xor_poly",
+	"needs_cleanup": false
 }

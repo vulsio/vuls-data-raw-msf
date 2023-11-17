@@ -1,20 +1,20 @@
 {
-  "name": "NIS ypserv Map Dumper",
-  "fullname": "auxiliary/gather/nis_ypserv_map",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "wvu <wvu@metasploit.com>"
-  ],
-  "description": "This module dumps the specified map from NIS ypserv.\n\n        The following examples are from ypcat -x:\n\n        Use \"ethers\"    for map \"ethers.byname\"\n        Use \"aliases\"   for map \"mail.aliases\"\n        Use \"services\"  for map \"services.byname\"\n        Use \"protocols\" for map \"protocols.bynumber\"\n        Use \"hosts\"     for map \"hosts.byname\"\n        Use \"networks\"  for map \"networks.byaddr\"\n        Use \"group\"     for map \"group.byname\"\n        Use \"passwd\"    for map \"passwd.byname\"\n\n        You may specify a map by one of the nicknames above.",
-  "references": [
-    "URL-https://datatracker.ietf.org/doc/html/rfc1831",
-    "URL-https://datatracker.ietf.org/doc/html/rfc4506"
-  ],
-  "rport": 111,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/nis_ypserv_map.rb",
-  "is_install_path": true,
-  "ref_name": "gather/nis_ypserv_map",
-  "needs_cleanup": false
+	"name": "NIS ypserv Map Dumper",
+	"fullname": "auxiliary/gather/nis_ypserv_map",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"wvu <wvu@metasploit.com>"
+	],
+	"description": "This module dumps the specified map from NIS ypserv.\n\n        The following examples are from ypcat -x:\n\n        Use \"ethers\"    for map \"ethers.byname\"\n        Use \"aliases\"   for map \"mail.aliases\"\n        Use \"services\"  for map \"services.byname\"\n        Use \"protocols\" for map \"protocols.bynumber\"\n        Use \"hosts\"     for map \"hosts.byname\"\n        Use \"networks\"  for map \"networks.byaddr\"\n        Use \"group\"     for map \"group.byname\"\n        Use \"passwd\"    for map \"passwd.byname\"\n\n        You may specify a map by one of the nicknames above.",
+	"references": [
+		"URL-https://datatracker.ietf.org/doc/html/rfc1831",
+		"URL-https://datatracker.ietf.org/doc/html/rfc4506"
+	],
+	"rport": 111,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/nis_ypserv_map.rb",
+	"is_install_path": true,
+	"ref_name": "gather/nis_ypserv_map",
+	"needs_cleanup": false
 }

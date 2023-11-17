@@ -1,19 +1,19 @@
 {
-  "name": "OS X Gather Adium Enumeration",
-  "fullname": "post/osx/gather/enum_adium",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module will collect Adium's account plist files and chat logs from the\n          victim's machine.  There are three different actions you may choose: ACCOUNTS,\n          CHATS, and ALL.  Note that to use the 'CHATS' action, make sure you set the regex\n          'PATTERN' option in order to look for certain log names (which consists of a\n          contact's name, and a timestamp).  The current 'PATTERN' option is configured to\n          look for any log created on February 2012 as an example.  To loot both account\n          plists and chat logs, simply set the action to 'ALL'.",
-  "platform": "OSX",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/osx/gather/enum_adium.rb",
-  "is_install_path": true,
-  "ref_name": "osx/gather/enum_adium",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "OS X Gather Adium Enumeration",
+	"fullname": "post/osx/gather/enum_adium",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module will collect Adium's account plist files and chat logs from the\n          victim's machine.  There are three different actions you may choose: ACCOUNTS,\n          CHATS, and ALL.  Note that to use the 'CHATS' action, make sure you set the regex\n          'PATTERN' option in order to look for certain log names (which consists of a\n          contact's name, and a timestamp).  The current 'PATTERN' option is configured to\n          look for any log created on February 2012 as an example.  To loot both account\n          plists and chat logs, simply set the action to 'ALL'.",
+	"platform": "OSX",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/osx/gather/enum_adium.rb",
+	"is_install_path": true,
+	"ref_name": "osx/gather/enum_adium",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

@@ -1,16 +1,16 @@
 {
-  "name": "Avoid UTF8/tolower",
-  "fullname": "encoder/x86/avoid_utf8_tolower",
-  "type": "encoder",
-  "author": [
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "UTF8 Safe, tolower Safe Encoder",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/avoid_utf8_tolower.rb",
-  "is_install_path": true,
-  "ref_name": "x86/avoid_utf8_tolower",
-  "needs_cleanup": false
+	"name": "Avoid UTF8/tolower",
+	"fullname": "encoder/x86/avoid_utf8_tolower",
+	"type": "encoder",
+	"author": [
+		"skape <mmiller@hick.org>"
+	],
+	"description": "UTF8 Safe, tolower Safe Encoder",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/avoid_utf8_tolower.rb",
+	"is_install_path": true,
+	"ref_name": "x86/avoid_utf8_tolower",
+	"needs_cleanup": false
 }

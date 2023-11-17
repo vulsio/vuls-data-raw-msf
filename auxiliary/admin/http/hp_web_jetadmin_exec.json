@@ -1,37 +1,37 @@
 {
-  "name": "HP Web JetAdmin 6.5 Server Arbitrary Command Execution",
-  "fullname": "auxiliary/admin/http/hp_web_jetadmin_exec",
-  "rank": 300,
-  "disclosure_date": "2004-04-27",
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "This module abuses a command execution vulnerability within the\n          web based management console of the Hewlett-Packard Web JetAdmin\n          network printer tool v6.2 - v6.5. It is possible to execute commands\n          as SYSTEM without authentication. The vulnerability also affects POSIX\n          systems, however at this stage the module only works against Windows.\n          This module does not apply to HP printers.",
-  "references": [
-    "OSVDB-5798",
-    "BID-10224",
-    "EDB-294"
-  ],
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/hp_web_jetadmin_exec.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/hp_web_jetadmin_exec",
-  "needs_cleanup": false
+	"name": "HP Web JetAdmin 6.5 Server Arbitrary Command Execution",
+	"fullname": "auxiliary/admin/http/hp_web_jetadmin_exec",
+	"rank": 300,
+	"disclosure_date": "2004-04-27",
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "This module abuses a command execution vulnerability within the\n          web based management console of the Hewlett-Packard Web JetAdmin\n          network printer tool v6.2 - v6.5. It is possible to execute commands\n          as SYSTEM without authentication. The vulnerability also affects POSIX\n          systems, however at this stage the module only works against Windows.\n          This module does not apply to HP printers.",
+	"references": [
+		"OSVDB-5798",
+		"BID-10224",
+		"EDB-294"
+	],
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/hp_web_jetadmin_exec.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/hp_web_jetadmin_exec",
+	"needs_cleanup": false
 }

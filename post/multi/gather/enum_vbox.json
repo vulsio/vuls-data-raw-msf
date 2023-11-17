@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather VirtualBox VM Enumeration",
-  "fullname": "post/multi/gather/enum_vbox",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module will attempt to enumerate any VirtualBox VMs on the target machine.\n          Due to the nature of VirtualBox, this module can only enumerate VMs registered\n          for the current user, therefore, this module needs to be invoked from a user context.",
-  "platform": "BSD,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/enum_vbox.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/enum_vbox",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Gather VirtualBox VM Enumeration",
+	"fullname": "post/multi/gather/enum_vbox",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module will attempt to enumerate any VirtualBox VMs on the target machine.\n          Due to the nature of VirtualBox, this module can only enumerate VMs registered\n          for the current user, therefore, this module needs to be invoked from a user context.",
+	"platform": "BSD,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/enum_vbox.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/enum_vbox",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

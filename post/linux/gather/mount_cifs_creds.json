@@ -1,19 +1,19 @@
 {
-  "name": "Linux Gather Saved mount.cifs/mount.smbfs Credentials",
-  "fullname": "post/linux/gather/mount_cifs_creds",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Jon Hart <jhart@spoofed.org>"
-  ],
-  "description": "Post Module to obtain credentials saved for mount.cifs/mount.smbfs in\n          /etc/fstab on a Linux system.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/gather/mount_cifs_creds.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/mount_cifs_creds",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather Saved mount.cifs/mount.smbfs Credentials",
+	"fullname": "post/linux/gather/mount_cifs_creds",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Jon Hart <jhart@spoofed.org>"
+	],
+	"description": "Post Module to obtain credentials saved for mount.cifs/mount.smbfs in\n          /etc/fstab on a Linux system.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/gather/mount_cifs_creds.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/mount_cifs_creds",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

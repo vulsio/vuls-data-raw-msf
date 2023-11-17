@@ -1,38 +1,38 @@
 {
-  "name": "WordPress Subscribe Comments File Read Vulnerability",
-  "fullname": "auxiliary/scanner/http/wp_subscribe_comments_file_read",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Tom Adams <security@dxw.com>",
-    "Roberto Soares Espreto <robertoespreto@gmail.com>"
-  ],
-  "description": "This module exploits an authenticated directory traversal vulnerability\n        in WordPress Plugin \"Subscribe to Comments\" version 2.1.2, allowing\n        to read arbitrary files with the web server privileges.",
-  "references": [
-    "WPVDB-8102",
-    "PACKETSTORM-132694",
-    "URL-https://advisories.dxw.com/advisories/admin-only-local-file-inclusion-and-arbitrary-code-execution-in-subscribe-to-comments-2-1-2/"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/wp_subscribe_comments_file_read.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/wp_subscribe_comments_file_read",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "WordPress Subscribe Comments File Read Vulnerability",
+	"fullname": "auxiliary/scanner/http/wp_subscribe_comments_file_read",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Tom Adams <security@dxw.com>",
+		"Roberto Soares Espreto <robertoespreto@gmail.com>"
+	],
+	"description": "This module exploits an authenticated directory traversal vulnerability\n        in WordPress Plugin \"Subscribe to Comments\" version 2.1.2, allowing\n        to read arbitrary files with the web server privileges.",
+	"references": [
+		"WPVDB-8102",
+		"PACKETSTORM-132694",
+		"URL-https://advisories.dxw.com/advisories/admin-only-local-file-inclusion-and-arbitrary-code-execution-in-subscribe-to-comments-2-1-2/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_subscribe_comments_file_read.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_subscribe_comments_file_read",
+	"post_auth": true,
+	"needs_cleanup": false
 }

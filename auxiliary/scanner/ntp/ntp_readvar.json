@@ -1,21 +1,21 @@
 {
-  "name": "NTP Clock Variables Disclosure",
-  "fullname": "auxiliary/scanner/ntp/ntp_readvar",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ewerson Guimaraes(Crash) <crash@dclabs.com.br>",
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "This module reads the system internal NTP variables. These variables contain\n        potentially sensitive information, such as the NTP software version, operating\n        system version, peers, and more.",
-  "references": [
-    "CVE-2013-5211",
-    "URL-https://www.rapid7.com/db/vulnerabilities/ntp-clock-variables-disclosure/"
-  ],
-  "rport": 123,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/ntp/ntp_readvar.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ntp/ntp_readvar",
-  "needs_cleanup": false
+	"name": "NTP Clock Variables Disclosure",
+	"fullname": "auxiliary/scanner/ntp/ntp_readvar",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ewerson Guimaraes(Crash) <crash@dclabs.com.br>",
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "This module reads the system internal NTP variables. These variables contain\n        potentially sensitive information, such as the NTP software version, operating\n        system version, peers, and more.",
+	"references": [
+		"CVE-2013-5211",
+		"URL-https://www.rapid7.com/db/vulnerabilities/ntp-clock-variables-disclosure/"
+	],
+	"rport": 123,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/ntp/ntp_readvar.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ntp/ntp_readvar",
+	"needs_cleanup": false
 }

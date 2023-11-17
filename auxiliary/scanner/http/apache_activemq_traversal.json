@@ -1,37 +1,37 @@
 {
-  "name": "Apache ActiveMQ Directory Traversal",
-  "fullname": "auxiliary/scanner/http/apache_activemq_traversal",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "AbdulAziz Hariri",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability in Apache ActiveMQ\n        5.3.1 and 5.3.2 on Windows systems. The vulnerability exists in the Jetty's\n        ResourceHandler installed with the affected versions. This module has been tested\n        successfully on ActiveMQ 5.3.1 and 5.3.2 over Windows 2003 SP2.",
-  "references": [
-    "OSVDB-86401",
-    "URL-http://www.verisigninc.com/en_US/products-and-services/network-intelligence-availability/idefense/public-vulnerability-reports/articles/index.xhtml?id=895",
-    "URL-https://issues.apache.org/jira/browse/amq-2788"
-  ],
-  "rport": 8161,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/apache_activemq_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/apache_activemq_traversal",
-  "needs_cleanup": false
+	"name": "Apache ActiveMQ Directory Traversal",
+	"fullname": "auxiliary/scanner/http/apache_activemq_traversal",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"AbdulAziz Hariri",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability in Apache ActiveMQ\n        5.3.1 and 5.3.2 on Windows systems. The vulnerability exists in the Jetty's\n        ResourceHandler installed with the affected versions. This module has been tested\n        successfully on ActiveMQ 5.3.1 and 5.3.2 over Windows 2003 SP2.",
+	"references": [
+		"OSVDB-86401",
+		"URL-http://www.verisigninc.com/en_US/products-and-services/network-intelligence-availability/idefense/public-vulnerability-reports/articles/index.xhtml?id=895",
+		"URL-https://issues.apache.org/jira/browse/amq-2788"
+	],
+	"rport": 8161,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/apache_activemq_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/apache_activemq_traversal",
+	"needs_cleanup": false
 }

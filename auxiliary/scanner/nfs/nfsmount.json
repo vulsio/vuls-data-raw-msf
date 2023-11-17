@@ -1,21 +1,21 @@
 {
-  "name": "NFS Mount Scanner",
-  "fullname": "auxiliary/scanner/nfs/nfsmount",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "tebo <tebo@attackresearch.com>"
-  ],
-  "description": "This module scans NFS mounts and their permissions.",
-  "references": [
-    "CVE-1999-0170",
-    "CVE-1999-0554",
-    "URL-https://www.ietf.org/rfc/rfc1094.txt"
-  ],
-  "rport": 111,
-  "mod_time": "2023-05-02 19:58:47 +0000",
-  "path": "/modules/auxiliary/scanner/nfs/nfsmount.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/nfs/nfsmount",
-  "needs_cleanup": false
+	"name": "NFS Mount Scanner",
+	"fullname": "auxiliary/scanner/nfs/nfsmount",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"tebo <tebo@attackresearch.com>"
+	],
+	"description": "This module scans NFS mounts and their permissions.",
+	"references": [
+		"CVE-1999-0170",
+		"CVE-1999-0554",
+		"URL-https://www.ietf.org/rfc/rfc1094.txt"
+	],
+	"rport": 111,
+	"mod_time": "2023-05-02 19:58:47 +0000",
+	"path": "/modules/auxiliary/scanner/nfs/nfsmount.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/nfs/nfsmount",
+	"needs_cleanup": false
 }

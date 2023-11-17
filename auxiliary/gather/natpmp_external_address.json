@@ -1,16 +1,16 @@
 {
-  "name": "NAT-PMP External Address Scanner",
-  "fullname": "auxiliary/gather/natpmp_external_address",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jhart@spoofed.org>"
-  ],
-  "description": "Scan NAT devices for their external address using NAT-PMP",
-  "rport": 5351,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/gather/natpmp_external_address.rb",
-  "is_install_path": true,
-  "ref_name": "gather/natpmp_external_address",
-  "needs_cleanup": false
+	"name": "NAT-PMP External Address Scanner",
+	"fullname": "auxiliary/gather/natpmp_external_address",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jhart@spoofed.org>"
+	],
+	"description": "Scan NAT devices for their external address using NAT-PMP",
+	"rport": 5351,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/gather/natpmp_external_address.rb",
+	"is_install_path": true,
+	"ref_name": "gather/natpmp_external_address",
+	"needs_cleanup": false
 }

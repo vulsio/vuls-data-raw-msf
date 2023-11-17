@@ -1,20 +1,20 @@
 {
-  "name": "Android Browser \"Open in New Tab\" Cookie Theft",
-  "fullname": "auxiliary/gather/android_browser_new_tab_cookie_theft",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rafay Baloch",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "In Android's stock AOSP Browser application and WebView component, the\n        \"open in new tab\" functionality allows a file URL to be opened. On\n        versions of Android before 4.4, the path to the sqlite cookie\n        database could be specified. By saving a cookie containing a <script>\n        tag and then loading the sqlite database into the browser as an HTML file,\n        XSS can be achieved inside the cookie file, disclosing *all* cookies\n        (HttpOnly or not) to an attacker.",
-  "references": [
-    "URL-https://android.googlesource.com/platform/packages/apps/Browser/+/d2391b492dec778452238bc6d9d549d56d41c107%5E%21/#F0",
-    "URL-http://www.rafayhackingarticles.net/2014/12/android-browser-cross-scheme-data.html"
-  ],
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/auxiliary/gather/android_browser_new_tab_cookie_theft.rb",
-  "is_install_path": true,
-  "ref_name": "gather/android_browser_new_tab_cookie_theft",
-  "needs_cleanup": false
+	"name": "Android Browser \"Open in New Tab\" Cookie Theft",
+	"fullname": "auxiliary/gather/android_browser_new_tab_cookie_theft",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rafay Baloch",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "In Android's stock AOSP Browser application and WebView component, the\n        \"open in new tab\" functionality allows a file URL to be opened. On\n        versions of Android before 4.4, the path to the sqlite cookie\n        database could be specified. By saving a cookie containing a <script>\n        tag and then loading the sqlite database into the browser as an HTML file,\n        XSS can be achieved inside the cookie file, disclosing *all* cookies\n        (HttpOnly or not) to an attacker.",
+	"references": [
+		"URL-https://android.googlesource.com/platform/packages/apps/Browser/+/d2391b492dec778452238bc6d9d549d56d41c107%5E%21/#F0",
+		"URL-http://www.rafayhackingarticles.net/2014/12/android-browser-cross-scheme-data.html"
+	],
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/auxiliary/gather/android_browser_new_tab_cookie_theft.rb",
+	"is_install_path": true,
+	"ref_name": "gather/android_browser_new_tab_cookie_theft",
+	"needs_cleanup": false
 }

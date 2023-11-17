@@ -1,15 +1,15 @@
 {
-  "name": "OKI Printer Default Login Credential Scanner",
-  "fullname": "auxiliary/scanner/misc/oki_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "antr6X <anthr6x@gmail.com>"
-  ],
-  "description": "This module scans for OKI printers via SNMP, then tries to connect to found devices\n        with vendor default administrator credentials via HTTP authentication. By default, OKI\n        network printers use the last six digits of the MAC as admin password.",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/misc/oki_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/oki_scanner",
-  "needs_cleanup": false
+	"name": "OKI Printer Default Login Credential Scanner",
+	"fullname": "auxiliary/scanner/misc/oki_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"antr6X <anthr6x@gmail.com>"
+	],
+	"description": "This module scans for OKI printers via SNMP, then tries to connect to found devices\n        with vendor default administrator credentials via HTTP authentication. By default, OKI\n        network printers use the last six digits of the MAC as admin password.",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/misc/oki_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/oki_scanner",
+	"needs_cleanup": false
 }

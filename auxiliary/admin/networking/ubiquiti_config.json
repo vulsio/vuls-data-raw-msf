@@ -1,24 +1,24 @@
 {
-  "name": "Ubiquiti Configuration Importer",
-  "fullname": "auxiliary/admin/networking/ubiquiti_config",
-  "aliases": [
-    "auxiliary/admin/ubiquiti/ubiquiti_config"
-  ],
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "h00die"
-  ],
-  "description": "This module imports an Ubiquiti device configuration.\n          The db file within the .unf backup is the data file for\n          Unifi. This module can take either the db file or .unf.",
-  "rport": 22,
-  "mod_time": "2022-03-23 11:32:45 +0000",
-  "path": "/modules/auxiliary/admin/networking/ubiquiti_config.rb",
-  "is_install_path": true,
-  "ref_name": "admin/networking/ubiquiti_config",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Ubiquiti Configuration Importer",
+	"fullname": "auxiliary/admin/networking/ubiquiti_config",
+	"aliases": [
+		"auxiliary/admin/ubiquiti/ubiquiti_config"
+	],
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"h00die"
+	],
+	"description": "This module imports an Ubiquiti device configuration.\n          The db file within the .unf backup is the data file for\n          Unifi. This module can take either the db file or .unf.",
+	"rport": 22,
+	"mod_time": "2022-03-23 11:32:45 +0000",
+	"path": "/modules/auxiliary/admin/networking/ubiquiti_config.rb",
+	"is_install_path": true,
+	"ref_name": "admin/networking/ubiquiti_config",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

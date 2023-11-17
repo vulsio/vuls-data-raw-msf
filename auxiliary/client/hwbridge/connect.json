@@ -1,34 +1,34 @@
 {
-  "name": "Hardware Bridge Session Connector",
-  "fullname": "auxiliary/client/hwbridge/connect",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Craig Smith"
-  ],
-  "description": "The Hardware Bridge (HWBridge) is a standardized method for\n          Metasploit to interact with Hardware Devices.  This extends\n          the normal exploit capabilities to the non-ethernet realm and\n          enables direct hardware and alternative bus manipulations.  You\n          must have compatible bridging hardware attached to this machine or\n          reachable on your network to use any HWBridge exploits.\n\n          Use this exploit module to connect the physical HWBridge which\n          will start an interactive hwbridge session.  You can launch a hwbridge\n          server locally by using compliant hardware and executing the local_hwbridge\n          module.  After that module has started, pass the HWBRIDGE_BASE_URL\n          options to this connector module.",
-  "references": [
-    "URL-http://opengarages.org/hwbridge"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-05 14:59:46 +0000",
-  "path": "/modules/auxiliary/client/hwbridge/connect.rb",
-  "is_install_path": true,
-  "ref_name": "client/hwbridge/connect",
-  "needs_cleanup": false
+	"name": "Hardware Bridge Session Connector",
+	"fullname": "auxiliary/client/hwbridge/connect",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Craig Smith"
+	],
+	"description": "The Hardware Bridge (HWBridge) is a standardized method for\n          Metasploit to interact with Hardware Devices.  This extends\n          the normal exploit capabilities to the non-ethernet realm and\n          enables direct hardware and alternative bus manipulations.  You\n          must have compatible bridging hardware attached to this machine or\n          reachable on your network to use any HWBridge exploits.\n\n          Use this exploit module to connect the physical HWBridge which\n          will start an interactive hwbridge session.  You can launch a hwbridge\n          server locally by using compliant hardware and executing the local_hwbridge\n          module.  After that module has started, pass the HWBRIDGE_BASE_URL\n          options to this connector module.",
+	"references": [
+		"URL-http://opengarages.org/hwbridge"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-05 14:59:46 +0000",
+	"path": "/modules/auxiliary/client/hwbridge/connect.rb",
+	"is_install_path": true,
+	"ref_name": "client/hwbridge/connect",
+	"needs_cleanup": false
 }

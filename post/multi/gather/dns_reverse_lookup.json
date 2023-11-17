@@ -1,19 +1,19 @@
 {
-  "name": "Multi Gather DNS Reverse Lookup Scan",
-  "fullname": "post/multi/gather/dns_reverse_lookup",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "Performs DNS reverse lookup using the OS included DNS query command.",
-  "platform": "BSD,Linux,OSX,Solaris,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/dns_reverse_lookup.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/dns_reverse_lookup",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Multi Gather DNS Reverse Lookup Scan",
+	"fullname": "post/multi/gather/dns_reverse_lookup",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "Performs DNS reverse lookup using the OS included DNS query command.",
+	"platform": "BSD,Linux,OSX,Solaris,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/dns_reverse_lookup.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/dns_reverse_lookup",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

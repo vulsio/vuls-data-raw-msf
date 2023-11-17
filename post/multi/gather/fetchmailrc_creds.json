@@ -1,18 +1,18 @@
 {
-  "name": "UNIX Gather .fetchmailrc Credentials",
-  "fullname": "post/multi/gather/fetchmailrc_creds",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Jon Hart <jhart@spoofed.org>"
-  ],
-  "description": "Post Module to obtain credentials saved for IMAP, POP and other mail\n          retrieval protocols in fetchmail's .fetchmailrc",
-  "platform": "BSD,Linux,OSX,Unix",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/gather/fetchmailrc_creds.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/fetchmailrc_creds",
-  "session_types": [
-    "shell"
-  ]
+	"name": "UNIX Gather .fetchmailrc Credentials",
+	"fullname": "post/multi/gather/fetchmailrc_creds",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Jon Hart <jhart@spoofed.org>"
+	],
+	"description": "Post Module to obtain credentials saved for IMAP, POP and other mail\n          retrieval protocols in fetchmail's .fetchmailrc",
+	"platform": "BSD,Linux,OSX,Unix",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/gather/fetchmailrc_creds.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/fetchmailrc_creds",
+	"session_types": [
+		"shell"
+	]
 }

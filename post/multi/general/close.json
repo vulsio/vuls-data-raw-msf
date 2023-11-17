@@ -1,19 +1,19 @@
 {
-  "name": "Multi Generic Operating System Session Close",
-  "fullname": "post/multi/general/close",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module closes the specified session. This can be useful as a finisher for automation tasks",
-  "platform": "Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/general/close.rb",
-  "is_install_path": true,
-  "ref_name": "multi/general/close",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Generic Operating System Session Close",
+	"fullname": "post/multi/general/close",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module closes the specified session. This can be useful as a finisher for automation tasks",
+	"platform": "Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/general/close.rb",
+	"is_install_path": true,
+	"ref_name": "multi/general/close",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

@@ -1,38 +1,38 @@
 {
-  "name": "Zabbix toggle_ids SQL Injection",
-  "fullname": "auxiliary/gather/zabbix_toggleids_sqli",
-  "rank": 300,
-  "disclosure_date": "2016-08-11",
-  "type": "auxiliary",
-  "author": [
-    "1n3 <1n3@hushmail.com>",
-    "bperry"
-  ],
-  "description": "This module will exploit a SQL injection in Zabbix 3.0.3 and\n      likely prior in order to save the current usernames and\n      password hashes from the database to a JSON file.",
-  "references": [
-    "CVE-2016-10134",
-    "URL-https://seclists.org/fulldisclosure/2016/Aug/60"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-04-07 06:12:25 +0000",
-  "path": "/modules/auxiliary/gather/zabbix_toggleids_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "gather/zabbix_toggleids_sqli",
-  "check": true,
-  "needs_cleanup": false
+	"name": "Zabbix toggle_ids SQL Injection",
+	"fullname": "auxiliary/gather/zabbix_toggleids_sqli",
+	"rank": 300,
+	"disclosure_date": "2016-08-11",
+	"type": "auxiliary",
+	"author": [
+		"1n3 <1n3@hushmail.com>",
+		"bperry"
+	],
+	"description": "This module will exploit a SQL injection in Zabbix 3.0.3 and\n      likely prior in order to save the current usernames and\n      password hashes from the database to a JSON file.",
+	"references": [
+		"CVE-2016-10134",
+		"URL-https://seclists.org/fulldisclosure/2016/Aug/60"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-04-07 06:12:25 +0000",
+	"path": "/modules/auxiliary/gather/zabbix_toggleids_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "gather/zabbix_toggleids_sqli",
+	"check": true,
+	"needs_cleanup": false
 }

@@ -1,36 +1,36 @@
 {
-  "name": "Gallery WD for Joomla! Unauthenticated SQL Injection Scanner",
-  "fullname": "auxiliary/scanner/http/joomla_gallerywd_sqli_scanner",
-  "rank": 300,
-  "disclosure_date": "2015-03-30",
-  "type": "auxiliary",
-  "author": [
-    "CrashBandicoot",
-    "bperry"
-  ],
-  "description": "This module will scan for Joomla! instances vulnerable to an unauthenticated SQL injection\n      within the Gallery WD for Joomla! extension version 1.2.5 and likely prior.",
-  "references": [
-    "EDB-36563"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/joomla_gallerywd_sqli_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/joomla_gallerywd_sqli_scanner",
-  "needs_cleanup": false
+	"name": "Gallery WD for Joomla! Unauthenticated SQL Injection Scanner",
+	"fullname": "auxiliary/scanner/http/joomla_gallerywd_sqli_scanner",
+	"rank": 300,
+	"disclosure_date": "2015-03-30",
+	"type": "auxiliary",
+	"author": [
+		"CrashBandicoot",
+		"bperry"
+	],
+	"description": "This module will scan for Joomla! instances vulnerable to an unauthenticated SQL injection\n      within the Gallery WD for Joomla! extension version 1.2.5 and likely prior.",
+	"references": [
+		"EDB-36563"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/joomla_gallerywd_sqli_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/joomla_gallerywd_sqli_scanner",
+	"needs_cleanup": false
 }

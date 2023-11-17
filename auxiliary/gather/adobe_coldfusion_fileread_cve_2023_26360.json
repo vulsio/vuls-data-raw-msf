@@ -1,44 +1,44 @@
 {
-  "name": "Adobe ColdFusion Unauthenticated Arbitrary File Read",
-  "fullname": "auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "This module exploits a remote unauthenticated deserialization of untrusted data vulnerability in Adobe\n          ColdFusion 2021 Update 5 and earlier as well as ColdFusion 2018 Update 15 and earlier, in order to read\n          an arbitrary file from the server.\n\n          To run this module you must provide a valid ColdFusion Component (CFC) endpoint via the CFC_ENDPOINT option,\n          and a valid remote method name from that endpoint via the CFC_METHOD option. By default an endpoint in the\n          ColdFusion Administrator (CFIDE) is provided. If the CFIDE is not accessible you will need to choose a\n          different CFC endpoint, method and parameters.",
-  "references": [
-    "CVE-2023-26360",
-    "URL-https://attackerkb.com/topics/F36ClHTTIQ/cve-2023-26360/rapid7-analysis"
-  ],
-  "rport": 8500,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-04-14 17:44:38 +0000",
-  "path": "/modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb",
-  "is_install_path": true,
-  "ref_name": "gather/adobe_coldfusion_fileread_cve_2023_26360",
-  "notes": {
-    "SideEffects": [
-      "artifacts-on-disk",
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Adobe ColdFusion Unauthenticated Arbitrary File Read",
+	"fullname": "auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "This module exploits a remote unauthenticated deserialization of untrusted data vulnerability in Adobe\n          ColdFusion 2021 Update 5 and earlier as well as ColdFusion 2018 Update 15 and earlier, in order to read\n          an arbitrary file from the server.\n\n          To run this module you must provide a valid ColdFusion Component (CFC) endpoint via the CFC_ENDPOINT option,\n          and a valid remote method name from that endpoint via the CFC_METHOD option. By default an endpoint in the\n          ColdFusion Administrator (CFIDE) is provided. If the CFIDE is not accessible you will need to choose a\n          different CFC endpoint, method and parameters.",
+	"references": [
+		"CVE-2023-26360",
+		"URL-https://attackerkb.com/topics/F36ClHTTIQ/cve-2023-26360/rapid7-analysis"
+	],
+	"rport": 8500,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-04-14 17:44:38 +0000",
+	"path": "/modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb",
+	"is_install_path": true,
+	"ref_name": "gather/adobe_coldfusion_fileread_cve_2023_26360",
+	"notes": {
+		"SideEffects": [
+			"artifacts-on-disk",
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

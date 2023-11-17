@@ -1,23 +1,23 @@
 {
-  "name": "HTTPS Fetch, Windows Meterpreter Shell, Reverse HTTPS Inline (x64)",
-  "fullname": "payload/cmd/windows/https/x64/meterpreter_reverse_https",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "OJ Reeves",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Fetch and Execute an x64 payload from an https server.\n\nConnect back to attacker and spawn a Meterpreter shell. Requires Windows XP SP2 or newer.",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/https/x64/meterpreter_reverse_https",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Windows Meterpreter Shell, Reverse HTTPS Inline (x64)",
+	"fullname": "payload/cmd/windows/https/x64/meterpreter_reverse_https",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"OJ Reeves",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Fetch and Execute an x64 payload from an https server.\n\nConnect back to attacker and spawn a Meterpreter shell. Requires Windows XP SP2 or newer.",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/https/x64/meterpreter_reverse_https",
+	"needs_cleanup": false
 }

@@ -1,37 +1,37 @@
 {
-  "name": "AlienVault Authenticated SQL Injection Arbitrary File Read",
-  "fullname": "auxiliary/gather/alienvault_iso27001_sqli",
-  "rank": 300,
-  "disclosure_date": "2014-03-30",
-  "type": "auxiliary",
-  "author": [
-    "Brandon Perry <bperry.volatile@gmail.com>"
-  ],
-  "description": "AlienVault 4.5.0 is susceptible to an authenticated SQL injection attack via a PNG\n        generation PHP file. This module exploits this to read an arbitrary file from\n        the file system. Any authenticated user is able to exploit it, as administrator\n        privileges aren't required.",
-  "references": [
-    "EDB-32644"
-  ],
-  "platform": "Linux",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/gather/alienvault_iso27001_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "gather/alienvault_iso27001_sqli",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "AlienVault Authenticated SQL Injection Arbitrary File Read",
+	"fullname": "auxiliary/gather/alienvault_iso27001_sqli",
+	"rank": 300,
+	"disclosure_date": "2014-03-30",
+	"type": "auxiliary",
+	"author": [
+		"Brandon Perry <bperry.volatile@gmail.com>"
+	],
+	"description": "AlienVault 4.5.0 is susceptible to an authenticated SQL injection attack via a PNG\n        generation PHP file. This module exploits this to read an arbitrary file from\n        the file system. Any authenticated user is able to exploit it, as administrator\n        privileges aren't required.",
+	"references": [
+		"EDB-32644"
+	],
+	"platform": "Linux",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/gather/alienvault_iso27001_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "gather/alienvault_iso27001_sqli",
+	"post_auth": true,
+	"needs_cleanup": false
 }

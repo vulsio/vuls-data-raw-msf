@@ -1,31 +1,31 @@
 {
-  "name": "HTTP Client MS Credential Relayer",
-  "fullname": "auxiliary/server/http_ntlmrelay",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Rich Lundeen <richard.lundeen@gmail.com>"
-  ],
-  "description": "This module relays negotiated NTLM Credentials from an HTTP server to multiple\n          protocols. Currently, this module supports relaying to SMB and HTTP.\n\n          Complicated custom attacks requiring multiple requests that depend on each\n          other can be written using the SYNC* options. For example, a CSRF-style\n          attack might first set an HTTP_GET request with a unique SNYNCID and set\n          an HTTP_POST request with a SYNCFILE, which contains logic to look\n          through the database and parse out important values, such as the CSRF token\n          or authentication cookies, setting these as configuration options, and finally\n          create a web page with iframe elements pointing at the HTTP_GET and HTTP_POSTs.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/server/http_ntlmrelay.rb",
-  "is_install_path": true,
-  "ref_name": "server/http_ntlmrelay",
-  "needs_cleanup": false
+	"name": "HTTP Client MS Credential Relayer",
+	"fullname": "auxiliary/server/http_ntlmrelay",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Rich Lundeen <richard.lundeen@gmail.com>"
+	],
+	"description": "This module relays negotiated NTLM Credentials from an HTTP server to multiple\n          protocols. Currently, this module supports relaying to SMB and HTTP.\n\n          Complicated custom attacks requiring multiple requests that depend on each\n          other can be written using the SYNC* options. For example, a CSRF-style\n          attack might first set an HTTP_GET request with a unique SNYNCID and set\n          an HTTP_POST request with a SYNCFILE, which contains logic to look\n          through the database and parse out important values, such as the CSRF token\n          or authentication cookies, setting these as configuration options, and finally\n          create a web page with iframe elements pointing at the HTTP_GET and HTTP_POSTs.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/server/http_ntlmrelay.rb",
+	"is_install_path": true,
+	"ref_name": "server/http_ntlmrelay",
+	"needs_cleanup": false
 }

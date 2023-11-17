@@ -1,17 +1,17 @@
 {
-  "name": "Apple iOS iPhone Vibrate",
-  "fullname": "payload/osx/armle/vibrate",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Causes the iPhone to vibrate, only works when the AudioToolkit library has been loaded.\n        Based on work by Charlie Miller <cmiller[at]securityevaluators.com>.",
-  "platform": "OSX",
-  "arch": "armle",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/osx/armle/vibrate.rb",
-  "is_install_path": true,
-  "ref_name": "osx/armle/vibrate",
-  "needs_cleanup": false
+	"name": "Apple iOS iPhone Vibrate",
+	"fullname": "payload/osx/armle/vibrate",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Causes the iPhone to vibrate, only works when the AudioToolkit library has been loaded.\n        Based on work by Charlie Miller <cmiller[at]securityevaluators.com>.",
+	"platform": "OSX",
+	"arch": "armle",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/osx/armle/vibrate.rb",
+	"is_install_path": true,
+	"ref_name": "osx/armle/vibrate",
+	"needs_cleanup": false
 }

@@ -1,37 +1,37 @@
 {
-  "name": "Novell File Reporter Agent Arbitrary File Delete",
-  "fullname": "auxiliary/admin/http/novell_file_reporter_filedelete",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Luigi Auriemma",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "NFRAgent.exe in Novell File Reporter allows remote attackers to delete\n          arbitrary files via a full pathname in an SRS request with OPERATION set to 4 and\n          CMD set to 5 against /FSF/CMD. This module has been tested successfully on NFR\n          Agent 1.0.4.3 (File Reporter 1.0.2) and NFR Agent 1.0.3.22 (File Reporter 1.0.1) on\n          Windows platforms.",
-  "references": [
-    "CVE-2011-2750",
-    "OSVDB-73729",
-    "URL-http://aluigi.org/adv/nfr_2-adv.txt"
-  ],
-  "rport": 3037,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/novell_file_reporter_filedelete.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/novell_file_reporter_filedelete",
-  "needs_cleanup": false
+	"name": "Novell File Reporter Agent Arbitrary File Delete",
+	"fullname": "auxiliary/admin/http/novell_file_reporter_filedelete",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Luigi Auriemma",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "NFRAgent.exe in Novell File Reporter allows remote attackers to delete\n          arbitrary files via a full pathname in an SRS request with OPERATION set to 4 and\n          CMD set to 5 against /FSF/CMD. This module has been tested successfully on NFR\n          Agent 1.0.4.3 (File Reporter 1.0.2) and NFR Agent 1.0.3.22 (File Reporter 1.0.1) on\n          Windows platforms.",
+	"references": [
+		"CVE-2011-2750",
+		"OSVDB-73729",
+		"URL-http://aluigi.org/adv/nfr_2-adv.txt"
+	],
+	"rport": 3037,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/novell_file_reporter_filedelete.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/novell_file_reporter_filedelete",
+	"needs_cleanup": false
 }

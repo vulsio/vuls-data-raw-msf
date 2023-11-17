@@ -1,50 +1,50 @@
 {
-  "name": "Archer C7 Directory Traversal Vulnerability",
-  "fullname": "auxiliary/gather/tplink_archer_c7_traversal",
-  "aliases": [
-    "auxiliary/scanner/http/archer_c7_traversal"
-  ],
-  "rank": 300,
-  "disclosure_date": "2015-04-08",
-  "type": "auxiliary",
-  "author": [
-    "Nick Cottrell <ncottrellweb@gmail.com>",
-    "Anna Graterol <annagraterol95@gmail.com>",
-    "Mana Mostaani <mana.mostaani@gmail.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability in the PATH_INFO found at /login/\n          on TP-Link Archer C5, C7, and C9 routers of varying versions.",
-  "references": [
-    "BID-74050 ",
-    "CVE-2015-3035"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-06-02 16:32:37 +0000",
-  "path": "/modules/auxiliary/gather/tplink_archer_c7_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "gather/tplink_archer_c7_traversal",
-  "check": true,
-  "notes": {
-    "Reliability": [
-      "repeatable-session"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Archer C7 Directory Traversal Vulnerability",
+	"fullname": "auxiliary/gather/tplink_archer_c7_traversal",
+	"aliases": [
+		"auxiliary/scanner/http/archer_c7_traversal"
+	],
+	"rank": 300,
+	"disclosure_date": "2015-04-08",
+	"type": "auxiliary",
+	"author": [
+		"Nick Cottrell <ncottrellweb@gmail.com>",
+		"Anna Graterol <annagraterol95@gmail.com>",
+		"Mana Mostaani <mana.mostaani@gmail.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability in the PATH_INFO found at /login/\n          on TP-Link Archer C5, C7, and C9 routers of varying versions.",
+	"references": [
+		"BID-74050 ",
+		"CVE-2015-3035"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-06-02 16:32:37 +0000",
+	"path": "/modules/auxiliary/gather/tplink_archer_c7_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "gather/tplink_archer_c7_traversal",
+	"check": true,
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

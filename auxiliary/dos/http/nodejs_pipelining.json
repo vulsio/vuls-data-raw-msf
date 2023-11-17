@@ -1,26 +1,26 @@
 {
-  "name": "Node.js HTTP Pipelining Denial of Service",
-  "fullname": "auxiliary/dos/http/nodejs_pipelining",
-  "rank": 300,
-  "disclosure_date": "2013-10-18",
-  "type": "auxiliary",
-  "author": [
-    "Marek Majkowski",
-    "titanous",
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module exploits a Denial of Service (DoS) condition in the HTTP parser of Node.js versions\n        released before 0.10.21 and 0.8.26. The attack sends many pipelined\n        HTTP requests on a single connection, which causes unbounded memory\n        allocation when the client does not read the responses.",
-  "references": [
-    "CVE-2013-4450",
-    "OSVDB-98724",
-    "BID-63229",
-    "URL-https://nodejs.org/ja/blog/vulnerability/http-server-pipeline-flood-dos/"
-  ],
-  "rport": 80,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/dos/http/nodejs_pipelining.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/nodejs_pipelining",
-  "check": true,
-  "needs_cleanup": false
+	"name": "Node.js HTTP Pipelining Denial of Service",
+	"fullname": "auxiliary/dos/http/nodejs_pipelining",
+	"rank": 300,
+	"disclosure_date": "2013-10-18",
+	"type": "auxiliary",
+	"author": [
+		"Marek Majkowski",
+		"titanous",
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module exploits a Denial of Service (DoS) condition in the HTTP parser of Node.js versions\n        released before 0.10.21 and 0.8.26. The attack sends many pipelined\n        HTTP requests on a single connection, which causes unbounded memory\n        allocation when the client does not read the responses.",
+	"references": [
+		"CVE-2013-4450",
+		"OSVDB-98724",
+		"BID-63229",
+		"URL-https://nodejs.org/ja/blog/vulnerability/http-server-pipeline-flood-dos/"
+	],
+	"rport": 80,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/dos/http/nodejs_pipelining.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/nodejs_pipelining",
+	"check": true,
+	"needs_cleanup": false
 }

@@ -1,30 +1,30 @@
 {
-  "name": "Microsoft SQL Server Generic Query from File",
-  "fullname": "auxiliary/admin/mssql/mssql_sql_file",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "j0hn__f : <jf@tinternet.org.uk>"
-  ],
-  "description": "This module will allow for multiple SQL queries contained within a specified\n        file to be executed against a Microsoft SQL (MSSQL) Server instance, given\n        the appropriate credentials.",
-  "rport": 1433,
-  "autofilter_ports": [
-    1433,
-    1434,
-    1435,
-    14330,
-    2533,
-    9152,
-    2638
-  ],
-  "autofilter_services": [
-    "ms-sql-s",
-    "ms-sql2000",
-    "sybase"
-  ],
-  "mod_time": "2017-08-24 21:38:44 +0000",
-  "path": "/modules/auxiliary/admin/mssql/mssql_sql_file.rb",
-  "is_install_path": true,
-  "ref_name": "admin/mssql/mssql_sql_file",
-  "needs_cleanup": false
+	"name": "Microsoft SQL Server Generic Query from File",
+	"fullname": "auxiliary/admin/mssql/mssql_sql_file",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"j0hn__f : <jf@tinternet.org.uk>"
+	],
+	"description": "This module will allow for multiple SQL queries contained within a specified\n        file to be executed against a Microsoft SQL (MSSQL) Server instance, given\n        the appropriate credentials.",
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2017-08-24 21:38:44 +0000",
+	"path": "/modules/auxiliary/admin/mssql/mssql_sql_file.rb",
+	"is_install_path": true,
+	"ref_name": "admin/mssql/mssql_sql_file",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Linux Gather User History",
-  "fullname": "post/linux/gather/enum_users_history",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "ohdae <bindshell@live.com>"
-  ],
-  "description": "This module gathers the following user-specific information:\n          shell history, MySQL history, PostgreSQL history, MongoDB history,\n          Vim history, lastlog, and sudoers.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/gather/enum_users_history.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/enum_users_history",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather User History",
+	"fullname": "post/linux/gather/enum_users_history",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"ohdae <bindshell@live.com>"
+	],
+	"description": "This module gathers the following user-specific information:\n          shell history, MySQL history, PostgreSQL history, MongoDB history,\n          Vim history, lastlog, and sudoers.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/gather/enum_users_history.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/enum_users_history",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

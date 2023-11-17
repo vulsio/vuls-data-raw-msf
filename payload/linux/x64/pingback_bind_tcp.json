@@ -1,17 +1,17 @@
 {
-  "name": "Linux x64 Pingback, Bind TCP Inline",
-  "fullname": "payload/linux/x64/pingback_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "bwatters-r7"
-  ],
-  "description": "Accept a connection from attacker and report UUID (Linux x64)",
-  "platform": "Linux",
-  "arch": "x64",
-  "mod_time": "2022-09-22 12:55:41 +0000",
-  "path": "/modules/payloads/singles/linux/x64/pingback_bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x64/pingback_bind_tcp",
-  "needs_cleanup": false
+	"name": "Linux x64 Pingback, Bind TCP Inline",
+	"fullname": "payload/linux/x64/pingback_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"bwatters-r7"
+	],
+	"description": "Accept a connection from attacker and report UUID (Linux x64)",
+	"platform": "Linux",
+	"arch": "x64",
+	"mod_time": "2022-09-22 12:55:41 +0000",
+	"path": "/modules/payloads/singles/linux/x64/pingback_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x64/pingback_bind_tcp",
+	"needs_cleanup": false
 }

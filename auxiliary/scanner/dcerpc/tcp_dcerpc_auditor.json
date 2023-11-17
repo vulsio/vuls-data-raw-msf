@@ -1,16 +1,16 @@
 {
-  "name": "DCERPC TCP Service Auditor",
-  "fullname": "auxiliary/scanner/dcerpc/tcp_dcerpc_auditor",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Determine what DCERPC services are accessible over a TCP port",
-  "rport": 135,
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/dcerpc/tcp_dcerpc_auditor.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/dcerpc/tcp_dcerpc_auditor",
-  "needs_cleanup": false
+	"name": "DCERPC TCP Service Auditor",
+	"fullname": "auxiliary/scanner/dcerpc/tcp_dcerpc_auditor",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Determine what DCERPC services are accessible over a TCP port",
+	"rport": 135,
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/dcerpc/tcp_dcerpc_auditor.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/dcerpc/tcp_dcerpc_auditor",
+	"needs_cleanup": false
 }

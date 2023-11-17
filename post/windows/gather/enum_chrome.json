@@ -1,21 +1,21 @@
 {
-  "name": "Windows Gather Google Chrome User Data Enumeration",
-  "fullname": "post/windows/gather/enum_chrome",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Sven Taute",
-    "sinn3r <sinn3r@metasploit.com>",
-    "Kx499",
-    "mubix <mubix@hak5.org>"
-  ],
-  "description": "This module will collect user data from Google Chrome and attempt to decrypt\n          sensitive information.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/enum_chrome.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_chrome",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Google Chrome User Data Enumeration",
+	"fullname": "post/windows/gather/enum_chrome",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Sven Taute",
+		"sinn3r <sinn3r@metasploit.com>",
+		"Kx499",
+		"mubix <mubix@hak5.org>"
+	],
+	"description": "This module will collect user data from Google Chrome and attempt to decrypt\n          sensitive information.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/enum_chrome.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_chrome",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,38 +1,38 @@
 {
-  "name": "WordPress All-in-One Migration Export",
-  "fullname": "auxiliary/gather/wp_all_in_one_migration_export",
-  "rank": 300,
-  "disclosure_date": "2015-03-19",
-  "type": "auxiliary",
-  "author": [
-    "James Golovich",
-    "rastating"
-  ],
-  "description": "This module allows you to export Wordpress data (such as the database, plugins, themes,\n        uploaded files, etc) via the All-in-One Migration plugin without authentication.",
-  "references": [
-    "WPVDB-7857",
-    "URL-https://www.pritect.net/blog/all-in-one-wp-migration-2-0-4-security-vulnerability"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/gather/wp_all_in_one_migration_export.rb",
-  "is_install_path": true,
-  "ref_name": "gather/wp_all_in_one_migration_export",
-  "check": true,
-  "needs_cleanup": false
+	"name": "WordPress All-in-One Migration Export",
+	"fullname": "auxiliary/gather/wp_all_in_one_migration_export",
+	"rank": 300,
+	"disclosure_date": "2015-03-19",
+	"type": "auxiliary",
+	"author": [
+		"James Golovich",
+		"rastating"
+	],
+	"description": "This module allows you to export Wordpress data (such as the database, plugins, themes,\n        uploaded files, etc) via the All-in-One Migration plugin without authentication.",
+	"references": [
+		"WPVDB-7857",
+		"URL-https://www.pritect.net/blog/all-in-one-wp-migration-2-0-4-security-vulnerability"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/gather/wp_all_in_one_migration_export.rb",
+	"is_install_path": true,
+	"ref_name": "gather/wp_all_in_one_migration_export",
+	"check": true,
+	"needs_cleanup": false
 }

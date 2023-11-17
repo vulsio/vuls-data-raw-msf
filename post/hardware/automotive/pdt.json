@@ -1,24 +1,24 @@
 {
-  "name": "Check For and Prep the Pyrotechnic Devices (Airbags, Battery Clamps, etc.)",
-  "fullname": "post/hardware/automotive/pdt",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Johannes Braun",
-    "Juergen Duerrwang",
-    "Craig Smith"
-  ],
-  "description": "Acting in the role of a Pyrotechnical Device Deployment Tool (PDT), this module\n          will first query all Pyrotechnic Control Units (PCUs) in the target vehicle\n          to discover how many pyrotechnic devices are present, then attempt to validate\n          the security access token using the default simplified algorithm.  On success,\n          the vehicle will be in a state that is prepped to deploy its pyrotechnic devices\n          (e.g. airbags, battery clamps, etc.) via the service routine. (ISO 26021)",
-  "references": [
-    "CVE-2017-14937",
-    "URL-https://www.researchgate.net/publication/321183727_Security_Evaluation_of_an_Airbag-ECU_by_Reusing_Threat_Modeling_Artefacts"
-  ],
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/automotive/pdt.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/automotive/pdt",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "Check For and Prep the Pyrotechnic Devices (Airbags, Battery Clamps, etc.)",
+	"fullname": "post/hardware/automotive/pdt",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Johannes Braun",
+		"Juergen Duerrwang",
+		"Craig Smith"
+	],
+	"description": "Acting in the role of a Pyrotechnical Device Deployment Tool (PDT), this module\n          will first query all Pyrotechnic Control Units (PCUs) in the target vehicle\n          to discover how many pyrotechnic devices are present, then attempt to validate\n          the security access token using the default simplified algorithm.  On success,\n          the vehicle will be in a state that is prepped to deploy its pyrotechnic devices\n          (e.g. airbags, battery clamps, etc.) via the service routine. (ISO 26021)",
+	"references": [
+		"CVE-2017-14937",
+		"URL-https://www.researchgate.net/publication/321183727_Security_Evaluation_of_an_Airbag-ECU_by_Reusing_Threat_Modeling_Artefacts"
+	],
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/automotive/pdt.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/automotive/pdt",
+	"session_types": [
+		"hwbridge"
+	]
 }

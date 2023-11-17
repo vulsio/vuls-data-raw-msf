@@ -1,18 +1,18 @@
 {
-  "name": "PPC LongXOR Encoder",
-  "fullname": "encoder/ppc/longxor_tag",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "ddz <ddz@theta44.org>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This encoder is ghandi's PPC dword xor encoder but uses a tag-based\n        terminator rather than a length.",
-  "platform": "All",
-  "arch": "ppc",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/ppc/longxor_tag.rb",
-  "is_install_path": true,
-  "ref_name": "ppc/longxor_tag",
-  "needs_cleanup": false
+	"name": "PPC LongXOR Encoder",
+	"fullname": "encoder/ppc/longxor_tag",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"ddz <ddz@theta44.org>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This encoder is ghandi's PPC dword xor encoder but uses a tag-based\n        terminator rather than a length.",
+	"platform": "All",
+	"arch": "ppc",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/ppc/longxor_tag.rb",
+	"is_install_path": true,
+	"ref_name": "ppc/longxor_tag",
+	"needs_cleanup": false
 }

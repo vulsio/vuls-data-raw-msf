@@ -1,25 +1,25 @@
 {
-  "name": "Apache ZooKeeper Information Disclosure",
-  "fullname": "auxiliary/gather/zookeeper_info_disclosure",
-  "rank": 300,
-  "disclosure_date": "2020-10-14",
-  "type": "auxiliary",
-  "author": [
-    "Karn Ganeshen <KarnGaneshen@gmail.com>"
-  ],
-  "description": "Apache ZooKeeper server service runs on TCP 2181 and by default, it is accessible without any authentication. This module targets Apache ZooKeeper service instances to extract information about the system environment, and service statistics.",
-  "references": [
-    "URL-https://zooKeeper.apache.org/doc/current/zookeeperAdmin.html"
-  ],
-  "rport": 2181,
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/gather/zookeeper_info_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "gather/zookeeper_info_disclosure",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Apache ZooKeeper Information Disclosure",
+	"fullname": "auxiliary/gather/zookeeper_info_disclosure",
+	"rank": 300,
+	"disclosure_date": "2020-10-14",
+	"type": "auxiliary",
+	"author": [
+		"Karn Ganeshen <KarnGaneshen@gmail.com>"
+	],
+	"description": "Apache ZooKeeper server service runs on TCP 2181 and by default, it is accessible without any authentication. This module targets Apache ZooKeeper service instances to extract information about the system environment, and service statistics.",
+	"references": [
+		"URL-https://zooKeeper.apache.org/doc/current/zookeeperAdmin.html"
+	],
+	"rport": 2181,
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/gather/zookeeper_info_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "gather/zookeeper_info_disclosure",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

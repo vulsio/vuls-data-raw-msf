@@ -1,15 +1,15 @@
 {
-  "name": "Archive.org Stored Domain URLs",
-  "fullname": "auxiliary/scanner/http/enum_wayback",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "mubix <mubix@hak5.org>"
-  ],
-  "description": "This module pulls and parses the URLs stored by Archive.org for the purpose of\n        replaying during a web assessment. Finding unlinked and old pages.",
-  "mod_time": "2021-11-10 10:05:45 +0000",
-  "path": "/modules/auxiliary/scanner/http/enum_wayback.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/enum_wayback",
-  "needs_cleanup": false
+	"name": "Archive.org Stored Domain URLs",
+	"fullname": "auxiliary/scanner/http/enum_wayback",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"mubix <mubix@hak5.org>"
+	],
+	"description": "This module pulls and parses the URLs stored by Archive.org for the purpose of\n        replaying during a web assessment. Finding unlinked and old pages.",
+	"mod_time": "2021-11-10 10:05:45 +0000",
+	"path": "/modules/auxiliary/scanner/http/enum_wayback.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/enum_wayback",
+	"needs_cleanup": false
 }

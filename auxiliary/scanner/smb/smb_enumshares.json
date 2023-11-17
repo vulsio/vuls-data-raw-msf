@@ -1,28 +1,28 @@
 {
-  "name": "SMB Share Enumeration",
-  "fullname": "auxiliary/scanner/smb/smb_enumshares",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "nebulus",
-    "sinn3r <sinn3r@metasploit.com>",
-    "r3dy",
-    "altonjx",
-    "sjanusz-r7"
-  ],
-  "description": "This module determines what shares are provided by the SMB service and which ones\n          are readable/writable. It also collects additional information such as share types,\n          directories, files, time stamps, etc.\n\n          By default, a RubySMB net_share_enum_all request is done in order to retrieve share information,\n          which uses SRVSVC.",
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2023-01-13 17:31:02 +0000",
-  "path": "/modules/auxiliary/scanner/smb/smb_enumshares.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/smb/smb_enumshares",
-  "needs_cleanup": false
+	"name": "SMB Share Enumeration",
+	"fullname": "auxiliary/scanner/smb/smb_enumshares",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"nebulus",
+		"sinn3r <sinn3r@metasploit.com>",
+		"r3dy",
+		"altonjx",
+		"sjanusz-r7"
+	],
+	"description": "This module determines what shares are provided by the SMB service and which ones\n          are readable/writable. It also collects additional information such as share types,\n          directories, files, time stamps, etc.\n\n          By default, a RubySMB net_share_enum_all request is done in order to retrieve share information,\n          which uses SRVSVC.",
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2023-01-13 17:31:02 +0000",
+	"path": "/modules/auxiliary/scanner/smb/smb_enumshares.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/smb/smb_enumshares",
+	"needs_cleanup": false
 }

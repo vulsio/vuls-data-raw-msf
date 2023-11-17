@@ -1,31 +1,31 @@
 {
-  "name": "VMWare ESX/ESXi Fingerprint Scanner",
-  "fullname": "auxiliary/scanner/vmware/esx_fingerprint",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module accesses the web API interfaces for VMware ESX/ESXi servers\n        and attempts to identify version information for that server.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/vmware/esx_fingerprint.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vmware/esx_fingerprint",
-  "needs_cleanup": false
+	"name": "VMWare ESX/ESXi Fingerprint Scanner",
+	"fullname": "auxiliary/scanner/vmware/esx_fingerprint",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module accesses the web API interfaces for VMware ESX/ESXi servers\n        and attempts to identify version information for that server.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/vmware/esx_fingerprint.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vmware/esx_fingerprint",
+	"needs_cleanup": false
 }

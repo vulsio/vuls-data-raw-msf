@@ -1,18 +1,18 @@
 {
-  "name": "Android Meterpreter Browsable Launcher",
-  "fullname": "auxiliary/server/android_browsable_msf_launch",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module allows you to open an android meterpreter via a browser. An Android\n        meterpreter must be installed as an application beforehand on the target device\n        in order to use this.\n\n        For best results, you can consider using the auxiliary/client/sms/send_text to\n        trick your target into opening the malicious link, and wake up Meterpreter.",
-  "references": [
-    "URL-http://developer.android.com/reference/android/content/Intent.html#CATEGORY_BROWSABLE"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/server/android_browsable_msf_launch.rb",
-  "is_install_path": true,
-  "ref_name": "server/android_browsable_msf_launch",
-  "needs_cleanup": false
+	"name": "Android Meterpreter Browsable Launcher",
+	"fullname": "auxiliary/server/android_browsable_msf_launch",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module allows you to open an android meterpreter via a browser. An Android\n        meterpreter must be installed as an application beforehand on the target device\n        in order to use this.\n\n        For best results, you can consider using the auxiliary/client/sms/send_text to\n        trick your target into opening the malicious link, and wake up Meterpreter.",
+	"references": [
+		"URL-http://developer.android.com/reference/android/content/Intent.html#CATEGORY_BROWSABLE"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/server/android_browsable_msf_launch.rb",
+	"is_install_path": true,
+	"ref_name": "server/android_browsable_msf_launch",
+	"needs_cleanup": false
 }

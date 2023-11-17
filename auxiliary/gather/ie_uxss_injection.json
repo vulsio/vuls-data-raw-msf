@@ -1,27 +1,27 @@
 {
-  "name": "MS15-018 Microsoft Internet Explorer 10 and 11 Cross-Domain JavaScript Injection",
-  "fullname": "auxiliary/gather/ie_uxss_injection",
-  "rank": 300,
-  "disclosure_date": "2015-02-01",
-  "type": "auxiliary",
-  "author": [
-    "David Leo",
-    "filedescriptor",
-    "joev <joev@metasploit.com>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module exploits a universal cross-site scripting (UXSS) vulnerability found in Internet\n          Explorer 10 and 11. By default, you will steal the cookie from TARGET_URI (which cannot\n          have X-Frame-Options or it will fail). You can also have your own custom JavaScript\n          by setting the CUSTOMJS option. Lastly, you might need to configure the URIHOST option if\n          you are behind NAT.",
-  "references": [
-    "CVE-2015-0072",
-    "OSVDB-117876",
-    "MSB-MS15-018",
-    "URL-http://innerht.ml/blog/ie-uxss.html",
-    "URL-https://seclists.org/fulldisclosure/2015/Feb/10"
-  ],
-  "platform": "Windows",
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/gather/ie_uxss_injection.rb",
-  "is_install_path": true,
-  "ref_name": "gather/ie_uxss_injection",
-  "needs_cleanup": false
+	"name": "MS15-018 Microsoft Internet Explorer 10 and 11 Cross-Domain JavaScript Injection",
+	"fullname": "auxiliary/gather/ie_uxss_injection",
+	"rank": 300,
+	"disclosure_date": "2015-02-01",
+	"type": "auxiliary",
+	"author": [
+		"David Leo",
+		"filedescriptor",
+		"joev <joev@metasploit.com>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module exploits a universal cross-site scripting (UXSS) vulnerability found in Internet\n          Explorer 10 and 11. By default, you will steal the cookie from TARGET_URI (which cannot\n          have X-Frame-Options or it will fail). You can also have your own custom JavaScript\n          by setting the CUSTOMJS option. Lastly, you might need to configure the URIHOST option if\n          you are behind NAT.",
+	"references": [
+		"CVE-2015-0072",
+		"OSVDB-117876",
+		"MSB-MS15-018",
+		"URL-http://innerht.ml/blog/ie-uxss.html",
+		"URL-https://seclists.org/fulldisclosure/2015/Feb/10"
+	],
+	"platform": "Windows",
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/gather/ie_uxss_injection.rb",
+	"is_install_path": true,
+	"ref_name": "gather/ie_uxss_injection",
+	"needs_cleanup": false
 }

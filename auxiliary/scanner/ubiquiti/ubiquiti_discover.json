@@ -1,21 +1,21 @@
 {
-  "name": "Ubiquiti Discovery Scanner",
-  "fullname": "auxiliary/scanner/ubiquiti/ubiquiti_discover",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jon Hart <jon_hart@rapid7.com>"
-  ],
-  "description": "Detects Ubiquiti devices using a UDP discovery service",
-  "references": [
-    "URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A",
-    "URL-https://community.ubnt.com/t5/airMAX-General-Discussion/airOS-airMAX-and-management-access/td-p/2654023",
-    "URL-https://www.rapid7.com/blog/post/2019/02/01/ubiquiti-discovery-service-exposures/"
-  ],
-  "rport": 10001,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/ubiquiti/ubiquiti_discover.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ubiquiti/ubiquiti_discover",
-  "needs_cleanup": false
+	"name": "Ubiquiti Discovery Scanner",
+	"fullname": "auxiliary/scanner/ubiquiti/ubiquiti_discover",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jon Hart <jon_hart@rapid7.com>"
+	],
+	"description": "Detects Ubiquiti devices using a UDP discovery service",
+	"references": [
+		"URL-https://www.cisa.gov/uscert/ncas/alerts/TA14-017A",
+		"URL-https://community.ubnt.com/t5/airMAX-General-Discussion/airOS-airMAX-and-management-access/td-p/2654023",
+		"URL-https://www.rapid7.com/blog/post/2019/02/01/ubiquiti-discovery-service-exposures/"
+	],
+	"rport": 10001,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/ubiquiti/ubiquiti_discover.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ubiquiti/ubiquiti_discover",
+	"needs_cleanup": false
 }

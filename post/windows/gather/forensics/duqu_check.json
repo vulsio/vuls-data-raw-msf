@@ -1,22 +1,22 @@
 {
-  "name": "Windows Gather Forensics Duqu Registry Check",
-  "fullname": "post/windows/gather/forensics/duqu_check",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Marcus J. Carey <mjc@threatagent.com>"
-  ],
-  "description": "This module searches for CVE-2011-3402 (Duqu) related registry artifacts.",
-  "references": [
-    "CVE-2011-3402",
-    "URL-http://r-7.co/w5h7fY"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/forensics/duqu_check.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/forensics/duqu_check",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Forensics Duqu Registry Check",
+	"fullname": "post/windows/gather/forensics/duqu_check",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Marcus J. Carey <mjc@threatagent.com>"
+	],
+	"description": "This module searches for CVE-2011-3402 (Duqu) related registry artifacts.",
+	"references": [
+		"CVE-2011-3402",
+		"URL-http://r-7.co/w5h7fY"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/forensics/duqu_check.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/forensics/duqu_check",
+	"session_types": [
+		"meterpreter"
+	]
 }

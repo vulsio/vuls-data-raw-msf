@@ -1,21 +1,21 @@
 {
-  "name": "TFTP Fetch",
-  "fullname": "payload/cmd/linux/tftp/mips64/meterpreter_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "Adam Cammack <adam_cammack@rapid7.com>",
-    "Brent Cook <brent_cook@rapid7.com>",
-    "timwr"
-  ],
-  "description": "Fetch and execute a MIPS64 payload from a TFTP server.",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-05-25 13:20:59 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/mips64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/mips64/meterpreter_reverse_tcp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch",
+	"fullname": "payload/cmd/linux/tftp/mips64/meterpreter_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"Adam Cammack <adam_cammack@rapid7.com>",
+		"Brent Cook <brent_cook@rapid7.com>",
+		"timwr"
+	],
+	"description": "Fetch and execute a MIPS64 payload from a TFTP server.",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-05-25 13:20:59 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/mips64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/mips64/meterpreter_reverse_tcp",
+	"needs_cleanup": false
 }

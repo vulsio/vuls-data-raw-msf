@@ -1,18 +1,18 @@
 {
-  "name": "Onion Omega2 Login Brute-Force",
-  "fullname": "auxiliary/scanner/http/onion_omega2_login",
-  "rank": 300,
-  "disclosure_date": "2019-03-27",
-  "type": "auxiliary",
-  "author": [
-    "Not So Attractive <github.com/nsa>"
-  ],
-  "description": "OnionOS login scanner module for Onion Omega2 devices.",
-  "rport": 80,
-  "mod_time": "2021-05-17 17:04:49 +0000",
-  "path": "/modules/auxiliary/scanner/http/onion_omega2_login.py",
-  "is_install_path": true,
-  "ref_name": "scanner/http/onion_omega2_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Onion Omega2 Login Brute-Force",
+	"fullname": "auxiliary/scanner/http/onion_omega2_login",
+	"rank": 300,
+	"disclosure_date": "2019-03-27",
+	"type": "auxiliary",
+	"author": [
+		"Not So Attractive <github.com/nsa>"
+	],
+	"description": "OnionOS login scanner module for Onion Omega2 devices.",
+	"rport": 80,
+	"mod_time": "2021-05-17 17:04:49 +0000",
+	"path": "/modules/auxiliary/scanner/http/onion_omega2_login.py",
+	"is_install_path": true,
+	"ref_name": "scanner/http/onion_omega2_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

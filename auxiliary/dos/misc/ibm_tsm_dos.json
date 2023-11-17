@@ -1,22 +1,22 @@
 {
-  "name": "IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service",
-  "fullname": "auxiliary/dos/misc/ibm_tsm_dos",
-  "rank": 300,
-  "disclosure_date": "2015-12-15",
-  "type": "auxiliary",
-  "author": [
-    "Gianni Gnesa",
-    "William Webb <william_webb@rapid7.com>"
-  ],
-  "description": "This module exploits a denial of service condition present in IBM Tivoli Storage Manager\n          FastBack Server when dealing with packets triggering the opcode 0x534 handler.",
-  "references": [
-    "EDB-38979",
-    "OSVDB-132307"
-  ],
-  "rport": 11460,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/dos/misc/ibm_tsm_dos.rb",
-  "is_install_path": true,
-  "ref_name": "dos/misc/ibm_tsm_dos",
-  "needs_cleanup": false
+	"name": "IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service",
+	"fullname": "auxiliary/dos/misc/ibm_tsm_dos",
+	"rank": 300,
+	"disclosure_date": "2015-12-15",
+	"type": "auxiliary",
+	"author": [
+		"Gianni Gnesa",
+		"William Webb <william_webb@rapid7.com>"
+	],
+	"description": "This module exploits a denial of service condition present in IBM Tivoli Storage Manager\n          FastBack Server when dealing with packets triggering the opcode 0x534 handler.",
+	"references": [
+		"EDB-38979",
+		"OSVDB-132307"
+	],
+	"rport": 11460,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/dos/misc/ibm_tsm_dos.rb",
+	"is_install_path": true,
+	"ref_name": "dos/misc/ibm_tsm_dos",
+	"needs_cleanup": false
 }

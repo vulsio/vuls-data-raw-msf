@@ -1,31 +1,31 @@
 {
-  "name": "Nessus XMLRPC Interface Ping Utility",
-  "fullname": "auxiliary/scanner/nessus/nessus_xmlrpc_ping",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Vlatko Kosturjak <kost@linux.hr>"
-  ],
-  "description": "This module simply attempts to find and check\n        for Nessus XMLRPC interface.'",
-  "rport": 8834,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/nessus/nessus_xmlrpc_ping.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/nessus/nessus_xmlrpc_ping",
-  "needs_cleanup": false
+	"name": "Nessus XMLRPC Interface Ping Utility",
+	"fullname": "auxiliary/scanner/nessus/nessus_xmlrpc_ping",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Vlatko Kosturjak <kost@linux.hr>"
+	],
+	"description": "This module simply attempts to find and check\n        for Nessus XMLRPC interface.'",
+	"rport": 8834,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/nessus/nessus_xmlrpc_ping.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/nessus/nessus_xmlrpc_ping",
+	"needs_cleanup": false
 }

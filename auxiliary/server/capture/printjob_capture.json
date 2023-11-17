@@ -1,21 +1,21 @@
 {
-  "name": "Printjob Capture Service",
-  "fullname": "auxiliary/server/capture/printjob_capture",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Chris John Riley",
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module is designed to listen for PJL or PostScript print\n        jobs. Once a print job is detected it is saved to loot. The\n        captured printjob can then be forwarded on to another printer\n        (required for LPR printjobs). Resulting PCL/PS files can be\n        read with GhostScript/GhostPCL.\n\n        Note, this module does not yet support IPP connections.",
-  "references": [
-    "URL-http://blog.c22.cc/toolsscripts/prn-2-me/",
-    "URL-http://www.ghostscript.com"
-  ],
-  "rport": 9100,
-  "mod_time": "2020-05-12 22:15:21 +0000",
-  "path": "/modules/auxiliary/server/capture/printjob_capture.rb",
-  "is_install_path": true,
-  "ref_name": "server/capture/printjob_capture",
-  "needs_cleanup": false
+	"name": "Printjob Capture Service",
+	"fullname": "auxiliary/server/capture/printjob_capture",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Chris John Riley",
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module is designed to listen for PJL or PostScript print\n        jobs. Once a print job is detected it is saved to loot. The\n        captured printjob can then be forwarded on to another printer\n        (required for LPR printjobs). Resulting PCL/PS files can be\n        read with GhostScript/GhostPCL.\n\n        Note, this module does not yet support IPP connections.",
+	"references": [
+		"URL-http://blog.c22.cc/toolsscripts/prn-2-me/",
+		"URL-http://www.ghostscript.com"
+	],
+	"rport": 9100,
+	"mod_time": "2020-05-12 22:15:21 +0000",
+	"path": "/modules/auxiliary/server/capture/printjob_capture.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/printjob_capture",
+	"needs_cleanup": false
 }

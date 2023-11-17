@@ -1,24 +1,24 @@
 {
-  "name": "SMB File Download Utility",
-  "fullname": "auxiliary/admin/smb/download_file",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "mubix <mubix@hak5.org>"
-  ],
-  "description": "This module downloads a file from a target share and path. The usual reason\n      to use this module is to work around limitations in an existing SMB client that may not\n      be able to take advantage of pass-the-hash style authentication.",
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2021-06-03 11:43:09 +0000",
-  "path": "/modules/auxiliary/admin/smb/download_file.rb",
-  "is_install_path": true,
-  "ref_name": "admin/smb/download_file",
-  "needs_cleanup": false
+	"name": "SMB File Download Utility",
+	"fullname": "auxiliary/admin/smb/download_file",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"mubix <mubix@hak5.org>"
+	],
+	"description": "This module downloads a file from a target share and path. The usual reason\n      to use this module is to work around limitations in an existing SMB client that may not\n      be able to take advantage of pass-the-hash style authentication.",
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2021-06-03 11:43:09 +0000",
+	"path": "/modules/auxiliary/admin/smb/download_file.rb",
+	"is_install_path": true,
+	"ref_name": "admin/smb/download_file",
+	"needs_cleanup": false
 }

@@ -1,44 +1,44 @@
 {
-  "name": "Syncovery For Linux Web-GUI Session Token Brute-Forcer",
-  "fullname": "auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536",
-  "rank": 300,
-  "disclosure_date": "2022-09-06",
-  "type": "auxiliary",
-  "author": [
-    "Jan Rude"
-  ],
-  "description": "This module attempts to brute-force a valid session token for the Syncovery File Sync & Backup Software Web-GUI\n          by generating all possible tokens, for every second between 'DateTime.now' and the given X day(s).\n          By default today and yesterday (DAYS = 1) will be checked. If a valid session token is found, the module stops.\n          The vulnerability exists, because in Syncovery session tokens are basically just base64(m/d/Y H:M:S) at the time\n          of the login instead of a random token.\n          If a user does not log out (Syncovery v8.x has no logout) session tokens will remain valid until reboot.",
-  "references": [
-    "URL-https://www.mgm-sp.com/en/multiple-vulnerabilities-in-syncovery-for-linux/",
-    "CVE-2022-36536"
-  ],
-  "platform": "Linux",
-  "rport": 8999,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-12-14 08:59:53 +0000",
-  "path": "/modules/auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/syncovery_linux_token_cve_2022_36536",
-  "check": true,
-  "post_auth": true,
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "Syncovery For Linux Web-GUI Session Token Brute-Forcer",
+	"fullname": "auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536",
+	"rank": 300,
+	"disclosure_date": "2022-09-06",
+	"type": "auxiliary",
+	"author": [
+		"Jan Rude"
+	],
+	"description": "This module attempts to brute-force a valid session token for the Syncovery File Sync & Backup Software Web-GUI\n          by generating all possible tokens, for every second between 'DateTime.now' and the given X day(s).\n          By default today and yesterday (DAYS = 1) will be checked. If a valid session token is found, the module stops.\n          The vulnerability exists, because in Syncovery session tokens are basically just base64(m/d/Y H:M:S) at the time\n          of the login instead of a random token.\n          If a user does not log out (Syncovery v8.x has no logout) session tokens will remain valid until reboot.",
+	"references": [
+		"URL-https://www.mgm-sp.com/en/multiple-vulnerabilities-in-syncovery-for-linux/",
+		"CVE-2022-36536"
+	],
+	"platform": "Linux",
+	"rport": 8999,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-12-14 08:59:53 +0000",
+	"path": "/modules/auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/syncovery_linux_token_cve_2022_36536",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

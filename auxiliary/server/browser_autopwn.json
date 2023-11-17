@@ -1,15 +1,15 @@
 {
-  "name": "HTTP Client Automatic Exploiter",
-  "fullname": "auxiliary/server/browser_autopwn",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "egypt <egypt@metasploit.com>"
-  ],
-  "description": "This module has three actions.  The first (and the default)\n        is 'WebServer' which uses a combination of client-side and\n        server-side techniques to fingerprint HTTP clients and then\n        automatically exploit them.  Next is 'DefangedDetection' which\n        does only the fingerprinting part.  Lastly, 'list' simply\n        prints the names of all exploit modules that would be used by\n        the WebServer action given the current MATCH and EXCLUDE\n        options.\n\n        Also adds a 'list' command which is the same as running with\n        ACTION=list.",
-  "mod_time": "2020-06-11 13:09:25 +0000",
-  "path": "/modules/auxiliary/server/browser_autopwn.rb",
-  "is_install_path": true,
-  "ref_name": "server/browser_autopwn",
-  "needs_cleanup": false
+	"name": "HTTP Client Automatic Exploiter",
+	"fullname": "auxiliary/server/browser_autopwn",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"egypt <egypt@metasploit.com>"
+	],
+	"description": "This module has three actions.  The first (and the default)\n        is 'WebServer' which uses a combination of client-side and\n        server-side techniques to fingerprint HTTP clients and then\n        automatically exploit them.  Next is 'DefangedDetection' which\n        does only the fingerprinting part.  Lastly, 'list' simply\n        prints the names of all exploit modules that would be used by\n        the WebServer action given the current MATCH and EXCLUDE\n        options.\n\n        Also adds a 'list' command which is the same as running with\n        ACTION=list.",
+	"mod_time": "2020-06-11 13:09:25 +0000",
+	"path": "/modules/auxiliary/server/browser_autopwn.rb",
+	"is_install_path": true,
+	"ref_name": "server/browser_autopwn",
+	"needs_cleanup": false
 }

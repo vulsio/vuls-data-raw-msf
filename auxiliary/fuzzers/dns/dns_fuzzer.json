@@ -1,16 +1,16 @@
 {
-  "name": "DNS and DNSSEC Fuzzer",
-  "fullname": "auxiliary/fuzzers/dns/dns_fuzzer",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "pello <fropert@packetfault.org>"
-  ],
-  "description": "This module will connect to a DNS server and perform DNS and\n        DNSSEC protocol-level fuzzing. Note that this module may inadvertently\n        crash the target server.",
-  "rport": 53,
-  "mod_time": "2019-12-07 08:01:52 +0000",
-  "path": "/modules/auxiliary/fuzzers/dns/dns_fuzzer.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/dns/dns_fuzzer",
-  "needs_cleanup": false
+	"name": "DNS and DNSSEC Fuzzer",
+	"fullname": "auxiliary/fuzzers/dns/dns_fuzzer",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"pello <fropert@packetfault.org>"
+	],
+	"description": "This module will connect to a DNS server and perform DNS and\n        DNSSEC protocol-level fuzzing. Note that this module may inadvertently\n        crash the target server.",
+	"rport": 53,
+	"mod_time": "2019-12-07 08:01:52 +0000",
+	"path": "/modules/auxiliary/fuzzers/dns/dns_fuzzer.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/dns/dns_fuzzer",
+	"needs_cleanup": false
 }

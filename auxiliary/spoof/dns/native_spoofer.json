@@ -1,22 +1,22 @@
 {
-  "name": "Native DNS Spoofer (Example)",
-  "fullname": "auxiliary/spoof/dns/native_spoofer",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "This module provides a Rex based DNS service to resolve queries intercepted\n          via the capture mixin. Configure STATIC_ENTRIES to contain host-name mappings\n          desired for spoofing using a hostsfile or space/semicolon separated entries.\n          In the default configuration, the service operates as a normal native DNS server\n          with the exception of consuming from and writing to the wire as opposed to a\n          listening socket. Best when compromising routers or spoofing L2 in order to\n          prevent return of the real reply which causes a race condition. The method\n          by which replies are filtered is up to the user (though iptables works fine).",
-  "rport": 53,
-  "autofilter_ports": [
-    53
-  ],
-  "autofilter_services": [
-    "dns"
-  ],
-  "mod_time": "2022-03-21 13:50:16 +0000",
-  "path": "/modules/auxiliary/spoof/dns/native_spoofer.rb",
-  "is_install_path": true,
-  "ref_name": "spoof/dns/native_spoofer",
-  "needs_cleanup": false
+	"name": "Native DNS Spoofer (Example)",
+	"fullname": "auxiliary/spoof/dns/native_spoofer",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "This module provides a Rex based DNS service to resolve queries intercepted\n          via the capture mixin. Configure STATIC_ENTRIES to contain host-name mappings\n          desired for spoofing using a hostsfile or space/semicolon separated entries.\n          In the default configuration, the service operates as a normal native DNS server\n          with the exception of consuming from and writing to the wire as opposed to a\n          listening socket. Best when compromising routers or spoofing L2 in order to\n          prevent return of the real reply which causes a race condition. The method\n          by which replies are filtered is up to the user (though iptables works fine).",
+	"rport": 53,
+	"autofilter_ports": [
+		53
+	],
+	"autofilter_services": [
+		"dns"
+	],
+	"mod_time": "2022-03-21 13:50:16 +0000",
+	"path": "/modules/auxiliary/spoof/dns/native_spoofer.rb",
+	"is_install_path": true,
+	"ref_name": "spoof/dns/native_spoofer",
+	"needs_cleanup": false
 }

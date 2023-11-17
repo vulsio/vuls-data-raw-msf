@@ -1,26 +1,26 @@
 {
-  "name": "FreeSWITCH Event Socket Login",
-  "fullname": "auxiliary/scanner/misc/freeswitch_event_socket_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "krastanoel"
-  ],
-  "description": "This module tests FreeSWITCH Event Socket logins on a range of\n          machines and report successful attempts.",
-  "references": [
-    "URL-https://freeswitch.org/confluence/display/FREESWITCH/mod_event_socket"
-  ],
-  "rport": 8021,
-  "mod_time": "2022-07-01 12:22:31 +0000",
-  "path": "/modules/auxiliary/scanner/misc/freeswitch_event_socket_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/freeswitch_event_socket_login",
-  "check": true,
-  "post_auth": true,
-  "notes": {
-    "Stability": [
-      "crash-service-restarts"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "FreeSWITCH Event Socket Login",
+	"fullname": "auxiliary/scanner/misc/freeswitch_event_socket_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"krastanoel"
+	],
+	"description": "This module tests FreeSWITCH Event Socket logins on a range of\n          machines and report successful attempts.",
+	"references": [
+		"URL-https://freeswitch.org/confluence/display/FREESWITCH/mod_event_socket"
+	],
+	"rport": 8021,
+	"mod_time": "2022-07-01 12:22:31 +0000",
+	"path": "/modules/auxiliary/scanner/misc/freeswitch_event_socket_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/freeswitch_event_socket_login",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Stability": [
+			"crash-service-restarts"
+		]
+	},
+	"needs_cleanup": false
 }

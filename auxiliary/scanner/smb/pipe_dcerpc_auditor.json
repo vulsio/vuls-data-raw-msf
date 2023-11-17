@@ -1,23 +1,23 @@
 {
-  "name": "SMB Session Pipe DCERPC Auditor",
-  "fullname": "auxiliary/scanner/smb/pipe_dcerpc_auditor",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Determine what DCERPC services are accessible over a SMB pipe",
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/smb/pipe_dcerpc_auditor.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/smb/pipe_dcerpc_auditor",
-  "needs_cleanup": false
+	"name": "SMB Session Pipe DCERPC Auditor",
+	"fullname": "auxiliary/scanner/smb/pipe_dcerpc_auditor",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Determine what DCERPC services are accessible over a SMB pipe",
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/smb/pipe_dcerpc_auditor.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/smb/pipe_dcerpc_auditor",
+	"needs_cleanup": false
 }

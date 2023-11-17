@@ -1,16 +1,16 @@
 {
-  "name": "SSH Key Exchange Init Corruption",
-  "fullname": "auxiliary/fuzzers/ssh/ssh_kexinit_corrupt",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module sends a series of SSH requests with a corrupted initial key exchange payload.",
-  "rport": 22,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/fuzzers/ssh/ssh_kexinit_corrupt.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/ssh/ssh_kexinit_corrupt",
-  "needs_cleanup": false
+	"name": "SSH Key Exchange Init Corruption",
+	"fullname": "auxiliary/fuzzers/ssh/ssh_kexinit_corrupt",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module sends a series of SSH requests with a corrupted initial key exchange payload.",
+	"rport": 22,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/fuzzers/ssh/ssh_kexinit_corrupt.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/ssh/ssh_kexinit_corrupt",
+	"needs_cleanup": false
 }

@@ -1,16 +1,16 @@
 {
-  "name": "DHCP Server",
-  "fullname": "auxiliary/server/dhcp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "scriptjunkie",
-    "apconole <apconole@yahoo.com>"
-  ],
-  "description": "This module provides a DHCP service",
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/server/dhcp.rb",
-  "is_install_path": true,
-  "ref_name": "server/dhcp",
-  "needs_cleanup": false
+	"name": "DHCP Server",
+	"fullname": "auxiliary/server/dhcp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"scriptjunkie",
+		"apconole <apconole@yahoo.com>"
+	],
+	"description": "This module provides a DHCP service",
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/server/dhcp.rb",
+	"is_install_path": true,
+	"ref_name": "server/dhcp",
+	"needs_cleanup": false
 }

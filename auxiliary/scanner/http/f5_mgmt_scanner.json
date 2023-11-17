@@ -1,33 +1,33 @@
 {
-  "name": "F5 Networks Devices Management Interface Scanner",
-  "fullname": "auxiliary/scanner/http/f5_mgmt_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Denis Kolegov <dnkolegov@gmail.com>",
-    "Oleg Broslavsky <ovbroslavsky@gmail.com>",
-    "Nikita Oleksov <neoleksov@gmail.com>"
-  ],
-  "description": "This module attempts to identify the web management interfaces of the following\n        F5 Networks devices:\n        BigIP, BigIQ, Enterprise Manager, ARX, and FirePass.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-04-24 06:42:49 +0000",
-  "path": "/modules/auxiliary/scanner/http/f5_mgmt_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/f5_mgmt_scanner",
-  "needs_cleanup": false
+	"name": "F5 Networks Devices Management Interface Scanner",
+	"fullname": "auxiliary/scanner/http/f5_mgmt_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Denis Kolegov <dnkolegov@gmail.com>",
+		"Oleg Broslavsky <ovbroslavsky@gmail.com>",
+		"Nikita Oleksov <neoleksov@gmail.com>"
+	],
+	"description": "This module attempts to identify the web management interfaces of the following\n        F5 Networks devices:\n        BigIP, BigIQ, Enterprise Manager, ARX, and FirePass.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-04-24 06:42:49 +0000",
+	"path": "/modules/auxiliary/scanner/http/f5_mgmt_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/f5_mgmt_scanner",
+	"needs_cleanup": false
 }

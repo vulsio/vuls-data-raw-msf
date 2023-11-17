@@ -1,32 +1,32 @@
 {
-  "name": "CouchDB Login Utility",
-  "fullname": "auxiliary/scanner/couchdb/couchdb_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "espreto <robertoespreto@gmail.com>"
-  ],
-  "description": "This module tests CouchDB logins on a range of\n        machines and report successful logins.",
-  "rport": 5984,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-04-20 10:26:12 +0000",
-  "path": "/modules/auxiliary/scanner/couchdb/couchdb_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/couchdb/couchdb_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "CouchDB Login Utility",
+	"fullname": "auxiliary/scanner/couchdb/couchdb_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"espreto <robertoespreto@gmail.com>"
+	],
+	"description": "This module tests CouchDB logins on a range of\n        machines and report successful logins.",
+	"rport": 5984,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-04-20 10:26:12 +0000",
+	"path": "/modules/auxiliary/scanner/couchdb/couchdb_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/couchdb/couchdb_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

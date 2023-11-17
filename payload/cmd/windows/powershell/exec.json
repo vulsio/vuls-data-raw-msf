@@ -1,19 +1,19 @@
 {
-  "name": "Powershell Exec",
-  "fullname": "payload/cmd/windows/powershell/exec",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "vlad902 <vlad902@gmail.com>",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Execute an x86 payload from a command via PowerShell",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/exec",
-  "needs_cleanup": false
+	"name": "Powershell Exec",
+	"fullname": "payload/cmd/windows/powershell/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"vlad902 <vlad902@gmail.com>",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Execute an x86 payload from a command via PowerShell",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/exec",
+	"needs_cleanup": false
 }

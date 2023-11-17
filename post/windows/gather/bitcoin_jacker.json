@@ -1,19 +1,19 @@
 {
-  "name": "Windows Gather Bitcoin Wallet",
-  "fullname": "post/windows/gather/bitcoin_jacker",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "illwill <illwill@illmob.org>",
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module downloads any Bitcoin wallet files from the target\n          system. It currently supports both the classic Satoshi wallet and the\n          more recent Armory wallets. Note that Satoshi wallets tend to be\n          unencrypted by default, while Armory wallets tend to be encrypted by default.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/gather/bitcoin_jacker.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/bitcoin_jacker",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Bitcoin Wallet",
+	"fullname": "post/windows/gather/bitcoin_jacker",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"illwill <illwill@illmob.org>",
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module downloads any Bitcoin wallet files from the target\n          system. It currently supports both the classic Satoshi wallet and the\n          more recent Armory wallets. Note that Satoshi wallets tend to be\n          unencrypted by default, while Armory wallets tend to be encrypted by default.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/gather/bitcoin_jacker.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/bitcoin_jacker",
+	"session_types": [
+		"meterpreter"
+	]
 }

@@ -1,36 +1,36 @@
 {
-  "name": "Canon Wireless Printer Denial Of Service",
-  "fullname": "auxiliary/dos/http/canon_wireless_printer",
-  "rank": 300,
-  "disclosure_date": "2013-06-18",
-  "type": "auxiliary",
-  "author": [
-    "Matt \"hostess\" Andreko <mandreko@accuvant.com>"
-  ],
-  "description": "The HTTP management interface on several models of Canon Wireless printers\n        allows for a Denial of Service (DoS) condition via a crafted HTTP request. Note:\n        if this module is successful, the device can only be recovered with a physical\n        power cycle.",
-  "references": [
-    "CVE-2013-4615",
-    "URL-https://www.mattandreko.com/2013/06/canon-y-u-no-security.html"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/dos/http/canon_wireless_printer.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/canon_wireless_printer",
-  "needs_cleanup": false
+	"name": "Canon Wireless Printer Denial Of Service",
+	"fullname": "auxiliary/dos/http/canon_wireless_printer",
+	"rank": 300,
+	"disclosure_date": "2013-06-18",
+	"type": "auxiliary",
+	"author": [
+		"Matt \"hostess\" Andreko <mandreko@accuvant.com>"
+	],
+	"description": "The HTTP management interface on several models of Canon Wireless printers\n        allows for a Denial of Service (DoS) condition via a crafted HTTP request. Note:\n        if this module is successful, the device can only be recovered with a physical\n        power cycle.",
+	"references": [
+		"CVE-2013-4615",
+		"URL-https://www.mattandreko.com/2013/06/canon-y-u-no-security.html"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/dos/http/canon_wireless_printer.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/canon_wireless_printer",
+	"needs_cleanup": false
 }

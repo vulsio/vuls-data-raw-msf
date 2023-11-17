@@ -1,26 +1,26 @@
 {
-  "name": "Windows Meterpreter (Reflective Injection), Reverse HTTPS Stager with Support for Custom Proxy",
-  "fullname": "payload/windows/meterpreter/reverse_https_proxy",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves",
-    "hdm <x@hdm.io>",
-    "corelanc0d3r <peter.ve@corelan.be>",
-    "amaloteaux <alex_maloteaux@metasploit.com>"
-  ],
-  "description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nTunnel communication over HTTP using SSL with custom proxy support",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/stagers/windows/reverse_https_proxy.rb",
-  "is_install_path": true,
-  "ref_name": "windows/meterpreter/reverse_https_proxy",
-  "needs_cleanup": false
+	"name": "Windows Meterpreter (Reflective Injection), Reverse HTTPS Stager with Support for Custom Proxy",
+	"fullname": "payload/windows/meterpreter/reverse_https_proxy",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves",
+		"hdm <x@hdm.io>",
+		"corelanc0d3r <peter.ve@corelan.be>",
+		"amaloteaux <alex_maloteaux@metasploit.com>"
+	],
+	"description": "Inject the Meterpreter server DLL via the Reflective Dll Injection payload (staged). Requires Windows XP SP2 or newer.\n\nTunnel communication over HTTP using SSL with custom proxy support",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/stagers/windows/reverse_https_proxy.rb",
+	"is_install_path": true,
+	"ref_name": "windows/meterpreter/reverse_https_proxy",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Powershell Exec, Windows MessageBox",
-  "fullname": "payload/cmd/windows/powershell/messagebox",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "corelanc0d3r <peter.ve@corelan.be>",
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "Execute an x86 payload from a command via PowerShell.\n\nSpawns a dialog via MessageBox using a customizable title, text & icon",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/messagebox",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Windows MessageBox",
+	"fullname": "payload/cmd/windows/powershell/messagebox",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"corelanc0d3r <peter.ve@corelan.be>",
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "Execute an x86 payload from a command via PowerShell.\n\nSpawns a dialog via MessageBox using a customizable title, text & icon",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/messagebox",
+	"needs_cleanup": false
 }

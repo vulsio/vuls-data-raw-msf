@@ -1,18 +1,18 @@
 {
-  "name": "SPARC DWORD XOR Encoder",
-  "fullname": "encoder/sparc/longxor_tag",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "optyx <optyx@no$email.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This encoder is optyx's 48-byte SPARC encoder with some tweaks.",
-  "platform": "All",
-  "arch": "sparc",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/sparc/longxor_tag.rb",
-  "is_install_path": true,
-  "ref_name": "sparc/longxor_tag",
-  "needs_cleanup": false
+	"name": "SPARC DWORD XOR Encoder",
+	"fullname": "encoder/sparc/longxor_tag",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"optyx <optyx@no$email.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "This encoder is optyx's 48-byte SPARC encoder with some tweaks.",
+	"platform": "All",
+	"arch": "sparc",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/sparc/longxor_tag.rb",
+	"is_install_path": true,
+	"ref_name": "sparc/longxor_tag",
+	"needs_cleanup": false
 }

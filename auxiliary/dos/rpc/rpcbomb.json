@@ -1,22 +1,22 @@
 {
-  "name": "RPC DoS targeting *nix rpcbind/libtirpc",
-  "fullname": "auxiliary/dos/rpc/rpcbomb",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "guidovranken",
-    "Pearce Barry <pearce_barry@rapid7.com>"
-  ],
-  "description": "This module exploits a vulnerability in certain versions of\n        rpcbind, LIBTIRPC, and NTIRPC, allowing an attacker to trigger\n        large (and never freed) memory allocations for XDR strings on\n        the target.",
-  "references": [
-    "CVE-2017-8779",
-    "BID-98325",
-    "URL-http://openwall.com/lists/oss-security/2017/05/03/12"
-  ],
-  "rport": 111,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/dos/rpc/rpcbomb.rb",
-  "is_install_path": true,
-  "ref_name": "dos/rpc/rpcbomb",
-  "needs_cleanup": false
+	"name": "RPC DoS targeting *nix rpcbind/libtirpc",
+	"fullname": "auxiliary/dos/rpc/rpcbomb",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"guidovranken",
+		"Pearce Barry <pearce_barry@rapid7.com>"
+	],
+	"description": "This module exploits a vulnerability in certain versions of\n        rpcbind, LIBTIRPC, and NTIRPC, allowing an attacker to trigger\n        large (and never freed) memory allocations for XDR strings on\n        the target.",
+	"references": [
+		"CVE-2017-8779",
+		"BID-98325",
+		"URL-http://openwall.com/lists/oss-security/2017/05/03/12"
+	],
+	"rport": 111,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/dos/rpc/rpcbomb.rb",
+	"is_install_path": true,
+	"ref_name": "dos/rpc/rpcbomb",
+	"needs_cleanup": false
 }

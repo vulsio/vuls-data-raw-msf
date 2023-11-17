@@ -1,32 +1,32 @@
 {
-  "name": "Diagnostics Agent in Solution Manager, stores unencrypted credentials for Solution Manager server",
-  "fullname": "post/multi/sap/smdagent_get_properties",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Yvan Genuer",
-    "Vladimir Ivanov"
-  ],
-  "description": "This module retrieves the `secstore.properties` file on a SMDAgent. This file contains the credentials\n          used by the SMDAgent to connect to the SAP Solution Manager server.",
-  "references": [
-    "CVE-2019-0307",
-    "URL-https://conference.hitb.org/hitblockdown002/materials/D2T1%20-%20SAP%20RCE%20-%20The%20Agent%20Who%20Spoke%20Too%20Much%20-%20Yvan%20Genuer.pdf"
-  ],
-  "platform": "BSD,Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/multi/sap/smdagent_get_properties.rb",
-  "is_install_path": true,
-  "ref_name": "multi/sap/smdagent_get_properties",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Diagnostics Agent in Solution Manager, stores unencrypted credentials for Solution Manager server",
+	"fullname": "post/multi/sap/smdagent_get_properties",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Yvan Genuer",
+		"Vladimir Ivanov"
+	],
+	"description": "This module retrieves the `secstore.properties` file on a SMDAgent. This file contains the credentials\n          used by the SMDAgent to connect to the SAP Solution Manager server.",
+	"references": [
+		"CVE-2019-0307",
+		"URL-https://conference.hitb.org/hitblockdown002/materials/D2T1%20-%20SAP%20RCE%20-%20The%20Agent%20Who%20Spoke%20Too%20Much%20-%20Yvan%20Genuer.pdf"
+	],
+	"platform": "BSD,Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/multi/sap/smdagent_get_properties.rb",
+	"is_install_path": true,
+	"ref_name": "multi/sap/smdagent_get_properties",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

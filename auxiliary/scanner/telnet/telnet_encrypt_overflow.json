@@ -1,29 +1,29 @@
 {
-  "name": "Telnet Service Encryption Key ID Overflow Detection",
-  "fullname": "auxiliary/scanner/telnet/telnet_encrypt_overflow",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Jaime Penalba Estebanez <jpenalbae@gmail.com>",
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Detect telnet services vulnerable to the encrypt option Key ID overflow (BSD-derived telnetd)",
-  "references": [
-    "BID-51182",
-    "CVE-2011-4862",
-    "EDB-18280",
-    "URL-https://www.rapid7.com/blog/post/2011/12/28/more-fun-with-bsd-derived-telnet-daemons/"
-  ],
-  "rport": 23,
-  "autofilter_ports": [
-    23
-  ],
-  "autofilter_services": [
-    "telnet"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/telnet/telnet_encrypt_overflow.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/telnet/telnet_encrypt_overflow",
-  "needs_cleanup": false
+	"name": "Telnet Service Encryption Key ID Overflow Detection",
+	"fullname": "auxiliary/scanner/telnet/telnet_encrypt_overflow",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Jaime Penalba Estebanez <jpenalbae@gmail.com>",
+		"hdm <x@hdm.io>"
+	],
+	"description": "Detect telnet services vulnerable to the encrypt option Key ID overflow (BSD-derived telnetd)",
+	"references": [
+		"BID-51182",
+		"CVE-2011-4862",
+		"EDB-18280",
+		"URL-https://www.rapid7.com/blog/post/2011/12/28/more-fun-with-bsd-derived-telnet-daemons/"
+	],
+	"rport": 23,
+	"autofilter_ports": [
+		23
+	],
+	"autofilter_services": [
+		"telnet"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/telnet/telnet_encrypt_overflow.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/telnet/telnet_encrypt_overflow",
+	"needs_cleanup": false
 }

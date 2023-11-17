@@ -1,21 +1,21 @@
 {
-  "name": "Oracle TNS Listener Checker",
-  "fullname": "auxiliary/scanner/oracle/tnspoison_checker",
-  "rank": 300,
-  "disclosure_date": "2012-04-18",
-  "type": "auxiliary",
-  "author": [
-    "ir0njaw (Nikita Kelesis) <nikita.elkey@gmail.com>"
-  ],
-  "description": "This module checks the server for vulnerabilities like TNS Poison.\n        Module sends a server a packet with command to register new TNS Listener and checks\n        for a response indicating an error. If the registration is errored, the target is not\n        vulnerable. Otherwise, the target is vulnerable to malicious registrations.",
-  "references": [
-    "CVE-2012-1675",
-    "URL-https://seclists.org/fulldisclosure/2012/Apr/204"
-  ],
-  "rport": 1521,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/oracle/tnspoison_checker.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/oracle/tnspoison_checker",
-  "needs_cleanup": false
+	"name": "Oracle TNS Listener Checker",
+	"fullname": "auxiliary/scanner/oracle/tnspoison_checker",
+	"rank": 300,
+	"disclosure_date": "2012-04-18",
+	"type": "auxiliary",
+	"author": [
+		"ir0njaw (Nikita Kelesis) <nikita.elkey@gmail.com>"
+	],
+	"description": "This module checks the server for vulnerabilities like TNS Poison.\n        Module sends a server a packet with command to register new TNS Listener and checks\n        for a response indicating an error. If the registration is errored, the target is not\n        vulnerable. Otherwise, the target is vulnerable to malicious registrations.",
+	"references": [
+		"CVE-2012-1675",
+		"URL-https://seclists.org/fulldisclosure/2012/Apr/204"
+	],
+	"rport": 1521,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/oracle/tnspoison_checker.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/oracle/tnspoison_checker",
+	"needs_cleanup": false
 }

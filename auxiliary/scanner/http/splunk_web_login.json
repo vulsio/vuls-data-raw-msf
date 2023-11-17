@@ -1,33 +1,33 @@
 {
-  "name": "Splunk Web Interface Login Utility",
-  "fullname": "auxiliary/scanner/http/splunk_web_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Vlatko Kosturjak <kost@linux.hr>",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module simply attempts to login to a Splunk web interface.  Please note the\n        free version of Splunk actually does not require any authentication, in that case\n        the module will abort trying.  Also, some Splunk applications still have the\n        default credential 'admin:changeme' written on the login page.  If this default\n        credential is found, the module will also store that information, and then move on\n        to trying more passwords.",
-  "rport": 8000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/splunk_web_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/splunk_web_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Splunk Web Interface Login Utility",
+	"fullname": "auxiliary/scanner/http/splunk_web_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Vlatko Kosturjak <kost@linux.hr>",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module simply attempts to login to a Splunk web interface.  Please note the\n        free version of Splunk actually does not require any authentication, in that case\n        the module will abort trying.  Also, some Splunk applications still have the\n        default credential 'admin:changeme' written on the login page.  If this default\n        credential is found, the module will also store that information, and then move on\n        to trying more passwords.",
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/splunk_web_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/splunk_web_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

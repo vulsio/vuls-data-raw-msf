@@ -1,32 +1,32 @@
 {
-  "name": "BAVision IP Camera Web Server Login",
-  "fullname": "auxiliary/scanner/http/bavision_cam_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module will attempt to authenticate to an IP camera created by BAVision via the\n        web service. By default, the vendor ships a default credential admin:123456 to its\n        cameras, and the web server does not enforce lockouts in case of a bruteforce attack.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-08-31 17:10:07 +0000",
-  "path": "/modules/auxiliary/scanner/http/bavision_cam_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/bavision_cam_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "BAVision IP Camera Web Server Login",
+	"fullname": "auxiliary/scanner/http/bavision_cam_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module will attempt to authenticate to an IP camera created by BAVision via the\n        web service. By default, the vendor ships a default credential admin:123456 to its\n        cameras, and the web server does not enforce lockouts in case of a bruteforce attack.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-08-31 17:10:07 +0000",
+	"path": "/modules/auxiliary/scanner/http/bavision_cam_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/bavision_cam_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

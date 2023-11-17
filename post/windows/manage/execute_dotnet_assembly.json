@@ -1,30 +1,30 @@
 {
-  "name": "Execute .net Assembly (x64 only)",
-  "fullname": "post/windows/manage/execute_dotnet_assembly",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "b4rtik"
-  ],
-  "description": "This module executes a .NET assembly in memory. It\n          reflectively loads a dll that will host CLR, then it copies\n          the assembly to be executed into memory. Credits for AMSI\n          bypass to Rastamouse (@_RastaMouse)",
-  "references": [
-    "URL-https://b4rtik.github.io/posts/execute-assembly-via-meterpreter-session/"
-  ],
-  "platform": "Windows",
-  "arch": "x64",
-  "mod_time": "2023-06-19 12:36:32 +0000",
-  "path": "/modules/post/windows/manage/execute_dotnet_assembly.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/execute_dotnet_assembly",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Execute .net Assembly (x64 only)",
+	"fullname": "post/windows/manage/execute_dotnet_assembly",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"b4rtik"
+	],
+	"description": "This module executes a .NET assembly in memory. It\n          reflectively loads a dll that will host CLR, then it copies\n          the assembly to be executed into memory. Credits for AMSI\n          bypass to Rastamouse (@_RastaMouse)",
+	"references": [
+		"URL-https://b4rtik.github.io/posts/execute-assembly-via-meterpreter-session/"
+	],
+	"platform": "Windows",
+	"arch": "x64",
+	"mod_time": "2023-06-19 12:36:32 +0000",
+	"path": "/modules/post/windows/manage/execute_dotnet_assembly.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/execute_dotnet_assembly",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

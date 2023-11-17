@@ -1,36 +1,36 @@
 {
-  "name": "Bypass the macOS TCC Framework",
-  "fullname": "post/osx/escalate/tccbypass",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "mattshockl",
-    "timwr"
-  ],
-  "description": "This module exploits a vulnerability in the TCC daemon on macOS Catalina\n          (<= 10.15.5) in order to grant TCC entitlements. The TCC daemon can be\n          manipulated (by setting the HOME environment variable) to use a new user\n          controlled location as the TCC database. We can then grant ourselves\n          entitlements by inserting them into this new database.",
-  "references": [
-    "CVE-2020-9934",
-    "URL-https://medium.com/@mattshockl/cve-2020-9934-bypassing-the-os-x-transparency-consent-and-control-tcc-framework-for-4e14806f1de8",
-    "URL-https://github.com/mattshockl/CVE-2020-9934"
-  ],
-  "platform": "OSX",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/osx/escalate/tccbypass.rb",
-  "is_install_path": true,
-  "ref_name": "osx/escalate/tccbypass",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "config-changes",
-      "artifacts-on-disk",
-      "screen-effects"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Bypass the macOS TCC Framework",
+	"fullname": "post/osx/escalate/tccbypass",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"mattshockl",
+		"timwr"
+	],
+	"description": "This module exploits a vulnerability in the TCC daemon on macOS Catalina\n          (<= 10.15.5) in order to grant TCC entitlements. The TCC daemon can be\n          manipulated (by setting the HOME environment variable) to use a new user\n          controlled location as the TCC database. We can then grant ourselves\n          entitlements by inserting them into this new database.",
+	"references": [
+		"CVE-2020-9934",
+		"URL-https://medium.com/@mattshockl/cve-2020-9934-bypassing-the-os-x-transparency-consent-and-control-tcc-framework-for-4e14806f1de8",
+		"URL-https://github.com/mattshockl/CVE-2020-9934"
+	],
+	"platform": "OSX",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/osx/escalate/tccbypass.rb",
+	"is_install_path": true,
+	"ref_name": "osx/escalate/tccbypass",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"config-changes",
+			"artifacts-on-disk",
+			"screen-effects"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

@@ -1,32 +1,32 @@
 {
-  "name": "Chef Web UI Brute Force Utility",
-  "fullname": "auxiliary/scanner/http/chef_webui_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module attempts to login to Chef Web UI server instance using username and password\n        combinations indicated by the USER_FILE, PASS_FILE, and USERPASS_FILE options. It\n        will also test for the default login (admin:p@ssw0rd1).",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-09-02 11:41:27 +0000",
-  "path": "/modules/auxiliary/scanner/http/chef_webui_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/chef_webui_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Chef Web UI Brute Force Utility",
+	"fullname": "auxiliary/scanner/http/chef_webui_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module attempts to login to Chef Web UI server instance using username and password\n        combinations indicated by the USER_FILE, PASS_FILE, and USERPASS_FILE options. It\n        will also test for the default login (admin:p@ssw0rd1).",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-09-02 11:41:27 +0000",
+	"path": "/modules/auxiliary/scanner/http/chef_webui_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/chef_webui_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

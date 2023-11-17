@@ -1,18 +1,18 @@
 {
-  "name": "Mazda 2 Instrument Cluster Accelorometer Mover",
-  "fullname": "post/hardware/automotive/mazda_ic_mover",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Jay Turla"
-  ],
-  "description": "This module moves the needle of the accelorometer and speedometer of the Mazda 2 instrument cluster",
-  "platform": "Hardware",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/hardware/automotive/mazda_ic_mover.rb",
-  "is_install_path": true,
-  "ref_name": "hardware/automotive/mazda_ic_mover",
-  "session_types": [
-    "hwbridge"
-  ]
+	"name": "Mazda 2 Instrument Cluster Accelorometer Mover",
+	"fullname": "post/hardware/automotive/mazda_ic_mover",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Jay Turla"
+	],
+	"description": "This module moves the needle of the accelorometer and speedometer of the Mazda 2 instrument cluster",
+	"platform": "Hardware",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/hardware/automotive/mazda_ic_mover.rb",
+	"is_install_path": true,
+	"ref_name": "hardware/automotive/mazda_ic_mover",
+	"session_types": [
+		"hwbridge"
+	]
 }

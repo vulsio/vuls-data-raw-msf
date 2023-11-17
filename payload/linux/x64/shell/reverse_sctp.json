@@ -1,18 +1,18 @@
 {
-  "name": "Linux Command Shell, Reverse SCTP Stager",
-  "fullname": "payload/linux/x64/shell/reverse_sctp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "ricky",
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Spawn a command shell (staged).\n\nConnect back to the attacker",
-  "platform": "Linux",
-  "arch": "x64",
-  "mod_time": "2023-04-27 16:21:34 +0000",
-  "path": "/modules/payloads/stagers/linux/x64/reverse_sctp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x64/shell/reverse_sctp",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Reverse SCTP Stager",
+	"fullname": "payload/linux/x64/shell/reverse_sctp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"ricky",
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Spawn a command shell (staged).\n\nConnect back to the attacker",
+	"platform": "Linux",
+	"arch": "x64",
+	"mod_time": "2023-04-27 16:21:34 +0000",
+	"path": "/modules/payloads/stagers/linux/x64/reverse_sctp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x64/shell/reverse_sctp",
+	"needs_cleanup": false
 }

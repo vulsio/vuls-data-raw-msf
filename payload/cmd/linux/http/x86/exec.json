@@ -1,24 +1,24 @@
 {
-  "name": "HTTP Fetch, Linux Execute Command",
-  "fullname": "payload/cmd/linux/http/x86/exec",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "vlad902 <vlad902@gmail.com>",
-    "Geyslan G. Bem <geyslan@gmail.com>"
-  ],
-  "description": "Fetch and execute a x86 payload from an HTTP server.\nExecute an arbitrary command or just a /bin/sh shell",
-  "references": [
-    "URL-https://github.com/geyslan/SLAE/blob/master/4th.assignment/tiny_execve_sh.asm",
-    "URL-https://github.com/geyslan/SLAE/blob/master/improvements/x86_execve_dyn.asm"
-  ],
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/http/x86/exec",
-  "needs_cleanup": false
+	"name": "HTTP Fetch, Linux Execute Command",
+	"fullname": "payload/cmd/linux/http/x86/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"vlad902 <vlad902@gmail.com>",
+		"Geyslan G. Bem <geyslan@gmail.com>"
+	],
+	"description": "Fetch and execute a x86 payload from an HTTP server.\nExecute an arbitrary command or just a /bin/sh shell",
+	"references": [
+		"URL-https://github.com/geyslan/SLAE/blob/master/4th.assignment/tiny_execve_sh.asm",
+		"URL-https://github.com/geyslan/SLAE/blob/master/improvements/x86_execve_dyn.asm"
+	],
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/http/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/http/x86/exec",
+	"needs_cleanup": false
 }

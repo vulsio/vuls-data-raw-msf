@@ -1,18 +1,18 @@
 {
-  "name": "XOR Encoder",
-  "fullname": "encoder/mipsbe/longxor",
-  "rank": 300,
-  "type": "encoder",
-  "author": [
-    "Julien Tinnes <julien@cr0.org>",
-    "Pedro Ribeiro <pedrib@gmail.com>"
-  ],
-  "description": "Mips Web server exploit friendly xor encoder",
-  "platform": "All",
-  "arch": "mipsbe",
-  "mod_time": "2018-12-18 13:35:16 +0000",
-  "path": "/modules/encoders/mipsbe/longxor.rb",
-  "is_install_path": true,
-  "ref_name": "mipsbe/longxor",
-  "needs_cleanup": false
+	"name": "XOR Encoder",
+	"fullname": "encoder/mipsbe/longxor",
+	"rank": 300,
+	"type": "encoder",
+	"author": [
+		"Julien Tinnes <julien@cr0.org>",
+		"Pedro Ribeiro <pedrib@gmail.com>"
+	],
+	"description": "Mips Web server exploit friendly xor encoder",
+	"platform": "All",
+	"arch": "mipsbe",
+	"mod_time": "2018-12-18 13:35:16 +0000",
+	"path": "/modules/encoders/mipsbe/longxor.rb",
+	"is_install_path": true,
+	"ref_name": "mipsbe/longxor",
+	"needs_cleanup": false
 }

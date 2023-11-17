@@ -1,32 +1,32 @@
 {
-  "name": "ColdFusion Version Scanner",
-  "fullname": "auxiliary/scanner/http/coldfusion_version",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "nebulus",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module attempts identify various flavors of ColdFusion up to version 10\n        as well as the underlying OS.",
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/coldfusion_version.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/coldfusion_version",
-  "needs_cleanup": false
+	"name": "ColdFusion Version Scanner",
+	"fullname": "auxiliary/scanner/http/coldfusion_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"nebulus",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module attempts identify various flavors of ColdFusion up to version 10\n        as well as the underlying OS.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/coldfusion_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/coldfusion_version",
+	"needs_cleanup": false
 }

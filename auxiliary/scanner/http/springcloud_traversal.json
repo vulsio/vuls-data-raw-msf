@@ -1,37 +1,37 @@
 {
-  "name": "Spring Cloud Config Server Directory Traversal",
-  "fullname": "auxiliary/scanner/http/springcloud_traversal",
-  "rank": 300,
-  "disclosure_date": "2019-04-17",
-  "type": "auxiliary",
-  "author": [
-    "Vern",
-    "Dhiraj Mishra"
-  ],
-  "description": "This module exploits an unauthenticated directory traversal vulnerability\n        which exists in Spring Cloud Config versions 2.1.x prior to 2.1.2,\n        versions 2.0.x prior to 2.0.4, and versions 1.4.x prior to 1.4.6. Spring\n        Cloud Config listens by default on port 8888.",
-  "references": [
-    "CVE-2019-3799",
-    "URL-https://pivotal.io/security/cve-2019-3799"
-  ],
-  "rport": 8888,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-04-26 07:15:39 +0000",
-  "path": "/modules/auxiliary/scanner/http/springcloud_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/springcloud_traversal",
-  "needs_cleanup": false
+	"name": "Spring Cloud Config Server Directory Traversal",
+	"fullname": "auxiliary/scanner/http/springcloud_traversal",
+	"rank": 300,
+	"disclosure_date": "2019-04-17",
+	"type": "auxiliary",
+	"author": [
+		"Vern",
+		"Dhiraj Mishra"
+	],
+	"description": "This module exploits an unauthenticated directory traversal vulnerability\n        which exists in Spring Cloud Config versions 2.1.x prior to 2.1.2,\n        versions 2.0.x prior to 2.0.4, and versions 1.4.x prior to 1.4.6. Spring\n        Cloud Config listens by default on port 8888.",
+	"references": [
+		"CVE-2019-3799",
+		"URL-https://pivotal.io/security/cve-2019-3799"
+	],
+	"rport": 8888,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-04-26 07:15:39 +0000",
+	"path": "/modules/auxiliary/scanner/http/springcloud_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/springcloud_traversal",
+	"needs_cleanup": false
 }

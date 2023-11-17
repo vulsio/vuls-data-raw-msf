@@ -1,47 +1,47 @@
 {
-  "name": "D-Link Central WiFiManager SQL injection",
-  "fullname": "auxiliary/sqli/dlink/dlink_central_wifimanager_sqli",
-  "rank": 300,
-  "disclosure_date": "2019-07-06",
-  "type": "auxiliary",
-  "author": [
-    "M3 <M3@ZionLab from DBAppSecurity>",
-    "Redouane NIBOUCHA <rniboucha@yahoo.fr>"
-  ],
-  "description": "This module exploits a SQLi vulnerability found in\n          D-Link Central WiFi Manager CWM(100) before v1.03R0100_BETA6. The\n          vulnerability is an exposed API endpoint that allows the execution\n          of SQL queries without authentication, using this vulnerability, it's\n          possible to retrieve usernames and password hashes of registered users,\n          device configuration, and other data, it's also possible to add users,\n          or edit database informations.",
-  "references": [
-    "CVE-2019-13373",
-    "URL-https://unh3x.github.io/2019/02/21/D-link-(CWM-100)-Multiple-Vulnerabilities/"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/auxiliary/sqli/dlink/dlink_central_wifimanager_sqli.rb",
-  "is_install_path": true,
-  "ref_name": "sqli/dlink/dlink_central_wifimanager_sqli",
-  "check": true,
-  "notes": {
-    "SideEffects": [
-      "config-changes",
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "D-Link Central WiFiManager SQL injection",
+	"fullname": "auxiliary/sqli/dlink/dlink_central_wifimanager_sqli",
+	"rank": 300,
+	"disclosure_date": "2019-07-06",
+	"type": "auxiliary",
+	"author": [
+		"M3 <M3@ZionLab from DBAppSecurity>",
+		"Redouane NIBOUCHA <rniboucha@yahoo.fr>"
+	],
+	"description": "This module exploits a SQLi vulnerability found in\n          D-Link Central WiFi Manager CWM(100) before v1.03R0100_BETA6. The\n          vulnerability is an exposed API endpoint that allows the execution\n          of SQL queries without authentication, using this vulnerability, it's\n          possible to retrieve usernames and password hashes of registered users,\n          device configuration, and other data, it's also possible to add users,\n          or edit database informations.",
+	"references": [
+		"CVE-2019-13373",
+		"URL-https://unh3x.github.io/2019/02/21/D-link-(CWM-100)-Multiple-Vulnerabilities/"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/auxiliary/sqli/dlink/dlink_central_wifimanager_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "sqli/dlink/dlink_central_wifimanager_sqli",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"config-changes",
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

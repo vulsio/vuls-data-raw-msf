@@ -1,38 +1,38 @@
 {
-  "name": "Nginx Source Code Disclosure/Download",
-  "fullname": "auxiliary/scanner/http/nginx_source_disclosure",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Tiago Ferreira <tiago.ccna@gmail.com>"
-  ],
-  "description": "This module exploits a source code disclosure/download vulnerability in\n        versions 0.7 and 0.8 of the nginx web server. Versions 0.7.66 and 0.8.40\n        correct this vulnerability.",
-  "references": [
-    "CVE-2010-2263",
-    "OSVDB-65531",
-    "BID-40760",
-    "EDB-13818",
-    "EDB-13822"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/http/nginx_source_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/nginx_source_disclosure",
-  "needs_cleanup": false
+	"name": "Nginx Source Code Disclosure/Download",
+	"fullname": "auxiliary/scanner/http/nginx_source_disclosure",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Tiago Ferreira <tiago.ccna@gmail.com>"
+	],
+	"description": "This module exploits a source code disclosure/download vulnerability in\n        versions 0.7 and 0.8 of the nginx web server. Versions 0.7.66 and 0.8.40\n        correct this vulnerability.",
+	"references": [
+		"CVE-2010-2263",
+		"OSVDB-65531",
+		"BID-40760",
+		"EDB-13818",
+		"EDB-13822"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/http/nginx_source_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/nginx_source_disclosure",
+	"needs_cleanup": false
 }

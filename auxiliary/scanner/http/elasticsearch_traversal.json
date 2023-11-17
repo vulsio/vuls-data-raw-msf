@@ -1,38 +1,38 @@
 {
-  "name": "ElasticSearch Snapshot API Directory Traversal",
-  "fullname": "auxiliary/scanner/http/elasticsearch_traversal",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Benjamin Smith",
-    "Pedro Andujar <pandujar@segfault.es>",
-    "Jose A. Guasch <jaguasch@gmail.com>"
-  ],
-  "description": "'This module exploits a directory traversal vulnerability in\n        ElasticSearch, allowing an attacker to read arbitrary files\n        with JVM process privileges, through the Snapshot API.'",
-  "references": [
-    "CVE-2015-5531",
-    "PACKETSTORM-132721"
-  ],
-  "rport": 9200,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-06-11 13:09:25 +0000",
-  "path": "/modules/auxiliary/scanner/http/elasticsearch_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/elasticsearch_traversal",
-  "check": true,
-  "needs_cleanup": false
+	"name": "ElasticSearch Snapshot API Directory Traversal",
+	"fullname": "auxiliary/scanner/http/elasticsearch_traversal",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Benjamin Smith",
+		"Pedro Andujar <pandujar@segfault.es>",
+		"Jose A. Guasch <jaguasch@gmail.com>"
+	],
+	"description": "'This module exploits a directory traversal vulnerability in\n        ElasticSearch, allowing an attacker to read arbitrary files\n        with JVM process privileges, through the Snapshot API.'",
+	"references": [
+		"CVE-2015-5531",
+		"PACKETSTORM-132721"
+	],
+	"rport": 9200,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-06-11 13:09:25 +0000",
+	"path": "/modules/auxiliary/scanner/http/elasticsearch_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/elasticsearch_traversal",
+	"check": true,
+	"needs_cleanup": false
 }

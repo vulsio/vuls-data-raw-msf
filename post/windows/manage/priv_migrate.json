@@ -1,19 +1,19 @@
 {
-  "name": "Windows Manage Privilege Based Process Migration ",
-  "fullname": "post/windows/manage/priv_migrate",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Josh Hale \"sn0wfa11\" <jhale85446@gmail.com>",
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module will migrate a Meterpreter session based on session privileges.\n          It will do everything it can to migrate, including spawning a new User level process.\n          For sessions with Admin rights: It will try to migrate into a System level process in the following\n          order: ANAME (if specified), services.exe, wininit.exe, svchost.exe, lsm.exe, lsass.exe, and winlogon.exe.\n          If all these fail and NOFAIL is set to true, it will fall back to User level migration. For sessions with User level rights:\n          It will try to migrate to a user level process, if that fails it will attempt to spawn the process\n          then migrate to it. It will attempt the User level processes in the following order:\n          NAME (if specified), explorer.exe, then notepad.exe.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/priv_migrate.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/priv_migrate",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Manage Privilege Based Process Migration ",
+	"fullname": "post/windows/manage/priv_migrate",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Josh Hale \"sn0wfa11\" <jhale85446@gmail.com>",
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module will migrate a Meterpreter session based on session privileges.\n          It will do everything it can to migrate, including spawning a new User level process.\n          For sessions with Admin rights: It will try to migrate into a System level process in the following\n          order: ANAME (if specified), services.exe, wininit.exe, svchost.exe, lsm.exe, lsass.exe, and winlogon.exe.\n          If all these fail and NOFAIL is set to true, it will fall back to User level migration. For sessions with User level rights:\n          It will try to migrate to a user level process, if that fails it will attempt to spawn the process\n          then migrate to it. It will attempt the User level processes in the following order:\n          NAME (if specified), explorer.exe, then notepad.exe.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/priv_migrate.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/priv_migrate",
+	"session_types": [
+		"meterpreter"
+	]
 }

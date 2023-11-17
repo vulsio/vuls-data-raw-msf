@@ -1,39 +1,39 @@
 {
-  "name": "Webmin File Disclosure",
-  "fullname": "auxiliary/admin/webmin/file_disclosure",
-  "rank": 300,
-  "disclosure_date": "2006-06-30",
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "A vulnerability has been reported in Webmin and Usermin, which can be\n        exploited by malicious people to disclose potentially sensitive information.\n        The vulnerability is caused due to an unspecified error within the handling\n        of an URL. This can be exploited to read the contents of any files on the\n        server via a specially crafted URL, without requiring a valid login.\n        The vulnerability has been reported in Webmin (versions prior to 1.290) and\n        Usermin (versions prior to 1.220).",
-  "references": [
-    "OSVDB-26772",
-    "BID-18744",
-    "CVE-2006-3392",
-    "US-CERT-VU-999601",
-    "URL-https://web.archive.org/web/20060722192501/http://secunia.com/advisories/20892/"
-  ],
-  "rport": 10000,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/webmin/file_disclosure.rb",
-  "is_install_path": true,
-  "ref_name": "admin/webmin/file_disclosure",
-  "needs_cleanup": false
+	"name": "Webmin File Disclosure",
+	"fullname": "auxiliary/admin/webmin/file_disclosure",
+	"rank": 300,
+	"disclosure_date": "2006-06-30",
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "A vulnerability has been reported in Webmin and Usermin, which can be\n        exploited by malicious people to disclose potentially sensitive information.\n        The vulnerability is caused due to an unspecified error within the handling\n        of an URL. This can be exploited to read the contents of any files on the\n        server via a specially crafted URL, without requiring a valid login.\n        The vulnerability has been reported in Webmin (versions prior to 1.290) and\n        Usermin (versions prior to 1.220).",
+	"references": [
+		"OSVDB-26772",
+		"BID-18744",
+		"CVE-2006-3392",
+		"US-CERT-VU-999601",
+		"URL-https://web.archive.org/web/20060722192501/http://secunia.com/advisories/20892/"
+	],
+	"rport": 10000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/webmin/file_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "admin/webmin/file_disclosure",
+	"needs_cleanup": false
 }

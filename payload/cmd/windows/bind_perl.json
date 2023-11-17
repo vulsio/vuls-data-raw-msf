@@ -1,19 +1,19 @@
 {
-  "name": "Windows Command Shell, Bind TCP (via Perl)",
-  "fullname": "payload/cmd/windows/bind_perl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Samy <samy@samy.pl>",
-    "cazz <bmc@shmoo.com>",
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "Listen for a connection and spawn a command shell via perl (persistent)",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/bind_perl.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/bind_perl",
-  "needs_cleanup": false
+	"name": "Windows Command Shell, Bind TCP (via Perl)",
+	"fullname": "payload/cmd/windows/bind_perl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Samy <samy@samy.pl>",
+		"cazz <bmc@shmoo.com>",
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "Listen for a connection and spawn a command shell via perl (persistent)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/bind_perl.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/bind_perl",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Powershell .NET Compiler",
-  "fullname": "post/windows/manage/powershell/build_net_code",
-  "rank": 600,
-  "disclosure_date": "2012-08-14",
-  "type": "post",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "This module will build a .NET source file using powershell. The compiler builds\n          the executable or library in memory and produces a binary. After compilation the\n          PowerShell session can also sign the executable if provided a path the\n          a .pfx formatted certificate. Compiler options and a list of assemblies\n          required can be configured in the datastore.",
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/manage/powershell/build_net_code.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/powershell/build_net_code",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Powershell .NET Compiler",
+	"fullname": "post/windows/manage/powershell/build_net_code",
+	"rank": 600,
+	"disclosure_date": "2012-08-14",
+	"type": "post",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "This module will build a .NET source file using powershell. The compiler builds\n          the executable or library in memory and produces a binary. After compilation the\n          PowerShell session can also sign the executable if provided a path the\n          a .pfx formatted certificate. Compiler options and a list of assemblies\n          required can be configured in the datastore.",
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/manage/powershell/build_net_code.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/powershell/build_net_code",
+	"session_types": [
+		"meterpreter"
+	]
 }

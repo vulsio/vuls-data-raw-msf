@@ -1,23 +1,23 @@
 {
-  "name": "HP LaserJet Printer SNMP Enumeration",
-  "fullname": "auxiliary/scanner/snmp/snmp_enum_hp_laserjet",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Matteo Cantoni <goony@nothink.org>"
-  ],
-  "description": "This module allows enumeration of files previously printed.\n        It provides details as filename, client, timestamp and username information.\n        The default community used is \"public\".",
-  "references": [
-    "URL-https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
-    "URL-https://net-snmp.sourceforge.io/docs/man/snmpwalk.html",
-    "URL-http://www.nothink.org/codes/snmpcheck/index.php",
-    "URL-http://www.securiteam.com/securitynews/5AP0S2KGVS.html",
-    "URL-http://stuff.mit.edu/afs/athena/dept/cron/tools/share/mibs/290923.mib"
-  ],
-  "rport": 161,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/snmp/snmp_enum_hp_laserjet.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/snmp/snmp_enum_hp_laserjet",
-  "needs_cleanup": false
+	"name": "HP LaserJet Printer SNMP Enumeration",
+	"fullname": "auxiliary/scanner/snmp/snmp_enum_hp_laserjet",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Matteo Cantoni <goony@nothink.org>"
+	],
+	"description": "This module allows enumeration of files previously printed.\n        It provides details as filename, client, timestamp and username information.\n        The default community used is \"public\".",
+	"references": [
+		"URL-https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol",
+		"URL-https://net-snmp.sourceforge.io/docs/man/snmpwalk.html",
+		"URL-http://www.nothink.org/codes/snmpcheck/index.php",
+		"URL-http://www.securiteam.com/securitynews/5AP0S2KGVS.html",
+		"URL-http://stuff.mit.edu/afs/athena/dept/cron/tools/share/mibs/290923.mib"
+	],
+	"rport": 161,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/snmp/snmp_enum_hp_laserjet.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/snmp/snmp_enum_hp_laserjet",
+	"needs_cleanup": false
 }

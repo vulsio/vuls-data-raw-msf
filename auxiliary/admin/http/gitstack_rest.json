@@ -1,38 +1,38 @@
 {
-  "name": "GitStack Unauthenticated REST API Requests",
-  "fullname": "auxiliary/admin/http/gitstack_rest",
-  "rank": 300,
-  "disclosure_date": "2018-01-15",
-  "type": "auxiliary",
-  "author": [
-    "Kacper Szurek",
-    "Jacob Robles"
-  ],
-  "description": "This modules exploits unauthenticated REST API requests in GitStack through v2.3.10.\n          The module supports requests for listing users of the application and listing\n          available repositories. Additionally, the module can create a user and add the user\n          to the application's repositories. This module has been tested against GitStack v2.3.10.",
-  "references": [
-    "CVE-2018-5955",
-    "EDB-43777",
-    "EDB-44044"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/gitstack_rest.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/gitstack_rest",
-  "needs_cleanup": false
+	"name": "GitStack Unauthenticated REST API Requests",
+	"fullname": "auxiliary/admin/http/gitstack_rest",
+	"rank": 300,
+	"disclosure_date": "2018-01-15",
+	"type": "auxiliary",
+	"author": [
+		"Kacper Szurek",
+		"Jacob Robles"
+	],
+	"description": "This modules exploits unauthenticated REST API requests in GitStack through v2.3.10.\n          The module supports requests for listing users of the application and listing\n          available repositories. Additionally, the module can create a user and add the user\n          to the application's repositories. This module has been tested against GitStack v2.3.10.",
+	"references": [
+		"CVE-2018-5955",
+		"EDB-43777",
+		"EDB-44044"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/gitstack_rest.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/gitstack_rest",
+	"needs_cleanup": false
 }

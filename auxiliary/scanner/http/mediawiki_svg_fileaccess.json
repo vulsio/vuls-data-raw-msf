@@ -1,38 +1,38 @@
 {
-  "name": "MediaWiki SVG XML Entity Expansion Remote File Access",
-  "fullname": "auxiliary/scanner/http/mediawiki_svg_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Daniel Franke",
-    "juan vazquez <juan.vazquez@metasploit.com>",
-    "Christian Mehlmauer <FireFart@gmail.com>"
-  ],
-  "description": "This module attempts to read a remote file from the server using a vulnerability\n        in the way MediaWiki handles SVG files. The vulnerability occurs while trying to\n        expand external entities with the SYSTEM identifier. In order to work MediaWiki must\n        be configured to accept upload of SVG files. If anonymous uploads are allowed the\n        username and password aren't required, otherwise they are. This module has been\n        tested successfully on MediaWiki 1.19.4, 1.20.3 on Ubuntu 10.04 and Ubuntu 12.10.\n        Older versions were also tested but do not seem to be vulnerable to this vulnerability.\n        The following MediaWiki requirements must be met: File upload must be enabled,\n        $wgFileExtensions[] must include 'svg', $wgSVGConverter must be set to something\n        other than 'false'.",
-  "references": [
-    "OSVDB-92490",
-    "URL-https://phabricator.wikimedia.org/T48859",
-    "URL-https://web.archive.org/web/20130421060020/http://www.gossamer-threads.com/lists/wiki/mediawiki-announce/350229"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/mediawiki_svg_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/mediawiki_svg_fileaccess",
-  "needs_cleanup": false
+	"name": "MediaWiki SVG XML Entity Expansion Remote File Access",
+	"fullname": "auxiliary/scanner/http/mediawiki_svg_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Daniel Franke",
+		"juan vazquez <juan.vazquez@metasploit.com>",
+		"Christian Mehlmauer <FireFart@gmail.com>"
+	],
+	"description": "This module attempts to read a remote file from the server using a vulnerability\n        in the way MediaWiki handles SVG files. The vulnerability occurs while trying to\n        expand external entities with the SYSTEM identifier. In order to work MediaWiki must\n        be configured to accept upload of SVG files. If anonymous uploads are allowed the\n        username and password aren't required, otherwise they are. This module has been\n        tested successfully on MediaWiki 1.19.4, 1.20.3 on Ubuntu 10.04 and Ubuntu 12.10.\n        Older versions were also tested but do not seem to be vulnerable to this vulnerability.\n        The following MediaWiki requirements must be met: File upload must be enabled,\n        $wgFileExtensions[] must include 'svg', $wgSVGConverter must be set to something\n        other than 'false'.",
+	"references": [
+		"OSVDB-92490",
+		"URL-https://phabricator.wikimedia.org/T48859",
+		"URL-https://web.archive.org/web/20130421060020/http://www.gossamer-threads.com/lists/wiki/mediawiki-announce/350229"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/mediawiki_svg_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/mediawiki_svg_fileaccess",
+	"needs_cleanup": false
 }

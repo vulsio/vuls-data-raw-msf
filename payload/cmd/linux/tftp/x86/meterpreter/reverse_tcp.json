@@ -1,22 +1,22 @@
 {
-  "name": "TFTP Fetch, Reverse TCP Stager",
-  "fullname": "payload/cmd/linux/tftp/x86/meterpreter/reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "William Webb <william_webb@rapid7.com>",
-    "skape <mmiller@hick.org>",
-    "egypt <egypt@metasploit.com>",
-    "tkmru"
-  ],
-  "description": "Fetch and execute a x86 payload from a TFTP server.\nConnect back to the attacker",
-  "platform": "Linux,Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/x86/meterpreter/reverse_tcp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Reverse TCP Stager",
+	"fullname": "payload/cmd/linux/tftp/x86/meterpreter/reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"William Webb <william_webb@rapid7.com>",
+		"skape <mmiller@hick.org>",
+		"egypt <egypt@metasploit.com>",
+		"tkmru"
+	],
+	"description": "Fetch and execute a x86 payload from a TFTP server.\nConnect back to the attacker",
+	"platform": "Linux,Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/x86/meterpreter/reverse_tcp",
+	"needs_cleanup": false
 }

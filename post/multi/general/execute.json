@@ -1,19 +1,19 @@
 {
-  "name": "Multi Generic Operating System Session Command Execution",
-  "fullname": "post/multi/general/execute",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "This module executes an arbitrary command line",
-  "platform": "Linux,OSX,Unix,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/general/execute.rb",
-  "is_install_path": true,
-  "ref_name": "multi/general/execute",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Multi Generic Operating System Session Command Execution",
+	"fullname": "post/multi/general/execute",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "This module executes an arbitrary command line",
+	"platform": "Linux,OSX,Unix,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/general/execute.rb",
+	"is_install_path": true,
+	"ref_name": "multi/general/execute",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Java Meterpreter, Java Reverse TCP Stager",
-  "fullname": "payload/java/meterpreter/reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "mihi",
-    "egypt <egypt@metasploit.com>",
-    "OJ Reeves"
-  ],
-  "description": "Run a meterpreter server in Java.\n\nConnect back stager",
-  "platform": "Java",
-  "arch": "java",
-  "mod_time": "2023-09-27 11:20:17 +0000",
-  "path": "/modules/payloads/stagers/java/reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "java/meterpreter/reverse_tcp",
-  "needs_cleanup": false
+	"name": "Java Meterpreter, Java Reverse TCP Stager",
+	"fullname": "payload/java/meterpreter/reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"mihi",
+		"egypt <egypt@metasploit.com>",
+		"OJ Reeves"
+	],
+	"description": "Run a meterpreter server in Java.\n\nConnect back stager",
+	"platform": "Java",
+	"arch": "java",
+	"mod_time": "2023-09-27 11:20:17 +0000",
+	"path": "/modules/payloads/stagers/java/reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "java/meterpreter/reverse_tcp",
+	"needs_cleanup": false
 }

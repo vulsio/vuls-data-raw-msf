@@ -1,37 +1,37 @@
 {
-  "name": "HP SiteScope SOAP Call getFileInternal Remote File Access",
-  "fullname": "auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "rgod <rgod@autistici.org>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits an authentication bypass vulnerability in HP SiteScope to\n        retrieve an arbitrary file from the remote server. It is accomplished by calling\n        the getFileInternal operation available through the APISiteScopeImpl AXIS service.\n        This module has been successfully tested on HP SiteScope 11.20 over Windows 2003\n        SP2 and Linux Centos 6.3.",
-  "references": [
-    "OSVDB-85119",
-    "BID-55269",
-    "ZDI-12-176"
-  ],
-  "rport": 8080,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/hp_sitescope_getfileinternal_fileaccess",
-  "needs_cleanup": false
+	"name": "HP SiteScope SOAP Call getFileInternal Remote File Access",
+	"fullname": "auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"rgod <rgod@autistici.org>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits an authentication bypass vulnerability in HP SiteScope to\n        retrieve an arbitrary file from the remote server. It is accomplished by calling\n        the getFileInternal operation available through the APISiteScopeImpl AXIS service.\n        This module has been successfully tested on HP SiteScope 11.20 over Windows 2003\n        SP2 and Linux Centos 6.3.",
+	"references": [
+		"OSVDB-85119",
+		"BID-55269",
+		"ZDI-12-176"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/hp_sitescope_getfileinternal_fileaccess",
+	"needs_cleanup": false
 }

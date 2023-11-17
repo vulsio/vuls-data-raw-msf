@@ -1,24 +1,24 @@
 {
-  "name": "HTTP Fetch, Reverse TCP Stager with UUID Support (Windows x64)",
-  "fullname": "payload/cmd/windows/http/x64/meterpreter/reverse_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves"
-  ],
-  "description": "Fetch and Execute an x64 payload from an http server.\n\nConnect back to the attacker with UUID Support (Windows x64)",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-07-31 16:38:09 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/http/x64/meterpreter/reverse_tcp_uuid",
-  "needs_cleanup": false
+	"name": "HTTP Fetch, Reverse TCP Stager with UUID Support (Windows x64)",
+	"fullname": "payload/cmd/windows/http/x64/meterpreter/reverse_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves"
+	],
+	"description": "Fetch and Execute an x64 payload from an http server.\n\nConnect back to the attacker with UUID Support (Windows x64)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-07-31 16:38:09 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/http/x64/meterpreter/reverse_tcp_uuid",
+	"needs_cleanup": false
 }

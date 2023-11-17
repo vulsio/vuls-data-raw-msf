@@ -1,24 +1,24 @@
 {
-  "name": "Powershell Exec, Windows x64 IPv6 Bind TCP Stager with UUID Support",
-  "fullname": "payload/cmd/windows/powershell/x64/meterpreter/bind_ipv6_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves"
-  ],
-  "description": "Execute an x64 payload from a command via PowerShell.\n\nListen for an IPv6 connection with UUID Support (Windows x64)",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/x64/meterpreter/bind_ipv6_tcp_uuid",
-  "needs_cleanup": false
+	"name": "Powershell Exec, Windows x64 IPv6 Bind TCP Stager with UUID Support",
+	"fullname": "payload/cmd/windows/powershell/x64/meterpreter/bind_ipv6_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves"
+	],
+	"description": "Execute an x64 payload from a command via PowerShell.\n\nListen for an IPv6 connection with UUID Support (Windows x64)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/x64/meterpreter/bind_ipv6_tcp_uuid",
+	"needs_cleanup": false
 }

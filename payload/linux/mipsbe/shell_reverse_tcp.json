@@ -1,21 +1,21 @@
 {
-  "name": "Linux Command Shell, Reverse TCP Inline",
-  "fullname": "payload/linux/mipsbe/shell_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "rigan <imrigan@gmail.com>",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "Connect back to attacker and spawn a command shell",
-  "references": [
-    "EDB-18226"
-  ],
-  "platform": "Linux",
-  "arch": "mipsbe",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/linux/mipsbe/shell_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/mipsbe/shell_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Reverse TCP Inline",
+	"fullname": "payload/linux/mipsbe/shell_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"rigan <imrigan@gmail.com>",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "Connect back to attacker and spawn a command shell",
+	"references": [
+		"EDB-18226"
+	],
+	"platform": "Linux",
+	"arch": "mipsbe",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/linux/mipsbe/shell_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/mipsbe/shell_reverse_tcp",
+	"needs_cleanup": false
 }

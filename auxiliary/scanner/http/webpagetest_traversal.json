@@ -1,37 +1,37 @@
 {
-  "name": "WebPageTest Directory Traversal",
-  "fullname": "auxiliary/scanner/http/webpagetest_traversal",
-  "rank": 300,
-  "disclosure_date": "2012-07-13",
-  "type": "auxiliary",
-  "author": [
-    "dun",
-    "sinn3r <sinn3r@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability found in WebPageTest.\n        Due to the way the gettext.php script handles the 'file' parameter, it is possible\n        to read a file outside the www directory.",
-  "references": [
-    "EDB-19790",
-    "OSVDB-83817"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/http/webpagetest_traversal.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/webpagetest_traversal",
-  "needs_cleanup": false
+	"name": "WebPageTest Directory Traversal",
+	"fullname": "auxiliary/scanner/http/webpagetest_traversal",
+	"rank": 300,
+	"disclosure_date": "2012-07-13",
+	"type": "auxiliary",
+	"author": [
+		"dun",
+		"sinn3r <sinn3r@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability found in WebPageTest.\n        Due to the way the gettext.php script handles the 'file' parameter, it is possible\n        to read a file outside the www directory.",
+	"references": [
+		"EDB-19790",
+		"OSVDB-83817"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/http/webpagetest_traversal.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/webpagetest_traversal",
+	"needs_cleanup": false
 }

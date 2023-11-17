@@ -1,17 +1,17 @@
 {
-  "name": "Windows Command, Generic Command Execution",
-  "fullname": "payload/cmd/windows/generic",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "Executes the supplied command",
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/cmd/windows/generic.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/generic",
-  "needs_cleanup": false
+	"name": "Windows Command, Generic Command Execution",
+	"fullname": "payload/cmd/windows/generic",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "Executes the supplied command",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/cmd/windows/generic.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/generic",
+	"needs_cleanup": false
 }

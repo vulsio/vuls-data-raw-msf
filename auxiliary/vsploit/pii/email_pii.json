@@ -1,28 +1,28 @@
 {
-  "name": "VSploit Email PII",
-  "fullname": "auxiliary/vsploit/pii/email_pii",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "willis"
-  ],
-  "description": "This auxiliary reads from a file and sends data which\n      should be flagged via an internal or external SMTP server.",
-  "rport": 25,
-  "autofilter_ports": [
-    25,
-    465,
-    587,
-    2525,
-    25025,
-    25000
-  ],
-  "autofilter_services": [
-    "smtp",
-    "smtps"
-  ],
-  "mod_time": "2020-05-30 10:27:48 +0000",
-  "path": "/modules/auxiliary/vsploit/pii/email_pii.rb",
-  "is_install_path": true,
-  "ref_name": "vsploit/pii/email_pii",
-  "needs_cleanup": false
+	"name": "VSploit Email PII",
+	"fullname": "auxiliary/vsploit/pii/email_pii",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"willis"
+	],
+	"description": "This auxiliary reads from a file and sends data which\n      should be flagged via an internal or external SMTP server.",
+	"rport": 25,
+	"autofilter_ports": [
+		25,
+		465,
+		587,
+		2525,
+		25025,
+		25000
+	],
+	"autofilter_services": [
+		"smtp",
+		"smtps"
+	],
+	"mod_time": "2020-05-30 10:27:48 +0000",
+	"path": "/modules/auxiliary/vsploit/pii/email_pii.rb",
+	"is_install_path": true,
+	"ref_name": "vsploit/pii/email_pii",
+	"needs_cleanup": false
 }

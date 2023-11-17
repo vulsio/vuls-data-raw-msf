@@ -1,17 +1,17 @@
 {
-  "name": "Windows x86 Pingback, Reverse TCP Inline",
-  "fullname": "payload/windows/pingback_reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "bwatters-r7"
-  ],
-  "description": "Connect back to attacker and report UUID (Windows x86)",
-  "platform": "Windows",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/windows/pingback_reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "windows/pingback_reverse_tcp",
-  "needs_cleanup": false
+	"name": "Windows x86 Pingback, Reverse TCP Inline",
+	"fullname": "payload/windows/pingback_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"bwatters-r7"
+	],
+	"description": "Connect back to attacker and report UUID (Windows x86)",
+	"platform": "Windows",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/windows/pingback_reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "windows/pingback_reverse_tcp",
+	"needs_cleanup": false
 }

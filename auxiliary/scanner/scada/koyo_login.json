@@ -1,21 +1,21 @@
 {
-  "name": "Koyo DirectLogic PLC Password Brute Force Utility",
-  "fullname": "auxiliary/scanner/scada/koyo_login",
-  "rank": 300,
-  "disclosure_date": "2012-01-19",
-  "type": "auxiliary",
-  "author": [
-    "K. Reid Wightman <wightman@digitalbond.com>",
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module attempts to authenticate to a locked Koyo DirectLogic PLC.\n        The PLC uses a restrictive passcode, which can be A0000000 through A9999999.\n        The \"A\" prefix can also be changed by the administrator to any other character,\n        which can be set through the PREFIX option of this module.\n\n        This module is based on the original 'koyobrute.rb' Basecamp module from\n        DigitalBond.",
-  "references": [
-    "URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
-  ],
-  "rport": 28784,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/scada/koyo_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/koyo_login",
-  "needs_cleanup": false
+	"name": "Koyo DirectLogic PLC Password Brute Force Utility",
+	"fullname": "auxiliary/scanner/scada/koyo_login",
+	"rank": 300,
+	"disclosure_date": "2012-01-19",
+	"type": "auxiliary",
+	"author": [
+		"K. Reid Wightman <wightman@digitalbond.com>",
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module attempts to authenticate to a locked Koyo DirectLogic PLC.\n        The PLC uses a restrictive passcode, which can be A0000000 through A9999999.\n        The \"A\" prefix can also be changed by the administrator to any other character,\n        which can be set through the PREFIX option of this module.\n\n        This module is based on the original 'koyobrute.rb' Basecamp module from\n        DigitalBond.",
+	"references": [
+		"URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
+	],
+	"rport": 28784,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/scada/koyo_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/koyo_login",
+	"needs_cleanup": false
 }

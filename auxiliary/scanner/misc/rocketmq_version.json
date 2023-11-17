@@ -1,21 +1,21 @@
 {
-  "name": "Apache RocketMQ Version Scanner",
-  "fullname": "auxiliary/scanner/misc/rocketmq_version",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "h00die",
-    "Malayke"
-  ],
-  "description": "Version scanner for the Apache RocketMQ product.",
-  "references": [
-    "URL-https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT/blob/main/check.py",
-    "URL-https://github.com/apache/rocketmq"
-  ],
-  "rport": 9876,
-  "mod_time": "2023-06-22 01:29:33 +0000",
-  "path": "/modules/auxiliary/scanner/misc/rocketmq_version.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/rocketmq_version",
-  "needs_cleanup": false
+	"name": "Apache RocketMQ Version Scanner",
+	"fullname": "auxiliary/scanner/misc/rocketmq_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Malayke"
+	],
+	"description": "Version scanner for the Apache RocketMQ product.",
+	"references": [
+		"URL-https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT/blob/main/check.py",
+		"URL-https://github.com/apache/rocketmq"
+	],
+	"rport": 9876,
+	"mod_time": "2023-06-22 01:29:33 +0000",
+	"path": "/modules/auxiliary/scanner/misc/rocketmq_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/rocketmq_version",
+	"needs_cleanup": false
 }

@@ -1,38 +1,38 @@
 {
-  "name": "Indusoft WebStudio NTWebServer Remote File Access",
-  "fullname": "auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Unknown",
-    "juan vazquez <juan.vazquez@metasploit.com>"
-  ],
-  "description": "This module exploits a directory traversal vulnerability in Indusoft WebStudio.\n        The vulnerability exists in the NTWebServer component and allows to read arbitrary\n        remote files with the privileges of the NTWebServer process. The module has been\n        tested successfully on Indusoft WebStudio 6.1 SP6.",
-  "references": [
-    "CVE-2011-1900",
-    "OSVDB-73413",
-    "BID-47842",
-    "URL-http://www.indusoft.com/hotfixes/hotfixes.php"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/scada/indusoft_ntwebserver_fileaccess",
-  "needs_cleanup": false
+	"name": "Indusoft WebStudio NTWebServer Remote File Access",
+	"fullname": "auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Unknown",
+		"juan vazquez <juan.vazquez@metasploit.com>"
+	],
+	"description": "This module exploits a directory traversal vulnerability in Indusoft WebStudio.\n        The vulnerability exists in the NTWebServer component and allows to read arbitrary\n        remote files with the privileges of the NTWebServer process. The module has been\n        tested successfully on Indusoft WebStudio 6.1 SP6.",
+	"references": [
+		"CVE-2011-1900",
+		"OSVDB-73413",
+		"BID-47842",
+		"URL-http://www.indusoft.com/hotfixes/hotfixes.php"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/scada/indusoft_ntwebserver_fileaccess",
+	"needs_cleanup": false
 }

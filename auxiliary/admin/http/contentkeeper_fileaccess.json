@@ -1,35 +1,35 @@
 {
-  "name": "ContentKeeper Web Appliance mimencode File Access",
-  "fullname": "auxiliary/admin/http/contentkeeper_fileaccess",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "aushack <patrick@osisecurity.com.au>"
-  ],
-  "description": "This module abuses the 'mimencode' binary present within\n        ContentKeeper Web filtering appliances to retrieve arbitrary\n        files outside of the webroot.",
-  "references": [
-    "OSVDB-54551",
-    "URL-http://www.aushack.com/200904-contentkeeper.txt"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/contentkeeper_fileaccess.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/contentkeeper_fileaccess",
-  "needs_cleanup": false
+	"name": "ContentKeeper Web Appliance mimencode File Access",
+	"fullname": "auxiliary/admin/http/contentkeeper_fileaccess",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"aushack <patrick@osisecurity.com.au>"
+	],
+	"description": "This module abuses the 'mimencode' binary present within\n        ContentKeeper Web filtering appliances to retrieve arbitrary\n        files outside of the webroot.",
+	"references": [
+		"OSVDB-54551",
+		"URL-http://www.aushack.com/200904-contentkeeper.txt"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/contentkeeper_fileaccess.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/contentkeeper_fileaccess",
+	"needs_cleanup": false
 }

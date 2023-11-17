@@ -1,30 +1,30 @@
 {
-  "name": "Microsoft SRV.SYS WriteAndX Invalid DataOffset",
-  "fullname": "auxiliary/dos/windows/smb/ms09_001_write",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "j.v.vallejo <j.v.vallejo@gmail.com>"
-  ],
-  "description": "This module exploits a denial of service vulnerability in the\n        SRV.SYS driver of the Windows operating system.\n\n        This module has been tested successfully against Windows Vista.",
-  "references": [
-    "MSB-MS09-001",
-    "OSVDB-48153",
-    "CVE-2008-4114",
-    "BID-31179"
-  ],
-  "rport": 445,
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2020-05-13 16:34:47 +0000",
-  "path": "/modules/auxiliary/dos/windows/smb/ms09_001_write.rb",
-  "is_install_path": true,
-  "ref_name": "dos/windows/smb/ms09_001_write",
-  "needs_cleanup": false
+	"name": "Microsoft SRV.SYS WriteAndX Invalid DataOffset",
+	"fullname": "auxiliary/dos/windows/smb/ms09_001_write",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"j.v.vallejo <j.v.vallejo@gmail.com>"
+	],
+	"description": "This module exploits a denial of service vulnerability in the\n        SRV.SYS driver of the Windows operating system.\n\n        This module has been tested successfully against Windows Vista.",
+	"references": [
+		"MSB-MS09-001",
+		"OSVDB-48153",
+		"CVE-2008-4114",
+		"BID-31179"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2020-05-13 16:34:47 +0000",
+	"path": "/modules/auxiliary/dos/windows/smb/ms09_001_write.rb",
+	"is_install_path": true,
+	"ref_name": "dos/windows/smb/ms09_001_write",
+	"needs_cleanup": false
 }

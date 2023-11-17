@@ -1,17 +1,17 @@
 {
-  "name": "OS X Command Shell, Bind TCP Stager",
-  "fullname": "payload/osx/ppc/shell/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Spawn a command shell (staged).\n\nListen for a connection",
-  "platform": "OSX",
-  "arch": "ppc",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/osx/ppc/bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "osx/ppc/shell/bind_tcp",
-  "needs_cleanup": false
+	"name": "OS X Command Shell, Bind TCP Stager",
+	"fullname": "payload/osx/ppc/shell/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Spawn a command shell (staged).\n\nListen for a connection",
+	"platform": "OSX",
+	"arch": "ppc",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/osx/ppc/bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/ppc/shell/bind_tcp",
+	"needs_cleanup": false
 }

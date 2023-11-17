@@ -1,40 +1,40 @@
 {
-  "name": "HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation",
-  "fullname": "auxiliary/admin/hp/hp_ilo_create_admin_account",
-  "rank": 300,
-  "disclosure_date": "2017-08-24",
-  "type": "auxiliary",
-  "author": [
-    "Fabien Perigaud <fabien.perigaud@synacktiv[dot]com>"
-  ],
-  "description": "This module exploits an authentication bypass in HP iLO 4 1.00 to 2.50, triggered by a buffer\n        overflow in the Connection HTTP header handling by the web server.\n        Exploiting this vulnerability gives full access to the REST API, allowing arbitrary\n        accounts creation.",
-  "references": [
-    "CVE-2017-12542",
-    "BID-100467",
-    "URL-https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-hpesbhf03769en_us",
-    "URL-https://www.synacktiv.com/en/publications/hp-ilo-talk-at-recon-brx-2018.html"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/admin/hp/hp_ilo_create_admin_account.rb",
-  "is_install_path": true,
-  "ref_name": "admin/hp/hp_ilo_create_admin_account",
-  "check": true,
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation",
+	"fullname": "auxiliary/admin/hp/hp_ilo_create_admin_account",
+	"rank": 300,
+	"disclosure_date": "2017-08-24",
+	"type": "auxiliary",
+	"author": [
+		"Fabien Perigaud <fabien.perigaud@synacktiv[dot]com>"
+	],
+	"description": "This module exploits an authentication bypass in HP iLO 4 1.00 to 2.50, triggered by a buffer\n        overflow in the Connection HTTP header handling by the web server.\n        Exploiting this vulnerability gives full access to the REST API, allowing arbitrary\n        accounts creation.",
+	"references": [
+		"CVE-2017-12542",
+		"BID-100467",
+		"URL-https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-hpesbhf03769en_us",
+		"URL-https://www.synacktiv.com/en/publications/hp-ilo-talk-at-recon-brx-2018.html"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/admin/hp/hp_ilo_create_admin_account.rb",
+	"is_install_path": true,
+	"ref_name": "admin/hp/hp_ilo_create_admin_account",
+	"check": true,
+	"post_auth": true,
+	"needs_cleanup": false
 }

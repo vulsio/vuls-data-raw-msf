@@ -1,38 +1,38 @@
 {
-  "name": "VMware Server Directory Traversal Vulnerability",
-  "fullname": "auxiliary/scanner/vmware/vmware_server_dir_trav",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "CG <cg@carnal0wnage.com>"
-  ],
-  "description": "This modules exploits the VMware Server Directory Traversal\n        vulnerability in VMware Server 1.x before 1.0.10 build 203137 and 2.x before\n        2.0.2 build 203138 on Linux, VMware ESXi 3.5, and VMware ESX 3.0.3 and 3.5\n        allows remote attackers to read arbitrary files. Common VMware server ports\n        80/8222 and 443/8333 SSL.  If you want to download the entire VM, check out\n        the gueststealer tool.",
-  "references": [
-    "URL-https://www.vmware.com/security/advisories/VMSA-2009-0015.html",
-    "OSVDB-59440",
-    "BID-36842",
-    "CVE-2009-3733",
-    "URL-http://fyrmassociates.com/tools/gueststealer-v1.1.pl"
-  ],
-  "rport": 8222,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/vmware/vmware_server_dir_trav.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vmware/vmware_server_dir_trav",
-  "needs_cleanup": false
+	"name": "VMware Server Directory Traversal Vulnerability",
+	"fullname": "auxiliary/scanner/vmware/vmware_server_dir_trav",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"CG <cg@carnal0wnage.com>"
+	],
+	"description": "This modules exploits the VMware Server Directory Traversal\n        vulnerability in VMware Server 1.x before 1.0.10 build 203137 and 2.x before\n        2.0.2 build 203138 on Linux, VMware ESXi 3.5, and VMware ESX 3.0.3 and 3.5\n        allows remote attackers to read arbitrary files. Common VMware server ports\n        80/8222 and 443/8333 SSL.  If you want to download the entire VM, check out\n        the gueststealer tool.",
+	"references": [
+		"URL-https://www.vmware.com/security/advisories/VMSA-2009-0015.html",
+		"OSVDB-59440",
+		"BID-36842",
+		"CVE-2009-3733",
+		"URL-http://fyrmassociates.com/tools/gueststealer-v1.1.pl"
+	],
+	"rport": 8222,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/vmware/vmware_server_dir_trav.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vmware/vmware_server_dir_trav",
+	"needs_cleanup": false
 }

@@ -1,24 +1,24 @@
 {
-  "name": "Cisco IKE Information Disclosure",
-  "fullname": "auxiliary/scanner/ike/cisco_ike_benigncertain",
-  "rank": 300,
-  "disclosure_date": "2016-09-29",
-  "type": "auxiliary",
-  "author": [
-    "Nixawk"
-  ],
-  "description": "A vulnerability in Internet Key Exchange version 1 (IKEv1) packet\n        processing code in Cisco IOS, Cisco IOS XE, and Cisco IOS XR Software\n        could allow an unauthenticated, remote attacker to retrieve memory\n        contents, which could lead to the disclosure of confidential information.\n\n        The vulnerability is due to insufficient condition checks in the part\n        of the code that handles IKEv1 security negotiation requests.\n        An attacker could exploit this vulnerability by sending a crafted IKEv1\n        packet to an affected device configured to accept IKEv1 security\n        negotiation requests. A successful exploit could allow the attacker\n        to retrieve memory contents, which could lead to the disclosure of\n        confidential information.",
-  "references": [
-    "CVE-2016-6415",
-    "URL-https://github.com/adamcaudill/EquationGroupLeak/tree/master/Firewall/TOOLS/BenignCertain/benigncertain-v1110",
-    "URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160916-ikev1",
-    "URL-https://nvd.nist.gov/vuln/detail/CVE-2016-6415",
-    "URL-https://musalbas.com/2016/08/18/equation-group-benigncertain.html"
-  ],
-  "rport": 500,
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/ike/cisco_ike_benigncertain.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/ike/cisco_ike_benigncertain",
-  "needs_cleanup": false
+	"name": "Cisco IKE Information Disclosure",
+	"fullname": "auxiliary/scanner/ike/cisco_ike_benigncertain",
+	"rank": 300,
+	"disclosure_date": "2016-09-29",
+	"type": "auxiliary",
+	"author": [
+		"Nixawk"
+	],
+	"description": "A vulnerability in Internet Key Exchange version 1 (IKEv1) packet\n        processing code in Cisco IOS, Cisco IOS XE, and Cisco IOS XR Software\n        could allow an unauthenticated, remote attacker to retrieve memory\n        contents, which could lead to the disclosure of confidential information.\n\n        The vulnerability is due to insufficient condition checks in the part\n        of the code that handles IKEv1 security negotiation requests.\n        An attacker could exploit this vulnerability by sending a crafted IKEv1\n        packet to an affected device configured to accept IKEv1 security\n        negotiation requests. A successful exploit could allow the attacker\n        to retrieve memory contents, which could lead to the disclosure of\n        confidential information.",
+	"references": [
+		"CVE-2016-6415",
+		"URL-https://github.com/adamcaudill/EquationGroupLeak/tree/master/Firewall/TOOLS/BenignCertain/benigncertain-v1110",
+		"URL-https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160916-ikev1",
+		"URL-https://nvd.nist.gov/vuln/detail/CVE-2016-6415",
+		"URL-https://musalbas.com/2016/08/18/equation-group-benigncertain.html"
+	],
+	"rport": 500,
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/ike/cisco_ike_benigncertain.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/ike/cisco_ike_benigncertain",
+	"needs_cleanup": false
 }

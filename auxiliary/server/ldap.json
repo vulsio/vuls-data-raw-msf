@@ -1,16 +1,16 @@
 {
-  "name": "Native LDAP Server (Example)",
-  "fullname": "auxiliary/server/ldap",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>",
-    "Spencer McIntyre"
-  ],
-  "description": "This module provides a Rex based LDAP service to expose the\n          native Rex LDAP server functionality created during log4shell\n          development.",
-  "mod_time": "2022-03-10 10:28:25 +0000",
-  "path": "/modules/auxiliary/server/ldap.rb",
-  "is_install_path": true,
-  "ref_name": "server/ldap",
-  "needs_cleanup": false
+	"name": "Native LDAP Server (Example)",
+	"fullname": "auxiliary/server/ldap",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>",
+		"Spencer McIntyre"
+	],
+	"description": "This module provides a Rex based LDAP service to expose the\n          native Rex LDAP server functionality created during log4shell\n          development.",
+	"mod_time": "2022-03-10 10:28:25 +0000",
+	"path": "/modules/auxiliary/server/ldap.rb",
+	"is_install_path": true,
+	"ref_name": "server/ldap",
+	"needs_cleanup": false
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Linux Gather Container Detection",
-  "fullname": "post/linux/gather/checkcontainer",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "James Otten <jamesotten1@gmail.com>"
-  ],
-  "description": "This module attempts to determine whether the system is running\n          inside of a container and if so, which one. This module supports\n          detection of Docker, WSL, LXC, Podman and systemd nspawn.",
-  "platform": "Linux",
-  "mod_time": "2023-07-19 19:47:17 +0000",
-  "path": "/modules/post/linux/gather/checkcontainer.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/checkcontainer",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather Container Detection",
+	"fullname": "post/linux/gather/checkcontainer",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"James Otten <jamesotten1@gmail.com>"
+	],
+	"description": "This module attempts to determine whether the system is running\n          inside of a container and if so, which one. This module supports\n          detection of Docker, WSL, LXC, Podman and systemd nspawn.",
+	"platform": "Linux",
+	"mod_time": "2023-07-19 19:47:17 +0000",
+	"path": "/modules/post/linux/gather/checkcontainer.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/checkcontainer",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

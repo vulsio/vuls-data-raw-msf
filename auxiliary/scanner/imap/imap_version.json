@@ -1,16 +1,16 @@
 {
-  "name": "IMAP4 Banner Grabber",
-  "fullname": "auxiliary/scanner/imap/imap_version",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "IMAP4 Banner Grabber",
-  "rport": 143,
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/imap/imap_version.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/imap/imap_version",
-  "needs_cleanup": false
+	"name": "IMAP4 Banner Grabber",
+	"fullname": "auxiliary/scanner/imap/imap_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "IMAP4 Banner Grabber",
+	"rport": 143,
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/imap/imap_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/imap/imap_version",
+	"needs_cleanup": false
 }

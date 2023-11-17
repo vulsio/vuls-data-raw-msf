@@ -1,18 +1,18 @@
 {
-  "name": "OS X dup2 Command Shell, Reverse TCP Stager",
-  "fullname": "payload/osx/x64/dupandexecve/reverse_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "nemo",
-    "nemo <nemo@felinemenace.org>"
-  ],
-  "description": "dup2 socket in edi, then execve.\n\nConnect, read length, read buffer, execute",
-  "platform": "OSX",
-  "arch": "x64",
-  "mod_time": "2022-05-04 14:43:05 +0000",
-  "path": "/modules/payloads/stagers/osx/x64/reverse_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x64/dupandexecve/reverse_tcp",
-  "needs_cleanup": false
+	"name": "OS X dup2 Command Shell, Reverse TCP Stager",
+	"fullname": "payload/osx/x64/dupandexecve/reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"nemo",
+		"nemo <nemo@felinemenace.org>"
+	],
+	"description": "dup2 socket in edi, then execve.\n\nConnect, read length, read buffer, execute",
+	"platform": "OSX",
+	"arch": "x64",
+	"mod_time": "2022-05-04 14:43:05 +0000",
+	"path": "/modules/payloads/stagers/osx/x64/reverse_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x64/dupandexecve/reverse_tcp",
+	"needs_cleanup": false
 }

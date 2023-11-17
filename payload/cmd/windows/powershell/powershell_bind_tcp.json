@@ -1,24 +1,24 @@
 {
-  "name": "Powershell Exec",
-  "fullname": "payload/cmd/windows/powershell/powershell_bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Spencer McIntyre",
-    "Ben Turner",
-    "Dave Hardy",
-    "vlad902 <vlad902@gmail.com>",
-    "sf <stephen_fewer@harmonysecurity.com>"
-  ],
-  "description": "Execute an x86 payload from a command via PowerShell",
-  "references": [
-    "URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2022-05-27 16:41:25 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/powershell/powershell_bind_tcp",
-  "needs_cleanup": false
+	"name": "Powershell Exec",
+	"fullname": "payload/cmd/windows/powershell/powershell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"Ben Turner",
+		"Dave Hardy",
+		"vlad902 <vlad902@gmail.com>",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Execute an x86 payload from a command via PowerShell",
+	"references": [
+		"URL-https://blog.nettitude.com/uk/interactive-powershell-session-via-metasploit"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2022-05-27 16:41:25 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/powershell.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/powershell/powershell_bind_tcp",
+	"needs_cleanup": false
 }

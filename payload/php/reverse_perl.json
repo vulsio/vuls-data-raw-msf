@@ -1,17 +1,17 @@
 {
-  "name": "PHP Command, Double Reverse TCP Connection (via Perl)",
-  "fullname": "payload/php/reverse_perl",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "cazz <bmc@shmoo.com>"
-  ],
-  "description": "Creates an interactive shell via perl",
-  "platform": "PHP",
-  "arch": "php",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/php/reverse_perl.rb",
-  "is_install_path": true,
-  "ref_name": "php/reverse_perl",
-  "needs_cleanup": false
+	"name": "PHP Command, Double Reverse TCP Connection (via Perl)",
+	"fullname": "payload/php/reverse_perl",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"cazz <bmc@shmoo.com>"
+	],
+	"description": "Creates an interactive shell via perl",
+	"platform": "PHP",
+	"arch": "php",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/php/reverse_perl.rb",
+	"is_install_path": true,
+	"ref_name": "php/reverse_perl",
+	"needs_cleanup": false
 }

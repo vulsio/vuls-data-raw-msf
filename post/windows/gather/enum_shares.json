@@ -1,25 +1,25 @@
 {
-  "name": "Windows Gather SMB Share Enumeration via Registry",
-  "fullname": "post/windows/gather/enum_shares",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module will enumerate configured and recently used file shares.",
-  "platform": "Windows",
-  "mod_time": "2022-09-02 17:34:32 +0000",
-  "path": "/modules/post/windows/gather/enum_shares.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_shares",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell",
-    "powershell",
-    "meterpreter"
-  ]
+	"name": "Windows Gather SMB Share Enumeration via Registry",
+	"fullname": "post/windows/gather/enum_shares",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module will enumerate configured and recently used file shares.",
+	"platform": "Windows",
+	"mod_time": "2022-09-02 17:34:32 +0000",
+	"path": "/modules/post/windows/gather/enum_shares.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_shares",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"powershell",
+		"meterpreter"
+	]
 }

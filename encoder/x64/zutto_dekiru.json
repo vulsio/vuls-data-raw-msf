@@ -1,16 +1,16 @@
 {
-  "name": "Zutto Dekiru",
-  "fullname": "encoder/x64/zutto_dekiru",
-  "type": "encoder",
-  "author": [
-    "agix"
-  ],
-  "description": "Inspired by shikata_ga_nai using fxsave64 to work under x64 systems.",
-  "platform": "All",
-  "arch": "x64",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x64/zutto_dekiru.rb",
-  "is_install_path": true,
-  "ref_name": "x64/zutto_dekiru",
-  "needs_cleanup": false
+	"name": "Zutto Dekiru",
+	"fullname": "encoder/x64/zutto_dekiru",
+	"type": "encoder",
+	"author": [
+		"agix"
+	],
+	"description": "Inspired by shikata_ga_nai using fxsave64 to work under x64 systems.",
+	"platform": "All",
+	"arch": "x64",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x64/zutto_dekiru.rb",
+	"is_install_path": true,
+	"ref_name": "x64/zutto_dekiru",
+	"needs_cleanup": false
 }

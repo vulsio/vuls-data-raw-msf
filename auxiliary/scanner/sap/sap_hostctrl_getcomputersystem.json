@@ -1,39 +1,39 @@
 {
-  "name": "SAP Host Agent Information Disclosure",
-  "fullname": "auxiliary/scanner/sap/sap_hostctrl_getcomputersystem",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Bruno Morisson <bm@integrity.pt>"
-  ],
-  "description": "This module attempts to retrieve Computer and OS info from Host Agent\n        through the SAP HostControl service.",
-  "references": [
-    "CVE-2013-3319",
-    "OSVDB-95616",
-    "BID-61402",
-    "URL-https://launchpad.support.sap.com/#/notes/1816536",
-    "URL-https://labs.integrity.pt/advisories/cve-2013-3319/"
-  ],
-  "rport": 1128,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443,
-    1128
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/sap/sap_hostctrl_getcomputersystem.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/sap/sap_hostctrl_getcomputersystem",
-  "needs_cleanup": false
+	"name": "SAP Host Agent Information Disclosure",
+	"fullname": "auxiliary/scanner/sap/sap_hostctrl_getcomputersystem",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Bruno Morisson <bm@integrity.pt>"
+	],
+	"description": "This module attempts to retrieve Computer and OS info from Host Agent\n        through the SAP HostControl service.",
+	"references": [
+		"CVE-2013-3319",
+		"OSVDB-95616",
+		"BID-61402",
+		"URL-https://launchpad.support.sap.com/#/notes/1816536",
+		"URL-https://labs.integrity.pt/advisories/cve-2013-3319/"
+	],
+	"rport": 1128,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443,
+		1128
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/sap/sap_hostctrl_getcomputersystem.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/sap/sap_hostctrl_getcomputersystem",
+	"needs_cleanup": false
 }

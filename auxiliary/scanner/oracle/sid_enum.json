@@ -1,18 +1,18 @@
 {
-  "name": "Oracle TNS Listener SID Enumeration",
-  "fullname": "auxiliary/scanner/oracle/sid_enum",
-  "rank": 300,
-  "disclosure_date": "2009-01-07",
-  "type": "auxiliary",
-  "author": [
-    "CG <cg@carnal0wnage.com>",
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module simply queries the TNS listener for the Oracle SID.\n        With Oracle 9.2.0.8 and above the listener will be protected and\n        the SID will have to be bruteforced or guessed.",
-  "rport": 1521,
-  "mod_time": "2020-10-02 17:38:06 +0000",
-  "path": "/modules/auxiliary/scanner/oracle/sid_enum.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/oracle/sid_enum",
-  "needs_cleanup": false
+	"name": "Oracle TNS Listener SID Enumeration",
+	"fullname": "auxiliary/scanner/oracle/sid_enum",
+	"rank": 300,
+	"disclosure_date": "2009-01-07",
+	"type": "auxiliary",
+	"author": [
+		"CG <cg@carnal0wnage.com>",
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module simply queries the TNS listener for the Oracle SID.\n        With Oracle 9.2.0.8 and above the listener will be protected and\n        the SID will have to be bruteforced or guessed.",
+	"rport": 1521,
+	"mod_time": "2020-10-02 17:38:06 +0000",
+	"path": "/modules/auxiliary/scanner/oracle/sid_enum.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/oracle/sid_enum",
+	"needs_cleanup": false
 }

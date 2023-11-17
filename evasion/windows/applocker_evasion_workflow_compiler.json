@@ -1,24 +1,24 @@
 {
-  "name": "Applocker Evasion - Microsoft Workflow Compiler",
-  "fullname": "evasion/windows/applocker_evasion_workflow_compiler",
-  "rank": 300,
-  "type": "evasion",
-  "author": [
-    "Nick Tyrer <@NickTyrer>",
-    "Matt Graeber"
-  ],
-  "description": "This module will assist you in evading Microsoft\n         Windows Applocker and Software Restriction Policies.\n         This technique utilises the Microsoft signed binaries\n         Microsoft.Workflow.Compiler.exe to execute user supplied code.",
-  "references": [
-    "URL-https://posts.specterops.io/arbitrary-unsigned-code-execution-vector-in-microsoft-workflow-compiler-exe-3d9294bc5efb"
-  ],
-  "platform": "Windows",
-  "arch": "x86, x64",
-  "targets": [
-    "Microsoft Windows"
-  ],
-  "mod_time": "2019-08-08 18:48:10 +0000",
-  "path": "/modules/evasion/windows/applocker_evasion_workflow_compiler.rb",
-  "is_install_path": true,
-  "ref_name": "windows/applocker_evasion_workflow_compiler",
-  "needs_cleanup": false
+	"name": "Applocker Evasion - Microsoft Workflow Compiler",
+	"fullname": "evasion/windows/applocker_evasion_workflow_compiler",
+	"rank": 300,
+	"type": "evasion",
+	"author": [
+		"Nick Tyrer <@NickTyrer>",
+		"Matt Graeber"
+	],
+	"description": "This module will assist you in evading Microsoft\n         Windows Applocker and Software Restriction Policies.\n         This technique utilises the Microsoft signed binaries\n         Microsoft.Workflow.Compiler.exe to execute user supplied code.",
+	"references": [
+		"URL-https://posts.specterops.io/arbitrary-unsigned-code-execution-vector-in-microsoft-workflow-compiler-exe-3d9294bc5efb"
+	],
+	"platform": "Windows",
+	"arch": "x86, x64",
+	"targets": [
+		"Microsoft Windows"
+	],
+	"mod_time": "2019-08-08 18:48:10 +0000",
+	"path": "/modules/evasion/windows/applocker_evasion_workflow_compiler.rb",
+	"is_install_path": true,
+	"ref_name": "windows/applocker_evasion_workflow_compiler",
+	"needs_cleanup": false
 }

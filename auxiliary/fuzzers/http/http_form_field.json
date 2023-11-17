@@ -1,35 +1,35 @@
 {
-  "name": "HTTP Form Field Fuzzer",
-  "fullname": "auxiliary/fuzzers/http/http_form_field",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "corelanc0d3r",
-    "Paulino Calderon <calderon@websec.mx>"
-  ],
-  "description": "This module will grab all fields from a form,\n        and launch a series of POST actions, fuzzing the contents\n        of the form fields. You can optionally fuzz headers too\n        (option is enabled by default)",
-  "references": [
-    "URL-http://www.corelan.be:8800/index.php/2010/11/12/metasploit-module-http-form-field-fuzzer"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/fuzzers/http/http_form_field.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/http/http_form_field",
-  "needs_cleanup": false
+	"name": "HTTP Form Field Fuzzer",
+	"fullname": "auxiliary/fuzzers/http/http_form_field",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"corelanc0d3r",
+		"Paulino Calderon <calderon@websec.mx>"
+	],
+	"description": "This module will grab all fields from a form,\n        and launch a series of POST actions, fuzzing the contents\n        of the form fields. You can optionally fuzz headers too\n        (option is enabled by default)",
+	"references": [
+		"URL-http://www.corelan.be:8800/index.php/2010/11/12/metasploit-module-http-form-field-fuzzer"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/fuzzers/http/http_form_field.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/http/http_form_field",
+	"needs_cleanup": false
 }

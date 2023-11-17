@@ -1,20 +1,20 @@
 {
-  "name": "Displays wireless SSIDs and PSKs",
-  "fullname": "post/android/gather/wireless_ap",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Auxilus",
-    "timwr"
-  ],
-  "description": "This module displays all wireless AP creds saved on the target device.",
-  "platform": "Android",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/android/gather/wireless_ap.rb",
-  "is_install_path": true,
-  "ref_name": "android/gather/wireless_ap",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Displays wireless SSIDs and PSKs",
+	"fullname": "post/android/gather/wireless_ap",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Auxilus",
+		"timwr"
+	],
+	"description": "This module displays all wireless AP creds saved on the target device.",
+	"platform": "Android",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/android/gather/wireless_ap.rb",
+	"is_install_path": true,
+	"ref_name": "android/gather/wireless_ap",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

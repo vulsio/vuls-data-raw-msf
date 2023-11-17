@@ -1,19 +1,19 @@
 {
-  "name": "Geutebruck Camera Deface",
-  "fullname": "post/linux/manage/geutebruck_post_exp",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Ibrahim Ayadhi",
-    "Sébastien Charbonnier"
-  ],
-  "description": "This module will take an existing session on a vulnerable Geutebruck Camera\n        and will allow the user to either freeze the camera and display the last\n        image from the video stream, display an image on the camera, or restore\n        the camera back to displaying the current feed/stream.",
-  "platform": "Linux",
-  "mod_time": "2021-09-03 12:30:12 +0000",
-  "path": "/modules/post/linux/manage/geutebruck_post_exp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/manage/geutebruck_post_exp",
-  "session_types": [
-    "shell"
-  ]
+	"name": "Geutebruck Camera Deface",
+	"fullname": "post/linux/manage/geutebruck_post_exp",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Ibrahim Ayadhi",
+		"Sébastien Charbonnier"
+	],
+	"description": "This module will take an existing session on a vulnerable Geutebruck Camera\n        and will allow the user to either freeze the camera and display the last\n        image from the video stream, display an image on the camera, or restore\n        the camera back to displaying the current feed/stream.",
+	"platform": "Linux",
+	"mod_time": "2021-09-03 12:30:12 +0000",
+	"path": "/modules/post/linux/manage/geutebruck_post_exp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/manage/geutebruck_post_exp",
+	"session_types": [
+		"shell"
+	]
 }

@@ -1,34 +1,34 @@
 {
-  "name": "Discover External IP via Ifconfig.me",
-  "fullname": "auxiliary/gather/external_ip",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "This module checks for the public source IP address of the current\n        route to the RHOST by querying the public web application at ifconfig.me.\n        It should be noted this module will register activity on ifconfig.me,\n        which is not affiliated with Metasploit.",
-  "references": [
-    "URL-http://ifconfig.me/ip"
-  ],
-  "rport": 80,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-08 16:15:04 +0000",
-  "path": "/modules/auxiliary/gather/external_ip.rb",
-  "is_install_path": true,
-  "ref_name": "gather/external_ip",
-  "needs_cleanup": false
+	"name": "Discover External IP via Ifconfig.me",
+	"fullname": "auxiliary/gather/external_ip",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "This module checks for the public source IP address of the current\n        route to the RHOST by querying the public web application at ifconfig.me.\n        It should be noted this module will register activity on ifconfig.me,\n        which is not affiliated with Metasploit.",
+	"references": [
+		"URL-http://ifconfig.me/ip"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-08 16:15:04 +0000",
+	"path": "/modules/auxiliary/gather/external_ip.rb",
+	"is_install_path": true,
+	"ref_name": "gather/external_ip",
+	"needs_cleanup": false
 }

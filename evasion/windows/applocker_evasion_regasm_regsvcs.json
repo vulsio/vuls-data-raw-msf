@@ -1,24 +1,24 @@
 {
-  "name": "Applocker Evasion - Microsoft .NET Assembly Registration Utility",
-  "fullname": "evasion/windows/applocker_evasion_regasm_regsvcs",
-  "rank": 300,
-  "type": "evasion",
-  "author": [
-    "Nick Tyrer <@NickTyrer>",
-    "Casey Smith"
-  ],
-  "description": "This module will assist you in evading Microsoft\n         Windows Applocker and Software Restriction Policies.\n         This technique utilises the Microsoft signed binaries\n         RegAsm.exe or RegSvcs.exe to execute user supplied code.",
-  "references": [
-    "URL-https://attack.mitre.org/techniques/T1121/"
-  ],
-  "platform": "Windows",
-  "arch": "x86, x64",
-  "targets": [
-    "Microsoft Windows"
-  ],
-  "mod_time": "2019-08-08 18:36:36 +0000",
-  "path": "/modules/evasion/windows/applocker_evasion_regasm_regsvcs.rb",
-  "is_install_path": true,
-  "ref_name": "windows/applocker_evasion_regasm_regsvcs",
-  "needs_cleanup": false
+	"name": "Applocker Evasion - Microsoft .NET Assembly Registration Utility",
+	"fullname": "evasion/windows/applocker_evasion_regasm_regsvcs",
+	"rank": 300,
+	"type": "evasion",
+	"author": [
+		"Nick Tyrer <@NickTyrer>",
+		"Casey Smith"
+	],
+	"description": "This module will assist you in evading Microsoft\n         Windows Applocker and Software Restriction Policies.\n         This technique utilises the Microsoft signed binaries\n         RegAsm.exe or RegSvcs.exe to execute user supplied code.",
+	"references": [
+		"URL-https://attack.mitre.org/techniques/T1121/"
+	],
+	"platform": "Windows",
+	"arch": "x86, x64",
+	"targets": [
+		"Microsoft Windows"
+	],
+	"mod_time": "2019-08-08 18:36:36 +0000",
+	"path": "/modules/evasion/windows/applocker_evasion_regasm_regsvcs.rb",
+	"is_install_path": true,
+	"ref_name": "windows/applocker_evasion_regasm_regsvcs",
+	"needs_cleanup": false
 }

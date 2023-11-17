@@ -1,17 +1,17 @@
 {
-  "name": "Unix Command Shell, Reverse UDP (via socat)",
-  "fullname": "payload/cmd/unix/reverse_socat_udp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "RageLtMan <rageltman@sempervictus>"
-  ],
-  "description": "Creates an interactive shell via socat",
-  "platform": "Unix",
-  "arch": "cmd",
-  "mod_time": "2022-11-22 05:49:48 +0000",
-  "path": "/modules/payloads/singles/cmd/unix/reverse_socat_udp.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/unix/reverse_socat_udp",
-  "needs_cleanup": false
+	"name": "Unix Command Shell, Reverse UDP (via socat)",
+	"fullname": "payload/cmd/unix/reverse_socat_udp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"RageLtMan <rageltman@sempervictus>"
+	],
+	"description": "Creates an interactive shell via socat",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-22 05:49:48 +0000",
+	"path": "/modules/payloads/singles/cmd/unix/reverse_socat_udp.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/reverse_socat_udp",
+	"needs_cleanup": false
 }

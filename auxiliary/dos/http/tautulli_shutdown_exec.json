@@ -1,35 +1,35 @@
 {
-  "name": "Tautulli v2.1.9 - Shutdown Denial of Service",
-  "fullname": "auxiliary/dos/http/tautulli_shutdown_exec",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Ismail Tasdelen"
-  ],
-  "description": "Tautulli versions 2.1.9 and prior are vulnerable to denial of service via the /shutdown URL.",
-  "references": [
-    "CVE-2019-19833",
-    "EDB-47785"
-  ],
-  "rport": 8181,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-08-27 17:15:33 +0000",
-  "path": "/modules/auxiliary/dos/http/tautulli_shutdown_exec.rb",
-  "is_install_path": true,
-  "ref_name": "dos/http/tautulli_shutdown_exec",
-  "needs_cleanup": false
+	"name": "Tautulli v2.1.9 - Shutdown Denial of Service",
+	"fullname": "auxiliary/dos/http/tautulli_shutdown_exec",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Ismail Tasdelen"
+	],
+	"description": "Tautulli versions 2.1.9 and prior are vulnerable to denial of service via the /shutdown URL.",
+	"references": [
+		"CVE-2019-19833",
+		"EDB-47785"
+	],
+	"rport": 8181,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-08-27 17:15:33 +0000",
+	"path": "/modules/auxiliary/dos/http/tautulli_shutdown_exec.rb",
+	"is_install_path": true,
+	"ref_name": "dos/http/tautulli_shutdown_exec",
+	"needs_cleanup": false
 }

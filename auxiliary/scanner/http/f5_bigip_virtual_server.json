@@ -1,35 +1,35 @@
 {
-  "name": "F5 BigIP HTTP Virtual Server Scanner",
-  "fullname": "auxiliary/scanner/http/f5_bigip_virtual_server",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Denis Kolegov <dnkolegov@gmail.com>",
-    "Oleg Broslavsky <ovbroslavsky@gmail.com>",
-    "Nikita Oleksov <neoleksov@gmail.com>"
-  ],
-  "description": "This module scans for BigIP HTTP virtual servers using banner grabbing. BigIP system uses\n        different HTTP profiles for managing HTTP traffic and these profiles allow to customize\n        the string used as Server HTTP header. The default values are \"BigIP\" or \"BIG-IP\" depending\n        on the BigIP system version.",
-  "references": [
-    "URL-https://web.archive.org/web/20180906182059/https://www.owasp.org/index.php/SCG_D_BIGIP"
-  ],
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/scanner/http/f5_bigip_virtual_server.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/f5_bigip_virtual_server",
-  "needs_cleanup": false
+	"name": "F5 BigIP HTTP Virtual Server Scanner",
+	"fullname": "auxiliary/scanner/http/f5_bigip_virtual_server",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Denis Kolegov <dnkolegov@gmail.com>",
+		"Oleg Broslavsky <ovbroslavsky@gmail.com>",
+		"Nikita Oleksov <neoleksov@gmail.com>"
+	],
+	"description": "This module scans for BigIP HTTP virtual servers using banner grabbing. BigIP system uses\n        different HTTP profiles for managing HTTP traffic and these profiles allow to customize\n        the string used as Server HTTP header. The default values are \"BigIP\" or \"BIG-IP\" depending\n        on the BigIP system version.",
+	"references": [
+		"URL-https://web.archive.org/web/20180906182059/https://www.owasp.org/index.php/SCG_D_BIGIP"
+	],
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/scanner/http/f5_bigip_virtual_server.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/f5_bigip_virtual_server",
+	"needs_cleanup": false
 }

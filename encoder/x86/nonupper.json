@@ -1,17 +1,17 @@
 {
-  "name": "Non-Upper Encoder",
-  "fullname": "encoder/x86/nonupper",
-  "rank": 100,
-  "type": "encoder",
-  "author": [
-    "pusscat <pusscat@metasploit.com>"
-  ],
-  "description": "Encodes payloads as non-alpha based bytes. This allows\n        payloads to bypass tolower() calls, but will fail isalpha().\n        Table based design from Russel Sanford.",
-  "platform": "All",
-  "arch": "x86",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/encoders/x86/nonupper.rb",
-  "is_install_path": true,
-  "ref_name": "x86/nonupper",
-  "needs_cleanup": false
+	"name": "Non-Upper Encoder",
+	"fullname": "encoder/x86/nonupper",
+	"rank": 100,
+	"type": "encoder",
+	"author": [
+		"pusscat <pusscat@metasploit.com>"
+	],
+	"description": "Encodes payloads as non-alpha based bytes. This allows\n        payloads to bypass tolower() calls, but will fail isalpha().\n        Table based design from Russel Sanford.",
+	"platform": "All",
+	"arch": "x86",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/encoders/x86/nonupper.rb",
+	"is_install_path": true,
+	"ref_name": "x86/nonupper",
+	"needs_cleanup": false
 }

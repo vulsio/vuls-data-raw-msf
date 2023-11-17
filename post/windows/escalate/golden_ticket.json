@@ -1,21 +1,21 @@
 {
-  "name": "Windows Escalate Golden Ticket",
-  "fullname": "post/windows/escalate/golden_ticket",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Ben Campbell <eat_meatballs@hotmail.co.uk>"
-  ],
-  "description": "This module will create a Golden Kerberos Ticket using the Mimikatz Kiwi Extension. If no\n          options are applied it will attempt to identify the current domain, the domain administrator\n          account, the target domain SID, and retrieve the krbtgt NTLM hash from the database. By default\n          the well-known Administrator's groups 512, 513, 518, 519, and 520 will be applied to the ticket.",
-  "references": [
-    "URL-https://github.com/gentilkiwi/mimikatz/wiki/module-~-kerberos"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-04-12 13:09:34 +0000",
-  "path": "/modules/post/windows/escalate/golden_ticket.rb",
-  "is_install_path": true,
-  "ref_name": "windows/escalate/golden_ticket",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Escalate Golden Ticket",
+	"fullname": "post/windows/escalate/golden_ticket",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+	],
+	"description": "This module will create a Golden Kerberos Ticket using the Mimikatz Kiwi Extension. If no\n          options are applied it will attempt to identify the current domain, the domain administrator\n          account, the target domain SID, and retrieve the krbtgt NTLM hash from the database. By default\n          the well-known Administrator's groups 512, 513, 518, 519, and 520 will be applied to the ticket.",
+	"references": [
+		"URL-https://github.com/gentilkiwi/mimikatz/wiki/module-~-kerberos"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-04-12 13:09:34 +0000",
+	"path": "/modules/post/windows/escalate/golden_ticket.rb",
+	"is_install_path": true,
+	"ref_name": "windows/escalate/golden_ticket",
+	"session_types": [
+		"meterpreter"
+	]
 }

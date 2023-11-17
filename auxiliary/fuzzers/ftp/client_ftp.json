@@ -1,18 +1,18 @@
 {
-  "name": "Simple FTP Client Fuzzer",
-  "fullname": "auxiliary/fuzzers/ftp/client_ftp",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "corelanc0d3r <peter.ve@corelan.be>"
-  ],
-  "description": "This module will serve an FTP server and perform FTP client interaction fuzzing",
-  "references": [
-    "URL-http://www.corelan.be:8800/index.php/2010/10/12/death-of-an-ftp-client/"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/fuzzers/ftp/client_ftp.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/ftp/client_ftp",
-  "needs_cleanup": false
+	"name": "Simple FTP Client Fuzzer",
+	"fullname": "auxiliary/fuzzers/ftp/client_ftp",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"corelanc0d3r <peter.ve@corelan.be>"
+	],
+	"description": "This module will serve an FTP server and perform FTP client interaction fuzzing",
+	"references": [
+		"URL-http://www.corelan.be:8800/index.php/2010/10/12/death-of-an-ftp-client/"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/fuzzers/ftp/client_ftp.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/ftp/client_ftp",
+	"needs_cleanup": false
 }

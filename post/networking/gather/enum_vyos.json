@@ -1,25 +1,25 @@
 {
-  "name": "VyOS Gather Device General Information",
-  "fullname": "post/networking/gather/enum_vyos",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "h00die"
-  ],
-  "description": "This module collects VyOS device information and configuration.",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/networking/gather/enum_vyos.rb",
-  "is_install_path": true,
-  "ref_name": "networking/gather/enum_vyos",
-  "notes": {
-    "SideEffects": [
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "shell"
-  ]
+	"name": "VyOS Gather Device General Information",
+	"fullname": "post/networking/gather/enum_vyos",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"h00die"
+	],
+	"description": "This module collects VyOS device information and configuration.",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/networking/gather/enum_vyos.rb",
+	"is_install_path": true,
+	"ref_name": "networking/gather/enum_vyos",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell"
+	]
 }

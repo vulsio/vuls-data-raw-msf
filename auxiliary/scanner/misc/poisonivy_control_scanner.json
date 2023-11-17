@@ -1,15 +1,15 @@
 {
-  "name": "Poison Ivy Command and Control Scanner",
-  "fullname": "auxiliary/scanner/misc/poisonivy_control_scanner",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "SeawolfRN"
-  ],
-  "description": "Enumerate Poison Ivy Command and Control (C&C) on ports 3460, 80, 8080 and 443. Adaptation of iTrust Python script.",
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/misc/poisonivy_control_scanner.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/misc/poisonivy_control_scanner",
-  "needs_cleanup": false
+	"name": "Poison Ivy Command and Control Scanner",
+	"fullname": "auxiliary/scanner/misc/poisonivy_control_scanner",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"SeawolfRN"
+	],
+	"description": "Enumerate Poison Ivy Command and Control (C&C) on ports 3460, 80, 8080 and 443. Adaptation of iTrust Python script.",
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/misc/poisonivy_control_scanner.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/poisonivy_control_scanner",
+	"needs_cleanup": false
 }

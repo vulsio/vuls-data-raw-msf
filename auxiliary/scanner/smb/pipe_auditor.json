@@ -1,23 +1,23 @@
 {
-  "name": "SMB Session Pipe Auditor",
-  "fullname": "auxiliary/scanner/smb/pipe_auditor",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>"
-  ],
-  "description": "Determine what named pipes are accessible over SMB",
-  "autofilter_ports": [
-    139,
-    445
-  ],
-  "autofilter_services": [
-    "netbios-ssn",
-    "microsoft-ds"
-  ],
-  "mod_time": "2020-05-13 16:34:47 +0000",
-  "path": "/modules/auxiliary/scanner/smb/pipe_auditor.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/smb/pipe_auditor",
-  "needs_cleanup": false
+	"name": "SMB Session Pipe Auditor",
+	"fullname": "auxiliary/scanner/smb/pipe_auditor",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>"
+	],
+	"description": "Determine what named pipes are accessible over SMB",
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2020-05-13 16:34:47 +0000",
+	"path": "/modules/auxiliary/scanner/smb/pipe_auditor.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/smb/pipe_auditor",
+	"needs_cleanup": false
 }

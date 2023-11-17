@@ -1,30 +1,30 @@
 {
-  "name": "Guild FTPd 0.999.8.11/0.999.14 Heap Corruption",
-  "fullname": "auxiliary/dos/windows/ftp/guildftp_cwdlist",
-  "rank": 300,
-  "disclosure_date": "2008-10-12",
-  "type": "auxiliary",
-  "author": [
-    "kris katterjohn <katterjohn@gmail.com>"
-  ],
-  "description": "Guild FTPd 0.999.8.11 and 0.999.14 are vulnerable\n        to heap corruption.  You need to have a valid login\n        so you can run CWD and LIST.",
-  "references": [
-    "CVE-2008-4572",
-    "OSVDB-49045",
-    "EDB-6738"
-  ],
-  "rport": 21,
-  "autofilter_ports": [
-    21,
-    2121
-  ],
-  "autofilter_services": [
-    "ftp"
-  ],
-  "mod_time": "2022-08-08 01:40:15 +0000",
-  "path": "/modules/auxiliary/dos/windows/ftp/guildftp_cwdlist.rb",
-  "is_install_path": true,
-  "ref_name": "dos/windows/ftp/guildftp_cwdlist",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Guild FTPd 0.999.8.11/0.999.14 Heap Corruption",
+	"fullname": "auxiliary/dos/windows/ftp/guildftp_cwdlist",
+	"rank": 300,
+	"disclosure_date": "2008-10-12",
+	"type": "auxiliary",
+	"author": [
+		"kris katterjohn <katterjohn@gmail.com>"
+	],
+	"description": "Guild FTPd 0.999.8.11 and 0.999.14 are vulnerable\n        to heap corruption.  You need to have a valid login\n        so you can run CWD and LIST.",
+	"references": [
+		"CVE-2008-4572",
+		"OSVDB-49045",
+		"EDB-6738"
+	],
+	"rport": 21,
+	"autofilter_ports": [
+		21,
+		2121
+	],
+	"autofilter_services": [
+		"ftp"
+	],
+	"mod_time": "2022-08-08 01:40:15 +0000",
+	"path": "/modules/auxiliary/dos/windows/ftp/guildftp_cwdlist.rb",
+	"is_install_path": true,
+	"ref_name": "dos/windows/ftp/guildftp_cwdlist",
+	"post_auth": true,
+	"needs_cleanup": false
 }

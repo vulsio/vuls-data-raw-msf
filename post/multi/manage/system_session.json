@@ -1,19 +1,19 @@
 {
-  "name": "Multi Manage System Remote TCP Shell Session",
-  "fullname": "post/multi/manage/system_session",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module will create a Reverse TCP Shell on the target system\n          using the system's own scripting environments installed on the\n          target.",
-  "platform": "Linux,OSX,Unix",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/manage/system_session.rb",
-  "is_install_path": true,
-  "ref_name": "multi/manage/system_session",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "Multi Manage System Remote TCP Shell Session",
+	"fullname": "post/multi/manage/system_session",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module will create a Reverse TCP Shell on the target system\n          using the system's own scripting environments installed on the\n          target.",
+	"platform": "Linux,OSX,Unix",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/manage/system_session.rb",
+	"is_install_path": true,
+	"ref_name": "multi/manage/system_session",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

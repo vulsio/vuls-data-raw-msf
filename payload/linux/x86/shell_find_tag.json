@@ -1,17 +1,17 @@
 {
-  "name": "Linux Command Shell, Find Tag Inline",
-  "fullname": "payload/linux/x86/shell_find_tag",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Spawn a shell on an established connection (proxy/nat safe)",
-  "platform": "Linux",
-  "arch": "x86",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/linux/x86/shell_find_tag.rb",
-  "is_install_path": true,
-  "ref_name": "linux/x86/shell_find_tag",
-  "needs_cleanup": false
+	"name": "Linux Command Shell, Find Tag Inline",
+	"fullname": "payload/linux/x86/shell_find_tag",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Spawn a shell on an established connection (proxy/nat safe)",
+	"platform": "Linux",
+	"arch": "x86",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/linux/x86/shell_find_tag.rb",
+	"is_install_path": true,
+	"ref_name": "linux/x86/shell_find_tag",
+	"needs_cleanup": false
 }

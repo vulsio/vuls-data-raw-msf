@@ -1,32 +1,32 @@
 {
-  "name": "Softing Secure Integration Server Login Utility",
-  "fullname": "auxiliary/scanner/http/softing_sis_login",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Imran E. Dawoodjee <imrandawoodjee.infosec@gmail.com>"
-  ],
-  "description": "This module will attempt to authenticate to a Softing Secure Integration Server.",
-  "rport": 8099,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-28 15:40:03 +0000",
-  "path": "/modules/auxiliary/scanner/http/softing_sis_login.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/softing_sis_login",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Softing Secure Integration Server Login Utility",
+	"fullname": "auxiliary/scanner/http/softing_sis_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Imran E. Dawoodjee <imrandawoodjee.infosec@gmail.com>"
+	],
+	"description": "This module will attempt to authenticate to a Softing Secure Integration Server.",
+	"rport": 8099,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-28 15:40:03 +0000",
+	"path": "/modules/auxiliary/scanner/http/softing_sis_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/softing_sis_login",
+	"post_auth": true,
+	"needs_cleanup": false
 }

@@ -1,16 +1,16 @@
 {
-  "name": "DB2 Discovery Service Detection",
-  "fullname": "auxiliary/scanner/db2/discovery",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "MC <mc@metasploit.com>"
-  ],
-  "description": "This module simply queries the DB2 discovery service for information.",
-  "rport": 523,
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/scanner/db2/discovery.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/db2/discovery",
-  "needs_cleanup": false
+	"name": "DB2 Discovery Service Detection",
+	"fullname": "auxiliary/scanner/db2/discovery",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"MC <mc@metasploit.com>"
+	],
+	"description": "This module simply queries the DB2 discovery service for information.",
+	"rport": 523,
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/scanner/db2/discovery.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/db2/discovery",
+	"needs_cleanup": false
 }

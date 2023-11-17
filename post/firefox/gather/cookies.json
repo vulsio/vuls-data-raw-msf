@@ -1,15 +1,15 @@
 {
-  "name": "Firefox Gather Cookies from Privileged Javascript Shell",
-  "fullname": "post/firefox/gather/cookies",
-  "rank": 300,
-  "disclosure_date": "2014-03-26",
-  "type": "post",
-  "author": [
-    "joev <joev@metasploit.com>"
-  ],
-  "description": "This module allows collection of cookies from a Firefox Privileged Javascript Shell.",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/firefox/gather/cookies.rb",
-  "is_install_path": true,
-  "ref_name": "firefox/gather/cookies"
+	"name": "Firefox Gather Cookies from Privileged Javascript Shell",
+	"fullname": "post/firefox/gather/cookies",
+	"rank": 300,
+	"disclosure_date": "2014-03-26",
+	"type": "post",
+	"author": [
+		"joev <joev@metasploit.com>"
+	],
+	"description": "This module allows collection of cookies from a Firefox Privileged Javascript Shell.",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/firefox/gather/cookies.rb",
+	"is_install_path": true,
+	"ref_name": "firefox/gather/cookies"
 }

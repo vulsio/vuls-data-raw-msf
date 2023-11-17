@@ -1,23 +1,23 @@
 {
-  "name": "OSX Meterpreter, Reverse TCP Stager with UUID Support (OSX x64)",
-  "fullname": "payload/osx/x64/meterpreter/reverse_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "parchedmind",
-    "nologic",
-    "timwr"
-  ],
-  "description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker with UUID Support (OSX x64)",
-  "references": [
-    "URL-https://github.com/CylanceVulnResearch/osx_runbin",
-    "URL-https://github.com/nologic/shellcc"
-  ],
-  "platform": "OSX",
-  "arch": "x64",
-  "mod_time": "2021-02-16 13:56:50 +0000",
-  "path": "/modules/payloads/stagers/osx/x64/reverse_tcp_uuid.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x64/meterpreter/reverse_tcp_uuid",
-  "needs_cleanup": false
+	"name": "OSX Meterpreter, Reverse TCP Stager with UUID Support (OSX x64)",
+	"fullname": "payload/osx/x64/meterpreter/reverse_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"parchedmind",
+		"nologic",
+		"timwr"
+	],
+	"description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker with UUID Support (OSX x64)",
+	"references": [
+		"URL-https://github.com/CylanceVulnResearch/osx_runbin",
+		"URL-https://github.com/nologic/shellcc"
+	],
+	"platform": "OSX",
+	"arch": "x64",
+	"mod_time": "2021-02-16 13:56:50 +0000",
+	"path": "/modules/payloads/stagers/osx/x64/reverse_tcp_uuid.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x64/meterpreter/reverse_tcp_uuid",
+	"needs_cleanup": false
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Simple FTP Fuzzer",
-  "fullname": "auxiliary/fuzzers/ftp/ftp_pre_post",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "corelanc0d3r <peter.ve@corelan.be>",
-    "jduck <jduck@metasploit.com>"
-  ],
-  "description": "This module will connect to a FTP server and perform pre- and post-authentication fuzzing",
-  "rport": 21,
-  "mod_time": "2019-03-05 03:38:51 +0000",
-  "path": "/modules/auxiliary/fuzzers/ftp/ftp_pre_post.rb",
-  "is_install_path": true,
-  "ref_name": "fuzzers/ftp/ftp_pre_post",
-  "needs_cleanup": false
+	"name": "Simple FTP Fuzzer",
+	"fullname": "auxiliary/fuzzers/ftp/ftp_pre_post",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"corelanc0d3r <peter.ve@corelan.be>",
+		"jduck <jduck@metasploit.com>"
+	],
+	"description": "This module will connect to a FTP server and perform pre- and post-authentication fuzzing",
+	"rport": 21,
+	"mod_time": "2019-03-05 03:38:51 +0000",
+	"path": "/modules/auxiliary/fuzzers/ftp/ftp_pre_post.rb",
+	"is_install_path": true,
+	"ref_name": "fuzzers/ftp/ftp_pre_post",
+	"needs_cleanup": false
 }

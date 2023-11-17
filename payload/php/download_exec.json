@@ -1,17 +1,17 @@
 {
-  "name": "PHP Executable Download and Execute",
-  "fullname": "payload/php/download_exec",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "egypt <egypt@metasploit.com>"
-  ],
-  "description": "Download an EXE from an HTTP URL and execute it",
-  "platform": "PHP",
-  "arch": "php",
-  "mod_time": "2022-11-04 00:33:03 +0000",
-  "path": "/modules/payloads/singles/php/download_exec.rb",
-  "is_install_path": true,
-  "ref_name": "php/download_exec",
-  "needs_cleanup": false
+	"name": "PHP Executable Download and Execute",
+	"fullname": "payload/php/download_exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"egypt <egypt@metasploit.com>"
+	],
+	"description": "Download an EXE from an HTTP URL and execute it",
+	"platform": "PHP",
+	"arch": "php",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/singles/php/download_exec.rb",
+	"is_install_path": true,
+	"ref_name": "php/download_exec",
+	"needs_cleanup": false
 }

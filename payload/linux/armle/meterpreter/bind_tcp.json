@@ -1,18 +1,18 @@
 {
-  "name": "Linux Meterpreter, Bind TCP Stager",
-  "fullname": "payload/linux/armle/meterpreter/bind_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Adam Cammack <adam_cammack@rapid7.com>",
-    "nemo <nemo@felinemenace.org>"
-  ],
-  "description": "Inject the mettle server payload (staged).\n\nListen for a connection",
-  "platform": "Linux",
-  "arch": "armle",
-  "mod_time": "2020-09-22 02:56:51 +0000",
-  "path": "/modules/payloads/stagers/linux/armle/bind_tcp.rb",
-  "is_install_path": true,
-  "ref_name": "linux/armle/meterpreter/bind_tcp",
-  "needs_cleanup": false
+	"name": "Linux Meterpreter, Bind TCP Stager",
+	"fullname": "payload/linux/armle/meterpreter/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Adam Cammack <adam_cammack@rapid7.com>",
+		"nemo <nemo@felinemenace.org>"
+	],
+	"description": "Inject the mettle server payload (staged).\n\nListen for a connection",
+	"platform": "Linux",
+	"arch": "armle",
+	"mod_time": "2020-09-22 02:56:51 +0000",
+	"path": "/modules/payloads/stagers/linux/armle/bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "linux/armle/meterpreter/bind_tcp",
+	"needs_cleanup": false
 }

@@ -1,21 +1,21 @@
 {
-  "name": "Multi Manage DbVisualizer Query",
-  "fullname": "post/multi/manage/dbvis_query",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "David Bloom"
-  ],
-  "description": "Dbvisulaizer offers a command line functionality to execute SQL pre-configured databases\n          (With GUI). The remote database can be accessed from the command line without the need\n          to authenticate, and this module abuses this functionality to query and will store the\n          results.\n\n          Please note: backslash quotes and your (stacked or not) queries should\n          end with a semicolon.",
-  "references": [
-    "URL-http://youtu.be/0LCLRVHX1vA"
-  ],
-  "platform": "Linux,Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/multi/manage/dbvis_query.rb",
-  "is_install_path": true,
-  "ref_name": "multi/manage/dbvis_query",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Multi Manage DbVisualizer Query",
+	"fullname": "post/multi/manage/dbvis_query",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"David Bloom"
+	],
+	"description": "Dbvisulaizer offers a command line functionality to execute SQL pre-configured databases\n          (With GUI). The remote database can be accessed from the command line without the need\n          to authenticate, and this module abuses this functionality to query and will store the\n          results.\n\n          Please note: backslash quotes and your (stacked or not) queries should\n          end with a semicolon.",
+	"references": [
+		"URL-http://youtu.be/0LCLRVHX1vA"
+	],
+	"platform": "Linux,Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/multi/manage/dbvis_query.rb",
+	"is_install_path": true,
+	"ref_name": "multi/manage/dbvis_query",
+	"session_types": [
+		"meterpreter"
+	]
 }

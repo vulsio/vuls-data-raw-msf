@@ -1,38 +1,38 @@
 {
-  "name": "Microsoft Exchange Privilege Escalation Exploit",
-  "fullname": "auxiliary/scanner/http/exchange_web_server_pushsubscription",
-  "rank": 300,
-  "disclosure_date": "2019-01-21",
-  "type": "auxiliary",
-  "author": [
-    "_dirkjan",
-    "Petros Koutroumpis"
-  ],
-  "description": "This module exploits a privilege escalation vulnerability found in Microsoft Exchange - CVE-2019-0724\n        Execution of the module will force Exchange to authenticate to an arbitrary URL over HTTP via the Exchange PushSubscription feature.\n        This allows us to relay the NTLM authentication to a Domain Controller and authenticate with the privileges that Exchange is configured.\n        The module is based on the work by @_dirkjan,",
-  "references": [
-    "CVE-2019-0724",
-    "URL-https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/"
-  ],
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2021-01-28 10:35:25 +0000",
-  "path": "/modules/auxiliary/scanner/http/exchange_web_server_pushsubscription.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/http/exchange_web_server_pushsubscription",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "Microsoft Exchange Privilege Escalation Exploit",
+	"fullname": "auxiliary/scanner/http/exchange_web_server_pushsubscription",
+	"rank": 300,
+	"disclosure_date": "2019-01-21",
+	"type": "auxiliary",
+	"author": [
+		"_dirkjan",
+		"Petros Koutroumpis"
+	],
+	"description": "This module exploits a privilege escalation vulnerability found in Microsoft Exchange - CVE-2019-0724\n        Execution of the module will force Exchange to authenticate to an arbitrary URL over HTTP via the Exchange PushSubscription feature.\n        This allows us to relay the NTLM authentication to a Domain Controller and authenticate with the privileges that Exchange is configured.\n        The module is based on the work by @_dirkjan,",
+	"references": [
+		"CVE-2019-0724",
+		"URL-https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2021-01-28 10:35:25 +0000",
+	"path": "/modules/auxiliary/scanner/http/exchange_web_server_pushsubscription.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/exchange_web_server_pushsubscription",
+	"post_auth": true,
+	"needs_cleanup": false
 }

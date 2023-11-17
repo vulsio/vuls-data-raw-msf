@@ -1,32 +1,32 @@
 {
-  "name": "VMWare Enumerate Host Details",
-  "fullname": "auxiliary/scanner/vmware/vmware_host_details",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "This module attempts to enumerate information about the host systems through the VMWare web API.\n        This can include information about the hardware installed on the host machine.",
-  "rport": 443,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2017-07-24 06:26:21 +0000",
-  "path": "/modules/auxiliary/scanner/vmware/vmware_host_details.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vmware/vmware_host_details",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "VMWare Enumerate Host Details",
+	"fullname": "auxiliary/scanner/vmware/vmware_host_details",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "This module attempts to enumerate information about the host systems through the VMWare web API.\n        This can include information about the hardware installed on the host machine.",
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2017-07-24 06:26:21 +0000",
+	"path": "/modules/auxiliary/scanner/vmware/vmware_host_details.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vmware/vmware_host_details",
+	"post_auth": true,
+	"needs_cleanup": false
 }

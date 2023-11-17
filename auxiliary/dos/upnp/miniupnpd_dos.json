@@ -1,25 +1,25 @@
 {
-  "name": "MiniUPnPd 1.4 Denial of Service (DoS) Exploit",
-  "fullname": "auxiliary/dos/upnp/miniupnpd_dos",
-  "rank": 300,
-  "disclosure_date": "2013-03-27",
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "Dejan Lukan"
-  ],
-  "description": "This module allows remote attackers to cause a denial of service (DoS)\n          in MiniUPnP 1.0 server via a specifically crafted UDP request.",
-  "references": [
-    "CVE-2013-0229",
-    "OSVDB-89625",
-    "BID-57607",
-    "URL-https://www.rapid7.com/blog/post/2013/01/29/security-flaws-in-universal-plug-and-play-unplug-dont-play/",
-    "URL-https://www.hdm.io/writing/SecurityFlawsUPnP.pdf"
-  ],
-  "rport": 1900,
-  "mod_time": "2022-12-04 17:41:24 +0000",
-  "path": "/modules/auxiliary/dos/upnp/miniupnpd_dos.rb",
-  "is_install_path": true,
-  "ref_name": "dos/upnp/miniupnpd_dos",
-  "needs_cleanup": false
+	"name": "MiniUPnPd 1.4 Denial of Service (DoS) Exploit",
+	"fullname": "auxiliary/dos/upnp/miniupnpd_dos",
+	"rank": 300,
+	"disclosure_date": "2013-03-27",
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"Dejan Lukan"
+	],
+	"description": "This module allows remote attackers to cause a denial of service (DoS)\n          in MiniUPnP 1.0 server via a specifically crafted UDP request.",
+	"references": [
+		"CVE-2013-0229",
+		"OSVDB-89625",
+		"BID-57607",
+		"URL-https://www.rapid7.com/blog/post/2013/01/29/security-flaws-in-universal-plug-and-play-unplug-dont-play/",
+		"URL-https://www.hdm.io/writing/SecurityFlawsUPnP.pdf"
+	],
+	"rport": 1900,
+	"mod_time": "2022-12-04 17:41:24 +0000",
+	"path": "/modules/auxiliary/dos/upnp/miniupnpd_dos.rb",
+	"is_install_path": true,
+	"ref_name": "dos/upnp/miniupnpd_dos",
+	"needs_cleanup": false
 }

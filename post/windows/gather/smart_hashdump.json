@@ -1,18 +1,18 @@
 {
-  "name": "Windows Gather Local and Domain Controller Account Password Hashes",
-  "fullname": "post/windows/gather/smart_hashdump",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This will dump local accounts from the SAM Database. If the target\n          host is a Domain Controller, it will dump the Domain Account Database using the proper\n          technique depending on privilege level, OS and role of the host.",
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/gather/smart_hashdump.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/smart_hashdump",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Local and Domain Controller Account Password Hashes",
+	"fullname": "post/windows/gather/smart_hashdump",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This will dump local accounts from the SAM Database. If the target\n          host is a Domain Controller, it will dump the Domain Account Database using the proper\n          technique depending on privilege level, OS and role of the host.",
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/gather/smart_hashdump.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/smart_hashdump",
+	"session_types": [
+		"meterpreter"
+	]
 }

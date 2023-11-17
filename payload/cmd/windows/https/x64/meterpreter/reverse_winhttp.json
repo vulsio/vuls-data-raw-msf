@@ -1,24 +1,24 @@
 {
-  "name": "HTTPS Fetch, Windows x64 Reverse HTTP Stager (winhttp)",
-  "fullname": "payload/cmd/windows/https/x64/meterpreter/reverse_winhttp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "skape <mmiller@hick.org>",
-    "sf <stephen_fewer@harmonysecurity.com>",
-    "OJ Reeves"
-  ],
-  "description": "Fetch and Execute an x64 payload from an https server.\n\nTunnel communication over HTTP (Windows x64 winhttp)",
-  "references": [
-    "URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
-    "URL-https://github.com/rapid7/ReflectiveDLLInjection"
-  ],
-  "platform": "Windows",
-  "arch": "cmd",
-  "mod_time": "2023-03-15 19:19:19 +0000",
-  "path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/windows/https/x64/meterpreter/reverse_winhttp",
-  "needs_cleanup": false
+	"name": "HTTPS Fetch, Windows x64 Reverse HTTP Stager (winhttp)",
+	"fullname": "payload/cmd/windows/https/x64/meterpreter/reverse_winhttp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves"
+	],
+	"description": "Fetch and Execute an x64 payload from an https server.\n\nTunnel communication over HTTP (Windows x64 winhttp)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2023-03-15 19:19:19 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/https/x64/meterpreter/reverse_winhttp",
+	"needs_cleanup": false
 }

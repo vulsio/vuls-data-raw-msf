@@ -1,16 +1,16 @@
 {
-  "name": "DNS Spoofing Helper Service",
-  "fullname": "auxiliary/server/dns/spoofhelper",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "hdm <x@hdm.io>",
-    "ddz <ddz@theta44.org>"
-  ],
-  "description": "This module provides a DNS service that returns TXT\n      records indicating information about the querying service.\n      Based on Dino Dai Zovi DNS code from Karma.",
-  "mod_time": "2020-05-12 22:15:21 +0000",
-  "path": "/modules/auxiliary/server/dns/spoofhelper.rb",
-  "is_install_path": true,
-  "ref_name": "server/dns/spoofhelper",
-  "needs_cleanup": false
+	"name": "DNS Spoofing Helper Service",
+	"fullname": "auxiliary/server/dns/spoofhelper",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"hdm <x@hdm.io>",
+		"ddz <ddz@theta44.org>"
+	],
+	"description": "This module provides a DNS service that returns TXT\n      records indicating information about the querying service.\n      Based on Dino Dai Zovi DNS code from Karma.",
+	"mod_time": "2020-05-12 22:15:21 +0000",
+	"path": "/modules/auxiliary/server/dns/spoofhelper.rb",
+	"is_install_path": true,
+	"ref_name": "server/dns/spoofhelper",
+	"needs_cleanup": false
 }

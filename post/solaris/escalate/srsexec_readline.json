@@ -1,29 +1,29 @@
 {
-  "name": "Solaris srsexec Arbitrary File Reader",
-  "fullname": "post/solaris/escalate/srsexec_readline",
-  "rank": 300,
-  "disclosure_date": "2007-05-07",
-  "type": "post",
-  "author": [
-    "h00die",
-    "iDefense"
-  ],
-  "description": "This module exploits a vulnerability in NetCommander 3.2.3 and 3.2.5.\n          When srsexec is executed in debug (-d) verbose (-v) mode,\n          the first line of an arbitrary file can be read due to the suid bit set.\n          The most widely accepted exploitation vector is reading /etc/shadow,\n          which will reveal root's hash for cracking.",
-  "references": [
-    "CVE-2007-2617",
-    "URL-https://download.oracle.com/sunalerts/1000443.1.html",
-    "URL-https://www.securityfocus.com/archive/1/468235",
-    "EDB-30021",
-    "BID-23915"
-  ],
-  "platform": "Solaris",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/solaris/escalate/srsexec_readline.rb",
-  "is_install_path": true,
-  "ref_name": "solaris/escalate/srsexec_readline",
-  "check": true,
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Solaris srsexec Arbitrary File Reader",
+	"fullname": "post/solaris/escalate/srsexec_readline",
+	"rank": 300,
+	"disclosure_date": "2007-05-07",
+	"type": "post",
+	"author": [
+		"h00die",
+		"iDefense"
+	],
+	"description": "This module exploits a vulnerability in NetCommander 3.2.3 and 3.2.5.\n          When srsexec is executed in debug (-d) verbose (-v) mode,\n          the first line of an arbitrary file can be read due to the suid bit set.\n          The most widely accepted exploitation vector is reading /etc/shadow,\n          which will reveal root's hash for cracking.",
+	"references": [
+		"CVE-2007-2617",
+		"URL-https://download.oracle.com/sunalerts/1000443.1.html",
+		"URL-https://www.securityfocus.com/archive/1/468235",
+		"EDB-30021",
+		"BID-23915"
+	],
+	"platform": "Solaris",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/solaris/escalate/srsexec_readline.rb",
+	"is_install_path": true,
+	"ref_name": "solaris/escalate/srsexec_readline",
+	"check": true,
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

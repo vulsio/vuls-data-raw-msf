@@ -1,32 +1,32 @@
 {
-  "name": "Install Python for Windows",
-  "fullname": "post/windows/manage/install_python",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Michael Long <bluesentinel@protonmail.com>"
-  ],
-  "description": "This module places an embeddable Python3 distribution onto the target file system,\n          granting pentesters access to a lightweight Python interpreter.\n          This module does not require administrative privileges or user interaction with\n          installation prompts.",
-  "references": [
-    "URL-https://docs.python.org/3/using/windows.html#windows-embeddable",
-    "URL-https://attack.mitre.org/techniques/T1064/"
-  ],
-  "platform": "Windows",
-  "arch": "x86, x64",
-  "mod_time": "2023-02-03 18:12:53 +0000",
-  "path": "/modules/post/windows/manage/install_python.rb",
-  "is_install_path": true,
-  "ref_name": "windows/manage/install_python",
-  "notes": {
-    "SideEffects": [
-      "artifacts-on-disk",
-      "ioc-in-logs"
-    ],
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Install Python for Windows",
+	"fullname": "post/windows/manage/install_python",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Michael Long <bluesentinel@protonmail.com>"
+	],
+	"description": "This module places an embeddable Python3 distribution onto the target file system,\n          granting pentesters access to a lightweight Python interpreter.\n          This module does not require administrative privileges or user interaction with\n          installation prompts.",
+	"references": [
+		"URL-https://docs.python.org/3/using/windows.html#windows-embeddable",
+		"URL-https://attack.mitre.org/techniques/T1064/"
+	],
+	"platform": "Windows",
+	"arch": "x86, x64",
+	"mod_time": "2023-02-03 18:12:53 +0000",
+	"path": "/modules/post/windows/manage/install_python.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/install_python",
+	"notes": {
+		"SideEffects": [
+			"artifacts-on-disk",
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

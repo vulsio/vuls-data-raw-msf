@@ -1,23 +1,23 @@
 {
-  "name": "Gather Dbeaver Passwords",
-  "fullname": "post/multi/gather/dbeaver",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Kali-Team <kali-team@qq.com>"
-  ],
-  "description": "This module will determine if Dbeaver is installed on the target system and, if it is, it will try to\n          dump all saved session information from the target. The passwords for these saved sessions will then be decrypted\n          where possible.",
-  "references": [
-    "URL-https://blog.kali-team.cn/Metasploit-dbeaver-9f42e26241c94ba785dce5f1e69697aa"
-  ],
-  "platform": "Linux,OSX,Unix,Windows",
-  "mod_time": "2023-01-11 20:00:09 +0000",
-  "path": "/modules/post/multi/gather/dbeaver.rb",
-  "is_install_path": true,
-  "ref_name": "multi/gather/dbeaver",
-  "session_types": [
-    "meterpreter",
-    "shell",
-    "powershell"
-  ]
+	"name": "Gather Dbeaver Passwords",
+	"fullname": "post/multi/gather/dbeaver",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Kali-Team <kali-team@qq.com>"
+	],
+	"description": "This module will determine if Dbeaver is installed on the target system and, if it is, it will try to\n          dump all saved session information from the target. The passwords for these saved sessions will then be decrypted\n          where possible.",
+	"references": [
+		"URL-https://blog.kali-team.cn/Metasploit-dbeaver-9f42e26241c94ba785dce5f1e69697aa"
+	],
+	"platform": "Linux,OSX,Unix,Windows",
+	"mod_time": "2023-01-11 20:00:09 +0000",
+	"path": "/modules/post/multi/gather/dbeaver.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/dbeaver",
+	"session_types": [
+		"meterpreter",
+		"shell",
+		"powershell"
+	]
 }

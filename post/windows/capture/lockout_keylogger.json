@@ -1,22 +1,22 @@
 {
-  "name": "Windows Capture Winlogon Lockout Credential Keylogger",
-  "fullname": "post/windows/capture/lockout_keylogger",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "mubix <mubix@hak5.org>",
-    "cg"
-  ],
-  "description": "This module migrates and logs Microsoft Windows user's passwords via\n          Winlogon.exe using idle time and natural system changes to give a\n          false sense of security to the user.",
-  "references": [
-    "URL-http://blog.metasploit.com/2010/12/capturing-windows-logons-with.html"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/windows/capture/lockout_keylogger.rb",
-  "is_install_path": true,
-  "ref_name": "windows/capture/lockout_keylogger",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Capture Winlogon Lockout Credential Keylogger",
+	"fullname": "post/windows/capture/lockout_keylogger",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"mubix <mubix@hak5.org>",
+		"cg"
+	],
+	"description": "This module migrates and logs Microsoft Windows user's passwords via\n          Winlogon.exe using idle time and natural system changes to give a\n          false sense of security to the user.",
+	"references": [
+		"URL-http://blog.metasploit.com/2010/12/capturing-windows-logons-with.html"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/windows/capture/lockout_keylogger.rb",
+	"is_install_path": true,
+	"ref_name": "windows/capture/lockout_keylogger",
+	"session_types": [
+		"meterpreter"
+	]
 }

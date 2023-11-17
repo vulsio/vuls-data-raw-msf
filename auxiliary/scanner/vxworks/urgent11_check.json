@@ -1,28 +1,28 @@
 {
-  "name": "URGENT/11 Scanner, Based on Detection Tool by Armis",
-  "fullname": "auxiliary/scanner/vxworks/urgent11_check",
-  "rank": 300,
-  "disclosure_date": "2019-08-09",
-  "type": "auxiliary",
-  "author": [
-    "Ben Seri",
-    "Brent Cook",
-    "wvu <wvu@metasploit.com>"
-  ],
-  "description": "This module detects VxWorks and the IPnet IP stack, along with devices\n        vulnerable to CVE-2019-12258.",
-  "references": [
-    "CVE-2019-12258",
-    "URL-https://armis.com/urgent11",
-    "URL-https://github.com/ArmisSecurity/urgent11-detector"
-  ],
-  "mod_time": "2019-10-21 10:43:28 +0000",
-  "path": "/modules/auxiliary/scanner/vxworks/urgent11_check.rb",
-  "is_install_path": true,
-  "ref_name": "scanner/vxworks/urgent11_check",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "needs_cleanup": false
+	"name": "URGENT/11 Scanner, Based on Detection Tool by Armis",
+	"fullname": "auxiliary/scanner/vxworks/urgent11_check",
+	"rank": 300,
+	"disclosure_date": "2019-08-09",
+	"type": "auxiliary",
+	"author": [
+		"Ben Seri",
+		"Brent Cook",
+		"wvu <wvu@metasploit.com>"
+	],
+	"description": "This module detects VxWorks and the IPnet IP stack, along with devices\n        vulnerable to CVE-2019-12258.",
+	"references": [
+		"CVE-2019-12258",
+		"URL-https://armis.com/urgent11",
+		"URL-https://github.com/ArmisSecurity/urgent11-detector"
+	],
+	"mod_time": "2019-10-21 10:43:28 +0000",
+	"path": "/modules/auxiliary/scanner/vxworks/urgent11_check.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/vxworks/urgent11_check",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
 }

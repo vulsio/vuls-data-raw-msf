@@ -1,26 +1,26 @@
 {
-  "name": "PostgreSQL Server Generic Query",
-  "fullname": "auxiliary/admin/postgres/postgres_sql",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "todb <todb@metasploit.com>"
-  ],
-  "description": "This module will allow for simple SQL statements to be executed against a\n          PostgreSQL instance given the appropriate credentials.",
-  "references": [
-    "URL-www.postgresql.org"
-  ],
-  "rport": 5432,
-  "autofilter_ports": [
-    5432
-  ],
-  "autofilter_services": [
-    "postgres"
-  ],
-  "mod_time": "2017-08-24 21:38:44 +0000",
-  "path": "/modules/auxiliary/admin/postgres/postgres_sql.rb",
-  "is_install_path": true,
-  "ref_name": "admin/postgres/postgres_sql",
-  "post_auth": true,
-  "needs_cleanup": false
+	"name": "PostgreSQL Server Generic Query",
+	"fullname": "auxiliary/admin/postgres/postgres_sql",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"todb <todb@metasploit.com>"
+	],
+	"description": "This module will allow for simple SQL statements to be executed against a\n          PostgreSQL instance given the appropriate credentials.",
+	"references": [
+		"URL-www.postgresql.org"
+	],
+	"rport": 5432,
+	"autofilter_ports": [
+		5432
+	],
+	"autofilter_services": [
+		"postgres"
+	],
+	"mod_time": "2017-08-24 21:38:44 +0000",
+	"path": "/modules/auxiliary/admin/postgres/postgres_sql.rb",
+	"is_install_path": true,
+	"ref_name": "admin/postgres/postgres_sql",
+	"post_auth": true,
+	"needs_cleanup": false
 }

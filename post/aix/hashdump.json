@@ -1,18 +1,18 @@
 {
-  "name": "AIX Gather Dump Password Hashes",
-  "fullname": "post/aix/hashdump",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "theLightCosine <theLightCosine@metasploit.com>"
-  ],
-  "description": "Post Module to dump the password hashes for all users on an AIX System",
-  "platform": "AIX",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/aix/hashdump.rb",
-  "is_install_path": true,
-  "ref_name": "aix/hashdump",
-  "session_types": [
-    "shell"
-  ]
+	"name": "AIX Gather Dump Password Hashes",
+	"fullname": "post/aix/hashdump",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"theLightCosine <theLightCosine@metasploit.com>"
+	],
+	"description": "Post Module to dump the password hashes for all users on an AIX System",
+	"platform": "AIX",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/aix/hashdump.rb",
+	"is_install_path": true,
+	"ref_name": "aix/hashdump",
+	"session_types": [
+		"shell"
+	]
 }

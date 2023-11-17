@@ -1,34 +1,34 @@
 {
-  "name": "TYPO3 Winstaller Default Encryption Keys",
-  "fullname": "auxiliary/admin/http/typo3_winstaller_default_enc_keys",
-  "rank": 300,
-  "type": "auxiliary",
-  "author": [
-    "Chris John Riley"
-  ],
-  "description": "This module exploits known default encryption keys found in the TYPO3 Winstaller.\n        This flaw allows for file disclosure in the jumpUrl mechanism. This issue can be\n        used to read any file that the web server user account has access to view.\n\n        The method used to create the juhash (short MD5 hash) was altered in later versions\n        of Typo3. Use the show actions command to display and select the version of TYPO3 in\n        use (defaults to the older method of juhash creation).",
-  "references": [
-    "URL-http://typo3winstaller.sourceforge.net/"
-  ],
-  "rport": 8503,
-  "autofilter_ports": [
-    80,
-    8080,
-    443,
-    8000,
-    8888,
-    8880,
-    8008,
-    3000,
-    8443
-  ],
-  "autofilter_services": [
-    "http",
-    "https"
-  ],
-  "mod_time": "2023-02-08 14:30:08 +0000",
-  "path": "/modules/auxiliary/admin/http/typo3_winstaller_default_enc_keys.rb",
-  "is_install_path": true,
-  "ref_name": "admin/http/typo3_winstaller_default_enc_keys",
-  "needs_cleanup": false
+	"name": "TYPO3 Winstaller Default Encryption Keys",
+	"fullname": "auxiliary/admin/http/typo3_winstaller_default_enc_keys",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Chris John Riley"
+	],
+	"description": "This module exploits known default encryption keys found in the TYPO3 Winstaller.\n        This flaw allows for file disclosure in the jumpUrl mechanism. This issue can be\n        used to read any file that the web server user account has access to view.\n\n        The method used to create the juhash (short MD5 hash) was altered in later versions\n        of Typo3. Use the show actions command to display and select the version of TYPO3 in\n        use (defaults to the older method of juhash creation).",
+	"references": [
+		"URL-http://typo3winstaller.sourceforge.net/"
+	],
+	"rport": 8503,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-02-08 14:30:08 +0000",
+	"path": "/modules/auxiliary/admin/http/typo3_winstaller_default_enc_keys.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/typo3_winstaller_default_enc_keys",
+	"needs_cleanup": false
 }

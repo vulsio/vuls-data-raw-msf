@@ -1,19 +1,19 @@
 {
-  "name": "SSH Key Persistence",
-  "fullname": "post/linux/manage/sshkey_persistence",
-  "rank": 600,
-  "type": "post",
-  "author": [
-    "h00die <mike@shorebreaksecurity.com>"
-  ],
-  "description": "This module will add an SSH key to a specified user (or all), to allow\n          remote login via SSH at any time.",
-  "platform": "Linux",
-  "mod_time": "2023-02-08 13:47:34 +0000",
-  "path": "/modules/post/linux/manage/sshkey_persistence.rb",
-  "is_install_path": true,
-  "ref_name": "linux/manage/sshkey_persistence",
-  "session_types": [
-    "meterpreter",
-    "shell"
-  ]
+	"name": "SSH Key Persistence",
+	"fullname": "post/linux/manage/sshkey_persistence",
+	"rank": 600,
+	"type": "post",
+	"author": [
+		"h00die <mike@shorebreaksecurity.com>"
+	],
+	"description": "This module will add an SSH key to a specified user (or all), to allow\n          remote login via SSH at any time.",
+	"platform": "Linux",
+	"mod_time": "2023-02-08 13:47:34 +0000",
+	"path": "/modules/post/linux/manage/sshkey_persistence.rb",
+	"is_install_path": true,
+	"ref_name": "linux/manage/sshkey_persistence",
+	"session_types": [
+		"meterpreter",
+		"shell"
+	]
 }

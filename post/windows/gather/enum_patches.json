@@ -1,27 +1,27 @@
 {
-  "name": "Windows Gather Applied Patches",
-  "fullname": "post/windows/gather/enum_patches",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "zeroSteiner <zeroSteiner@gmail.com>",
-    "mubix <mubix@hak5.org>"
-  ],
-  "description": "This module enumerates patches applied to a Windows system using the\n          WMI query: SELECT HotFixID, InstalledOn FROM Win32_QuickFixEngineering.",
-  "references": [
-    "URL-http://msdn.microsoft.com/en-us/library/aa394391(v=vs.85).aspx"
-  ],
-  "platform": "Windows",
-  "mod_time": "2022-09-23 17:41:20 +0000",
-  "path": "/modules/post/windows/gather/enum_patches.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/enum_patches",
-  "notes": {
-    "Stability": [
-      "crash-safe"
-    ]
-  },
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Applied Patches",
+	"fullname": "post/windows/gather/enum_patches",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"zeroSteiner <zeroSteiner@gmail.com>",
+		"mubix <mubix@hak5.org>"
+	],
+	"description": "This module enumerates patches applied to a Windows system using the\n          WMI query: SELECT HotFixID, InstalledOn FROM Win32_QuickFixEngineering.",
+	"references": [
+		"URL-http://msdn.microsoft.com/en-us/library/aa394391(v=vs.85).aspx"
+	],
+	"platform": "Windows",
+	"mod_time": "2022-09-23 17:41:20 +0000",
+	"path": "/modules/post/windows/gather/enum_patches.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_patches",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
 }

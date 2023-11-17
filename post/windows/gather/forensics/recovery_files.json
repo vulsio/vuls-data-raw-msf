@@ -1,21 +1,21 @@
 {
-  "name": "Windows Gather Deleted Files Enumeration and Recovering",
-  "fullname": "post/windows/gather/forensics/recovery_files",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Borja Merino <bmerinofe@gmail.com>"
-  ],
-  "description": "This module lists and attempts to recover deleted files from NTFS file systems. Use\n          the FILES option to guide recovery. Leave this option empty to enumerate deleted files in the\n          DRIVE. Set FILES to an extension (e.g., \"pdf\") to recover deleted files with that\n          extension, or set FILES to a comma separated list of IDs (from enumeration) to\n          recover those files. The user must have account file enumeration. Recovery\n          may take a long time; use the TIMEOUT option to abort enumeration or recovery by\n          extension after a specified period (in seconds).",
-  "references": [
-    "URL-https://www.youtube.com/watch?v=9yzCf360ujY&hd=1"
-  ],
-  "platform": "Windows",
-  "mod_time": "2023-05-25 12:45:30 +0000",
-  "path": "/modules/post/windows/gather/forensics/recovery_files.rb",
-  "is_install_path": true,
-  "ref_name": "windows/gather/forensics/recovery_files",
-  "session_types": [
-    "meterpreter"
-  ]
+	"name": "Windows Gather Deleted Files Enumeration and Recovering",
+	"fullname": "post/windows/gather/forensics/recovery_files",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Borja Merino <bmerinofe@gmail.com>"
+	],
+	"description": "This module lists and attempts to recover deleted files from NTFS file systems. Use\n          the FILES option to guide recovery. Leave this option empty to enumerate deleted files in the\n          DRIVE. Set FILES to an extension (e.g., \"pdf\") to recover deleted files with that\n          extension, or set FILES to a comma separated list of IDs (from enumeration) to\n          recover those files. The user must have account file enumeration. Recovery\n          may take a long time; use the TIMEOUT option to abort enumeration or recovery by\n          extension after a specified period (in seconds).",
+	"references": [
+		"URL-https://www.youtube.com/watch?v=9yzCf360ujY&hd=1"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-05-25 12:45:30 +0000",
+	"path": "/modules/post/windows/gather/forensics/recovery_files.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/forensics/recovery_files",
+	"session_types": [
+		"meterpreter"
+	]
 }

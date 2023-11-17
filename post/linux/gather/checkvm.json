@@ -1,19 +1,19 @@
 {
-  "name": "Linux Gather Virtual Environment Detection",
-  "fullname": "post/linux/gather/checkvm",
-  "rank": 300,
-  "type": "post",
-  "author": [
-    "Carlos Perez <carlos_perez@darkoperator.com>"
-  ],
-  "description": "This module attempts to determine whether the system is running\n          inside of a virtual environment and if so, which one. This\n          module supports detection of Hyper-V, VMWare, VirtualBox, Xen,\n          and QEMU/KVM.",
-  "platform": "Linux",
-  "mod_time": "2023-08-22 12:36:48 +0000",
-  "path": "/modules/post/linux/gather/checkvm.rb",
-  "is_install_path": true,
-  "ref_name": "linux/gather/checkvm",
-  "session_types": [
-    "shell",
-    "meterpreter"
-  ]
+	"name": "Linux Gather Virtual Environment Detection",
+	"fullname": "post/linux/gather/checkvm",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Carlos Perez <carlos_perez@darkoperator.com>"
+	],
+	"description": "This module attempts to determine whether the system is running\n          inside of a virtual environment and if so, which one. This\n          module supports detection of Hyper-V, VMWare, VirtualBox, Xen,\n          and QEMU/KVM.",
+	"platform": "Linux",
+	"mod_time": "2023-08-22 12:36:48 +0000",
+	"path": "/modules/post/linux/gather/checkvm.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/checkvm",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
 }

@@ -1,18 +1,18 @@
 {
-  "name": "OS X dup2 Command Shell, Reverse TCP Stager with UUID Support (OSX x64)",
-  "fullname": "payload/osx/x64/dupandexecve/reverse_tcp_uuid",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "nemo",
-    "timwr"
-  ],
-  "description": "dup2 socket in edi, then execve.\n\nConnect back to the attacker with UUID Support (OSX x64)",
-  "platform": "OSX",
-  "arch": "x64",
-  "mod_time": "2021-02-16 13:56:50 +0000",
-  "path": "/modules/payloads/stagers/osx/x64/reverse_tcp_uuid.rb",
-  "is_install_path": true,
-  "ref_name": "osx/x64/dupandexecve/reverse_tcp_uuid",
-  "needs_cleanup": false
+	"name": "OS X dup2 Command Shell, Reverse TCP Stager with UUID Support (OSX x64)",
+	"fullname": "payload/osx/x64/dupandexecve/reverse_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"nemo",
+		"timwr"
+	],
+	"description": "dup2 socket in edi, then execve.\n\nConnect back to the attacker with UUID Support (OSX x64)",
+	"platform": "OSX",
+	"arch": "x64",
+	"mod_time": "2021-02-16 13:56:50 +0000",
+	"path": "/modules/payloads/stagers/osx/x64/reverse_tcp_uuid.rb",
+	"is_install_path": true,
+	"ref_name": "osx/x64/dupandexecve/reverse_tcp_uuid",
+	"needs_cleanup": false
 }

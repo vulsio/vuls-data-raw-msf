@@ -1,19 +1,19 @@
 {
-  "name": "TFTP Fetch, Linux Command Shell, Bind TCP Stager",
-  "fullname": "payload/cmd/linux/tftp/x86/shell/bind_nonx_tcp",
-  "rank": 300,
-  "type": "payload",
-  "author": [
-    "Brendan Watters",
-    "Spencer McIntyre",
-    "skape <mmiller@hick.org>"
-  ],
-  "description": "Fetch and execute a x86 payload from a TFTP server.\nSpawn a command shell (staged).\n\nListen for a connection",
-  "platform": "Linux",
-  "arch": "cmd",
-  "mod_time": "2023-06-09 16:47:45 +0000",
-  "path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
-  "is_install_path": true,
-  "ref_name": "cmd/linux/tftp/x86/shell/bind_nonx_tcp",
-  "needs_cleanup": false
+	"name": "TFTP Fetch, Linux Command Shell, Bind TCP Stager",
+	"fullname": "payload/cmd/linux/tftp/x86/shell/bind_nonx_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Brendan Watters",
+		"Spencer McIntyre",
+		"skape <mmiller@hick.org>"
+	],
+	"description": "Fetch and execute a x86 payload from a TFTP server.\nSpawn a command shell (staged).\n\nListen for a connection",
+	"platform": "Linux",
+	"arch": "cmd",
+	"mod_time": "2023-06-09 16:47:45 +0000",
+	"path": "/modules/payloads/adapters/cmd/linux/tftp/x86.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/linux/tftp/x86/shell/bind_nonx_tcp",
+	"needs_cleanup": false
 }
