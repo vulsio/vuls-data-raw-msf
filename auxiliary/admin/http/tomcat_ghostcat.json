@@ -14,8 +14,8 @@
 		"EDB-48143",
 		"URL-https://www.chaitin.cn/en/ghostcat"
 	],
-	"rport": 8080,
-	"mod_time": "2022-10-01 17:54:59 +0000",
+	"rport": 8009,
+	"mod_time": "2023-11-17 12:58:05 +0000",
 	"path": "/modules/auxiliary/admin/http/tomcat_ghostcat.rb",
 	"is_install_path": true,
 	"ref_name": "admin/http/tomcat_ghostcat",

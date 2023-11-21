@@ -11,7 +11,7 @@
 	],
 	"description": "This module will collect user data from Google Chrome and attempt to decrypt\n          sensitive information.",
 	"platform": "Windows",
-	"mod_time": "2023-02-08 13:47:34 +0000",
+	"mod_time": "2023-11-20 16:24:47 +0000",
 	"path": "/modules/post/windows/gather/enum_chrome.rb",
 	"is_install_path": true,
 	"ref_name": "windows/gather/enum_chrome",
