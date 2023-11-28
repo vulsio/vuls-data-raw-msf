@@ -1,18 +1,20 @@
 {
-	"name": "Kerberos Silver/Golden Ticket Forging",
+	"name": "Kerberos Silver/Golden/Diamond/Sapphire Ticket Forging",
 	"fullname": "auxiliary/admin/kerberos/forge_ticket",
 	"rank": 300,
 	"type": "auxiliary",
 	"author": [
 		"Benjamin Delpy",
 		"Dean Welch",
-		"alanfoster"
+		"alanfoster",
+		"smashery"
 	],
-	"description": "This module forges a Kerberos ticket",
+	"description": "This module forges a Kerberos ticket. Four different techniques can be used:\n          - Silver ticket: Using a service account hash, craft a ticket impersonating any user and privileges to that account.\n          - Golden ticket: Using the krbtgt hash, craft a ticket impersonating any user and privileges.\n          - Diamond ticket: Authenticate to the domain controller, and using the krbtgt hash, copy the PAC from the authenticated user to a forged ticket.\n          - Sapphire ticket: Use the S4U2Self+U2U trick to retrieve the PAC of another user, then use the krbtgt hash to craft a forged ticket.",
 	"references": [
 		"URL-https://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it"
 	],
-	"mod_time": "2023-09-13 15:34:17 +0000",
+	"rport": 88,
+	"mod_time": "2023-11-28 09:27:44 +0000",
 	"path": "/modules/auxiliary/admin/kerberos/forge_ticket.rb",
 	"is_install_path": true,
 	"ref_name": "admin/kerberos/forge_ticket",
@@ -21,8 +23,16 @@
 		"AKA": [
 			"Silver Ticket",
 			"Golden Ticket",
+			"diamond",
+			"sapphire",
 			"Ticketer",
 			"Klist"
+		],
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
 		]
 	},
 	"needs_cleanup": false
