@@ -6,8 +6,8 @@
 	"author": [
 		"h00die"
 	],
-	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from OSX systems. The module will only crack xsha from OSX 10.4-10.6, xsha512\n        from 10.7,  and PBKDF2 from OSX 10.8+.",
-	"mod_time": "2021-01-27 13:50:39 +0000",
+	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from OSX systems. The module will only crack xsha from OSX 10.4-10.6, xsha512\n        from 10.7, and PBKDF2 from OSX 10.8+.\n        XSHA is 122 in hashcat.\n        XSHA512 is 1722 in hashcat.\n        PBKDF2 (PBKDF2-HMAC-SHA512) is 7100 in hashcat.",
+	"mod_time": "2023-02-18 18:12:12 +0000",
 	"path": "/modules/auxiliary/analyze/crack_osx.rb",
 	"is_install_path": true,
 	"ref_name": "analyze/crack_osx",

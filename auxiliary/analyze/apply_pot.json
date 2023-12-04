@@ -7,7 +7,7 @@
 		"h00die"
 	],
 	"description": "This module uses a John the Ripper or Hashcat .pot file to crack any password\n        hashes in the creds database instantly.  JtR's --show functionality is used to\n        help combine all the passwords into an easy to use format.",
-	"mod_time": "2021-01-27 13:50:39 +0000",
+	"mod_time": "2023-11-28 08:04:49 +0000",
 	"path": "/modules/auxiliary/analyze/apply_pot.rb",
 	"is_install_path": true,
 	"ref_name": "analyze/apply_pot",

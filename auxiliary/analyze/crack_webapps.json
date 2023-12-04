@@ -7,7 +7,7 @@
 		"h00die"
 	],
 	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from various web applications.\n        Atlassian uses PBKDF2-HMAC-SHA1 which is 12001 in hashcat.\n        PHPass uses phpass which is 400 in hashcat.\n        Mediawiki is MD5 based and is 3711 in hashcat.\n        Apache Superset, some Flask and Werkzeug apps is pbkdf2-sha256 and is 10900 in hashcat",
-	"mod_time": "2023-09-14 13:21:01 +0000",
+	"mod_time": "2023-02-18 18:12:12 +0000",
 	"path": "/modules/auxiliary/analyze/crack_webapps.rb",
 	"is_install_path": true,
 	"ref_name": "analyze/crack_webapps",

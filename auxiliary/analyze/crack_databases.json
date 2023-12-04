@@ -14,8 +14,8 @@
 		"hdm <x@hdm.io>",
 		"h00die"
 	],
-	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from the mssql_hashdump, mysql_hashdump, postgres_hashdump, or oracle_hashdump modules.\n        Passwords that have been successfully cracked are then saved as proper credentials.\n        Due to the complexity of some of the hash types, they can be very slow.  Setting the\n        ITERATION_TIMEOUT is highly recommended.",
-	"mod_time": "2021-02-01 14:16:13 +0000",
+	"description": "This module uses John the Ripper or Hashcat to identify weak passwords that have been\n        acquired from the mssql_hashdump, mysql_hashdump, postgres_hashdump, or oracle_hashdump modules.\n        Passwords that have been successfully cracked are then saved as proper credentials.\n        Due to the complexity of some of the hash types, they can be very slow.  Setting the\n        ITERATION_TIMEOUT is highly recommended.\n        MSSQL is 131, 132, and 1731 in hashcat.\n        MYSQL is 200, and 300 in hashcat.\n        ORACLE is 112, and 12300 in hashcat.\n        POSTGRES is 12 in hashcat.",
+	"mod_time": "2023-02-18 18:12:12 +0000",
 	"path": "/modules/auxiliary/analyze/crack_databases.rb",
 	"is_install_path": true,
 	"ref_name": "analyze/crack_databases",

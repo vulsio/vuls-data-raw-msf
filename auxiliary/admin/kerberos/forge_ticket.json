@@ -14,17 +14,13 @@
 		"URL-https://www.slideshare.net/gentilkiwi/abusing-microsoft-kerberos-sorry-you-guys-dont-get-it"
 	],
 	"rport": 88,
-	"mod_time": "2023-11-28 09:27:44 +0000",
+	"mod_time": "2023-11-28 13:14:13 +0000",
 	"path": "/modules/auxiliary/admin/kerberos/forge_ticket.rb",
 	"is_install_path": true,
 	"ref_name": "admin/kerberos/forge_ticket",
 	"post_auth": true,
 	"notes": {
 		"AKA": [
-			"Silver Ticket",
-			"Golden Ticket",
-			"diamond",
-			"sapphire",
 			"Ticketer",
 			"Klist"
 		],
