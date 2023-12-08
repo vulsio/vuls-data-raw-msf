@@ -1,0 +1,23 @@
+{
+	"name": "Kerberos Ticket Management",
+	"fullname": "post/windows/manage/kerberos_tickets",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Will Schroeder",
+		"Spencer McIntyre"
+	],
+	"description": "Manage kerberos tickets on a compromised host.",
+	"references": [
+		"URL-https://github.com/GhostPack/Rubeus",
+		"URL-https://github.com/wavvs/nanorobeus"
+	],
+	"platform": "Windows",
+	"mod_time": "2023-10-24 17:32:48 +0000",
+	"path": "/modules/post/windows/manage/kerberos_tickets.rb",
+	"is_install_path": true,
+	"ref_name": "windows/manage/kerberos_tickets",
+	"session_types": [
+		"meterpreter"
+	]
+}
