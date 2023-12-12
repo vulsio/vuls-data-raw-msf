@@ -1,0 +1,31 @@
+{
+	"name": "Find Users Without Pre-Auth Required (ASREP-roast)",
+	"fullname": "auxiliary/gather/asrep",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"smashery"
+	],
+	"description": "This module searches for AD users without pre-auth required. Two different approaches\n          are provided:\n          - Brute force of usernames (does not require a user account; should not lock out accounts)\n          - LDAP lookup (requires an AD user account)",
+	"references": [
+		"URL-https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/as-rep-roasting-using-rubeus-and-hashcat"
+	],
+	"rport": 389,
+	"mod_time": "2023-12-01 08:03:32 +0000",
+	"path": "/modules/auxiliary/gather/asrep.rb",
+	"is_install_path": true,
+	"ref_name": "gather/asrep",
+	"notes": {
+		"AKA": [
+			"preauth",
+			"asreproast"
+		],
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
