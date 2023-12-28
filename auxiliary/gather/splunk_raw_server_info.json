@@ -1,0 +1,47 @@
+{
+	"name": "Splunk __raw Server Info Disclosure ",
+	"fullname": "auxiliary/gather/splunk_raw_server_info",
+	"rank": 300,
+	"disclosure_date": "2018-06-08",
+	"type": "auxiliary",
+	"author": [
+		"n00bhaxor",
+		"KOF2002",
+		"h00die"
+	],
+	"description": "Splunk 6.2.3 through 7.0.1 allows information disclosure by appending\n          /__raw/services/server/info/server-info?output_mode=json to a query.\n          Versisons 6.6.0 through 7.0.1 require authentication.",
+	"references": [
+		"EDB-44865",
+		"URL-https://web.archive.org/web/20201124061756/https://www.splunk.com/en_us/product-security/announcements-archive/SP-CAAAP5E.html",
+		"CVE-2018-11409"
+	],
+	"rport": 8000,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2023-12-27 12:40:18 +0000",
+	"path": "/modules/auxiliary/gather/splunk_raw_server_info.rb",
+	"is_install_path": true,
+	"ref_name": "gather/splunk_raw_server_info",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
