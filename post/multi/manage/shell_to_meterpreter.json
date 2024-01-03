@@ -8,7 +8,7 @@
 	],
 	"description": "This module attempts to upgrade a command shell to meterpreter. The shell\n          platform is automatically detected and the best version of meterpreter for\n          the target is selected. Currently meterpreter/reverse_tcp is used on Windows\n          and Linux, with 'python/meterpreter/reverse_tcp' used on all others.",
 	"platform": "BSD,Linux,OSX,Solaris,Unix,Windows",
-	"mod_time": "2023-06-06 07:23:58 +0000",
+	"mod_time": "2023-12-04 18:56:02 +0000",
 	"path": "/modules/post/multi/manage/shell_to_meterpreter.rb",
 	"is_install_path": true,
 	"ref_name": "multi/manage/shell_to_meterpreter",
