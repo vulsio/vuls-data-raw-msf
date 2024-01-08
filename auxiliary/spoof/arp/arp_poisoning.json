@@ -13,7 +13,7 @@
 		"CVE-1999-0667",
 		"URL-https://en.wikipedia.org/wiki/ARP_spoofing"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/spoof/arp/arp_poisoning.rb",
 	"is_install_path": true,
 	"ref_name": "spoof/arp/arp_poisoning",

@@ -6,7 +6,7 @@
 	"author": [
 		"c4an"
 	],
-	"description": "Detect trace.axd files and analize its content",
+	"description": "Detect trace.axd files and analyze its content",
 	"rport": 80,
 	"autofilter_ports": [
 		80,
@@ -23,7 +23,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/trace_axd.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/trace_axd",

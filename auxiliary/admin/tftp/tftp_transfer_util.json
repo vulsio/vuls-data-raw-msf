@@ -12,7 +12,7 @@
 		"URL-http://www.networksorcery.com/enp/protocol/tftp.htm"
 	],
 	"rport": 69,
-	"mod_time": "2021-01-28 10:35:25 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/tftp/tftp_transfer_util.rb",
 	"is_install_path": true,
 	"ref_name": "admin/tftp/tftp_transfer_util",

@@ -14,7 +14,7 @@
 		"URL-https://www.voip-info.org/wiki-Asterisk+CLI"
 	],
 	"rport": 5038,
-	"mod_time": "2019-08-15 18:10:44 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/asterisk_creds.rb",
 	"is_install_path": true,
 	"ref_name": "gather/asterisk_creds",

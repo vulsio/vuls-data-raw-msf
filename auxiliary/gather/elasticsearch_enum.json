@@ -10,7 +10,7 @@
 		"Silas Cutler <Silas.Cutler@BlackListThisDomain.com>",
 		"h00die"
 	],
-	"description": "This module enumerates Elasticsearch instances. It uses the REST API\n          in order to gather information about the server, the cluster, nodes,\n          in the cluster, indicies, and pull data from those indicies.",
+	"description": "This module enumerates Elasticsearch instances. It uses the REST API\n          in order to gather information about the server, the cluster, nodes,\n          in the cluster, indices, and pull data from those indices.",
 	"references": [
 		"URL-https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html"
 	],
@@ -30,7 +30,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-08-24 17:24:20 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/elasticsearch_enum.rb",
 	"is_install_path": true,
 	"ref_name": "gather/elasticsearch_enum",

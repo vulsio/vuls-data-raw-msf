@@ -12,7 +12,7 @@
 		"URL-http://rewtdance.blogspot.com/2012/11/windows-deployment-services-clear-text.html"
 	],
 	"rport": 5040,
-	"mod_time": "2023-03-22 12:52:15 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/dcerpc/windows_deployment_services.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/dcerpc/windows_deployment_services",

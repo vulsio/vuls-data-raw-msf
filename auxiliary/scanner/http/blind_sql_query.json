@@ -23,7 +23,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2021-01-28 10:35:25 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/blind_sql_query.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/blind_sql_query",

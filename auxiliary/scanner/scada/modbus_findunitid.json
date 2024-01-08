@@ -13,7 +13,7 @@
 		"URL-https://en.wikipedia.org/wiki/Modbus:TCP"
 	],
 	"rport": 502,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/scada/modbus_findunitid.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/scada/modbus_findunitid",

@@ -16,7 +16,7 @@
 		"URL-https://securityintelligence.com/posts/msmq-queuejumper-rce-vulnerability-technical-analysis/"
 	],
 	"rport": 1801,
-	"mod_time": "2023-09-05 13:15:36 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/msmq/cve_2023_21554_queuejumper.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/msmq/cve_2023_21554_queuejumper",

@@ -15,7 +15,7 @@
 		"URL-https://redis.io/topics/protocol"
 	],
 	"rport": 6379,
-	"mod_time": "2022-03-10 18:03:35 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/redis/file_upload.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/redis/file_upload",

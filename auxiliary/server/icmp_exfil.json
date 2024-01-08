@@ -12,7 +12,7 @@
 		"URL-https://nmap.org/book/nping-man.html",
 		"URL-https://blog.c22.cc/2012/02/17/quick-post-fun-with-python-ctypes-simpleicmp/"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/server/icmp_exfil.rb",
 	"is_install_path": true,
 	"ref_name": "server/icmp_exfil",

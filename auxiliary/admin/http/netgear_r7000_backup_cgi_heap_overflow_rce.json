@@ -32,7 +32,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2021-08-27 17:15:33 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce.rb",
 	"is_install_path": true,
 	"ref_name": "admin/http/netgear_r7000_backup_cgi_heap_overflow_rce",

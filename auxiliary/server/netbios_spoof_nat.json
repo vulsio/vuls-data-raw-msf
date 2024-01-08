@@ -17,7 +17,7 @@
 		"CVE-2016-3236",
 		"MSB-MS16-077"
 	],
-	"mod_time": "2020-05-12 22:15:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/server/netbios_spoof_nat.rb",
 	"is_install_path": true,
 	"ref_name": "server/netbios_spoof_nat",

@@ -1,5 +1,5 @@
 {
-	"name": "Novell Zenworks Mobile Device Managment Admin Credentials",
+	"name": "Novell Zenworks Mobile Device Management Admin Credentials",
 	"fullname": "auxiliary/scanner/http/novell_mdm_creds",
 	"rank": 300,
 	"type": "auxiliary",
@@ -29,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/novell_mdm_creds.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/novell_mdm_creds",

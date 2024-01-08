@@ -28,7 +28,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-02-03 18:12:53 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/vbulletin_getindexablecontent_sqli.rb",
 	"is_install_path": true,
 	"ref_name": "gather/vbulletin_getindexablecontent_sqli",

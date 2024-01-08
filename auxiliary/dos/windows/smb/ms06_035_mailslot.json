@@ -24,7 +24,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2020-10-02 17:38:06 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/dos/windows/smb/ms06_035_mailslot.rb",
 	"is_install_path": true,
 	"ref_name": "dos/windows/smb/ms06_035_mailslot",

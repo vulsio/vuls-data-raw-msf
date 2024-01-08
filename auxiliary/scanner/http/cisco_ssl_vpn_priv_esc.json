@@ -30,7 +30,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/cisco_ssl_vpn_priv_esc.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/cisco_ssl_vpn_priv_esc",

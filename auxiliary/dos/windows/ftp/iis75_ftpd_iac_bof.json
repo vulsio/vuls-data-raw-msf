@@ -18,7 +18,7 @@
 		"URL-https://msrc-blog.microsoft.com/2010/12/22/assessing-an-iis-ftp-7-5-unauthenticated-denial-of-service-vulnerability/"
 	],
 	"rport": 21,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof.rb",
 	"is_install_path": true,
 	"ref_name": "dos/windows/ftp/iis75_ftpd_iac_bof",

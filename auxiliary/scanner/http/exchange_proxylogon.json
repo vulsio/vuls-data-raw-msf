@@ -31,7 +31,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-02-23 16:27:12 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/exchange_proxylogon.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/exchange_proxylogon",

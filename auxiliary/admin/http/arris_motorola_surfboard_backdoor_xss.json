@@ -14,7 +14,7 @@
 		"CVE-2015-0966",
 		"URL-https://www.rapid7.com/blog/post/2015/06/05/r7-2015-01-csrf-backdoor-and-persistent-xss-on-arris-motorola-cable-modems/"
 	],
-	"mod_time": "2023-02-08 14:30:08 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss.rb",
 	"is_install_path": true,
 	"ref_name": "admin/http/arris_motorola_surfboard_backdoor_xss",

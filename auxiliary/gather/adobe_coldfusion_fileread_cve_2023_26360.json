@@ -27,7 +27,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-04-14 17:44:38 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360.rb",
 	"is_install_path": true,
 	"ref_name": "gather/adobe_coldfusion_fileread_cve_2023_26360",

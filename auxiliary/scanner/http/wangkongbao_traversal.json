@@ -27,7 +27,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2018-07-12 17:34:52 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/wangkongbao_traversal.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/wangkongbao_traversal",

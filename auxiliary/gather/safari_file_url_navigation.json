@@ -14,7 +14,7 @@
 		"URL-https://support.apple.com/en-us/HT204826"
 	],
 	"platform": "OSX",
-	"mod_time": "2022-03-11 12:08:51 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/safari_file_url_navigation.rb",
 	"is_install_path": true,
 	"ref_name": "gather/safari_file_url_navigation",

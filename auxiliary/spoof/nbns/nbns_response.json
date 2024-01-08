@@ -10,7 +10,7 @@
 	"references": [
 		"URL-http://www.packetstan.com/2011/03/nbns-spoofing-on-your-way-to-world.html"
 	],
-	"mod_time": "2022-03-09 13:47:14 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/spoof/nbns/nbns_response.rb",
 	"is_install_path": true,
 	"ref_name": "spoof/nbns/nbns_response",

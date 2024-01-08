@@ -10,7 +10,7 @@
 	"references": [
 		"URL-https://www.projecthoneypot.org/httpbl_api.php"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/httpbl_lookup.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/httpbl_lookup",

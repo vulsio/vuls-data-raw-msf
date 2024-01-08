@@ -31,7 +31,7 @@
 		"URL-https://filippo.io/Heartbleed/"
 	],
 	"rport": 443,
-	"mod_time": "2022-07-19 16:04:41 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ssl/openssl_heartbleed.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssl/openssl_heartbleed",

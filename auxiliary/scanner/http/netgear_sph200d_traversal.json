@@ -6,7 +6,7 @@
 	"author": [
 		"Michael Messner <devnull@s3cur1ty.de>"
 	],
-	"description": "This module exploits a directory traversal vulnerablity which is present in\n        Netgear SPH200D Skype telephone.",
+	"description": "This module exploits a directory traversal vulnerability which is present in\n        Netgear SPH200D Skype telephone.",
 	"references": [
 		"BID-57660",
 		"EDB-24441",
@@ -29,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-03-10 18:03:35 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/netgear_sph200d_traversal.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/netgear_sph200d_traversal",

@@ -9,7 +9,7 @@
 	"description": "This encoder returns a base64 string encapsulated in\n        eval(base64_decode()), increasing the size by a bit more than\n        one third.",
 	"platform": "All",
 	"arch": "php",
-	"mod_time": "2023-03-02 17:46:21 +0000",
+	"mod_time": "2024-01-07 14:06:31 +0000",
 	"path": "/modules/encoders/php/base64.rb",
 	"is_install_path": true,
 	"ref_name": "php/base64",

@@ -13,7 +13,7 @@
 		"URL-http://rsync.samba.org/ftp/rsync/rsync.html"
 	],
 	"rport": 873,
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/rsync/modules_list.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/rsync/modules_list",

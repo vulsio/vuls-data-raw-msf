@@ -9,7 +9,7 @@
 	],
 	"description": "This module is a simple client for the SSL Labs APIs, designed for\n          SSL/TLS assessment during a penetration test.",
 	"rport": 443,
-	"mod_time": "2018-01-22 16:32:16 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/ssllabs_scan.rb",
 	"is_install_path": true,
 	"ref_name": "gather/ssllabs_scan",

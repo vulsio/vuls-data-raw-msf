@@ -33,7 +33,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-04-12 13:09:34 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/wp_learnpress_sqli.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/wp_learnpress_sqli",

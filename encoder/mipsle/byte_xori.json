@@ -11,7 +11,7 @@
 	"description": "Mips Web server exploit friendly xor encoder. This encoder has been found useful on\n        situations where '&' (0x26) is a badchar. Since 0x26 is the xor's opcode on MIPS\n        architectures, this one is based on the xori instruction.",
 	"platform": "All",
 	"arch": "mipsle",
-	"mod_time": "2018-12-18 16:30:47 +0000",
+	"mod_time": "2024-01-07 14:06:31 +0000",
 	"path": "/modules/encoders/mipsle/byte_xori.rb",
 	"is_install_path": true,
 	"ref_name": "mipsle/byte_xori",

@@ -8,7 +8,7 @@
 	],
 	"description": "This module provides a simple way to scan an Oracle database server\n        for configuration parameters that may be useful during a penetration\n        test. Valid database credentials must be provided for this module to\n        run.",
 	"rport": 1521,
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/oracle/oraenum.rb",
 	"is_install_path": true,
 	"ref_name": "admin/oracle/oraenum",

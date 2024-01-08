@@ -11,7 +11,7 @@
 	"references": [
 		"URL-http://wuntee.blogspot.com/2010/11/ipv6-link-local-host-discovery-concept.html"
 	],
-	"mod_time": "2019-03-05 03:38:51 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/discovery/ipv6_neighbor_router_advertisement.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/discovery/ipv6_neighbor_router_advertisement",

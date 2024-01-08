@@ -14,7 +14,7 @@
 		"URL-http://www.digitalbond.com/tools/basecamp/metasploit-modules/"
 	],
 	"rport": 44818,
-	"mod_time": "2020-10-02 17:38:06 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/scada/multi_cip_command.rb",
 	"is_install_path": true,
 	"ref_name": "admin/scada/multi_cip_command",

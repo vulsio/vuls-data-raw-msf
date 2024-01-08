@@ -14,7 +14,7 @@
 		"URL-https://datatracker.ietf.org/doc/html/rfc5321",
 		"URL-http://fehcom.de/qmail/smtpauth.html"
 	],
-	"mod_time": "2023-04-12 13:09:34 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/server/capture/smtp.rb",
 	"is_install_path": true,
 	"ref_name": "server/capture/smtp",

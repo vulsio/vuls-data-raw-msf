@@ -23,7 +23,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2019-10-21 16:45:42 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/brute_dirs.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/brute_dirs",

@@ -7,7 +7,7 @@
 		"belch"
 	],
 	"description": "Enumerate local IPv6 hosts which respond to Neighbor Solicitations with a link-local address.\n        Note, that like ARP scanning, this usually cannot be performed beyond the local\n        broadcast network.",
-	"mod_time": "2022-07-08 09:56:51 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/discovery/ipv6_neighbor.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/discovery/ipv6_neighbor",

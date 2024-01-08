@@ -38,7 +38,7 @@
 		"CWE-326"
 	],
 	"rport": 443,
-	"mod_time": "2023-08-28 16:49:31 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ssl/ssl_version.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssl/ssl_version",

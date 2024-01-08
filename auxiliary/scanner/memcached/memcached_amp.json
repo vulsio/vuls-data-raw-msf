@@ -15,7 +15,7 @@
 		"CVE-2018-1000115"
 	],
 	"rport": 11211,
-	"mod_time": "2020-10-02 12:20:05 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/memcached/memcached_amp.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/memcached/memcached_amp",

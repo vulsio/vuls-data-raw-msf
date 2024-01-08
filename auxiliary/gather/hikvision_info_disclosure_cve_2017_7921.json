@@ -32,7 +32,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-10-17 19:54:26 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/hikvision_info_disclosure_cve_2017_7921.rb",
 	"is_install_path": true,
 	"ref_name": "gather/hikvision_info_disclosure_cve_2017_7921",

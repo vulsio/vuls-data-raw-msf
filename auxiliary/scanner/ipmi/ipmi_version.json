@@ -12,7 +12,7 @@
 		"URL-http://fish2.com/ipmi/"
 	],
 	"rport": 623,
-	"mod_time": "2021-01-28 10:35:25 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ipmi/ipmi_version.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ipmi/ipmi_version",

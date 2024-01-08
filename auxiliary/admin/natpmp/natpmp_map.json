@@ -8,7 +8,7 @@
 	],
 	"description": "Map (forward) TCP and UDP ports on NAT devices using NAT-PMP",
 	"rport": 5351,
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/natpmp/natpmp_map.rb",
 	"is_install_path": true,
 	"ref_name": "admin/natpmp/natpmp_map",

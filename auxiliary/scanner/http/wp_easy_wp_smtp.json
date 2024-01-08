@@ -31,7 +31,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2021-12-14 16:40:52 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/wp_easy_wp_smtp.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/wp_easy_wp_smtp",

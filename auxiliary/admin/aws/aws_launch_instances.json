@@ -12,7 +12,7 @@
 		"URL-https://published-prd.lanyonevents.com/published/rsaus17/sessionsFiles/4721/IDY-W10-DevSecOps-on-the-Offense-Automating-Amazon-Web-Services-Account-Takeover.pdf"
 	],
 	"rport": 443,
-	"mod_time": "2021-11-22 14:11:03 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/aws/aws_launch_instances.rb",
 	"is_install_path": true,
 	"ref_name": "admin/aws/aws_launch_instances",

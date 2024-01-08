@@ -13,7 +13,7 @@
 		"CWE-400"
 	],
 	"rport": 3000,
-	"mod_time": "2017-12-11 11:49:31 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/dos/http/ws_dos.rb",
 	"is_install_path": true,
 	"ref_name": "dos/http/ws_dos",

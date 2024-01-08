@@ -9,7 +9,7 @@
 	],
 	"description": "This module will create a fake SIP invite request making the targeted device ring\n        and display fake caller id information.",
 	"rport": 5060,
-	"mod_time": "2019-03-05 04:43:37 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/voip/sip_invite_spoof.rb",
 	"is_install_path": true,
 	"ref_name": "voip/sip_invite_spoof",

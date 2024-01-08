@@ -6,7 +6,7 @@
 	"author": [
 		"et <et@metasploit.com>"
 	],
-	"description": "Detect subversion directories and files and analize its content. Only SVN Version > 7 supported",
+	"description": "Detect subversion directories and files and analyze its content. Only SVN Version > 7 supported",
 	"rport": 80,
 	"autofilter_ports": [
 		80,
@@ -23,7 +23,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/http/svn_scanner.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/svn_scanner",

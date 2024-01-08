@@ -14,7 +14,7 @@
 		"URL-https://nmap.org/nsedoc/scripts/ntp-monlist.html"
 	],
 	"rport": 123,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ntp/ntp_monlist.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ntp/ntp_monlist",

@@ -23,7 +23,7 @@
 	"autofilter_services": [
 		"ftp"
 	],
-	"mod_time": "2020-10-02 17:38:06 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ftp/bison_ftp_traversal.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ftp/bison_ftp_traversal",

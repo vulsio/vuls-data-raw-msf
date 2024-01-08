@@ -14,7 +14,7 @@
 		"URL-https://github.com/elvanderb/TCP-32764"
 	],
 	"rport": 32764,
-	"mod_time": "2020-09-22 02:56:51 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/admin/misc/sercomm_dump_config.rb",
 	"is_install_path": true,
 	"ref_name": "admin/misc/sercomm_dump_config",

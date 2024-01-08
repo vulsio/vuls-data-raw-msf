@@ -25,7 +25,7 @@
 	"autofilter_services": [
 		"ftp"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/ftp/konica_ftp_traversal.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ftp/konica_ftp_traversal",

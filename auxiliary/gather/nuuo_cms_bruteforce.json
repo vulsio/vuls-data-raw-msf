@@ -7,7 +7,7 @@
 	"author": [
 		"Pedro Ribeiro <pedrib@gmail.com>"
 	],
-	"description": "Nuuo Central Management Server below version 2.4 has a flaw where it sends the\n        heap address of the user object instead of a real session number when a user logs\n        in. This can be used to reduce the keyspace for the session number from 10 million\n        to 1.2 million, and with a bit of analysis it can be guessed in less than 500k tries.\n        This module does exactly that - it uses a computed occurence table to try the most common\n        combinations up to 1.2 million to try to guess a valid user session.\n        This session number can then be used to achieve code execution or download files - see\n        the other Nuuo CMS auxiliary and exploit modules.\n        Note that for this to work a user has to be logged into the system.",
+	"description": "Nuuo Central Management Server below version 2.4 has a flaw where it sends the\n        heap address of the user object instead of a real session number when a user logs\n        in. This can be used to reduce the keyspace for the session number from 10 million\n        to 1.2 million, and with a bit of analysis it can be guessed in less than 500k tries.\n        This module does exactly that - it uses a computed occurrence table to try the most common\n        combinations up to 1.2 million to try to guess a valid user session.\n        This session number can then be used to achieve code execution or download files - see\n        the other Nuuo CMS auxiliary and exploit modules.\n        Note that for this to work a user has to be logged into the system.",
 	"references": [
 		"CVE-2018-17888",
 		"URL-https://www.cisa.gov/uscert/ics/advisories/ICSA-18-284-02",
@@ -16,7 +16,7 @@
 	],
 	"platform": "Windows",
 	"rport": 5180,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/gather/nuuo_cms_bruteforce.rb",
 	"is_install_path": true,
 	"ref_name": "gather/nuuo_cms_bruteforce",

@@ -10,7 +10,7 @@
 	"references": [
 		"URL-http://wuntee.blogspot.com/2010/12/ipv6-ping-host-discovery-metasploit.html"
 	],
-	"mod_time": "2019-03-05 03:38:51 +0000",
+	"mod_time": "2024-01-07 15:02:53 +0000",
 	"path": "/modules/auxiliary/scanner/discovery/ipv6_multicast_ping.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/discovery/ipv6_multicast_ping",
