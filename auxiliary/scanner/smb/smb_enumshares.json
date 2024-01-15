@@ -20,9 +20,12 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2023-01-13 17:31:02 +0000",
+	"mod_time": "2023-11-30 14:07:03 +0000",
 	"path": "/modules/auxiliary/scanner/smb/smb_enumshares.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/smb_enumshares",
+	"session_types": [
+		"SMB"
+	],
 	"needs_cleanup": false
 }

@@ -16,9 +16,12 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2022-03-10 18:03:35 +0000",
+	"mod_time": "2023-11-27 14:55:24 +0000",
 	"path": "/modules/auxiliary/admin/smb/upload_file.rb",
 	"is_install_path": true,
 	"ref_name": "admin/smb/upload_file",
+	"session_types": [
+		"SMB"
+	],
 	"needs_cleanup": false
 }
