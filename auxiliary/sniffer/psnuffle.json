@@ -7,7 +7,7 @@
 		"Max Moser <mmo@remote-exploit.org>"
 	],
 	"description": "This module sniffs passwords like dsniff did in the past",
-	"mod_time": "2020-05-12 22:15:21 +0000",
+	"mod_time": "2023-12-17 22:53:19 +0000",
 	"path": "/modules/auxiliary/sniffer/psnuffle.rb",
 	"is_install_path": true,
 	"ref_name": "sniffer/psnuffle",
