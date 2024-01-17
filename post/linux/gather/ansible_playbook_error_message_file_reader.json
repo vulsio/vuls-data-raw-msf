@@ -1,0 +1,28 @@
+{
+	"name": "Ansible Playbook Error Message File Reader",
+	"fullname": "post/linux/gather/ansible_playbook_error_message_file_reader",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"h00die",
+		"rioasmara"
+	],
+	"description": "This module will read the first line of a file based on an error message from ansible-playbook with sudo privileges.\n          ansible-playbook takes a yaml file as input, and if there is an error, such as a non-yaml file, it outputs the line\n          where the error occurs. This can be exploited to read the first line of the file, which we'll typically want to read\n          /etc/shadow to obtain root's hash.",
+	"references": [
+		"URL-https://rioasmara.com/2022/03/21/ansible-playbook-weaponization/"
+	],
+	"platform": "Linux,Unix",
+	"mod_time": "2024-01-15 17:18:49 +0000",
+	"path": "/modules/post/linux/gather/ansible_playbook_error_message_file_reader.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/ansible_playbook_error_message_file_reader",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
+}

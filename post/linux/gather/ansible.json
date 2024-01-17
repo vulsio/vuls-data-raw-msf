@@ -1,0 +1,24 @@
+{
+	"name": "Ansible Config Gather",
+	"fullname": "post/linux/gather/ansible",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"h00die"
+	],
+	"description": "This module will grab ansible information including hosts, ping status, and the configuration file.",
+	"platform": "Linux,Unix",
+	"mod_time": "2024-01-10 17:29:15 +0000",
+	"path": "/modules/post/linux/gather/ansible.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/ansible",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
+}
