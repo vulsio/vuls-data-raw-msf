@@ -8,9 +8,9 @@
 		"wvu <wvu@metasploit.com>"
 	],
 	"description": "This encoder uses Bourne ${IFS} substitution to avoid whitespace\n        without being overly fancy.",
-	"platform": "Unix",
+	"platform": "Linux,Unix",
 	"arch": "cmd",
-	"mod_time": "2018-08-23 15:20:38 +0000",
+	"mod_time": "2024-01-19 13:40:43 +0000",
 	"path": "/modules/encoders/cmd/ifs.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/ifs",

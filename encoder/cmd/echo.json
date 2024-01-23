@@ -7,9 +7,9 @@
 		"hdm <x@hdm.io>"
 	],
 	"description": "This encoder uses echo and backlash escapes to avoid commonly restricted characters.",
-	"platform": "Unix",
+	"platform": "Linux,Unix",
 	"arch": "cmd",
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-01-19 13:40:43 +0000",
 	"path": "/modules/encoders/cmd/echo.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/echo",
