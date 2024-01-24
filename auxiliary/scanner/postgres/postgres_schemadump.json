@@ -14,10 +14,13 @@
 	"autofilter_services": [
 		"postgres"
 	],
-	"mod_time": "2024-01-07 15:02:53 +0000",
+	"mod_time": "2024-01-15 15:21:13 +0000",
 	"path": "/modules/auxiliary/scanner/postgres/postgres_schemadump.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/postgres/postgres_schemadump",
 	"post_auth": true,
+	"session_types": [
+		"PostgreSQL"
+	],
 	"needs_cleanup": false
 }
