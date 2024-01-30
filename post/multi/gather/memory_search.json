@@ -9,7 +9,7 @@
 	"description": "This module allows for searching the memory space of running processes for\n          potentially sensitive data such as passwords.",
 	"platform": "Linux,OSX,Unix,Windows",
 	"arch": "x86, x64",
-	"mod_time": "2024-01-22 16:53:32 +0000",
+	"mod_time": "2024-01-24 19:55:53 +0000",
 	"path": "/modules/post/multi/gather/memory_search.rb",
 	"is_install_path": true,
 	"ref_name": "multi/gather/memory_search",
