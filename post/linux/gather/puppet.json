@@ -1,0 +1,27 @@
+{
+	"name": "Puppet Config Gather",
+	"fullname": "post/linux/gather/puppet",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"h00die"
+	],
+	"description": "This module will grab Puppet config files, credentials, host information, and file buckets.",
+	"references": [
+		"URL-https://github.com/Tikam02/DevOps-Guide/blob/master/Infrastructure-provisioning/Puppet/puppet-commands.md"
+	],
+	"platform": "Linux,Unix",
+	"mod_time": "2024-01-29 19:18:54 +0000",
+	"path": "/modules/post/linux/gather/puppet.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/puppet",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
+}
