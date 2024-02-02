@@ -8,7 +8,7 @@
 	],
 	"description": "This module will inject a specified windows payload into a target executable.",
 	"platform": "Windows",
-	"mod_time": "2023-02-08 13:47:34 +0000",
+	"mod_time": "2024-01-15 14:56:46 +0000",
 	"path": "/modules/post/windows/manage/peinjector.rb",
 	"is_install_path": true,
 	"ref_name": "windows/manage/peinjector",
