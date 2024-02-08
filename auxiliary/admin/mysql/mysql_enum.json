@@ -11,9 +11,12 @@
 		"URL-https://cisecurity.org/benchmarks.html"
 	],
 	"rport": 3306,
-	"mod_time": "2017-07-24 06:26:21 +0000",
+	"mod_time": "2024-02-07 12:51:04 +0000",
 	"path": "/modules/auxiliary/admin/mysql/mysql_enum.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mysql/mysql_enum",
+	"session_types": [
+		"MySQL"
+	],
 	"needs_cleanup": false
 }
