@@ -17,10 +17,13 @@
 	"autofilter_services": [
 		"postgres"
 	],
-	"mod_time": "2017-08-24 21:38:44 +0000",
+	"mod_time": "2024-01-24 13:47:22 +0000",
 	"path": "/modules/auxiliary/admin/postgres/postgres_sql.rb",
 	"is_install_path": true,
 	"ref_name": "admin/postgres/postgres_sql",
 	"post_auth": true,
+	"session_types": [
+		"PostgreSQL"
+	],
 	"needs_cleanup": false
 }

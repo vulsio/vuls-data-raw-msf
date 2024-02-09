@@ -14,10 +14,13 @@
 	"autofilter_services": [
 		"postgres"
 	],
-	"mod_time": "2024-01-07 15:02:53 +0000",
+	"mod_time": "2024-01-24 13:47:22 +0000",
 	"path": "/modules/auxiliary/admin/postgres/postgres_readfile.rb",
 	"is_install_path": true,
 	"ref_name": "admin/postgres/postgres_readfile",
 	"post_auth": true,
+	"session_types": [
+		"PostgreSQL"
+	],
 	"needs_cleanup": false
 }

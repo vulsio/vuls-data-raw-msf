@@ -30,7 +30,7 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2024-01-07 15:02:53 +0000",
+	"mod_time": "2023-12-12 09:53:37 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_findandsampledata.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_findandsampledata",
