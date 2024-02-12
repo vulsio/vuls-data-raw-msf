@@ -8,7 +8,7 @@
 	],
 	"description": "When this module is executed, it can be used to add a sysadmin to local\n          SQL Server instances.  It first attempts to gain LocalSystem privileges\n          using the \"getsystem\" escalation methods. If those privileges are not\n          sufficient to add a sysadmin, then it will migrate to the SQL Server\n          service process associated with the target instance.  The sysadmin\n          login is added to the local SQL Server using native SQL clients and\n          stored procedures.  If no instance is specified then the first identified\n          instance will be used.\n\n          Why is this possible? By default in SQL Server 2k-2k8, LocalSystem\n          is assigned syadmin privileges.  Microsoft changed the default in\n          SQL Server 2012 so that LocalSystem no longer has sysadmin privileges.\n          However, this can be overcome by migrating to the SQL Server process.",
 	"platform": "Windows",
-	"mod_time": "2023-02-08 13:47:34 +0000",
+	"mod_time": "2024-01-31 18:07:07 +0000",
 	"path": "/modules/post/windows/manage/mssql_local_auth_bypass.rb",
 	"is_install_path": true,
 	"ref_name": "windows/manage/mssql_local_auth_bypass",
