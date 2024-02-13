@@ -25,7 +25,7 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2024-02-09 16:07:36 +0000",
+	"mod_time": "2024-02-06 15:06:25 +0000",
 	"path": "/modules/auxiliary/scanner/mssql/mssql_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mssql/mssql_login",
