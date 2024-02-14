@@ -28,7 +28,7 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2023-12-12 09:53:37 +0000",
+	"mod_time": "2024-02-13 13:00:38 +0000",
 	"path": "/modules/auxiliary/gather/lansweeper_collector.rb",
 	"is_install_path": true,
 	"ref_name": "gather/lansweeper_collector",

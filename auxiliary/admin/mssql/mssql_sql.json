@@ -26,9 +26,12 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2017-08-24 21:38:44 +0000",
+	"mod_time": "2024-02-12 15:47:49 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_sql.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_sql",
+	"session_types": [
+		"MSSQL"
+	],
 	"needs_cleanup": false
 }

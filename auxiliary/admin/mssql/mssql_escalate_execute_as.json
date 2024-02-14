@@ -25,9 +25,12 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2020-09-22 02:56:51 +0000",
+	"mod_time": "2024-02-12 15:47:49 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_escalate_execute_as.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_escalate_execute_as",
+	"session_types": [
+		"MSSQL"
+	],
 	"needs_cleanup": false
 }

@@ -22,9 +22,12 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2017-08-16 21:40:03 +0000",
+	"mod_time": "2024-02-13 13:00:38 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_enum.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_enum",
+	"session_types": [
+		"MSSQL"
+	],
 	"needs_cleanup": false
 }

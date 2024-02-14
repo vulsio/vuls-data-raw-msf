@@ -25,9 +25,12 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2023-12-12 09:53:37 +0000",
+	"mod_time": "2024-02-12 15:47:49 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_escalate_dbowner.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_escalate_dbowner",
+	"session_types": [
+		"MSSQL"
+	],
 	"needs_cleanup": false
 }
