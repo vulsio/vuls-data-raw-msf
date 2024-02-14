@@ -1,0 +1,17 @@
+{
+	"name": "Base64 Command Encoder",
+	"fullname": "encoder/cmd/base64",
+	"rank": 400,
+	"type": "encoder",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "This encoder uses base64 encoding to avoid bad characters.",
+	"platform": "BSD,BSDi,Linux,OSX,Solaris,Unix",
+	"arch": "cmd",
+	"mod_time": "2024-02-12 14:02:51 +0000",
+	"path": "/modules/encoders/cmd/base64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/base64",
+	"needs_cleanup": false
+}
