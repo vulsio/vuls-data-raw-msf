@@ -1,0 +1,23 @@
+{
+	"name": "SMB Fetch, Reverse TCP Stager with UUID Support (Windows x64)",
+	"fullname": "payload/cmd/windows/smb/x64/peinject/reverse_tcp_uuid",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"ege <egebalci@pm.me>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves"
+	],
+	"description": "Fetch and execute an x64 payload from an SMB server.\nConnect back to the attacker with UUID Support (Windows x64)",
+	"references": [
+		"URL-https://github.com/EgeBalci/Amber"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2024-01-04 14:11:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/smb/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/smb/x64/peinject/reverse_tcp_uuid",
+	"needs_cleanup": false
+}

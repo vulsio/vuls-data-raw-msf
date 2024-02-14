@@ -1,0 +1,25 @@
+{
+	"name": "SMB Fetch, Windows x64 Bind Named Pipe Stager",
+	"fullname": "payload/cmd/windows/smb/x64/meterpreter/bind_named_pipe",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"skape <mmiller@hick.org>",
+		"sf <stephen_fewer@harmonysecurity.com>",
+		"OJ Reeves",
+		"UserExistsError"
+	],
+	"description": "Fetch and execute an x64 payload from an SMB server.\nListen for a pipe connection (Windows x64)",
+	"references": [
+		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
+		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
+	],
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2024-01-04 14:11:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/smb/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/smb/x64/meterpreter/bind_named_pipe",
+	"needs_cleanup": false
+}

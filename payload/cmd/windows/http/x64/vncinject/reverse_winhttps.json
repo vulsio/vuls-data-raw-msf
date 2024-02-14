@@ -8,14 +8,14 @@
 		"sf <stephen_fewer@harmonysecurity.com>",
 		"OJ Reeves"
 	],
-	"description": "Fetch and Execute an x64 payload from an http server.\n\nTunnel communication over HTTPS (Windows x64 winhttp)",
+	"description": "Fetch and execute an x64 payload from an HTTP server.\nTunnel communication over HTTPS (Windows x64 winhttp)",
 	"references": [
 		"URL-https://github.com/stephenfewer/ReflectiveDLLInjection",
 		"URL-https://github.com/rapid7/ReflectiveDLLInjection"
 	],
 	"platform": "Windows",
 	"arch": "cmd",
-	"mod_time": "2023-07-31 16:38:09 +0000",
+	"mod_time": "2024-01-03 14:46:15 +0000",
 	"path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/windows/http/x64/vncinject/reverse_winhttps",

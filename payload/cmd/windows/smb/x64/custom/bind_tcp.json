@@ -1,0 +1,19 @@
+{
+	"name": "SMB Fetch, Windows shellcode stage, Windows x64 Bind TCP Stager",
+	"fullname": "payload/cmd/windows/smb/x64/custom/bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"bwatters-r7",
+		"sf <stephen_fewer@harmonysecurity.com>"
+	],
+	"description": "Fetch and execute an x64 payload from an SMB server.\nCustom shellcode stage.\n\nListen for a connection (Windows x64)",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2024-01-04 14:11:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/smb/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/smb/x64/custom/bind_tcp",
+	"needs_cleanup": false
+}

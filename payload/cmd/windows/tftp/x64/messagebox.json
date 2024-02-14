@@ -7,10 +7,10 @@
 		"Brendan Watters",
 		"pasta <jaguinaga@infobytesec.com>"
 	],
-	"description": "Fetch and Execute an x64 payload from a tftp server.\n\nSpawn a dialog via MessageBox using a customizable title, text & icon",
+	"description": "Fetch and execute an x64 payload from a TFTP server.\nSpawn a dialog via MessageBox using a customizable title, text & icon",
 	"platform": "Windows",
 	"arch": "cmd",
-	"mod_time": "2023-03-15 19:19:19 +0000",
+	"mod_time": "2024-01-03 14:46:15 +0000",
 	"path": "/modules/payloads/adapters/cmd/windows/tftp/x64.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/windows/tftp/x64/messagebox",

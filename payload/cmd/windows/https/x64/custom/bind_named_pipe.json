@@ -8,10 +8,10 @@
 		"bwatters-r7",
 		"UserExistsError"
 	],
-	"description": "Fetch and Execute an x64 payload from an https server.\n\nCustom shellcode stage.\n\nListen for a pipe connection (Windows x64)",
+	"description": "Fetch and execute an x64 payload from an HTTPS server.\nCustom shellcode stage.\n\nListen for a pipe connection (Windows x64)",
 	"platform": "Windows",
 	"arch": "cmd",
-	"mod_time": "2023-03-15 19:19:19 +0000",
+	"mod_time": "2024-01-03 14:46:15 +0000",
 	"path": "/modules/payloads/adapters/cmd/windows/https/x64.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/windows/https/x64/custom/bind_named_pipe",

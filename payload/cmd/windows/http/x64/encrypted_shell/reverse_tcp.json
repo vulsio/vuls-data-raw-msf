@@ -8,10 +8,10 @@
 		"Matt Graeber",
 		"Shelby Pace"
 	],
-	"description": "Fetch and Execute an x64 payload from an http server.\n\nSpawn a piped command shell (staged).\n\nConnect to MSF and read in stage",
+	"description": "Fetch and execute an x64 payload from an HTTP server.\nSpawn a piped command shell (staged).\n\nConnect to MSF and read in stage",
 	"platform": "Windows",
 	"arch": "cmd",
-	"mod_time": "2023-07-31 16:38:09 +0000",
+	"mod_time": "2024-01-03 14:46:15 +0000",
 	"path": "/modules/payloads/adapters/cmd/windows/http/x64.rb",
 	"is_install_path": true,
 	"ref_name": "cmd/windows/http/x64/encrypted_shell/reverse_tcp",

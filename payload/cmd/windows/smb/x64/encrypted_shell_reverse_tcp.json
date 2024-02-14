@@ -1,0 +1,19 @@
+{
+	"name": "SMB Fetch, Windows Encrypted Reverse Shell",
+	"fullname": "payload/cmd/windows/smb/x64/encrypted_shell_reverse_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"Matt Graeber",
+		"Shelby Pace"
+	],
+	"description": "Fetch and execute an x64 payload from an SMB server.\nConnect back to attacker and spawn an encrypted command shell",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2024-01-04 14:11:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/smb/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/smb/x64/encrypted_shell_reverse_tcp",
+	"needs_cleanup": false
+}

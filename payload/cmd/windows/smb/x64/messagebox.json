@@ -1,0 +1,18 @@
+{
+	"name": "SMB Fetch, Windows MessageBox x64",
+	"fullname": "payload/cmd/windows/smb/x64/messagebox",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre",
+		"pasta <jaguinaga@infobytesec.com>"
+	],
+	"description": "Fetch and execute an x64 payload from an SMB server.\nSpawn a dialog via MessageBox using a customizable title, text & icon",
+	"platform": "Windows",
+	"arch": "cmd",
+	"mod_time": "2024-01-04 14:11:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/windows/smb/x64.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/windows/smb/x64/messagebox",
+	"needs_cleanup": false
+}
