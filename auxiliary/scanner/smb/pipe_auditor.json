@@ -15,12 +15,12 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2023-11-30 14:07:03 +0000",
+	"mod_time": "2024-02-02 14:26:43 +0000",
 	"path": "/modules/auxiliary/scanner/smb/pipe_auditor.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/pipe_auditor",
 	"session_types": [
-		"SMB"
+		"smb"
 	],
 	"needs_cleanup": false
 }

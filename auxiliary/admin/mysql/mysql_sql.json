@@ -8,12 +8,12 @@
 	],
 	"description": "This module allows for simple SQL statements to be executed\n          against a MySQL instance given the appropriate credentials.",
 	"rport": 3306,
-	"mod_time": "2024-02-05 16:45:52 +0000",
+	"mod_time": "2024-02-14 15:26:34 +0000",
 	"path": "/modules/auxiliary/admin/mysql/mysql_sql.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mysql/mysql_sql",
 	"session_types": [
-		"MySQL"
+		"mysql"
 	],
 	"needs_cleanup": false
 }

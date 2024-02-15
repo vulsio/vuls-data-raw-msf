@@ -27,12 +27,12 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2024-02-12 15:47:49 +0000",
+	"mod_time": "2024-02-14 15:26:34 +0000",
 	"path": "/modules/auxiliary/admin/mssql/mssql_exec.rb",
 	"is_install_path": true,
 	"ref_name": "admin/mssql/mssql_exec",
 	"session_types": [
-		"MSSQL"
+		"mssql"
 	],
 	"needs_cleanup": false
 }

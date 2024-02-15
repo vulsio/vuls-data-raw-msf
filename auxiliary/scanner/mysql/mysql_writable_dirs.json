@@ -11,13 +11,14 @@
 		"URL-https://dev.mysql.com/doc/refman/5.7/en/select-into.html"
 	],
 	"rport": 3306,
-	"mod_time": "2024-02-05 16:45:52 +0000",
+	"mod_time": "2024-02-12 11:52:48 +0000",
 	"path": "/modules/auxiliary/scanner/mysql/mysql_writable_dirs.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mysql/mysql_writable_dirs",
 	"post_auth": true,
 	"session_types": [
-		"MySQL"
+		"MySQL",
+		"mysql"
 	],
 	"needs_cleanup": false
 }
