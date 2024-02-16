@@ -1,0 +1,15 @@
+{
+	"name": "Authentication Capture: LDAP",
+	"fullname": "auxiliary/server/capture/ldap",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"JustAnda7"
+	],
+	"description": "This module mocks an LDAP service to capture authentication\n        information of a client trying to authenticate against an LDAP service",
+	"mod_time": "2024-01-23 12:13:24 +0000",
+	"path": "/modules/auxiliary/server/capture/ldap.rb",
+	"is_install_path": true,
+	"ref_name": "server/capture/ldap",
+	"needs_cleanup": false
+}
