@@ -8,12 +8,11 @@
 	],
 	"description": "This module extracts the schema information from a\n          MySQL DB server.",
 	"rport": 3306,
-	"mod_time": "2024-02-12 11:52:48 +0000",
+	"mod_time": "2024-02-19 10:34:16 +0000",
 	"path": "/modules/auxiliary/scanner/mysql/mysql_schemadump.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mysql/mysql_schemadump",
 	"session_types": [
-		"MySQL",
 		"mysql"
 	],
 	"needs_cleanup": false
