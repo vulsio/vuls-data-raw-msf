@@ -6,11 +6,11 @@
 	"author": [
 		"RageLtMan <rageltman@sempervictus>"
 	],
-	"description": "Provided AWS credentials, this module will call the authenticated\n          API of Amazon Web Services to list all SSM-enabled EC2 instances\n          accessible to the account. Once enumerated as SSM-enabled, the\n          instances can be controlled using out-of-band WebSocket sessions\n          provided by the AWS API (nominally, privileged out of the box).\n          This module provides not only the API enumeration identifying EC2\n          instances accessible via SSM with given credentials, but enables\n          session initiation for all identified targets (without requiring\n          target-level credentials) using the CreateSession mixin option.\n          The module also provides an EC2 ID filter and a limiting throttle\n          to prevent session stampedes or expensive messes.",
+	"description": "Provided AWS credentials, this module will call the authenticated\n          API of Amazon Web Services to list all SSM-enabled EC2 instances\n          accessible to the account. Once enumerated as SSM-enabled, the\n          instances can be controlled using out-of-band WebSocket sessions\n          provided by the AWS API (nominally, privileged out of the box).\n          This module provides not only the API enumeration identifying EC2\n          instances accessible via SSM with given credentials, but enables\n          session initiation for all identified targets (without requiring\n          target-level credentials) using the CreateSession datastore option.\n          The module also provides an EC2 ID filter and a limiting throttle\n          to prevent session stampedes or expensive messes.",
 	"references": [
 		"URL-https://www.sempervictus.com/single-post/once-upon-a-cloudy-air-i-crossed-a-gap-which-wasn-t-there"
 	],
-	"mod_time": "2023-08-01 15:02:11 +0000",
+	"mod_time": "2024-02-22 14:18:29 +0000",
 	"path": "/modules/auxiliary/cloud/aws/enum_ssm.rb",
 	"is_install_path": true,
 	"ref_name": "cloud/aws/enum_ssm",
