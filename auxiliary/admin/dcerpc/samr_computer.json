@@ -20,7 +20,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2023-02-22 19:43:21 +0000",
+	"mod_time": "2024-03-01 12:00:34 +0000",
 	"path": "/modules/auxiliary/admin/dcerpc/samr_computer.rb",
 	"is_install_path": true,
 	"ref_name": "admin/dcerpc/samr_computer",
@@ -29,5 +29,8 @@
 			"ioc-in-logs"
 		]
 	},
+	"session_types": [
+		"smb"
+	],
 	"needs_cleanup": false
 }

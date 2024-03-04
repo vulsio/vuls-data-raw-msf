@@ -23,7 +23,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2022-12-02 16:29:02 +0000",
+	"mod_time": "2024-03-01 12:00:34 +0000",
 	"path": "/modules/auxiliary/admin/dcerpc/icpr_cert.rb",
 	"is_install_path": true,
 	"ref_name": "admin/dcerpc/icpr_cert",
@@ -36,5 +36,8 @@
 			"ioc-in-logs"
 		]
 	},
+	"session_types": [
+		"smb"
+	],
 	"needs_cleanup": false
 }

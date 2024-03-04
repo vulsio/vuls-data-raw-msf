@@ -8,7 +8,7 @@
 	],
 	"description": "Enumerates the version of MySQL servers.",
 	"rport": 3306,
-	"mod_time": "2024-02-14 15:26:34 +0000",
+	"mod_time": "2024-02-19 10:57:53 +0000",
 	"path": "/modules/auxiliary/scanner/mysql/mysql_version.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mysql/mysql_version",

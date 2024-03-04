@@ -12,7 +12,7 @@
 		"URL-http://www.digininja.org/projects/mysql_file_enum.php"
 	],
 	"rport": 3306,
-	"mod_time": "2024-02-28 17:18:43 +0000",
+	"mod_time": "2024-02-19 10:57:53 +0000",
 	"path": "/modules/auxiliary/scanner/mysql/mysql_file_enum.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mysql/mysql_file_enum",
