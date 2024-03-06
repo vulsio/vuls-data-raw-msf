@@ -1,0 +1,43 @@
+{
+	"name": "GitLab Tags RSS feed email disclosure",
+	"fullname": "auxiliary/gather/gitlab_tags_rss_feed_email_disclosure",
+	"rank": 300,
+	"disclosure_date": "2024-01-25",
+	"type": "auxiliary",
+	"author": [
+		"n00bhaxor",
+		"erruquill"
+	],
+	"description": "An issue has been discovered in GitLab affecting all versions\n          before 16.6.6, 16.7 prior to 16.7.4, and 16.8 prior to 16.8.1.\n          It is possible to read the user email address via tags feed\n          although the visibility in the user profile has been disabled.",
+	"references": [
+		"URL-https://about.gitlab.com/releases/2024/01/25/critical-security-release-gitlab-16-8-1-released/",
+		"URL-https://hackerone.com/reports/2208790",
+		"CVE-2023-5612"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-03-06 17:37:33 +0000",
+	"path": "/modules/auxiliary/gather/gitlab_tags_rss_feed_email_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "gather/gitlab_tags_rss_feed_email_disclosure",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
