@@ -14,7 +14,7 @@
 	"autofilter_services": [
 		"postgres"
 	],
-	"mod_time": "2024-02-19 10:57:53 +0000",
+	"mod_time": "2024-03-12 16:13:04 +0000",
 	"path": "/modules/auxiliary/scanner/postgres/postgres_hashdump.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/postgres/postgres_hashdump",
