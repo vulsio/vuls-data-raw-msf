@@ -18,7 +18,6 @@
 	"path": "/modules/auxiliary/scanner/postgres/postgres_schemadump.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/postgres/postgres_schemadump",
-	"post_auth": true,
 	"session_types": [
 		"postgresql"
 	],

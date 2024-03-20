@@ -18,7 +18,6 @@
 	"path": "/modules/auxiliary/admin/postgres/postgres_readfile.rb",
 	"is_install_path": true,
 	"ref_name": "admin/postgres/postgres_readfile",
-	"post_auth": true,
 	"session_types": [
 		"postgresql"
 	],

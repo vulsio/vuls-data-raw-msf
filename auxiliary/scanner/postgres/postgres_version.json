@@ -21,7 +21,6 @@
 	"path": "/modules/auxiliary/scanner/postgres/postgres_version.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/postgres/postgres_version",
-	"post_auth": true,
 	"session_types": [
 		"postgresql"
 	],

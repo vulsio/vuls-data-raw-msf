@@ -21,7 +21,6 @@
 	"path": "/modules/auxiliary/admin/postgres/postgres_sql.rb",
 	"is_install_path": true,
 	"ref_name": "admin/postgres/postgres_sql",
-	"post_auth": true,
 	"session_types": [
 		"postgresql"
 	],
