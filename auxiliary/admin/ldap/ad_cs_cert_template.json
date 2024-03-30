@@ -9,17 +9,21 @@
 		"Oliver Lyak",
 		"Spencer McIntyre"
 	],
-	"description": "This module can read, write, update, and delete AD CS certificate templates from a Active Directory Domain\n          Controller.\n\n          The READ, UPDATE, and DELETE actions will write a copy of the certificate template to disk that can be\n          restored using the CREATE or UPDATE actions.",
+	"description": "This module can create, read, update, and delete AD CS certificate templates from a Active Directory Domain\n          Controller.\n\n          The READ, UPDATE, and DELETE actions will write a copy of the certificate template to disk that can be\n          restored using the CREATE or UPDATE actions. The CREATE and UPDATE actions require a certificate template data\n          file to be specified to define the attributes. Template data files are provided to create a template that is\n          vulnerable to ESC1, ESC2, and ESC3.\n\n          This module is capable of exploiting ESC4.",
 	"references": [
 		"URL-https://github.com/GhostPack/Certify",
 		"URL-https://github.com/ly4k/Certipy"
 	],
 	"rport": 389,
-	"mod_time": "2024-02-16 16:53:07 +0000",
+	"mod_time": "2024-03-07 13:28:22 +0000",
 	"path": "/modules/auxiliary/admin/ldap/ad_cs_cert_template.rb",
 	"is_install_path": true,
 	"ref_name": "admin/ldap/ad_cs_cert_template",
 	"notes": {
+		"AKA": [
+			"Certifry",
+			"Certipy"
+		],
 		"SideEffects": [
 			"config-changes"
 		]
