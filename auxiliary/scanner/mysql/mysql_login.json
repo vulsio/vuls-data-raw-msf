@@ -11,7 +11,7 @@
 		"CVE-1999-0502"
 	],
 	"rport": 3306,
-	"mod_time": "2024-03-20 15:45:07 +0000",
+	"mod_time": "2024-03-28 01:47:40 +0000",
 	"path": "/modules/auxiliary/scanner/mysql/mysql_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mysql/mysql_login",
