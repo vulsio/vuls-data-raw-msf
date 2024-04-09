@@ -13,7 +13,7 @@
 	],
 	"description": "This module requests TGT/TGS Kerberos tickets from the KDC",
 	"rport": 88,
-	"mod_time": "2023-03-09 02:09:29 +0000",
+	"mod_time": "2024-04-02 15:29:47 +0000",
 	"path": "/modules/auxiliary/admin/kerberos/get_ticket.rb",
 	"is_install_path": true,
 	"ref_name": "admin/kerberos/get_ticket",
