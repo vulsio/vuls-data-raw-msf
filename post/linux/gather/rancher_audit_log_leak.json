@@ -1,0 +1,25 @@
+{
+	"name": "Rancher Audit Log Sensitive Information Leak",
+	"fullname": "post/linux/gather/rancher_audit_log_leak",
+	"rank": 300,
+	"disclosure_date": "2024-02-08",
+	"type": "post",
+	"author": [
+		"h00die"
+	],
+	"description": "Rancher versions between 2.6.0-2.6.13, 2.7.0-2.7.9, 2.8.0-2.8.1 inclusive\n          contain a vulnerability where sensitive data is leaked into the audit logs.\n          Rancher Audit Logging is an opt-in feature, only deployments that have it\n          enabled and have AUDIT_LEVEL set to 1 or above are impacted by this issue.\n\n          Tested against rancher 2.6.0.",
+	"references": [
+		"URL-https://github.com/rancher/rancher/security/advisories/GHSA-xfj7-qf8w-2gcr",
+		"URL-https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log#api-audit-log-options",
+		"CVE-2023-22649"
+	],
+	"platform": "Linux,Unix",
+	"mod_time": "2024-04-10 11:31:55 +0000",
+	"path": "/modules/post/linux/gather/rancher_audit_log_leak.rb",
+	"is_install_path": true,
+	"ref_name": "linux/gather/rancher_audit_log_leak",
+	"session_types": [
+		"shell",
+		"meterpreter"
+	]
+}
