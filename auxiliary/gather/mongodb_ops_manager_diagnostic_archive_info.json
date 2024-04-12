@@ -1,0 +1,38 @@
+{
+	"name": "MongoDB Ops Manager Diagnostic Archive Sensitive Information Retriever",
+	"fullname": "auxiliary/gather/mongodb_ops_manager_diagnostic_archive_info",
+	"rank": 300,
+	"disclosure_date": "2023-06-09",
+	"type": "auxiliary",
+	"author": [
+		"h00die"
+	],
+	"description": "MongoDB Ops Manager Diagnostics Archive does not redact SAML SSL Pem Key File Password\n          field (mms.saml.ssl.PEMKeyFilePassword) within app settings. Archives do not include\n          the PEM files themselves. This module extracts that unredacted password and stores\n          the diagnostic archive for additional manual review.\n\n          This issue affects MongoDB Ops Manager v5.0 prior to 5.0.21 and\n          MongoDB Ops Manager v6.0 prior to 6.0.12.\n\n          API credentials with the role of GLOBAL_MONITORING_ADMIN or GLOBAL_OWNER are required.\n\n          Successfully tested against MongoDB Ops Manager v6.0.11.",
+	"references": [
+		"URL-https://github.com/advisories/GHSA-xqvf-v5jg-pxc2",
+		"URL-https://www.mongodb.com/docs/ops-manager/current/reference/configuration/#mongodb-setting-mms.https.PEMKeyFilePassword",
+		"CVE-2023-0342"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-04-07 05:39:51 +0000",
+	"path": "/modules/auxiliary/gather/mongodb_ops_manager_diagnostic_archive_info.rb",
+	"is_install_path": true,
+	"ref_name": "gather/mongodb_ops_manager_diagnostic_archive_info",
+	"check": true,
+	"needs_cleanup": false
+}
