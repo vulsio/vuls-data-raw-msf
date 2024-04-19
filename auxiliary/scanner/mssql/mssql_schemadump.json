@@ -22,7 +22,7 @@
 		"ms-sql2000",
 		"sybase"
 	],
-	"mod_time": "2024-02-19 10:57:53 +0000",
+	"mod_time": "2024-04-04 08:34:51 +0000",
 	"path": "/modules/auxiliary/scanner/mssql/mssql_schemadump.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/mssql/mssql_schemadump",
