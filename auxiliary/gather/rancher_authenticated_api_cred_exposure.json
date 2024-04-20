@@ -1,0 +1,42 @@
+{
+	"name": "Rancher Authenticated API Credential Exposure",
+	"fullname": "auxiliary/gather/rancher_authenticated_api_cred_exposure",
+	"rank": 300,
+	"disclosure_date": "2022-08-18",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Florian Struck",
+		"Marco Stuurman"
+	],
+	"description": "An issue was discovered in Rancher versions up to and including\n          2.5.15 and 2.6.6 where sensitive fields, like passwords, API keys\n          and Ranchers service account token (used to provision clusters),\n          were stored in plaintext directly on Kubernetes objects like Clusters,\n          for example cluster.management.cattle.io. Anyone with read access to\n          those objects in the Kubernetes API could retrieve the plaintext\n          version of those sensitive data.",
+	"references": [
+		"URL-https://github.com/advisories/GHSA-g7j7-h4q8-8w2f",
+		"URL-https://github.com/fe-ax/tf-cve-2021-36782",
+		"URL-https://fe.ax/cve-2021-36782/",
+		"CVE-2021-36782"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-04-19 12:55:46 +0000",
+	"path": "/modules/auxiliary/gather/rancher_authenticated_api_cred_exposure.rb",
+	"is_install_path": true,
+	"ref_name": "gather/rancher_authenticated_api_cred_exposure",
+	"check": true,
+	"post_auth": true,
+	"needs_cleanup": false
+}
