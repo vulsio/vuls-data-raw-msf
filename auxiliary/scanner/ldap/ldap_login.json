@@ -8,7 +8,7 @@
 	],
 	"description": "This module attempts to login to the LDAP service.",
 	"rport": 389,
-	"mod_time": "2023-10-02 13:23:15 +0000",
+	"mod_time": "2024-04-11 17:56:24 +0000",
 	"path": "/modules/auxiliary/scanner/ldap/ldap_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ldap/ldap_login",
