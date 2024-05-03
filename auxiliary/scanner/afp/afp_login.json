@@ -12,7 +12,7 @@
 		"URL-https://developer.apple.com/library/mac/documentation/networking/conceptual/afp/AFPSecurity/AFPSecurity.html"
 	],
 	"rport": 548,
-	"mod_time": "2024-01-07 15:02:53 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/afp/afp_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/afp/afp_login",

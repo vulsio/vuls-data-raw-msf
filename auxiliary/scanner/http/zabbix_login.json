@@ -23,7 +23,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2021-09-02 11:41:27 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/http/zabbix_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/zabbix_login",

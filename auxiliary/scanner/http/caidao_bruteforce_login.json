@@ -30,7 +30,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/http/caidao_bruteforce_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/caidao_bruteforce_login",

@@ -12,7 +12,7 @@
 		"URL-https://www.ietf.org/rfc/rfc1939.txt"
 	],
 	"rport": 110,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/pop3/pop3_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/pop3/pop3_login",

@@ -12,7 +12,7 @@
 	],
 	"description": "This module attempts to log into Apache Karaf's SSH. If the TRYDEFAULTCRED option is\n        set, then it will also try the default 'karaf' credential.",
 	"rport": 8101,
-	"mod_time": "2021-08-31 15:37:48 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/ssh/karaf_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssh/karaf_login",

@@ -11,7 +11,7 @@
 		"URL-https://freeswitch.org/confluence/display/FREESWITCH/mod_event_socket"
 	],
 	"rport": 8021,
-	"mod_time": "2022-07-01 12:22:31 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/misc/freeswitch_event_socket_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/misc/freeswitch_event_socket_login",

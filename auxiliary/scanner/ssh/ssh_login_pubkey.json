@@ -9,7 +9,7 @@
 	],
 	"description": "This module will test ssh logins on a range of machines using\n        a defined private key file, and report successful logins.\n        If you have loaded a database plugin and connected to a database\n        this module will record successful logins and hosts so you can\n        track your access.\n\n        Key files may be a single private key, or several private keys in a single\n        directory. Only a single passphrase is supported however, so it must either\n        be shared between subject keys or only belong to a single one.",
 	"rport": 22,
-	"mod_time": "2024-02-22 14:18:29 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/ssh/ssh_login_pubkey.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssh/ssh_login_pubkey",

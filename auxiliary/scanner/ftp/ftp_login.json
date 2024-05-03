@@ -18,7 +18,7 @@
 	"autofilter_services": [
 		"ftp"
 	],
-	"mod_time": "2023-04-18 23:44:58 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/ftp/ftp_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ftp/ftp_login",

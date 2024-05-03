@@ -1,0 +1,33 @@
+{
+	"name": "MSSQL Version Utility",
+	"fullname": "auxiliary/scanner/mssql/mssql_version",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Zach Goldman"
+	],
+	"description": "Executes a TDS7 pre-login request against the MSSQL instance to query for version information.",
+	"rport": 1433,
+	"autofilter_ports": [
+		1433,
+		1434,
+		1435,
+		14330,
+		2533,
+		9152,
+		2638
+	],
+	"autofilter_services": [
+		"ms-sql-s",
+		"ms-sql2000",
+		"sybase"
+	],
+	"mod_time": "2024-04-22 14:46:50 +0000",
+	"path": "/modules/auxiliary/scanner/mssql/mssql_version.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/mssql/mssql_version",
+	"session_types": [
+		"mssql"
+	],
+	"needs_cleanup": false
+}

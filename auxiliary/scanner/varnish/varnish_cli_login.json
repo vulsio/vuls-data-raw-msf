@@ -15,7 +15,7 @@
 		"URL-https://www.varnish-cache.org/trac/wiki/CLI"
 	],
 	"rport": 6082,
-	"mod_time": "2019-06-27 17:06:32 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/varnish/varnish_cli_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/varnish/varnish_cli_login",

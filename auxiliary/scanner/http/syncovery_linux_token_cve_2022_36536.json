@@ -29,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-12-14 08:59:53 +0000",
+	"mod_time": "2024-05-03 10:45:37 +0000",
 	"path": "/modules/auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/syncovery_linux_token_cve_2022_36536",
