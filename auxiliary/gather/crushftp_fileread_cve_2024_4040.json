@@ -1,0 +1,44 @@
+{
+	"name": "CrushFTP Unauthenticated Arbitrary File Read",
+	"fullname": "auxiliary/gather/crushftp_fileread_cve_2024_4040",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"remmons-r7"
+	],
+	"description": "This module leverages an unauthenticated server-side template injection vulnerability in CrushFTP < 10.7.1 and\n          < 11.1.0 (as well as legacy 9.x versions). Attackers can submit template injection payloads to the web API without\n          authentication. When attacker payloads are reflected in the server's responses, the payloads are evaluated. The\n          primary impact of the injection is arbitrary file read as root, which can result in authentication bypass, remote\n          code execution, and NetNTLMv2 theft (when the host OS is Windows and SMB egress traffic is permitted).",
+	"references": [
+		"CVE-2024-4040",
+		"URL-https://attackerkb.com/topics/20oYjlmfXa/cve-2024-4040/rapid7-analysis"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-05-03 12:01:48 +0000",
+	"path": "/modules/auxiliary/gather/crushftp_fileread_cve_2024_4040.rb",
+	"is_install_path": true,
+	"ref_name": "gather/crushftp_fileread_cve_2024_4040",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
