@@ -16,7 +16,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-04-22 10:44:57 +0000",
+	"mod_time": "2024-05-07 10:54:35 +0000",
 	"path": "/modules/auxiliary/scanner/smb/smb_enumusers.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/smb_enumusers",
