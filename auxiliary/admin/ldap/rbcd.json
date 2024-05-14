@@ -15,7 +15,7 @@
 		"URL-https://github.com/SecureAuthCorp/impacket/blob/3c6713e309cae871d685fa443d3e21b7026a2155/examples/rbcd.py"
 	],
 	"rport": 389,
-	"mod_time": "2023-02-24 13:50:04 +0000",
+	"mod_time": "2024-04-24 09:58:08 +0000",
 	"path": "/modules/auxiliary/admin/ldap/rbcd.rb",
 	"is_install_path": true,
 	"ref_name": "admin/ldap/rbcd",

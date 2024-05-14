@@ -1,0 +1,35 @@
+{
+	"name": "Windows Registry Security Descriptor Utility",
+	"fullname": "auxiliary/admin/registry_security_descriptor",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Christophe De La Fuente"
+	],
+	"description": "Read or write a Windows registry security descriptor remotely.\n\n          In READ mode, the `FILE` option can be set to specify where the\n          security descriptor should be written to.\n\n          The following format is used:\n          ```\n          key: <registry key>\n          security_info: <security information>\n          sd: <security descriptor as a hex string>\n          ```\n\n          In WRITE mode, the `FILE` option can be used to specify the information\n          needed to write the security descriptor to the remote registry. The file must\n          follow the same format as described above.",
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2024-05-13 12:01:54 +0000",
+	"path": "/modules/auxiliary/admin/registry_security_descriptor.rb",
+	"is_install_path": true,
+	"ref_name": "admin/registry_security_descriptor",
+	"notes": {
+		"SideEffects": [
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"smb"
+	],
+	"needs_cleanup": false
+}
