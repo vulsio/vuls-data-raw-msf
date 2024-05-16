@@ -19,7 +19,7 @@
 	"autofilter_services": [
 		"postgres"
 	],
-	"mod_time": "2024-05-03 10:45:37 +0000",
+	"mod_time": "2024-05-13 13:54:14 +0000",
 	"path": "/modules/auxiliary/scanner/postgres/postgres_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/postgres/postgres_login",

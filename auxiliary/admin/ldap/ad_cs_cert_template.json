@@ -15,7 +15,7 @@
 		"URL-https://github.com/ly4k/Certipy"
 	],
 	"rport": 389,
-	"mod_time": "2024-04-24 09:58:08 +0000",
+	"mod_time": "2024-05-02 13:57:13 +0000",
 	"path": "/modules/auxiliary/admin/ldap/ad_cs_cert_template.rb",
 	"is_install_path": true,
 	"ref_name": "admin/ldap/ad_cs_cert_template",
@@ -28,5 +28,8 @@
 			"config-changes"
 		]
 	},
+	"session_types": [
+		"ldap"
+	],
 	"needs_cleanup": false
 }

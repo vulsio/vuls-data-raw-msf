@@ -14,7 +14,7 @@
 		"URL-https://www.vmware.com/security/advisories/VMSA-2020-0006.html"
 	],
 	"rport": 636,
-	"mod_time": "2023-04-12 13:09:34 +0000",
+	"mod_time": "2024-05-02 13:57:13 +0000",
 	"path": "/modules/auxiliary/gather/vmware_vcenter_vmdir_ldap.rb",
 	"is_install_path": true,
 	"ref_name": "gather/vmware_vcenter_vmdir_ldap",
@@ -26,5 +26,8 @@
 			"crash-safe"
 		]
 	},
+	"session_types": [
+		"ldap"
+	],
 	"needs_cleanup": false
 }
