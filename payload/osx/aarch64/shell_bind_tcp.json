@@ -1,0 +1,17 @@
+{
+	"name": "OS X x64 Shell Bind TCP",
+	"fullname": "payload/osx/aarch64/shell_bind_tcp",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"alanfoster"
+	],
+	"description": "Bind an arbitrary command to an arbitrary port",
+	"platform": "OSX",
+	"arch": "aarch64",
+	"mod_time": "2024-02-01 01:05:40 +0000",
+	"path": "/modules/payloads/singles/osx/aarch64/shell_bind_tcp.rb",
+	"is_install_path": true,
+	"ref_name": "osx/aarch64/shell_bind_tcp",
+	"needs_cleanup": false
+}

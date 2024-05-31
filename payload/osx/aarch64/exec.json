@@ -1,0 +1,17 @@
+{
+	"name": "OSX aarch64 Execute Command",
+	"fullname": "payload/osx/aarch64/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"alanfoster"
+	],
+	"description": "Execute an arbitrary command",
+	"platform": "OSX",
+	"arch": "aarch64",
+	"mod_time": "2023-12-30 16:26:31 +0000",
+	"path": "/modules/payloads/singles/osx/aarch64/exec.rb",
+	"is_install_path": true,
+	"ref_name": "osx/aarch64/exec",
+	"needs_cleanup": false
+}
