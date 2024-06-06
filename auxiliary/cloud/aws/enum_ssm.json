@@ -10,7 +10,7 @@
 	"references": [
 		"URL-https://www.sempervictus.com/single-post/once-upon-a-cloudy-air-i-crossed-a-gap-which-wasn-t-there"
 	],
-	"mod_time": "2024-02-22 14:18:29 +0000",
+	"mod_time": "2024-06-03 11:02:15 +0000",
 	"path": "/modules/auxiliary/cloud/aws/enum_ssm.rb",
 	"is_install_path": true,
 	"ref_name": "cloud/aws/enum_ssm",

@@ -17,7 +17,7 @@
 	"autofilter_services": [
 		"telnet"
 	],
-	"mod_time": "2024-05-03 10:45:37 +0000",
+	"mod_time": "2024-06-03 11:02:15 +0000",
 	"path": "/modules/auxiliary/scanner/telnet/brocade_enable_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/telnet/brocade_enable_login",

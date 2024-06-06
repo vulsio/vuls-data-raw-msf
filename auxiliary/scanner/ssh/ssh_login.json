@@ -11,7 +11,7 @@
 		"CVE-1999-0502"
 	],
 	"rport": 22,
-	"mod_time": "2024-05-03 10:45:37 +0000",
+	"mod_time": "2024-05-21 11:00:24 +0000",
 	"path": "/modules/auxiliary/scanner/ssh/ssh_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssh/ssh_login",

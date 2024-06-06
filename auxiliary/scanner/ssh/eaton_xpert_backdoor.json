@@ -15,7 +15,7 @@
 		"URL-https://www.ctrlu.net/vuln/0006.html"
 	],
 	"rport": 22,
-	"mod_time": "2024-02-22 14:18:29 +0000",
+	"mod_time": "2024-06-03 11:02:15 +0000",
 	"path": "/modules/auxiliary/scanner/ssh/eaton_xpert_backdoor.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ssh/eaton_xpert_backdoor",
