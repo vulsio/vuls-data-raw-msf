@@ -8,16 +8,30 @@
 		"Yvain",
 		"Grant Willcox"
 	],
-	"description": "The module use the ZoomEye API to search ZoomEye. ZoomEye is a search\n          engine for cyberspace that lets the user find specific network\n          components(ip, services, etc.).\n          Mind to enclose the whole request with quotes and limit the span of filters:\n          `set zoomeye_dork 'country:\"france\"+some+query'`\n\n          Setting facets will output a simple report on the overall search. It's values are:\n          Host search: app, device, service, os, port, country, city\n          Web search: webapp, component, framework, frontend, server, waf, os, country, city\n\n          Possible filters values are:\n          Host search: app, ver, device, os, service, ip, cidr, hostname, port, city, country, asn\n          Web search: app, header, keywords, desc, title, ip, site, city, country",
+	"description": "The module use the ZoomEye API to search ZoomEye. ZoomEye is a search\n          engine for cyberspace that lets the user find specific network\n          components(ip, services, etc.).\n\n          Setting facets will output a simple report on the overall search. It's values are:\n          Host search: app, device, service, os, port, country, city\n          Web search: webapp, component, framework, frontend, server, waf, os, country, city\n\n          Possible filters values are:\n          Host search: app, ver, device, os, service, ip, cidr, hostname, port, city, country, asn\n          Web search: app, header, keywords, desc, title, ip, site, city, country",
 	"references": [
 		"URL-https://github.com/knownsec/ZoomEye-python",
 		"URL-https://www.zoomeye.org/api/doc",
 		"URL-https://www.zoomeye.org/help/manual"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-06-11 05:43:53 +0000",
 	"path": "/modules/auxiliary/gather/zoomeye_search.rb",
 	"is_install_path": true,
 	"ref_name": "gather/zoomeye_search",
-	"post_auth": true,
 	"needs_cleanup": false
 }
