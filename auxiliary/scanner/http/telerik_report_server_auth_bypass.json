@@ -1,0 +1,46 @@
+{
+	"name": "Telerik Report Server Auth Bypass",
+	"fullname": "auxiliary/scanner/http/telerik_report_server_auth_bypass",
+	"rank": 300,
+	"disclosure_date": "2024-06-04",
+	"type": "auxiliary",
+	"author": [
+		"SinSinology",
+		"Spencer McIntyre"
+	],
+	"description": "This module exploits an authentication bypass vulnerability in Telerik Report Server versions 10.0.24.305 and\n          prior which allows an unauthenticated attacker to create a new account with administrative privileges. The\n          vulnerability leverages the initial setup page which is still accessible once the setup process has completed.\n\n          If either USERNAME or PASSWORD are not specified, then a random value will be selected. The module will fail if\n          the specified USERNAME already exists.",
+	"references": [
+		"CVE-2024-4358",
+		"URL-https://summoning.team/blog/progress-report-server-rce-cve-2024-4358-cve-2024-1800/"
+	],
+	"rport": 83,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-06-07 11:27:42 +0000",
+	"path": "/modules/auxiliary/scanner/http/telerik_report_server_auth_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/telerik_report_server_auth_bypass",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
