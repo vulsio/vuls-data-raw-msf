@@ -1,0 +1,42 @@
+{
+	"name": "Check Point Security Gateway Arbitrary File Read",
+	"fullname": "auxiliary/gather/checkpoint_gateway_fileread_cve_2024_24919",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"remmons-r7"
+	],
+	"description": "This module leverages an unauthenticated arbitrary root file read vulnerability for\n          Check Point Security Gateway appliances. When the IPSec VPN or Mobile Access blades\n          are enabled on affected devices, traversal payloads can be used to read any files on\n          the local file system. Password hashes read from disk may be cracked, potentially\n          resulting in administrator-level access to the target device. This vulnerability is\n          tracked as CVE-2024-24919.",
+	"references": [
+		"URL-https://support.checkpoint.com/results/sk/sk182336",
+		"URL-https://www.rapid7.com/blog/post/2024/05/30/etr-cve-2024-24919-check-point-security-gateway-information-disclosure/",
+		"URL-https://labs.watchtowr.com/check-point-wrong-check-point-cve-2024-24919/"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-06-13 08:14:35 +0000",
+	"path": "/modules/auxiliary/gather/checkpoint_gateway_fileread_cve_2024_24919.rb",
+	"is_install_path": true,
+	"ref_name": "gather/checkpoint_gateway_fileread_cve_2024_24919",
+	"check": true,
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
