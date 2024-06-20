@@ -1,0 +1,43 @@
+{
+	"name": "SolarWinds Serv-U Unauthenticated Arbitrary File Read",
+	"fullname": "auxiliary/gather/solarwinds_servu_fileread_cve_2024_28995",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"sfewer-r7",
+		"Hussein Daher"
+	],
+	"description": "This module exploits an unauthenticated file read vulnerability, due to directory traversal, affecting\n          SolarWinds Serv-U FTP Server 15.4, Serv-U Gateway 15.4, and Serv-U MFT Server 15.4. All versions prior to\n          the vendor supplied hotfix \"15.4.2 Hotfix 2\" (version 15.4.2.157) are affected.",
+	"references": [
+		"CVE-2024-28995",
+		"URL-https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995",
+		"URL-https://attackerkb.com/topics/2k7UrkHyl3/cve-2024-28995/rapid7-analysis"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-06-19 13:20:52 +0000",
+	"path": "/modules/auxiliary/gather/solarwinds_servu_fileread_cve_2024_28995.rb",
+	"is_install_path": true,
+	"ref_name": "gather/solarwinds_servu_fileread_cve_2024_28995",
+	"check": true,
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
