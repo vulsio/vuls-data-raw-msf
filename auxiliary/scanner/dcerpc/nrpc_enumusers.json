@@ -1,0 +1,23 @@
+{
+	"name": "MS-NRPC Domain Users Enumeration",
+	"fullname": "auxiliary/scanner/dcerpc/nrpc_enumusers",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Haidar Kabibo <https://x.com/haider_kabibo>"
+	],
+	"description": "This module will enumerate valid Domain Users via no authentication against MS-NRPC interface.\n          It calls DsrGetDcNameEx2 to check if the domain user account exists or not. It has been tested with\n          Windows servers 2012, 2016, 2019 and 2022.",
+	"references": [
+		"URL-https://github.com/klsecservices/Publications/blob/master/A_journey_into_forgotten_Null_Session_and_MS-RPC_interfaces.pdf"
+	],
+	"mod_time": "2024-06-24 16:06:38 +0000",
+	"path": "/modules/auxiliary/scanner/dcerpc/nrpc_enumusers.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/dcerpc/nrpc_enumusers",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
