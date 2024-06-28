@@ -11,7 +11,7 @@
 		"URL-https://redis.io/topics/protocol"
 	],
 	"rport": 6379,
-	"mod_time": "2024-05-03 10:45:37 +0000",
+	"mod_time": "2024-06-28 10:21:08 +0000",
 	"path": "/modules/auxiliary/scanner/redis/redis_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/redis/redis_login",
