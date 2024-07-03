@@ -1,0 +1,24 @@
+{
+	"name": "Azure CLI Credentials Gatherer",
+	"fullname": "post/multi/gather/azure_cli_creds",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"James Otten <jamesotten1@gmail.com>",
+		"h00die"
+	],
+	"description": "This module will collect the Azure CLI 2.0+ (az cli) settings files\n          for all users on a given target. These configuration files contain\n          JWT tokens used to authenticate users and other subscription information.\n          Once tokens are stolen from one host, they can be used to impersonate\n          the user from a different host.",
+	"platform": "Linux,OSX,Windows",
+	"mod_time": "2024-06-27 10:45:05 +0000",
+	"path": "/modules/post/multi/gather/azure_cli_creds.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/azure_cli_creds",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
+}
