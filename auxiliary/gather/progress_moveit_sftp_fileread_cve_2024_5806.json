@@ -1,0 +1,31 @@
+{
+	"name": "Progress MOVEit SFTP Authentication Bypass for Arbitrary File Read",
+	"fullname": "auxiliary/gather/progress_moveit_sftp_fileread_cve_2024_5806",
+	"rank": 300,
+	"disclosure_date": "2024-06-25",
+	"type": "auxiliary",
+	"author": [
+		"sfewer-r7"
+	],
+	"description": "This module exploits CVE-2024-5806, an authentication bypass vulnerability in the MOVEit Transfer SFTP service. The\n          following version are affected:\n\n          * MOVEit Transfer 2023.0.x (Fixed in 2023.0.11)\n          * MOVEit Transfer 2023.1.x (Fixed in 2023.1.6)\n          * MOVEit Transfer 2024.0.x (Fixed in 2024.0.2)\n\n          The module can establish an authenticated SFTP session for a MOVEit Transfer user. The module allows for both listing\n          the contents of a directory, and the reading of an arbitrary file.",
+	"references": [
+		"CVE-2024-5806",
+		"URL-https://attackerkb.com/topics/44EZLG2xgL/cve-2024-5806/rapid7-analysis"
+	],
+	"rport": 22,
+	"mod_time": "2024-07-03 17:12:03 +0000",
+	"path": "/modules/auxiliary/gather/progress_moveit_sftp_fileread_cve_2024_5806.rb",
+	"is_install_path": true,
+	"ref_name": "gather/progress_moveit_sftp_fileread_cve_2024_5806",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
