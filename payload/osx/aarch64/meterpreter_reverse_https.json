@@ -12,7 +12,7 @@
 	"description": "Run the Meterpreter / Mettle server payload (stageless)",
 	"platform": "OSX",
 	"arch": "aarch64",
-	"mod_time": "2024-06-24 05:33:30 +0000",
+	"mod_time": "2024-07-16 11:47:14 +0000",
 	"path": "/modules/payloads/singles/osx/aarch64/meterpreter_reverse_https.rb",
 	"is_install_path": true,
 	"ref_name": "osx/aarch64/meterpreter_reverse_https",
