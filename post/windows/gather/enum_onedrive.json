@@ -8,7 +8,7 @@
 	],
 	"description": "This module will identify the Office 365 OneDrive endpoints for both business and personal accounts\n          across all users (providing access is permitted). It is useful for identifying document libraries\n          that may otherwise not be obvious which could contain sensitive or useful information.",
 	"platform": "Windows",
-	"mod_time": "2023-02-03 18:12:53 +0000",
+	"mod_time": "2024-07-24 16:42:43 +0000",
 	"path": "/modules/post/windows/gather/enum_onedrive.rb",
 	"is_install_path": true,
 	"ref_name": "windows/gather/enum_onedrive",

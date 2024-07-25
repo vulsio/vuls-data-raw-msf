@@ -8,7 +8,7 @@
 		"c2Vlcgo"
 	],
 	"description": "This module gathers information from SaltStack Salt masters and minions.\n          Data gathered from minions: 1. salt minion config file\n          Data gathered from masters: 1. minion list (denied, pre, rejected, accepted)\n          2. minion hostname/ip/os (depending on module settings)\n          3. SLS\n          4. roster, any SSH keys are retrieved and saved to creds, SSH passwords printed\n          5. minion config files\n          6. pillar data",
-	"mod_time": "2023-12-23 13:52:52 +0000",
+	"mod_time": "2024-07-24 16:42:43 +0000",
 	"path": "/modules/post/multi/gather/saltstack_salt.rb",
 	"is_install_path": true,
 	"ref_name": "multi/gather/saltstack_salt",

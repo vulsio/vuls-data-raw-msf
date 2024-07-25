@@ -11,7 +11,7 @@
 		"URL-https://blog.kali-team.cn/Metasploit-dbeaver-9f42e26241c94ba785dce5f1e69697aa"
 	],
 	"platform": "Linux,OSX,Unix,Windows",
-	"mod_time": "2023-01-11 20:00:09 +0000",
+	"mod_time": "2024-07-24 16:42:43 +0000",
 	"path": "/modules/post/multi/gather/dbeaver.rb",
 	"is_install_path": true,
 	"ref_name": "multi/gather/dbeaver",

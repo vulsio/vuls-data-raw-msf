@@ -30,7 +30,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-07-24 16:42:43 +0000",
 	"path": "/modules/auxiliary/scanner/http/fortimail_login_bypass_detection.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/fortimail_login_bypass_detection",

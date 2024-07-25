@@ -26,7 +26,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-09-18 06:56:18 +0000",
+	"mod_time": "2024-07-24 16:42:43 +0000",
 	"path": "/modules/auxiliary/scanner/http/emby_ssrf_scanner.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/emby_ssrf_scanner",
