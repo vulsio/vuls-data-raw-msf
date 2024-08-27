@@ -1,0 +1,51 @@
+{
+	"name": "Control iD iDSecure Authentication Bypass (CVE-2023-6329)",
+	"fullname": "auxiliary/admin/http/idsecure_auth_bypass",
+	"rank": 300,
+	"disclosure_date": "2023-11-27",
+	"type": "auxiliary",
+	"author": [
+		"Michael Heinzl",
+		"Tenable"
+	],
+	"description": "This module exploits an improper access control vulnerability (CVE-2023-6329) in Control iD iDSecure <= v4.7.43.0. It allows an\n          unauthenticated remote attacker to compute valid credentials and to add a new administrative user to the web interface of the product.",
+	"references": [
+		"CVE-2023-6329",
+		"URL-https://www.tenable.com/security/research/tra-2023-36"
+	],
+	"rport": 30443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-08-19 21:17:16 +0000",
+	"path": "/modules/auxiliary/admin/http/idsecure_auth_bypass.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/idsecure_auth_bypass",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
