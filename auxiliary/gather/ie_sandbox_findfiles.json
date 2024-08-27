@@ -14,7 +14,7 @@
 		"URL-https://securify.nl/advisory/SFY20160301/internet_explorer_iframe_sandbox_local_file_name_disclosure_vulnerability.html"
 	],
 	"platform": "Windows",
-	"mod_time": "2020-10-02 17:38:06 +0000",
+	"mod_time": "2024-06-06 14:53:28 +0000",
 	"path": "/modules/auxiliary/gather/ie_sandbox_findfiles.rb",
 	"is_install_path": true,
 	"ref_name": "gather/ie_sandbox_findfiles",

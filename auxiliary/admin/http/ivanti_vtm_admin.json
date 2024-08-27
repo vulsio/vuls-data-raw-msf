@@ -1,0 +1,53 @@
+{
+	"name": "Ivanti Virtual Traffic Manager Authentication Bypass (CVE-2024-7593)",
+	"fullname": "auxiliary/admin/http/ivanti_vtm_admin",
+	"rank": 300,
+	"disclosure_date": "2024-08-05",
+	"type": "auxiliary",
+	"author": [
+		"Michael Heinzl",
+		"ohnoisploited",
+		"mxalias"
+	],
+	"description": "This module exploits an access control issue in Ivanti Virtual Traffic Manager (vTM), by adding a new\n          administrative user to the web interface of the application.\n\n          Affected versions include 22.7R1, 22.6R1, 22.5R1, 22.3R2, 22.3, 22.2.",
+	"references": [
+		"PACKETSTORM-179906",
+		"CVE-2024-7593",
+		"URL-https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Virtual-Traffic-Manager-vTM-CVE-2024-7593?language=en_US"
+	],
+	"rport": 9090,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-08-16 15:43:34 +0000",
+	"path": "/modules/auxiliary/admin/http/ivanti_vtm_admin.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/ivanti_vtm_admin",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
