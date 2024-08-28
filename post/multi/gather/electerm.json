@@ -1,0 +1,23 @@
+{
+	"name": "Gather electerm Passwords",
+	"fullname": "post/multi/gather/electerm",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Kali-Team <kali-team@qq.com>"
+	],
+	"description": "This module will determine if electerm is installed on the target system and, if it is, it will try to\n          dump all saved session information from the target. The passwords for these saved sessions will then be decrypted\n          where possible.",
+	"references": [
+		"URL-https://blog.kali-team.cn/metasploit-electerm-6854f3d868eb45eab6951acc463a910d"
+	],
+	"platform": "Linux,OSX,Unix,Windows",
+	"mod_time": "2024-08-22 22:28:01 +0000",
+	"path": "/modules/post/multi/gather/electerm.rb",
+	"is_install_path": true,
+	"ref_name": "multi/gather/electerm",
+	"session_types": [
+		"meterpreter",
+		"shell",
+		"powershell"
+	]
+}
