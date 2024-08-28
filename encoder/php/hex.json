@@ -1,0 +1,17 @@
+{
+	"name": "PHP Hex Encoder",
+	"fullname": "encoder/php/hex",
+	"rank": 500,
+	"type": "encoder",
+	"author": [
+		"Julien Voisin"
+	],
+	"description": "This encoder returns a hex string encapsulated in\n        eval(hex2bin()), increasing the size by a bit more than\n        a factor two.",
+	"platform": "All",
+	"arch": "php",
+	"mod_time": "2024-08-28 10:46:48 +0000",
+	"path": "/modules/encoders/php/hex.rb",
+	"is_install_path": true,
+	"ref_name": "php/hex",
+	"needs_cleanup": false
+}
