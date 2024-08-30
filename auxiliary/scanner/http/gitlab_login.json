@@ -26,7 +26,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2024-05-03 10:45:37 +0000",
+	"mod_time": "2024-08-10 12:06:20 +0000",
 	"path": "/modules/auxiliary/scanner/http/gitlab_login.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/gitlab_login",
