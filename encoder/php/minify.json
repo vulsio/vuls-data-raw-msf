@@ -1,0 +1,17 @@
+{
+	"name": "PHP Minify Encoder",
+	"fullname": "encoder/php/minify",
+	"rank": 500,
+	"type": "encoder",
+	"author": [
+		"Julien Voisin"
+	],
+	"description": "This encoder minifies a PHP payload by removing leasing spaces, trailing\n        new lines, comments, …",
+	"platform": "All",
+	"arch": "php",
+	"mod_time": "2024-09-01 22:53:17 +0000",
+	"path": "/modules/encoders/php/minify.rb",
+	"is_install_path": true,
+	"ref_name": "php/minify",
+	"needs_cleanup": false
+}
