@@ -29,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2024-07-18 11:56:22 +0000",
+	"mod_time": "2024-07-19 12:33:13 +0000",
 	"path": "/modules/auxiliary/gather/magento_xxe_cve_2024_34102.rb",
 	"is_install_path": true,
 	"ref_name": "gather/magento_xxe_cve_2024_34102",
