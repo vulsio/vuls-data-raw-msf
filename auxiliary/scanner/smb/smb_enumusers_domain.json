@@ -5,7 +5,8 @@
 	"type": "auxiliary",
 	"author": [
 		"natron <natron@metasploit.com>",
-		"Joshua D. Abraham <jabra@praetorian.com>"
+		"Joshua D. Abraham <jabra@praetorian.com>",
+		"NtAlexio2 <ntalexio2@gmail.com>"
 	],
 	"description": "Determine what domain users are logged into a remote system via a DCERPC to NetWkstaUserEnum.",
 	"references": [
