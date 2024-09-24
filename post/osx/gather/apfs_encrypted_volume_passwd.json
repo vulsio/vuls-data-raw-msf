@@ -14,7 +14,7 @@
 		"URL-https://www.mac4n6.com/blog/2018/3/21/uh-oh-unified-logs-in-high-sierra-1013-show-plaintext-password-for-apfs-encrypted-external-volumes-via-disk-utilityapp"
 	],
 	"platform": "OSX",
-	"arch": "x86, x86_64, x64, mips, mipsle, mipsbe, mips64, mips64le, ppc, ppce500v2, ppc64, ppc64le, cbea, cbea64, sparc, sparc64, armle, armbe, aarch64, cmd, php, tty, java, ruby, dalvik, python, nodejs, firefox, zarch, r",
+	"arch": "x86, x86_64, x64, mips, mipsle, mipsbe, mips64, mips64le, ppc, ppce500v2, ppc64, ppc64le, cbea, cbea64, sparc, sparc64, armle, armbe, aarch64, cmd, php, tty, java, ruby, dalvik, python, nodejs, firefox, zarch, r, riscv32be, riscv32le, riscv64be, riscv64le, loongarch64",
 	"mod_time": "2023-02-08 13:47:34 +0000",
 	"path": "/modules/post/osx/gather/apfs_encrypted_volume_passwd.rb",
 	"is_install_path": true,

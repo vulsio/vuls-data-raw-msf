@@ -12,6 +12,7 @@
 	"references": [
 		"URL-https://docs.microsoft.com/en-us/windows/win32/api/lmwksta/nf-lmwksta-netwkstauserenum"
 	],
+	"rport": 445,
 	"autofilter_ports": [
 		139,
 		445
@@ -20,7 +21,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-02-02 14:26:43 +0000",
+	"mod_time": "2024-09-17 09:59:42 +0000",
 	"path": "/modules/auxiliary/scanner/smb/smb_enumusers_domain.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/smb_enumusers_domain",
