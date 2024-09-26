@@ -1,0 +1,45 @@
+{
+	"name": "Vicidial SQL Injection Time-based Admin Credentials Enumeration",
+	"fullname": "auxiliary/scanner/http/vicidial_sql_enum_users_pass",
+	"rank": 300,
+	"disclosure_date": "2024-09-10",
+	"type": "auxiliary",
+	"author": [
+		"Valentin Lobstein",
+		"Jaggar Henry of KoreLogic, Inc."
+	],
+	"description": "This module exploits a time-based SQL injection vulnerability in VICIdial, allowing attackers\n          to dump admin credentials (usernames and passwords) via SQL injection.",
+	"references": [
+		"URL-https://korelogic.com/Resources/Advisories/KL-001-2024-011.txt",
+		"CVE-2024-8503"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-09-12 22:58:44 +0000",
+	"path": "/modules/auxiliary/scanner/http/vicidial_sql_enum_users_pass.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/vicidial_sql_enum_users_pass",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
