@@ -10,7 +10,7 @@
 	"description": "Listen for a connection and spawn a command shell via perl (persistent)",
 	"platform": "PHP",
 	"arch": "php",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2024-09-17 21:39:45 +0000",
 	"path": "/modules/payloads/singles/php/bind_perl.rb",
 	"is_install_path": true,
 	"ref_name": "php/bind_perl",
