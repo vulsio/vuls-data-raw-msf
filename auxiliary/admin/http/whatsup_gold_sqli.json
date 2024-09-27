@@ -1,0 +1,53 @@
+{
+	"name": "WhatsUp Gold SQL Injection (CVE-2024-6670)",
+	"fullname": "auxiliary/admin/http/whatsup_gold_sqli",
+	"rank": 300,
+	"disclosure_date": "2024-08-29",
+	"type": "auxiliary",
+	"author": [
+		"Michael Heinzl",
+		"Sina Kheirkhah ( <Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)>"
+	],
+	"description": "This module exploits a SQL injection vulnerability in WhatsUp Gold, by changing the password of an existing user (such as of the default admin account)\n          to an attacker-controlled one.\n\n          WhatsUp Gold versions < v24.0.0 are affected.",
+	"references": [
+		"CVE-2024-6670",
+		"URL-https://community.progress.com/s/article/WhatsUp-Gold-Security-Bulletin-August-2024",
+		"URL-https://summoning.team/blog/progress-whatsup-gold-sqli-cve-2024-6670/",
+		"URL-https://www.zerodayinitiative.com/advisories/ZDI-24-1185/"
+	],
+	"rport": 443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-09-26 04:01:36 +0000",
+	"path": "/modules/auxiliary/admin/http/whatsup_gold_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/whatsup_gold_sqli",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"Reliability": [
+			"repeatable-session"
+		],
+		"SideEffects": [
+			"ioc-in-logs",
+			"config-changes"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
