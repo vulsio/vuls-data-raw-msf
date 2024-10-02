@@ -8,7 +8,7 @@
 	],
 	"description": "This module will run a Pseudo-Shell.",
 	"platform": "Linux",
-	"mod_time": "2024-08-13 15:51:09 +0000",
+	"mod_time": "2024-10-02 13:15:12 +0000",
 	"path": "/modules/post/linux/manage/pseudo_shell.rb",
 	"is_install_path": true,
 	"ref_name": "linux/manage/pseudo_shell",
