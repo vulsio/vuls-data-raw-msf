@@ -1,0 +1,21 @@
+{
+	"name": "cups-browsed Information Disclosure",
+	"fullname": "auxiliary/scanner/misc/cups_browsed_info_disclosure",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"evilsocket",
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "Retrieve CUPS version and kernel version information from cups-browsed services.",
+	"references": [
+		"URL-https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8",
+		"URL-https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/"
+	],
+	"rport": 631,
+	"mod_time": "2024-09-28 02:35:39 +0000",
+	"path": "/modules/auxiliary/scanner/misc/cups_browsed_info_disclosure.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/misc/cups_browsed_info_disclosure",
+	"needs_cleanup": false
+}
