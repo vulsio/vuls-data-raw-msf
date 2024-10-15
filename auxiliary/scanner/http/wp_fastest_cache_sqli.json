@@ -1,0 +1,46 @@
+{
+	"name": "WordPress WP Fastest Cache Unauthenticated SQLi (CVE-2023-6063)",
+	"fullname": "auxiliary/scanner/http/wp_fastest_cache_sqli",
+	"rank": 300,
+	"disclosure_date": "2023-11-14",
+	"type": "auxiliary",
+	"author": [
+		"Valentin Lobstein",
+		"Julien Voisin",
+		"Alex Sanford"
+	],
+	"description": "WP Fastest Cache, a WordPress plugin,\n          prior to version 1.2.2, is vulnerable to an unauthenticated SQL injection\n          vulnerability via the 'wordpress_logged_in' cookie. This can be exploited via a blind SQL injection attack without requiring any authentication.",
+	"references": [
+		"CVE-2023-6063",
+		"URL-https://wpscan.com/blog/unauthenticated-sql-injection-vulnerability-addressed-in-wp-fastest-cache-1-2-2/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-10-14 11:14:47 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_fastest_cache_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_fastest_cache_sqli",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
