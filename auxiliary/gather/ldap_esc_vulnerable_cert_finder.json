@@ -8,13 +8,14 @@
 		"Grant Willcox",
 		"Spencer McIntyre"
 	],
-	"description": "This module allows users to query a LDAP server for vulnerable certificate\n          templates and will print these certificates out in a table along with which\n          attack they are vulnerable to and the SIDs that can be used to enroll in that\n          certificate template.\n\n          Additionally the module will also print out a list of known certificate servers\n          along with info about which vulnerable certificate templates the certificate server\n          allows enrollment in and which SIDs are authorized to use that certificate server to\n          perform this enrollment operation.\n\n          Currently the module is capable of checking for certificates that are vulnerable to ESC1, ESC2, ESC3, and\n          ESC13. The module is limited to checking for these techniques due to them being identifiable remotely from a\n          normal user account by analyzing the objects in LDAP.",
+	"description": "This module allows users to query a LDAP server for vulnerable certificate\n          templates and will print these certificates out in a table along with which\n          attack they are vulnerable to and the SIDs that can be used to enroll in that\n          certificate template.\n\n          Additionally the module will also print out a list of known certificate servers\n          along with info about which vulnerable certificate templates the certificate server\n          allows enrollment in and which SIDs are authorized to use that certificate server to\n          perform this enrollment operation.\n\n          Currently the module is capable of checking for certificates that are vulnerable to ESC1, ESC2, ESC3, ESC13,\n          and ESC15. The module is limited to checking for these techniques due to them being identifiable remotely from\n          a normal user account by analyzing the objects in LDAP.",
 	"references": [
 		"URL-https://posts.specterops.io/certified-pre-owned-d95910965cd2",
-		"URL-https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53"
+		"URL-https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53",
+		"URL-https://trustedsec.com/blog/ekuwu-not-just-another-ad-cs-esc"
 	],
 	"rport": 389,
-	"mod_time": "2024-10-16 21:23:21 +0000",
+	"mod_time": "2024-10-10 09:24:48 +0000",
 	"path": "/modules/auxiliary/gather/ldap_esc_vulnerable_cert_finder.rb",
 	"is_install_path": true,
 	"ref_name": "gather/ldap_esc_vulnerable_cert_finder",
