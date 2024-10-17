@@ -14,7 +14,7 @@
 		"URL-https://posts.specterops.io/adcs-esc13-abuse-technique-fda4272fbd53"
 	],
 	"rport": 389,
-	"mod_time": "2024-08-23 16:49:30 +0000",
+	"mod_time": "2024-10-16 21:23:21 +0000",
 	"path": "/modules/auxiliary/gather/ldap_esc_vulnerable_cert_finder.rb",
 	"is_install_path": true,
 	"ref_name": "gather/ldap_esc_vulnerable_cert_finder",
