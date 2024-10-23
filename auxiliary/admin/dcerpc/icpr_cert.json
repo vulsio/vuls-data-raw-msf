@@ -9,7 +9,7 @@
 		"Oliver Lyak",
 		"Spencer McIntyre"
 	],
-	"description": "Request certificates via MS-ICPR (Active Directory Certificate Services). Depending on the certificate\n          template's configuration the resulting certificate can be used for various operations such as authentication.\n          PFX certificate files that are saved are encrypted with a blank password.\n\n          This module is capable of exploiting ESC1, ESC2, ESC3 and ESC13.",
+	"description": "Request certificates via MS-ICPR (Active Directory Certificate Services). Depending on the certificate\n          template's configuration the resulting certificate can be used for various operations such as authentication.\n          PFX certificate files that are saved are encrypted with a blank password.\n\n          This module is capable of exploiting ESC1, ESC2, ESC3, ESC13 and ESC15.",
 	"references": [
 		"URL-https://github.com/GhostPack/Certify",
 		"URL-https://github.com/ly4k/Certipy"
@@ -23,7 +23,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-03-29 15:29:52 +0000",
+	"mod_time": "2024-10-22 14:41:02 +0000",
 	"path": "/modules/auxiliary/admin/dcerpc/icpr_cert.rb",
 	"is_install_path": true,
 	"ref_name": "admin/dcerpc/icpr_cert",
