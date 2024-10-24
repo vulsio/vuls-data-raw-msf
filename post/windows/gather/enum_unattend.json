@@ -6,16 +6,19 @@
 	"author": [
 		"Sean Verity <veritysr1980@gmail.com>",
 		"sinn3r <sinn3r@metasploit.com>",
-		"Ben Campbell <eat_meatballs@hotmail.co.uk>"
+		"Ben Campbell <eat_meatballs@hotmail.co.uk>",
+		"GhostlyBox"
 	],
-	"description": "This module will check the file system for a copy of unattend.xml and/or\n          autounattend.xml found in Windows Vista, or newer Windows systems.  And then\n          extract sensitive information such as usernames and decoded passwords.",
+	"description": "This module will check the file system for a copy of unattend.xml and/or\n          autounattend.xml found in Windows Vista, or newer Windows systems.  And then\n          extract sensitive information such as usernames and decoded passwords.  Also\n          checks for '.vmimport' files that could have been created by the AWS EC2 VMIE service.",
 	"references": [
 		"URL-http://technet.microsoft.com/en-us/library/ff715801",
 		"URL-http://technet.microsoft.com/en-us/library/cc749415(v=ws.10).aspx",
-		"URL-http://technet.microsoft.com/en-us/library/c026170e-40ef-4191-98dd-0b9835bfa580"
+		"URL-http://technet.microsoft.com/en-us/library/c026170e-40ef-4191-98dd-0b9835bfa580",
+		"URL-https://aws.amazon.com/security/security-bulletins/AWS-2024-006/",
+		"URL-https://www.immersivelabs.com/blog/the-return-of-unattend-xml-revenge-of-the-cleartext-credentials/"
 	],
 	"platform": "Windows",
-	"mod_time": "2023-02-08 13:47:34 +0000",
+	"mod_time": "2024-10-23 23:41:20 +0000",
 	"path": "/modules/post/windows/gather/enum_unattend.rb",
 	"is_install_path": true,
 	"ref_name": "windows/gather/enum_unattend",
