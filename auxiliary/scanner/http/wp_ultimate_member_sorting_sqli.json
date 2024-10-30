@@ -1,0 +1,46 @@
+{
+	"name": "WordPress Ultimate Member SQL Injection (CVE-2024-1071)",
+	"fullname": "auxiliary/scanner/http/wp_ultimate_member_sorting_sqli",
+	"rank": 300,
+	"disclosure_date": "2024-02-10",
+	"type": "auxiliary",
+	"author": [
+		"Christiaan Swiers",
+		"Valentin Lobstein"
+	],
+	"description": "The Ultimate Member plugin for WordPress up to version 2.8.2 is vulnerable to SQL injection via\n          the 'sorting' parameter. This allows unauthenticated attackers to exploit blind SQL injections and\n          extract sensitive information from the database.",
+	"references": [
+		"CVE-2024-1071",
+		"URL-https://github.com/gbrsh/CVE-2024-1071",
+		"URL-https://www.wordfence.com/blog/2024/02/2063-bounty-awarded-for-unauthenticated-sql-injection-vulnerability-patched-in-ultimate-member-wordpress-plugin/"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-10-29 19:41:47 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_ultimate_member_sorting_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_ultimate_member_sorting_sqli",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
