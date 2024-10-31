@@ -1,0 +1,48 @@
+{
+	"name": "SolarWinds Web Help Desk Backdoor (CVE-2024-28987)",
+	"fullname": "auxiliary/gather/solarwinds_webhelpdesk_backdoor",
+	"rank": 300,
+	"disclosure_date": "2024-08-22",
+	"type": "auxiliary",
+	"author": [
+		"Michael Heinzl",
+		"Zach Hanley"
+	],
+	"description": "This module exploits a backdoor in SolarWinds Web Help Desk <= v12.8.3 to retrieve all tickets from the system.",
+	"references": [
+		"CVE-2024-28987",
+		"URL-https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28987",
+		"URL-https://support.solarwinds.com/SuccessCenter/s/article/SolarWinds-Web-Help-Desk-12-8-3-Hotfix-2",
+		"URL-https://www.horizon3.ai/attack-research/cve-2024-28987-solarwinds-web-help-desk-hardcoded-credential-vulnerability-deep-dive/"
+	],
+	"rport": 8443,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-10-31 10:56:56 +0000",
+	"path": "/modules/auxiliary/gather/solarwinds_webhelpdesk_backdoor.rb",
+	"is_install_path": true,
+	"ref_name": "gather/solarwinds_webhelpdesk_backdoor",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}

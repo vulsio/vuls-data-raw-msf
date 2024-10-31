@@ -14,7 +14,7 @@
 	],
 	"platform": "Windows",
 	"arch": "x86",
-	"mod_time": "2024-01-23 09:45:43 +0000",
+	"mod_time": "2024-10-30 16:19:59 +0000",
 	"path": "/modules/payloads/singles/windows/meterpreter_bind_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "windows/meterpreter_bind_tcp",

@@ -1,0 +1,28 @@
+{
+	"name": "Advanced Browser Data Extraction for Chromium and Gecko Browsers",
+	"fullname": "post/windows/gather/enum_browsers",
+	"rank": 300,
+	"type": "post",
+	"author": [
+		"Alexander \"xaitax\" Hagenah"
+	],
+	"description": "This post-exploitation module extracts sensitive browser data from both Chromium-based and Gecko-based browsers\n          on the target system. It supports the decryption of passwords and cookies using Windows Data Protection API (DPAPI)\n          and can extract additional data such as browsing history, keyword search history, download history, autofill data,\n          credit card information, browser cache and installed extensions.",
+	"platform": "Windows",
+	"arch": "x64, x86",
+	"mod_time": "2024-10-30 15:43:02 +0000",
+	"path": "/modules/post/windows/gather/enum_browsers.rb",
+	"is_install_path": true,
+	"ref_name": "windows/gather/enum_browsers",
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs",
+			"artifacts-on-disk"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"session_types": [
+		"meterpreter"
+	]
+}
