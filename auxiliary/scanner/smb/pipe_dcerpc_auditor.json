@@ -7,6 +7,7 @@
 		"hdm <x@hdm.io>"
 	],
 	"description": "Determine what DCERPC services are accessible over a SMB pipe",
+	"rport": 445,
 	"autofilter_ports": [
 		139,
 		445
@@ -15,7 +16,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-02-02 14:26:43 +0000",
+	"mod_time": "2024-10-13 13:38:05 +0000",
 	"path": "/modules/auxiliary/scanner/smb/pipe_dcerpc_auditor.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/pipe_dcerpc_auditor",
