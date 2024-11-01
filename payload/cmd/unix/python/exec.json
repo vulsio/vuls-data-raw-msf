@@ -1,0 +1,17 @@
+{
+	"name": "Python Exec, Python Execute Command",
+	"fullname": "payload/cmd/unix/python/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Execute a Python payload from a command.\n\nExecute an arbitrary OS command. Compatible with Python 2.7 and 3.4+.",
+	"platform": "Unix",
+	"arch": "cmd",
+	"mod_time": "2022-11-04 00:33:03 +0000",
+	"path": "/modules/payloads/adapters/cmd/unix/python.rb",
+	"is_install_path": true,
+	"ref_name": "cmd/unix/python/exec",
+	"needs_cleanup": false
+}

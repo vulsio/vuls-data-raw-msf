@@ -1,0 +1,17 @@
+{
+	"name": "Python Execute Command",
+	"fullname": "payload/python/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"Spencer McIntyre"
+	],
+	"description": "Execute an arbitrary OS command. Compatible with Python 2.7 and 3.4+.",
+	"platform": "Python",
+	"arch": "python",
+	"mod_time": "2024-10-04 10:43:40 +0000",
+	"path": "/modules/payloads/singles/python/exec.rb",
+	"is_install_path": true,
+	"ref_name": "python/exec",
+	"needs_cleanup": false
+}
