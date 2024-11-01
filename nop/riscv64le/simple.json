@@ -1,0 +1,17 @@
+{
+	"name": "Simple",
+	"fullname": "nop/riscv64le/simple",
+	"rank": 300,
+	"type": "nop",
+	"author": [
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "Simple NOP generator",
+	"platform": "All",
+	"arch": "riscv64le",
+	"mod_time": "2024-10-01 02:46:28 +0000",
+	"path": "/modules/nops/riscv64le/simple.rb",
+	"is_install_path": true,
+	"ref_name": "riscv64le/simple",
+	"needs_cleanup": false
+}

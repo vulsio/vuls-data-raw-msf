@@ -1,0 +1,17 @@
+{
+	"name": "Linux Reboot",
+	"fullname": "payload/linux/riscv32le/reboot",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "A very small shellcode for rebooting the system using\n          the reboot syscall. This payload is sometimes helpful\n          for testing purposes.",
+	"platform": "Linux",
+	"arch": "riscv32le",
+	"mod_time": "2024-10-01 02:43:44 +0000",
+	"path": "/modules/payloads/singles/linux/riscv32le/reboot.rb",
+	"is_install_path": true,
+	"ref_name": "linux/riscv32le/reboot",
+	"needs_cleanup": false
+}

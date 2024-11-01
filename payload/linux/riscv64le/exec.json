@@ -1,0 +1,22 @@
+{
+	"name": "Linux Execute Command",
+	"fullname": "payload/linux/riscv64le/exec",
+	"rank": 300,
+	"type": "payload",
+	"author": [
+		"modexp",
+		"bcoles <bcoles@gmail.com>"
+	],
+	"description": "Execute an arbitrary command",
+	"references": [
+		"URL-https://modexp.wordpress.com/2022/05/02/shellcode-risc-v-linux/",
+		"URL-https://github.com/odzhan/shellcode/blob/master/os/linux/riscv64/cmd.s"
+	],
+	"platform": "Linux",
+	"arch": "riscv64le",
+	"mod_time": "2024-10-05 00:01:41 +0000",
+	"path": "/modules/payloads/singles/linux/riscv64le/exec.rb",
+	"is_install_path": true,
+	"ref_name": "linux/riscv64le/exec",
+	"needs_cleanup": false
+}
