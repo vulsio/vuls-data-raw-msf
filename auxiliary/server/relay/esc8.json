@@ -1,0 +1,33 @@
+{
+	"name": "ESC8 Relay: SMB to HTTP(S)",
+	"fullname": "auxiliary/server/relay/esc8",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"bwatters-r7",
+		"jhicks-r7",
+		"Spencer McIntyre"
+	],
+	"description": "This module creates an SMB server and then relays the credentials passed to it\n        to an HTTP server to gain an authenticated connection.  Once that connection is\n        established, the module makes an authenticated request for a certificate based\n        on a given template.",
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-11-04 13:37:23 +0000",
+	"path": "/modules/auxiliary/server/relay/esc8.rb",
+	"is_install_path": true,
+	"ref_name": "server/relay/esc8",
+	"needs_cleanup": false
+}
