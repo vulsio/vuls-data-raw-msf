@@ -1,0 +1,42 @@
+{
+	"name": "JetBrains TeamCity Login Scanner",
+	"fullname": "auxiliary/scanner/teamcity/teamcity_login",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"adfoster-r7",
+		"sjanusz-r7"
+	],
+	"description": "This module performs login attempts against a JetBrains TeamCity webpage to bruteforce possible credentials.",
+	"rport": 8111,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-11-04 16:58:32 +0000",
+	"path": "/modules/auxiliary/scanner/teamcity/teamcity_login.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/teamcity/teamcity_login",
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs",
+			"account-lockouts"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
