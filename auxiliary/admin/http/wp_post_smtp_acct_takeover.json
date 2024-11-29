@@ -1,0 +1,47 @@
+{
+	"name": "Wordpress POST SMTP Account Takeover",
+	"fullname": "auxiliary/admin/http/wp_post_smtp_acct_takeover",
+	"rank": 300,
+	"disclosure_date": "2024-01-10",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"Ulysses Saicha"
+	],
+	"description": "The POST SMTP WordPress plugin prior to 2.8.7 is affected by a privilege\n          escalation where an unauthenticated user is able to reset the password\n          of an arbitrary user. This is done by requesting a password reset, then\n          viewing the latest email logs to find the associated password reset email.",
+	"references": [
+		"CVE-2023-6875",
+		"URL-https://github.com/UlyssesSaicha/CVE-2023-6875/tree/main"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-11-28 13:18:47 +0000",
+	"path": "/modules/auxiliary/admin/http/wp_post_smtp_acct_takeover.rb",
+	"is_install_path": true,
+	"ref_name": "admin/http/wp_post_smtp_acct_takeover",
+	"check": true,
+	"post_auth": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
