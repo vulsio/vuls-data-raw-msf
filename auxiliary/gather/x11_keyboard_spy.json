@@ -1,0 +1,34 @@
+{
+	"name": "X11 Keylogger",
+	"fullname": "auxiliary/gather/x11_keyboard_spy",
+	"rank": 300,
+	"disclosure_date": "1997-07-01",
+	"type": "auxiliary",
+	"author": [
+		"h00die",
+		"nir tzachar"
+	],
+	"description": "This module binds to an open X11 host to log keystrokes. This is a fairly\n          close copy of the old xspy c program which has been on Kali for a long time.\n          The module works by connecting to the X11 session, creating a background\n          window, binding a keyboard to it and creating a notification alert when a key\n          is pressed.\n\n          One of the major limitations of xspy, and thus this module, is that it polls\n          at a very fast rate, faster than a key being pressed is released (especially before\n          the repeat delay is hit). To combat printing multiple characters for a single key\n          press, repeat characters arent printed when typed in a very fast manor. This is also\n          an imperfect keylogger in that keystrokes arent stored and forwarded but status\n          displayed at poll time. Keys may be repeated or missing.",
+	"references": [
+		"URL-https://www.kali.org/tools/xspy/",
+		"CVE-1999-0526"
+	],
+	"rport": 6000,
+	"mod_time": "2024-11-27 14:29:44 +0000",
+	"path": "/modules/auxiliary/gather/x11_keyboard_spy.rb",
+	"is_install_path": true,
+	"ref_name": "gather/x11_keyboard_spy",
+	"check": true,
+	"notes": {
+		"AKA": [
+			"xspy"
+		],
+		"RelatedModules": [
+			"auxiliary/scanner/x11/open_x11"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
