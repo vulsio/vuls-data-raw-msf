@@ -9,7 +9,7 @@
 	"description": "Performs a TXT query against a series of DNS record(s) and executes the returned payload",
 	"platform": "Windows",
 	"arch": "x86",
-	"mod_time": "2024-01-07 14:06:31 +0000",
+	"mod_time": "2024-11-26 11:49:56 +0000",
 	"path": "/modules/payloads/singles/windows/dns_txt_query_exec.rb",
 	"is_install_path": true,
 	"ref_name": "windows/dns_txt_query_exec",

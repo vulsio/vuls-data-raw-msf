@@ -18,7 +18,7 @@
 	],
 	"platform": "Windows",
 	"arch": "x86",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2024-12-06 09:15:36 +0000",
 	"path": "/modules/payloads/stagers/windows/reverse_https_proxy.rb",
 	"is_install_path": true,
 	"ref_name": "windows/meterpreter/reverse_https_proxy",

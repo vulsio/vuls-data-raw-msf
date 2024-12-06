@@ -10,7 +10,7 @@
 	"description": "Spawns a dialog via MessageBox using a customizable title, text & icon",
 	"platform": "Windows",
 	"arch": "x86",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2024-11-28 06:39:07 +0000",
 	"path": "/modules/payloads/singles/windows/messagebox.rb",
 	"is_install_path": true,
 	"ref_name": "windows/messagebox",
