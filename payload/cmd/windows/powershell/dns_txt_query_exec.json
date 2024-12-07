@@ -7,7 +7,7 @@
 		"Spencer McIntyre",
 		"corelanc0d3r <peter.ve@corelan.be>"
 	],
-	"description": "Execute an x86 payload from a command via PowerShell.\n\nPerforms a TXT query against a series of DNS record(s) and executes the returned payload",
+	"description": "Execute an x86 payload from a command via PowerShell.\n\nPerforms a TXT query against a series of DNS record(s) and executes the returned x86 shellcode. The DNSZONE\noption is used as the base name to iterate over. The payload will first request the TXT contents of the a\nhostname, followed by b, then c, etc. until there are no more records. For each record that is returned, exactly\n255 bytes from it are copied into a buffer that is eventually executed. This buffer should be encoded using\nx86/alpha_mixed with the BufferRegister option set to EDI.",
 	"platform": "Windows",
 	"arch": "cmd",
 	"mod_time": "2022-05-27 16:41:25 +0000",
