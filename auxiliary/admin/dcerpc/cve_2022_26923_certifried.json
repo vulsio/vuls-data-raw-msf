@@ -24,7 +24,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-04-26 12:33:43 +0000",
+	"mod_time": "2024-11-12 12:08:18 +0000",
 	"path": "/modules/auxiliary/admin/dcerpc/cve_2022_26923_certifried.rb",
 	"is_install_path": true,
 	"ref_name": "admin/dcerpc/cve_2022_26923_certifried",

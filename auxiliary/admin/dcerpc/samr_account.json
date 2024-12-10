@@ -1,0 +1,44 @@
+{
+	"name": "SAMR Account Management",
+	"fullname": "auxiliary/admin/dcerpc/samr_account",
+	"aliases": [
+		"auxiliary/admin/dcerpc/samr_computer"
+	],
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"JaGoTu",
+		"Spencer McIntyre",
+		"smashery"
+	],
+	"description": "Add, lookup and delete user / machine accounts via MS-SAMR. By default\n          standard active directory users can add up to 10 new computers to the\n          domain (MachineAccountQuota). Administrative privileges however are required\n          to delete the created accounts, or to create/delete user accounts.",
+	"references": [
+		"URL-https://github.com/SecureAuthCorp/impacket/blob/master/examples/addcomputer.py"
+	],
+	"rport": 445,
+	"autofilter_ports": [
+		139,
+		445
+	],
+	"autofilter_services": [
+		"netbios-ssn",
+		"microsoft-ds"
+	],
+	"mod_time": "2024-12-09 08:49:04 +0000",
+	"path": "/modules/auxiliary/admin/dcerpc/samr_account.rb",
+	"is_install_path": true,
+	"ref_name": "admin/dcerpc/samr_account",
+	"notes": {
+		"AKA": [
+			"samr_computer",
+			"samr_user"
+		],
+		"SideEffects": [
+			"ioc-in-logs"
+		]
+	},
+	"session_types": [
+		"smb"
+	],
+	"needs_cleanup": false
+}

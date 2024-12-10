@@ -1,0 +1,46 @@
+{
+	"name": "WordPress Plugin Perfect Survey 1.5.1 SQLi (Unauthenticated)",
+	"fullname": "auxiliary/scanner/http/wp_perfect_survey_sqli",
+	"rank": 300,
+	"disclosure_date": "2021-10-05",
+	"type": "auxiliary",
+	"author": [
+		"Aaryan Golatkar",
+		"Ron Jost"
+	],
+	"description": "This module exploits a SQL injection vulnerability in the Perfect Survey\n          plugin for WordPress (version 1.5.1). An unauthenticated attacker can\n          exploit the SQLi to retrieve sensitive information such as usernames,\n          emails, and password hashes from the `wp_users` table.",
+	"references": [
+		"EDB-50766",
+		"CVE-2021-24762"
+	],
+	"rport": 80,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2024-12-10 14:48:18 +0000",
+	"path": "/modules/auxiliary/scanner/http/wp_perfect_survey_sqli.rb",
+	"is_install_path": true,
+	"ref_name": "scanner/http/wp_perfect_survey_sqli",
+	"check": true,
+	"notes": {
+		"SideEffects": [
+			"ioc-in-logs"
+		],
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
