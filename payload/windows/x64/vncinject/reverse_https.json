@@ -16,7 +16,7 @@
 	],
 	"platform": "Windows",
 	"arch": "x64",
-	"mod_time": "2020-09-22 02:56:51 +0000",
+	"mod_time": "2024-12-16 12:48:57 +0000",
 	"path": "/modules/payloads/stagers/windows/x64/reverse_https.rb",
 	"is_install_path": true,
 	"ref_name": "windows/x64/vncinject/reverse_https",
