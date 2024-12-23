@@ -16,7 +16,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-05-13 12:01:54 +0000",
+	"mod_time": "2024-12-16 14:55:10 +0000",
 	"path": "/modules/auxiliary/admin/registry_security_descriptor.rb",
 	"is_install_path": true,
 	"ref_name": "admin/registry_security_descriptor",

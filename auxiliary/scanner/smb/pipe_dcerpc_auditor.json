@@ -16,7 +16,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-10-13 13:38:05 +0000",
+	"mod_time": "2024-12-16 14:55:10 +0000",
 	"path": "/modules/auxiliary/scanner/smb/pipe_dcerpc_auditor.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/smb/pipe_dcerpc_auditor",

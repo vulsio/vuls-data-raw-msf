@@ -23,7 +23,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2024-10-22 14:41:02 +0000",
+	"mod_time": "2024-12-16 14:55:10 +0000",
 	"path": "/modules/auxiliary/admin/dcerpc/icpr_cert.rb",
 	"is_install_path": true,
 	"ref_name": "admin/dcerpc/icpr_cert",
