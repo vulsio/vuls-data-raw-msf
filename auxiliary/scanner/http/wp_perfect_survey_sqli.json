@@ -29,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2024-12-10 14:48:18 +0000",
+	"mod_time": "2024-12-29 17:25:12 +0000",
 	"path": "/modules/auxiliary/scanner/http/wp_perfect_survey_sqli.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/wp_perfect_survey_sqli",

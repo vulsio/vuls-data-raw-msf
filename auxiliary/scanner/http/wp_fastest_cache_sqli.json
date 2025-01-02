@@ -30,7 +30,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2024-10-14 11:14:47 +0000",
+	"mod_time": "2024-12-29 17:25:12 +0000",
 	"path": "/modules/auxiliary/scanner/http/wp_fastest_cache_sqli.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/http/wp_fastest_cache_sqli",
