@@ -14,8 +14,7 @@
 		"URL-https://support.ntp.org/bin/view/Main/NtpBug2941",
 		"CVE-2015-7871"
 	],
-	"rport": 123,
-	"mod_time": "2022-01-23 15:28:32 +0000",
+	"mod_time": "2024-12-13 13:36:14 +0000",
 	"path": "/modules/auxiliary/scanner/ntp/ntp_nak_to_the_future.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/ntp/ntp_nak_to_the_future",
