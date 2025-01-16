@@ -9,7 +9,8 @@
 	],
 	"description": "This module utilizes Prometheus' API calls to gather information about\n          the server's configuration, and targets. Fields which may contain\n          credentials, or credential file names are then pulled out and printed.\n\n          Targets may have a wealth of information, this module will print the following\n          values when found:\n          __meta_gce_metadata_ssh_keys, __meta_gce_metadata_startup_script,\n          __meta_gce_metadata_kube_env, kubernetes_sd_configs,\n          _meta_kubernetes_pod_annotation_kubectl_kubernetes_io_last_applied_configuration,\n          __meta_ec2_tag_CreatedBy, __meta_ec2_tag_OwnedBy\n\n          Shodan search: \"http.favicon.hash:-1399433489\"",
 	"references": [
-		"URL-https://jfrog.com/blog/dont-let-prometheus-steal-your-fire/"
+		"URL-https://jfrog.com/blog/dont-let-prometheus-steal-your-fire/",
+		"URL-https://www.aquasec.com/blog/300000-prometheus-servers-and-exporters-exposed-to-dos-attacks/"
 	],
 	"rport": 9090,
 	"autofilter_ports": [
@@ -27,7 +28,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2023-08-15 18:04:59 +0000",
+	"mod_time": "2025-01-15 17:54:20 +0000",
 	"path": "/modules/auxiliary/gather/prometheus_api_gather.rb",
 	"is_install_path": true,
 	"ref_name": "gather/prometheus_api_gather",

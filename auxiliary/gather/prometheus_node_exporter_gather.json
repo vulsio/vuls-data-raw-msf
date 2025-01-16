@@ -10,7 +10,8 @@
 	"description": "This modules connects to a Prometheus Node Exporter or Windows Exporter service\n          and gathers information about the host.\n\n          Tested against Docker image 1.6.1, Linux 1.6.1, and Windows 0.23.1",
 	"references": [
 		"URL-https://github.com/prometheus/node_exporter",
-		"URL-https://sysdig.com/blog/exposed-prometheus-exploit-kubernetes-kubeconeu/"
+		"URL-https://sysdig.com/blog/exposed-prometheus-exploit-kubernetes-kubeconeu/",
+		"URL-https://www.aquasec.com/blog/300000-prometheus-servers-and-exporters-exposed-to-dos-attacks/"
 	],
 	"rport": 9100,
 	"autofilter_ports": [
@@ -28,7 +29,7 @@
 		"http",
 		"https"
 	],
-	"mod_time": "2024-07-24 16:42:43 +0000",
+	"mod_time": "2025-01-15 17:54:20 +0000",
 	"path": "/modules/auxiliary/gather/prometheus_node_exporter_gather.rb",
 	"is_install_path": true,
 	"ref_name": "gather/prometheus_node_exporter_gather",
