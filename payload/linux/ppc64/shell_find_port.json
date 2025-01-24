@@ -9,7 +9,7 @@
 	"description": "Spawn a shell on an established connection",
 	"platform": "Linux",
 	"arch": "ppc64, cbea64",
-	"mod_time": "2021-01-05 14:59:46 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/ppc64/shell_find_port.rb",
 	"is_install_path": true,
 	"ref_name": "linux/ppc64/shell_find_port",

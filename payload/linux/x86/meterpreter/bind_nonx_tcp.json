@@ -10,7 +10,7 @@
 	"description": "Inject the mettle server payload (staged).\n\nListen for a connection",
 	"platform": "Linux,Linux",
 	"arch": "x86",
-	"mod_time": "2020-09-22 02:56:51 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/stagers/linux/x86/bind_nonx_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/x86/meterpreter/bind_nonx_tcp",

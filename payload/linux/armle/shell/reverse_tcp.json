@@ -10,7 +10,7 @@
 	"description": "dup2 socket in r12, then execve.\n\nConnect back to the attacker",
 	"platform": "Linux",
 	"arch": "armle",
-	"mod_time": "2024-12-18 07:26:37 +0000",
+	"mod_time": "2025-01-23 14:26:44 +0000",
 	"path": "/modules/payloads/stagers/linux/armle/reverse_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/armle/shell/reverse_tcp",

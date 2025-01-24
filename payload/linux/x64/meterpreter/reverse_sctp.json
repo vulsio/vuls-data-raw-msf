@@ -10,7 +10,7 @@
 	"description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker",
 	"platform": "Linux,Linux",
 	"arch": "x64",
-	"mod_time": "2023-04-27 16:21:34 +0000",
+	"mod_time": "2024-12-20 04:15:41 +0000",
 	"path": "/modules/payloads/stagers/linux/x64/reverse_sctp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/x64/meterpreter/reverse_sctp",

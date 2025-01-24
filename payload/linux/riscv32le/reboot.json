@@ -9,7 +9,7 @@
 	"description": "A very small shellcode for rebooting the system using\n          the reboot syscall. This payload is sometimes helpful\n          for testing purposes.",
 	"platform": "Linux",
 	"arch": "riscv32le",
-	"mod_time": "2024-10-01 02:43:44 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/riscv32le/reboot.rb",
 	"is_install_path": true,
 	"ref_name": "linux/riscv32le/reboot",

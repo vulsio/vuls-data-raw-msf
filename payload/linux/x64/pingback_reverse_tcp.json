@@ -9,7 +9,7 @@
 	"description": "Connect back to attacker and report UUID (Linux x64)",
 	"platform": "Linux",
 	"arch": "x64",
-	"mod_time": "2022-09-22 12:55:41 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/x64/pingback_reverse_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/x64/pingback_reverse_tcp",

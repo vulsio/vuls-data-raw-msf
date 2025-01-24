@@ -9,7 +9,7 @@
 	"description": "Create a new user with UID 0",
 	"platform": "Linux",
 	"arch": "armle",
-	"mod_time": "2022-09-22 12:55:41 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/armle/adduser.rb",
 	"is_install_path": true,
 	"ref_name": "linux/armle/adduser",

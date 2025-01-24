@@ -13,7 +13,7 @@
 	],
 	"platform": "Linux",
 	"arch": "mipsbe",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/mipsbe/reboot.rb",
 	"is_install_path": true,
 	"ref_name": "linux/mipsbe/reboot",

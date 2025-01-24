@@ -9,7 +9,7 @@
 	"description": "Execute an arbitrary command",
 	"platform": "Linux",
 	"arch": "armle",
-	"mod_time": "2022-09-22 12:55:41 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/armle/exec.rb",
 	"is_install_path": true,
 	"ref_name": "linux/armle/exec",

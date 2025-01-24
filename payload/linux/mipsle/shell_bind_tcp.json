@@ -12,7 +12,7 @@
 	"description": "Listen for a connection and spawn a command shell",
 	"platform": "Linux",
 	"arch": "mipsle",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/linux/mipsle/shell_bind_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/mipsle/shell_bind_tcp",

@@ -6,7 +6,7 @@
 	"description": "Connect back to attacker and spawn a command shell",
 	"platform": "Apple_iOS",
 	"arch": "aarch64",
-	"mod_time": "2022-11-04 00:33:03 +0000",
+	"mod_time": "2025-01-14 09:31:03 +0000",
 	"path": "/modules/payloads/singles/apple_ios/aarch64/shell_reverse_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "apple_ios/aarch64/shell_reverse_tcp",

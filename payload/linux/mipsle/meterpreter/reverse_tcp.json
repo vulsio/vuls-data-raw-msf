@@ -11,7 +11,7 @@
 	"description": "Inject the mettle server payload (staged).\n\nConnect back to the attacker",
 	"platform": "Linux",
 	"arch": "mipsle",
-	"mod_time": "2020-09-22 02:56:51 +0000",
+	"mod_time": "2025-01-15 04:31:53 +0000",
 	"path": "/modules/payloads/stagers/linux/mipsle/reverse_tcp.rb",
 	"is_install_path": true,
 	"ref_name": "linux/mipsle/meterpreter/reverse_tcp",
