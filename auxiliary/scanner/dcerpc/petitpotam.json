@@ -22,7 +22,7 @@
 		"netbios-ssn",
 		"microsoft-ds"
 	],
-	"mod_time": "2023-12-15 13:40:55 +0000",
+	"mod_time": "2025-01-27 08:35:00 +0000",
 	"path": "/modules/auxiliary/scanner/dcerpc/petitpotam.rb",
 	"is_install_path": true,
 	"ref_name": "scanner/dcerpc/petitpotam",
