@@ -1,0 +1,42 @@
+{
+	"name": "Argus Surveillance DVR 4.0.0.0 - Directory Traversal",
+	"fullname": "auxiliary/gather/argus_dvr_4_lfi_cve_2018_15745",
+	"rank": 300,
+	"type": "auxiliary",
+	"author": [
+		"Maxwell Francis",
+		"John Page"
+	],
+	"description": "This module leverages an unauthenticated arbitrary file read for\n          the Argus Surveillance 4.0.0.0 system which never saw an update since.\n          As this is a Windows related application we recommend looking for common\n          Windows file locations, especially C:\\ProgramData\\PY_Software\\Argus Surveillance DVR\\DVRParams.ini\n          which houses another vulnerability in the Argus Surveillance system. This directory traversal vuln\n          is being tracked as CVE-2018-15745",
+	"references": [
+		"URL-https://argus-surveillance-dvr.soft112.com/#google_vignette",
+		"EDB-45296",
+		"CVE-2018-15745"
+	],
+	"rport": 8080,
+	"autofilter_ports": [
+		80,
+		8080,
+		443,
+		8000,
+		8888,
+		8880,
+		8008,
+		3000,
+		8443
+	],
+	"autofilter_services": [
+		"http",
+		"https"
+	],
+	"mod_time": "2025-01-31 12:49:35 +0000",
+	"path": "/modules/auxiliary/gather/argus_dvr_4_lfi_cve_2018_15745.rb",
+	"is_install_path": true,
+	"ref_name": "gather/argus_dvr_4_lfi_cve_2018_15745",
+	"notes": {
+		"Stability": [
+			"crash-safe"
+		]
+	},
+	"needs_cleanup": false
+}
